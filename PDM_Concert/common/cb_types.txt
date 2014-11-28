@@ -570,6 +570,12 @@ restore_austrian_empire = {
 				NOT = { has_country_flag = austria_let_hungary_go }
 			}
 		}
+		OR = {
+			NOT = { tag = PLC }
+			THIS = {
+				NOT = { has_country_flag = partitions_are_revoked }
+			}
+		}
 		NOT = { has_country_modifier = neutrality }
 		NOT = { in_sphere = THIS }
 		THIS = {

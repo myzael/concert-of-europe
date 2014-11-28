@@ -1,0 +1,567 @@
+#Basically, for this I'd planned to have a decision that specifically the Polish-Lithuanian Commonwealth can take when it's a Great Power. It fires a "Revocation of the Partitions" major event, which in turn sends an event to each of the Great Powers with two options: to support Polish independence, or to maintain the partitions. Germany, Austria, and Russia will almost never support independence, except Austria will, if it's a democracy. The USA is generally inclined to support independence, while Britain can go either way, depending on its relations with Germany or Russia. Italy will also support independence if Austria still owns any of its cores, but otherwise is similar to Britain. France, at least, will almost always support independence, unless it's in the weird case of being allied to Germany somehow. Any country allied to the PLC will support independence, as well.
+#
+#However, since the PLC itself doesn't get a vote in the conference even if it's a Great Power, the deck's generally stacked against the revocation of the partitions - after all, you've got three almost guaranteed "No" votes, with only one more needed to prevent independence completely. This makes the political situation of the revocations interesting, because as the PLC, you have to really examine your geopolitical situation: you could choose to make Austria weak and collapse, removing it from the opposition, but opening up the Balkans for further Russian influence. You could weaken the Russians themselves, but a weak Russia would inspire Byelorussian and Ukrainian/Ruthenian ideas of self-governance, serious threats to the territorial integrity of the Commonwealth. The Ottomans, too, might not support the revocation of the partitions; they have a less-than-friendly history with the Polish, and even if you propped them up and helped them continue to be a Great Power, they might see this as an opportunity to keep you weak: better the enemy you know - Russia - than the friend you don't - the newly-revived Polish state.
+#
+#I meant to include all this way back when, but I ended up doing everything except for the Revocation of the Partitions, since it's just so complex. I'll probably revisit it later with all the attention it deserves; I'm planning on adding a general "Conference" event chain for countries seeking full independence, in the case of all their cores being cores of another, larger nation. This is something I feel should have been addressed with the crisis system of HoD, but unfortunately wasn't; if, say, the Great Powers deem that Andalusia should be an independent state, then as it is now, Spain will just march in a decade later and reconquer those territories - it's kind of silly.
+
+
+#########################################################
+#														#
+#      			Revokation of Partitions				#
+#														#
+#########################################################
+
+country_event = {
+	id = 1
+	title = "EVTNAME1" #The Partition Question
+	desc = "EVTDESC1"
+	picture = "greatpowers"
+
+	trigger = {
+		is_greater_power = yes
+		#capital_scope = { continent = europe }
+		NOT = {
+			#Not PLC itself
+			tag = PLC
+			#None of the partitioners
+			tag = PRU
+			tag = NGF
+			tag = GER
+			tag = RUS
+			tag = AUS
+			tag = KUK
+			tag = DNB
+			has_global_flag = partition_revokation_conference_held
+			has_global_flag = partition_revokation_conference_in_progress
+			has_country_flag = will_not_hold_partition_revokation_conference
+			has_country_modifier = neutrality
+		}
+		PLC = { exists = yes }
+		has_global_flag = raised_partition_revokation
+	}
+
+	mean_time_to_happen = {
+		days = 28
+		modifier = {
+			factor = 0.5
+			ai = no
+		}
+	}
+
+	option = {
+		name = "We will host the conference."
+		prestige = 5
+		set_global_flag = partition_revokation_conference_in_progress
+		set_country_flag = hosting_partition_revokation_conference
+		PLC = {
+			set_variable = {
+				which = partition_revokation_conference_revoke
+				value = 0
+			}
+			set_variable = {
+				which = partition_revokation_conference_uphold
+				value = 0
+			}
+		}
+		any_country = {
+			limit = {
+				OR = {
+					AND = {
+						is_greater_power = yes
+						capital_scope = { continent = europe }
+					}
+				}
+			}
+			country_event = 2
+		}
+		THIS = { country_event = 2 }
+		ai_chance = {
+			factor = 50
+		}
+	}
+
+	option = {
+		name = "This is unnecessary."
+		set_country_flag = will_not_hold_partition_revokation_conference
+		prestige = -2
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				tag = ENG
+			}			
+		}
+	}
+}
+
+country_event = {
+	id = 2
+	title = "EVTNAME2" #Goals for the conference
+	desc = "EVTDESC2"
+	picture = "administration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "The partitions were unlawful and shameful acts and must be revoked."
+		prestige = 2
+		set_country_flag = attending_partition_revokation_conference
+		set_country_flag = supporting_partition_revokation
+		PLC = {
+			change_variable = {
+				which = partition_revokation_conference_revoke
+				value = 1
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					tag = PRU
+					tag = NGF
+					tag = GER
+					tag = RUS
+				}
+			}
+			modifier = {
+				factor = 0.8
+				NOT = { relation = { who = PLC value = -50 } }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { relation = { who = PLC value = -100 } }
+			}
+			modifier = {
+				factor = 0.5
+				truce_with = PLC
+			}
+			modifier = {
+				factor = 0
+				war_with = PLC
+			}
+			modifier = {
+				factor = 1.25
+				relation = { who = PLC value = 50 }
+			}
+			modifier = {
+				factor = 2
+				relation = { who = PLC value = 100 }
+			}
+			modifier = {
+				factor = 2
+				alliance_with = PLC
+			}
+			modifier = {
+				factor = 2
+				tag = FRA
+			}
+			modifier = {
+				factor = 1.25
+				OR = {
+					tag = TUR
+					tag = USA
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "They had it coming"
+		prestige = 2
+		set_country_flag = attending_partition_revokation_conference
+		set_country_flag = declining_partition_revokation
+		PLC = {
+			change_variable = {
+				which = partition_revokation_conference_uphold
+				value = 1
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					tag = FRA
+				}
+			}
+			modifier = {
+				factor = 0.5
+				tag = USA
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					tag = AUS
+					tag = KUK
+					tag = DNB
+				}
+				OR = {
+					government = democracy
+					AND = {
+						government = hms_government
+						ruling_party = liberal
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					tag = PRU
+					tag = NGF
+					tag = GER
+					tag = RUS
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 3
+	title = "EVTNAME3" #Partitions revoked
+	desc = "EVTDESC3"	
+	picture = "greatpowers"
+
+	trigger = {
+		has_country_flag = hosting_partition_revokation_conference
+		has_country_flag = attending_partition_revokation_conference
+		PLC = {
+			check_variable = {
+				which = partition_revokation_conference_revoke
+				value = 4
+			}
+		}
+		NOT = { has_global_flag = partition_revokation_conference_held }
+	}
+	major = yes
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	option = {
+		name = "This is how it must be."
+		clr_global_flag = partition_revokation_conference_in_progress
+		set_global_flag = partition_revokation_conference_held
+		prestige = 2
+		PLC = { country_event = 8 }
+	}
+}
+
+country_event = {
+	id = 4
+	title = "EVTNAME4" #Partitions upheld
+	desc = "EVTDESC4"	
+	picture = "greatpowers"
+
+	trigger = {
+		has_country_flag = hosting_partition_revokation_conference
+		has_country_flag = attending_partition_revokation_conference
+		PLC = {
+			check_variable = {
+				which = partition_revokation_conference_uphold
+				value = 4
+			}
+		}
+		NOT = { has_global_flag = partition_revokation_conference_held }
+	}
+	major = yes
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	option = {
+		name = "This is how it must be."
+		clr_global_flag = partition_revokation_conference_in_progress
+		set_global_flag = partition_revokation_conference_held
+		prestige = 2
+		PLC = { country_event = 8 }
+	}
+}
+
+country_event = {
+	id = 8
+	title = "EVTNAME8" #Decision of the conference (Partitions revoked)
+	desc = "EVTDESC8"
+	picture = "administration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Long live $COUNTRY$."
+		clr_country_flag = attending_partition_revokation_conference
+		#Posen
+		PRU_701 = {
+			remove_core = PRU
+			remove_core = GER
+			remove_core = NGF
+		}
+		#Westpreußen
+		PRU_690 = {
+			remove_core = PRU
+			remove_core = GER
+			remove_core = NGF
+		}
+		#Prussian Lower Silesia
+		684 = {
+			remove_core = PRU
+			remove_core = GER
+			remove_core = NGF
+		}
+		685 = {
+			remove_core = PRU
+			remove_core = GER
+			remove_core = NGF
+		}
+		#Austrian Lower Silesia
+		689 = {
+			remove_core = AUS
+			remove_core = KUK
+			remove_core = DNB
+		}
+		2584 = {
+			remove_core = AUS
+			remove_core = KUK
+			remove_core = DNB
+		}
+		AUS = { set_country_flag = partitions_are_revoked }
+		KUK = { set_country_flag = partitions_are_revoked }
+		DNB = { set_country_flag = partitions_are_revoked }
+		RUS_357 = { #Courland
+			remove_core = RUS
+		}
+		RUS_360 = { #Lithuania
+			remove_core = RUS
+		}
+		RUS_361 = { #Vilnius
+			remove_core = RUS
+		}
+		RUS_707 = { #Suwalki
+			remove_core = RUS
+		}
+		RUS_706 = { #Masovia
+			remove_core = RUS
+		}
+		RUS_715 = { #West Galicia
+			remove_core = RUS
+		}
+		RUS_936 = { #Grodno/Bręst
+			remove_core = RUS
+		}
+		RUS_718 = { #Minsk
+			remove_core = RUS
+		}
+		RUS_947 = { #Orsha
+			remove_core = RUS
+		}
+		RUS_955 = { #Podillia
+			remove_core = RUS
+		}
+		RUS_956 = { #Volhynia
+			remove_core = RUS
+		}
+		RUS_958 = { #Kiev
+			remove_core = RUS
+		}
+		
+		# Send acknowledgement to attending countries
+		any_country = {
+			limit = { has_country_flag = attending_partition_revokation_conference }
+			country_event = 10
+		}
+
+		ai_chance = {
+			factor = 90
+		}
+	}
+}
+
+country_event = {
+	id = 9
+	title = "EVTNAME9" #Decision of the conference (Partitions upheld)
+	desc = "EVTDESC9"
+	picture = "administration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We must accept their decision."
+		clr_country_flag = attending_partition_revokation_conference
+		prestige = -10
+
+		# Send acknowledgement to attending countries
+		any_greater_power = {
+			limit = { has_country_flag = attending_london_conference_1830 }
+			country_event = 11
+		}
+
+		# People Upset
+		any_pop = {
+			limit = { 
+				is_primary_culture = yes
+			}
+			militancy = 4
+		}
+		any_pop = {
+			limit = { 
+				is_accepted_culture = yes
+			}
+			militancy = 2
+		}
+
+		ai_chance = {
+			factor = 40
+		}
+	}
+
+	option = {
+		name = "We refuse! $COUNTRY$ will not be ordered about!"
+		clr_country_flag = attending_partition_revokation_conference
+		prestige = 2
+		badboy = 15
+		
+		# Send refusal to attending countries
+		any_greater_power = {
+			limit = { has_country_flag = attending_london_conference_1830 }
+			country_event = 12
+		}
+		
+		set_country_flag = revoke_partitions_by_force
+		
+		any_country = {
+			limit = {
+				tag = PRU
+				tag = NGF
+				tag = GER
+				tag = RUS
+				tag = AUS
+				tag = KUK
+				tag = DNB
+			}
+			casus_belli = {
+				target = PLC
+				type = cut_down_to_size
+				months = 12
+			}
+		}
+
+		# Military Pleased
+		soldiers = {
+			limit = { is_primary_culture = yes }
+			militancy = -3
+			consciousness = -3
+		}
+		officers = {
+			limit = { is_primary_culture = yes }
+			militancy = -3
+			consciousness = -3
+		}
+		ai_chance = {
+			factor = 60
+		}
+	}
+}
+
+country_event = {
+	id = 10
+	title = "EVTNAME10" #partitions revoked
+	desc = "EVTDESC10"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Glad to hear it."		
+
+		
+		#Everyone who supported revokation gains prestige, relations & influence with PLC
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = partition_revokation_conference_revoke }
+			}
+			owner = {
+				prestige = 5
+				diplomatic_influence = { who = PLC value = 50 }
+				relation = { who = PLC value = 100 }
+			}
+		}
+		clr_country_flag = hosting_partition_revokation_conference
+		clr_country_flag = attending_partition_revokation_conference
+		clr_country_flag = partition_revokation_conference_revoke
+		clr_country_flag = partition_revokation_conference_uphold
+	}
+}
+
+country_event = {
+	id = 11
+	title = "EVTNAME11" #PLC Agrees (partitions upheld)
+	desc = "EVTDESC11"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Glad to hear it."		
+		#All countries gain some prestige
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = attending_partition_revokation_conference }
+			}
+			owner = { prestige = 2 }
+		}
+		
+		#Everyone who supported partitions gains prestige and loses relations & influence with PLC
+		random_owned = {
+			limit = {
+				owner = { has_country_flag = partition_revokation_conference_uphold }
+			}
+			owner = {
+				prestige = 5
+				diplomatic_influence = { who = PLC value = -50 }
+				relation = { who = PLC value = -50 }
+			}
+		}
+		clr_country_flag = hosting_partition_revokation_conference
+		clr_country_flag = attending_partition_revokation_conference
+		clr_country_flag = partition_revokation_conference_revoke
+		clr_country_flag = partition_revokation_conference_uphold
+	}
+}
+
+country_event = {
+	id = 12
+	title = "EVTNAME12" #PLC refuses (partitions upheld)
+	desc = "EVTDESC12"
+	picture = "greatpowers"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Ridiculous! Let them sort it out, then."
+		clr_country_flag = hosting_partition_revokation_conference
+		clr_country_flag = attending_partition_revokation_conference
+		clr_country_flag = partition_revokation_conference_revoke
+		clr_country_flag = partition_revokation_conference_uphold
+		relation = { who = PLC value = -50 }
+		diplomatic_influence = { who = PLC value = -50 }
+		leave_alliance = PLC
+		ai_chance = {
+			factor = 99
+			modifier = {
+				factor = 0
+				has_country_flag = partition_revokation_conference_revoke
+			}
+		}
+	}
+	
+	option = {
+		name = "We wish them well."
+		clr_country_flag = hosting_partition_revokation_conference
+		clr_country_flag = attending_partition_revokation_conference
+		clr_country_flag = partition_revokation_conference_revoke
+		clr_country_flag = partition_revokation_conference_uphold
+		ai_chance = { factor = 1 }
+	}
+}

@@ -610,6 +610,30 @@ political_decisions = {
 		}
 	}
 	
+	partition_revokation_conference = {
+		picture = become_poland_lithuania
+		potential = {
+			tag = PLC
+			nationalism_n_imperialism = 1
+		}
+		
+		allow = {
+			war = no
+			is_greater_power = yes
+			all_core = { owned_by = THIS }
+			NOT = { has_global_flag = raised_partition_revokation }
+		}
+		
+		effect = {
+			set_global_flag = raised_partition_revokation
+			prestige = 5
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	stop_poland_lithuania = {
 		picture = become_poland_lithuania
 		alert = no

@@ -2361,6 +2361,14 @@ french_cultural_unity = {
 	icon = 19
 }
 
+### Polish Events ###
+polish_ken = {
+	assimilation_rate = 0.25
+	education_efficiency_modifier = 0.25
+	icon = 19
+}
+
+
 ### Confederate Events ###
 atlantic_slave_trade = {
 	rgo_throughput = 0.1

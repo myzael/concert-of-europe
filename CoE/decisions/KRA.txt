@@ -332,6 +332,10 @@ political_decisions = {
 			any_pop = {
 				consciousness = 1
 			}
+			add_country_modifier = {
+				name = polish_ken
+				duration = -1
+			}
 		}
 
 		ai_will_do = {

@@ -97,25 +97,25 @@ reclaim_armenia = {
 	effect = {
 		prestige = 10.5
 		badboy = 9
-		893 = { 
+		TUR_893 = { 
 			add_province_modifier = {
 				name = aim_of_byzantine_conquest
 				duration = -1
 			}
 		}
-		890 = { 
+		TUR_890 = { 
 			add_province_modifier = {
 				name = aim_of_byzantine_conquest
 				duration = -1
 			}
 		}
-		885 = { 
+		TUR_885 = { 
 			add_province_modifier = {
 				name = aim_of_byzantine_conquest
 				duration = -1
 			}
 		}
-		1098 = { 
+		RUS_1098 = { 
 			add_province_modifier = {
 				name = aim_of_byzantine_conquest
 				duration = -1
@@ -533,18 +533,28 @@ reclaim_south_illyria = {
 	effect = {
 		prestige = 10.5
 		badboy = 9
-		any_country = {
-			any_owned = {
-				limit = {
-					TUR_803 = { owned_by = THIS }
-					SER_794 = { owned_by = THIS }
-					TUR_853 = { owned_by = THIS }
-					MON_2582 = { owned_by = THIS }
-				}
-				add_province_modifier = {
-					name = aim_of_byzantine_conquest
-					duration = -1
-				}
+		TUR_803 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		SER_794 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		TUR_853 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		MON_2582 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
 			}
 		}
 		set_country_flag = march_for_illyria
@@ -595,42 +605,40 @@ reclaim_north_illyria = {
 	effect = {
 		prestige = 15.75
 		badboy = 20
-		state_scope = {
-			TUR_788 = { 
-				add_province_modifier = {
-					name = aim_of_byzantine_conquest
-					duration = -1
-				}
+		TUR_788 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
 			}
-			AUS_780 = { 
-				add_province_modifier = {
-					name = aim_of_byzantine_conquest
-					duration = -1
-				}
+		}
+		AUS_780 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
 			}
-			AUS_2538 = { 
-				add_province_modifier = {
-					name = aim_of_byzantine_conquest
-					duration = -1
-				}
+		}
+		AUS_2538 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
 			}
-			AUS_777 = { 
-				add_province_modifier = {
-					name = aim_of_byzantine_conquest
-					duration = -1
-				}
+		}
+		AUS_777 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
 			}
-			AUS_771 = { 
-				add_province_modifier = {
-					name = aim_of_byzantine_conquest
-					duration = -1
-				}
+		}
+		AUS_771 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
 			}
-			AUS_768 = { 
-				add_province_modifier = {
-					name = aim_of_byzantine_conquest
-					duration = -1
-				}
+		}
+		AUS_768 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
 			}
 		}
 		set_country_flag = illyria_is_ours
@@ -658,6 +666,40 @@ reclaim_north_illyria = {
 		DLM = {
 				relation = { who = THIS value = -200 }
 			}
+	}
+}
+
+accept_armenians = {
+	potential = {
+		primary_culture = greek
+		OR = {
+			tag = BYZ
+			tag = GRE
+		}
+		NOT = { has_country_flag = accepted_armenians }
+	}
+	allow = {
+		war = no
+		is_disarmed = no
+		OR = {
+			government = prussian_constitutionalism
+			government = hms_government
+			government = democracy
+		}
+		all_core = { owned_by = THIS }
+		TUR_893 = { owned_by = THIS }
+		TUR_890 = { owned_by = THIS }
+		TUR_885 = { owned_by = THIS }
+		nationalism_n_imperialism = 1
+		
+	}
+	effect = {
+		set_country_flag = accepted_armenians
+		add_accepted_culture = armenian
+		any_pop = {
+			limit = { has_pop_culture = armenian }
+			militancy = -3
+		}
 	}
 }
 
@@ -1373,72 +1415,4 @@ byzantine_tunis = {
 	}
 }
 
-accept_turks = {
-	potential = {
-		primary_culture = greek
-		OR = {
-			tag = BYZ
-			tag = GRE
-		}
-		NOT = { has_country_flag = accepted_turks }
-	}
-	allow = {
-		war = no
-		is_disarmed = no
-		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
-		}
-		nationalism_n_imperialism = 1
-		
-	}
-	effect = {
-		set_country_flag = accepted_turks
-		add_accepted_culture = turkish
-		any_pop = {
-			limit = { has_pop_culture = turkish }
-			militancy = -3
-		}
-	}
-}
-
-assimilate_turks = {
-	potential = {
-		primary_culture = greek
-		OR = {
-			tag = BYZ
-			tag = GRE
-		}
-		NOT = { has_country_flag = accepted_turks }
-		NOT = { has_country_flag = assimilating_turks }
-	}
-	allow = {
-		war = no
-		OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
-				government = fascist_dictatorship
-			}
-	}
-	effect = {
-		any_owned = {
-			limit = {
-				any_pop = {
-					AND = {
-						is_core = TUR
-						has_pop_culture = turkish
-					}
-				}
-			}	
-			add_province_modifier = {
-				name = turkish_assimilation
-				duration = -1
-			}
-		}
-		consciousness = 4
-		
-	}
-}
 }

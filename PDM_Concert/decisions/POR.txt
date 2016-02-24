@@ -461,6 +461,37 @@ political_decisions = {
 		}
 	}
 	
+	declare_lusotropicalism = {
+		picture = create_iberia
+		potential = {
+			tag = UPB
+			has_country_flag = portugal_brazil_united
+			NOT = { has_country_flag = lusotropicalism }
+		}
+		allow = {
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+			social_science = 1
+			BRZ = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			prestige = 4
+			minorities_reform = protected
+			immigration_policy = open_immigration
+			set_country_flag = lusotropicalism
+			any_pop = {
+				limit = {
+					NOT = {
+						is_culture_group = iberian
+					}
+				}
+				scaled_militancy = {
+					factor = -2
+				}
+			}
+		}
+	}
+	
 	create_iberia_UPB = {
 		picture = create_iberia
 		potential = {

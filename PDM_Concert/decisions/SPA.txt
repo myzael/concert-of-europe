@@ -3,7 +3,6 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = SPA
-				tag = SPC
 				tag = IBR
 			}
 			OR = {
@@ -37,6 +36,7 @@ political_decisions = {
 		potential = {
 			tag = SPA
 			NOT = {
+				tag = SPC
 				has_country_flag = mendizabal_confiscated
 			}
 		}

@@ -2170,7 +2170,14 @@ guiTypes = {
 		iconType = {
 			name ="requirements"
 			spriteType = "GFX_decision_info"
-			position = { x= 476 y = 102 }
+			position = { x= 466 y = 102 }
+			Orientation = "UPPER_LEFT"
+		}
+	
+		guiButtonType = {
+			name = "ignore_checkbox"
+			quadTextureSprite ="GFX_checkbox_square"
+			position = { x = 480 y = 95 }
 			Orientation = "UPPER_LEFT"
 		}
 		

@@ -547,6 +547,10 @@ prussian_general_staff = {
 	icon = 15
 }
 
+aim_of_byzantine_conquest = {
+	icon = 18
+}
+
 ### Archaeology ###
 egyptian_excavations = {
 	prestige = 0.02

@@ -97,10 +97,30 @@ reclaim_armenia = {
 	effect = {
 		prestige = 10.5
 		badboy = 9
-		TUR_893 = { add_core = BYZ }
-		TUR_890 = { add_core = BYZ }
-		TUR_885 = { add_core = BYZ }
-		RUS_1098 = { add_core = BYZ }
+		893 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		890 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		885 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		1098 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
 		set_country_flag = byzantine_armenia
 		TUR = {
 				relation = { who = THIS value = -200 }
@@ -137,11 +157,36 @@ reclaim_levant = {
 	effect = {
 		prestige = 15.75
 		badboy = 12
-		EGY_897 = { add_core = BYZ }
-		EGY_903 = { add_core = BYZ }
-		EGY_915 = { add_core = BYZ }
-		EGY_921 = { add_core = BYZ }
-		EGY_910 = { add_core = BYZ }
+		EGY_897 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		EGY_903 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		EGY_915 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		EGY_921 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		EGY_910 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
 		set_country_flag = byzantine_levant
 		TUR = {
 				relation = { who = THIS value = -200 }
@@ -167,6 +212,11 @@ reclaim_egypt = {
 		NOT = { has_country_modifier = no_more_war }
 		is_greater_power = yes
 		all_core = { owned_by = THIS }
+		EGY_897 = { owned_by = THIS }
+		EGY_903 = { owned_by = THIS }
+		EGY_915 = { owned_by = THIS }
+		EGY_921 = { owned_by = THIS }
+		EGY_910 = { owned_by = THIS }
 		OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -178,13 +228,48 @@ reclaim_egypt = {
 	effect = {
 		prestige = 21
 		badboy = 18
-		EGY_1755 = { add_core = BYZ }
-		EGY_1751 = { add_core = BYZ }
-		EGY_1745 = { add_core = BYZ }
-		EGY_1753 = { add_core = BYZ }
-		EGY_1762 = { add_core = BYZ }
-		EGY_1771 = { add_core = BYZ }
-		EGY_1758 = { add_core = BYZ }
+		EGY_1755 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		EGY_1751 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		EGY_1745 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		EGY_1753 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		EGY_1762 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		EGY_1771 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		EGY_1758 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
 		set_country_flag = byzantine_egypt
 		EGY = {
 				relation = { who = THIS value = -300 }
@@ -207,6 +292,13 @@ reclaim_cyrenaica = {
 		NOT = { has_country_modifier = no_more_war }
 		is_greater_power = yes
 		all_core = { owned_by = THIS }
+		EGY_1755 = { owned_by = THIS }
+		EGY_1751 = { owned_by = THIS }
+		EGY_1745 = { owned_by = THIS }
+		EGY_1753 = { owned_by = THIS }
+		EGY_1762 = { owned_by = THIS }
+		EGY_1771 = { owned_by = THIS }
+		EGY_1758 = { owned_by = THIS }
 		OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -218,7 +310,12 @@ reclaim_cyrenaica = {
 	effect = {
 		prestige = 2
 		badboy = 3
-		TRI_1735 = { add_core = BYZ }
+		TRI_1735 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
 		TUR = {
 				relation = { who = THIS value = -100 }
 			}
@@ -241,6 +338,7 @@ reclaim_tripolitania = {
 		NOT = { has_country_modifier = no_more_war }
 		is_greater_power = yes
 		all_core = { owned_by = THIS }
+		TRI_1735 = { owned_by = THIS }
 		OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -252,8 +350,18 @@ reclaim_tripolitania = {
 	effect = {
 		prestige = 5.25
 		badboy = 6
-		TRI_1731 = { add_core = BYZ }
-		TRI_1740 = { add_core = BYZ }
+		TRI_1731 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		TRI_1740 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
 		set_country_flag = byzantine_tripolitania
 		TUR = {
 				relation = { who = THIS value = -100 }
@@ -268,6 +376,7 @@ expand_into_mesopotamia = {
 		NOT = { has_country_flag = retreated_from_anatolia }
 		has_country_flag = legacy_of_rome
 		has_country_flag = byzantine_levant
+		has_country_flag = byzantine_armenia
 		NOT = { has_country_flag = the_two_rivers }
 	}
 	allow = {
@@ -276,6 +385,15 @@ expand_into_mesopotamia = {
 		NOT = { has_country_modifier = no_more_war }
 		is_greater_power = yes
 		all_core = { owned_by = THIS }
+		TUR_893 = { owned_by = THIS }
+		TUR_890 = { owned_by = THIS }
+		TUR_885 = { owned_by = THIS }
+		RUS_1098 = { owned_by = THIS }
+		EGY_897 = { owned_by = THIS }
+		EGY_903 = { owned_by = THIS }
+		EGY_915 = { owned_by = THIS }
+		EGY_921 = { owned_by = THIS }
+		EGY_910 = { owned_by = THIS }
 		OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -287,9 +405,24 @@ expand_into_mesopotamia = {
 	effect = {
 		prestige = 5.25
 		badboy = 6
-		TUR_923 = { add_core = BYZ }
-		TUR_931 = { add_core = BYZ }
-		TUR_935 = { add_core = BYZ }
+		TUR_923 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		TUR_931 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
+		TUR_935 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
 		set_country_flag = the_two_rivers
 		TUR = {
 				relation = { who = THIS value = -200 }
@@ -312,6 +445,8 @@ reclaim_tunisia = {
 		NOT = { has_country_modifier = no_more_war }
 		is_greater_power = yes
 		all_core = { owned_by = THIS }
+		TRI_1731 = { owned_by = THIS }
+		TRI_1740 = { owned_by = THIS }
 		OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -323,7 +458,12 @@ reclaim_tunisia = {
 	effect = {
 		prestige = 5.25
 		badboy = 3
-		TUN_1726 = { add_core = BYZ }
+		TUN_1726 = { 
+			add_province_modifier = {
+				name = aim_of_byzantine_conquest
+				duration = -1
+			}
+		}
 		set_country_flag = carthage_reclaimed
 		TUN = {
 				relation = { who = THIS value = -200 }
@@ -393,10 +533,20 @@ reclaim_south_illyria = {
 	effect = {
 		prestige = 10.5
 		badboy = 9
-		TUR_803 = { add_core = BYZ }
-		SER_794 = { add_core = BYZ }
-		TUR_853 = { add_core = BYZ }
-		MON_2582 = { add_core = BYZ }
+		any_country = {
+			any_owned = {
+				limit = {
+					TUR_803 = { owned_by = THIS }
+					SER_794 = { owned_by = THIS }
+					TUR_853 = { owned_by = THIS }
+					MON_2582 = { owned_by = THIS }
+				}
+				add_province_modifier = {
+					name = aim_of_byzantine_conquest
+					duration = -1
+				}
+			}
+		}
 		set_country_flag = march_for_illyria
 		SER = {
 				relation = { who = THIS value = -300 }
@@ -430,6 +580,10 @@ reclaim_north_illyria = {
 		NOT = { has_country_modifier = no_more_war }
 		is_greater_power = yes
 		all_core = { owned_by = THIS }
+		TUR_803 = { owned_by = THIS }
+		SER_794 = { owned_by = THIS }
+		TUR_853 = { owned_by = THIS }
+		MON_2582 = { owned_by = THIS }
 		OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -441,12 +595,44 @@ reclaim_north_illyria = {
 	effect = {
 		prestige = 15.75
 		badboy = 20
-		TUR_788 = { add_core = BYZ }
-		AUS_780 = { add_core = BYZ }
-		AUS_2538 = { add_core = BYZ }
-		AUS_777 = { add_core = BYZ }
-		AUS_771 = { add_core = BYZ }
-		AUS_768 = { add_core = BYZ }
+		state_scope = {
+			TUR_788 = { 
+				add_province_modifier = {
+					name = aim_of_byzantine_conquest
+					duration = -1
+				}
+			}
+			AUS_780 = { 
+				add_province_modifier = {
+					name = aim_of_byzantine_conquest
+					duration = -1
+				}
+			}
+			AUS_2538 = { 
+				add_province_modifier = {
+					name = aim_of_byzantine_conquest
+					duration = -1
+				}
+			}
+			AUS_777 = { 
+				add_province_modifier = {
+					name = aim_of_byzantine_conquest
+					duration = -1
+				}
+			}
+			AUS_771 = { 
+				add_province_modifier = {
+					name = aim_of_byzantine_conquest
+					duration = -1
+				}
+			}
+			AUS_768 = { 
+				add_province_modifier = {
+					name = aim_of_byzantine_conquest
+					duration = -1
+				}
+			}
+		}
 		set_country_flag = illyria_is_ours
 		SER = {
 				relation = { who = THIS value = -100 }
@@ -605,7 +791,7 @@ restore_anatolia = {
 			change_province_name = "Denizli"
 		}
 		867 = {
-			change_province_name = "KÑŒtahya"
+			change_province_name = "Kütahya"
 		}
 		876 = {
 			change_province_name = "Ankara"

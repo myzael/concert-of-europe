@@ -220,7 +220,7 @@ FRA_438 = { 438 439 440 441 426 } #Centre
 
 FRA_442 = { 442 444 443 } #Poitou
 
-FRA_448 = { 448 445 449 450 } #Auvergne-Limousin
+FRA_448 = { 448 445 449 } #Auvergne-Limousin
 
 FRA_451 = { 451 452 453 454 } #Rhone
 
@@ -245,7 +245,9 @@ SPA_484 = { 484 485 486 } #Extremadura
 
 SPA_487 = { 487 488 489 490 491 508 } #Castilla la Nueva
 
-SPA_492 = { 492 493 494 495 496 497 } #Vasconia-Aragón
+SPA_492 = { 492 493 494 } #Vasconia
+
+SPA_495 = { 495 496 497 } #Aragón
 
 SPA_498 = { 498 499 500 501 502 } #Catalonia
 

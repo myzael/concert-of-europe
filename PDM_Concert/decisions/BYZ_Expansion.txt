@@ -70,6 +70,13 @@ push_into_anatolia = {
 				relation = { who = THIS value = -200 }
 			}
 	}
+	ai_will_do ={
+		factor = 1
+		modifier = {
+			factor = 0
+			badboy = 5
+		}
+	}
 }
 reclaim_armenia = {
 	potential = {
@@ -128,6 +135,13 @@ reclaim_armenia = {
 		RUS = {
 				relation = { who = THIS value = -100 }
 			}
+	}
+	ai_will_do ={
+		factor = 1
+		modifier = {
+			factor = 0
+			badboy = 10
+		}
 	}
 }
 
@@ -194,6 +208,13 @@ reclaim_levant = {
 		EGY = {
 				relation = { who = THIS value = -100 }
 			}
+	}
+	ai_will_do ={
+		factor = 1
+		modifier = {
+			factor = 0
+			badboy = 5
+		}
 	}
 }
 
@@ -275,6 +296,13 @@ reclaim_egypt = {
 				relation = { who = THIS value = -300 }
 			}
 	}
+	ai_will_do ={
+		factor = 1
+		modifier = {
+			factor = 0
+			badboy = 5
+		}
+	}
 }
 
 reclaim_cyrenaica = {
@@ -321,6 +349,13 @@ reclaim_cyrenaica = {
 			}
 		set_country_flag = byzantine_cyrenaica
 	}
+	ai_will_do ={
+		factor = 1
+		modifier = {
+			factor = 0
+			badboy = 15
+		}
+	}
 }
 
 reclaim_tripolitania = {
@@ -366,6 +401,13 @@ reclaim_tripolitania = {
 		TUR = {
 				relation = { who = THIS value = -100 }
 			}
+	}
+	ai_will_do ={
+		factor = 1
+		modifier = {
+			factor = 0
+			badboy = 10
+		}
 	}
 }
 
@@ -428,6 +470,13 @@ expand_into_mesopotamia = {
 				relation = { who = THIS value = -200 }
 			}
 	}
+	ai_will_do ={
+		factor = 1
+		modifier = {
+			factor = 0
+			badboy = 10
+		}
+	}
 }
 
 reclaim_tunisia = {
@@ -469,6 +518,13 @@ reclaim_tunisia = {
 				relation = { who = THIS value = -200 }
 			}
 	}
+	ai_will_do ={
+		factor = 1
+		modifier = {
+			factor = 0
+			badboy = 15
+		}
+	}
 }
 
 reclaim_moesia = {
@@ -506,6 +562,13 @@ reclaim_moesia = {
 		TUR = {
 				relation = { who = THIS value = -100 }
 			}	
+	}
+	ai_will_do ={
+		factor = 1
+		modifier = {
+			factor = 0
+			badboy = 10
+		}
 	}
 }
 
@@ -573,6 +636,13 @@ reclaim_south_illyria = {
 		TUR = {
 				relation = { who = THIS value = -100 }
 			}	
+	}
+	ai_will_do ={
+		factor = 1
+		modifier = {
+			factor = 0
+			badboy = 10
+		}
 	}
 }
 
@@ -666,6 +736,13 @@ reclaim_north_illyria = {
 		DLM = {
 				relation = { who = THIS value = -200 }
 			}
+	}
+	ai_will_do ={
+		factor = 1
+		modifier = {
+			factor = 0
+			badboy = 1
+		}
 	}
 }
 

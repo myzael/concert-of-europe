@@ -1,5 +1,3 @@
-CE_NAME;The Concert of Europe;;;;;;;;;;;;;x;
-CE_DESC;Napoleon has died, but his legacy still shakes Europe. The empires of the Americas are shattered, and the empires of Europe hear the first rumbles in a gathering storm of nationalism. The Vienna Congress that brought the Napoleonic Wars to an end was meant to restore the old monarchical order, but the concert of balanced powers it sought to establish is already looking precarious. Whichever nations can seize this moment will dominate a new age.;;;;;;;;;;;;;x;
 ANC;Antillean Confederation;Antillean Confederation;Antillean Confederation;;;;;;;;;;;x;
 ANC_ADJ;Antillean;Antillean;Antillean;;;;;;;;;;;x;
 EFR;East Frisia;East Frisia;East Frisia;;;;;;;;;;;x;
@@ -38,6 +36,8 @@ IRE_anarcho_liberal;Anarcho-Liberal Party;Anarcho-Liberal Party;Anarcho-Liberal 
 FRA_reactionary_3;Ultraroyaliste;Ultraroyaliste;Ultraroyaliste;;Ultraroyaliste;;;;;;;;;x;
 FRA_conservative_6;Constitutionnel;Constitutionnel;Constitutionnel;;Constitutionnel;;;;;;;;;x;
 JAV_social_liberal;Social-Liberals;Social-Liberals;Social-Liberals;;Social-Liberals;;;;;;;;;x;
+CE_NAME;The Concert of Europe;;;;;;;;;;;;;x;
+CE_DESC;Napoleon has died, but his legacy still shakes Europe. The empires of the Americas are shattered, and the empires of Europe hear the first rumbles in a gathering storm of nationalism. The Vienna Congress that brought the Napoleonic Wars to an end was meant to restore the old monarchical order, but the concert of balanced powers it sought to establish is already looking precarious. Whichever nations can seize this moment will dominate a new age.;;;;;;;;;;;;;x;
 NET_regeringsgezind;Regeringsgezinden;;;;;;;;;x;;;;;
 NET_financieel_oppositionele;Financieel Oppositionelen;;;;;;;;;x;;;;;
 NET_oppositioneel;Oppositionelen;;;;;;;;;x;;;;;

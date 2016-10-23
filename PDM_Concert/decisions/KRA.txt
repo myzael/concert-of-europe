@@ -1665,8 +1665,8 @@ political_decisions = {
 				}
 			}
 			363 = { change_province_name = "Panevezys" }
-			364 = { change_province_name = "Siauliai" }
-			365 = { change_province_name = "Palanga" }
+			364 = { change_province_name = "Šiauliai" }
+			365 = { change_province_name = "Telšiai" }
 			prestige = 2
 			RUS = { prestige = -1 }
 		}

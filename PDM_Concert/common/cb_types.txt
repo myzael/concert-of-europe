@@ -47,6 +47,7 @@ colonial_competition
 acquire_all_cores
 acquire_core_state
 restore_austrian_empire
+restore_byzantine_empire
 colonial_reconquest_cb
 restore_america
 restore_british_raj
@@ -605,6 +606,73 @@ restore_austrian_empire = {
 				region = AUS_652
 				region = AUS_657
 			}
+		}
+	}
+
+	po_demand_state = yes
+	
+	war_name = WAR_AUSTRIAN_EMPIRE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+restore_byzantine_empire = {
+	sprite_index = 5
+	is_triggered_only = yes
+	months = 12
+	
+	construction_speed = 0.8
+
+	badboy_factor = 0
+	prestige_factor = 2
+	peace_cost_factor = 0.7
+	penalty_factor = 1
+	always = yes
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		is_vassal = no
+		NOT = { has_country_modifier = neutrality }
+		THIS = {
+			tag = BYZ
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+			NOT = {
+				has_country_modifier = neutrality
+				AND = {
+					war_policy = pacifism
+					war = no
+				}
+			}
+		}
+		OR = {
+			war_with = THIS
+			THIS = {
+				NOT = { has_country_modifier = punitive_effects }
+			}
+		}
+	}
+	
+	allowed_states = {
+		any_owned_province = {
+			has_province_modifier = aim_of_byzantine_conquest
 		}
 	}
 

@@ -1269,10 +1269,12 @@ country_event = {
 		leave_alliance = ALD
 		relation = { who = ALD value = -200 }
 		diplomatic_influence = { who = ALD value = -200 }
-		casus_belli = {
+		war = {
 			target = ALD
-			type = demand_concession_casus_belli
-			months = 60
+			attacker_goal = {
+				casus_belli = demand_concession_casus_belli
+				state_province_id = 1700
+			}
 		}
 		ai_chance = {
 			factor = 95

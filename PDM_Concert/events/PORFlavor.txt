@@ -1511,6 +1511,104 @@ country_event = {
 }
 
 country_event = {
+	id = 1000300
+	title = "EVTNAME1000300" #Proposition for a new capital
+	desc = "EVTNAME1000300"
+	picture = "Administration"
+	
+	trigger = {
+		tag = UPB
+		exists = yes
+		prestige = 30
+		has_country_flag = portugal_brazil_united
+		war = no
+		BRZ = { exists = no }
+		NOT = { has_country_flag = has_chosen_capital }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "Our capital shall remain in Lisbon"
+		prestige = 7
+		any_owned = {
+			limit = {
+				continent = europe
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = -3
+				}
+			}
+		}
+		set_country_flag = has_chosen_capital
+		
+		ai_chance = {
+			factor = 75
+		}
+	}
+	
+	option = {
+		name = "We should move the court to Rio de Janeiro"
+		prestige = -10
+		any_owned = {
+			limit = {
+				continent = europe
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = 2
+				}
+			}
+		}
+		any_owned = {
+			limit = {
+				continent = south_america
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = -3
+				}
+			}
+		}
+		set_country_flag = has_chosen_capital
+		capital = 2447 #Rio de Janeiro
+		
+		ai_chance = {
+			factor = 25
+		}
+	}
+	
+	option = {
+		name = "Probably the old capital of Estado de Brazil would be a good idea?"
+		any_owned = {
+			limit = {
+				continent = europe
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = 2
+				}
+			}
+		}
+		any_owned = {
+			limit = {
+				continent = south_america
+			}
+			any_pop = {
+				scaled_militancy = {
+					factor = 2
+				}
+			}
+		}
+		set_country_flag = has_chosen_capital
+		capital = 2436 #Salvador de Bahia
+	}
+}
+
+country_event = {
 	id = 97039
 	title = "EVTNAME97039" #An Iberian Destiny?
 	desc = "EVTDESC97039"

@@ -223,6 +223,104 @@ political_decisions = {
 		}
 	}
 	
+	integrate_pueblo = {
+		potential = {
+			tag = MEX
+			has_country_flag = manifest_destiny_refuted
+			owns = 104 #Albuquerque
+			OR = {
+				government = hms_government
+				government = democracy
+			}
+			slavery = no_slavery
+			NOT = {
+				has_country_flag = integrated_pueblo
+			}
+		}
+		
+		allow = {
+			biologism = 1
+			nationalism_n_imperialism = 1
+			NOT = {
+				average_militancy = 3
+			}
+		}
+		
+		effect = {
+			add_accepted_culture = pueblo
+			set_country_flag = integrated_pueblo
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	integrate_texans = {
+		potential = {
+			tag = MEX
+			has_country_flag = manifest_destiny_refuted
+			owns = 133 #Austin
+			NOT = {
+				has_country_flag = integrated_texans
+			}
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			add_accepted_culture = texan
+			set_country_flag = integrated_texans
+			any_pop = {
+				limit = {
+					has_pop_culture = mexican
+				}
+				consciousness = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	integrate_afro_caribeno = {
+		potential = {
+			tag = MEX
+			has_country_flag = mexican_cuba
+			owns = 2209 #Havana
+			NOT = {
+				has_country_flag = integrated_afro_caribeno
+			}
+			OR = {
+				government = hms_government
+				government = democracy
+			}
+			slavery = no_slavery
+		}
+		
+		allow = {
+			biologism = 1
+			nationalism_n_imperialism = 1
+			NOT = {
+				average_militancy = 3
+			}
+		}
+		
+		effect = {
+			add_accepted_culture = afro_caribeno
+			set_country_flag = integrated_afro_caribeno
+			any_pop = {
+				limit = {
+					NOT = { has_pop_culture = afro_caribeno }
+				}
+				militancy = 1
+				consciousness = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	mexico_setup = {
 		potential = {
 			tag = MEX

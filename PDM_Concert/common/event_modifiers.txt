@@ -442,14 +442,14 @@ blood_and_iron_mine = {
 libertine_culture = {
 	prestige = -0.02
 	RGO_throughput = -0.05
-	pop_militancy_modifier = -0.02
+	global_pop_militancy_modifier = -0.02
 	icon = 17
 }
 
 temperance_league = {
 	prestige = 0.02
 	RGO_throughput = 0.05
-	pop_militancy_modifier = 0.02
+	global_pop_militancy_modifier = 0.02
 	icon = 17
 }
 
@@ -545,6 +545,10 @@ prussian_general_staff = {
 	leadership_modifier = 0.2
 	mobilisation_size = 0.005
 	icon = 15
+}
+
+aim_of_byzantine_conquest = {
+	icon = 18
 }
 
 ### Archaeology ###

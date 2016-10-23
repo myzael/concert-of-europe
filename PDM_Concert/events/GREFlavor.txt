@@ -516,6 +516,8 @@ country_event = {
 			}
 			secede_province = TUR
 		}
+		847 = { secede_province = GRE }
+		848 = { secede_province = GRE }
 		any_owned = {
 			remove_core = TUR
 		}

@@ -1,4 +1,4 @@
-;;;;;;;;;;;;x
+;;;;;;;;;;;;x;
 BRA;Brunswick;;;;;;;;;;;;x
 BRA_ADJ;Brunswicker;;;;;;;;;;;;x
 CAN_13;Columbia;;;;;;;;;;;;x
@@ -28,6 +28,8 @@ SCH_370;Schleswig;;;;;;;;;;;;x
 PROV381;Limburg;;;;;;;;;;;;x
 BEL_387;Flanders;;;;;;;;;;;;x
 BEL_394;Wallonia;;;;;;;;;;;;x
+SPA_492;Vasconia;;;;;;;;;;;;x
+SPA_495;Aragon;;;;;;;;;;;;x
 HAN_528;Lower Elbe;;;;;;;;;;;;x
 HAN_534;Hanover;;;;;;;;;;;;x
 HAN_540;East Friesland;;;;;;;;;;;;x

@@ -1251,7 +1251,6 @@ assimilate_turks = {
 				duration = -1
 			}
 		}
-		set_country_flag = assimilating_turks
 		consciousness = 4
 		
 	}

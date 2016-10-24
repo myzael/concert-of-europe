@@ -1,9 +1,11 @@
-name = "Peruvian War of Independence"
+name = "Spanish-American wars of independence"
 
 1821.7.28 = {
-	add_attacker = SPA
-	add_defender = PEU
-	add_defender = BOL
+	add_defender = SPA
+	add_attacker = PEU
+	add_attacker = BOL
+	add_attacker = ARG
+	add_attacker = CHL	
 	
 	war_goal = {
 		casus_belli = establish_protectorate_casus_belli
@@ -16,6 +18,16 @@ name = "Peruvian War of Independence"
 		actor = SPA
 		receiver = BOL
 	}
+	war_goal = {
+		casus_belli = make_puppet
+		actor = SPA
+		receiver = ARG
+	}
+	war_goal = {
+		casus_belli = make_puppet
+		actor = SPA
+		receiver = CHL
+	}	
 	
 	war_goal = {
 		casus_belli = acquire_all_cores
@@ -23,10 +35,23 @@ name = "Peruvian War of Independence"
 		receiver = SPA
 		country = PEU
 	}
+	war_goal = {
+		casus_belli = humiliate
+		actor = CHL
+		receiver = SPA
+	}
+	war_goal = {
+		casus_belli = humiliate
+		actor = ARG
+		receiver = SPA
+	}	
+	
 }
 
 1822.5.24 = {
-	rem_attacker = SPA
-	rem_defender = PEU
-	rem_defender = BOL
+	rem_defender = SPA
+	rem_attacker = PEU
+	rem_attacker = BOL
+	rem_attacker = ARG
+	rem_attacker = CHL		
 }

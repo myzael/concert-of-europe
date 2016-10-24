@@ -1,22 +1,23 @@
 capital = 2329
 primary_culture = patagonian
+culture = southamerican
 religion = animist
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_enlightenment
+nationalvalue = nv_independence
 literacy = 0.1
 
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
-public_meetings = no_meeting
+public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
 political_parties = underground_parties
 minorities_reform = oppression
-immigration_policy = nobody_gets_out
+immigration_policy = open_immigration
 conscription=mandatory_service
 
 # Social Reforms

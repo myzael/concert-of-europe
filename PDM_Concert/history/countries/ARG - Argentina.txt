@@ -1,5 +1,6 @@
 capital = 2348
 primary_culture = platinean
+culture = south_andean
 religion = catholic
 government = democracy
 plurality = 0.0

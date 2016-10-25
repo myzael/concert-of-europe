@@ -1,11 +1,10 @@
 capital = 2324
-primary_culture = chilean
-culture = south_andean
+primary_culture = south_andean
 religion = catholic
 government = democracy
 plurality = 0.0
-nationalvalue = nv_equality
-literacy = 0.10
+nationalvalue = nv_order
+literacy = 0.11
 non_state_culture_literacy = 0.015
 civilized = yes
 prestige = 1
@@ -37,12 +36,12 @@ education = elite
 
 ruling_party = CHL_conservative
 set_country_flag = tory_election_win
-last_election = 1811.1.1
+last_election = 1831.1.1
 upper_house = {
 	fascist = 0
-	liberal = 35
-	conservative = 30
-	reactionary = 35
+	liberal = 29
+	conservative = 52
+	reactionary = 19
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
@@ -66,7 +65,7 @@ water_wheel_power = 1
 
 #Starting Consciousness
 consciousness = 2
-nonstate_consciousness = 1
+nonstate_consciousness = 0
 
 oob = "/1821/CHL_oob.txt"
 

@@ -1,6 +1,5 @@
-#Atacama Region (164000) #see Peru.txt for balance of Region
-#Ruled by Bolivia 1836
-#Antofagasta (80000/20000 POPS)
+
+#1 103 036 by 1835
 2305 = {
 	aristocrats = {
 		culture = south_andean
@@ -70,7 +69,7 @@
 		size = 1225
 	}
 }
-#Calama (32000/8000 POPS)
+#Calama
 2309 = {
 	aristocrats = {
 		culture = south_andean
@@ -97,7 +96,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 575
@@ -122,14 +121,13 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = aimara
 		religion = catholic
 		size = 1700
 	}
 }
-#Ruled by Peru 1836
-#Iquique (32000/8000 POPS)
+#Iquique 
 2307 = {
 	aristocrats = {
 		culture = south_andean
@@ -156,7 +154,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 1650
@@ -181,13 +179,12 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = aimara
 		religion = catholic
 		size = 1575
 	}
 }
-#Arica (20000/5000 POPS)
 2308 = {
 	aristocrats = {
 		culture = south_andean
@@ -214,7 +211,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
 		size = 740
@@ -239,7 +236,7 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = aimara
 		religion = catholic
 		size = 1725
@@ -274,10 +271,10 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
-		size = 6825
+		size = 16825
 	}
 }
 #La Serena (64000/16000 POPS)
@@ -319,10 +316,10 @@
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = south_andean
 		religion = catholic
-		size = 8450
+		size = 18450
 	}
 }
 #Valle Central Region (640000)
@@ -354,7 +351,7 @@
 	bureaucrats = {
 		culture = chilean
 		religion = catholic
-		size = 500
+		size = 2000
 	}
 
 	officers = {
@@ -378,18 +375,18 @@
 	soldiers = {
 		culture = chilean
 		religion = catholic
-		size= 3000
+		size= 1000
 
 	}
 
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 3000
+		size= 6000
 
 	}
 
-	farmers = {
+	labourers = {
 		culture = chilean
 		religion = catholic
 		size = 86275
@@ -397,9 +394,16 @@
 	farmers = {
 		culture = patagonian
 		religion = catholic
-		size = 20000
+		size = 80000
 	}	
-}
+	farmers = {
+		culture = south_andean
+		religion = catholic
+		size = 90000
+	}	
+
+	
+	}
 #Valparaiso (128000/32000 POPS)
 2325 = {
 	aristocrats = {
@@ -442,7 +446,7 @@
 	farmers = {
 		culture = patagonian
 		religion = catholic
-		size = 5000
+		size = 25000
 	}	
 	
 }
@@ -478,6 +482,12 @@
 		religion = catholic
 		size = 5550
 	}
+
+	farmers = {
+		culture = patagonian
+		religion = catholic
+		size = 25000
+	}		
 }
 #Talca (20000/5000 POPS)
 2327 = {
@@ -509,7 +519,7 @@
 	farmers = {
 		culture = patagonian
 		religion = catholic
-		size = 4525
+		size = 8525
 	}
 }
 #Bio-Bio Region (232000)
@@ -556,7 +566,7 @@
 	farmers = {
 		culture = south_andean
 		religion = catholic
-		size = 4550
+		size = 2550
 	}
 
 	aristocrats = {
@@ -580,14 +590,14 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size= 75
+		size= 3075
 
 	}
 
 	farmers = {
 		culture = patagonian
 		religion = animist
-		size = 5475
+		size = 15475
 	}
 }
 #Temuco (36000/9000 POPS)
@@ -613,14 +623,14 @@
 	soldiers = {
 		culture = patagonian
 		religion = catholic
-		size= 50
+		size= 1050
 
 	}
 
 	farmers = {
 		culture = patagonian
 		religion = catholic
-		size = 4525
+		size = 325
 	}
 #
 	aristocrats = {
@@ -644,7 +654,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = animist
-		size= 50
+		size= 550
 
 	}
 
@@ -675,14 +685,14 @@
 	}
 
 	soldiers = {
-		culture = chilean
+		culture = south_andean
 		religion = catholic
 		size= 1100
 
 	}
 
 	farmers = {
-		culture = south_andean
+		culture = patagonian
 		religion = catholic
 		size = 4650
 	}
@@ -710,12 +720,12 @@
 	soldiers = {
 		culture = chilean
 		religion = catholic
-		size= 75
+		size= 275
 
 	}
 
 	farmers = {
-		culture = south_andean
+		culture = patagonian
 		religion = catholic
 		size = 1325
 	}
@@ -741,7 +751,7 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size= 25
+		size= 425
 
 	}
 

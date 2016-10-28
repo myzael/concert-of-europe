@@ -3,6 +3,7 @@
 # Uses all 'modifiers' possible thats exported as a Modifier.
 
 christian = {
+
 	catholic = {
 		icon = 1
 		color = { 0.8 0.8 0 }
@@ -14,31 +15,49 @@ christian = {
 	}
 
 	mormon = {
-		icon = 2
+		icon = 19
 		color = { 0 0 0.5 }
 	}
 
 	orthodox = {
 		icon = 3
 		color = { 0.7 0.5 0 }
+
 	}
 	
 	coptic = {
 		icon = 4
 		color = { 0 0.5 0.7 }
+		
 	}
 }
 
 muslim = {
 	sunni = {
 		icon = 5
-		color = { 0 0.6 0 }
+		color = { 0 0.8 0 }
+		
+		
+	}
+
+	ibadi = {
+		icon = 18
+		color = { 0 0 0.8 }
+		
+		
 	}
 
 	shiite = {
 		icon = 6
-		color = { 0 0.8 0 }
+		color = { 0 0.6 0 }
+		
 	}
+	
+	druze = {
+		icon = 17
+		color = { 0.3 0 0.3 }
+	}
+
 }
 
 jewish_group = {
@@ -48,8 +67,16 @@ jewish_group = {
 	}
 }
 
+zoroastrian_group = {
+	zoroastrian = {
+		icon = 15
+		color = { 0.7 0.2 0.1 }
+	}
+}
+
 eastern = {
 	mahayana = {
+	
 		color = { 0.8 0.3 0 }
 		icon = 8
 	}
@@ -78,6 +105,7 @@ eastern = {
 		color = { 0.3 0.8 0 }
 		icon = 13
 	}
+
 }
 
 pagan = {
@@ -85,5 +113,6 @@ pagan = {
 		icon = 14
 		color = { 0.5 0.0 0.0 }
 		pagan = yes
+		
 	}
 }

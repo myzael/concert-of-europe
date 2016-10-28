@@ -111,6 +111,7 @@ style =
 
 	title_image =
 	{
+	
 		####  Netherlands news headers	####
 		case = {
 			trigger = {
@@ -768,26 +769,27 @@ style =
 		}
 
 		# POR ###################
-		case = {
-			trigger = {
+
+		case =	{
+			trigger = { 
 				or = {
 					and = {
-						or = {
-							tag = POR
-							tag = UPB
+						or = { 
+						tag = POR
+						tag = UPB
 						}
-						ruling_party_ideology = communist
+						ruling_party_ideology = communist 
 					}
 					and = {
 						civilized = no
 						part_of_sphere = yes
 
 						sphere_owner = {
-							or = {
-								tag = POR
-								tag = UPB
-							}
-							ruling_party_ideology = communist
+						or = { 
+						tag = POR
+						tag = UPB
+						}
+							ruling_party_ideology = communist 
 						}
 					}
 					and = {
@@ -795,25 +797,25 @@ style =
 						is_vassal = yes
 
 						overlord = {
-							or = {
-								tag = POR
-								tag = UPB
-							}
-							ruling_party_ideology = communist
+						or = { 
+						tag = POR
+						tag = UPB
 						}
-					}    
+							ruling_party_ideology = communist 
+						}
+					}					
 				}
 			}
 			picture = "news/POR_communist_newspaper_title.dds"
 		}
 
-		case = {
-			trigger = {
+		case =	{
+			trigger = { 
 				or = {
 					and = {
-						or = {
-							tag = POR
-							tag = UPB
+						or = { 
+						tag = POR
+						tag = UPB
 						}
 					}
 					and = {
@@ -821,10 +823,10 @@ style =
 						part_of_sphere = yes
 
 						sphere_owner = {
-							or = {
-								tag = POR
-								tag = UPB
-							}
+						or = { 
+						tag = POR
+						tag = UPB
+						}
 						}
 					}
 					and = {
@@ -832,12 +834,12 @@ style =
 						is_vassal = yes
 
 						overlord = {
-							or = {
-								tag = POR
-								tag = UPB
-							}
+						or = { 
+						tag = POR
+						tag = UPB
 						}
-					}    
+						}
+					}					
 				}
 			}
 			picture = "news/POR_default_newspaper_title.dds"
@@ -1787,7 +1789,145 @@ style =
 			}
 			picture = "news/AUS_default_newspaper_title.dds"
 		}
+		
+		####  Belgium	####
+		case = {
+			trigger = {
+				tag = BEL
+			}
+			picture = "news/BEL_default_newspaper_title.dds"		
+		}
 
+		####  Imperial China  ####
+		case = {
+			trigger = {
+				is_culture_group = east_asian
+			}
+			picture = "news/CHI_default_newspaper_title.dds"		
+		}
+
+		####  Denmark	####
+		case = {
+			trigger = {
+				tag = DEN
+			}
+			picture = "news/DEN_default_newspaper_title.dds"		
+		}
+
+
+		####  Norway	####
+		case = {
+			trigger = {
+				tag = NOR
+			}
+			picture = "news/NOR_default_newspaper_title.dds"		
+		}
+
+		####  Persia	####
+		case = {
+			trigger = {
+				tag = PER
+				OR = {
+					ruling_party_ideology = liberal
+					ruling_party_ideology = anarcho_liberal
+					ruling_party_ideology = social_liberal
+				}
+			}
+			picture = "news/PER_liberal_newspaper_title.dds"		
+		}
+		
+		case = {
+			trigger = {
+				tag = PER
+			}
+			picture = "news/PER_default_newspaper_title.dds"		
+		}
+
+		####  Romania	####
+		case = {
+			trigger = {
+				tag = ROM
+			}
+			picture = "news/ROM_default_newspaper_title.dds"		
+		}
+
+		####  Serbia/Yugoslavia	####
+		case = {
+			trigger = {
+					OR = { 
+						tag = SER
+						tag = YUG
+					}
+			}
+			picture = "news/SER_default_newspaper_title.dds"		
+		}
+
+		####  Sweden	####
+		case = {
+			trigger = {
+				tag = SWE
+			}
+			picture = "news/SWE_default_newspaper_title.dds"		
+		}
+
+		####  Switzerland	####
+		case = {
+			trigger = {
+				tag = SWI
+			}
+			picture = "news/SWI_default_newspaper_title.dds"		
+		}
+		
+		####  Indian   ####
+		case = {
+			trigger = {
+			is_culture_group = south_asian
+			}
+			picture = "news/indian_default_newspaper_title.dds"     
+		}
+
+		 ####  Montenegro   ####
+		 case = {
+		   trigger = {
+			 tag = MON
+		   }
+		   picture = "news/MON_default_newspaper_title.dds"     
+		 }
+
+		 ####  Scandinavian   ####
+		 case = {
+		   trigger = {
+			 tag = SCA
+		   }
+		   picture = "news/SCA_default_newspaper_title.dds"     
+		 }
+
+		 ####  South German   ####
+		 case = {
+		   trigger = {
+			 or = {
+			   tag = BAV
+			   tag = WUR
+			   tag = BAD
+			   tag = ALS
+			   tag = SGF
+			 }
+		   }
+		   picture = "news/south_german_default_newspaper_title.dds"     
+		 }
+
+		 ####  Wallachian   ####
+		 case = {
+		   trigger = {
+			 or = {
+			   tag = WAL
+			   tag = MOL
+			   tag = SIE
+			 }
+		   }
+		   picture = "news/WAL_default_newspaper_title.dds"     
+		 }
+		
 		# Germanic ###################
 		case = {
 			trigger = { 
@@ -1914,8 +2054,6 @@ style =
 			}
 			picture = "news/GER_default_newspaper_title.dds"
 		}
-		
-		
 
 
 		# Ruling ideology generics ########

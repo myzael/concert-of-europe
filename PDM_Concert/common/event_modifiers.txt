@@ -2387,10 +2387,279 @@ the_eye_of_the_storm = {
 
 # New modifiers by Five_X
 
+######
+#### EuropeAfricaAsia modifiers ####
+######
+
+central_asia_refugees = {
+	icon = 18
+}
+
+israel_aliyah_modifier = {
+	global_assimilation_rate = 0.1
+	global_immigrant_attract = 1
+	non_accepted_pop_militancy_modifier = 0.05
+	icon = 17
+}
+
+modern_democracy_modifier = {
+	global_assimilation_rate = 0.05
+	global_immigrant_attract = 0.5
+	social_reform_desire = 0.1
+	prestige = 0.01
+	icon = 7
+}
+
+emergency_draft = {
+	pop_militancy_modifier = 0.05
+	mobilisation_size = 0.5
+	mobilisation_economy_impact = 4
+	org_regain = 0.25
+	global_population_growth = -0.002
+	leadership_modifier = 1
+	land_organisation = 0.5
+	prestige = -0.05
+	war_exhaustion = -0.05
+	icon = 15
+}
+
+circassian_expulsion = {
+	immigrant_attract = 100
+	life_rating = 100
+	assimilation_rate = 0.5
+	icon = 20
+}
+
 lanfang_republic_modifier = {
-	global_pop_militancy_modifier = -0.025
-	global_pop_consciousness_modifier = 0.025
-	research_points = 0.1
+	global_pop_militancy_modifier = -0.05
+	global_pop_consciousness_modifier = 0.05
+	mobilisation_size = 0.03
+	research_points = 0.25
 	suppression_points_modifier = -0.25
+	land_organisation = 0.1
 	icon = 5
+}
+
+new_fancy_palace_modifier = {
+	prestige = 0.05
+	immigrant_attract = 0.1
+	pop_consciousness_modifier = 0.02
+	icon = 15
+}
+
+malaria_modifier = {
+	population_growth = -0.001
+	local_RGO_throughput = -0.1
+	icon = 20
+}
+
+economic_revitalization = {
+	immigrant_attract = 1
+	local_RGO_throughput = 0.15
+	rich_income_modifier = 0.15
+	icon = 11
+}
+
+native_oppression_modifier = {
+	local_RGO_throughput = -0.25
+	immigrant_push = 0.5
+	pop_consciousness_modifier = 0.25
+	pop_militancy_modifier = -0.1
+	assimilation_rate = 0.5
+	population_growth = -0.0001
+	icon = 18
+}
+
+native_encouragement_modifier = {
+	local_RGO_throughput = 0.25
+	immigrant_attract = 1
+	pop_consciousness_modifier = 0.1
+	pop_militancy_modifier = -0.1
+	assimilation_rate = -1
+	population_growth = 0.0001
+	icon = 19
+}
+
+tribal_unrest_modifier = {
+	farm_RGO_eff = -0.1
+	mine_RGO_eff = -0.1
+	immigrant_attract = -0.5
+	pop_militancy_modifier = 0.02
+	icon = 18
+}
+
+dervish_dhaanto_modifier = {
+	org_regain = 0.5
+	land_organisation = 0.75
+	land_unit_start_experience = 5
+	mobilisation_size = 0.25
+	mobilisation_impact = 4
+	icon = 15
+}
+
+british_merchants_modifier = {
+	global_pop_militancy_modifier = 0.03
+	rgo_throughput = 0.1
+	research_points_modifier = 0.2
+	rich_income_modifier = 0.3
+	icon = 9
+}
+
+russian_merchants_modifier = {
+	global_pop_militancy_modifier = 0.03
+	rgo_throughput = 0.2
+	research_points_modifier = 0.1
+	rich_income_modifier = 0.15
+	icon = 9
+}
+
+no_terrace_farming = {
+	icon = 13
+}
+
+terrace_farming_modifier = {
+	farm_RGO_eff = 0.25
+	farm_RGO_size = 0.25
+	icon = 13
+}
+
+marsh_land_reclaimed = {
+	farm_RGO_eff = 0.4
+	farm_RGO_size = 0.4
+	mine_RGO_size = 0.5
+	icon = 13
+}
+
+bad_flooding_modifier = {
+	pop_militancy_modifier = 0.05
+	farm_rgo_eff = -0.5
+	farm_RGO_size = -0.5
+	icon = 20
+}
+
+good_flooding_modifier = {
+	pop_militancy_modifier = -0.05
+	farm_rgo_eff = 0.5
+	farm_RGO_size = 0.5
+	icon = 19
+}
+
+religious_insurrection = {
+	pop_militancy_modifier = 0.1
+	immigrant_push = 0.25
+	immigrant_attract = -0.5
+	assimilation_rate = -0.25
+	icon = 18
+}
+
+deforestation_modifier = {
+	farm_RGO_eff = -0.75
+	farm_RGO_size = -0.75
+	local_factory_throughput = 0.25
+	local_factory_output = 0.25
+	icon = 10
+}
+
+sprawling_forest = {
+	farm_RGO_eff = 1
+	farm_RGO_size = 1
+	icon = 9
+}
+
+dense_forest = {
+	farm_RGO_eff = 0.75
+	farm_RGO_size = 0.75
+	icon = 9
+}
+
+large_forest = {
+	farm_RGO_eff = 0.5
+	farm_RGO_size = 0.5
+	icon = 9
+}
+
+normal_forest = {
+	farm_RGO_eff = 0.25
+	farm_RGO_size = 0.25
+	icon = 9
+}
+
+small_forest = {
+	farm_RGO_eff = -0.25
+	farm_RGO_size = -0.25
+	icon = 10
+}
+
+marginal_forest = {
+	farm_RGO_eff = -0.5
+	farm_RGO_size = -0.5
+	icon = 10
+}
+
+scarce_forest = {
+	farm_RGO_eff = -0.75
+	farm_RGO_size = -0.75
+	icon = 10
+}
+
+no_forest = {
+	farm_RGO_eff = -0.99
+	farm_RGO_size = -0.99
+	icon = 10
+}
+
+serfdom_modifier = {
+	education_efficiency_modifier = -0.25
+	factory_throughput = -0.15
+	rgo_throughput = 0.15
+	tax_efficiency = 0.1
+	poor_life_needs = 0.1
+	poor_income_modifier = -0.1
+	core_pop_consciousness_modifier = -0.05
+	prestige = 0.05
+	icon = 17
+}
+
+military_collapse = {
+	global_pop_militancy_modifier = 0.05
+	org_regain = -0.33
+	land_organisation = -0.33
+	icon = 16
+}
+
+emancipation_modifier = {
+	education_efficiency_modifier = 1
+	factory_throughput = 0.15
+	factory_owner_cost = -0.15
+	rgo_throughput = -0.1
+	core_pop_consciousness_modifier = 0.02
+	prestige = 0.05
+	icon = 17
+}
+
+rgo_boycott_modifier = {
+	farm_rgo_eff = -0.99
+	pop_consciousness_modifier = 0.25
+	pop_militancy_modifier = 1
+	life_rating = -1
+	immigrant_push = 0.1
+	local_ruling_party_support = -0.99
+	icon = 2
+}
+
+persian_cossacks_modifier = {
+	core_pop_militancy_modifier = -0.05
+	land_organisation = 0.2
+	land_unit_start_experience = 0.5
+	leadership_modifier = 0.5
+	prestige = 0.01
+	icon = 15
+}
+
+secessionist_agitation = {
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.25
+	local_RGO_throughput = -0.25
+	assimilation_rate = -1
+	icon = 18}
 }

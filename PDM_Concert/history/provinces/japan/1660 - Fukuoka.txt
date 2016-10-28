@@ -4,4 +4,4 @@ add_core = SAT
 add_core = TKG
 trade_goods = tea
 life_rating = 35
-terrain = good_farmland
+terrain = mountain_farmland

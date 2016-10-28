@@ -50,14 +50,14 @@ political_decisions = {
 		effect = {
 			set_country_flag = claimed_nejd
 			NEJ_1157 = { add_core = HAL }
-			NEJ_1156 = { add_core = HAL }
+			ABU_1162 = { add_core = HAL }
 			any_country = {
 				limit = {
 					civilized = no
 					any_owned_province = {
 						OR = {
 							region = NEJ_1157
-							region = NEJ_1156
+							region = ABU_1162
 						}
 					}
 					NOT = { tag = THIS }
@@ -124,11 +124,17 @@ political_decisions = {
 
 		effect = {
 			set_country_flag = claimed_hail
-			NEJ_1156 = { add_core = NEJ }
+			NEJ_1157 = { add_core = NEJ }
+			ABU_1162 = { add_core = NEJ }
 			any_country = {
 				limit = {
 					civilized = no
-					any_owned_province = { region = NEJ_1156 }
+					any_owned_province = {
+						OR = {
+							region = NEJ_1157
+							region = ABU_1162
+						}
+					}
 					NOT = { tag = THIS }
 				}
 				leave_alliance = THIS
@@ -257,8 +263,8 @@ political_decisions = {
 
 		effect = {
 			prestige = 5
-			NEJ_1157 = { add_core = HDJ } #Riyadh
-			NEJ_1156 = { add_core = HDJ } #Kaf
+			NEJ_1157 = { add_core = HDJ } #Nejd
+			ABU_1162 = { add_core = HDJ } #El Hejer
 			1155 = { add_core = HDJ } #Abha
 			random_country = {
 				limit = {
@@ -315,8 +321,8 @@ political_decisions = {
 
 		effect = {
 			prestige = 5
-			NEJ_1157 = { add_core = ASR } #Riyadh
-			NEJ_1156 = { add_core = ASR } #Kaf
+			NEJ_1157 = { add_core = ASR } #Nejd
+			ABU_1162 = { add_core = ASR } #El Hejer
 			HDJ_1151 = { add_core = ASR } #Hedjaz
 			random_country = {
 				limit = {
@@ -510,22 +516,19 @@ political_decisions = {
 			HDJ_1151 = { #Hedjaz
 				add_core = ARB
 			}
-			NEJ_1156 = { #Ha'il
-				add_core = ARB
-			}
 			NEJ_1157 = { #Nejd
 				add_core = ARB
 			}
-			ABU_1162 = { #Abu Dhabi
+			ABU_1162 = { #El Hejer
 				add_core = ARB
 			}
 			OMA_1166 = { #Oman
 				add_core = ARB
 			}
-			YEM_1412 = { #Aden
+			YEM_1412 = { #Hadramaut
 				add_core = ARB
 			}
-			YEM_1178 = { #Sana'a
+			YEM_1178 = { #Yemen
 				add_core = ARB
 			}
 		}

@@ -1,11 +1,11 @@
-capital = 2702
+capital = 1186
 primary_culture = kazak
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.01
-civilized = yes
+civilized = no
 
 # Political reforms
 slavery = yes_slavery
@@ -32,14 +32,48 @@ child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = elite
 
+set_country_flag = existing_country
+
 ruling_party = KAZ_conservative
 upper_house = {
 	fascist = 0
-	liberal = 13
+	liberal = 0
 	conservative = 77
-	reactionary = 10
+	reactionary = 23
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
 }
 
+foreign_weapons = yes_foreign_weapons
+academic_institutions = madrasahs
+diplomatic_reform = interactive
+
+# Technologies
+
+# Inventions
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+oob = "KBO_oob.txt"
+1861.1.1 = {
+	oob = "/1861/KBO_oob.txt"
+}
+1861.1.1 = {
+
+foreign_weapons = yes_foreign_weapons
+academic_institutions = madrasahs
+taxation_reform = tax_farmers
+diplomatic_reform = interactive
+
+# Technologies
+flintlock_rifles = 1
+late_enlightenment_philosophy = 1
+private_banks = 1
+early_classical_theory_and_critique = 1
+
+# Inventions
+
+}

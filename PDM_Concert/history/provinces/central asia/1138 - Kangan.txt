@@ -1,6 +1,5 @@
-owner = PER
-controller = PER
-add_core = PER
+owner = ABU
+controller = ABU
 trade_goods = fish
 life_rating = 35
 terrain = semi_desert_hills

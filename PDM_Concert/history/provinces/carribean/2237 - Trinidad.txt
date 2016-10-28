@@ -3,5 +3,5 @@ controller = ENG
 add_core = TTB
 trade_goods = sugar
 life_rating = 35
-terrain = jungle_farmland
+terrain = insular
 colonial = 1

@@ -1,5 +1,6 @@
 owner = RUS
 controller = RUS
+add_core = UKR
 add_core = RUS
 trade_goods = copper
 life_rating = 35

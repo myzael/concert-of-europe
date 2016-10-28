@@ -143,6 +143,27 @@ beneluxian = {
 		"van Havre" "van Hoobrouck" "van Innis" "van Meenen" "van Neste" "van Snick" "van Tongerloo" "van Volden de Lombeke" "van Zeeland" 
 		Vandive Verbeke Vercruysse Verduyn Vergauwen "Verseyden de Varick" Verwilghen "Vilain XIIII" Wallaert Wannaar Werbrouck Wyvekens }
 	}
+	frisian = {
+		color = { 36 73 148 }
+		first_names = { 
+			Abe Anne Arjan Auke Bernard Beorn Douwe Durk Eeltsje Epke Falko Foska Franke Foeke Foppe Gerriet Gysbert
+			Hans Haije Harmen Herman Hendrik Herre Hotze Ids Jancko Jannus Jelle Joast Lieuwe Mads Olof	Peter Piebe Pier Piter
+			Rintje Rixt	Sicco Sieuwert Sietse Sikke Sipke Sven Syb Take Teake Tiemen Tjalling Titus	Wijerd Wopke Wout Wybrand
+			Yep Ype
+		}
+		
+		last_names = { 
+			Accama Adema Albarda Algra Algera Alma-Tadema Atsma
+			Bekker Benner Bonnema Boonstra Bousema Brandsma Bylsma Doedens Donia Douwama Douwsma Eisinga Gerlsma Gratama 
+			Halbertsma Heerma Herrema "van Hichtum" Hiemstra Hoekstra Hut
+			Japiks
+			"de Jong" Jongeling Kalma Kooistra Krikke Kroes Laverman "van Marxveldt" Nauta Paaltjens Pander Paulusma Pitstra Postma
+			Reidinga Roorda Soeters Systra Terpstra Tichelaar Torensma Troelstra
+			Vitringa
+			Wumkes
+			Zijlstra
+		}
+	}
 }
 
 pan_swiss = {
@@ -1048,6 +1069,21 @@ iranian_turanian = {
 			Beg Khan
 			}
 	}
+	parsi = {
+		color = {180 0 160}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Kamran Karim "Lotf Ali" 
+			Massoud "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai
+			Meshhedi Nakhchevani Pesyan Rokni Sassanid Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
 	pashtun = {
 		color = {199 151 230}
 		first_names = {
@@ -1099,6 +1135,64 @@ iranian_turanian = {
 		}
 		last_names = {
 			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
+		}
+	}
+	tabari = {
+		color = {92 130 64}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai
+			Meshhedi Nakhchevani Pahlavi Pesyan Qajar Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
+	luri = {
+		color = {210 135 125}
+		first_names = {
+			Abdal Abdulkarim Bedr Hafid Ihsan Mahmud Mohammed Qazi Reshid Said Ubaydallah
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khuzai
+			Badirkhan Barzani Khan Shilak
+			Meshhedi Nakhchevani Pahlavi Pesyan Qajar Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
+	kalash = {
+		color = {100 0 0}
+		first_names = {
+			Dezauhe Khodai Imra Munjem Mahandeo
+			}
+		last_names = {
+			Kata Kom Mumo Jench Kshto Dungulio Kalasha Tregami Vasi Askunu Sanu Gramsana
+
+			}
+	}
+	ossetian = {
+		color = {227 177 41}
+		first_names = { Akaki Aleksandre Andria Bagrat Besarion David Dimitri Eduard Ekvtime Evgeni
+			Filipp Galaktion Georgi Gaito Givi Grigol Ilia Ioseb Irakli Ivane
+			Jansung Jemal Kaikhosro Konstantine Kosta Leo Levan Luka Meliton Mikheil Murman
+			Nikoloz Noe Otar Polikarp Radish Ramonov Revaz Ruslan Sargis Sergo Shalva Solomon
+			Sulkhan Teimuraz Tingiz Vakhtang Valerian Vasil Vladimer Zakharia Zurab Zviad
+		}
+
+		last_names = { Abkhazi Amilakhvari Avalishvili Bagratuni Bakradze Balanchivadze Barakadze Chabukiani Chavchanadze Chkhubianashvili
+			Cholokashvili Chubinashvili Dodashvili Dudarova Eliava Gabashvili Gazdanov Gokhieli Gordeli Javakhisvili Jugashvili Jugheli
+			Kakabadze Kandelaki Kartvelishvili Karaev Kavtaradze Kereselidze Khelaia Khetagurov Khvitia Kvinitadze Leselidze Maglakelidze
+			Makharadze Mazniashvili Mikeladze Muskhelishvili Nioradze Nutsubideze Otskheli Ramishvili
+			Razikashvili Sabinin Shanidze Sukhisvili Tabidze Takaishvili Tsereteli Tsintsadze Uznadze Vano Zhordania
 		}
 	}
 }

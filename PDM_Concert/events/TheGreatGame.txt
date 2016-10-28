@@ -62,7 +62,81 @@ country_event = {
 					truce_with = THIS
 				}
 			}
+			BLC = {
+				exists = yes
+				civilized = no
+				is_vassal = no
+				OR = {
+					neighbour = ENG
+					any_neighbor_country = { vassal_of = ENG }
+				}
+				NOT = {
+					has_country_modifier = border_incident
+					in_sphere = THIS
+					truce_with = THIS
+				}
+			}
 			AFG = {
+				exists = yes
+				civilized = no
+				is_vassal = no
+				neighbour = ENG
+				neighbour = RUS
+				NOT = {
+					has_country_modifier = border_incident
+					in_sphere = THIS
+					truce_with = THIS
+				}
+			}
+			HRT = {
+				exists = yes
+				civilized = no
+				is_vassal = no
+				neighbour = ENG
+				neighbour = RUS
+				NOT = {
+					has_country_modifier = border_incident
+					in_sphere = THIS
+					truce_with = THIS
+				}
+			}
+			HZJ = {
+				exists = yes
+				civilized = no
+				is_vassal = no
+				neighbour = ENG
+				neighbour = RUS
+				NOT = {
+					has_country_modifier = border_incident
+					in_sphere = THIS
+					truce_with = THIS
+				}
+			}
+			KDH = {
+				exists = yes
+				civilized = no
+				is_vassal = no
+				neighbour = ENG
+				neighbour = RUS
+				NOT = {
+					has_country_modifier = border_incident
+					in_sphere = THIS
+					truce_with = THIS
+				}
+			}
+			KNZ = {
+				exists = yes
+				civilized = no
+				is_vassal = no
+				neighbour = ENG
+				neighbour = RUS
+				NOT = {
+					has_country_modifier = border_incident
+					in_sphere = THIS
+					truce_with = THIS
+				}
+			}
+			TAJ = {
 				exists = yes
 				civilized = no
 				is_vassal = no
@@ -153,17 +227,27 @@ country_event = {
 			war_policy = pacifism
 			has_global_flag = british_dismantled
 			casus_belli = SIN
+			casus_belli = BLC
 			casus_belli = KAL
 			casus_belli = MAK
 			casus_belli = AFG
+			casus_belli = HRT
+			casus_belli = HZJ
+			casus_belli = KDH
+			casus_belli = KNZ
 			casus_belli = KAS
 			casus_belli = KOK
 			casus_belli = KHI
 			casus_belli = BUK
 			war_with = SIN
+			war_with = BLC
 			war_with = KAL
 			war_with = MAK
 			war_with = AFG
+			war_with = HRT
+			war_with = HZJ
+			war_with = KDH
+			war_with = KNZ
 			war_with = KAS
 			war_with = KOK
 			war_with = KHI
@@ -201,6 +285,7 @@ country_event = {
 				is_vassal = no
 				OR = {
 					tag = SIN
+					tag = BLC
 					tag = KAL
 					tag = MAK
 					tag = KAS
@@ -209,6 +294,26 @@ country_event = {
 					tag = BUK
 					AND = {
 						tag = AFG
+						neighbour = RUS
+						neighbour = ENG
+					}
+					AND = {
+						tag = HRT
+						neighbour = RUS
+						neighbour = ENG
+					}
+					AND = {
+						tag = HZJ
+						neighbour = RUS
+						neighbour = ENG
+					}
+					AND = {
+						tag = KDH
+						neighbour = RUS
+						neighbour = ENG
+					}
+					AND = {
+						tag = KNZ
 						neighbour = RUS
 						neighbour = ENG
 					}
@@ -261,6 +366,7 @@ country_event = {
 				is_vassal = no
 				OR = {
 					tag = SIN
+					tag = BLC
 					tag = KAL
 					tag = MAK
 					tag = KAS
@@ -269,6 +375,26 @@ country_event = {
 					tag = BUK
 					AND = {
 						tag = AFG
+						neighbour = RUS
+						neighbour = ENG
+					}
+					AND = {
+						tag = HRT
+						neighbour = RUS
+						neighbour = ENG
+					}
+					AND = {
+						tag = HZJ
+						neighbour = RUS
+						neighbour = ENG
+					}
+					AND = {
+						tag = KDH
+						neighbour = RUS
+						neighbour = ENG
+					}
+					AND = {
+						tag = KNZ
 						neighbour = RUS
 						neighbour = ENG
 					}
@@ -347,6 +473,20 @@ country_event = {
 					truce_with = THIS
 				}
 			}
+			BLC = {
+				exists = yes
+				civilized = no
+				is_vassal = no
+				OR = {
+					neighbour = RUS
+					any_neighbor_country = { vassal_of = RUS }
+				}
+				NOT = {
+					has_country_modifier = border_incident
+					in_sphere = THIS
+					truce_with = THIS
+				}
+			}
 			KAL = {
 				exists = yes
 				civilized = no
@@ -376,6 +516,54 @@ country_event = {
 				}
 			}
 			AFG = {
+				exists = yes
+				civilized = no
+				is_vassal = no
+				neighbour = ENG
+				neighbour = RUS
+				NOT = {
+					has_country_modifier = border_incident
+					in_sphere = THIS
+					truce_with = THIS
+				}
+			}
+			HRT = {
+				exists = yes
+				civilized = no
+				is_vassal = no
+				neighbour = ENG
+				neighbour = RUS
+				NOT = {
+					has_country_modifier = border_incident
+					in_sphere = THIS
+					truce_with = THIS
+				}
+			}
+			HZJ = {
+				exists = yes
+				civilized = no
+				is_vassal = no
+				neighbour = ENG
+				neighbour = RUS
+				NOT = {
+					has_country_modifier = border_incident
+					in_sphere = THIS
+					truce_with = THIS
+				}
+			}
+			KDH = {
+				exists = yes
+				civilized = no
+				is_vassal = no
+				neighbour = ENG
+				neighbour = RUS
+				NOT = {
+					has_country_modifier = border_incident
+					in_sphere = THIS
+					truce_with = THIS
+				}
+			}
+			KNZ = {
 				exists = yes
 				civilized = no
 				is_vassal = no
@@ -466,18 +654,28 @@ country_event = {
 			war_policy = pacifism
 			has_global_flag = british_dismantled
 			casus_belli = SIN
+			casus_belli = BLC
 			casus_belli = KAL
 			casus_belli = MAK
 			casus_belli = AFG
+			casus_belli = HRT
+			casus_belli = HZJ
+			casus_belli = KDH
+			casus_belli = KNZ
 			casus_belli = KAS
 			casus_belli = KOK
 			casus_belli = KHI
 			casus_belli = BUK
 			casus_belli = PNJ
 			war_with = SIN
+			war_with = BLC
 			war_with = KAL
 			war_with = MAK
 			war_with = AFG
+			war_with = HRT
+			war_with = HZJ
+			war_with = KDH
+			war_with = KNZ
 			war_with = KAS
 			war_with = KOK
 			war_with = KHI
@@ -515,6 +713,7 @@ country_event = {
 				is_vassal = no
 				OR = {
 					tag = SIN
+					tag = BLC
 					tag = KAL
 					tag = MAK
 					tag = KAS
@@ -523,6 +722,26 @@ country_event = {
 					tag = BUK
 					AND = {
 						tag = AFG
+						neighbour = RUS
+						neighbour = ENG
+					}
+					AND = {
+						tag = HRT
+						neighbour = RUS
+						neighbour = ENG
+					}
+					AND = {
+						tag = HZJ
+						neighbour = RUS
+						neighbour = ENG
+					}
+					AND = {
+						tag = KDH
+						neighbour = RUS
+						neighbour = ENG
+					}
+					AND = {
+						tag = KNZ
 						neighbour = RUS
 						neighbour = ENG
 					}
@@ -575,6 +794,7 @@ country_event = {
 				is_vassal = no
 				OR = {
 					tag = SIN
+					tag = BLC
 					tag = KAL
 					tag = MAK
 					tag = KAS
@@ -583,6 +803,26 @@ country_event = {
 					tag = BUK
 					AND = {
 						tag = AFG
+						neighbour = RUS
+						neighbour = ENG
+					}
+					AND = {
+						tag = HRT
+						neighbour = RUS
+						neighbour = ENG
+					}
+					AND = {
+						tag = HZJ
+						neighbour = RUS
+						neighbour = ENG
+					}
+					AND = {
+						tag = KDH
+						neighbour = RUS
+						neighbour = ENG
+					}
+					AND = {
+						tag = KNZ
 						neighbour = RUS
 						neighbour = ENG
 					}
@@ -640,9 +880,13 @@ country_event = {
 	trigger = {
 		OR = {
 			tag = SIN
+			tag = BLC
 			tag = KAL
 			tag = MAK
 			tag = AFG
+			tag = HRT
+			tag = HZJ
+			tag = KNZ
 			tag = KAS
 			tag = KOK
 			tag = KHI
@@ -750,6 +994,22 @@ country_event = {
 		modifier = {
 			factor = 1.5
 			tag = AFG
+		}
+		modifier = {
+			factor = 3
+			tag = HRT
+		}
+		modifier = {
+			factor = 5
+			tag = HZJ
+		}
+		modifier = {
+			factor = 3
+			tag = KDH
+		}
+		modifier = {
+			factor = 1.5
+			tag = KNZ
 		}
 		modifier = {
 			factor = 0.5

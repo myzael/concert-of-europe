@@ -2,9 +2,10 @@ political_decisions = {
 	boer_republic = {
 		potential = {
 			OR = {
-				tag = NAL
 				tag = TRN
-				tag = ORA
+				nationalism_n_imperialism = 1
+				year = 1884
+				has_global_flag = boer_covention_denied
 			}
 			NOT = { has_country_flag = republic_founded }
 		}
@@ -15,236 +16,30 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = republic_founded
-			random_owned = {
-				limit = {
-					owner = { NOT = { government = democracy } }
-				}
-				owner = { government = democracy }
-			}
-			small_arms = 50
-			regular_clothes = 50
-			horses = 20
+			ORA = { all_core = { add_core = THIS } }
+			NAL = { all_core = { add_core = THIS } }
+			small_arms = 30
+			regular_clothes = 20
+			horses = 10
 			add_country_modifier = {
 				name = trek_boers
-				duration = 730
+				duration = 500
 			}
 			add_country_modifier = {
 				name = boer_republic
-				duration = 7300
+				duration = 1830
 			}
 			any_pop = {
 				limit = { has_pop_culture = boer }
-				militancy = -8
-				ideology = {
-					value = conservative
-					factor = 0.50
-				}
+				militancy = -4
 				ideology = {
 					value = reactionary
-					factor = 0.30
+					factor = 0.50
 				}
 			}
 			any_pop = {
 				limit = { is_culture_group = southern_african }
-				militancy = -4
-				reduce_pop = 0.90
-			}
-			random_owned = {
-				limit = {
-					owner = { is_vassal = no }
-				}
-				owner = {
-					add_country_modifier = {
-						name = small_country_draft
-						duration = 365
-					}
-				}
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	sand_river_convention = {
-		potential = {
-			is_our_vassal = TRN
-			TRN = {
-				NOT = { any_owned_province = { is_core = THIS } }
-			}
-			NOT = { has_country_flag = had_sand_river_convention }
-		}
-		allow = {
-			TRN = {
-				war = no
-				total_amount_of_divisions = 1
-				NOT = { has_country_modifier = trek_boers }
-			}
-		}
-		effect = {
-			set_country_flag = had_sand_river_convention
-			release_vassal = TRN
-			TRN = {
-				all_core = {
-					remove_core = THIS
-					remove_core = SAF
-				}
-				country_event = 98230
-			}
-		}
-	}
-	
-	orange_river_convention = {
-		potential = {
-			is_our_vassal = ORA
-			ORA = {
-				NOT = { any_owned_province = { is_core = THIS } }
-			}
-			NOT = { has_country_flag = had_orange_river_convention }
-		}
-		
-		allow = {
-			ORA = {
-				war = no
-				total_amount_of_divisions = 1
-				NOT = { has_country_modifier = trek_boers }
-			}
-		}
-		
-		effect = {
-			set_country_flag = had_orange_river_convention
-			release_vassal = ORA
-			ORA = {
-				all_core = {
-					remove_core = THIS
-					remove_core = SAF
-				}
-				country_event = 98231
-			}
-		}
-	}
-	
-	claim_transvaal = {
-		potential = {
-			primary_culture = boer
-			NOT = { 
-				tag = TRN
-				has_country_flag = claimed_transvaal
-			}
-		}
-		
-		allow = {
-			OR = {
-				is_our_vassal = TRN
-				TRN = { in_sphere = THIS }
-				TRN = {
-					all_core = { owned_by = THIS }
-				}
-			}
-		}
-		
-		effect = {
-			set_country_flag = claimed_transvaal
-			prestige = 10
-			TRN = {
-				all_core = {
-					remove_core = TRN
-					add_core = THIS
-				}
-			}
-			random_country = {
-				limit = {
-					tag = TRN
-					exists = yes
-				}
-				THIS = { inherit = TRN }
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	claim_oranje = {
-		picture = claim_transvaal
-		potential = {
-			primary_culture = boer
-			NOT = {
-				tag = ORA
-				has_country_flag = claimed_oranje
-			}
-		}
-		
-		allow = {
-			OR = {
-				is_our_vassal = ORA
-				ORA = { in_sphere = THIS }
-				ORA = {
-					all_core = { owned_by = THIS }
-				}
-			}
-		}
-		
-		effect = {
-			set_country_flag = claimed_oranje
-			prestige = 10
-			ORA = {
-				all_core = {
-					remove_core = ORA
-					add_core = THIS
-				}
-			}
-			random_country = {
-				limit = {
-					tag = ORA
-					exists = yes
-				}
-				THIS = { inherit = ORA }
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	claim_natalia = {
-		picture = claim_transvaal
-		potential = {
-			primary_culture = boer
-			NOT = {
-				tag = NAL
-				has_country_flag = claimed_natalia
-			}
-		}
-		
-		allow = {
-			OR = {
-				is_our_vassal = NAL
-				NAL = { in_sphere = THIS }
-				NAL = {
-					all_core = { owned_by = THIS }
-				}
-			}
-		}
-		
-		effect = {
-			set_country_flag = claimed_natalia
-			prestige = 10
-			NAL = {
-				all_core = {
-					remove_core = NAL
-					add_core = THIS
-				}
-			}
-			random_country = {
-				limit = {
-					tag = NAL
-					exists = yes
-				}
-				THIS = { inherit = NAL }
+				militancy = -2
 			}
 		}
 		
@@ -274,7 +69,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = south_africa_formed
-			prestige = 20
+			prestige = 15
 			TRN = { all_core = { add_core = SAF } }
 			ORA = { all_core = { add_core = SAF } }
 			NAL = { all_core = { add_core = SAF } }
@@ -283,7 +78,7 @@ political_decisions = {
 			change_tag = SAF
 			any_pop = {
 				limit = { is_primary_culture = yes }
-				militancy = -4
+				militancy = -3
 			}
 			any_country = {
 				limit = {
@@ -477,10 +272,10 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = claimed_north_cape_colony
-			2088 = { add_core = THIS }
-			2092 = { add_core = THIS }
-			2093 = { add_core = THIS }
-			2558 = { add_core = THIS }
+			2088 = { add_core = SAF }
+			2092 = { add_core = SAF }
+			2093 = { add_core = SAF }
+			2558 = { add_core = SAF }
 			random_country = {
 				limit = { owns = 2093 }
 				relation = { who = THIS value = -100 }
@@ -517,25 +312,32 @@ political_decisions = {
 			set_country_flag = claimed_xhosa
 			badboy = 2
 			2098 = {
-				add_core = THIS
 				add_core = SAF
 			}
 			2099 = {
-				add_core = THIS
 				add_core = SAF
 			}
 			2100 = {
-				add_core = THIS
 				add_core = SAF
 			}
 			2104 = {
-				add_core = THIS
 				add_core = SAF
 			}
 			random_country = {
 				limit = { owns = 2100 }
 				relation = { who = THIS value = -100 }
 				leave_alliance = THIS
+			}
+			ENG = {
+				war = {
+					target = XHO
+						attacker_goal = {
+						casus_belli = establish_protectorate_casus_belli
+					}
+						defender_goal = {
+						casus_belli = status_quo
+					}
+					call_ally = no
 			}
 		}
 	}
@@ -574,7 +376,6 @@ political_decisions = {
 					owns = 2099
 				}
 				2099 = {
-					add_core = THIS
 					add_core = SAF
 					secede_province = THIS
 				}
@@ -585,7 +386,6 @@ political_decisions = {
 					owns = 2098
 				}
 				2098 = {
-					add_core = THIS
 					add_core = SAF
 					secede_province = THIS
 				}
@@ -596,26 +396,79 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
-	south_africa_1861_start = {
-		potential = {
-			tag = ENG
-			always = no
-		}
-		allow = {
+
+	roo_expedition = {
+		picture = treaty_signing
+		potential = {	
 			owns = 2087
+			year = 1836
+				OR = {
+					2092 = { empty = yes } #Beaufort
+					2093 = { empty = yes } #Calvinia
+					2558 = { empty = yes } #De Aar
+				}
 		}
+		
+		allow = {
+			war = no
+			year = 1838
+			treasury = 10000
+
+		}
+	
 		effect = {
-			ORA = {
-				all_core = { remove_core = SAF }
+			prestige = 10
+			treasury = -10000
+				random_owned = {
+					2092 = {
+						secede_province = ENG
+						change_province_name = "Beaufort"
+						life_rating = 15
+					}
 			}
-			TRN = {
-				all_core = { remove_core = SAF }
+				random_owned = {
+					2093 = {
+						secede_province = ENG
+						change_province_name = "Calvinia"
+						life_rating = 15
+					}
 			}
-			SAF = {
-				primary_culture = british
-				add_accepted_culture = boer
+				random_owned = {
+					2558 = {
+						secede_province = ENG
+						change_province_name = "De Aar"
+						life_rating = 15
+					}
 			}
+		ai_will_do = {
+			factor = 1
 		}
+	}
+	
+	bushmen_expedition = {
+		picture = treaty_signing
+		potential = {
+			owns = 2087
+			year = 1838
+			OR = { 2088 = { empty = yes } }
+		}
+
+		allow = {
+			war = no
+			year = 1840
+			treasury = 3500
+		}
+
+		effect = {
+			prestige = 5
+			treasury = -3500
+			random_owned = {
+				2088 = {
+					secede_province = ENG
+					change_province_name = "Springbok"
+					life_rating = 15
+				}
+		}
+		ai_will_do = { factor = 1 }
 	}
 }

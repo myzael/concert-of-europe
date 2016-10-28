@@ -1,6 +1,6 @@
-owner = UPB
-controller = UPB
-add_core = MAT
+owner = GAZ
+controller = GAZ
+add_core = GAZ
 trade_goods = fish
 life_rating = 35
 terrain = dry_grassland
@@ -8,4 +8,5 @@ colonial = 1
 1836.1.1 = {
 	owner = POR
 	controller = POR
+	remoe_core = GAZ
 }

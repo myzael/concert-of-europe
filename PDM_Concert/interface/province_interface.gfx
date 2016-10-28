@@ -567,6 +567,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_terrainimg_insular"
+		texturefile = "gfx\\interface\\terrain_insular.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
 		name = "GFX_terrainimg_ocean"
 		texturefile = "gfx\\interface\\terrain_mountains.tga"
 		norefcount = yes

@@ -1,8 +1,7 @@
-owner = RUS
-controller = RUS
-add_core = RUS
-add_core = YAK
+owner = MAK
+controller = MAK
+add_core = MAK
+add_core = BLC
 trade_goods = grain
-life_rating = 15
-terrain = boreal_forest_mountains
-colonial = 1
+life_rating = 30
+terrain = semi_desert_hills

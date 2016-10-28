@@ -6,20 +6,37 @@ province_event = {
 	id = 1100
 
 	trigger = {
-		year = 1885
+		year = 1821
 		OR = {
 			province_id = 1				# Sitka
 			province_id = 2				# Yakutat
+			province_id = 766			# Sassari
+			province_id = 769			# Postojna
+			province_id = 773			# Karlovac
+			province_id = 1387			# Kuala Lumpur
+			province_id = 1390			# Kuantan
+			province_id = 1422			# Muraleve
+			province_id = 1564			# Caozhou
+			province_id = 1884			# Freetown
+			province_id = 2094			# Kimberley
+			province_id = 2153			# Durango
+			province_id = 2157			# Culiacan
+			province_id = 2295			# Lima
+			province_id = 2323			# La Serena
 			province_id = 2500			# Kalgoorlie
 			province_id = 2503			# Wiluna
+			province_id = 1659			# Kobe
+			province_id = 2575			# Ipoh
 			province_id = 2601			# Sandy Desert
 			province_id = 2605			# Gibson's Desert
+			province_id = 695			# Königsberg
+			province_id = 2610
 		}
 		NOT = { trade_goods = precious_metal }
 	}
 
 	mean_time_to_happen =  {
-		months = 36
+		months = 12
 	}
 
 	title = "EVTNAME1100"
@@ -28,6 +45,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA1100"
 		trade_goods = precious_metal
+		life_rating = 5
 		add_province_modifier = {
 			name = gold_rush
 			duration = 1825
@@ -60,10 +78,12 @@ province_event = {
 
 	title = "EVTNAME1100"
 	desc = "EVTDESC1100"
+	picture = ""
 
 	option = {
 		name = "EVTOPTA1100"
 		trade_goods = precious_metal
+		life_rating = 5
 		add_province_modifier = {
 			name = gold_rush
 			duration = 1825
@@ -96,6 +116,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA1100"
 		trade_goods = precious_metal
+		life_rating = 5
 		add_province_modifier = {
 			name = gold_rush
 			duration = 1825
@@ -113,10 +134,7 @@ province_event = {
 
 	trigger = {
 		year = 1861
-		OR = {
-			province_id = 93			# Pocatello
-			province_id = 2513			# Dunedin
-		}
+		province_id = 93			# Pocatello
 		NOT = { trade_goods = precious_metal }
 	}
 
@@ -126,10 +144,12 @@ province_event = {
 
 	title = "EVTNAME1100"
 	desc = "EVTDESC1100"
+	picture = ""
 
 	option = {
 		name = "EVTOPTA1100"
 		trade_goods = precious_metal
+		life_rating = 5
 		add_province_modifier = {
 			name = gold_rush
 			duration = 1825
@@ -196,7 +216,7 @@ province_event = {
 		year = 1874
 		province_id = 122
 		owner = { has_country_flag = custers_expedition_sent }
-		NOT = { trade_goods = precious_metal } 
+		NOT = { trade_goods = precious_metal }
 	}
 	
 	mean_time_to_happen = {
@@ -234,14 +254,17 @@ province_event = {
 
 	mean_time_to_happen =  {
 		months = 12
+
 	}
 
 	title = "EVTNAME1100"
 	desc = "EVTDESC1100"
+	picture = ""
 
 	option = {
 		name = "EVTOPTA1100"
 		trade_goods = precious_metal
+		life_rating = 5
 		add_province_modifier = {
 			name = gold_rush
 			duration = 1825
@@ -261,23 +284,53 @@ province_event = {
 	id = 1105
 
 	trigger = {
-		year = 1867
+		year = 1821
 		OR = {
-			province_id = 1849			# Massawa
-			province_id = 2068			# Salisbury
 			province_id = 2084			# Angra Pequeña
 			province_id = 2091			# Mossel Bay
 			province_id = 2092			# Beaufort
-			province_id = 2094			# Kimberley
-			province_id = 2097			# Graaf Reinet
-			province_id = 2107			# Klerksdorp
+			province_id = 1697			# Figuig
 			province_id = 2108			# Mosega
+			province_id = 2107			# Klerksdorp
+			province_id = 2068			# Salisbury
 		}
 		NOT = { trade_goods = precious_metal }
 	}
 
 	mean_time_to_happen =  {
-		months = 24
+		months = 12
+	}
+
+	title = "EVTNAME1105"
+	desc = "EVTDESC1105"
+	picture = ""
+
+	option = {
+		name = "EVTOPTA1105"
+		trade_goods = precious_metal
+		add_province_modifier = {
+			name = switched_production
+			duration = 1825
+		}
+		life_rating = 5
+	}
+}
+
+province_event = {
+	
+	id = 1106
+
+	trigger = {
+		year = 1867
+		OR = {
+			province_id = 2097			# Graaf Reinet
+			province_id = 1849			# Massawa
+		}
+		NOT = { trade_goods = precious_metal }
+	}
+
+	mean_time_to_happen =  {
+		months = 12
 	}
 
 	title = "EVTNAME1105"
@@ -290,6 +343,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		life_rating = 5
 	}
 }
 
@@ -367,6 +421,7 @@ province_event = {
 
 	title = "EVTNAME1107"
 	desc = "EVTDESC1107"
+	picture = ""
 
 	option = {
 		name = "EVTOPTA1107"
@@ -451,6 +506,7 @@ province_event = {
 
 	title = "EVTNAME1107"
 	desc = "EVTDESC1107"
+	picture = ""
 
 	option = {
 		name = "EVTOPTA1107"
@@ -460,6 +516,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rating = 5
 	}
 }
 
@@ -509,6 +566,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -552,6 +610,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -595,6 +654,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -638,6 +698,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -681,6 +742,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -724,6 +786,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -767,6 +830,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -810,6 +874,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -853,6 +918,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -895,6 +961,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -941,6 +1008,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -986,6 +1054,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1033,6 +1102,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1080,6 +1150,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1122,6 +1193,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1164,6 +1236,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1209,6 +1282,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1251,6 +1325,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1298,6 +1373,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1340,6 +1416,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1382,6 +1459,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1424,6 +1502,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1466,6 +1545,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1515,6 +1595,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1557,6 +1638,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1600,6 +1682,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1642,6 +1725,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1684,6 +1768,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1726,6 +1811,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 
@@ -1768,6 +1854,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
 	}
 }
 

@@ -1,8 +1,5 @@
-owner = TIG
-controller = TIG
-add_core = GON
-add_core = SHW
-add_core = TIG
+owner = AWS
+controller = AWS
 add_core = AWS
 add_core = ETH
 trade_goods = coffee

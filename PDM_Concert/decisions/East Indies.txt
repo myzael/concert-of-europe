@@ -98,7 +98,6 @@ political_decisions = {
 		effect = {
 			set_global_flag = indonesia_formed
 			clr_country_flag = post_colonial_country
-			badboy = 25
 			prestige = 20
 			any_country = {
 				limit = {
@@ -725,72 +724,6 @@ political_decisions = {
 				factor = 0
 				badboy = 0.8
 			}
-		}
-	}
-
-	flores_sale = {
-		picture = map_east_indies
-		alert = no
-		potential = {
-			OR = {
-				tag = UPB
-				tag = POR
-			}
-			OR = {
-				owns = 1439
-				owns = 1444
-			}
-			war = no
-			NOT = {
-				owns = 1445
-				owns = 1440
-				owns = 1451
-				has_country_flag = flores_sale
-			}
-		}
-		
-		allow = {
-			prestige = 5
-			ideological_thought = 1
-			1445 = { 
-				owner = { 
-					relation = { who = POR value = 0 }
-					money = 50000
-				}
-
-			}	
-		}
-		
-		effect = {
-			set_country_flag = flores_sale
-			1445 = { 
-				owner = { 
-					country_event = 97125
-				}
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1851 }
-
-
-			}
-			modifier = {
-				factor = 0
-				is_greater_power = yes
-			}
-			modifier = {
-				factor = 0
-				1445 = { 
-					owner = { 
-						is_secondary_power = no
-						is_greater_power = no					
-					}
-				}
-			}	
 		}
 	}
 	

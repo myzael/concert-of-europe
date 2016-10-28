@@ -4,6 +4,8 @@ culture = azerbaijani
 culture = hazara
 culture = tajik
 culture = kurdish
+culture = luri
+culture = tabari
 religion = shiite
 government = absolute_monarchy
 plurality = 0.0
@@ -50,7 +52,6 @@ set_country_flag = existing_country
 
 foreign_training = yes_foreign_training
 foreign_weapons = yes_foreign_weapons
-finance_reform = yes_finance_reform
 academic_institutions = madrasahs
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
@@ -76,6 +77,7 @@ oob = "/1821/PER_oob.txt"
 	oob = "PER_oob.txt"
 	
 	set_country_flag = khanates_contested
+	set_country_flag = mohammed_shah
 	
 	foreign_training = yes_foreign_training
 	foreign_weapons = yes_foreign_weapons

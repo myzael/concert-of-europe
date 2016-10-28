@@ -2353,8 +2353,9 @@ country_event = {
 			owns = 1102
 			vassal_of = RUS
 		}
-		NOT = { has_country_flag = khanates_contested }
 	}
+	
+	fire_only_once = yes
 	
 	mean_time_to_happen = {
 		months = 18
@@ -2385,16 +2386,17 @@ country_event = {
 	id = 32541
 	title = "EVTNAME32541" #Treaty of Turkmenchay
 	desc = "EVTDESC32541"
-	picture = "treaty"
+	picture = "turkmenchay_treaty"
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = "There is nothing we can do."
+		set_country_flag = turkmenchay_treaty
 		RUS = {
 			end_war = THIS
-			relation = { who = THIS value = 200 }
-			diplomatic_influence = { who = THIS value = 100 }
+			relation = { who = THIS value = 100 }
+			diplomatic_influence = { who = THIS value = 50 }
 		}
 		1098 = {
 			add_core = RUS
@@ -2492,7 +2494,7 @@ country_event = {
 	id = 32542
 	title = "EVTNAME32542" #Persian victory in Russo-Persian War (1826-1828)
 	desc = "EVTDESC32542"
-	picture = "sultan"
+	picture = "turkmenchay_treaty"
 	
 	trigger = {
 		tag = PER
@@ -2613,6 +2615,8 @@ country_event = {
 			war_with = PER
 		}
 	}
+	
+	fire_only_once = yes
 	
 	mean_time_to_happen = {
 		months = 24

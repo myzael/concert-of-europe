@@ -1,6 +1,7 @@
-owner = PER
-controller = PER
-add_core = PER
+owner = KAL
+controller = KAL
+add_core = KAL
+add_core = BLC
 trade_goods = fruit
-life_rating = 35
+life_rating = 30
 terrain = semi_desert_hills

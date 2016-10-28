@@ -1,4 +1,4 @@
-political_decisions = {
+﻿political_decisions = {
 	CPL_recognized = {
 		picture = unite_with_poland
 		potential = {

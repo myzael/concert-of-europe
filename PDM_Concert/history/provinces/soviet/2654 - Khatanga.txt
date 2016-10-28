@@ -1,5 +1,7 @@
-add_core = RUS
-add_core = SIB
-trade_goods = timber
-terrain = tundra_hills
-life_rating = 15
+owner = BUK
+controller = BUK
+add_core = BUK
+add_core = TKM
+trade_goods = grain
+life_rating = 30
+terrain = semi_desert

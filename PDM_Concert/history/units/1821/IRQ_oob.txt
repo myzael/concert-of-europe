@@ -1,4 +1,13 @@
 
+leader = {
+	name = "Davoud Pasha"
+	type = land
+	date = 1820.1.1
+	personality = aggressive
+	background = expert_raider
+	prestige = 0.1
+}
+
 army = {
 	name = "Army of Iraq"
 	location = 926

@@ -21,6 +21,7 @@ country_event = {
 	trigger = {
 		owns = 1204
 		civilized = yes
+		NOT = { exists = TKM }
 		OR = {
 			revolution_n_counterrevolution = 1
 			great_wars_enabled = yes
@@ -60,6 +61,9 @@ country_event = {
 		1116 = { add_core = TKM } #Gorgan
 		1150 = { add_core = TKM } #Bojnurd
 		1147 = { add_core = TKM } #Mashhad
+		2654 = { add_core = TKM } #Chardzhou
+		TKM = { civilized = yes }
+		TKM = { government = presidential_dictatorship }
 	}
 }
 
@@ -77,6 +81,7 @@ country_event = {
 
 	trigger = {
 		owns = 2702
+		NOT = { exists = KAZ }
 		OR = {
 			nationalism_n_imperialism = 1
 			year = 1870
@@ -127,6 +132,8 @@ country_event = {
 				militancy = 6
 			}
 		}
+		KAZ = { civilized = yes }
+		KAZ = { government = presidential_dictatorship }
 	}
 }
 
@@ -178,22 +185,21 @@ country_event = {
 	option = {
 		name = "Preposturous!"
 		set_global_flag = uzbekistan_created
-		BUK = {
-			all_core = { remove_core = BUK }
-		}
 		KHI = {
 			all_core = { remove_core = KHI }
 		}
-		1193 = { add_core = UZB } #Kyzylorda
-		1192 = { add_core = UZB } #Nukus
-		1191 = { add_core = UZB } #Khiva
-		1198 = { add_core = UZB } #Bukhara
-		1200 = { add_core = UZB } #Qarshi
-		1201 = { add_core = UZB } #Khojand
-		1199 = { add_core = UZB } #Samarkand
-		1197 = { add_core = UZB } #Shymkent
-		1195 = { add_core = UZB } #Tashkent
-		1202 = { add_core = UZB } #Kokand
+		1193 = { add_core = BUK } #Kyzylorda
+		1192 = { add_core = BUK } #Nukus
+		1191 = { add_core = BUK } #Khiva
+		1198 = { add_core = BUK } #Bukhara
+		1200 = { add_core = BUK } #Qarshi
+		1201 = { add_core = BUK } #Khojand
+		1199 = { add_core = BUK } #Samarkand
+		1197 = { add_core = BUK } #Shymkent
+		1195 = { add_core = BUK } #Tashkent
+		1202 = { add_core = BUK } #Kokand
+		BUK = { civilized = yes }
+		BUK = { government = presidential_dictatorship }
 	}
 }
 
@@ -331,6 +337,7 @@ country_event = {
 
 	trigger = {
 		owns = 1207
+		NOT = { exists = TAJ }
 		civilized = yes
 		OR = {
 			revolution_n_counterrevolution = 1
@@ -372,6 +379,8 @@ country_event = {
 		1211 = { add_core = TAJ } #Balkh
 		1209 = { add_core = TAJ } #Kabul
 		1213 = { add_core = TAJ } #Bamyan
+		TAJ = { civilized = yes }
+		TAJ = { government = presidential_dictatorship }
 	}
 }
 
@@ -425,13 +434,18 @@ country_event = {
 		KOK = {
 			all_core = { remove_core = KOK }
 		}
-		1190 = { add_core = KYR } #Naryn
-		1195 = { add_core = KYR } #Tashkent
-		1186 = { add_core = KYR } #Alma Ata
-		1189 = { add_core = KYR } #Bishkek
-		1208 = { add_core = KYR } #Khorug
-		1203 = { add_core = KYR } #Osh
-		1202 = { add_core = KYR } #Kokand
+		1190 = { add_core = KOK } #Naryn
+		1195 = { add_core = KOK } #Tashkent
+		1186 = { add_core = KOK } #Alma Ata
+		1189 = { add_core = KOK } #Bishkek
+		1208 = { add_core = KOK } #Khorug
+		1203 = { add_core = KOK } #Osh
+		1202 = { add_core = KOK } #Kokand
+		KOK = {
+			civilized = yes
+			primary_culture = kirgiz
+			government = presidential_dictatorship
+		}
 	}
 }
 

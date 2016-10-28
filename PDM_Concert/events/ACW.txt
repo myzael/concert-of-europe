@@ -323,14 +323,9 @@ country_event = {
 #John Brown's Raid
 country_event = {
 	id = 16010
-	title = "EVTNAME16010"
+	title = "Death of John Brown"
 	desc = "EVTDESC16010"
-	news = yes
-	news_desc_long = "EVTDESC16010_NEWS_LONG"
-	news_desc_medium = "EVTDESC16010_NEWS_MEDIUM"
-	news_desc_short = "EVTDESC16010_NEWS_SHORT"
 	picture = "Execution"
-	major = yes
 	
 	trigger = {
 		tag = USA
@@ -374,18 +369,30 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA16010"
+		name = "A murderer and a traitor he was, let him hang!"
 		set_country_flag = john_browns_raid
 		any_pop = {
 			limit = {
 				has_pop_culture = dixie
 			}
-			militancy = 1
+			militancy = -2
 			consciousness = 3
 			ideology = {
 				value = reactionary
 				factor = 0.05
 			}
+		}
+	}
+
+	option = {
+		name = "And it was all for just reasons..."
+		set_country_flag = john_browns_raid
+		any_pop = {
+			limit = {
+				has_pop_culture = yankee
+			}
+			militancy = 3
+			consciousness = -4
 		}
 	}
 }
@@ -970,7 +977,7 @@ country_event = {
 #Knights of The Golden Circle
 province_event = {
 	id = 16090
-	title = "EVTNAME16090"
+	title = "Clans Organize"
 	desc = "EVTDESC16090"
 	
 	trigger = {

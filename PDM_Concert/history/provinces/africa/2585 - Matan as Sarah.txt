@@ -1,4 +1,6 @@
-trade_goods = wool
-life_rating = 10
-terrain = desert
-colonial = 1
+owner = SWE
+controller = SWE
+trade_goods = cotton
+life_rating = 35
+terrain = insular
+colonial = 2

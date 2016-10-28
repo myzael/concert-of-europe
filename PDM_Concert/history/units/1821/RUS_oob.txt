@@ -6,6 +6,11 @@ FIN = {
 	level = 5
 	influence_value = 0
 }
+AKH = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
 CPL = {
 	value = 100
 	level = 5

@@ -1,7 +1,5 @@
 capital = 2310
 primary_culture = south_andean
-culture = peruvian
-culture = bolivian
 religion = catholic
 government = presidential_dictatorship
 plurality = 0.0

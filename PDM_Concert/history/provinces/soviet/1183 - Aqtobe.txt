@@ -1,7 +1,4 @@
-owner = RUS
-controller = RUS
 add_core = RUS
 trade_goods = wool
-life_rating = 35
+life_rating = 30
 terrain = dry_grassland
-colonial = 1

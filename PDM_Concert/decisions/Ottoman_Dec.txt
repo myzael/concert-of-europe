@@ -195,10 +195,8 @@ political_decisions = {
 			set_country_flag = fighting_for_crimea
 			badboy = 6
 			968 = { add_core = TUR }
-			969 = { add_core = TUR }
 			970 = { add_core = TUR }
 			973 = { add_core = CRI }
-			975 = { add_core = CRI }
 			976 = { add_core = CRI }
 			979 = { add_core = CRI }
 			1047 = { add_core = CRI }

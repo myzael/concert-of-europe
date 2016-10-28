@@ -1,168 +1,4 @@
 country_event = {
-	id = 97055
-	title = "EVTNAME97055" #End of the Confederation?
-	desc = "EVTDESC97055"
-	news = yes
-	news_title = "EVTNAME97055_NEWS_TITLE"
-	news_desc_long = "EVTDESC97055_NEWS_LONG"
-	news_desc_medium = "EVTDESC97055_NEWS_MEDIUM"
-	news_desc_short = "EVTDESC97055_NEWS_SHORT"
-	picture = "demonstration"
-	major = yes
-
-	fire_only_once = yes
-
-	trigger = {	exists = yes
-		tag = PBC
-		war = no
-		has_recently_lost_war = yes
-		OR = {
-			AND = {
-				NOT = { owns = 2305 }
-				NOT = { owns = 2370 }
-			}
-			AND = {
-				exists = PEU
-				NOT = { is_our_vassal = PEU }
-				is_our_vassal = SPU
-			}
-		}
-		NOT = { has_country_flag = end_of_the_confederation }
-	}
-
-	mean_time_to_happen = {
-		months = 2
-	}
-	
-	immediate = {
-		set_country_flag = end_of_the_confederation
-	}
-
-	option = {
-		name = "So must it be."
-		prestige = -5
-		badboy = -2
-		random_country = {
-			limit = {
-				tag = PEU
-				vassal_of = PBC
-			}
-			set_global_flag = first_pbc_fell
-			THIS = { release_vassal = PEU }
-		}
-		random_country = {
-			limit = {
-				tag = SPU
-				vassal_of = PBC
-			}
-			THIS = { release_vassal = SPU }
-		}
-		random_owned = {
-			limit = {
-				province_id = 2295
-				NOT = { exists = PEU }
-			}
-			owner = { release = PEU }
-		}
-		random_owned = {
-			limit = {
-				province_id = 2304
-				NOT = { exists = SPU }
-			}
-			owner = { release = SPU }
-		}
-		PBC = {
-			all_core = { remove_core = PBC }
-		}
-		random_owned = {
-			limit = { province_id = 2313 }
-			owner = { capital = 2313 }
-		}
-		change_tag = BOL
-		any_country = {
-			limit = {
-				OR = {
-					tag = CHL
-					tag = ARG
-					tag = LPL
-					tag = PEU
-				}
-			}
-			relation = { who = BOL value = 300 }
-		}
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 1.5
-				NOT = { owns = 2295 }
-			}
-		}
-	}
-
-	option = {
-		name = "Never! The Confederation lives on!"
-		badboy = 2
-		all_core = {
-			limit = { is_core = PEU }
-			remove_core = PBC
-		}
-		any_owned = {
-			limit = { is_core = PEU }
-			any_pop = { militancy = 6 }
-			add_province_modifier = {
-				name = nationalist_agitation
-				duration = 1095
-			}
-		}
-		random_country = {
-			limit = {
-				tag = PEU
-				vassal_of = PBC
-			}
-			THIS = {
-				release_vassal = PEU
-				leave_alliance = PEU
-				war = {
-					target = PEU
-					attacker_goal = {
-						casus_belli = annex_core_country
-					}
-					call_ally = yes
-				}
-			}
-		}
-		random_country = {
-			limit = {
-				tag = SPU
-				vassal_of = PBC
-			}
-			THIS = {
-				release_vassal = SPU
-				leave_alliance = SPU
-				war = {
-					target = SPU
-					attacker_goal = {
-						casus_belli = annex_core_country
-					}
-					call_ally = yes
-				}
-			}
-		}
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 1.5
-				owns = 2295
-			}
-			modifier = {
-				factor = 0
-				NOT = { total_amount_of_divisions = 1 }
-			}
-		}
-	}
-}
-
-country_event = {
 	id = 97060
 	title = "EVTNAME97060" #The Uruguayan Crisis
 	desc = "EVTDESC97060"
@@ -174,8 +10,9 @@ country_event = {
 
 	fire_only_once = yes
 
-	trigger = {	exists = yes
+	trigger = {
 		tag = BRZ
+		exists = yes
 		war = no
 		neighbour = URU
 		year = 1864
@@ -317,8 +154,9 @@ country_event = {
 	desc = "EVTDESC97065"
 	picture = "administration"
 
-	trigger = {	exists = yes
+	trigger = {
 		tag = URU
+		exists = yes
 		has_country_flag = war_with_brazil
 		ruling_party_ideology = conservative
 		OR = {
@@ -405,8 +243,9 @@ country_event = {
 
 	fire_only_once = yes
 
-	trigger = {	exists = yes
+	trigger = {
 		tag = ECU
+		exists = yes
 		government = democracy
 		year = 1842
 		election = yes
@@ -501,8 +340,9 @@ country_event = {
 
 	fire_only_once = yes
 
-	trigger = {	exists = yes
+	trigger = {
 		tag = ECU
+		exists = yes
 		government = democracy
 		year = 1860
 		NOT = { year = 1885 }
@@ -598,12 +438,13 @@ country_event = {
 	desc = "EVTDESC97076"
 	picture = "BurkeandWills"
 	
-	trigger = {	exists = yes
-		war = no
+	trigger = {
+		exists = yes
 		2549 = {
 			empty = yes
 			is_core = THIS
 		}
+		war = no
 		OR = {
 			owns = 2404
 			owns = 2321
@@ -667,18 +508,42 @@ country_event = {
 }
 
 country_event = {
+	id = 97078
+	title = "EVTNAME97078" #Settling Galapagos
+	desc = "EVTDESC97078"
+	picture = "Expansion"
+	
+	trigger = {
+		owns = 2279
+		2285 = { empty = yes }
+		war = no
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = "For $COUNTRY$!"
+		treasury = -1000
+		2285 = { secede_province = THIS }
+	}
+}
+
+country_event = {
 	id = 97080
 	title = "EVTNAME97080" #Occupation of Araucania
 	desc = "EVTDESC97080"
 	picture = "administration"
 	
-	trigger = {	exists = yes
-		OR = {		tag = CHL
-					tag = PTG
+	trigger = {
+		OR = {
+			tag = CHL
+			tag = PBC
 		}
-		OR = {		
-			2328 = { empty = yes }
-			2329 = { empty = yes }
+		exists = yes
+		OR = {
+			2332 = { empty = yes }
 			2333 = { empty = yes }
 			2334 = { empty = yes }
 			2335 = { empty = yes }
@@ -715,11 +580,11 @@ country_event = {
 	}
 	
 	option = {
-		name = "For the glory of our country!"
+		name = "For the glory of Chile!"
 		prestige = 1
 		random_owned = {
 			limit = {
-				2329 = { empty = no }
+				2332 = { empty = no }
 				2333 = { empty = no }
 				2334 = { empty = no }
 				2335 = { empty = no }
@@ -737,7 +602,7 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				2329 = { empty = no }
+				2332 = { empty = no }
 				2333 = { empty = no }
 				2334 = { empty = no }
 				2335 = { empty = no }
@@ -754,7 +619,7 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				2329 = { empty = no }
+				2332 = { empty = no }
 				2333 = { empty = no }
 				2334 = { empty = no }
 				2335 = { empty = no }
@@ -770,7 +635,7 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				2329 = { empty = no }
+				2332 = { empty = no }
 				2333 = { empty = no }
 				2334 = { empty = no }
 				2335 = { empty = no }
@@ -785,7 +650,7 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				2329 = { empty = no }
+				2332 = { empty = no }
 				2333 = { empty = no }
 				2334 = { empty = no }
 				2335 = { empty = no }
@@ -799,7 +664,7 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				2329 = { empty = no }
+				2332 = { empty = no }
 				2333 = { empty = no }
 				2334 = { empty = no }
 				2335 = { empty = no }
@@ -812,7 +677,7 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				2329 = { empty = no }
+				2332 = { empty = no }
 				2333 = { empty = no }
 				2334 = { empty = no }
 				2335 = { empty = no }
@@ -824,7 +689,7 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				2329 = { empty = no }
+				2332 = { empty = no }
 				2333 = { empty = no }
 				2334 = { empty = no }
 				2335 = { empty = no }
@@ -835,39 +700,146 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				2335 = { empty = no }
-				2334 = { empty = no }				
-				2333 = { empty = no }				
-				2329 = { empty = yes }
-				2335 = { owned_by = THIS }
-			}
-			2329 = { secede_province = THIS }
-		}		
-		random_owned = {
-			limit = {
-				2334 = { empty = no }				
+				2332 = { empty = no }
 				2333 = { empty = no }
+				2334 = { empty = no }
 				2335 = { empty = yes }
-				2333 = { owned_by = THIS }
+				2334 = { owned_by = THIS }
 			}
 			2335 = { secede_province = THIS }
 		}
 		random_owned = {
 			limit = {
-				2334 = { empty = no }
+				2332 = { empty = no }
+				2333 = { empty = no }
+				2334 = { empty = yes }
+				2333 = { owned_by = THIS }
+			}
+			2334 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2332 = { empty = no }
 				2333 = { empty = yes }
-				2334 = { owned_by = THIS }
+				2332 = { owned_by = THIS }
 			}
 			2333 = { secede_province = THIS }
 		}
 		random_owned = {
 			limit = {
-				2332 = { empty = no }			
-				2334 = { empty = yes }
-				2332 = { owned_by = THIS }
+				2332 = { empty = yes }
+				2328 = { owned_by = THIS }
 			}
-			2334 = { secede_province = THIS }
+			2332 = { secede_province = THIS }
 		}
+	}
+}
+
+country_event = {
+	id = 97084
+	title = "EVTNAME97084" #Claiming the Pampas
+	desc = "EVTDESC97084"
+	picture = "Expansion"
+	
+	trigger = {
+		OR = {
+			tag = ARG
+			tag = LPL
+		}
+		exists = yes
+		OR = {
+			2352 = { empty = yes } #Mar del Plata
+			2354 = { empty = yes } #Bahia Blanca
+			2355 = { empty = yes } #Carmen
+			2350 = { empty = yes } #Azul
+			2353 = { empty = yes } #Trenque Lanquen
+			2393 = { empty = yes } #Telen
+			2395 = { empty = yes } #Curaco
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 10
+	}
+
+	option = {
+		name = "We must claim the Pampas."
+		random_owned = {
+			limit = {
+				2352 = { empty = no }
+				2354 = { empty = no }
+				2355 = { empty = no }
+				2350 = { empty = no }
+				2353 = { empty = no }
+				2393 = { empty = no }
+				2395 = { empty = yes }
+			}
+			2395 = {
+				secede_province = THIS
+			}
+		}
+		random_owned = {
+			limit = {
+				2352 = { empty = no }
+				2354 = { empty = no }
+				2355 = { empty = no }
+				2350 = { empty = no }
+				2353 = { empty = no }
+				2393 = { empty = yes }
+			}
+			2393 = {
+				secede_province = THIS
+			}
+		}
+		random_owned = {
+			limit = {
+				2352 = { empty = no }
+				2354 = { empty = no }
+				2355 = { empty = no }
+				2350 = { empty = no }
+				2353 = { empty = yes }
+			}
+			2353 = {
+				secede_province = THIS
+			}
+		}
+		random_owned = {
+			limit = {
+				2352 = { empty = no }
+				2354 = { empty = no }
+				2355 = { empty = no }
+				2350 = { empty = yes }
+			}
+			2350 = {
+				secede_province = THIS
+			}
+		}
+		random_owned = {
+			limit = {
+				2352 = { empty = no }
+				2354 = { empty = no }
+				2355 = { empty = yes }
+			}
+			2355 = {
+				secede_province = THIS
+			}
+		}
+		random_owned = {
+			limit = {
+				2352 = { empty = no }
+				2354 = { empty = yes }
+			}
+			2354 = {
+				secede_province = THIS
+			}
+		}
+		random_owned = {
+			limit = {
+				2352 = { empty = yes }
+			}
+			2352 = {
+				secede_province = THIS
+			}
 		}
 	}
 }
@@ -878,12 +850,12 @@ country_event = {
 	desc = "EVTDESC97085"
 	picture = "administration"
 	
-	trigger = {	exists = yes
+	trigger = {
 		OR = {
 			tag = ARG
 			tag = LPL
-			tag = PTG
 		}
+		exists = yes
 		OR = {
 			2332 = { empty = yes }
 			2333 = { empty = yes }
@@ -918,7 +890,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "For the glory of our country!"
+		name = "For the glory of Argentina!"
 		prestige = 1
 		random_owned = {
 			limit = {
@@ -1113,7 +1085,6 @@ province_event = {
 		}
 	}
 }
-		
 
 country_event = {
 	id = 97090
@@ -1125,7 +1096,10 @@ country_event = {
 	
 	option = {
 		name = "Sign the treaty."
-		CHL_2332 = { add_core = CHL }
+		CHL_2332 = {
+			add_core = CHL
+			add_core = THIS
+		}
 		relation = {
 			who = FROM
 			value = 50
@@ -1149,10 +1123,10 @@ country_event = {
 		FROM = {
 			any_owned = {
 				limit = {
-					is_core = CHL
+					is_core = THIS
 					is_core = PTG
 				}
-				secede_province = CHL
+				secede_province = THIS
 			}
 		}
 		ai_chance = {
@@ -1170,7 +1144,7 @@ country_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					any_owned_province = { is_core = CHL }
+					any_owned_province = { is_core = THIS }
 				}
 			}
 			modifier = {
@@ -1182,9 +1156,18 @@ country_event = {
 	
 	option = {
 		name = "There is no need for such an agreement."
-		CHL_2332 = { add_core = CHL }
-		2399 = { add_core = CHL }
-		2400 = { add_core = CHL }
+		CHL_2332 = {
+			add_core = CHL
+			add_core = THIS
+		}
+		2399 = {
+			add_core = CHL
+			add_core = THIS
+		}
+		2400 = {
+			add_core = CHL
+			add_core = THIS
+		}
 		random_owned = {
 			limit = {
 				FROM = { tag = ARG }
@@ -1227,14 +1210,125 @@ country_event = {
 			modifier = {
 				factor = 2
 				FROM = {
-					any_owned_province = { is_core = CHL }
+					any_owned_province = { is_core = THIS }
 				}
 			}
 			modifier = {
 				factor = 2
 				any_owned_province = { is_core = FROM }
 			}
+			modifier = {
+				factor = 2
+				tag = PBC
+			}
 		}
 	}
 }
-		
+
+country_event = {
+	id = 97095
+	title = "EVTNAME97095" #Constitutional Controversy
+	desc = "EVTDESC97095"
+	picture = "deliberation"
+	major = yes
+	
+	trigger = {
+		exists = yes
+		capital_scope = { continent = south_america }
+		war = no
+		NOT = {
+			tag = UPB
+			has_country_flag = colombian_assistance
+			has_country_flag = liberal_constitution
+			has_country_flag = conservative_constitution
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "$COUNTRY$ needs its freedom."
+		set_country_flag = liberal_constitution
+		government = democracy
+		political_reform = wealth_voting
+		political_reform = gerrymandering
+		political_reform = state_equal_weight
+		ruling_party_ideology = liberal
+		add_country_modifier = {
+			name = national_confusion
+			duration = 365
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					type = officers
+					type = soldiers
+					type = aristocrats
+				}
+			}
+			scaled_militancy = {
+				factor = 2
+				ideology = conservative
+			}
+			scaled_militancy = {
+				factor = 4
+				ideology = reactionary
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 3
+				nationalvalue = nv_equality
+			}
+			modifier = {
+				factor = 9
+				nationalvalue = nv_liberty
+			}
+		}
+	}
+	
+	option = {
+		name = "$COUNTRY$ needs a firm hand."
+		set_country_flag = conservative_constitution
+		government = presidential_dictatorship
+		political_reform = landed_voting
+		political_reform = underground_parties
+		political_reform = appointed
+		ruling_party_ideology = conservative
+		add_country_modifier = {
+			name = national_confusion
+			duration = 365
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					type = bureaucrats
+					type = artisans
+					type = aristocrats
+				}
+			}
+			scaled_militancy = {
+				factor = 2
+				ideology = liberal
+			}
+			scaled_militancy = {
+				factor = 4
+				ideology = anarcho_liberal
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 9
+				nationalvalue = nv_order
+			}
+			modifier = {
+				factor = 19
+				nationalvalue = nv_might
+			}
+		}
+	}
+}

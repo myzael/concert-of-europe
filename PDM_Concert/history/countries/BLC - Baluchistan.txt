@@ -1,4 +1,4 @@
-capital = 1219
+capital = 1221
 primary_culture = baluchi
 religion = sunni
 government = absolute_monarchy
@@ -6,8 +6,9 @@ plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.02
 non_state_culture_literacy = 0
+
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -40,5 +41,58 @@ upper_house = {
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
+}
+
+set_country_flag = existing_country
+
+foreign_weapons = yes_foreign_weapons
+diplomatic_reform = interactive
+
+# Technologies
+flintlock_rifles = 1
+early_classical_theory_and_critique = 1
+
+# Inventions
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+oob = "BLC_oob.txt"
+
+1836.1.1 = {
+literacy = 0.02
+non_state_culture_literacy = 0
+
+foreign_weapons = yes_foreign_weapons
+academic_institutions = madrasahs
+taxation_reform = tax_farmers
+diplomatic_reform = interactive
+
+# Technologies
+flintlock_rifles = 1
+late_enlightenment_philosophy = 1
+private_banks = 1
+early_classical_theory_and_critique = 1
+}
+
+1861.1.1 = {
+	oob = "/1861/BLC_oob.txt"
+}
+1861.1.1 = {
+
+foreign_weapons = yes_foreign_weapons
+academic_institutions = madrasahs
+taxation_reform = tax_farmers
+diplomatic_reform = interactive
+
+# Technologies
+flintlock_rifles = 1
+late_enlightenment_philosophy = 1
+private_banks = 1
+early_classical_theory_and_critique = 1
+
+# Inventions
+
 }
 

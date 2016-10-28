@@ -1,13 +1,14 @@
 capital = 375
 primary_culture = dutch
 culture = flemish
+culture = frisian
 culture = boer
 religion = protestant
 government = prussian_constitutionalism
 plurality = 5
-nationalvalue = nv_liberty
-literacy = 0.54
-non_state_culture_literacy = 0.03
+nationalvalue = nv_order
+literacy = 0.82
+non_state_culture_literacy = 0.02
 civilized = yes
 prestige = 20
 
@@ -15,14 +16,14 @@ prestige = 20
 slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = landed_voting
-public_meetings = no_meeting
+public_meetings = yes_meeting
 press_rights = censored_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
 political_parties = underground_parties
 minorities_reform = limited
 immigration_policy = quota_immigration
-conscription=two_year_draft
+conscription = two_year_draft
 
 # Social Reforms
 wage_reform = no_minimum_wage

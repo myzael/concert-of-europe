@@ -4,4 +4,5 @@ add_core = RUS
 add_core = UKR
 trade_goods = fruit
 life_rating = 35
-terrain = marginal_farmland
+terrain = rich_farmland
+naval_base = 1

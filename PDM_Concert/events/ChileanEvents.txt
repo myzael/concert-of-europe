@@ -130,7 +130,7 @@ set_country_flag = DiegoPortales
 }
 
 country_event = {
-	id = 97050
+	id = 97050V2
 	title = "EVTNAME97050" #The Peru-Bolivian Confederation
 	desc = "EVTDESC97050"
 	picture = "deliberation"
@@ -160,7 +160,6 @@ country_event = {
 		name = "The PBC must fall."
 		set_country_flag = fight_the_PBC
 		prestige = 5
-		badboy = 2
 		leave_alliance = PBC
 		any_pop = {
 			dominant_issue = {
@@ -176,23 +175,12 @@ country_event = {
 				target = ARG
 				type = cut_down_to_size
 				months = 12 }
-			}
-		CHL = {	add_casus_belli = {
-				target = PBC
-				type = cut_down_to_size
-				months = 12 }
-			}
-		ARG = {	add_casus_belli = {
-				target = PBC
-				type = cut_down_to_size
-				months = 12 }
-			}
-
-			add_country_modifier = {
+			}		
+		add_country_modifier = {
 			name = usa_draft
 			duration = 365
-		}
-			war = {
+		}	
+				war = {
 					target = PBC
 					attacker_goal = {
 						type = cut_down_to_size
@@ -209,7 +197,7 @@ country_event = {
 		name = "Reconciling with the PBC is our only hope."
 		set_country_flag = peace_with_the_PBC
 		prestige = -3
-		badboy = -1
+		badboy = -3
 		relation = {
 			who = PBC
 			value = 100
@@ -349,19 +337,15 @@ country_event = {
 				any_pop = {
 					ideology = {
 						value = liberal
-						factor = -0.15}
+						factor = -0.25}
 						}
-					ideology = {
-						value = conservative
-						factor = -0.05}
-												
 		any_pop = {
-			militancy = 5
+			militancy = 15
 			consciousness = 5
 			}
 		define_general = {
-	name = "Manuel Bulnes"
-	personality = competent
+	name = Manuel Bulnes
+	personality = diligent
 	background = politician
 }
 		add_country_modifier = {
@@ -374,12 +358,12 @@ country_event = {
 		name = "Call for national unity."
 		set_country_flag = chl_anarquia
 		any_pop = {
-			militancy = 7
-			consciousness = 7
+			militancy = 20
+			consciousness = 10
 			}
 		add_country_modifier = {
 			name = national_instability
-			duration = 500
+			duration = 1000
 		}}
 	option = {	
 		name = "They are free to speak their mind."
@@ -391,17 +375,17 @@ country_event = {
 						factor = -0.50}
 						}
 		any_pop = {
-			militancy = 10
-			consciousness = 10
+			militancy = 25
+			consciousness = 15
 			}
 		define_general = {
-	name = "Ramon Freire"
-	personality = keen
+	name = Ramon Freire
+	personality = inspiring
 	background = cursed_luck
 }
 		add_country_modifier = {
 			name = national_instability
-			duration = 1500
+			duration = 1000
 		}
 }
 }
@@ -436,15 +420,15 @@ country_event = {
 						factor = 0.10}
 						}
 			scaled_militancy = {
-					factor = -10
+					factor = -20
 					ideology = reactionary
 				}
 			scaled_militancy = {
-					factor = -5
+					factor = -10
 					ideology = conservative
 				}	
 			scaled_militancy = {
-					factor = -3
+					factor = -5
 					ideology = liberal
 				}				
 		}	
@@ -460,15 +444,15 @@ country_event = {
 						factor = 0.15}
 						}
 			scaled_militancy = {
-					factor = -7
+					factor = -15
 					ideology = reactionary
 				}
 			scaled_militancy = {
-					factor = -7
+					factor = -15
 					ideology = conservative
 				}	
 			scaled_militancy = {
-					factor = -7
+					factor = -15
 					ideology = liberal
 				}				
 		}
@@ -484,15 +468,15 @@ country_event = {
 						factor = 0.15}
 						}
 			scaled_militancy = {
-					factor = -3
+					factor = -5
 					ideology = reactionary
 				}
 			scaled_militancy = {
-					factor = -5
+					factor = -10
 					ideology = conservative
 				}	
 			scaled_militancy = {
-					factor = -10
+					factor = -20
 					ideology = liberal
 				}				
 		}

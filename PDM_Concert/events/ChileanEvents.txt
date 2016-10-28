@@ -130,7 +130,7 @@ set_country_flag = DiegoPortales
 }
 
 country_event = {
-	id = 97050V2
+	id = 97050
 	title = "EVTNAME97050" #The Peru-Bolivian Confederation
 	desc = "EVTDESC97050"
 	picture = "deliberation"
@@ -186,18 +186,18 @@ country_event = {
 				target = PBC
 				type = cut_down_to_size
 				months = 12 }
-			}			
+			}
 
 			add_country_modifier = {
 			name = usa_draft
 			duration = 365
 		}
-#	can't get this shit to work			war = {
-#					target = PBC
-#					attacker_goal = {
-#						type = cut_down_to_size
-#					}
-#				}
+			war = {
+					target = PBC
+					attacker_goal = {
+						type = cut_down_to_size
+					}
+				}
 
 							
 		ai_chance = {
@@ -354,7 +354,7 @@ country_event = {
 					ideology = {
 						value = conservative
 						factor = -0.05}
-						}						
+												
 		any_pop = {
 			militancy = 5
 			consciousness = 5

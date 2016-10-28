@@ -338,6 +338,7 @@ political_decisions = {
 						casus_belli = status_quo
 					}
 					call_ally = no
+				}
 			}
 		}
 	}

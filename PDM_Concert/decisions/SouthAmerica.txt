@@ -138,57 +138,7 @@ political_decisions = {
 		}
 	}
 	
-	conquest_of_the_desert = {
-		potential = {
-			OR = {
-				tag = ARG
-				tag = LPL
-			}
-			OR = {
-				2391 = { empty = yes }
-				2392 = { empty = yes }
-				2394 = { empty = yes }
-			}
-			owns = 2395
-			NOT = { has_country_flag = conquest_of_the_desert }
-		}
-		allow = {
-			war = no
-			OR = {
-				is_greater_power = yes
-				state_n_government = 1
-				year = 1870
-			}
-		}
-		effect = {
-			set_country_flag = conquest_of_the_desert
-			prestige = 5
-			random_owned = {
-				limit = {
-					2394 = { empty = yes }
-					2392 = { empty = no }
-					2391 = { empty = no }
-				}
-				2394 = { secede_province = THIS }
-			}
-			random_owned = {
-				limit = {
-					2392 = { empty = yes }
-					2391 = { empty = no }
-				}
-				2392 = { secede_province = THIS }
-			}
-			random_owned = {
-				limit = {
-					2391 = { empty = yes }
-				}
-				2391 = { secede_province = THIS }
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+
 	
 	argentina_chile_border_treaty = {
 		picture = treaty_signing

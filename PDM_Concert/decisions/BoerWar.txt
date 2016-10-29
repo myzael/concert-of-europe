@@ -331,10 +331,10 @@ political_decisions = {
 			ENG = {
 				war = {
 					target = XHO
-						attacker_goal = {
+					attacker_goal = {
 						casus_belli = establish_protectorate_casus_belli
 					}
-						defender_goal = {
+					defender_goal = {
 						casus_belli = status_quo
 					}
 					call_ally = no

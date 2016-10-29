@@ -1,8 +1,9 @@
 capital = 2348
 primary_culture = platinean
+culture = south_andean
 religion = catholic
 government = democracy
-plurality = 0.0
+plurality = 1.0
 nationalvalue = nv_liberty
 literacy = 0.11
 non_state_culture_literacy = 0.01
@@ -11,12 +12,12 @@ civilized = yes
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
-vote_franschise = wealth_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
-press_rights = censored_press
+press_rights = state_press
 trade_unions = no_trade_unions
-voting_system = jefferson_method
-political_parties = gerrymandering
+voting_system = first_past_the_post
+political_parties = harassment
 minorities_reform = oppression
 immigration_policy = quota_immigration
 conscription = four_year_draft

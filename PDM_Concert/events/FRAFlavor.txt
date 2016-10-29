@@ -1605,3 +1605,53 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = 37300
+	title = "Luxembourg wants to join us"
+	desc = "Luxembourg has recently petitioned to join us as we now have become the dominant power in the region, should we accept or simply guarantee our friendship?"
+	picture = "ArcdeTriomphe"
+	
+	trigger = {
+		owns = 572
+		owns = 575
+		has_country_flag = crisis_on_the_rhine
+		has_unclaimed_cores = no
+		LUX = {
+			ai = yes
+			in_sphere = FRA
+			war = no
+		}
+		war = no
+		OR = {
+			LUX = { is_vassal = no }
+			is_our_vassal = LUX
+		}
+		NOT = { has_country_flag = no_luxembourg }
+		
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "Let them join us as our bretheren."
+		inherit = LUX
+		prestige = 6
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = "We don't want them, cooperation is enough."
+		prestige = -2
+		badboy = -1
+		set_country_flag = no_luxembourg
+		relation = { who = LUX value = 400 }
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

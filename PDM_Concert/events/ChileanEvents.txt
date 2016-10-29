@@ -157,7 +157,7 @@ country_event = {
 	}
 
 	option = {
-		name = "The PBC must fall."
+		name = "Prepare for war."
 		set_country_flag = fight_the_PBC
 		prestige = 5
 		badboy = 2
@@ -180,7 +180,7 @@ country_event = {
 		CHL = {	add_casus_belli = {
 				target = PBC
 				type = cut_down_to_size
-				months = 12 }
+				months = 24 }
 			}
 		ARG = {	add_casus_belli = {
 				target = PBC
@@ -192,12 +192,12 @@ country_event = {
 			name = usa_draft
 			duration = 365
 		}
-			war = {
-					target = PBC
-					attacker_goal = {
-						type = cut_down_to_size
-					}
-				}
+#I can't get this to work			war = {
+#					target = PBC
+#					attacker_goal = {
+#						type = cut_down_to_size
+#					}
+#				}
 
 							
 		ai_chance = {
@@ -206,7 +206,7 @@ country_event = {
 	}
 
 	option = {
-		name = "Reconciling with the PBC is our only hope."
+		name = "Mend the wound."
 		set_country_flag = peace_with_the_PBC
 		prestige = -3
 		badboy = -1
@@ -498,3 +498,249 @@ country_event = {
 		}
 }
 
+country_event = {
+	id = 198260505
+	title = "TIT198260505"
+	desc = "DSC198260505"
+	picture = "Vision"
+	trigger = {	exists = yes
+	tag = CHL
+	year = 1856
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+	
+		name = "He will have our support."
+		set_country_flag = sac_internvention
+		clergymen = {
+			militancy = -2
+			consciousness = 1
+			ideology = {
+						value = reactionary
+						factor = 0.15}
+						}				
+		}
+		bureaucrats = {
+			militancy = 2
+			consciousness = 4
+		}		
+		
+	}
+	option = {
+	
+		name = "Do not intervene."
+		clergymen = {
+			militancy = 1
+			consciousness = 2
+		any_pop = {
+					ideology = {
+						value = conservative
+						factor = 0.03}
+						}
+		}
+		
+	}	
+	option = {
+	
+		name = "The state must be separated from the Church."
+		clergymen = {
+			militancy = 2
+			consciousness = 4
+		}
+		bureaucrats = {
+			militancy = -1
+			consciousness = 2
+			ideology = {
+						value = liberal
+						factor = 0.15}
+		}
+		
+	}		
+	
+}
+
+country_event = {
+	id = 198260506
+	title = "TIT198260506"
+	desc = "DSC198260506"
+	picture = "crisis"
+	trigger = {	exists = yes
+	tag = CHL
+	has_country_flag = sac_internvention
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+	
+		name = "We don't need their support!"
+		prestige = 1		
+		remove_country_modifier =  sac_internvention
+		any_pop = {
+					ideology = {
+						value = conservative
+						factor = -0.05}
+						}
+		add_country_modifier = {
+			name = loss_of_support
+			duration = 365
+		}		
+		
+	}
+	option = {
+		name = "Make vague promises of change."
+		remove_country_modifier =  sac_internvention
+		prestige = -1
+		any_pop = {
+					ideology = {
+						value = conservative
+						factor = -0.01}
+						}
+		add_country_modifier = {
+			name = loss_of_support
+			duration = 365
+		}		
+		
+	}
+	option = {
+		name = "Apologize and present your resignation."
+		remove_country_modifier =  sac_internvention
+		prestige = -5
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist		
+	}	
+}
+
+country_event = {
+	id = 198260507
+	title = "TIT198260507"
+	desc = "DSC198260507"
+	picture = "emigration"
+	trigger = {	exists = yes
+	tag = CHL
+	has_country_flag = valparaisoharbor_built
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+	
+		name = "Offer them supplies and free land down south."
+		social_reform = open_immigration
+		money = -1000
+		add_country_modifier = {
+			name = the_homestead_act
+			duration = 3650		
+		}
+		relation = {
+			who = BOL
+			value = -25				
+			}
+		relation = {
+			who = PEU
+			value = -25				
+			}
+		relation = {
+			who = PBC
+			value = -50				
+			}
+		}
+	option = {
+	
+		name = "Just make a minor immigration reform."
+		social_reform = open_immigration
+		relation = {
+			who = PBC
+			value = -20				
+			}
+		}
+	option = {
+	
+		name = "Let's focus on our own people instead."
+		add_country_modifier = {
+			name = baby_boom
+			duration = 3650		
+		}			
+	}
+
+}
+
+country_event = {
+	id = 198260508
+	title = "TIT198260508"
+	desc = "DSC198260508"
+	picture = "Artillery"
+	trigger = {	exists = yes
+	tag = CHL
+	muzzle_loaded_rifles = 1
+	ENG = { breech_loaded_rifles = 1 }
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	option = {
+	
+		name = "Always victorious, never defeated!"
+		money = -30000
+		activate_technology = breech_loaded_rifles
+		officers = {
+			militancy = -2
+		}
+		relation = {
+			who = BOL
+			value = -25				
+			}
+		relation = {
+			who = PEU
+			value = -25				
+			}
+		relation = {
+			who = PBC
+			value = -50				
+			}
+		relation = {
+			who = ARG
+			value = -20				
+			}
+		set_country_flag = eng_guns
+		diplomatic_influence = { who = ENG value = 100 }		
+	}
+	option = {
+	
+		name = "That money is better spent on schools and hospitals."
+		officers = {
+			militancy = 2
+		}
+		soldiers = {
+			militancy = 1
+		}
+	}		
+	
+
+}

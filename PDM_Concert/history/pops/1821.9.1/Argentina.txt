@@ -45,10 +45,10 @@
 
 	}
 
-	labourers = {
+	farmers = {
 		culture = platinean
 		religion = catholic
-		size = 109825
+		size = 49825
 	}
 }
 #Junin (56000/14000 POPS)
@@ -88,7 +88,7 @@
 	farmers = {
 		culture = platinean
 		religion = catholic
-		size = 35550
+		size = 25550
 	}
 }
 #Azul (12000/3000 POPS)
@@ -109,7 +109,7 @@
 	farmers = {
 		culture = platinean
 		religion = catholic
-		size = 35700
+		size = 15700
 	}
 }
 #La Plata (4000/1000 POPS)
@@ -129,7 +129,7 @@
 	farmers = {
 		culture = platinean
 		religion = catholic
-		size = 39000
+		size = 19000
 	}
 }
 #Mar del Plata (12000/3000 POPS)
@@ -143,13 +143,13 @@
 	clergymen = {
 		culture = platinean
 		religion = catholic
-		size = 275
+		size = 75
 	}
 
 	farmers = {
 		culture = platinean
 		religion = catholic
-		size = 40700
+		size = 20700
 	}
 }
 #Under loose authority of Argentina 1836
@@ -257,7 +257,7 @@
 	farmers = {
 		culture = south_andean
 		religion = animist
-		size = 15700
+		size = 5700
 	}
 }
 #Corrientes Region (164000)
@@ -304,7 +304,7 @@
 	farmers = {
 		culture = platinean
 		religion = catholic
-		size = 29015
+		size = 19015
 	}
 
 	clergymen = {
@@ -488,7 +488,7 @@
 	farmers = {
 		culture = platinean
 		religion = catholic
-		size = 13825
+		size = 3825
 	}
 }
 #Santa Fe Region (72000)
@@ -517,7 +517,7 @@
 	farmers = {
 		culture = south_andean
 		religion = catholic
-		size = 15800
+		size = 5800
 	}
 }
 #Rosario (56000/14000 POPS)
@@ -562,7 +562,7 @@
 	farmers = {
 		culture = south_andean
 		religion = catholic
-		size = 49350
+		size = 19350
 	}
 }
 #Reconquista (8000/2000 POPS)

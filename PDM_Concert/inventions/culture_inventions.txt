@@ -1017,6 +1017,7 @@ social_darwinism = {
 		colonial_prestige = 1
 		war_exhaustion = -0.05
 		colonial_points = 50
+		colonial_life_rating = -5
 	}
 	
 	

@@ -652,17 +652,21 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 60
 	}
 	option = {
 	
 		name = "Offer them supplies and free land down south."
-		social_reform = open_immigration
 		money = -1000
 		add_country_modifier = {
 			name = the_homestead_act
 			duration = 3650		
 		}
+		any_pop = {
+			dominant_issue = {
+				value = open_immigration
+				factor = 0.1
+			}}		
 		relation = {
 			who = BOL
 			value = -25				
@@ -675,16 +679,16 @@ country_event = {
 			who = PBC
 			value = -50				
 			}
-		}
+		
+	}	
 	option = {
 	
-		name = "Just make a minor immigration reform."
-		social_reform = open_immigration
-		relation = {
-			who = PBC
-			value = -20				
-			}
-		}
+		name = "Focus on long-term immigration reforms."
+		any_pop = {
+			dominant_issue = {
+				value = open_immigration
+				factor = 0.2
+			}}}	
 	option = {
 	
 		name = "Let's focus on our own people instead."

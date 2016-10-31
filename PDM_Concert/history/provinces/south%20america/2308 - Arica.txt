@@ -1,5 +1,5 @@
-owner = SPA
-controller = SPA
+owner = PEU
+controller = CHL
 add_core = PEU
 trade_goods = sulphur
 life_rating = 35
@@ -13,7 +13,7 @@ colonial = 1
 1861.1.1 = {
 	owner = PEU
 	controller = PEU
-	add_core = CHL
+#	add_core = CHL
 	colonial = 0	
 	remove_core = SPU
 }

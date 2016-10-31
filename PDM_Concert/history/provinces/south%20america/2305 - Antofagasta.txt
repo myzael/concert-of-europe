@@ -1,5 +1,5 @@
-owner = BOL
-controller = BOL
+owner = PEU
+controller = CHL
 add_core = BOL
 trade_goods = copper
 life_rating = 35
@@ -12,7 +12,7 @@ colonial = 1
 1861.1.1 = {
 	owner = BOL
 	controller = BOL
-	add_core = CHL
+#	add_core = CHL
 	colonial = 0	
 	remove_core = SPU
 }

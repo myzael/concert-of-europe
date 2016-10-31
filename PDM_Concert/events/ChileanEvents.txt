@@ -1,10 +1,15 @@
 country_event = {
 	id = 198260501
-	title = "TIT1982605011"
+	title = "TIT198260501"
 	desc = "DSC198260501"
 	picture = "danishgovernment"
 	trigger = {	exists = yes
 	tag = CHL
+		war = no
+		NOT = {
+			truce_with = PBC
+			truce_with = BOL
+		}	
 	NOT = { year = 1838 }
 	NOT = {
 			has_country_flag = diegoportales
@@ -294,7 +299,7 @@ country_event = {
 		}
 		}	
 	option = {
-		name = "Frame the Bolivia and PerÃº, and make them pay!"
+		name = "Use this as an excuse to go to war."
 		remove_country_modifier = great_statesman
 		add_core = 2305
 		add_core = 2307
@@ -345,21 +350,21 @@ country_event = {
 	}
 	option = {
 	
-		name = "Backtrack and restrict civil liberties."
+		name = "Seize the newspapers and restrict civil liberties."
 		political_reform = no_meeting
 		set_country_flag = chl_anarquia
 				any_pop = {
 					ideology = {
 						value = liberal
-						factor = -0.15}
-						}
+						factor = -0.05}
 					ideology = {
 						value = conservative
-						factor = -0.05}
+						factor = -0.10}
+						}
 												
 		any_pop = {
 			militancy = 5
-			consciousness = 5
+			consciousness = 2
 			}
 		define_general = {
 	name = "Manuel Bulnes"
@@ -367,30 +372,47 @@ country_event = {
 	background = politician
 }
 		add_country_modifier = {
+			name = loss_of_support
+			duration = 365
+		}	
+		add_country_modifier = {
 			name = national_instability
 			duration = 1000
 		}
 		}	
 	option = {
 	
-		name = "Call for national unity."
-		set_country_flag = chl_anarquia
-		any_pop = {
-			militancy = 7
-			consciousness = 7
-			}
-		add_country_modifier = {
-			name = national_instability
-			duration = 500
-		}}
-	option = {	
-		name = "They are free to speak their mind."
-		political_reform = press_rights
+		name = "Censor those inciting violence."
+		political_reform = censored_press
 		set_country_flag = chl_anarquia
 				any_pop = {
 					ideology = {
 						value = conservative
-						factor = -0.50}
+						factor = -0.15}
+						}		
+		any_pop = {
+			militancy = 8
+			consciousness = 5
+			}
+		add_country_modifier = {
+			name = national_instability
+			duration = 500
+		}
+				define_general = {
+	name = "Ramon Freire"
+	personality = keen
+	background = cursed_luck
+}
+		
+		}
+	option = {	
+		name = "In fact, we support their freedom of speech."
+		political_reform = free_press
+		set_country_flag = chl_anarquia
+				any_pop = {
+					ideology = {
+						value = conservative
+						factor = -0.30}
 						}
 		any_pop = {
 			militancy = 10
@@ -453,7 +475,7 @@ country_event = {
 		}	
 	option = {
 	
-		name = "Balance the powers of the state."
+		name = "We will be ruled by our brightest."
 		set_country_flag = chl_constitucion
 		remove_country_flag = chl_anarquia
 		political_reform = wealth_weighted_voting
@@ -473,11 +495,11 @@ country_event = {
 			scaled_militancy = {
 					factor = -7
 					ideology = liberal
-				}				
+				}			
 		}
 			option = {
 	
-		name = "The government must serve the people."
+		name = "We will return the power to the people."
 		set_country_flag = chl_constitucion
 		remove_country_flag = chl_anarquia
 		political_reform = universal_voting
@@ -487,11 +509,11 @@ country_event = {
 						factor = 0.15}
 						}
 			scaled_militancy = {
-					factor = -3
+					factor = 2
 					ideology = reactionary
 				}
 			scaled_militancy = {
-					factor = -5
+					factor = -4
 					ideology = conservative
 				}	
 			scaled_militancy = {
@@ -754,5 +776,112 @@ country_event = {
 		}
 	}		
 	
+
+}
+#revolution of the 33 - 28 years later
+country_event = {
+	id = 198260509
+	title = "TIT198260509"
+	desc = "DSC198260509"
+	picture = "Rebellion"
+	fire_only_once = yes	
+	trigger = {
+	exists = yes
+	tag = CHL
+	has_country_flag = chl_constitucion
+	OR = {
+	political_parties = harassment
+	political_parties = underground_parties
+	political_parties = gerrymandering
+	}
+	NOT = {
+	has_country_flag = chl_rev51
+	}
+	}
+	
+	mean_time_to_happen = {
+		months = 1000
+	}
+
+	option = {
+		name = "Prepare for a fight."
+		set_country_flag = chl_rev51
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			scaled_militancy = {
+				factor = 7
+				ideology = liberal 
+			}				
+		}
+#not sure if this will work			
+		define_admiral = {
+	name = "Manuel Blanco Encalada"
+	personality = expert
+	background = turncoat
+}
+		add_country_modifier = {
+			name = national_instability
+			duration = 1500
+		}
+}
+option = {
+		name = "Fast-track reforms."
+		set_country_flag = chl_rev51
+		prestige = -5
+		political_reform = non_secret_ballots
+			scaled_militancy = {
+					factor = 6
+					ideology = reactionary
+				}
+			scaled_militancy = {
+					factor = 2
+					ideology = conservative
+				}	
+			scaled_militancy = {
+					factor = -2
+					ideology = liberal
+				}
+						add_country_modifier = {
+			name = loss_of_support
+			duration = 365
+		}
+		}
+}
+
+country_event = {
+	id = 198260510
+	title = "TIT198260510"
+	desc = "DSC198260510"
+	picture = "Rebellion"
+	fire_only_once = yes	
+	trigger = {	exists = yes
+	tag = CHL
+	NOT = {	year = 1824 }
+	}
+  
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Por la razón o la fuerza."
+add_country_modifier = {
+			name = military_man
+			duration = 216		
+		}		
+		define_general = {
+	name = "Bernardo O'Higgins"
+	personality = inspiring
+	background = natural_born_leader
+}
+define_admiral = {
+	name = "Thomas Cochrane"
+	personality = ballsy
+	background = questionable_loyalties
+}
+
+}
 
 }

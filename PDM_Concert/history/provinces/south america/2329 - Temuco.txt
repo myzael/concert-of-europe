@@ -1,7 +1,5 @@
-owner = CHL
-controller = CHL
-add_core = CHL
 add_core = PTG
-trade_goods = copper
-life_rating = 35
+trade_goods = timber
+life_rating = 24
 terrain = deciduous_forest_hills
+colonial = 2

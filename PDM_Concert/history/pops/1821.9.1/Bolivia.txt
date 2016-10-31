@@ -1,4 +1,4 @@
-#La Paz Region (784000)
+#2310 - 2321 La Paz Region (784000)
 #Ruled by Bolivia 1836
 #La Paz (392000/98000 POPS)
 2310 = {
@@ -35,7 +35,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 3000
+		size= 1000
 
 	}
 
@@ -118,7 +118,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 2100
+		size= 210
 
 	}
 

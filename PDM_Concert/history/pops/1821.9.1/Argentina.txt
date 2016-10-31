@@ -1,4 +1,4 @@
-#Buenos Aires Region (272000)
+#2348-2400 ;2554
 #Under rule of Argentina 1836
 #Buenos Aires (132000/33000 POPS)
 2348 = {
@@ -41,7 +41,7 @@
 	soldiers = {
 		culture = platinean
 		religion = catholic
-		size= 3000
+		size= 1000
 
 	}
 
@@ -69,13 +69,6 @@
 		culture = platinean
 		religion = catholic
 		size = 5100
-	}
-
-	soldiers = {
-		culture = platinean
-		religion = catholic
-		size= 3000
-
 	}
 
 	soldiers = {

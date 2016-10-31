@@ -1,4 +1,4 @@
-#Loreto Region (96000)
+#2286 - 2304 ;2578 Loreto Region (96000)
 #Ruled by Peru 1836
 #Iquitos (60000/15000 POPS)
 2286 = {
@@ -238,7 +238,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size= 1125
+		size= 112
 
 	}
 
@@ -772,12 +772,6 @@
 		culture = south_andean
 		religion = catholic
 		size = 2200
-	}
-
-	soldiers = {
-		culture = south_andean
-		religion = catholic
-		size= 3000
 	}
 
 	soldiers = {

@@ -16,7 +16,7 @@ political_decisions = {
 			exists = BEL
 		}
 		
-		effect = { 
+		effect = {
 			set_country_flag = cultuurstelsel
 			any_owned = {
 				limit = {
@@ -85,6 +85,7 @@ political_decisions = {
 					ideology = liberal
 				}
 			}
+			#looks good
 			any_pop = {
 				limit = {
 					OR = { 
@@ -124,7 +125,7 @@ political_decisions = {
 			has_country_flag = agrarische_wet
 			NOT = { ruling_party_ideology = reactionary }
 			}
-		}
+		
 		
 		effect = {
 			set_country_flag = ethische_politiek
@@ -135,16 +136,16 @@ political_decisions = {
 			clr_global_flag = cultuurstelsel
 			clr_global_flag = agrarische_wet
 			clr_country_flag = colonial_question
+			upper_house = {
+				ideology = reactionary
+				value = 0.25
+			} 			
 			any_pop = {
 				scaled_militancy = {
 					factor = -5
 					ideology = communist
 				}
 			}
-			upper_house = {
-				ideology = reactionary
-				value = 0.25
-			} 
 			any_pop = {
 				limit = {
 					OR = { 
@@ -156,10 +157,19 @@ political_decisions = {
 					factor = -0.1
 					value = liberal
 				}
+			}
+			any_pop = {
+				limit = {
+					OR = { 
+						is_primary_culture = yes 
+						is_accepted_culture = yes
+					}
+				}
 				ideology = {
 					factor = -0.1
 					value = socialist
 				}
+			}			
 			}
 			ai_will_do = {
 				factor = 1
@@ -169,7 +179,6 @@ political_decisions = {
 				}
 			}
 		}
-	}
 	
 	DIM_landverhuurstelsel = {
 		picture = DIM_cultuurstelsel

@@ -203,6 +203,7 @@ oob = "/1821/ENG_oob.txt"
 	set_country_flag = mediated_belgian_independence
 	decision = canada_1861_start
 	decision = organize_british_columbia
+	decision = south_africa_1861_start
 	decision = annex_fiji
 	decision = north_borneo_company
 

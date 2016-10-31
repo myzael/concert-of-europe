@@ -671,7 +671,7 @@ east_slavic = {
 		color = {100 140 110}
 		first_names = { Alaksandr Alaksej Andrej Anton Barys Fabijan Ihnat Jakub Janka Jaska Jazep Jury Kiryla Kuzma Laur Leanid Leu Makar Michal Mikola Paval Piotra Raman Ryhor Siarhiej Stanislau Stefan Tama? Todar Valery Vasil Viktar Uladzimier Uladzislau Zmicier }
 		
-		last_names = { Alaksiuk Ausiannik Bialevic "Bulak-Balachovic" Carapuk Cvikievic Cybisau Dubiejka "Duz-Duseuski" Gurko Hryb Ivanou Jakubiecki Jaremich Jezavitau Kacanovic Kalinouski Kavalou Kraucou Kreceuski Ladnou Luckievich Miadziolka Prusynski "Rak-Michajlouski" Serada Skirmunt Smolic Stankievic "Sviatapolk-Mirski" ?pak Varonka Viacorka Viarsynin Viernikouski "Vitan-Dubiejkauski" Voranau Zacharka Zajac }
+		last_names = { Alaksiuk Ausiannik Bialevic "Bulak-Balachovic" Carapuk Cvikievic Cybisau Dubiejka "Duz-Duseuski" Gurko Hryb Ivanou Jakubiecki Jaremich Jezavitau Kacanovic Kalinouski Kavalou Kraucou Kreceuski Ladnou Luckievich Miadziolka Prusynski "Rak-Michajlouski" Serada Skirmunt Smolic Stankievic "Sviatapolk-Mirski" Varonka Viacorka Viarsynin Viernikouski "Vitan-Dubiejkauski" Voranau Zacharka Zajac }
 	}
 	ukrainian = {
 		color = {160 160 60}

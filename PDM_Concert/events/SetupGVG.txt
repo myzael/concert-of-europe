@@ -27,8 +27,6 @@ country_event = {
 			factor = 1
 			}
 		}
-	}
-}
 
 country_event = {
 	id = 2000001
@@ -53,8 +51,6 @@ country_event = {
 			factor = 1
 			}
 		}
-	}
-}
 
 country_event = {
 	id = 2000002
@@ -87,5 +83,4 @@ country_event = {
 			}
 		}
 	}
-}
 

@@ -169,7 +169,6 @@ political_decisions = {
 				}
 			}
 		}
-	}
 	
 	DIM_landverhuurstelsel = {
 		picture = DIM_cultuurstelsel

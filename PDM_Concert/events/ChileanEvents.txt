@@ -336,10 +336,19 @@ country_event = {
 	title = "TIT198260503"
 	desc = "DSC198260503"
 	picture = "Rebellion"
-	fire_only_once = yes	
+#	fire_only_once = yes	
 	trigger = {	exists = yes
+	OR = {
 	tag = CHL
+	tag = PEU
+	tag = PBC
+	tag = BOL
+	tag = ARG
+	tag = ECU
+	}
+	war = no
 	ruling_party_ideology = liberal
+
 	NOT = {	
 	has_country_flag = chl_anarquia
 	}
@@ -435,12 +444,19 @@ country_event = {
 	title = "TIT198260504"
 	desc = "DSC198260504"
 	picture = "Administration"
-	fire_only_once = yes	
+#	fire_only_once = yes	
 	trigger = {	exists = yes
+	OR = {
 	tag = CHL
-	ruling_party_ideology = liberal
+	tag = PEU
+	tag = PBC
+	tag = BOL
+	tag = ARG
+	tag = ECU
+	}
+#	ruling_party_ideology = liberal
 	has_country_flag = chl_anarquia
-	NOT = {	
+	NOT = {
 	has_country_modifier = national_instability
 	has_country_flag = chl_constitucion
 	}
@@ -453,7 +469,6 @@ country_event = {
 	
 		name = "We need a strong president with high authority."
 		set_country_flag = chl_constitucion
-		remove_country_flag = chl_anarquia
 		government = presidential_dictatorship
 				any_pop = {
 					ideology = {
@@ -471,13 +486,12 @@ country_event = {
 			scaled_militancy = {
 					factor = -3
 					ideology = liberal
-				}				
+				}
 		}	
 	option = {
 	
 		name = "We will be ruled by our brightest."
 		set_country_flag = chl_constitucion
-		remove_country_flag = chl_anarquia
 		political_reform = wealth_weighted_voting
 				any_pop = {
 					ideology = {
@@ -491,17 +505,16 @@ country_event = {
 			scaled_militancy = {
 					factor = -7
 					ideology = conservative
-				}	
+				}
 			scaled_militancy = {
 					factor = -7
 					ideology = liberal
-				}			
+				}		
 		}
 			option = {
 	
 		name = "We will return the power to the people."
 		set_country_flag = chl_constitucion
-		remove_country_flag = chl_anarquia
 		political_reform = universal_voting
 				any_pop = {
 					ideology = {
@@ -515,7 +528,7 @@ country_event = {
 			scaled_militancy = {
 					factor = -4
 					ideology = conservative
-				}	
+				}
 			scaled_militancy = {
 					factor = -10
 					ideology = liberal
@@ -523,6 +536,7 @@ country_event = {
 		}
 }
 
+#not sure if this works.
 country_event = {
 	id = 198260505
 	title = "TIT198260505"
@@ -544,10 +558,9 @@ country_event = {
 		clergymen = {
 			militancy = -2
 			consciousness = 1
-			ideology = {
-						value = reactionary
-						factor = 0.15}
-										
+#			ideology = {
+#						value = reactionary
+#						factor = 0.15}									
 		}
 		bureaucrats = {
 			militancy = 2
@@ -560,12 +573,12 @@ country_event = {
 		clergymen = {
 			militancy = 1
 			consciousness = 2
+		}
 		any_pop = {
 					ideology = {
 						value = conservative
 						factor = 0.03}
-						}
-		}
+						}		
 		
 	}	
 	option = {
@@ -578,9 +591,9 @@ country_event = {
 		bureaucrats = {
 			militancy = -1
 			consciousness = 2
-			ideology = {
-						value = liberal
-						factor = 0.15}
+#			ideology = {
+#						value = liberal
+#						factor = 0.15}
 		}
 		
 	}		
@@ -592,9 +605,17 @@ country_event = {
 	title = "TIT198260506"
 	desc = "DSC198260506"
 	picture = "crisis"
-	fire_only_once = yes
+#	fire_only_once = yes
 	trigger = {	exists = yes
+	OR = {
 	tag = CHL
+	tag = PEU
+	tag = PBC
+	tag = BOL
+	tag = ARG
+	tag = ECU
+	}
+	war = no
 	has_country_flag = sac_intervention
 	}
 	
@@ -784,10 +805,18 @@ country_event = {
 	title = "TIT198260509"
 	desc = "DSC198260509"
 	picture = "Rebellion"
-	fire_only_once = yes	
+#	fire_only_once = yes	
 	trigger = {
 	exists = yes
+	OR = {
 	tag = CHL
+	tag = PEU
+	tag = PBC
+	tag = BOL
+	tag = ARG
+	tag = ECU
+	}
+	war = no
 	has_country_flag = chl_constitucion
 	OR = {
 	political_parties = harassment
@@ -815,12 +844,6 @@ country_event = {
 				ideology = liberal 
 			}				
 		}
-#not sure if this will work			
-		define_admiral = {
-	name = "Manuel Blanco Encalada"
-	personality = expert
-	background = turncoat
-}
 		add_country_modifier = {
 			name = national_instability
 			duration = 1500
@@ -856,9 +879,9 @@ country_event = {
 	desc = "DSC198260510"
 	picture = "Rebellion"
 	fire_only_once = yes	
-	trigger = {	exists = yes
+	trigger = {	exists = yes 
 	tag = CHL
-	NOT = {	year = 1824 }
+	NOT = {	year = 1825 }
 	}
   
 	mean_time_to_happen = {
@@ -881,6 +904,103 @@ define_admiral = {
 	personality = ballsy
 	background = questionable_loyalties
 }
+define_admiral = {
+	name = "Manuel Blanco Encalada"
+	personality = expert
+	background = turncoat
+}
+
+}
+
+}
+
+country_event = {
+	id = 198260511
+	title = "TIT198260511"
+	desc = "DSC198260511"
+	picture = "market"
+	NOT = {
+	has_country_flag = samericapop
+	}
+	trigger = {	exists = yes 
+	OR = {
+	tag = CHL
+	tag = PEU
+	tag = BOL
+	tag = PBC
+	tag = ARG
+	tag = PRG
+	}
+	war = no
+	
+  }
+	mean_time_to_happen = {
+		days = 15
+	}
+
+	option = {
+		name = "The true triumph of reason is that it enables us to get along with those who do not possess it."
+		set_country_flag = samericapop
+		aristocrats = {
+		literacy = 0.9
+			dominant_issue = {
+				value = protectionism
+				factor = 0.90
+			}
+			}
+		artisans = {
+			dominant_issue = {
+				value = free_trade
+				factor = 0.90
+			}
+			}
+		bureaucrats = {
+		literacy = 0.5
+			dominant_issue = {
+				value = secularized
+				factor = 0.95
+			}
+			}
+		capitalists = {
+		literacy = 0.80
+			dominant_issue = {
+				value = state_capitalism
+				factor = 0.95
+			}
+			}
+		farmers = {
+		literacy = -0.05
+			dominant_issue = {
+				value = four_year_draft
+				factor = 0.05
+			}
+			}
+		labourers = {
+		literacy = -0.05
+			dominant_issue = {
+				value = four_year_draft
+				factor = 0.05
+			}
+			}
+		officers = {
+			dominant_issue = {
+				value = pro_military
+				factor = 0.05
+			}
+			}
+		soldiers = {
+			dominant_issue = {
+				value = pro_military
+				factor = 0.15
+			}
+			}
+		clergymen = {
+		literacy = 0.5
+			dominant_issue = {
+				value = moralism
+				factor = 0.95
+			}				
+		}
 
 }
 

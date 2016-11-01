@@ -919,11 +919,11 @@ country_event = {
 	title = "TIT198260511"
 	desc = "DSC198260511"
 	picture = "market"
-	NOT = {
-	add_country_flag = samericapop
-	}
-	fire_only_once = yes	
+#	fire_only_once = yes
 	trigger = {	exists = yes 
+	NOT = {
+			has_country_flag = sachei
+		}	
 	OR = {
 	tag = CHL
 	tag = PEU
@@ -941,7 +941,7 @@ country_event = {
 
 	option = {
 		name = "The true triumph of reason is that it enables us to get along with those who do not possess it."
-		set_country_flag = samericapop
+		set_country_flag = sachei
 		aristocrats = {
 		literacy = 0.9
 			dominant_issue = {
@@ -970,26 +970,28 @@ country_event = {
 			}
 			}
 		farmers = {
-		literacy = -0.02
+		literacy = -0.05
 			dominant_issue = {
 				value = four_year_draft
 				factor = 0.05
 			}
 			}
 		labourers = {
-		literacy = -0.25
+		literacy = -0.03
 			dominant_issue = {
 				value = four_year_draft
 				factor = 0.05
 			}
 			}
 		officers = {
+		literacy = 0.5
 			dominant_issue = {
 				value = pro_military
 				factor = 0.05
 			}
 			}
 		soldiers = {
+		literacy = 0.1
 			dominant_issue = {
 				value = pro_military
 				factor = 0.15

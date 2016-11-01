@@ -398,7 +398,7 @@ country_event = {
 	
 	option = {
 		name = "We have no choice. We cannot fight them."
-		civilized = no
+# DUPLICATED -Koro		civilized = no
 		all_core = { add_core = FROM }
 		FROM = { inherit = THIS }
 		civilized = yes

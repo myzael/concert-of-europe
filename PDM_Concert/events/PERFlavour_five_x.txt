@@ -5222,6 +5222,7 @@ country_event = {
 			}
 		}
 	}
+}	
 	option = {
 		name = "We need to reign in the ulama"
 		set_country_flag = ulama_reigned_in

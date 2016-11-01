@@ -1546,10 +1546,11 @@ country_event = {
 		FROM = {
 			all_core = { add_core = CAN }
 		}
+	#Added OR -Koro	
 		random_country = {
-			limit = {
+			limit = { OR = {
 				tag = FROM
-				tag = RPL
+				tag = RPL}
 			}
 			all_core = { remove_core = RPL }
 		}

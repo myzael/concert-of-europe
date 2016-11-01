@@ -409,6 +409,7 @@ country_event = {
 }
 
 #British reminded of Sumatra Treaty
+#Does IDG Exist? -Koro
 country_event = {
 	id = 211225
 	is_triggered_only = yes

@@ -1875,31 +1875,31 @@ country_event = {
 		name = "EVTOPTB36940"
 		diplomatic_influence = { who = AOT value = 200 }
 		2510 = {
-			secede_province = THIS
+#			secede_province = THIS
 			secede_province = AOT
 		}
 		2511 = {
-			secede_province = THIS
+#			secede_province = THIS
 			secede_province = AOT
 		}
 		2512 = {
-			secede_province = THIS
+#			secede_province = THIS
 			secede_province = AOT
 		}
 		2513 = {
-			secede_province = THIS
+#			secede_province = THIS
 			secede_province = AOT
 		}
 		2514 = {
-			secede_province = THIS
+#			secede_province = THIS
 			secede_province = AOT
 		}
 		2515 = {
-			secede_province = THIS
+#			secede_province = THIS
 			secede_province = AOT
 		}
 		2516 = {
-			secede_province = THIS
+#			secede_province = THIS
 			secede_province = AOT
 		}
 		ai_chance = {

@@ -773,9 +773,10 @@ country_event = {
 		badboy = 40
 		random_country = {
 			limit = {
+			OR={
 				tag = KUK
 				tag = FROM
-			}
+			}}
 			all_core = {
 				limit = { is_core = HUN }
 				remove_core = KUK
@@ -791,9 +792,10 @@ country_event = {
 		}
 		random_country = {
 			limit = {
+				OR={
 				tag = KUK
 				tag = FROM
-			}
+			}}
 			all_core = { add_core = AUS }
 		}
 		inherit = FROM

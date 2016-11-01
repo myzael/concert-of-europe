@@ -60,7 +60,7 @@ country_event = {
 }
 
 country_event = {
-	id = 99665
+	id = 99666
 	title = "Integration of Thohoyandu" 
 	desc = "The large amount of Nguni's in the province of Thohoyndu, and it's startegy for war with the Zulu has led to us declaring it as our own" 
 	tag = MAT

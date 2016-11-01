@@ -3077,6 +3077,7 @@ country_event = {
 	}
 }
 
+#unused
 country_event = {
 	id = 22240
 	title = "EVTNAME22240"
@@ -3132,6 +3133,7 @@ country_event = {
 		}
 	}
 
+	#Validator says FROM is not valid. Looks good to me. -Koro
 	option = {
 		name = "Never! Galicia belongs to Austria!"
 		relation = { who = FROM value = -50 }

@@ -301,6 +301,7 @@ country_event = {
 	}
 }
 
+#Unused? -Koro
 country_event = {
 	title = "westernize_nation_title"
 	desc = "westernize_nation_desc"

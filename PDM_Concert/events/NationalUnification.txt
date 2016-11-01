@@ -474,18 +474,20 @@ country_event = {
 		set_country_flag = wants_to_unify
 		random_country = {
 			limit = {
+			
+			OR={
 				tag = FROM
 				tag = NGF
-			}
+			}}
 			THIS = {
 				all_core = { add_core = NGF }
 			}
 		}
 		random_country = {
-			limit = {
+			limit = {OR={
 				tag = FROM
 				tag = SGF
-			}
+			}}
 			THIS = {
 				all_core = { add_core = SGF }
 			}

@@ -1,4 +1,4 @@
-# Audax Validator "!" Ignore_1004
+# Error on line 1051
 #########################################
 #The Constitution						#
 #########################################
@@ -1039,43 +1039,43 @@ country_event = {
 }
 
 ######################################
-#Knaud's Kris				#
+#Knaud's Kris				# Crashes the game, commented out
 ######################################
-country_event = {
-	id = 211490
-	trigger = {
-		year = 1883
-		exists = yes
-		invention = aerial_bacteria_and_antiseptic_principle
-		OR = {
-			owns = 3340
-			3340 = { owner = { vassal_of = THIS } }
-		}
-		OR = {
-			NOT = { primary_culture = malay }
-			NOT = { primary_culture = javan }
-		}
-	}
-
-	mean_time_to_happen =  {
-		months = 7
-	}
+#country_event = {
+#	id = 211490
+#	trigger = {
+#		year = 1883
+#		exists = yes
+#		invention = aerial_bacteria_and_antiseptic_principle
+#		OR = {
+#			owns = 3340
+#			3340 = { owner = { vassal_of = THIS } }
+#		}
+#		OR = {
+#			NOT = { primary_culture = malay }
+#			NOT = { primary_culture = javan }
+#		}
+#	}
+#
+#	mean_time_to_happen =  {
+#		months = 7
+#	}
 	
-	news = yes
-	news_title = "NEWS_knaud_kris"
-	news_desc_long = " NEWS_knaud_kris_long"
-	news_desc_medium = "NEWS_knaud_kris_medium"
-	news_desc_short = "NEWS_knaud_kris_short"
+#	news = yes
+#	news_title = "NEWS_knaud_kris"
+#	news_desc_long = " NEWS_knaud_kris_long"
+#	news_desc_medium = "NEWS_knaud_kris_medium"
+#	news_desc_short = "NEWS_knaud_kris_short"
 	
-	title = "DIM_knaud_kris_title"
-	desc = "DIM_knaud_kris_desc"
-	picture = "DIM_knaud_kris"
-	fire_only_once = yes
+#	title = "DIM_knaud_kris_title"
+#	desc = "DIM_knaud_kris_desc"
+#	picture = "DIM_knaud_kris"
+#	fire_only_once = yes
 
-	option = {
-		name = "A beautiful gift."
-		prestige = 5	
-	}
+#	option = {
+#		name = "A beautiful gift."
+#		prestige = 1	#was 5, but that's just way too much.
+#	}
 
 }
 

@@ -1076,8 +1076,8 @@ country_event = {
 #		name = "A beautiful gift."
 #		prestige = 1	#was 5, but that's just way too much.
 #	}
-
-}
+#
+#}
 
 ##############################
 #Padri War					 #

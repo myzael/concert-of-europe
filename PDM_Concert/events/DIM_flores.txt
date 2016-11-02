@@ -1,5 +1,6 @@
 # Audax Validator "!" Ignore_1004
 #Offer to buy Flores 
+# Audax detects error with the IDs - Koro
 country_event = {
 	id = 211300
 	is_triggered_only = yes
@@ -293,7 +294,6 @@ country_event = {
 country_event = {
 	id = 211312
 	is_triggered_only = yes
-
 	title = "DIM_flores_dili_sold_title"
 	desc = "DIM_flores_dili_sold_desc"
 	picture = "DIM_nederlands_indie"

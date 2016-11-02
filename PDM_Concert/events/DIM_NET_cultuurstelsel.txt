@@ -1,5 +1,8 @@
 # Audax Validator "!" Ignore_1004
 #Institute the cultuurstelsel
+
+
+#Triggered but never called
 country_event = {
 	id = 211400
 	is_triggered_only = yes
@@ -671,22 +674,23 @@ country_event = {
 				}
 			}
 		}
-		NET_1406 = {
-			any_pop = {
-				limit = {
-					OR = { 
-						is_primary_culture = yes
-						is_accepted_culture = yes
-					}
-				}
-				consciousness = 1
-				militancy = 0.5
-				ideology = {
-					factor = 0.1
-					value = conservative
-				}
-			}
-		}
+#Invalid node - commented out by Koro			
+#		NET_1406 = {
+#			any_pop = {
+#				limit = {
+#					OR = { 
+#						is_primary_culture = yes
+#						is_accepted_culture = yes
+#					}
+#				}
+#				consciousness = 1
+#				militancy = 0.5
+#				ideology = {
+#					factor = 0.1
+#					value = conservative
+#				}
+#			}
+#		}
 	}
 	
 	option = {
@@ -711,22 +715,23 @@ country_event = {
 				}
 			}
 		}
-		NET_1406 = {
-			any_pop = {
-				limit = {
-					OR = { 
-						is_primary_culture = yes
-						is_accepted_culture = yes
-					}
-				}
-				consciousness = 1
-				militancy = 1
-				ideology = {
-					factor = 0.2
-					value = reactionary
-				}
-			}
-		}
+#Invalid node - commented out by Koro		
+#		NET_1406 = {
+#			any_pop = {
+#				limit = {
+#					OR = { 
+#						is_primary_culture = yes
+#						is_accepted_culture = yes
+#					}
+#				}
+#				consciousness = 1
+#				militancy = 1
+#				ideology = {
+#					factor = 0.2
+#					value = reactionary
+#				}
+#			}
+#		}
 		NET_375 = {
 			any_pop = {
 				limit = {

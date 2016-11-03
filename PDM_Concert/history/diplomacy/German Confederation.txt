@@ -115,6 +115,12 @@ alliance = {
 	start_date = 1815.6.8
 	end_date = 1848.3.13
 }
+alliance = {
+	first = AUS
+	second = WEI
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
 
 # German Confederation for Austrians
 alliance = {
@@ -225,5 +231,17 @@ alliance = {
 	start_date = 1815.6.8
 	end_date = 1848.3.13
 }
+alliance = {
+	first = AUS
+	second = WEI
+	start_date = 1815.6.8
+	end_date = 1848.3.13
+}
 
 #Collapsed in 1848, technically all german states should also be allied to eachother, however besides from making revolutions in these countries close to impossible this has no actual function.
+#   I'm an indentation bunny #
+#                  I prevent #
+#   ()()          changes to #
+#   ('.')         this code. #
+#   (()()                    #
+#  *(_()()                   #

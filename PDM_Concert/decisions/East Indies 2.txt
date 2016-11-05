@@ -10,10 +10,10 @@ political_decisions = {
 		}
 
 		allow = {
-		OR = {
-		exists = BEL
-		year = 1830
-		 }
+			OR = {
+				exists = BEL
+					year = 1830
+					}
 			year = 1826
 		}
 

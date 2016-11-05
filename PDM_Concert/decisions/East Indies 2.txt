@@ -5,12 +5,15 @@ political_decisions = {
 		alert = yes
 		potential = {
 			tag = NET
-			exists = BEL
 			owns = 1413
 			NOT = { has_country_flag = cultuurstelsel }
 		}
 
 		allow = {
+		OR = {
+		exists = BEL
+		year = 1830
+		 }
 			year = 1826
 		}
 

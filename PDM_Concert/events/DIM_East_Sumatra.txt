@@ -10,7 +10,7 @@ country_event = {
 		}
 		OR = {
 			NET = { is_our_vassal = PLB }
-			3309 = { owned_by = NET }
+			1408 = { owned_by = NET }
 		}
 		NOT = { has_country_flag = DIM_grand_campaign }
 	}
@@ -39,7 +39,7 @@ country_event = {
 	option = {
 		name = "This means war"
 		set_global_flag = dja_first_expedition
-		3309 = { secede_province = DJA }
+		1408 = { secede_province = DJA }
 		DJA = {
 			war = {
 				target = NET
@@ -78,7 +78,7 @@ country_event = {
 		name = "Palembang has to fend for itself"
 		prestige = -10
 		war_exhaustion = -2
-		3309 = { secede_province = DJA }
+		1408 = { secede_province = DJA }
 		1399 = { secede_province = DJA }
 	}
 }
@@ -98,7 +98,7 @@ country_event = {
 		badboy = -1
 		end_war = DJA
 		create_vassal = DJA
-		DJA = { 3309 = { secede_province = NET } }
+		DJA = { 1408 = { secede_province = NET } }
 		diplomatic_influence = {
 			who = DJA
 			value = 100
@@ -317,7 +317,7 @@ country_event = {
 		}
 		DJA = {
 			ai = yes
-			owns = 3306
+#			owns = 3306
 		}
 	}
 

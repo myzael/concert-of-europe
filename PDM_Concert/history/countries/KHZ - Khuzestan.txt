@@ -4,7 +4,6 @@
 
 capital = 1131
 primary_culture = mashriqi
-culture = khaliji
 religion = shiite
 government = absolute_monarchy
 plurality = 1

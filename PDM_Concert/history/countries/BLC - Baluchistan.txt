@@ -32,7 +32,7 @@ child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = elite
 
-ruling_party = KAL_conservative
+ruling_party = MAK_conservative
 upper_house = {
 	fascist = 0
 	liberal = 15
@@ -95,4 +95,3 @@ early_classical_theory_and_critique = 1
 # Inventions
 
 }
-

@@ -387,6 +387,7 @@ country_event = {
 	}
 }
 
+#Never called - Koro
 country_event = {
 
 	id = 36206

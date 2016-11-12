@@ -2,10 +2,10 @@ capital = 1209
 primary_culture = pashtun
 culture = uzbek
 religion = sunni
-government = absolute_monarchy
+government = theocracy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.19
+literacy = 0.02
 
 # Political reforms
 slavery = yes_slavery
@@ -18,7 +18,7 @@ voting_system = jefferson_method
 political_parties = underground_parties
 minorities_reform = oppression
 immigration_policy = nobody_gets_out
-conscription=mandatory_service
+conscription = mandatory_service
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -64,6 +64,7 @@ oob = "/1821/AFG_oob.txt"
 
 1836.1.1 = {
 	
+	government = absolute_monarchy
 	literacy = 0.2
 	
 	foreign_weapons = yes_foreign_weapons

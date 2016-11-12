@@ -1828,6 +1828,47 @@ country_event = {
 	}
 }
 
+country_event = {
+
+	id = 97978
+	title = "Fall of the African Empire"
+	desc = "With the recent cranage that has engulfed the African continent, the once flourishing Gaza Empire is not what it used to be. Their militaries are weak, and their land is intriguing. Shall we indulge in this conflict?"
+	picture = "danishgovernment"
+
+	trigger = {
+		tag = POR
+		war = no
+		year = 1845
+		OR = { exists = GAZ }
+		NOT = { truce_with = GAZ } 
+	}
+
+	mean_time_to_happen = { months = 10 }
+
+	option = {
+		name = "I've been waiting for this for a while!"
+		badboy = 2
+		GAZ = {
+			exists = yes
+			leave_alliance = POR
+			relation = { who = POR value = -400 }
+		}
+		POR = {	
+			add_casus_belli = {
+				target = GAZ
+				type = establish_protectorate_casus_belli
+				months = 12
+			}
+		}
+		ai_chance = { factor = 99 }
+	}
+	option = {
+		name = "We are uninterested in useless expansion."
+		prestige = -5
+		ai_chance = { factor = 1 }
+		}
+}	
+
 #########################################################
 #														#
 #  				Liberal Wars Events 					#

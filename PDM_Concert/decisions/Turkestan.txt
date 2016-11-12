@@ -3,7 +3,6 @@ political_decisions = {
 		picture = become_uzbekistan
 		potential = {
 			tag = KHI
-			NOT = { exists = UZB }
 		}
 
 		allow = {
@@ -19,35 +18,25 @@ political_decisions = {
 			prestige = 10
 			any_country = {
 				any_owned = {
-					limit = { is_core = BUK }
-					remove_core = BUK
-				}
-			}
-			any_country = {
-				any_owned = {
 					limit = { is_core = KHI }
 					remove_core = KHI
 				}
 			}
 			any_owned = {
-				limit = { is_core = BUK }
-				remove_core = BUK
-			}
-			any_owned = {
 				limit = { is_core = KHI }
 				remove_core = KHI
 			}
-			1193 = { add_core = UZB } #Kyzylorda
-			1192 = { add_core = UZB } #Nukus
-			1191 = { add_core = UZB } #Khiva
-			1198 = { add_core = UZB } #Bukhara
-			1200 = { add_core = UZB } #Qarshi
-			1201 = { add_core = UZB } #Khojand
-			1199 = { add_core = UZB } #Samarkand
-			1197 = { add_core = UZB } #Shymkent
-			1195 = { add_core = UZB } #Tashkent
-			1202 = { add_core = UZB } #Kokand
-			change_tag = UZB
+			1193 = { add_core = BUK } #Kyzylorda
+			1192 = { add_core = BUK } #Nukus
+			1191 = { add_core = BUK } #Khiva
+			1198 = { add_core = BUK } #Bukhara
+			1200 = { add_core = BUK } #Qarshi
+			1201 = { add_core = BUK } #Khojand
+			1199 = { add_core = BUK } #Samarkand
+			1197 = { add_core = BUK } #Shymkent
+			1195 = { add_core = BUK } #Tashkent
+			1202 = { add_core = BUK } #Kokand
+			change_tag = BUK
 			capital = 1195
 		}
 
@@ -60,7 +49,6 @@ political_decisions = {
 		picture = become_uzbekistan
 		potential = {
 			tag = BUK
-			NOT = { exists = UZB }
 		}
 
 		allow = {
@@ -76,78 +64,25 @@ political_decisions = {
 			prestige = 10
 			any_country = {
 				any_owned = {
-					limit = { is_core = BUK }
-					remove_core = BUK
-				}
-			}
-			any_country = {
-				any_owned = {
 					limit = { is_core = KHI }
 					remove_core = KHI
 				}
 			}
 			any_owned = {
-				limit = { is_core = BUK }
-				remove_core = BUK
-			}
-			any_owned = {
 				limit = { is_core = KHI }
 				remove_core = KHI
 			}
-			1193 = { add_core = UZB } #Kyzylorda
-			1192 = { add_core = UZB } #Nukus
-			1191 = { add_core = UZB } #Khiva
-			1198 = { add_core = UZB } #Bukhara
-			1200 = { add_core = UZB } #Qarshi
-			1201 = { add_core = UZB } #Khojand
-			1199 = { add_core = UZB } #Samarkand
-			1197 = { add_core = UZB } #Shymkent
-			1195 = { add_core = UZB } #Tashkent
-			1202 = { add_core = UZB } #Kokand
-			change_tag = UZB
+			1193 = { add_core = BUK } #Kyzylorda
+			1192 = { add_core = BUK } #Nukus
+			1191 = { add_core = BUK } #Khiva
+			1198 = { add_core = BUK } #Bukhara
+			1200 = { add_core = BUK } #Qarshi
+			1201 = { add_core = BUK } #Khojand
+			1199 = { add_core = BUK } #Samarkand
+			1197 = { add_core = BUK } #Shymkent
+			1195 = { add_core = BUK } #Tashkent
+			1202 = { add_core = BUK } #Kokand
 			capital = 1195
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	become_kyrgyzstan = {
-		potential = {
-			tag = KOK
-			NOT = { exists = KYR }
-		}
-
-		allow = {
-			war = no
-			civilized = yes
-			state_n_government = 1
-			owns = 1189
-		}
-
-		effect = {
-			set_global_flag = kyrgyzstan_created
-			any_country = {
-				any_owned = {
-					limit = { is_core = KOK }
-					remove_core = KOK
-				}
-			}
-			any_owned = {
-				limit = { is_core = KOK }
-				remove_core = KOK
-			}
-			prestige = 10
-			1190 = { add_core = KYR } #Naryn
-			1195 = { add_core = KYR } #Tashkent
-			1186 = { add_core = KYR } #Alma Ata
-			1189 = { add_core = KYR } #Bishkek
-			1208 = { add_core = KYR } #Khorug
-			1203 = { add_core = KYR } #Osh
-			1202 = { add_core = KYR } #Kokand
-			change_tag = KYR
-			capital = 1189
 		}
 
 		ai_will_do = {
@@ -159,9 +94,9 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = TKM
-				tag = UZB
+				tag = KOK
 				tag = TAJ
-				tag = KYR
+				tag = BUK
 				tag = UYG
 				tag = KAZ
 			}
@@ -240,11 +175,9 @@ political_decisions = {
 					limit = {
 						OR = {
 							is_core = TKM
-							is_core = UZB
 							is_core = KHI
 							is_core = BUK
 							is_core = TAJ
-							is_core = KYR
 							is_core = KOK
 							is_core = UYG
 							is_core = KAZ
@@ -258,11 +191,9 @@ political_decisions = {
 					NOT = { is_core = TKS }
 					OR = {
 						is_core = TKM
-						is_core = UZB
 						is_core = KHI
 						is_core = BUK
 						is_core = TAJ
-						is_core = KYR
 						is_core = KOK
 						is_core = UYG
 						is_core = KAZ

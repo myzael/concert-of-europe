@@ -1,5 +1,5 @@
-add_core = RUS
-add_core = YAK
+add_core = BUK
+add_core = KHI
 trade_goods = grain
-life_rating = 15
-terrain = boreal_forest
+life_rating = 5
+terrain = desert

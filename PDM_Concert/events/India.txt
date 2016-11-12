@@ -406,8 +406,6 @@ country_event = {
 						duration = 730
 					}
 				}
-				25 = {
-				}
 			}
 		}
 	}

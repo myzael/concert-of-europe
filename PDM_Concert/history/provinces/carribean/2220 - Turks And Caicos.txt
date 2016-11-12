@@ -2,5 +2,5 @@ owner = ENG
 controller = ENG
 trade_goods = sugar
 life_rating = 35
-terrain = dry_forest
+terrain = insular
 colonial = 1

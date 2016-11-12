@@ -1,4 +1,4 @@
-capital = 1221
+capital = 1145
 primary_culture = baluchi
 religion = sunni
 government = absolute_monarchy

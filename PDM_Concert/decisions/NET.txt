@@ -44,7 +44,7 @@ political_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { year = 1839 }
+				NOT = { year = 1845 }
 			}
 		}
 	}
@@ -108,15 +108,8 @@ political_decisions = {
 	reclaim_southern_netherlands = {
 		picture = sign_treaty_of_london
 		potential = {
-			OR = {
-				AND = {
-					tag = NET
-					NOT = { has_country_flag = signed_treaty_of_london }
-				}
-				tag = BEL
-			}
+			tag = NET
 			is_greater_power = yes
-			state_n_government = 1
 			NOT = { has_country_flag = claimed_southern_netherlands }
 		}
 		
@@ -130,7 +123,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = claimed_southern_netherlands
-			badboy = 6
+			badboy = 4
 			prestige = 10
 			random_owned = {
 				limit = {
@@ -138,14 +131,7 @@ political_decisions = {
 				}
 				FRA_400 = { add_core = NET }
 			}
-			399 = { add_core = FLA }
-			400 = { add_core = FLA }
-			FRA_400 = {
-				add_core = WLL
-				add_core = BEL
-			}
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
@@ -156,9 +142,7 @@ political_decisions = {
 		potential = {
 			tag = NET
 			is_greater_power = yes
-			state_n_government = 1
 			owns = 383
-			EFR = { exists = no }
 			NOT = { has_country_flag = claimed_east_frisia }
 		}
 		
@@ -173,11 +157,9 @@ political_decisions = {
 			prestige = 2
 			543 = {
 				add_core = NET
-				remove_core = EFR
 				owner = { relation = { who = NET value = -25 } }
 			}
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
@@ -193,16 +175,11 @@ political_decisions = {
 
 		allow = {
 			war = no
-			is_vassal = no
+			is_vassal = yes
 			OR = {
-				sphere_owner = { is_sphere_leader_of = NET }
 				NET = { is_sphere_leader_of = THIS }
 			}
-			NET = {
-				war = no
-				neighbour = THIS
-				is_vassal = no
-			}
+			NET = { war = no }
 		}
 
 		effect = {
@@ -212,7 +189,6 @@ political_decisions = {
 				prestige = 2
 			}
 		}
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -225,23 +201,20 @@ political_decisions = {
 			owns = 543
 			is_greater_power = yes
 			nationalism_n_imperialism = 1
-			543 = { is_core = EFR }
 		}
 
 		allow = {
 			war = no
 			owns = 543
-			NET = { is_greater_power = no }
 			revolution_n_counterrevolution = 1
 		}
 
 		effect = {
-			prestige = 1
-			NET = { prestige = -2 }
+			prestige = 5
+			NET = { prestige = -5 }
 			relation = { who = NET value = -25 }
 			543 = { remove_core = EFR }
 		}
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -278,13 +251,18 @@ political_decisions = {
 		effect = {
 			set_country_flag = francophonie_embraced
 			clr_country_flag = walloon_movement
+			change_variable = {
+				which = belgian_nationalism
+				value = -5
+			}
+			change_variable = {
+				which = dutch_nationalism
+				value = 4
+			}
 			any_owned = {
 				remove_province_modifier = wallingants
 			}
-			prestige = 10
-			BEL = {
-				all_core = { remove_core = BEL }
-			}
+			prestige = 5
 			any_pop = {
 				limit = {
 					OR = {
@@ -292,7 +270,7 @@ political_decisions = {
 						has_pop_culture = picard
 					}
 				}
-				militancy = -6
+				militancy = -4
 			}
 			any_pop = {
 				limit = {
@@ -301,17 +279,11 @@ political_decisions = {
 						has_pop_culture = flemish
 					}
 				}
-				consciousness = 4
+				consciousness = -1
 			}
 			political_reform = protected
-			political_reform = state_equal_weight
 			add_accepted_culture = wallonian
-			add_accepted_culture = picard
-			nationalvalue = nv_prosperity
-			add_country_modifier = {
-				name = national_confusion
-				duration = 1825
-			}
+			nationalvalue = nv_equality
 		}
 		
 		ai_will_do = {
@@ -352,7 +324,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = repudiated_treaty_of_london
-			badboy = 10
+			badboy = 6
 			random_owned = {
 				limit = {
 					OR = {
@@ -398,6 +370,14 @@ political_decisions = {
 			year = 1821
 		}
 		effect = {
+			set_variable = {
+				which = belgian_nationalism
+				value = 14
+			}
+			set_variable = {
+				which = dutch_nationalism
+				value = 1
+			}
 			any_pop = {
 				limit = {
 					OR = {
@@ -422,10 +402,17 @@ political_decisions = {
 				literacy = 0.05
 				consciousness = 1
 			}
-			set_variable = {
-				which = belgian_nationalism
-				value = 14
+			any_owned = {
+				limit = {
+					region = NET_1447
+					trade_goods = spices
+					NOT = { has_province_modifier = verplichte_levering }
+				}
+				add_province_modifier = {
+					name = verplichte_levering
+					duration = -1
 			}
 		}
 	}
+}
 }

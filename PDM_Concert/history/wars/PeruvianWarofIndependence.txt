@@ -1,32 +1,38 @@
-name = "Peruvian War of Independence"
+name = "Expedición Libertadora del Perú"
 
 1821.7.28 = {
-	add_attacker = SPA
+	add_defender = SPA
 	add_defender = PEU
-	add_defender = BOL
+	add_attacker = ARG
+	add_attacker = CHL	
 	
 	war_goal = {
-		casus_belli = establish_protectorate_casus_belli
-		actor = SPA
+		casus_belli = liberate_country
+		actor = ARG
 		receiver = PEU
-	}
-	
+		country = BOL
+	}	
 	war_goal = {
-		casus_belli = establish_protectorate_casus_belli
-		actor = SPA
-		receiver = BOL
-	}
-	
-	war_goal = {
-		casus_belli = acquire_all_cores
-		actor = PEU
+		casus_belli = release_puppet
+		actor = CHL
 		receiver = SPA
 		country = PEU
-	}
+	}	
+	war_goal = {
+		casus_belli = make_puppet
+		actor = SPA
+		receiver = CHL
+	}	
+	war_goal = {
+		casus_belli = make_puppet
+		actor = SPA
+		receiver = ARG
+	}		
 }
 
 1822.5.24 = {
-	rem_attacker = SPA
+	rem_defender = SPA
 	rem_defender = PEU
-	rem_defender = BOL
+	rem_attacker = CHL
+	rem_attacker = ARG		
 }

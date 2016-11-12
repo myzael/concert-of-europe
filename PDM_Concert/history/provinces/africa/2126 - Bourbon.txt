@@ -2,6 +2,6 @@ owner = FRA
 controller = FRA
 trade_goods = fish
 life_rating = 35
-terrain = mountain_farmland
+terrain = insular
 colonial = 1
 naval_base = 1

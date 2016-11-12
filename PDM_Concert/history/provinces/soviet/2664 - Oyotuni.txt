@@ -1,5 +1,10 @@
-add_core = RUS
-add_core = KAM
-trade_goods = grain
-life_rating = 15
-terrain = tundra
+add_core = KAZ
+trade_goods = wool
+life_rating = 30
+terrain = mountain_grassland
+
+1861.1.1 = {
+	owner = RUS
+	controller = RUS
+	colonial = 1
+}

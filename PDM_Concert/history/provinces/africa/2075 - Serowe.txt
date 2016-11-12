@@ -1,3 +1,5 @@
+owner = MAT
+controller = MAT
 add_core = MAT
 add_core = TSW
 trade_goods = grain

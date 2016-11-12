@@ -86,7 +86,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 2
 	}
-	
+
 	rich_farmland = {
 		movement_cost = 1.0
 		attrition = 0
@@ -766,6 +766,21 @@ categories =  {
 		min_build_railroad = 4
 
 		combat_width = -0.80
+	}
+	
+	insular = {
+		movement_cost = 1.0
+		defence = 0.1
+		attrition = 1
+		color = { 57 152 184 }
+		farm_rgo_size = -0.1
+		farm_rgo_eff = 0.33
+		mine_rgo_size = -0.1
+		mine_rgo_eff = -0.25
+		supply_limit = 2
+		min_build_railroad = 3
+
+		combat_width = -0.30
 	}
 }
 

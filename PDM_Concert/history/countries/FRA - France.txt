@@ -39,6 +39,12 @@ child_labor = child_labor_restricted
 arts_endowment = no_endowment
 education = elite
 
+govt_flag = 
+	{
+		government = absolute_monarchy
+		flag = theocracy
+	}
+
 # Technologies
 post_napoleonic_thought = 1
 flintlock_rifles = 1

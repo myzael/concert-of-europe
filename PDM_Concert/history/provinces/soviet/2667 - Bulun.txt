@@ -1,5 +1,7 @@
-add_core = RUS
-add_core = YAK
-trade_goods = fish
-life_rating = 15
-terrain = tundra_mountains
+owner = KOK
+controller = KOK
+add_core = KOK
+add_core = KAZ
+trade_goods = grain
+life_rating = 30
+terrain = semi_desert

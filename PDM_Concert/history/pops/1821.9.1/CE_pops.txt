@@ -18266,7 +18266,14 @@
 	}
 	artisans = {
 
-		size = 6409
+		size = 3209
+		culture = frisian
+		religion = protestant
+
+	}
+	artisians = {
+
+		size = 3200
 		culture = dutch
 		religion = protestant
 
@@ -18274,13 +18281,20 @@
 	clergymen = {
 
 		size = 183
-		culture = dutch
+		culture = frisian
 		religion = protestant
 
 	}
 	farmers = {
 
-		size = 32461
+		size = 16231
+		culture = frisian
+		religion = protestant
+
+	}
+	farmers = {
+
+		size = 16230
 		culture = dutch
 		religion = protestant
 
@@ -18338,49 +18352,49 @@
 	aristocrats = {
 
 		size = 524
-		culture = dutch
+		culture = frisian
 		religion = protestant
 
 	}
 	artisans = {
 
 		size = 5494
-		culture = dutch
+		culture = frisian
 		religion = protestant
 
 	}
 	bureaucrats = {
 
 		size = 532
-		culture = dutch
+		culture = frisian
 		religion = protestant
 
 	}
 	clergymen = {
 
 		size = 343
-		culture = dutch
+		culture = frisian
 		religion = protestant
 
 	}
 	farmers = {
 
 		size = 40039
-		culture = dutch
+		culture = frisian
 		religion = protestant
 
 	}
 	officers = {
 
 		size = 62
-		culture = dutch
+		culture = frisian
 		religion = protestant
 
 	}
 	soldiers = {
 
 		size = 4531
-		culture = dutch
+		culture = frisian
 		religion = protestant
 
 	}
@@ -25725,7 +25739,7 @@
 	aristocrats = {
 
 		size = 493
-		culture = dutch
+		culture = frisian
 		religion = protestant
 
 	}
@@ -25739,7 +25753,7 @@
 	artisans = {
 
 		size = 1318
-		culture = dutch
+		culture = frisian
 		religion = protestant
 
 	}
@@ -25753,7 +25767,7 @@
 	clergymen = {
 
 		size = 164
-		culture = dutch
+		culture = frisian
 		religion = protestant
 
 	}
@@ -25767,7 +25781,7 @@
 	farmers = {
 
 		size = 13159
-		culture = dutch
+		culture = frisian
 		religion = protestant
 
 	}
@@ -25781,14 +25795,14 @@
 	officers = {
 
 		size = 45
-		culture = dutch
+		culture = frisian
 		religion = protestant
 
 	}
 	soldiers = {
 
 		size = 480
-		culture = dutch
+		culture = frisian
 		religion = protestant
 
 	}

@@ -5,7 +5,6 @@ culture = hazara
 culture = tajik
 culture = kurdish
 culture = luri
-culture = tabari
 religion = shiite
 government = absolute_monarchy
 plurality = 0.0
@@ -75,10 +74,10 @@ oob = "/1821/PER_oob.txt"
 1836.1.1 = {
 	literacy = 0.12
 	oob = "PER_oob.txt"
-	
+
 	set_country_flag = khanates_contested
 	set_country_flag = mohammed_shah
-	
+
 	foreign_training = yes_foreign_training
 	foreign_weapons = yes_foreign_weapons
 	finance_reform = yes_finance_reform
@@ -86,7 +85,7 @@ oob = "/1821/PER_oob.txt"
 	medicine_reform = alchemy
 	taxation_reform = tax_farmers
 	diplomatic_reform = interactive
-	
+
 	# Technologies
 	military_staff_system = 1
 	flintlock_rifles = 1

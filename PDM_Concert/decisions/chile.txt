@@ -194,6 +194,7 @@ occupation_of_araucania = {
 					has_country_flag = united_with_chile
 					CHL = { exists = no }
 				}
+				
 				owns = 2332
 				}
 			
@@ -208,6 +209,7 @@ occupation_of_araucania = {
 		}
 		allow = {
 			OR = {
+				has_country_modifier = the_homestead_act
 				is_greater_power = yes
 				year = 1861
 			AND = {

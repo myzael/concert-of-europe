@@ -257,7 +257,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			battleship_column_doctrine = 1
+			post_nelsonian_thought = 1
 		}
 		
 		effect = {

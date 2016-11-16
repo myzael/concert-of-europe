@@ -1,0 +1,49 @@
+political_decisions = {
+	monroe_doctrine0 = {
+		picture = liberty_enlightening_the_world
+		potential = {
+			year = 1823
+			tag = USA
+			NOT = { has_country_flag = monroe_doctrine1 }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			prestige = 3
+			set_country_flag = monroe_doctrine1
+			any_country ={
+				limit = {
+				OR = {
+	tag = CHL
+	tag = PEU
+	tag = BOL
+	tag = PBC
+	tag = ARG
+	tag = PRG
+	tag = ECU
+	tag = HON
+	tag = PNM
+	tag = URU
+	tag = UCA
+	tag = COL
+	tag = VNZ
+	tag = GCO
+	tag = PRI
+	tag = CUB
+	tag = HAI
+	}
+#				capital_scope = {
+#					OR = { continent = north_america
+#					continent = south_america }}
+				}
+				diplomatic_influence = { value = 20 }
+				relation = { value = 20 }
+				set_country_flag = monroe_doctrine2
+			
+		}
+	}
+}
+}

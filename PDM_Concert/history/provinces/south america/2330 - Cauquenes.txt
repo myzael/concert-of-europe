@@ -4,3 +4,4 @@ add_core = CHL
 trade_goods = coal
 life_rating = 35
 terrain = marginal_farmland
+colonial = 0

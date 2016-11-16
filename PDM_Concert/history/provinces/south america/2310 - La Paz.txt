@@ -1,5 +1,5 @@
 owner = PEU
-controller = PEU
+controller = ARG
 add_core = BOL
 trade_goods = cattle
 life_rating = 30

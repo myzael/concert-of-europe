@@ -7,17 +7,10 @@ alliance = {
 }
 
 alliance = {
-	first = GCO
+	first = PEU
 	second = BOL
 	start_date = 1815.11.9
-	end_date = 1823.1.1
-}
-
-alliance = {
-	first = PRG
-	second = BOL
-	start_date = 1815.11.9
-	end_date = 1823.1.1
+	end_date = 1883.1.1
 }
 
 alliance = {
@@ -27,19 +20,6 @@ alliance = {
 	end_date = 1831.1.3
 }
 
-alliance = {
-	first = BOL
-	second = CHL
-	start_date = 1815.11.9
-	end_date = 1823.1.1
-}
-
-alliance = {
-	first = BOL
-	second = ARG
-	start_date = 1815.11.9
-	end_date = 1831.1.3
-}
 
 alliance = {
 	first = CHL

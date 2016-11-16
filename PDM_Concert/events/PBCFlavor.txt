@@ -6,6 +6,8 @@ country_event = {
 
 	trigger = {
 		tag = PEU
+		war = no
+		BOL = { war = no }
 		exists = yes
 		NOT = {
 			war_with = SPA
@@ -121,6 +123,8 @@ country_event = {
 
 	trigger = {
 		tag = PEU
+		war = no
+		BOL = { war = no }		
 		exists = yes
 		truce_with = BOL
 		has_country_flag = ejecting_sucre
@@ -206,6 +210,8 @@ country_event = {
 	picture = "deliberation"
 
 	trigger = {
+		BOL = { war = no }
+		PEU = { war = no }		
 		OR = {
 			tag = PEU
 			tag = BOL

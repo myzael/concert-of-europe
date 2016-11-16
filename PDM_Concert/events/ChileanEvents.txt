@@ -2,7 +2,7 @@ country_event = {
 	id = 198260501
 	title = "TIT198260501"
 	desc = "DSC198260501"
-	picture = "danishgovernment"
+	picture = "portales1" #danishgovernment
 	trigger = {	exists = yes
 	tag = CHL
 		war = no
@@ -76,7 +76,7 @@ country_event = {
 				type = cut_down_to_size
 				months = 12 }
 			}
-		badboy = 5			
+		badboy = 5
 		set_country_flag = DiegoPortales
 		}
 	option = {
@@ -138,7 +138,7 @@ country_event = {
 	id = 97050
 	title = "EVTNAME97050" #The Peru-Bolivian Confederation
 	desc = "EVTDESC97050"
-	picture = "deliberation"
+	picture = "ejercito" #deliberation
 
 	trigger = {	exists = yes
 				tag = CHL
@@ -244,7 +244,7 @@ country_event = {
 	id = 198260502
 	title = "TIT198260502"
 	desc = "DSC198260502"
-	picture = "Estrup"
+	picture = "portales2"  #Estrup
 	fire_only_once = yes	
 	trigger = {	exists = yes
 	tag = CHL
@@ -264,8 +264,8 @@ country_event = {
 		remove_country_modifier = great_statesman
 		prestige = 1
 		any_pop = {
-			militancy = -5
-			consciousness = -5
+			militancy = -2
+			consciousness = -4
 			}		
 		add_country_modifier = {
 			name = national_tragedy
@@ -299,13 +299,13 @@ country_event = {
 		}
 		}	
 	option = {
-		name = "Use this as an excuse to go to war."
+		name = "Someone will pay with land."
 		remove_country_modifier = great_statesman
 		add_core = 2305
 		add_core = 2307
 		add_core = 2308
 		add_core = 2309
-		badboy = 10
+		badboy = 4
 		any_pop = {
 			militancy = 2
 			consciousness = 2
@@ -335,17 +335,10 @@ country_event = {
 	id = 198260503
 	title = "TIT198260503"
 	desc = "DSC198260503"
-	picture = "Rebellion"
-#	fire_only_once = yes	
+	picture = "desastre" #Rebellion
+	fire_only_once = yes	
 	trigger = {	exists = yes
-	OR = {
 	tag = CHL
-	tag = PEU
-	tag = PBC
-	tag = BOL
-	tag = ARG
-	tag = ECU
-	}
 	war = no
 	ruling_party_ideology = liberal
 
@@ -443,7 +436,7 @@ country_event = {
 	id = 198260504
 	title = "TIT198260504"
 	desc = "DSC198260504"
-	picture = "Administration"
+	picture = "diputados" #Administration
 #	fire_only_once = yes	
 	trigger = {	exists = yes
 	OR = {
@@ -536,12 +529,11 @@ country_event = {
 		}
 }
 
-#not sure if this works.
 country_event = {
 	id = 198260505
 	title = "TIT198260505"
 	desc = "DSC198260505"
-	picture = "Vision"
+	picture = "catedral" #Vision
 	fire_only_once = yes
 	trigger = {	exists = yes
 	tag = CHL
@@ -605,7 +597,7 @@ country_event = {
 	title = "TIT198260506"
 	desc = "DSC198260506"
 	picture = "crisis"
-#	fire_only_once = yes
+	fire_only_once = yes
 	trigger = {	exists = yes
 	OR = {
 	tag = CHL
@@ -690,48 +682,69 @@ country_event = {
 	fire_only_once = yes
 	trigger = {	exists = yes
 	tag = CHL
+	OR = {
+	immigration_policy = naturalization
+	immigration_policy = open_immigration	
+	year = 1840}
 	NOT = { has_country_modifier = the_homestead_act }
 	has_country_flag = valparaisoharbor_built
 	}
 	
 	mean_time_to_happen = {
-		months = 60
+		months = 120
 	}
 	option = {
-	
-		name = "Offer them supplies and free land down south."
+		name = "Focus on the germans."
 		money = -1000
+		add_accepted_culture = north_german
+		add_accepted_culture = south_german
+		PRU = { diplomatic_influence = { who = FROM value = 100 }}
 		add_country_modifier = {
 			name = the_homestead_act
-			duration = 7650		
+			duration = 20000		
+		}
+		any_pop = {
+			dominant_issue = {
+				value = naturalization
+				factor = 0.1
+			}}	
+		
+	}
+option = {
+	
+		name = "Send an emissary to Paris."
+		money = -1000
+		add_accepted_culture = french
+		diplomatic_influence = { who = FRA value = 100 }
+		add_country_modifier = {
+			name = the_homestead_act
+			duration = 20000		
+		}
+		any_pop = {
+			dominant_issue = {
+				value = naturalization
+				factor = 0.1
+			}}		
+		
+}
+option = {
+	
+		name = "Invite the latins."
+		money = -1000
+		add_accepted_culture = north_italian
+		add_accepted_culture = south_italian
+		diplomatic_influence = { who = ITA value = 100 }
+		add_country_modifier = {
+			name = the_homestead_act
+			duration = 20000		
 		}
 		any_pop = {
 			dominant_issue = {
 				value = open_immigration
 				factor = 0.1
 			}}		
-		relation = {
-			who = BOL
-			value = -25				
-			}
-		relation = {
-			who = PEU
-			value = -25				
-			}
-		relation = {
-			who = PBC
-			value = -50				
-			}
 		
-	}	
-	option = {
-	
-		name = "Focus on long-term immigration reforms."
-		any_pop = {
-			dominant_issue = {
-				value = open_immigration
-				factor = 0.2
-			}}}	
+}
 	option = {
 	
 		name = "Let's focus on our own people instead."
@@ -762,6 +775,7 @@ country_event = {
 	option = {
 	
 		name = "Always victorious, never defeated!"
+		add_accepted_culture = british
 		money = -30000
 		activate_technology = breech_loaded_rifles
 		officers = {
@@ -842,7 +856,7 @@ country_event = {
 			scaled_militancy = {
 				factor = 7
 				ideology = liberal 
-			}				
+			}
 		}
 		add_country_modifier = {
 			name = national_instability
@@ -877,7 +891,7 @@ country_event = {
 	id = 198260510
 	title = "TIT198260510"
 	desc = "DSC198260510"
-	picture = "Rebellion"
+	picture = "independencia" #Rebellion
 	fire_only_once = yes	
 	trigger = {	exists = yes 
 	tag = CHL
@@ -906,7 +920,7 @@ define_admiral = {
 }
 define_admiral = {
 	name = "Manuel Blanco Encalada"
-	personality = expert
+	personality = diligent
 	background = turncoat
 }
 
@@ -918,20 +932,13 @@ country_event = {
 	id = 198260511
 	title = "TIT198260511"
 	desc = "DSC198260511"
-	picture = "market"
-#	fire_only_once = yes
+	picture = "chile" #market
+	fire_only_once = yes
 	trigger = {	exists = yes 
 	NOT = {
 			has_country_flag = sachei
 		}	
-	OR = {
 	tag = CHL
-	tag = PEU
-	tag = BOL
-	tag = PBC
-	tag = ARG
-	tag = PRG
-	}
 	war = no
 	
   }
@@ -941,8 +948,16 @@ country_event = {
 
 	option = {
 		name = "The true triumph of reason is that it enables us to get along with those who do not possess it."
+		add_accepted_culture = south_andean
 		set_country_flag = sachei
 		aristocrats = {
+			limit = {
+				location = { is_colonial = no }
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes						
+					}
+				}
 		literacy = 0.9
 			dominant_issue = {
 				value = protectionism
@@ -950,19 +965,27 @@ country_event = {
 			}
 			}
 		artisans = {
+		
 			dominant_issue = {
 				value = free_trade
 				factor = 0.90
 			}
 			}
 		bureaucrats = {
-		literacy = 0.5
+		literacy = 0.1
 			dominant_issue = {
 				value = secularized
 				factor = 0.95
 			}
 			}
 		capitalists = {
+			limit = {
+				location = { is_colonial = no }
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes						
+					}
+				}	
 		literacy = 0.80
 			dominant_issue = {
 				value = state_capitalism
@@ -970,35 +993,49 @@ country_event = {
 			}
 			}
 		farmers = {
-		literacy = -0.05
+		literacy = -0.02
 			dominant_issue = {
 				value = four_year_draft
 				factor = 0.05
 			}
 			}
 		labourers = {
-		literacy = -0.03
+		literacy = -0.02
 			dominant_issue = {
 				value = four_year_draft
 				factor = 0.05
 			}
 			}
 		officers = {
-		literacy = 0.5
+		limit = {
+				location = { is_colonial = no }
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes						
+					}
+				}
+		literacy = 0.2
 			dominant_issue = {
 				value = pro_military
 				factor = 0.05
 			}
 			}
 		soldiers = {
-		literacy = 0.1
+		literacy = 0.05
 			dominant_issue = {
 				value = pro_military
 				factor = 0.15
 			}
 			}
 		clergymen = {
-		literacy = 0.5
+			limit = {
+				location = { is_colonial = no }
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes						
+					}
+				}	
+		literacy = 0.1
 			dominant_issue = {
 				value = moralism
 				factor = 0.95
@@ -1008,3 +1045,146 @@ country_event = {
 }
 
 }
+
+country_event = {
+	id = 198260512
+	title = "TIT198260512"
+	desc = "DSC198260512"
+	picture = "derrota" #Rebellion
+	fire_only_once = yes	
+	trigger = {	exists = yes 
+	NOT = {
+			truce_with = PBC
+			truce_with = BOL
+		}		
+	tag = CHL
+	owns = 2307
+	owns = 2308
+	owns = 2309
+	owns = 2305
+	}
+  
+	mean_time_to_happen = {
+		months = 120
+	}
+	
+	option = {
+		name = "Offer a public apology."
+				relation = {
+			who = BOL
+			value = 100
+		}
+		prestige = -1
+		soldiers = {
+			militancy = 4
+			consciousness = 8
+		}	}
+		
+	option = {
+		name = "We're just using prussian diplomacy."
+		badboy = 5}
+
+	option = {
+		name = "Prepare the army."
+		badboy = 8
+		BOL = {	add_casus_belli = {
+				target = CHL
+				type = cut_down_to_size
+				months = 12 }
+			}
+		relation = {
+			who = BOL
+			value = -50
+		}			
+			scaled_militancy = {
+				factor = 2
+				ideology = liberal 
+			}
+			
+
+	}
+
+}
+
+country_event = {
+	id = 198260513
+	title = "TIT198260513" #Monroe Doctrine
+	desc = "DSC198260513"
+	picture = "centennial"
+
+	trigger = {
+		exists = yes
+		war = no
+		has_country_flag = monroe_doctrine2
+	}
+
+	mean_time_to_happen = {
+		months = 18  #Increase to 18
+		modifier = {
+			factor = 0.2
+			war = no
+		}
+	}
+
+	option = {
+		name = "America for the americans!"
+		clr_country_flag = monroe_doctrine2
+		relation = {
+			who = USA
+			value = 20
+		}
+		USA = { diplomatic_influence = { who = THIS  value = 20 }	}
+		ai_chance = {
+			factor = 89
+			modifier = {
+				factor = 0.85
+				tag = ARG
+			}				
+		}
+	}
+	option = {
+		name = "To the americans, the only americans are themselves."
+		clr_country_flag = monroe_doctrine2
+		relation = {
+			who = USA
+			value = -50
+		}
+		USA = { diplomatic_influence = { who = THIS  value = -50 }}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0.85
+				tag = CHL
+			}			
+		}
+	}
+	option = {
+		name = "Denounce interventionism."
+		prestige = 1
+		clr_country_flag = monroe_doctrine2
+		relation = {
+			who = USA
+			value = -200 #fuck with the americans and you're going to war, baby
+		}
+				add_casus_belli = {
+				target = USA
+				type = humiliate
+				months = 12 }
+		
+		USA = {
+		diplomatic_influence = { who = THIS  value = -100 }
+		prestige = -1
+		badboy = 1}
+		set_country_flag = monroe_doctrine1 # Will give a huge influence bonus in southamerica if you become World Power
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.25
+				tag = CHL
+			}
+		}
+	}
+	
+}
+

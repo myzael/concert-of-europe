@@ -347,9 +347,6 @@ country_event = {
 			government = bourgeois_dictatorship
 			government = fascist_dictatorship
 		}
-		OR = { 
-			war = no
-			AI = no }
 		civilized = yes
 		NOT = { vote_franschise = none_voting }
 		NOT = { political_parties = underground_parties }

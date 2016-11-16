@@ -5,5 +5,4 @@ add_core = PTG
 trade_goods = cattle
 life_rating = 15
 terrain = conifer_forest_mountains
-#naval_base = 1
-colonial = 1
+naval_base = 1

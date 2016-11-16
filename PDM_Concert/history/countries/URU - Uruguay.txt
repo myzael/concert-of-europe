@@ -1,10 +1,8 @@
 capital = 2344
-primary_culture = charrua #FundYourOwnCulture
-culture = platinean
-culture = brazilian #ahistorical, but makes sense game-wise 
+primary_culture = platinean
 religion = catholic
 government = presidential_dictatorship
-plurality = 0.40
+plurality = 0.0
 nationalvalue = nv_liberty
 literacy = 0.09
 non_state_culture_literacy = 0.04

@@ -23,7 +23,7 @@ party = {
 	ideology = conservative
 
 	economic_policy = interventionism
-	trade_policy = protectionism
+	trade_policy = free_trade
 	religious_policy = pluralism
 	citizenship_policy = limited_citizenship
 	war_policy = pro_military
@@ -177,7 +177,7 @@ party = {
 	ideology = reactionary
 
 	economic_policy = interventionism
-	trade_policy = protectionism
+	trade_policy = free_trade
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -191,7 +191,7 @@ party = {
 	ideology = reactionary
 
 	economic_policy = state_capitalism
-	trade_policy = protectionism
+	trade_policy = free_trade
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
@@ -204,7 +204,7 @@ party = {
 	ideology = reactionary
 
 	economic_policy = state_capitalism
-	trade_policy = protectionism
+	trade_policy = free_trade
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = pro_military
@@ -240,8 +240,7 @@ party = {
 
 party = {
 	name = "CHL_socialist"
-#	start_date = 1848.1.1
-	start_date = 1912.6.4
+	start_date = 1848.1.1
 	end_date = 2000.1.1
 
 	ideology = socialist
@@ -258,19 +257,18 @@ party = {
 	start_date = 1863.12.27
 	end_date = 1981.5.11
 
-	ideology = social_liberal
+	ideology = socialist
 
-	economic_policy = interventionism
-	trade_policy = free_trade
-	religious_policy = pro_atheism
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = secularized
 	citizenship_policy = full_citizenship
 	war_policy = pro_military
 }
 
 party = {
 	name = "CHL_communist"
-#	start_date = 1848.1.1
-	start_date = 1922.1.2
+	start_date = 1848.1.1
 	end_date = 2000.1.1
 
 	ideology = communist
@@ -279,7 +277,7 @@ party = {
 	trade_policy = protectionism
 	religious_policy = pro_atheism
 	citizenship_policy = full_citizenship
-	war_policy = anti_military
+	war_policy = pro_military
 }
 
 party = {
@@ -296,9 +294,7 @@ party = {
 	war_policy = jingoism
 }
 
-
-
-  unit_names = {
+party = {  name = "TAG_social_liberal"  start_date = 1890.1.1  end_date = 2000.1.1  ideology = social_liberal  economic_policy = interventionism  trade_policy = free_trade  religious_policy = secularized  citizenship_policy = full_citizenship  war_policy = anti_military  }  unit_names = {
 	dreadnought = {
 		"Almirante Montt" Antofagasta Atacama Iquique Latorre O'Higgins República "San Martín" "Santiago de Chile" Valparaíso
 	}

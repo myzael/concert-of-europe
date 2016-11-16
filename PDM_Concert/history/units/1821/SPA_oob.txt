@@ -9,22 +9,61 @@ POR = {
 
 #North America
 MEX = {
-	value = -75
+	value = -75		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+UCA = {
+	value = -100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
 }
 
 #South America
-
+ECU = {
+	value = -100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
 PEU = {
-	value = -100
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 4
 }
 BOL = {
-	value = -100
+	value = -100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
 }
 CHL = {
-	value = -50
+	value = -100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+ARG = {
+	value = -100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
 }
 PRG = {
-	value = -20
+	value = -100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+CLM = {
+	value = -100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+BRZ = {
+	value = 0		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+URU = {
+	value = -75		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
 }
 GCO = {
 	value = -100
@@ -217,22 +256,10 @@ army = {
 		type = regular
 		home = 503
 	}
-	
-	regiment = {
-		name= "4. Regularia Real"
-		type = regular
-		home = 513
-	}
-	
-	regiment = {
-		name= "7. Brigada Colonial"
-		type = infantry
-		home = 2279
-	}
 }
 
 army = {
-	name = "Ejército de Cuzco"
+	name = "Ejército del Virreinato"
 	location = 2302
 	
 	regiment = {

@@ -2,9 +2,27 @@ USA = {
 	value = 100
 }
 CHL = {
+	value = 50
+}
+SPA = {
+	value = -100
+	}
+PBC = {
+	value = 100
+}
+BOL = {
+	value = 100
+}
+GCO = {
+	value = 50
+}
+PRG = {
 	value = 100
 }
 ARG = {
+	value = 50
+}
+MEX = {
 	value = 100
 }
 
@@ -27,20 +45,38 @@ army = {
 	name = "Ejército del Perú"
 	location = 2295
 	regiment = {
-		name= "1. Brigada de Infantería"
-		type = regular
+		name= "Brigada de Voluntarios"
+		type = irregular
+		home = 2311
+	}
+	regiment = {
+		name= "Voluntarios de Puno"
+		type = irregular
+		home = 2303
+	}
+	regiment = {
+		name= "Brigada de Infantería"
+		type = infantry
 		home = 2295
 	}
-
 	regiment = {
-		name= "2. Brigada de Infantería"
-		type = regular
-		home = 2295
+		name= "Brigada de Infantería N°2"
+		type = infantry
+		home = 2297
 	}
-
 	regiment = {
-		name= "3. Brigada de Infantería"
+		name= "Regimiento de Infantería"
 		type = regular
 		home = 2290
 	}
+		regiment = {
+		name= "Caballería del Perú"
+		type = cavalry
+		home = 2310
+	}
+	regiment = {
+		name= "Compañía de Artillería del Perú"
+		type = horse_artillery
+		home = 2298
+	}	
 }

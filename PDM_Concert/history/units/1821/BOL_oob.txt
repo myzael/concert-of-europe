@@ -5,10 +5,23 @@ USA = {
 	value = 100
 }
 CHL = {
+	value = 50
+}
+
+PBC = {
+	value = 100
+}
+PEU = {
+	value = 100
+}
+PRG = {
 	value = 100
 }
 ARG = {
 	value = 100
+}
+MEX = {
+	value = 50
 }
 
 army = {

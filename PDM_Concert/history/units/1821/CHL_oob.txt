@@ -1,38 +1,98 @@
 SPA = {
-	value = 100
+	value = -100
 }
 USA = {
+	value = 50
+}
+PBC = {
+	value = -100
+}
+BOL = {
+	value = 100
+}
+PEU = {
+	value = 100
+}
+PRG = {
 	value = 100
 }
 ARG = {
-	value = 75
+	value = 175
+}
+GCO = {
+	value = 100
+}
+MEX = {
+	value = 100
+}
+army = {
+	name = "Ejército Libertador de Chile"
+	location = 2308
+#	regiment = {
+#		name= "Pardos y Morenos Libertos"
+#		type = irregular
+#		home = 2325
+#	}	
+	regiment = {
+		name= "Batallón Nº 2 de Chile"
+		type = regular
+		home = 2330
+	}
+	regiment = {
+		name= "Batallón Nº 4 de Chile"
+		type = infantry
+		home = 2327
+	}
+	regiment = {
+		name= "Compañía de Artillería de Chile"
+		type = horse_artillery
+		home = 2324
+	}
+
+	regiment = {
+		name= "Húsares de la Muerte"
+		type = hussar
+		home = 2327
+	}
 }
 
-army = {
-	name = "Ejército de Chile"
-	location = 2324
-	regiment = {
-		name= "1. Brigada de Infantería"
-		type = regular
-		home = 2324
+navy = {
+	name = "Escuadra Nacional"
+	location = 2325 #Valpo
+	ship = {
+		name= "Fragata O'Higgins"
+		type = manowar
 	}
-
-	regiment = {
-		name= "2. Brigada de Infantería"
-		type = regular
-		home = 2324
+	ship = {
+		name= "Fragata Lautaro"
+		type = manowar
 	}
-
-	regiment = {
-		name= "3. Brigada de Infantería"
-		type = regular
-		home = 2324
+	ship = {
+		name= "Corbeta Independencia"
+		type = frigate
 	}
-
-	regiment = {
-		name= "1. Brigada de Caballería"
-		type = hussar
-		home = 2324
+	ship = {
+		name= "Goleta Moctezuma"
+		type = frigate
 	}
-
+	ship = {
+		name= "Fragata Valdivia"
+		type = frigate
+	}
+	ship = {
+		name= "Goleta Mackenna"
+		type = clipper_transport
+	}
+		ship = {
+		name= "Goleta Gerezana"
+		type = clipper_transport
+	}
+		ship = {
+		name= "Goleta Peruana"
+		type = clipper_transport
+	}
+		ship = {
+		name= "Goleta Constanza"
+		type = clipper_transport
+	}
 }

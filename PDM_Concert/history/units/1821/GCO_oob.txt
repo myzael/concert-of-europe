@@ -1,6 +1,36 @@
 USA = {
 	value = 100
 }
+ENG = {
+	value = -100
+}
+FRA = {
+	value = -100
+}
+CHL = {
+	value = 100
+}
+SPA = {
+	value = -100
+	}
+PBC = {
+	value = 100
+}
+BOL = {
+	value = 100
+}
+PEU = {
+	value = 100
+}
+PRG = {
+	value = 100
+}
+ARG = {
+	value = 200
+}
+MEX = {
+	value = 50
+}
 
 leader = {
 	name = "Simón Bolívar"

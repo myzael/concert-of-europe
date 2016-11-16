@@ -1,104 +1,53 @@
 ENG = {
-	value = -100
+	value = 125
 }
 CHL = {
-	value = 175
-}
-SPA = {
-	value = -100
-}
-USA = {
-	value = 50
-}
-PBC = {
-	value = -100
-}
-BOL = {
-	value = 100
-}
-PEU = {
-	value = 100
-}
-ITA = {
-	value = 100
-}
-GCO = {
-	value = 200
-}
-MEX = {
-	value = 100
-}
-PRG = {
-	value = 70
+	value = 75
 }
 
 army = {
-	name = "Ejército Libertador de los Andes"
-	location = 2310
+	name = "Ejército de Buenos Aires"
+	location = 2349
 	regiment = {
-		name= "Batallón Nº 7 de los Andes"
-		type = infantry
-		home = 2384
-	}	
-	regiment = {
-		name= "Batallón Nº 8 de los Andes"
+		name= "1. División de Infantería"
 		type = regular
 		home = 2348
 	}
 
 	regiment = {
-		name= "Batallón Nº 11 de los Andes"
-		type = irregular
+		name= "2. División de Infantería"
+		type = regular
 		home = 2348
 	}
 
 	regiment = {
-		name= "Compañía de Artillería de los Andes"
-		type = horse_artillery
+		name= "3. División de Infantería"
+		type = regular
 		home = 2348
 	}
 
 	regiment = {
-		name= "Granaderos a Caballo de los Andes"
+		name= "1. División de Caballería"
 		type = cavalry
 		home = 2348
 	}
 
 }
 
-navy = {
-	name = "Armada de los Andes"
-	location = 2348 #Baires
-	ship = {
-		name= "Navío San Martín"
-		type = manowar
+army = {
+	name = "Ejército de Entre Ríos"
+	location = 2360
+	regiment = {
+		name= "1. División de Infantería"
+		type = regular
+		home = 2384
 	}
-	ship = {
-		name= "Bergantín Galvarino"
-		type = frigate
+
+	regiment = {
+		name= "2. División de Infantería"
+		type = regular
+		home = 2384
 	}
-	ship = {
-		name= "Bergantín Araucano"
-		type = frigate
-	}	
-	ship = {
-		name= "Bergantín Pueyrredón"
-		type = frigate
-	}
-	ship = {
-		name= "Goleta Minerva"
-		type = clipper_transport
-	}
-	ship = {
-		name= "Goleta Dolores"
-		type = clipper_transport
-	}	
-	ship = {
-		name= "Goleta Gaditana"
-		type = clipper_transport
-	}
-	ship = {
-		name= "Goleta Sacramento"
-		type = clipper_transport
-	}
+
 }
+

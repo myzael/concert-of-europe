@@ -1,8 +1,11 @@
 capital = 2313
-primary_culture = south_andean
+primary_culture = bolivian 
+culture = south_andean
+culture = aimara
+culture = quechua
 religion = catholic
 government = presidential_dictatorship
-plurality = 0.0
+plurality = 0.20
 nationalvalue = nv_order
 literacy = 0.08
 non_state_culture_literacy = 0.04

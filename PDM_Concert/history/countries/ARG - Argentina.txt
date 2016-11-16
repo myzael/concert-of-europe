@@ -1,9 +1,10 @@
 capital = 2348
 primary_culture = platinean
 culture = south_andean
+culture = italian
 religion = catholic
 government = democracy
-plurality = 1.0
+plurality = 30.0
 nationalvalue = nv_liberty
 literacy = 0.11
 non_state_culture_literacy = 0.01

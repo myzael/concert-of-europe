@@ -1,9 +1,9 @@
 capital = 2324
 primary_culture = chilean
-culture = south_andean
+culture = spanish
 religion = catholic
-government = democracy
-plurality = 1.0
+government = presidential_dictatorship
+plurality = 25.0
 nationalvalue = nv_might
 literacy = 0.10
 non_state_culture_literacy = 0.015
@@ -35,14 +35,14 @@ child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = elite
 
-ruling_party = CHL_conservative
+ruling_party = CHL_ohigginistas
 set_country_flag = tory_election_win
 last_election = 1811.1.1
 upper_house = {
 	fascist = 0
-	liberal = 35
-	conservative = 30
-	reactionary = 35
+	liberal = 40
+	conservative = 40
+	reactionary = 20
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
@@ -55,18 +55,26 @@ set_country_flag = conservative_constitution
 post_napoleonic_thought = 1
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
-post_nelsonian_thought = 1
+#post_nelsonian_thought = 1
 no_standard = 1
-classicism_n_early_romanticism = 1
-late_enlightenment_philosophy = 1
-enlightenment_thought = 1
-water_wheel_power = 1
+#classicism_n_early_romanticism = 1
+#late_enlightenment_philosophy = 1
+#enlightenment_thought = 1
+#water_wheel_power = 1
+the_command_principle = 1
+naval_design_bureaus = 1
+guild_based_production = 1
+freedom_of_trade = 1
+military_staff_system = 1
+publishing_industry = 1
 
 # Inventions
+hussar_activation = 1
+newspapers = 1
 
 #Starting Consciousness
 consciousness = 2
-nonstate_consciousness = 1
+nonstate_consciousness = 4
 
 oob = "/1821/CHL_oob.txt"
 

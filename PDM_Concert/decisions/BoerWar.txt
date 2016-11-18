@@ -4,6 +4,7 @@ political_decisions = {
 			OR = {
 				tag = TRN
 				primary_culture = boer
+				}
 				year = 1860
 				has_global_flag = boer_covention_denied
 			}
@@ -15,7 +16,7 @@ political_decisions = {
 			year = 1881
 			NOT = { has_country_modifier = trek_boers }
 		}
-		
+
 		effect = {
 			set_country_flag = republic_founded
 			ORA = { all_core = { add_core = THIS } }
@@ -44,12 +45,12 @@ political_decisions = {
 				militancy = -2
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	form_south_africa = {
 		potential = {
 			primary_culture = boer
@@ -100,7 +101,7 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	reorganize_south_africa = {
 		picture = form_south_africa
 		potential = {
@@ -114,13 +115,13 @@ political_decisions = {
 				capital_scope = { continent = africa }
 			}
 		}
-		
+
 		allow = {
 			war = no
 			nationalism_n_imperialism = 1
 			owns = 2087
 		}
-		
+
 		effect = {
 			prestige = 10
 			SAF = {
@@ -139,7 +140,7 @@ political_decisions = {
 				}
 				militancy = -3
 			}
-		}	
+		}
 	}
 
 	appeal_to_the_british = {
@@ -179,7 +180,7 @@ political_decisions = {
 			set_country_flag = appealed_to_the_british
 			ENG = { country_event = 98241 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -192,7 +193,7 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 	treaty_of_vereeniging = {
 		picture = treaty_signing
 		potential = {
@@ -216,7 +217,7 @@ political_decisions = {
 				SAF = { exists = no }
 			}
 		}
-		
+
 		allow = {
 			war = yes
 			2087 = { controlled_by = THIS }
@@ -234,7 +235,7 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		effect = {
 			random_country = {
 				limit = {
@@ -244,12 +245,12 @@ political_decisions = {
 				country_event = 98247
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	claim_xhosa_lands = {
 		picture = map_africa
 		potential = {
@@ -267,13 +268,13 @@ political_decisions = {
 			}
 			NOT = { has_country_flag = claimed_xhosa }
 		}
-		
+
 		allow = {
 			2100 = {
 				NOT = { is_core = THIS }
 			}
 		}
-		
+
 		effect = {
 			set_country_flag = claimed_xhosa
 			badboy = 2
@@ -308,7 +309,7 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 	treaty_of_umtata = {
 		picture = treaty_signing
 		potential = {
@@ -322,7 +323,7 @@ political_decisions = {
 				truce_with = THIS
 			}
 		}
-		
+
 		allow = {
 			war = no
 			XHO = {
@@ -330,7 +331,7 @@ political_decisions = {
 				truce_with = THIS
 			}
 		}
-		
+
 		effect = {
 			badboy = 1
 			prestige = 3
@@ -358,7 +359,7 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -366,7 +367,7 @@ political_decisions = {
 
 	roo_expedition = {
 		picture = treaty_signing
-		potential = {	
+		potential = {
 			owns = 2087
 			year = 1836
 				OR = {
@@ -375,14 +376,14 @@ political_decisions = {
 					2558 = { empty = yes } #De Aar
 				}
 		}
-		
+
 		allow = {
 			war = no
 			year = 1838
 			treasury = 10000
 
 		}
-	
+
 		effect = {
 			prestige = 10
 			treasury = -10000
@@ -409,7 +410,7 @@ political_decisions = {
 			}
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	bushmen_expedition = {
 		picture = treaty_signing
 		potential = {

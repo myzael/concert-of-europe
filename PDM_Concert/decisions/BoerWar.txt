@@ -7,10 +7,9 @@ political_decisions = {
 				}
 				year = 1860
 				has_global_flag = boer_covention_denied
-			}
 			NOT = { has_country_flag = republic_founded }
 		}
-		
+
 		allow = {
 			nationalism_n_imperialism = 1
 			year = 1881

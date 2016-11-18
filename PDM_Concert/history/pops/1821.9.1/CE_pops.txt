@@ -18271,7 +18271,7 @@
 		religion = protestant
 
 	}
-	artisians = {
+	artisans = {
 
 		size = 3200
 		culture = dutch

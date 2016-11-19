@@ -65788,14 +65788,14 @@
 	}
 	farmers = {
 
-		size = 41746
+		size = 241746
 		culture = mashriqi
 		religion = shiite
 
 	}
 	farmers = {
 
-		size = 6203
+		size = 16203
 		culture = bedouin
 		religion = sunni
 
@@ -65929,14 +65929,14 @@
 	}
 	farmers = {
 
-		size = 6740
+		size = 26740
 		culture = mashriqi
 		religion = sunni
 
 	}
 	farmers = {
 
-		size = 11567
+		size = 91567
 		culture = mashriqi
 		religion = shiite
 

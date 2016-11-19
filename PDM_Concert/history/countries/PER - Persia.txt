@@ -4,7 +4,6 @@ culture = azerbaijani
 culture = hazara
 culture = tajik
 culture = kurdish
-culture = luri
 religion = shiite
 government = absolute_monarchy
 plurality = 0.0

@@ -214,17 +214,17 @@ party = {
 }
 
 party = {
-	name = "GER_social_liberal"
-	start_date = 1890.1.1
+	name = "AUS_social_liberal" #by ClothCoat
+ 	start_date = 1890.1.1
 	end_date = 2000.1.1
-	
+
 	ideology = social_liberal
-	
+
 	economic_policy = interventionism
 	trade_policy = free_trade
-	religious_policy = secularized
+	religious_policy = pluralism
 	citizenship_policy = full_citizenship
-	war_policy = anti_military
+	war_policy = pro_military
 }
 
 #Same as for Austria
@@ -265,12 +265,12 @@ unit_names = {
 		"Trabant" "Taurus" "Vesta" "Dalmat" "Camälion" "Kopernik" "Drach" "Salamander"
 		"Aquila" "Sterneck"
 	}
-	clipper_transport = { 
+	clipper_transport = {
 		"1. Klipperflottille" "2. Klipperflottille" "3. Klipperflottille" "4. Klipperflottille"
 		"5. Klipperflottille" "6. Klipperflottille" "7. Klipperflottille" "8. Klipperflottille"
 		"9. Klipperflottille" "10. Klipperflottille"
 	}
-	steam_transport = { 
+	steam_transport = {
 	}
 	commerce_raider = {
 		"Novara" "Schwarzenberg" "Helgoland" "Frundsberg" "Aurora" "Saida" "Nautilus"

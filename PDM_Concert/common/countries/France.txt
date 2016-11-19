@@ -1,6 +1,6 @@
 color = { 65 105 225 }
 proletarian_dictatorship = { 180 10 10 }
-fascist_dictatorship = { 60 50 50 }
+fascist_dictatorship = { 25 25 75 }
 graphical_culture = FrenchGC
 
 party = {
@@ -63,14 +63,14 @@ party = {
 	name = "FRA_liberal_2" #Union libérale
 	start_date = 1848.1.1
 	end_date = 1870.1.1
-	
+
 	ideology = liberal
-	
+
 	economic_policy = laissez_faire
 	trade_policy = protectionism
 	religious_policy = pluralism
 	citizenship_policy = full_citizenship
-	war_policy = anti_military	
+	war_policy = anti_military
 }
 
 party = {
@@ -259,9 +259,9 @@ party = {
 	name = "FRA_social_liberal"
 	start_date = 1890.1.1
 	end_date = 2000.1.1
-	
+
 	ideology = social_liberal
-	
+
 	economic_policy = interventionism
 	trade_policy = free_trade
 	religious_policy = secularized

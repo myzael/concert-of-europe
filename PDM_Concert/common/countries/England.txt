@@ -1,6 +1,6 @@
 color = { 239  96  88 }
 proletarian_dictatorship = { 240 10 10 }
-fascist_dictatorship = { 60 50 40 }
+fascist_dictatorship = { 75 40 25 }
 graphical_culture = BritishGC
 
 party = {
@@ -119,9 +119,9 @@ party = {
 	name = "TAG_social_liberal"
 	start_date = 1890.1.1
 	end_date = 2000.1.1
-	
+
 	ideology = social_liberal
-	
+
 	economic_policy = interventionism
 	trade_policy = free_trade
 	religious_policy = secularized
@@ -151,12 +151,12 @@ unit_names = {
 	monitor = {
 		"Royal Sovereign" "Prince Albert" "Scorpion" "Wivern" "Cyclops" "Gorgon" "Hecate" "Hydra" "Cerberus" "Magdala" "Abyssinia" "Glatton" "Hotspur" "Rupert" "Belleisle" "Orion" "Conqueror" "Hero" "Severn" "Humber" "Mersey" "Abercrombie" "Havelock" "Raglan" "Roberts" "Lord Clive" "General Craufurd" "Earl of Peterborough" "Sir Thomas Picton" "Prince Eugene" "Prince Rupert" "Sir John Moore" "General Wolfe" "Marshal Ney" "Marshal Soult" "Gorgon" "Glatton" "Medusa" "Erebus" "Terror" "Robert" "Abercrombie"
 	}
-	clipper_transport = { 
-		
+	clipper_transport = {
+
 
 	}
-	steam_transport = { 
-		
+	steam_transport = {
+
 
 	}
 	commerce_raider = {

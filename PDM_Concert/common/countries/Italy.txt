@@ -1,4 +1,6 @@
 color = { 125  171  84 }
+proletarian_dictatorship = { 190 0 0 }
+fascist_dictatorship = { 10 25 10 }
 graphical_culture = ItalianGC
 
 party = {
@@ -145,9 +147,9 @@ party = {
 	name = "ITA_social_liberal"
 	start_date = 1890.1.1
 	end_date = 2000.1.1
-	
+
 	ideology = social_liberal
-	
+
 	economic_policy = interventionism
 	trade_policy = free_trade
 	religious_policy = secularized
@@ -166,10 +168,10 @@ unit_names = {
 		"Dante Alighieri" "Conti di Cavour" "Giulio Cesare" "Leonarda da Vince" "Andrea Doria" Duilio "Francesco Caracciolo" Littorio Roma Terribile Formidabile "Principe di Carignano" Messina "Conte Verde" "Re d'Italia" "Re di Portogallo" "Regina Maria Pia" "San Martino" Castelfidardo Ancona Affondatore "Principe Amedeo" Italia Lepanto "Ruggiero di Lauria" "Francesco Morosini" "Emanuele Filiberto"
 	}
 	manowar = {
-		Sicilia Sardegna Puglia Libia Campania Basilicata Quarto Venezia Trento "Valle d'Aosta" Piemonte Liguria Lombardia Veneto Trentino Friuli "Emilia-Romagna" Toscana Marche Umbria Lazio Abruzzo Molise Calabria 
+		Sicilia Sardegna Puglia Libia Campania Basilicata Quarto Venezia Trento "Valle d'Aosta" Piemonte Liguria Lombardia Veneto Trentino Friuli "Emilia-Romagna" Toscana Marche Umbria Lazio Abruzzo Molise Calabria
 	}
 	cruiser = {
-		"Marco Polo" "Carlo Alberto" "Vettor Pisani" "General Garibaldi" "General San Martin" "General Belgrano" "General Pueyrredon" Amalfi Pisa "San Giorgio" "San Marco" "Nino Bixio" Marsala Taranto Brindisi Bari Trieste Fiume Gorizia Pola Zara Bolzano 
+		"Marco Polo" "Carlo Alberto" "Vettor Pisani" "General Garibaldi" "General San Martin" "General Belgrano" "General Pueyrredon" Amalfi Pisa "San Giorgio" "San Marco" "Nino Bixio" Marsala Taranto Brindisi Bari Trieste Fiume Gorizia Pola Zara Bolzano
 	}
 	frigate = {
 		Fulmine Lampo Freccia Dardo Strale Euro Ostro Nembo Turbine Aquilone Borea Zeffiro Espero Artigliere Bersagliere Corazziere Garibaldino
@@ -177,15 +179,15 @@ unit_names = {
 	}
 	monitor = {
 		"Dante Alighieri" "Conti di Cavour" "Giulio Cesare" "Leonarda da Vince" "Andrea Doria" Duilio "Francesco Caracciolo" Littorio Roma Terribile Formidabile "Principe di Carignano" Messina "Conte Verde" "Re d'Italia" "Re di Portogallo" "Regina Maria Pia" "San Martino" Castelfidardo Ancona Affondatore "Principe Amedeo" Italia Lepanto "Ruggiero di Lauria" "Francesco Morosini" "Emanuele Filiberto"
-		
+
 	}
 	clipper_transport = {
-		 
+
 	}
 	steam_transport = {
-	
+
 	}
 	commerce_raider = {
-		"Rosolino Pilo" "Giuseppe Cesare Abba" "Pilade Bronzetti" "Giuseppe Missori" "Antonio Mosto" "Ippolito Nievo" "Francesco Nullo" "Simone Schiaffino" "Giuseppe Sirtori" "Giovanni Acerbi" "Vincenzo Giordano Orsini" "Francesco Stucco"  
+		"Rosolino Pilo" "Giuseppe Cesare Abba" "Pilade Bronzetti" "Giuseppe Missori" "Antonio Mosto" "Ippolito Nievo" "Francesco Nullo" "Simone Schiaffino" "Giuseppe Sirtori" "Giovanni Acerbi" "Vincenzo Giordano Orsini" "Francesco Stucco"
 	}
 }

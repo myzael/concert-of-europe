@@ -5,48 +5,48 @@ fascist_group = {
 		uncivilized = no
 		color = { 60 60 60 }
 		date = 1905.1.1
-	
-		
+
+
 		add_political_reform = {
 			base = 0
 		}
-	
-	
+
+
 		remove_political_reform = {
 			base = 0
 			modifier = {
 				factor = 1
-				ruling_party_ideology = fascist 
+				ruling_party_ideology = fascist
 			}
 		}
-	
-	
+
+
 		add_social_reform = {
 			base = 0
 			modifier = {
 				factor = 1
-				ruling_party_ideology = fascist 
+				ruling_party_ideology = fascist
 			}
 		}
-	
-	
+
+
 		remove_social_reform = {
 			base = 0
 			modifier = {
 				factor = 1
-				ruling_party_ideology = fascist 
+				ruling_party_ideology = fascist
 			}
 		}
-		
-		
-		
+
+
+
 	}
-}	
+}
 
 conservative_group = {
 	reactionary = {
 		color = { 30 30 100 }
-		
+
 		add_political_reform = {
 			base = 0
 		}
@@ -59,11 +59,11 @@ conservative_group = {
 		remove_social_reform = {
 			base = 1
 		}
-		
+
 		add_military_reform = {
 			base = -1
 		}
-		
+
 		add_economic_reform = {
 			base = -1
 		}
@@ -71,7 +71,7 @@ conservative_group = {
 
 	pro_slavery = {
 		color = { 90 10 130 }
-		
+
 		add_political_reform = {
 			base = 0
 		}
@@ -83,14 +83,14 @@ conservative_group = {
 		}
 		remove_social_reform = {
 			base = 1
-		}	
+		}
 	}
-	
+
 	conservative = {
 		color = { 10 10 250 }
-		
+
 		can_reduce_militancy = yes
-		
+
 		add_political_reform = {
 			base = 0
 			group = {
@@ -173,7 +173,7 @@ conservative_group = {
 		}
 		add_social_reform = {
 			base = 0
-			
+
 			group = {
 				modifier = {
 					factor = 0.05
@@ -248,16 +248,16 @@ conservative_group = {
 					social_movement_strength = 0.9
 				}
 			}
-			
+
 		}
 		remove_social_reform = {
 			base = 0
 		}
-		
+
 		add_military_reform = {
 			base = 0.5
 		}
-		
+
 		add_economic_reform = {
 			base = -0.5
 		}
@@ -268,7 +268,7 @@ socialist_group = {
 		uncivilized = no
 		color = { 255 0 0 }
 		date = 1860.1.1
-		
+
 		add_political_reform = {
 			base = 0
 			group = {
@@ -356,12 +356,12 @@ socialist_group = {
 			base = 0
 		}
 	}
-	
+
 	communist = {
 		uncivilized = no
 		color = { 150 10 10 }
 		date = 1865.1.1
-		
+
 		add_political_reform = {
 			base = 0
 			modifier = {
@@ -390,11 +390,11 @@ socialist_group = {
 }
 
 liberal_group = {
-	
+
 	liberal = {
 		color = { 255 255 0 }
 
-		
+
 		add_political_reform = {
 			base = 1
 		}
@@ -480,25 +480,25 @@ liberal_group = {
 		}
 		remove_social_reform = {
 			base = 0
-			modifier = {
-				factor = 1
-				ruling_party_ideology = liberal 
-			}
+			#modifier = {
+			#	factor = 1
+			#	ruling_party_ideology = liberal
+			#}
 		}
-		
+
 		add_military_reform = {
 			base = 0.5
 		}
-		
+
 		add_economic_reform = {
 			base = 1
 		}
 	}
-	
+
 	anarcho_liberal = {
 		color = { 150 150 10 }
 		date = 1848.1.1
-		
+
 		add_political_reform = {
 			base = 1
 		}
@@ -515,11 +515,11 @@ liberal_group = {
 		remove_social_reform = {
 			base = 1
 		}
-		
+
 		add_military_reform = {
 			base = -1
 		}
-		
+
 		add_economic_reform = {
 			base = -1
 		}
@@ -528,7 +528,7 @@ liberal_group = {
 	social_liberal = {
 		color = { 255 160 53 }
 		date = 1900.1.1
-		
+
 		add_political_reform = {
 			base = 1
 		}
@@ -544,7 +544,7 @@ liberal_group = {
 	}
 	abolitionist = {
 		color = { 0 0 160 }
-		
+
 		add_political_reform = {
 			base = 1
 		}
@@ -556,14 +556,14 @@ liberal_group = {
 		}
 		remove_social_reform = {
 			base = 0
-		}	
+		}
 	}
 }
-	
+
 minor_group = {
 	separatist = {
 		color = { 30 60 60 }
-		
+
 		add_political_reform = {
 			base = 0
 		}
@@ -575,12 +575,12 @@ minor_group = {
 		}
 		remove_social_reform = {
 			base = 0
-		}	
+		}
 	}
 	subordinate = {
 		color = { 160 160 160 }
 
-		
+
 		add_political_reform = {
 			base = 0
 		}
@@ -592,11 +592,11 @@ minor_group = {
 		}
 		remove_social_reform = {
 			base = 0
-		}	
+		}
 	}
 	insubordinate = {
 		color = { 0 160 160 }
-		
+
 		add_political_reform = {
 			base = 0
 		}
@@ -608,7 +608,7 @@ minor_group = {
 		}
 		remove_social_reform = {
 			base = 0
-		}	
+		}
 	}
 
 }

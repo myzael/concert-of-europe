@@ -167,11 +167,13 @@ party_issues = {
 	citizenship_policy = {
 		residency = {
 			non_accepted_pop_consciousness_modifier = 0.02
+			non_accepted_pop_militancy_modifier = 0.01
 		}
 		limited_citizenship = {
 		}
 		full_citizenship = {
 			non_accepted_pop_consciousness_modifier = -0.02
+			non_accepted_pop_militancy_modifier = -0.01
 		}
 	}
 	war_policy = {
@@ -181,6 +183,7 @@ party_issues = {
 			cb_generation_speed_modifier = 0.3
 			is_jingoism = yes
 			org_regain = 0.2
+			leadership_modifier = 0.2
 		}
 		pro_military = {
 			max_military_spending = 1
@@ -188,6 +191,7 @@ party_issues = {
 			cb_generation_speed_modifier = 0.1
 			mobilization_impact = -0.25
 			org_regain = 0.1
+			leadership_modifier = 0.1
 		}
 		anti_military = {
 			max_military_spending = 0.75
@@ -195,6 +199,7 @@ party_issues = {
 			mobilization_impact = -0.5
 			org_regain = -0.1
 			global_pop_militancy_modifier = -0.01
+			leadership_modifier = -0.1
 		}
 		pacifism = {
 			max_military_spending = 0.5
@@ -202,6 +207,7 @@ party_issues = {
 			mobilization_impact = -0.75
 			org_regain = -0.2
 			global_pop_militancy_modifier = -0.03
+			leadership_modifier = -0.2
 		}
 	}
 }
@@ -239,14 +245,13 @@ political_reforms = {
 			middle_vote = 0
 			poor_vote = 0
 			global_immigrant_attract = 0.05
-			cb_generation_speed_modifier = 0.2
+			cb_generation_speed_modifier = 0.1
 		}
 		wealth_weighted_voting = {
 			rich_vote = 2
 			middle_vote = 1
 			poor_vote = 0
 			global_immigrant_attract = 0.1
-			cb_generation_speed_modifier = 0.1
 		}
 		wealth_voting = {
 			rich_vote = 1
@@ -330,7 +335,6 @@ political_reforms = {
 		next_step_only = yes
 		state_press = {
 			suppression_points_modifier = 0.25
-			cb_generation_speed_modifier = 0.1
 			global_pop_consciousness_modifier = -0.01
 			global_immigrant_attract = -0.01
 		}
@@ -418,10 +422,12 @@ political_reforms = {
 		open_immigration = {
 			global_immigrant_attract = 0.25
 			global_pop_militancy_modifier = 0.01
+			non_accepted_pop_militancy_modifier = -0.01
 		}
 		naturalization = {
 			global_immigrant_attract = 0.50
 			global_pop_militancy_modifier = 0.02
+			non_accepted_pop_militancy_modifier = -0.02
 		}
 	}
 	conscription = {
@@ -432,28 +438,32 @@ political_reforms = {
 			global_immigrant_attract = -0.1
 			global_pop_militancy_modifier = 0.01
 			global_pop_consciousness_modifier = 0.02
+			max_military_spending = 0.20
 		}
 		four_year_draft = {
 			mobilisation_size = 0.015
-			mobilisation_economy_impact = 1.5
+			mobilisation_economy_impact = 1.75
 			global_immigrant_attract = -0.05
 			global_pop_consciousness_modifier = 0.01
+			max_military_spending = 0.10
 		}
 		two_year_draft = {
 			mobilisation_size = 0.01
-			mobilisation_economy_impact = 1
+			mobilisation_economy_impact = 1.5
 		}
 		one_year_draft = {
 			mobilisation_size = 0.005
-			mobilisation_economy_impact = 0.5
+			mobilisation_economy_impact = 1.25
 			global_immigrant_attract = 0.05
 			global_pop_consciousness_modifier = -0.01
+			max_military_spending = -0.10
 		}
 		no_draft = {
-			mobilisation_economy_impact = 0.25
+			mobilisation_economy_impact = 1
 			global_immigrant_attract = 0.1
 			global_pop_consciousness_modifier = -0.02
 			global_pop_militancy_modifier = -0.01
+			max_military_spending = -0.20
 		}
 	}
 	minorities_reform = {
@@ -738,6 +748,7 @@ social_reforms = {
 		administrative = yes
 		child_labor_legal = {
 			factory_throughput = 0.05
+			education_efficiency_modifier = -0.15
 		}
 		child_labor_restricted = {
 			global_population_growth = 0.0005
@@ -750,6 +761,7 @@ social_reforms = {
 			factory_throughput = -0.05
 			social_reform_desire = -0.05
 			political_reform_desire = -0.05
+			education_efficiency_modifier = 0.15
 		}
 	}
 
@@ -759,13 +771,13 @@ social_reforms = {
 		elite = {
 		}
 		church = {
-			education_efficiency_modifier = 0.50
+			education_efficiency_modifier = 0.25
 			global_immigrant_attract = 0.025
 			social_reform_desire = -0.05
 			political_reform_desire = -0.025
 		}
 		public = {
-			education_efficiency_modifier = 1.0
+			education_efficiency_modifier = 0.5
 			global_immigrant_attract = 0.05
 			social_reform_desire = -0.1
 			political_reform_desire = -0.05
@@ -813,11 +825,12 @@ economic_reforms = {
 			global_pop_militancy_modifier = -0.01
 		}
 		yes_land_reform = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			on_execute = {
 				effect = {
 				prestige = 1
+				plurality = 1
 				activate_technology = water_wheel_power
 					any_pop = {
 						scaled_militancy = {
@@ -840,11 +853,12 @@ economic_reforms = {
 			allow = {
 				year = 1835
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			civilization_progress_modifier = 0.15
 			on_execute = {
 				effect = {
 				set_country_flag = practical_steam_engine
+				plurality = 3
 				prestige = 2
 				activate_technology = practical_steam_engine
 					any_pop = {
@@ -871,11 +885,12 @@ economic_reforms = {
 			global_pop_consciousness_modifier = -0.05
 		}
 		rehabilitation = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			global_pop_militancy_modifier = -0.02
 			on_execute = {
 				effect = {
+				plurality = 1
 				prestige = 1
 				activate_technology = introspectionism
 					any_pop = {
@@ -903,10 +918,11 @@ economic_reforms = {
 			global_pop_militancy_modifier = -0.01
 		}
 		yes_admin_reform = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			on_execute = {
 				effect = {
+					plurality = 1
 					prestige = 1
 					activate_technology = enlightenment_thought
 					any_pop = {
@@ -930,12 +946,13 @@ economic_reforms = {
 			allow = {
 				year = 1850
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			administrative_efficiency_modifier = 0.05
 			civilization_progress_modifier = 0.15
 			on_execute = {
 				effect = {
 					set_country_flag = ideological_thought
+					plurality = 3
 					prestige = 2
 					activate_technology = ideological_thought
 					any_pop = {
@@ -963,10 +980,11 @@ economic_reforms = {
 			global_pop_militancy_modifier = -0.01
 		}
 		interactive = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			on_execute = {
 				effect = {
+					plurality = 1
 					prestige = 1
 					activate_technology = classicism_n_early_romanticism
 					any_pop = {
@@ -990,11 +1008,12 @@ economic_reforms = {
 			allow = {
 				year = 1835
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			civilization_progress_modifier = 0.15
 			on_execute = {
 				effect = {
 					set_country_flag = romanticism
+					plurality = 3
 					prestige = 2
 					activate_technology = romanticism
 					any_pop = {
@@ -1022,11 +1041,12 @@ economic_reforms = {
 			global_pop_militancy_modifier = -0.01
 		}
 		tax_farmers = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			on_execute = {
 				effect = {
 					prestige = 1
+					plurality = 1
 					activate_technology = freedom_of_trade
 					any_pop = {
 						scaled_militancy = {
@@ -1049,12 +1069,13 @@ economic_reforms = {
 			allow = {
 				year = 1855
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			tax_efficiency = 0.05
 			civilization_progress_modifier = 0.15
 			on_execute = {
 				effect = {
 					set_country_flag = market_structure
+					plurality = 3
 					prestige = 2
 					activate_technology = market_structure
 					any_pop = {
@@ -1082,13 +1103,14 @@ economic_reforms = {
 			global_pop_militancy_modifier = -0.01
 		}
 		yes_finance_reform = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			max_loan_modifier = -1.0 # no loan 4 u
 			administrative_efficiency = 0.025
 			on_execute = {
 				effect = {
 					prestige = 1
+					plurality = 1
 					activate_technology = no_standard
 					any_pop = {
 						scaled_militancy = {
@@ -1111,12 +1133,13 @@ economic_reforms = {
 			allow = {
 				year = 1840
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			civilization_progress_modifier = 0.15
 			max_loan_modifier = -0.2 # 80% loans
 			administrative_efficiency = 0.05
 			on_execute = {
 				effect = {
+					plurality = 3
 					set_country_flag = ad_hoc_money_bill_printing
 					prestige = 2
 					activate_technology = ad_hoc_money_bill_printing
@@ -1145,13 +1168,14 @@ economic_reforms = {
 			global_pop_militancy_modifier = -0.01
 		}
 		yes_education_reform = {
-			technology_cost = 8000
+			technology_cost = 8250
 			research_points = 0.2
 			civilization_progress_modifier = 0.05
 			education_efficiency_modifier = 0.25
 			on_execute = {
 				effect = {
 					prestige = 1
+					plurality = 1
 					activate_technology = malthusian_thought
 					any_pop = {
 						scaled_militancy = {
@@ -1174,13 +1198,14 @@ economic_reforms = {
 			allow = {
 				year = 1840
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			research_points = 0.4
 			civilization_progress_modifier = 0.15
 			education_efficiency_modifier = 0.50
 			on_execute = {
 				effect = {
 					set_country_flag = positivism
+					plurality = 3
 					prestige = 2
 					activate_technology = positivism
 					any_pop = {
@@ -1209,13 +1234,14 @@ economic_reforms = {
 			global_population_growth = -0.002
 		}
 		alchemy = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			global_population_growth = -0.001
 			org_regain = 0.1
 			on_execute = {
 				effect = {
 					prestige = 1
+					plurality = 1
 					activate_technology = basic_chemistry
 					any_pop = {
 						scaled_militancy = {
@@ -1238,13 +1264,14 @@ economic_reforms = {
 			allow = {
 				year = 1850
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			civilization_progress_modifier = 0.15
 			org_regain = 0.2
 			on_execute = {
 				effect = {
 					set_country_flag = medicine
 					prestige = 2
+					plurality = 3
 					activate_technology = medicine
 					any_pop = {
 						scaled_militancy = {
@@ -1271,11 +1298,12 @@ economic_reforms = {
 			global_pop_militancy_modifier = -0.01
 		}
 		madrasahs = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			on_execute = {
 				effect = {
 					prestige = 1
+					plurality = 1
 					activate_technology = late_enlightenment_philosophy
 					any_pop = {
 						scaled_militancy = {
@@ -1298,13 +1326,14 @@ economic_reforms = {
 			allow = {
 				year = 1850
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			civilization_progress_modifier = 0.15
 			research_points = 0.2
 			on_execute = {
 				effect = {
 					set_country_flag = idealism
 					prestige = 2
+					plurality = 3
 					activate_technology = idealism
 					any_pop = {
 						scaled_militancy = {
@@ -1330,13 +1359,14 @@ economic_reforms = {
 			global_pop_militancy_modifier = -0.01
 		}
 		yes_transport_improv = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			supply_consumption = -0.1
 			rgo_throughput = 0.05
 			on_execute = {
 				effect = {
 					prestige = 1
+					plurality = 1
 					activate_technology = experimental_railroad
 					any_pop = {
 						scaled_militancy = {
@@ -1359,7 +1389,7 @@ economic_reforms = {
 			allow = {
 				year = 1850
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			civilization_progress_modifier = 0.15
 			supply_consumption = -0.25
 			rgo_throughput = 0.10
@@ -1367,6 +1397,7 @@ economic_reforms = {
 				effect = {
 					set_country_flag = early_railroad
 					prestige = 2
+					plurality = 3
 					activate_technology = early_railroad
 					any_pop = {
 						scaled_militancy = {
@@ -1391,11 +1422,12 @@ economic_reforms = {
 			global_pop_militancy_modifier = -0.01
 		}
 		yes_pre_indust = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			rgo_throughput = 0.05
 			on_execute = {
 				effect = {
+					plurality = 3
 					prestige = 1
 					activate_technology = publishing_industry
 					activate_technology = guild_based_production
@@ -1429,12 +1461,13 @@ economic_reforms = {
 			global_pop_militancy_modifier = -0.01
 		}
 		yes_industrial_construction = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			rgo_throughput = 0.05
 			on_execute = {
 				effect = {
 					prestige = 1
+					plurality = 1
 					activate_technology = mechanized_mining
 					build_factory_in_capital_state = bronze_factory
 					any_pop = {
@@ -1459,12 +1492,13 @@ economic_reforms = {
 			allow = {
 				year = 1840
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			civilization_progress_modifier = 0.15
 			rgo_throughput = 0.1
 			on_execute = {
 				effect = {
 					set_country_flag = clean_coal
+					plurality = 3
 					prestige = 2
 					activate_technology = clean_coal
 					build_factory_in_capital_state = steel_factory
@@ -1499,7 +1533,7 @@ military_reforms = {
 			#unit stats improve
 			land_organisation = 0.05
 			mobilisation_size = 0.01
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			on_execute = {
 				effect = {
@@ -1529,7 +1563,7 @@ military_reforms = {
 			#unit stats improve
 			land_organisation = 0.1
 			mobilisation_size = 0.02
-			technology_cost = 16000
+			technology_cost = 16500
 			civilization_progress_modifier = 0.15
 			on_execute = {
 				effect = {
@@ -1561,10 +1595,11 @@ military_reforms = {
 			global_pop_militancy_modifier = -0.01
 		}
 		yes_foreign_weapons = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			on_execute = {
 				effect = {
+					build_factory_in_capital_state = early_small_arms_factory
 					prestige = 1
 					activate_technology = flintlock_rifles
 					any_pop = {
@@ -1588,11 +1623,12 @@ military_reforms = {
 			allow = {
 				year = 1840
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			civilization_progress_modifier = 0.15
 			on_execute = {
 				effect = {
 					set_country_flag = muzzle_loaded_rifles
+					build_factory_in_capital_state = ammunition_factory
 					prestige = 2
 					activate_technology = muzzle_loaded_rifles
 					any_pop = {
@@ -1620,7 +1656,7 @@ military_reforms = {
 			global_pop_militancy_modifier = -0.01
 		}
 		yes_military_constructions = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			on_execute = {
 				effect = {
@@ -1651,7 +1687,7 @@ military_reforms = {
 			allow = {
 				year = 1835
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			civilization_progress_modifier = 0.15
 			on_execute = {
 				effect = {
@@ -1679,11 +1715,11 @@ military_reforms = {
 	foreign_officers = {
 		next_step_only = yes
 		no_foreign_officers = {
-			leadership_modifier = -0.1
 			global_pop_militancy_modifier = -0.01
 		}
 		yes_foreign_officers = {
-			technology_cost = 8000
+			technology_cost = 8250
+			leadership_modifier = 0.25
 			civilization_progress_modifier = 0.05
 			on_execute = {
 				effect = {
@@ -1710,7 +1746,8 @@ military_reforms = {
 			allow = {
 				year = 1840
 			}
-			technology_cost = 16000
+			technology_cost = 16500
+			leadership_modifier = 0.5
 			civilization_progress_modifier = 0.15
 			on_execute = {
 				effect = {
@@ -1742,12 +1779,14 @@ military_reforms = {
 			global_pop_militancy_modifier = -0.01
 		}
 		yes_army_schools = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			research_points_on_conquer = 0.15
 			on_execute = {
 				effect = {
 					prestige = 1
+					build_factory_in_capital_state = bronze_artillery_factory
+					build_factory_in_capital_state = gunpowder_factory
 					activate_technology = bronze_muzzle_loaded_artillery
 					any_pop = {
 						scaled_militancy = {
@@ -1770,12 +1809,13 @@ military_reforms = {
 			allow = {
 				year = 1840
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			civilization_progress_modifier = 0.15
 			research_points_on_conquer = 0.25
 			on_execute = {
 				effect = {
 					set_country_flag = iron_muzzle_loaded_artillery
+					build_factory_in_capital_state = iron_artillery_factory
 					prestige = 2
 					activate_technology = iron_muzzle_loaded_artillery
 					any_pop = {
@@ -1802,8 +1842,9 @@ military_reforms = {
 			naval_attack_modifier = -0.2
 		}
 		yes_foreign_naval_officers = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
+			leadership_modifier = 0.25
 			on_execute = {
 				effect = {
 					prestige = 1
@@ -1829,8 +1870,9 @@ military_reforms = {
 			allow = {
 				year = 1840
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			civilization_progress_modifier = 0.15
+			leadership_modifier = 0.5
 			on_execute = {
 				effect = {
 					set_country_flag = naval_professionalism
@@ -1860,7 +1902,7 @@ military_reforms = {
 			naval_unit_start_experience = -10
 		}
 		yes_naval_schools = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			research_points_on_conquer = 0.15
 			on_execute = {
@@ -1888,7 +1930,7 @@ military_reforms = {
 			allow = {
 				year = 1850
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			civilization_progress_modifier = 0.15
 			research_points_on_conquer = 0.25
 			on_execute = {
@@ -1920,7 +1962,7 @@ military_reforms = {
 			tariff_efficiency_modifier = -0.2
 		}
 		yes_naval_bases = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			on_execute = {
 				effect = {
@@ -1947,7 +1989,7 @@ military_reforms = {
 			allow = {
 				year = 1835
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			civilization_progress_modifier = 0.15
 			on_execute = {
 				effect = {
@@ -1978,8 +2020,9 @@ military_reforms = {
 			naval_defense_modifier = -0.2
 		}
 		scientific = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
+			naval_organisation = 0.25
 			on_execute = {
 				effect = {
 					prestige = 1
@@ -2005,8 +2048,9 @@ military_reforms = {
 			allow = {
 				year = 1840
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			civilization_progress_modifier = 0.15
+			naval_organisation = 0.5
 			on_execute = {
 				effect = {
 					set_country_flag = fire_control_systems
@@ -2035,7 +2079,7 @@ military_reforms = {
 		no_foreign_navies = {
 		}
 		yes_foreign_navies = {
-			technology_cost = 8000
+			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			on_execute = {
 				effect = {
@@ -2062,7 +2106,7 @@ military_reforms = {
 			allow = {
 				year = 1840
 			}
-			technology_cost = 16000
+			technology_cost = 16500
 			civilization_progress_modifier = 0.15
 			on_execute = {
 				effect = {

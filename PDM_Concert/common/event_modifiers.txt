@@ -2706,3 +2706,9 @@ officer_training_7_mod = {
 	leadership_modifier = 1.0
 	icon = 15
 }
+
+colonial_exploitation_tech_effect = {
+local_RGO_throughput = 0.5
+pop_militancy_modifier = 0.03
+icon = 13
+}

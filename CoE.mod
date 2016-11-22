@@ -1,6 +1,6 @@
-name = "PDM Concert of Europe" 
-path = "mod/PDM_Concert" 
-user_dir = "PoD_Concert"
+name = "The Concert of Europe" 
+path = "mod/CoE" 
+user_dir = "CoE"
 #   I'm an indentation bunny #
 #                  I prevent #
 #   ()()          changes to #

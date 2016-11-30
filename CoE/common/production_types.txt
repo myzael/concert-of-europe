@@ -1318,7 +1318,7 @@ early_small_arms_factory = {
 	}
 	bonus = {
 		trigger = {
-			trade_goods_in_sate = iron
+			trade_goods_in_state = iron
 		}
 		value = 0.1
 	}

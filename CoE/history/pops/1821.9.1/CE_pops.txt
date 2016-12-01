@@ -55160,7 +55160,7 @@
 	artisans = {
 
 		size = 400
-		culture = romanian
+		culture = byelorussian
 		religion = orthodox
 
 	}
@@ -55168,13 +55168,6 @@
 
 		size = 15
 		culture = ukrainian
-		religion = orthodox
-
-	}
-	clergymen = {
-
-		size = 40
-		culture = greek
 		religion = orthodox
 
 	}
@@ -55188,7 +55181,7 @@
 	clergymen = {
 
 		size = 40
-		culture = romanian
+		culture = byelorussian
 		religion = orthodox
 
 	}
@@ -55209,7 +55202,7 @@
 	farmers = {
 
 		size = 3605
-		culture = romanian
+		culture = byelorussian
 		religion = orthodox
 
 	}
@@ -58906,8 +58899,8 @@
 	aristocrats = {
 
 		size = 595
-		culture = mongol
-		religion = gelugpa
+		culture = tatar
+		religion = sunni
 
 	}
 	aristocrats = {
@@ -58927,8 +58920,8 @@
 	artisans = {
 
 		size = 1327
-		culture = mongol
-		religion = gelugpa
+		culture = tatar
+		religion = sunni
 
 	}
 	bureaucrats = {
@@ -58948,8 +58941,8 @@
 	clergymen = {
 
 		size = 251
-		culture = mongol
-		religion = gelugpa
+		culture = tatar
+		religion = sunni
 
 	}
 	farmers = {
@@ -58969,8 +58962,8 @@
 	farmers = {
 
 		size = 24106
-		culture = mongol
-		religion = gelugpa
+		culture = tatar
+		religion = sunni
 
 	}
 	officers = {
@@ -58997,8 +58990,8 @@
 	soldiers = {
 
 		size = 274
-		culture = mongol
-		religion = gelugpa
+		culture = tatar
+		religion = sunni
 
 	}
 
@@ -85741,35 +85734,35 @@
 	aristocrats = {
 
 		size = 139
-		culture = tatar
+		culture = mongol
 		religion = gelugpa
 
 	}
 	artisans = {
 
 		size = 373
-		culture = tatar
+		culture = mongol
 		religion = gelugpa
 
 	}
 	clergymen = {
 
 		size = 69
-		culture = tatar
+		culture = mongol
 		religion = gelugpa
 
 	}
 	labourers = {
 
 		size = 6810
-		culture = tatar
+		culture = mongol
 		religion = gelugpa
 
 	}
 	soldiers = {
 
 		size = 69
-		culture = tatar
+		culture = mongol
 		religion = gelugpa
 
 	}
@@ -102986,17 +102979,53 @@
 }
 1721 = {
 
-	clergymen = {
 
-		size = 14
-		culture = tuareg
+	aristocrats = {
+
+		size = 4625
+		culture =  tamil
 		religion = sunni
 
 	}
-	labourers = {
+	artisans = {
 
-		size = 1880
-		culture = tuareg
+		size = 1681
+		culture = tamil
+		religion = sunni
+
+	}
+	bureaucrats = {
+
+		size = 49
+		culture = tamil
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 295
+		culture = tamil
+		religion = sunni
+
+	}
+	farmers = {
+
+		size = 29648
+		culture = tamil
+		religion = sunni
+
+	}
+	officers = {
+
+		size = 296
+		culture = tamil
+		religion = sunni
+
+	}
+	soldiers = {
+
+		size = 3660
+		culture = tamil
 		religion = sunni
 
 	}
@@ -108732,52 +108761,17 @@
 }
 1821 = {
 
-	aristocrats = {
-
-		size = 4625
-		culture =  tamil
-		religion = sunni
-
-	}
-	artisans = {
-
-		size = 1681
-		culture = tamil
-		religion = sunni
-
-	}
-	bureaucrats = {
-
-		size = 49
-		culture = tamil
-		religion = sunni
-
-	}
 	clergymen = {
 
-		size = 295
-		culture = tamil
+		size = 14
+		culture = tuareg
 		religion = sunni
 
 	}
-	farmers = {
+	labourers = {
 
-		size = 29648
-		culture = tamil
-		religion = sunni
-
-	}
-	officers = {
-
-		size = 296
-		culture = tamil
-		religion = sunni
-
-	}
-	soldiers = {
-
-		size = 3660
-		culture = tamil
+		size = 1880
+		culture = tuareg
 		religion = sunni
 
 	}
@@ -145082,36 +145076,36 @@
 	aristocrats = {
 
 		size = 28
-		culture = yakut
-		religion = animist
+		culture = hazara
+		religion = sunni
 
 	}
 	artisans = {
 
 		size = 24
-		culture = yakut
-		religion = animist
+		culture = pashtun
+		religion = sunni
 
 	}
 	clergymen = {
 
 		size = 9
-		culture = yakut
-		religion = animist
+		culture = pashtun
+		religion = sunni
 
 	}
 	labourers = {
 
 		size = 445
-		culture = yakut
-		religion = animist
+		culture = tajik
+		religion = sunni
 
 	}
 	soldiers = {
 
 		size = 15
-		culture = yakut
-		religion = animist
+		culture = hazara
+		religion = sunni
 
 	}
 
@@ -146564,22 +146558,22 @@
 	artisans = {
 
 		size = 9
-		culture = siberian
-		religion = animist
+		culture = kazak
+		religion = sunni
 
 	}
 	clergymen = {
 
 		size = 4
-		culture = siberian
-		religion = animist
+		culture = kazak
+		religion = sunni
 
 	}
 	farmers = {
 
 		size = 227
-		culture = siberian
-		religion = animist
+		culture = kazak
+		religion = sunni
 
 	}
 
@@ -146639,22 +146633,22 @@
 	artisans = {
 
 		size = 9
-		culture = yakut
-		religion = animist
+		culture = kazak
+		religion = sunni
 
 	}
 	clergymen = {
 
 		size = 4
-		culture = yakut
-		religion = animist
+		culture = kazak
+		religion = sunni
 
 	}
 	labourers = {
 
 		size = 227
-		culture = yakut
-		religion = animist
+		culture = kazak
+		religion = sunni
 
 	}
 
@@ -146852,8 +146846,8 @@
 	artisans = {
 
 		size = 9
-		culture = yakut
-		religion = animist
+		culture = uzbek
+		religion = sunni
 
 	}
 	bureaucrats = {
@@ -146866,8 +146860,8 @@
 	clergymen = {
 
 		size = 4
-		culture = yakut
-		religion = animist
+		culture = uzbek
+		religion = sunni
 
 	}
 	clergymen = {
@@ -146880,8 +146874,8 @@
 	farmers = {
 
 		size = 217
-		culture = yakut
-		religion = animist
+		culture = uzbek
+		religion = sunni
 
 	}
 	farmers = {

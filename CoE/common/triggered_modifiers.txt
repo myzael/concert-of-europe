@@ -965,7 +965,7 @@ money_hoarder_5 = {
 	icon = 1
 }
 
-occupied_captial = {
+occupied_capital = {
 	trigger = {
 		any_owned_province = {
 			is_capital = yes

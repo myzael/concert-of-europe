@@ -1270,6 +1270,8 @@ EVTNAME1316097;China Refuses!;;;;;;;;;;;;x;;
 EVTDESC1316097;Our offer has been turned down, and the Chinese seem offended that we even asked. If we still want a Chinese port, we'll have to get it the old-fashioned way...;;;;;;;;;;;;x;;
 democracy;Republic;;;;;;;;;x;
 hms_government;Constitutional Monarchy;;;;;;;;;x;
+absolute_monarchy;Absolute Monarchy;;;;;;;;;x;
+bourgeois_dictatorship;Absolute Democracy;;;;;;;;;x;
 prussian_constitutionalism;Federal Monarchy;;;;;;;;;x;
 presidential_dictatorship;Autocratic Dictatorship;;;;;;;;;x;
 fascist_dictatorship;Fascist Dictatorship;;;;;;;;;x;

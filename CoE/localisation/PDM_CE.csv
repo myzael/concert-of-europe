@@ -1268,9 +1268,6 @@ EVTNAME1316096;China Agrees!;;;;;;;;;;;;x;;
 EVTDESC1316096;Our offer has been accepted, and control of the port town has been transferred to us. This will facilitate our trade with China and our Asian possessions.;;;;;;;;;;;;x;;
 EVTNAME1316097;China Refuses!;;;;;;;;;;;;x;;
 EVTDESC1316097;Our offer has been turned down, and the Chinese seem offended that we even asked. If we still want a Chinese port, we'll have to get it the old-fashioned way...;;;;;;;;;;;;x;;
-
-#English Only
-
 democracy;Republic;;;;;;;;;x;
 hms_government;Constitutional Monarchy;;;;;;;;;x;
 prussian_constitutionalism;Federal Monarchy;;;;;;;;;x;

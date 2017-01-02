@@ -1,4 +1,76 @@
 political_decisions = {
+	the_libyan_desert_demarcation = {
+		picture = desert_caravan
+		potential = {
+			is_greater_power = yes
+			has_global_flag = berlin_conference
+			1758 = { empty = yes }
+			NOT = { has_global_flag = libyan_desert_divided }
+		}
+		
+		allow = {
+			war = no
+			invention = the_dark_continent
+		}
+		
+		effect = {
+			set_global_flag = libyan_desert_divided
+			prestige = 5
+			money = -5000
+			1760 = {
+				owner = {
+					country_event = 300973
+				}			
+			}
+			1738 = {
+				owner = {
+					country_event = {
+						id = 300974
+						days = 20
+					}
+				}			
+			}
+			1741 = {
+				owner = {
+					country_event = {
+						id = 300975
+						days = 45
+					}
+				}			
+			}
+			1730 = {
+				owner = {
+					country_event = {
+						id = 300976
+						days = 70
+					}
+				}			
+			}
+			1835 = {
+				owner = {
+					country_event = {
+						id = 300977
+						days = 105
+					}
+				}			
+			}
+			1824 = {
+				owner = {
+					country_event = {
+						id = 300978
+						days = 140
+					}
+				}			
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { money = 15000 }
+			}
+		}
+	}
 	the_northern_arabian_borders = {
 		picture = desert_caravan
 		potential = {
@@ -16,6 +88,7 @@ political_decisions = {
 		}
 		
 		effect = {
+			prestige = 15
 			1158 = { 
 				add_core = THIS 
 				secede_province = THIS
@@ -56,6 +129,7 @@ political_decisions = {
 		}
 		
 		effect = {
+			prestige = 5
 			2586 = { 
 				add_core = THIS 
 				secede_province = THIS
@@ -195,7 +269,7 @@ political_decisions = {
 		potential = {
 			tag = PER
 			owns = 1135
-			NOT = { 1136 = { is_core = PER } }
+			NOT = { has_country_flag = bushehr_asserted }
 		}
 		
 		allow = {
@@ -220,8 +294,8 @@ political_decisions = {
 		
 		effect = {
 			badboy = 1
+			set_country_flag = bushehr_asserted
 			1136 = {
-				add_core = PER
 				owner = {
 					country_event = { id = 301002 days = 1 }
 				}
@@ -400,6 +474,16 @@ political_decisions = {
 				}
 				annex_to = AFG
 			}
+			any_owned = {
+				limit = {
+					NOT = { is_core = AFG }
+					OR = {
+						region = AFG_1209
+						region = PER_1148
+					}
+				}
+				add_core = AFG
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -428,7 +512,6 @@ political_decisions = {
 			prestige = 5
 			any_country = {
 				limit = {
-					alliance_with = AFG
 					OR = {
 						tag = HRT
 						tag = HZJ
@@ -439,6 +522,16 @@ political_decisions = {
 					civilized = no
 				}
 				annex_to = AFG
+			}
+			any_owned = {
+				limit = {
+					NOT = { is_core = AFG }
+					OR = {
+						region = AFG_1209
+						region = PER_1148
+					}
+				}
+				add_core = AFG
 			}
 		}
 		ai_will_do = {
@@ -817,6 +910,7 @@ political_decisions = {
 		allow = {
 			FRA = {
 				money = 25000
+				war = no
 			}
 			OR = {
 				ai = yes

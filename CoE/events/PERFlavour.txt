@@ -192,6 +192,18 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 30
+		modifier = {
+			factor = 0.5
+			year = 1825
+		}
+		modifier = {
+			factor = 0.5
+			year = 1828
+		}
+		modifier = {
+			factor = 0.2
+			year = 1830
+		}
 	}
 
 	title = "EVTNAME301011"
@@ -229,6 +241,9 @@ country_event = {
 	
 	option = {
 		name = "Long live the Emir!" 
+		any_owned = {
+			remove_core = AFG
+		}
 		relation = {
 			who = AFG
 			value = 100
@@ -240,7 +255,7 @@ country_event = {
 				tag = KDH
 			}
 			modifier = {
-				factor = 2
+				factor = 1.5
 				relation = { who = AFG value = 75 }
 			}
 			modifier = {
@@ -254,6 +269,9 @@ country_event = {
 		relation = {
 			who = AFG
 			value = 25
+		}
+		any_owned = {
+			remove_core = AFG
 		}
 		create_alliance = AFG
 		AFG = {
@@ -270,11 +288,11 @@ country_event = {
 				tag = KHR
 			}
 			modifier = {
-				factor = 1.5
+				factor = 1.25
 				relation = { who = AFG value = 25 }
 			}
 			modifier = {
-				factor = 0.6
+				factor = 0.5
 				NOT = { relation = { who = AFG value = 10 } }
 			}
 			modifier = {
@@ -289,6 +307,9 @@ country_event = {
 		AFG = {
 			release_vassal = THIS
 		}
+		any_owned = {
+			remove_core = AFG
+		}
 		relation = {
 			who = AFG
 			value = -75
@@ -296,15 +317,15 @@ country_event = {
 		ai_chance = {
 			factor = 30
 			modifier = {
-				factor = 2
+				factor = 2.5
 				tag = KNZ
 			}
 			modifier = {
-				factor = 2
+				factor = 2.5
 				tag = HRT
 			}
 			modifier = {
-				factor = 2
+				factor = 2.5
 				tag = TAJ
 			}
 			modifier = {
@@ -328,13 +349,13 @@ country_event = {
 		months = 72
 		modifier = {
 			factor = 0.5
-			1206 = {
+			1205 = {
 				average_militancy = 3
 			}
 		}
 		modifier = {
 			factor = 0.5
-			1206 = {
+			1205 = {
 				average_militancy = 6
 			}
 		}
@@ -369,7 +390,7 @@ country_event = {
 
 #The Turkmen of Merv
 country_event = {
-	id = 301013
+	id = 301014
 	
 	is_triggered_only = yes
 
@@ -402,14 +423,6 @@ country_event = {
 	trigger = {
 		tag = PER
 		year = 1821
-		NOT = {
-			OR = {
-				owns = 1162
-				1162 = {
-					is_core = PER
-				}
-			}
-		}
 	}
 	
 	mean_time_to_happen = {
@@ -676,7 +689,7 @@ country_event = {
 			country_event = { id = 301021 days = 10 }
 			diplomatic_influence = {
 				who = PER
-				value = 25
+				value = 15
 			}
 		}
 		relation = {
@@ -834,7 +847,7 @@ country_event = {
 			country_event = { id = 301024 days = 10 }
 			diplomatic_influence = {
 				who = PER
-				value = 40
+				value = 25
 			}
 		}
 		ENG = {
@@ -882,7 +895,7 @@ country_event = {
 			country_event = { id = 301025 days = 10 }
 			diplomatic_influence = {
 				who = PER
-				value = 75
+				value = 20
 			}
 		}
 		prestige = -2
@@ -905,7 +918,7 @@ country_event = {
 			country_event = { id = 301026 days = 10 }
 			diplomatic_influence = {
 				who = PER
-				value = -25
+				value = -30
 			}
 		}
 		relation = {
@@ -944,7 +957,7 @@ country_event = {
 			country_event = { id = 301025 days = 10 }
 			diplomatic_influence = {
 				who = PER
-				value = 40
+				value = 20
 			}
 		}
 		prestige = -2
@@ -1100,7 +1113,7 @@ country_event = {
 			value = 30
 		}
 		diplomatic_influence = {
-			value = 25
+			value = 15
 			who = PER
 		}
 		ai_chance = {
@@ -1235,7 +1248,7 @@ country_event = {
 			country_event = { id = 301029 days = 10 }
 			diplomatic_influence = {
 				who = PER
-				value = 50
+				value = 25
 			}
 		}
 		ENG = {
@@ -1443,7 +1456,7 @@ country_event = {
 		name = "A close shave"
 		relation = {
 			who = RUS
-			value = 15
+			value = 5
 		}
 	}
 }
@@ -1971,6 +1984,10 @@ country_event = {
 	
 	option = {
 		name = "We desire to settle our issues"
+		FROM = {
+			country_event = 300984
+		}
+		badboy = -3
 		PER = {
 			end_war = TUR
 			relation = {
@@ -1983,7 +2000,7 @@ country_event = {
 			}
 			relation = {
 				who = TUR
-				value = 200
+				value = 100
 			}
 			any_owned = {
 				remove_core = TUR			
@@ -2025,21 +2042,21 @@ country_event = {
 		ENG = {
 			diplomatic_influence = {
 				who = PER
-				value = 20
+				value = 15
 			}
 			diplomatic_influence = {
 				who = TUR
-				value = 20
+				value = 15
 			}
 		}
 		RUS = {
 			diplomatic_influence = {
 				who = PER
-				value = 20
+				value = 15
 			}
 			diplomatic_influence = {
 				who = TUR
-				value = 20
+				value = 15
 			}
 		}
 		ai_chance = {
@@ -2048,6 +2065,9 @@ country_event = {
 	}
 	option = {
 		name = "Only war can settle our issues"
+		FROM = {
+			country_event = 300985
+		}
 		badboy = 15
 		relation = {
 			who = ENG
@@ -2080,5 +2100,33 @@ country_event = {
 				badboy = 5
 			}
 		}
+	}
+}
+
+#Second Treaty of Erzurum - accepted
+country_event = {
+	id = 300984
+	is_triggered_only = yes
+	
+	title = "treaty_of_erzurum_title"
+	desc = "EVTDESC300984"
+	picture = "treaty_of_erzurum"
+	
+	option = {
+		name = "Wonderful"
+	}
+}
+
+#Second Treaty of Erzurum - rejected
+country_event = {
+	id = 300985
+	is_triggered_only = yes
+	
+	title = "treaty_of_erzurum_title"
+	desc = "EVTDESC300985"
+	picture = "treaty_of_erzurum"
+	
+	option = {
+		name = "War it is then"
 	}
 }

@@ -224,7 +224,7 @@ FRA_448 = { 448 445 449 450 } #Auvergne-Limousin
 
 FRA_451 = { 451 452 453 454 } #Rhone
 
-FRA_455 = { 455 457 456 462 450 } #Midi-Pyrénées
+FRA_455 = { 455 457 456 462 } #Midi-Pyrénées
 
 FRA_458 = { 458 459 460 447 446 } #Aquitaine
 
@@ -301,7 +301,7 @@ WUR_589 = { 589 590 591 593 594 } #Wurttemburg
 BAV_595 = { 595 596 597 598 } #Franconia
 
 BAV_599 = { 599 592 600 601 602 } #Upper Bavaria
- 
+
 SWI_605 = { 605 603 604 606 } #German Switzerland
 
 SWI_607 = { 607 608 609 } #French Switzerland
@@ -522,9 +522,6 @@ AFG_1209 = { 1209 1217 1216 1223 1218 1219 1210 2619 } #Pashtunistan
 
 KOK_1210 = { 1207 1208 } #Bandakshan
 
-#AFG_1214 = { 1214 1215 1213 1212 1211 } #Kandahar
-
-
 ### Russia
 
 RUS_349 = { 349 352 350 351 353 } #Estonia
@@ -603,7 +600,7 @@ RUS_1048 = { 1048 1049 1050 1051 1056 } #Ekaterinodar/Kuban
 
 RUS_1052 = { 1052 1053 1054 1055 1057 } #North Caucasia
 
-RUS_1060 = { 1060 1044 1042 1034 1043 1035 } #Orenburzhye
+RUS_1060 = { 1060 1044 1042 } #Orenburzhye
 
 RUS_1064 = { 1064 2683 2686 1066 } #Tobolsk
 

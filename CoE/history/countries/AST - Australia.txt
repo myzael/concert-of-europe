@@ -1,5 +1,5 @@
 capital = 2468
-primary_culture = australia
+primary_culture = australian
 religion = protestant
 government = hms_government
 plurality = 0.98

@@ -259,27 +259,27 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		OR = {
-			tag = JAP
-			tag = TKG
-		}
-		exists = yes
-		war = no
-		civilized = yes
-		KOR = {
-			exists = yes
-			civilized = no
-			OR = {
-				has_country_modifier = uncivilized_isolationism
-				vassal_of = CHI
-			}
-		}
-		NOT = {
-			num_of_revolts = 1
-			war_policy = pacifism
-			is_our_vassal = KOR
-		}
-	}
+        	OR = {
+            		tag = JAP
+           		tag = TKG
+        	}
+        	exists = yes
+        	war = no
+        	civilized = yes
+        	KOR = {
+            		exists = yes
+            		civilized = no
+            		OR = {
+                		has_country_modifier = uncivilized_isolationism
+                		vassal_of = QNG
+            		}
+        	}
+        	NOT = {
+            		num_of_revolts = 1
+            		war_policy = pacifism
+            		is_our_vassal = KOR
+        	}
+    	}
 	
 	mean_time_to_happen = {
 		months = 60

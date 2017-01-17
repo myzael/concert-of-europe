@@ -11590,34 +11590,28 @@
 
 }
 253 = {
+	bureaucrats = {
+		culture = danish
+		religion = protestant
+		size = 25
+	}
+
+	clergymen = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
 
 	artisans = {
-
-		size = 123
-		culture = danish
+		culture = faroese
 		religion = protestant
-
+		size = 135
 	}
-	bureaucrats = {
 
-		size = 13
-		culture = danish
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 68
-		culture = danish
-		religion = protestant
-
-	}
 	farmers = {
-
-		size = 1442
-		culture = danish
+		culture = faroese
 		religion = protestant
-
+		size = 1075
 	}
 
 }
@@ -29307,338 +29301,514 @@
 
 }
 603 = {
+	aristocrats = {
+		culture = south_german
+		religion = protestant
+		size = 300
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = protestant
+		size = 1000
+	}
+
+	capitalists = {
+		culture = south_german
+		religion = protestant
+		size = 90
+	}
+
+	clerks = {
+		culture = south_german
+		religion = protestant
+		size = 40
+	}
+
+	craftsmen = {
+		culture = south_german
+		religion = protestant
+		size = 20000
+	}
 
 	artisans = {
-
-		size = 3754
-		culture = swiss
+		culture = south_german
 		religion = protestant
-
+		size = 1000
 	}
+
 	artisans = {
-
-		size = 1688
-		culture = swiss
-		religion = catholic
-
+		culture = ashkenazi
+		religion = jewish
+		size = 130
 	}
-	clergymen = {
 
-		size = 1190
-		culture = swiss
+	soldiers = {
+		culture = south_german
 		religion = protestant
-
+		size = 1000
 	}
-	clergymen = {
 
-		size = 457
-		culture = swiss
-		religion = catholic
-
-	}
 	farmers = {
-
-		size = 77764
-		culture = swiss
+		culture = south_german
 		religion = protestant
-
+		size = 62000
 	}
-	farmers = {
 
-		size = 43954
-		culture = swiss
+	aristocrats = {
+		culture = south_german
 		religion = catholic
-
+		size = 150
 	}
 
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 490
+	}
+
+	clerks = {
+		culture = south_german
+		religion = catholic
+		size = 30
+	}
+
+	craftsmen = {
+		culture = south_german
+		religion = catholic
+		size = 520
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 1400
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 1000
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 45000
+	}
 }
 604 = {
+	aristocrats = {
+		culture = south_german
+		religion = protestant
+		size = 50
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = protestant
+		size = 100
+	}
+
+	clerks = {
+		culture = south_german
+		religion = protestant
+		size = 20
+	}
+
+	craftsmen = {
+		culture = south_german
+		religion = protestant
+		size = 150
+	}
 
 	artisans = {
-
-		size = 2060
-		culture = swiss
+		culture = south_german
 		religion = protestant
-
+		size = 950
 	}
+
 	artisans = {
-
-		size = 1739
-		culture = swiss
-		religion = catholic
-
+		culture = ashkenazi
+		religion = jewish
+		size = 71
 	}
-	clergymen = {
 
-		size = 251
-		culture = swiss
+	soldiers = {
+		culture = south_german
 		religion = protestant
-
+		size = 900
 	}
-	clergymen = {
 
-		size = 228
-		culture = swiss
-		religion = catholic
-
-	}
 	farmers = {
-
-		size = 30712
-		culture = swiss
+		culture = south_german
 		religion = protestant
-
+		size = 14000
 	}
-	farmers = {
 
-		size = 22709
-		culture = swiss
+	aristocrats = {
+		culture = south_german
 		religion = catholic
-
+		size = 75
 	}
 
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 95
+	}
+
+	clerks = {
+		culture = south_german
+		religion = catholic
+		size = 30
+	}
+
+	craftsmen = {
+		culture = south_german
+		religion = catholic
+		size = 270
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 900
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 1000
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 13000
+	}
+
+	aristocrats = {
+		culture = french
+		religion = protestant
+		size = 50
+	}
+
+	clergymen = {
+		culture = french
+		religion = protestant
+		size = 150
+	}
+
+	craftsmen = {
+		culture = french
+		religion = protestant
+		size = 320
+	}
+
+	artisans = {
+		culture = french
+		religion = protestant
+		size = 1000
+	}
+
+	farmers = {
+		culture = french
+		religion = protestant
+		size = 15420
+	}
+
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 75
+	}
+
+	craftsmen = {
+		culture = french
+		religion = catholic
+		size = 290
+	}
+
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 900
+	}
+
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 12550
+	}
 }
 605 = {
-
 	aristocrats = {
-
-		size = 1557
-		culture = swiss
+		culture = south_german
 		religion = protestant
-
+		size = 300
 	}
-	aristocrats = {
 
-		size = 533
-		culture = swiss
-		religion = catholic
-
-	}
-	artisans = {
-
-		size = 7523
-		culture = swiss
-		religion = protestant
-
-	}
-	bureaucrats = {
-
-		size = 702
-		culture = swiss
-		religion = protestant
-
-	}
 	capitalists = {
-
-		size = 207
-		culture = swiss
+		culture = south_german
 		religion = protestant
-
+		size = 80
 	}
-	clergymen = {
 
-		size = 572
-		culture = swiss
-		religion = protestant
-
-	}
-	clerks = {
-
-		size = 674
-		culture = swiss
-		religion = protestant
-
-	}
-	craftsmen = {
-
-		size = 1568
-		culture = swiss
-		religion = protestant
-
-	}
-	labourers = {
-
-		size = 68678
-		culture = swiss
-		religion = protestant
-
-	}
 	officers = {
-
-		size = 421
-		culture = swiss
+		culture = south_german
 		religion = protestant
-
+		size = 300
 	}
-	soldiers = {
 
-		size = 3659
-		culture = swiss
+	bureaucrats = {
+		culture = south_german
 		religion = protestant
-
+		size = 600
 	}
+
+	clergymen = {
+		culture = south_german
+		religion = protestant
+		size = 425
+	}
+
+	clerks = {
+		culture = south_german
+		religion = protestant
+		size = 45
+	}
+
+	craftsmen = {
+		culture = south_german
+		religion = protestant
+		size = 1400
+	}
+
+	artisans = {
+		culture = south_german
+		religion = protestant
+		size = 4100
+	}
+
 	soldiers = {
-
-		size = 5021
-		culture = swiss
-		religion = catholic
-
+		culture = south_german
+		religion = protestant
+		size = 850
 	}
 
+	farmers = {
+		culture = south_german
+		religion = protestant
+		size = 80000
+	}
 }
 606 = {
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 120
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 200
+	}
 
 	artisans = {
-
-		size = 3207
-		culture = swiss
+		culture = south_german
 		religion = catholic
-
+		size = 2700
 	}
-	clergymen = {
 
-		size = 320
-		culture = swiss
+	soldiers = {
+		culture = south_german
 		religion = catholic
-
+		size = 900
 	}
-	labourers = {
 
-		size = 28364
-		culture = swiss
+	farmers = {
+		culture = south_german
 		religion = catholic
-
+		size = 34000
 	}
 
 }
 607 = {
+	aristocrats = {
+		culture = french
+		religion = protestant
+		size = 150
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = protestant
+		size = 97
+	}
+
+	officers = {
+		culture = french
+		religion = protestant
+		size = 42
+	}
+
+	clergymen = {
+		culture = french
+		religion = protestant
+		size = 200
+	}
+
+	artisans = {
+		culture = french
+		religion = protestant
+		size = 3600
+	}
+
+	soldiers = {
+		culture = french
+		religion = protestant
+		size = 975
+	}
+
+	farmers = {
+		culture = french
+		religion = protestant
+		size = 38000
+	}
 
 	aristocrats = {
-
-		size = 420
-		culture = swiss
+		culture = french
 		religion = catholic
-
+		size = 240
 	}
-	artisans = {
 
-		size = 3664
-		culture = swiss
-		religion = protestant
-
-	}
-	artisans = {
-
-		size = 2747
-		culture = swiss
-		religion = catholic
-
-	}
 	bureaucrats = {
-
-		size = 184
-		culture = swiss
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 274
-		culture = swiss
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 320
-		culture = swiss
+		culture = french
 		religion = catholic
-
+		size = 50
 	}
-	craftsmen = {
 
-		size = 200
-		culture = swiss
-		religion = protestant
-
-	}
-	farmers = {
-
-		size = 34177
-		culture = swiss
-		religion = protestant
-
-	}
-	farmers = {
-
-		size = 28597
-		culture = swiss
+	officers = {
+		culture = french
 		religion = catholic
-
+		size = 30
 	}
-	soldiers = {
 
-		size = 584
-		culture = swiss
-		religion = protestant
-
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 150
 	}
-	soldiers = {
 
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 2855
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
 		size = 1000
-		culture = swiss
-		religion = catholic
-
 	}
 
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 31000
+	}
 }
 608 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 150
+	}
+	aristocrats = {
+		culture = french
+		religion = protestant
+		size = 20
+	}
+
+	clergymen = {
+		culture = french
+		religion = protestant
+		size = 75
+	}
 
 	artisans = {
-
-		size = 2747
-		culture = swiss
+		culture = french
 		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 114
-		culture = swiss
-		religion = protestant
-
-	}
-	labourers = {
-
-		size = 9729
-		culture = swiss
-		religion = protestant
-
+		size = 2500
 	}
 
+	soldiers = {
+		culture = french
+		religion = protestant
+		size = 100
+	}
+
+	farmers = {
+		culture = french
+		religion = protestant
+		size = 14500
+	}
 }
 609 = {
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 70
+	}
+
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 50
+	}
 
 	artisans = {
-
-		size = 1007
-		culture = swiss
+		culture = south_german
 		religion = catholic
-
+		size = 359
 	}
-	clergymen = {
 
-		size = 160
-		culture = swiss
+	artisans = {
+		culture = french
 		religion = catholic
-
+		size = 350
 	}
-	labourers = {
 
-		size = 14353
-		culture = swiss
+	soldiers = {
+		culture = south_german
 		religion = catholic
+		size = 880
+	}
 
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 9509
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 10000
 	}
 
 }
@@ -29682,48 +29852,70 @@
 
 }
 611 = {
-
-	artisans = {
-
-		size = 597
-		culture = swiss
+	aristocrats = {
+		culture = north_italian
 		religion = catholic
-
+		size = 90
 	}
-	artisans = {
 
-		size = 320
-		culture = swiss
-		religion = protestant
-
-	}
 	clergymen = {
-
-		size = 297
-		culture = swiss
+		culture = north_italian
 		religion = catholic
-
+		size = 190
 	}
-	craftsmen = {
 
-		size = 8
-		culture = swiss
+	artisans = {
+		culture = north_italian
 		religion = catholic
-
+		size = 550
 	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 1000
+	}
+
 	farmers = {
-
-		size = 10247
-		culture = swiss
+		culture = north_italian
 		religion = catholic
-
+		size = 8000
 	}
-	farmers = {
 
-		size = 5993
-		culture = swiss
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	aristocrats = {
+		culture = south_german
 		religion = protestant
+		size = 100
+	}
 
+	clergymen = {
+		culture = south_german
+		religion = protestant
+		size = 30
+	}
+
+	artisans = {
+		culture = south_german
+		religion = protestant
+		size = 250
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = protestant
+		size = 55
+	}
+
+	farmers = {
+		culture = south_german
+		religion = protestant
+		size = 6000
 	}
 
 }
@@ -142853,71 +143045,47 @@
 
 }
 2568 = {
-
 	aristocrats = {
-
-		size = 305
-		culture = swiss
+		culture = north_italian
 		religion = catholic
-
+		size = 150
 	}
-	artisans = {
 
-		size = 1144
-		culture = swiss
-		religion = catholic
-
-	}
 	bureaucrats = {
-
-		size = 122
-		culture = swiss
-		religion = catholic
-
-	}
-	capitalists = {
-
-		size = 11
-		culture = swiss
+		culture = north_italian
 		religion = protestant
-
+		size = 80
 	}
-	clergymen = {
 
-		size = 251
-		culture = swiss
-		religion = catholic
-
-	}
-	craftsmen = {
-
-		size = 168
-		culture = swiss
-		religion = protestant
-
-	}
-	farmers = {
-
-		size = 22045
-		culture = swiss
-		religion = catholic
-
-	}
 	officers = {
-
-		size = 45
-		culture = swiss
-		religion = catholic
-
+		culture = north_italian
+		religion = protestant
+		size = 50
 	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 200
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 1100
+	}
+
 	soldiers = {
-
-		size = 1029
-		culture = swiss
+		culture = north_italian
 		religion = catholic
-
+		size = 1000
 	}
 
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 30000
+	}
 }
 2569 = {
 

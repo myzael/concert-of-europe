@@ -2,7 +2,6 @@ capital = 375
 primary_culture = dutch
 culture = flemish
 culture = frisian
-culture = boer
 religion = protestant
 government = prussian_constitutionalism
 plurality = 5

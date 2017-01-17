@@ -1,4 +1,4 @@
-1 = {
+﻿1 = {
 
 	aristocrats = {
 
@@ -125823,7 +125823,7 @@
 	aristocrats = {
 
 		size = 53
-		culture = british
+		culture = boer
 		religion = protestant
 
 	}
@@ -125851,21 +125851,21 @@
 	artisans = {
 
 		size = 2289
-		culture = british
+		culture = boer
 		religion = protestant
 
 	}
 	artisans = {
 
-		size = 1007
+		size = 1057
 		culture = boer
 		religion = protestant
 
 	}
 	bureaucrats = {
 
-		size = 100
-		culture = british
+		size = 50
+		culture = anglo_african
 		religion = protestant
 
 	}
@@ -125886,7 +125886,7 @@
 	clergymen = {
 
 		size = 64
-		culture = british
+		culture = anglo_african
 		religion = protestant
 
 	}
@@ -125906,21 +125906,21 @@
 	}
 	farmers = {
 
-		size = 11923
+		size = 12923
 		culture = khoisan
 		religion = animist
 
 	}
 	farmers = {
 
-		size = 3891
-		culture = british
+		size = 2000
+		culture = anglo_african
 		religion = protestant
 
 	}
 	farmers = {
 
-		size = 10205
+		size = 11205
 		culture = boer
 		religion = protestant
 
@@ -125941,14 +125941,14 @@
 	}
 	soldiers = {
 
-		size = 183
-		culture = british
+		size = 583
+		culture = anglo_african
 		religion = protestant
 
 	}
 	soldiers = {
 
-		size = 1190
+		size = 490
 		culture = boer
 		religion = protestant
 
@@ -125998,22 +125998,22 @@
 	}
 	artisans = {
 
-		size = 640
+		size = 740
 		culture = boer
 		religion = protestant
 
 	}
 	artisans = {
 
-		size = 98
+		size = 90
 		culture = sotho
 		religion = animist
 
 	}
 	artisans = {
 
-		size = 274
-		culture = british
+		size = 74
+		culture = anglo_african
 		religion = protestant
 
 	}
@@ -126040,14 +126040,14 @@
 	}
 	clergymen = {
 
-		size = 73
+		size = 173
 		culture = boer
 		religion = protestant
 
 	}
 	clergymen = {
 
-		size = 49
+		size = 149
 		culture = sotho
 		religion = animist
 
@@ -126055,7 +126055,7 @@
 	clergymen = {
 
 		size = 13
-		culture = british
+		culture = anglo_african
 		religion = protestant
 
 	}
@@ -126075,7 +126075,7 @@
 	}
 	farmers = {
 
-		size = 3136
+		size = 3336
 		culture = boer
 		religion = protestant
 
@@ -126089,8 +126089,8 @@
 	}
 	farmers = {
 
-		size = 604
-		culture = british
+		size = 300
+		culture = anglo_african
 		religion = protestant
 
 	}
@@ -126122,7 +126122,7 @@
 	artisans = {
 
 		size = 274
-		culture = british
+		culture = boer
 		religion = protestant
 
 	}
@@ -126157,7 +126157,7 @@
 	clergymen = {
 
 		size = 15
-		culture = british
+		culture = boer
 		religion = protestant
 
 	}
@@ -126182,10 +126182,17 @@
 		religion = animist
 
 	}
+	aristocrats = {
+
+		size = 20
+		culture = anglo_african
+		religion = protestant
+
+	}
 	farmers = {
 
-		size = 602
-		culture = british
+		size = 690
+		culture = anglo_african
 		religion = protestant
 
 	}
@@ -126195,15 +126202,15 @@
 
 	artisans = {
 
-		size = 137
+		size = 200
 		culture = boer
 		religion = protestant
 
 	}
 	artisans = {
 
-		size = 183
-		culture = british
+		size = 101
+		culture = anglo_african
 		religion = protestant
 
 	}
@@ -126224,21 +126231,21 @@
 	clergymen = {
 
 		size = 100
-		culture = british
-		religion = protestant
-
-	}
-	farmers = {
-
-		size = 1442
 		culture = boer
 		religion = protestant
 
 	}
 	farmers = {
 
-		size = 1648
-		culture = british
+		size = 2642
+		culture = boer
+		religion = protestant
+
+	}
+	farmers = {
+
+		size = 500
+		culture = anglo_african
 		religion = protestant
 
 	}
@@ -126259,127 +126266,48 @@
 
 }
 2092 = {
+	clergymen = {
 
-	aristocrats = {
-
-		size = 13
-		culture = boer
-		religion = protestant
-
-	}
-	aristocrats = {
-
-		size = 98
-		culture = sotho
-		religion = animist
-
-	}
-	artisans = {
-
-		size = 137
-		culture = boer
-		religion = protestant
-
-	}
-	artisans = {
-
-		size = 183
-		culture = british
-		religion = protestant
-
-	}
-	artisans = {
-
-		size = 98
+		size = 68
 		culture = khoisan
-		religion = animist
-
-	}
-	bureaucrats = {
-
-		size = 36
-		culture = boer
 		religion = protestant
 
 	}
 	clergymen = {
 
-		size = 50
-		culture = boer
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 13
-		culture = british
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 49
+		size = 114
 		culture = khoisan
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 2243
-		culture = boer
 		religion = protestant
 
 	}
 	farmers = {
 
-		size = 709
-		culture = british
+		size = 6249
+		culture = khoisan
 		religion = protestant
 
 	}
 	farmers = {
 
-		size = 4749
-		culture = khoisan
-		religion = animist
-
-	}
-	soldiers = {
-
-		size = 457
-		culture = boer
+		size = 2151
+		culture = xhosa
 		religion = protestant
 
 	}
-	soldiers = {
-
-		size = 9
-		culture = british
-		religion = protestant
-
-	}
-	soldiers = {
-
-		size = 173
-		culture = khoisan
-		religion = animist
-
-	}
-
 }
 2093 = {
 
 	artisans = {
 
 		size = 91
-		culture = boer
+		culture = khoisan
 		religion = protestant
 
 	}
 	artisans = {
 
 		size = 49
-		culture = khoisan
+		culture = sotho
 		religion = animist
 
 	}
@@ -126393,7 +126321,7 @@
 	clergymen = {
 
 		size = 22
-		culture = boer
+		culture = sotho
 		religion = protestant
 
 	}
@@ -126414,7 +126342,7 @@
 	farmers = {
 
 		size = 755
-		culture = boer
+		culture = sotho
 		religion = protestant
 
 	}
@@ -126455,13 +126383,6 @@
 		size = 395
 		culture = tswana
 		religion = animist
-
-	}
-	labourers = {
-
-		size = 228
-		culture = boer
-		religion = protestant
 
 	}
 	labourers = {
@@ -126510,7 +126431,7 @@
 	aristocrats = {
 
 		size = 41
-		culture = boer
+		culture = anglo_african
 		religion = protestant
 
 	}
@@ -126531,15 +126452,15 @@
 	artisans = {
 
 		size = 320
-		culture = british
+		culture = anglo_african
 		religion = protestant
 
 	}
 	artisans = {
 
 		size = 366
-		culture = boer
-		religion = protestant
+		culture = irish
+		religion = catholic
 
 	}
 	artisans = {
@@ -126551,7 +126472,7 @@
 	}
 	bureaucrats = {
 
-		size = 45
+		size = 20
 		culture = boer
 		religion = protestant
 
@@ -126559,20 +126480,20 @@
 	clergymen = {
 
 		size = 183
-		culture = british
+		culture = anglo_african
 		religion = protestant
 
 	}
 	farmers = {
 
-		size = 1510
-		culture = british
+		size = 500
+		culture = anglo_african
 		religion = protestant
 
 	}
 	farmers = {
 
-		size = 1831
+		size = 1200
 		culture = boer
 		religion = protestant
 
@@ -126607,14 +126528,14 @@
 	}
 	soldiers = {
 
-		size = 183
-		culture = british
+		size = 383
+		culture = anglo_african
 		religion = protestant
 
 	}
 	soldiers = {
 
-		size = 1465
+		size = 1265
 		culture = boer
 		religion = protestant
 
@@ -126622,33 +126543,32 @@
 
 }
 2097 = {
+	aristocrats = {
 
-	artisans = {
-
-		size = 137
-		culture = british
+		size = 13
+		culture = boer
 		religion = protestant
+
+	}
+	aristocrats = {
+
+		size = 98
+		culture = sotho
+		religion = animist
 
 	}
 	artisans = {
 
-		size = 457
+		size = 137
 		culture = boer
 		religion = protestant
 
 	}
 	artisans = {
 
-		size = 98
-		culture = xhosa
-		religion = animist
-
-	}
-	artisans = {
-
-		size = 98
-		culture = nguni
-		religion = animist
+		size = 183
+		culture = boer
+		religion = protestant
 
 	}
 	artisans = {
@@ -126660,56 +126580,77 @@
 	}
 	bureaucrats = {
 
-		size = 68
+		size = 36
 		culture = boer
 		religion = protestant
 
 	}
 	clergymen = {
 
-		size = 68
-		culture = british
+		size = 50
+		culture = boer
 		religion = protestant
 
 	}
 	clergymen = {
 
-		size = 114
+		size = 13
+		culture = boer
+		religion = protestant
+
+	}
+	clergymen = {
+
+		size = 49
+		culture = khoisan
+		religion = animist
+
+	}
+	farmers = {
+
+		size = 2243
+		culture = boer
+		religion = protestant
+
+	}
+	bureaucrats = {
+
+		size = 100
+		culture = anglo_african
+		religion = protestant
+
+	}
+	farmers = {
+
+		size = 700
+		culture = anglo_african
+		religion = protestant
+
+	}
+	farmers = {
+
+		size = 4849
+		culture = khoisan
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 557
 		culture = boer
 		religion = protestant
 
 	}
 	farmers = {
 
-		size = 6249
-		culture = british
-		religion = protestant
+		size = 250
+		culture = irish
+		religion = catholic
 
 	}
-	farmers = {
+	soldiers = {
 
-		size = 2151
-		culture = boer
-		religion = protestant
-
-	}
-	farmers = {
-
-		size = 3760
-		culture = xhosa
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 841
-		culture = nguni
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 3809
+		size = 50
 		culture = khoisan
 		religion = animist
 
@@ -126749,7 +126690,7 @@
 	farmers = {
 
 		size = 228
-		culture = boer
+		culture = xhosa
 		religion = protestant
 
 	}
@@ -126792,14 +126733,6 @@
 		religion = animist
 
 	}
-	farmers = {
-
-		size = 137
-		culture = boer
-		religion = protestant
-
-	}
-
 }
 2100 = {
 
@@ -126834,14 +126767,6 @@
 
 }
 2101 = {
-
-	aristocrats = {
-
-		size = 210
-		culture = boer
-		religion = protestant
-
-	}
 	aristocrats = {
 
 		size = 1731
@@ -126856,20 +126781,6 @@
 		religion = animist
 
 	}
-	bureaucrats = {
-
-		size = 183
-		culture = boer
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 219
-		culture = boer
-		religion = protestant
-
-	}
 	clergymen = {
 
 		size = 470
@@ -126879,30 +126790,9 @@
 	}
 	farmers = {
 
-		size = 2197
-		culture = boer
-		religion = protestant
-
-	}
-	farmers = {
-
 		size = 32158
 		culture = sotho
 		religion = animist
-
-	}
-	officers = {
-
-		size = 45
-		culture = boer
-		religion = protestant
-
-	}
-	soldiers = {
-
-		size = 2014
-		culture = boer
-		religion = protestant
 
 	}
 	soldiers = {
@@ -126930,32 +126820,11 @@
 		religion = animist
 
 	}
-	bureaucrats = {
-
-		size = 45
-		culture = boer
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 137
-		culture = boer
-		religion = protestant
-
-	}
 	clergymen = {
 
 		size = 272
 		culture = sotho
 		religion = animist
-
-	}
-	labourers = {
-
-		size = 732
-		culture = boer
-		religion = protestant
 
 	}
 	labourers = {
@@ -126983,32 +126852,11 @@
 		religion = animist
 
 	}
-	bureaucrats = {
-
-		size = 73
-		culture = boer
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 73
-		culture = boer
-		religion = protestant
-
-	}
 	clergymen = {
 
 		size = 197
 		culture = sotho
 		religion = animist
-
-	}
-	labourers = {
-
-		size = 631
-		culture = boer
-		religion = protestant
 
 	}
 	labourers = {
@@ -127074,14 +126922,6 @@
 
 }
 2105 = {
-
-	aristocrats = {
-
-		size = 293
-		culture = boer
-		religion = protestant
-
-	}
 	aristocrats = {
 
 		size = 2844
@@ -127096,20 +126936,6 @@
 		religion = animist
 
 	}
-	bureaucrats = {
-
-		size = 155
-		culture = boer
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 137
-		culture = boer
-		religion = protestant
-
-	}
 	clergymen = {
 
 		size = 346
@@ -127119,30 +126945,9 @@
 	}
 	farmers = {
 
-		size = 2197
-		culture = boer
-		religion = protestant
-
-	}
-	farmers = {
-
 		size = 21076
 		culture = sotho
 		religion = animist
-
-	}
-	officers = {
-
-		size = 18
-		culture = boer
-		religion = protestant
-
-	}
-	soldiers = {
-
-		size = 1945
-		culture = boer
-		religion = protestant
 
 	}
 	soldiers = {
@@ -127163,13 +126968,6 @@
 		religion = animist
 
 	}
-	bureaucrats = {
-
-		size = 91
-		culture = boer
-		religion = protestant
-
-	}
 	clergymen = {
 
 		size = 91
@@ -127182,13 +126980,6 @@
 		size = 247
 		culture = sotho
 		religion = animist
-
-	}
-	farmers = {
-
-		size = 1098
-		culture = boer
-		religion = protestant
 
 	}
 	farmers = {
@@ -127216,20 +127007,6 @@
 		religion = animist
 
 	}
-	bureaucrats = {
-
-		size = 45
-		culture = boer
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 91
-		culture = boer
-		religion = protestant
-
-	}
 	clergymen = {
 
 		size = 123
@@ -127242,13 +127019,6 @@
 		size = 148
 		culture = nguni
 		religion = animist
-
-	}
-	farmers = {
-
-		size = 595
-		culture = boer
-		religion = protestant
 
 	}
 	farmers = {
@@ -127283,20 +127053,6 @@
 		religion = animist
 
 	}
-	bureaucrats = {
-
-		size = 22
-		culture = boer
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 18
-		culture = boer
-		religion = protestant
-
-	}
 	clergymen = {
 
 		size = 49
@@ -127309,13 +127065,6 @@
 		size = 74
 		culture = sotho
 		religion = animist
-
-	}
-	farmers = {
-
-		size = 274
-		culture = boer
-		religion = protestant
 
 	}
 	farmers = {
@@ -127343,32 +127092,11 @@
 		religion = animist
 
 	}
-	bureaucrats = {
-
-		size = 22
-		culture = boer
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 45
-		culture = boer
-		religion = protestant
-
-	}
 	clergymen = {
 
 		size = 123
 		culture = nguni
 		religion = animist
-
-	}
-	farmers = {
-
-		size = 457
-		culture = boer
-		religion = protestant
 
 	}
 	farmers = {
@@ -127396,20 +127124,6 @@
 		religion = animist
 
 	}
-	bureaucrats = {
-
-		size = 13
-		culture = boer
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 45
-		culture = boer
-		religion = protestant
-
-	}
 	clergymen = {
 
 		size = 74
@@ -127422,13 +127136,6 @@
 		size = 49
 		culture = nguni
 		religion = animist
-
-	}
-	farmers = {
-
-		size = 183
-		culture = boer
-		religion = protestant
 
 	}
 	farmers = {
@@ -127448,14 +127155,6 @@
 
 }
 2111 = {
-
-	artisans = {
-
-		size = 91
-		culture = boer
-		religion = protestant
-
-	}
 	artisans = {
 
 		size = 395
@@ -127470,20 +127169,6 @@
 		religion = animist
 
 	}
-	bureaucrats = {
-
-		size = 22
-		culture = boer
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 45
-		culture = boer
-		religion = protestant
-
-	}
 	clergymen = {
 
 		size = 74
@@ -127496,13 +127181,6 @@
 		size = 222
 		culture = zulu
 		religion = animist
-
-	}
-	farmers = {
-
-		size = 383
-		culture = boer
-		religion = protestant
 
 	}
 	farmers = {
@@ -127532,23 +127210,9 @@
 	}
 	clergymen = {
 
-		size = 22
-		culture = boer
-		religion = protestant
-
-	}
-	clergymen = {
-
 		size = 395
 		culture = zulu
 		religion = animist
-
-	}
-	farmers = {
-
-		size = 228
-		culture = boer
-		religion = protestant
 
 	}
 	farmers = {
@@ -127611,14 +127275,6 @@
 		religion = animist
 
 	}
-	soldiers = {
-
-		size = 274
-		culture = boer
-		religion = protestant
-
-	}
-
 }
 2114 = {
 
@@ -142802,25 +142458,11 @@
 		religion = protestant
 
 	}
-	bureaucrats = {
-
-		size = 27
-		culture = boer
-		religion = protestant
-
-	}
 	clergymen = {
 
 		size = 49
 		culture = sotho
 		religion = animist
-
-	}
-	clergymen = {
-
-		size = 45
-		culture = boer
-		religion = protestant
 
 	}
 	farmers = {
@@ -142830,14 +142472,6 @@
 		religion = animist
 
 	}
-	farmers = {
-
-		size = 2151
-		culture = boer
-		religion = protestant
-
-	}
-
 }
 2559 = {
 

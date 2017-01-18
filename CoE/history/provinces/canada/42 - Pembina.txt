@@ -1,11 +1,9 @@
+owner = ENG
+controller = ENG
 add_core = RPL
 add_core = MTC
 trade_goods = grain
-life_rating = 30
+life_rating = 35
 terrain = rich_farmland
 colonial = 1
-1836.1.1 = {
-	owner = ENG
-	controller = ENG
-	life_rating = 35
-}
+

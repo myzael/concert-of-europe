@@ -1,5 +1,5 @@
 capital = 1036
-primary_culture = tatar
+primary_culture = kazak
 religion = sunni
 government = absolute_monarchy
 plurality = 0.02

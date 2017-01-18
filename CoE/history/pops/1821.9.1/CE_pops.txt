@@ -29721,31 +29721,31 @@
 	}
 
 	artisans = {
-		culture = german
+		culture = south_german
 		religion = catholic
 		size = 700
 	}
 
 	artisans = {
-		culture = german
+		culture = south_german
 		religion = protestant
 		size = 200
 	}
 
 	soldiers = {
-		culture = german
+		culture = south_german
 		religion = protestant
 		size = 500
 	}
 
 	farmers = {
-		culture = german
+		culture = south_german
 		religion = catholic
 		size = 2500
 	}
 
 	farmers = {
-		culture = german
+		culture = south_german
 		religion = protestant
 		size = 2500
 	}

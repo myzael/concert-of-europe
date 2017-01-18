@@ -5,5 +5,5 @@ add_core = ENG
 trade_goods = grain
 life_rating = 35
 terrain = hilly_farmland
-colonial = 1
+colonial = 2
 naval_base = 1

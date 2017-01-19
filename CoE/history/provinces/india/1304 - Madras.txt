@@ -7,7 +7,7 @@ add_core = HND
 trade_goods = sugar
 life_rating = 32
 terrain = hilly_farmland
-colonial = 1
+colonial = 2
 1861.1.1 = { 
 	naval_base = 2 
 }

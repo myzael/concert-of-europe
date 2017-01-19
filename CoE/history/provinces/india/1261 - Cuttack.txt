@@ -5,4 +5,4 @@ add_core = HND
 trade_goods = tea
 life_rating = 38
 terrain = floodplain_farmland
-colonial = 1
+colonial = 2

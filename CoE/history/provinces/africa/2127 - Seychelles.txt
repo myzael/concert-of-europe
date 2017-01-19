@@ -3,4 +3,4 @@ controller = ENG
 trade_goods = spices
 life_rating = 35
 terrain = seasonal_jungle_hills
-colonial = 1
+colonial = 2

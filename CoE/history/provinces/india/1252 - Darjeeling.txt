@@ -6,4 +6,4 @@ add_core = SIK
 trade_goods = silk
 life_rating = 40
 terrain = floodplain_farmland
-colonial = 1
+colonial = 2

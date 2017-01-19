@@ -30951,56 +30951,56 @@
 
 	artisans = {
 
-		size = 4578
+		size = 5000
 		culture = czech
 		religion = catholic
 
 	}
 	artisans = {
 
-		size = 2976
+		size = 700
 		culture = south_german
 		religion = catholic
 
 	}
 	artisans = {
 
-		size = 1831
+		size = 700
 		culture = south_german
 		religion = jewish
 
 	}
 	clergymen = {
 
-		size = 824
+		size = 2300
 		culture = czech
 		religion = catholic
 
 	}
 	clergymen = {
 
-		size = 640
+		size = 600
 		culture = south_german
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 85252
+		size = 95000
 		culture = czech
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 53889
+		size = 9755
 		culture = south_german
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 834
+		size = 300
 		culture = south_german
 		religion = jewish
 
@@ -31011,56 +31011,56 @@
 
 	artisans = {
 
-		size = 2609
+		size = 2350
 		culture = czech
 		religion = catholic
 
 	}
 	artisans = {
 
-		size = 2838
+		size = 6000
 		culture = south_german
 		religion = catholic
 
 	}
 	artisans = {
 
-		size = 1831
+		size = 550
 		culture = south_german
 		religion = jewish
 
 	}
 	clergymen = {
 
-		size = 457
+		size = 400
 		culture = czech
 		religion = catholic
 
 	}
 	clergymen = {
 
-		size = 618
+		size = 600
 		culture = south_german
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 48624
+		size = 37500
 		culture = czech
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 51348
+		size = 70000
 		culture = south_german
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 847
+		size = 1000
 		culture = south_german
 		religion = jewish
 
@@ -31606,152 +31606,109 @@
 
 	artisans = {
 
-		size = 5078
+		size = 1278
 		culture = slovak
 		religion = catholic
 
 	}
 	artisans = {
 
-		size = 1009
+		size = 3009
 		culture = hungarian
 		religion = catholic
 
 	}
 	artisans = {
 
-		size = 1007
+		size = 3007
 		culture = hungarian
 		religion = protestant
 
 	}
 	artisans = {
 
-		size = 1507
-		culture = ashkenazi
-		religion = jewish
-
-	}
-	artisans = {
-
-		size = 1190
+		size = 1200
 		culture = south_german
 		religion = catholic
 
 	}
-	artisans = {
-
-		size = 366
-		culture = ukrainian
-		religion = orthodox
-
-	}
 	bureaucrats = {
 
-		size = 68
+		size = 170
 		culture = slovak
 		religion = catholic
 
 	}
 	bureaucrats = {
 
-		size = 457
+		size = 350
 		culture = hungarian
 		religion = catholic
 
 	}
 	bureaucrats = {
 
-		size = 228
+		size = 102
 		culture = south_german
 		religion = catholic
 
 	}
 	clergymen = {
 
-		size = 972
+		size = 300
 		culture = slovak
 		religion = catholic
 
 	}
 	clergymen = {
 
-		size = 183
+		size = 780
 		culture = hungarian
 		religion = catholic
 
 	}
 	clergymen = {
 
-		size = 158
+		size = 50
 		culture = hungarian
 		religion = protestant
 
 	}
 	clergymen = {
 
-		size = 65
-		culture = ashkenazi
-		religion = jewish
-
-	}
-	clergymen = {
-
-		size = 343
+		size = 200
 		culture = south_german
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 93962
+		size = 52000
 		culture = slovak
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 13575
+		size = 84000
 		culture = hungarian
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 16963
+		size = 10000
 		culture = hungarian
 		religion = protestant
 
 	}
 	labourers = {
 
-		size = 1105
-		culture = ashkenazi
-		religion = jewish
-
-	}
-	labourers = {
-
-		size = 20992
+		size = 15000
 		culture = south_german
 		religion = catholic
 
 	}
-	labourers = {
-
-		size = 7737
-		culture = ukrainian
-		religion = orthodox
-
-	}
-	labourers = {
-
-		size = 824
-		culture = polish
-		religion = catholic
-
-	}
-
 }
 638 = {
 
@@ -144984,43 +144941,56 @@
 
 }
 2619 = {
-
-	aristocrats = {
-
-		size = 28
-		culture = hazara
-		religion = sunni
-
-	}
-	artisans = {
-
-		size = 24
-		culture = pashtun
-		religion = sunni
-
-	}
-	clergymen = {
-
-		size = 9
-		culture = pashtun
-		religion = sunni
-
-	}
-	labourers = {
-
-		size = 445
-		culture = tajik
-		religion = sunni
-
-	}
-	soldiers = {
-
-		size = 15
-		culture = hazara
-		religion = sunni
-
-	}
-
+    aristocrats = {
+        size = 1000
+        culture = pashtun
+        religion = sunni
+    }
+    aristocrats = {
+        size = 500
+        culture = tajik
+        religion = sunni
+    }
+    artisans = {
+        size = 1000
+        culture = pashtun
+        religion = sunni
+    }
+    artisans = {
+        size = 1272
+        culture = tajik
+        religion = sunni
+    }
+    clergymen = {
+        size = 458
+        culture = pashtun
+        religion = sunni
+    }
+    clergymen = {
+        size = 100
+        culture = tajik
+        religion = sunni
+    }
+    farmers = {
+        size = 61004
+        culture = pashtun
+        religion = sunni
+    }
+    farmers = {
+        size = 29677
+        culture = tajik
+        religion = sunni
+    }
+    soldiers = {
+        size = 1500
+        culture = pashtun
+        religion = sunni
+    }
+    soldiers = {
+        size = 500
+        culture = tajik
+        religion = sunni
+    }
 }
 2620 = {
 

@@ -258,17 +258,20 @@ province_event = {
 	desc = "EVTDESC190303"
 	
 	trigger = {
-		OR = {
-			owner = { any_neighbor_country = { tag = PER } }
-			owner = { is_culture_group = arabic }
-			owner = { is_culture_group = turko_semitic }
-			owner = { is_culture_group = iranian_turanian }
-		}
-		controlled_by_rebels = no
-		NOT = { has_province_modifier = religious_insurrection }
-		NOT = { year = 1892 }
-		has_global_flag = bahaullah_has_appeared
-	}
+        OR = {
+            owner = { any_neighbor_country = { tag = PER } }
+            owner = { tag = PER }
+        }
+        OR = {   
+            owner = { is_culture_group = arabic }
+            owner = { is_culture_group = turko_semitic }
+            owner = { is_culture_group = iranian_turanian }
+        }
+        controlled_by_rebels = no
+        NOT = { has_province_modifier = religious_insurrection }
+        NOT = { year = 1892 }
+        has_global_flag = bahaullah_has_appeared
+    }
 	
 	mean_time_to_happen = {
 		months = 920
@@ -1457,17 +1460,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = PER
-		OR = {
-			civilized = yes
-			finance_reform = finance_reform_two
-		}
-		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = absolute_monarchy
-		}
-	}
+        tag = PER
+        ad_hoc_money_bill_printing = 1
+        OR = {
+            government = prussian_constitutionalism
+            government = hms_government
+            government = absolute_monarchy
+        }
+    }
 	
 	fire_only_once = yes
 	

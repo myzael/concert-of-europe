@@ -357,6 +357,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = slovak_slovakia
+			630 = { change_province_name = "Cesky Krumlov" }
 			633 = { change_province_name = "Prešporok" }
 			634 = { change_province_name = "Trencín" }
 			635 = { change_province_name = "Nitra" }

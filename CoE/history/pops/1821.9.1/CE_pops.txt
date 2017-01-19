@@ -31071,35 +31071,42 @@
 
 	aristocrats = {
 
-		size = 3479
+		size = 1200
 		culture = south_german
 		religion = catholic
 
 	}
 	artisans = {
 
-		size = 7711
+		size = 8000
 		culture = czech
 		religion = catholic
 
 	}
 	artisans = {
 
-		size = 5352
+		size = 2500
 		culture = south_german
 		religion = catholic
 
 	}
 	artisans = {
 
-		size = 2059
+		size = 2500
 		culture = south_german
 		religion = jewish
 
 	}
+	artisans = {
+
+		size = 5000
+		culture = czech
+		religion = catholic
+
+	}
 	bureaucrats = {
 
-		size = 228
+		size = 350
 		culture = czech
 		religion = catholic
 
@@ -31113,63 +31120,63 @@
 	}
 	clergymen = {
 
-		size = 1511
+		size = 2250
 		culture = czech
 		religion = catholic
 
 	}
 	clergymen = {
 
-		size = 621
+		size = 300
 		culture = south_german
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 141421
+		size = 170000
 		culture = czech
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 47742
+		size = 20000
 		culture = south_german
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 1254
+		size = 1000
 		culture = south_german
 		religion = jewish
 
 	}
 	officers = {
 
-		size = 183
+		size = 320
 		culture = czech
 		religion = catholic
 
 	}
 	officers = {
 
-		size = 228
+		size = 1000
 		culture = south_german
 		religion = catholic
 
 	}
 	soldiers = {
 
-		size = 2930
+		size = 2000
 		culture = czech
 		religion = catholic
 
 	}
 	soldiers = {
 
-		size = 709
+		size = 1000
 		culture = south_german
 		religion = catholic
 
@@ -31180,63 +31187,56 @@
 
 	artisans = {
 
-		size = 3479
+		size = 2500
 		culture = czech
 		religion = catholic
 
 	}
 	artisans = {
 
-		size = 1373
+		size = 3000
 		culture = south_german
 		religion = catholic
 
 	}
 	artisans = {
 
-		size = 1831
+		size = 1000
 		culture = south_german
 		religion = jewish
 
 	}
-	bureaucrats = {
+	clergymen = {
 
-		size = 1
+		size = 700
 		culture = czech
 		religion = catholic
 
 	}
 	clergymen = {
 
-		size = 684
-		culture = czech
-		religion = catholic
-
-	}
-	clergymen = {
-
-		size = 320
+		size = 400
 		culture = south_german
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 64740
+		size = 35000
 		culture = czech
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 24586
+		size = 45000
 		culture = south_german
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 847
+		size = 1100
 		culture = south_german
 		religion = jewish
 
@@ -36191,28 +36191,28 @@
 
 	artisans = {
 
-		size = 412
+		size = 250
 		culture = czech
 		religion = catholic
 
 	}
 	artisans = {
 
-		size = 1419
+		size = 2000
 		culture = south_german
 		religion = catholic
 
 	}
 	bureaucrats = {
 
-		size = 36
+		size = 25
 		culture = czech
 		religion = catholic
 
 	}
 	bureaucrats = {
 
-		size = 128
+		size = 205
 		culture = south_german
 		religion = catholic
 
@@ -36226,28 +36226,28 @@
 	}
 	clergymen = {
 
-		size = 183
+		size = 230
 		culture = south_german
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 4931
+		size = 2000
 		culture = czech
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 4000
+		size = 750
 		culture = polish
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 12125
+		size = 15000
 		culture = south_german
 		religion = catholic
 

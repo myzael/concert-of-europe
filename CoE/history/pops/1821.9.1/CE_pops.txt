@@ -16733,6 +16733,20 @@
 	}
 	artisans = {
 
+		size = 750
+		culture = tatar
+		religion = jewish
+
+	}
+	artisans = {
+
+		size = 450
+		culture = tatar
+		religion = sunni
+
+	}
+	artisans = {
+
 		size = 1200
 		culture = byelorussian
 		religion = catholic
@@ -38605,6 +38619,20 @@
 		religion = jewish
 
 	}
+	artisans = {
+
+		size = 373
+		culture = tatar
+		religion = jewish
+
+	}
+	artisans = {
+
+		size = 700
+		culture = tatar
+		religion = sunni
+
+	}
 	bureaucrats = {
 
 		size = 68
@@ -52118,6 +52146,27 @@
 	}
 	artisans = {
 
+		size = 130
+		culture = tatar
+		religion = jewish
+
+	}
+	artisans = {
+
+		size = 330
+		culture = tatar
+		religion = orthodox
+
+	}
+	artisans = {
+
+		size = 150
+		culture = tatar
+		religion = sunni
+
+	}
+	artisans = {
+
 		size = 180
 		culture = byelorussian
 		religion = catholic
@@ -52368,94 +52417,93 @@
 
 }
 938 = {
-
 	artisans = {
 
-		size = 932
+		size = 1000
+		culture = tatar
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 300
 		culture = lithuanian
 		religion = catholic
 
 	}
 	artisans = {
 
-		size = 866
+		size = 1000
 		culture = polish
 		religion = catholic
 
 	}
 	artisans = {
 
-		size = 412
+		size = 500
 		culture = byelorussian
 		religion = catholic
 
 	}
 	artisans = {
 
-		size = 686
+		size = 300
 		culture = ashkenazi
 		religion = jewish
 
 	}
 	clergymen = {
 
-		size = 183
+		size = 100
 		culture = lithuanian
 		religion = catholic
 
 	}
 	clergymen = {
 
-		size = 268
+		size = 400
 		culture = polish
 		religion = catholic
 
 	}
 	clergymen = {
 
-		size = 68
+		size = 100
 		culture = byelorussian
 		religion = catholic
 
 	}
 	clergymen = {
 
-		size = 45
+		size = 100
 		culture = ashkenazi
 		religion = jewish
 
 	}
 	farmers = {
 
-		size = 18536
+		size = 4000
 		culture = lithuanian
 		religion = catholic
 
 	}
 	farmers = {
 
-		size = 16807
+		size = 35000
 		culture = polish
 		religion = catholic
 
 	}
 	farmers = {
 
-		size = 14280
+		size = 8000
 		culture = byelorussian
 		religion = catholic
 
 	}
 	farmers = {
 
-		size = 600
-		culture = byelorussian
-		religion = protestant
-
-	}
-	farmers = {
-
-		size = 5608
+		size = 4000
 		culture = ashkenazi
 		religion = jewish
 
@@ -52483,6 +52531,20 @@
 		size = 728
 		culture = byelorussian
 		religion = catholic
+
+	}
+	artisans = {
+
+		size = 500
+		culture = tatar
+		religion = sunni
+
+	}
+	artisans = {
+
+		size = 150
+		culture = tatar
+		religion = orthodox
 
 	}
 	artisans = {
@@ -55419,22 +55481,22 @@
 
 	artisans = {
 
-		size = 167
+		size = 150
 		culture = ukrainian
 		religion = orthodox
 
 	}
 	artisans = {
 
-		size = 256
-		culture = ashkenazi
-		religion = jewish
+		size = 400
+		culture = byelorussian
+		religion = orthodox
 
 	}
 	artisans = {
 
-		size = 400
-		culture = byelorussian
+		size = 250
+		culture = russian
 		religion = orthodox
 
 	}
@@ -55447,9 +55509,9 @@
 	}
 	clergymen = {
 
-		size = 16
-		culture = ashkenazi
-		religion = jewish
+		size = 28
+		culture = russian
+		religion = orthodox
 
 	}
 	clergymen = {
@@ -55461,21 +55523,21 @@
 	}
 	farmers = {
 
-		size = 5913
+		size = 2225
 		culture = ukrainian
 		religion = orthodox
 
 	}
 	farmers = {
 
-		size = 664
-		culture = ashkenazi
-		religion = jewish
+		size = 4550
+		culture = russian
+		religion = orthodox
 
 	}
 	farmers = {
 
-		size = 3605
+		size = 7500
 		culture = byelorussian
 		religion = orthodox
 

@@ -357,12 +357,12 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = slovak_slovakia
-			630 = { change_province_name = "Cesky Krumlov" }
-			633 = { change_province_name = "Prešporok" }
+			633 = { change_province_name = "Bratislava" }
 			634 = { change_province_name = "Trencín" }
 			635 = { change_province_name = "Nitra" }
 			636 = { change_province_name = "Banská Bystrica" }
 			637 = { change_province_name = "Košice" }
+			657 = { change_province_name = "Prešov" }
 			638 = { change_province_name = "Komárno" }
 			prestige = 5
 			KUK = { prestige = -3 }
@@ -394,6 +394,7 @@ political_decisions = {
 			635 = { change_province_name = "Nyitra" }
 			636 = { change_province_name = "Besztercebánya" }
 			637 = { change_province_name = "Kassa" }
+			657 = { change_province_name = "Eperjes" }
 			638 = { change_province_name = "Komárom" }
 			prestige = 3
 			SLV = { prestige = -5 }

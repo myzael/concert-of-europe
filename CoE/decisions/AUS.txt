@@ -1471,7 +1471,7 @@ political_decisions = {
 			627 = { change_province_name = "Karlovy Vary" }
 			628 = { change_province_name = "Liberec" }
 			629 = { change_province_name = "Plzen" }
-			630 = { change_province_name = "Budejovice" }
+			630 = { change_province_name = "Krumlov" }
 			3254 = { change_province_name = "Pardubice" }
 			prestige = 5
 			AUS = { prestige = -3 }
@@ -1499,7 +1499,7 @@ political_decisions = {
 		effect = {
 			set_global_flag = czech_moravia
 			631 = { change_province_name = "Brno" }
-			632 = { change_province_name = "Olomouc" }
+			632 = { change_province_name = "Znojmo" }
 			prestige = 2
 			AUS = { prestige = -1 }
 			KUK = { prestige = -1 }

@@ -556,7 +556,10 @@ country_event = {
 				value = -100
 			}
 		}
-		inherit = LOM
+		LOM = {
+			annex_to = SAR
+		}
+		AUS_726 = { add_core = SAR }
 		AUS = {
 			war = {
 				target = THIS

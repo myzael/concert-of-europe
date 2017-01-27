@@ -1118,6 +1118,7 @@ country_event = {
 			}
 			secede_province = RUS
 		}
+		1049 = { change_province_name = "Novorossiysk" }
 		diplomatic_influence = { who = MOL value = -200 }
 		diplomatic_influence = { who = WAL value = -200 }
 		release_vassal = SER
@@ -1131,6 +1132,7 @@ country_event = {
 			}
 		}
 		war_exhaustion = -20
+		set_global_flag = treaty_of_adrianople
 		ai_chance = {
 			factor = 100
 		}

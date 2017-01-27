@@ -224,6 +224,35 @@ political_decisions = {
 		}
 	}
 	
+	the_port_of_novorossiysk = {
+		potential = {
+			tag = RUS
+			has_country_flag = transcaucasia_claimed
+			NOT = { 
+				has_global_flag = treaty_of_adrianople 
+				has_country_flag = novorossiysk_port
+			}
+		}
+		
+		allow = {
+			war = no
+			owns = 1049
+		}
+		
+		effect = {
+			RUS_1048 = {
+				any_owned = {
+					naval_base = 0
+				}
+			}
+			1049 = { 
+				change_province_name = "Novorossiysk"
+				naval_base = 1 
+			}
+			set_country_flag = novorossiysk_port
+		}
+	}
+	
 	abolish_serfdom = {
 		potential = {
 			tag = RUS

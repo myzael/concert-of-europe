@@ -201,6 +201,7 @@ political_decisions = {
 			owns = 543
 			is_greater_power = yes
 			nationalism_n_imperialism = 1
+			543 = { is_core = EFR }
 		}
 
 		allow = {

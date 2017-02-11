@@ -139,6 +139,10 @@ political_decisions = {
 				militancy = -3
 			}
 		}
+	
+		ai_will_do = {
+			factor = 1
+		}
 	}
 
 	appeal_to_the_british = {
@@ -189,6 +193,10 @@ political_decisions = {
 					war_with = NAL
 				}
 			}
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -267,11 +275,7 @@ political_decisions = {
 			NOT = { has_country_flag = claimed_xhosa }
 		}
 
-		allow = {
-			2100 = {
-				NOT = { is_core = THIS }
-			}
-		}
+		allow = { year = 1837 }
 
 		effect = {
 			set_country_flag = claimed_xhosa
@@ -305,6 +309,10 @@ political_decisions = {
 					call_ally = no
 				}
 			}
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 

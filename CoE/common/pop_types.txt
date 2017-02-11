@@ -114,6 +114,16 @@ demotion_chance =
 {
 	factor = 1
 	modifier = {
+		factor = 2
+        has_pop_type = craftsmen
+		state_scope = { is_colonial = yes }
+	}
+	modifier = {
+		factor = 2
+        has_pop_type = clerks
+		state_scope = { is_colonial = yes }
+	}
+	modifier = {
 		factor = -0.1
 		NOT = { religion = THIS }
 	}
@@ -404,6 +414,10 @@ factor = 0.5
 		}
 	}
 	modifier = {
+		factor = -10
+		state_scope = { is_colonial = yes }
+	}
+	modifier = {
 		factor = 3
 		THIS = { has_pop_religion = jewish }
 		location = {
@@ -419,6 +433,10 @@ colonialmigration_chance = {
 	modifier = {
 		factor = -10
 		is_accepted_culture = no
+	}
+	modifier = {
+		factor = -10
+		state_scope = { is_colonial = yes }
 	}
 	modifier = {
 		factor = 0.1
@@ -781,6 +799,10 @@ emigration_chance =
 			unemployment = 1
 			location = { controlled_by = owner }
 		}	
+	}
+	modifier = {
+		factor = -3
+		NOT = { year = 1830 }
 	}
 }
 

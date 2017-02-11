@@ -3,5 +3,5 @@ controller = AUS
 add_core = BOH
 add_core = AUS
 trade_goods = coal
-life_rating = 31
+life_rating = 38
 terrain = deciduous_forest_hills

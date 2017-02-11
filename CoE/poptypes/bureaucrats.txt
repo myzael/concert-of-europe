@@ -326,6 +326,10 @@ migration_target =
 	factor = 1
 
 	modifier = {
+		factor = -10
+		state_scope = { bureaucrats = 0.05 }
+	}
+	modifier = {
 		factor = 1.2
 		has_pop_culture = THIS
 	}
@@ -484,11 +488,16 @@ migration_target =
 			terrain = plains
 			terrain = temperate_grassland
 			terrain = dry_grassland
+			terrain = marginal_farmland
+			terrain = hilly_farmland
+			terrain = forested_farmland
+			terrain = hilly_grassland
 		}
 	}
 	modifier = {
 		factor = 1.2
 		OR = { 
+		    terrain = rich_farmland
 			terrain = good_farmland
 			terrain = floodplain_farmland
 			terrain = plains
@@ -507,6 +516,17 @@ migration_target =
 			terrain = cold_desert_hills
 			terrain = cold_desert_mountains
 			terrain = arctic
+			terrain = jungle
+			terrain = jungle_hills
+			terrain = jungle_mountains
+			terrain = seasonal_jungle
+			terrain = seasonal_jungle_hills
+			terrain = seasonal_jungle_mountains
+			terrain = swamp_jungle
+			terrain = boreal_marsh
+			terrain = tundra_mountains
+			terrain = tundra_hills
+			terrain = tundra
 		}
 	}
 	modifier = {

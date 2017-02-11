@@ -1916,6 +1916,7 @@ political_decisions = {
 				government = presidential_dictatorship
 				government = bourgeois_dictatorship
 				government = fascist_dictatorship
+				government = absolute_monarchy
 			}
 		}
 		allow = {

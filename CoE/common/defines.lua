@@ -94,8 +94,8 @@ country = {
 },
 
 economy = {
-	MAX_DAILY_RESEARCH		    = 100,
-	LOAN_BASE_INTEREST			= 0.02,
+	MAX_DAILY_RESEARCH = 100,
+	LOAN_BASE_INTEREST = 0.02,
 	BANKRUPTCY_EXTERNAL_LOAN_YEARS	= 5,
 	BANKRUPTCY_FACTOR = 0.02,
 	SHADOWY_FINANCIERS_MAX_LOAN_AMOUNT = 15000,
@@ -116,11 +116,11 @@ economy = {
 	MAX_FACTORY_MONEY_SAVE = 5000,	-- how much money is stored maximum in a factory.
 	SMALL_DEBT_LIMIT = 5000,
 	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.9, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
-	RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.2,	-- how fast pops are Hired when there is a high demand
-	RGO_SUPPLY_DEMAND_FACTOR_HIRE_LO = 0.02,	-- how fast pops are Hired when there is a medium demand
+	RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.5,	-- how fast pops are Hired when there is a high demand
+	RGO_SUPPLY_DEMAND_FACTOR_HIRE_LO = 0.2,	-- how fast pops are Hired when there is a medium demand
 	RGO_SUPPLY_DEMAND_FACTOR_FIRE = 0.2,		-- how fast pops are Fired when there is a low demand
-	EMPLOYMENT_HIRE_LOWEST = 0.01,				-- we Hire pops no slower then x% of total required per day
-	EMPLOYMENT_FIRE_LOWEST = 0.01,				-- we Fire pops no slower then x% of total required per day
+	EMPLOYMENT_HIRE_LOWEST = 0.1,				-- we Hire pops no slower then x% of total required per day
+	EMPLOYMENT_FIRE_LOWEST = 0.1,				-- we Fire pops no slower then x% of total required per day
 	TRADE_CAP_LOW_LIMIT_LAND = 0.25, 				-- the lowest % the slider can go for land units
 	TRADE_CAP_LOW_LIMIT_NAVAL = 0.25, 			-- the lowest % the slider can go for naval units
 	TRADE_CAP_LOW_LIMIT_CONSTRUCTIONS = 0.25, 		-- the lowest % the slider can go for constructions
@@ -621,16 +621,16 @@ pops = {
 
 	ASSIMILATION_SCALE = 0.02,
 	CONVERSION_SCALE = 0.02,
-	IMMIGRATION_SCALE = 0.003,
+	IMMIGRATION_SCALE = 0.004,
 
 	PROMOTION_SCALE = 0.0025,
 	PROMOTION_ASSIMILATION_CHANCE = 0,
 	LUXURY_THRESHOLD = 500,
-	BASE_GOODS_DEMAND = 1,
+	BASE_GOODS_DEMAND = 0.8,
 	BASE_POPGROWTH = 0.0001,
-	MIN_LIFE_RATING_FOR_GROWTH = 30,
+	MIN_LIFE_RATING_FOR_GROWTH = 29,
 	LIFE_RATING_GROWTH_BONUS = 0.0001,
-	LIFE_NEED_STARVATION_LIMIT = 0.5,
+	LIFE_NEED_STARVATION_LIMIT = 0.01,
 
 	MIL_LACK_EVERYDAY_NEED = 0.05,
 	MIL_HAS_EVERYDAY_NEED = -0.05,
@@ -668,7 +668,7 @@ pops = {
 	INVENTION_IMPACT_ON_DEMAND = 0.00, -- how much each invention in a country increases demand for a product in percent
 	POP_TO_LEADERSHIP = 0.00005, -- how much leadership every 1000 officers gives each day.
 	ARTISAN_MIN_PRODUCTIVITY = 1, -- Minimum efficiency of an artisan
-	SLAVE_GROWTH_DIVISOR = 2, -- Slaves have N times lower growth
+	SLAVE_GROWTH_DIVISOR = 1, -- Slaves have N times lower growth
 	
 	MIL_HIT_FROM_CONQUEST = 8, -- how much militancy grows in a province if taken without being core.
 	LUXURY_CON_CHANGE = 0, -- con boost from over-buying luxuary goods

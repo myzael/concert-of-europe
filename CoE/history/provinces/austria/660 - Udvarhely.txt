@@ -4,5 +4,5 @@ add_core = SYL
 add_core = HUN
 add_core = ROM
 trade_goods = wool
-life_rating = 32
+life_rating = 35
 terrain = conifer_forest_mountains

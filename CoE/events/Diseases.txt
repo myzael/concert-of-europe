@@ -60,7 +60,7 @@ country_event = {
 			any_owned = {
 				add_province_modifier = {
 					name = "tuberculosis"
-					duration = 1800
+					duration = 180
 				}
 			}
 		}

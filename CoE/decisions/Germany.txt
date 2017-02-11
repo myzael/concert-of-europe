@@ -410,6 +410,7 @@ political_decisions = {
 			owns = 578 #Dusseldorf
 			owns = 2561 #Siegburg
 			owns = 575 #Koln
+			owns = 564 #Frankfurt
 			NOT = {
 				has_global_flag = ruhr_boom_has_happened
 			}
@@ -429,6 +430,7 @@ political_decisions = {
 						region = PRU_575 #Rheinland
 						region = PRU_578 #Eastern Rheinland
 						region = PRU_581 #Westfalen
+						region = HES_2560 #Hessen
 					}
 				}
 				add_province_modifier = {
@@ -437,6 +439,42 @@ political_decisions = {
 				}
 			}
 			set_global_flag = ruhr_boom_has_happened
+		}
+	}
+	
+	the_saxon_boom = {
+		potential = {
+			OR = {
+				tag = PRU
+				tag = GER
+				tag = NGF
+			}
+			owns = 558 #Dresden
+			NOT = {
+				has_global_flag = saxon_boom_has_happened
+			}
+		}
+		
+		allow = {
+			market_structure = 1
+			organized_factories = 1
+			early_railroad = 1
+		}
+		
+		effect = {
+			any_owned = {
+				limit = {
+					OR = {
+                        region = SAX_558 #Saxony
+						province_id = 687 #Gorlitz
+					}
+				}
+				add_province_modifier = {
+					name = ruhr_boom
+					duration = 3650
+				}
+			}
+			set_global_flag = saxon_boom_has_happened
 		}
 	}
 	

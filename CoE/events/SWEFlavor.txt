@@ -807,3 +807,53 @@ country_event = {
 		}
 	}
 }
+
+province_event = {
+
+	id = 36650
+
+	title = "Famine in $PROVINCENAME$"
+	desc = "The famine in northern Sweden and Finland during the late 1860ies killed more than a hundred thousand and was the last large, naturally caused famine in Europe. It has recently been reported that $PROVINCENAME$ has been hit and hard times are expected."
+
+	trigger = {
+		year = 1866
+		NOT = { year = 1869 }
+		NOT = { has_province_modifier = scandinavian_famine }
+		OR = {
+			state_id = 318
+			state_id = 336
+			state_id = 345
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "We must help them!"
+		add_province_modifier = {
+			name = scandinavian_famine
+			duration = 120
+		}
+		consciousness = 1
+		money = -3000
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0
+				NOT = { money = 10000 }
+			}
+		}
+	}
+	
+	option =  {
+		name = "It's unfortunate but there is nothing we can do"
+		add_province_modifier = {
+			name = scandinavian_famine
+			duration = 365
+		}
+		consciousness = 3
+		ai_chance = { factor = 20 }
+	}
+}

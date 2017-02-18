@@ -810,6 +810,70 @@ political_decisions = {
 		}
 	}
 	
+	unify_portugal_galicia = {
+		picture = galicia
+		potential = {
+			tag = POR
+			owns = 476
+			owns = 474
+			NOT = {
+				OR = {
+					476 = { is_core = POR }
+					474 = { is_core = POR }
+				}
+			}
+		}
+		allow = {
+			war = no
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			prestige = 5
+			476 = { add_core = POR }
+			474 = { add_core = POR }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unify_portugal_galicia_upb = {
+		picture = galicia
+		potential = {
+			tag = UPB
+			owns = 476
+			owns = 474
+			NOT = {
+				OR = {
+					476 = { is_core = POR }
+					474 = { is_core = POR }
+				}
+			}
+		}
+		allow = {
+			war = no
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			prestige = 5
+			476 = {
+				add_core = POR
+				add_core = UPB
+			}
+			474 = {
+				add_core = POR
+				add_core = UPB
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	UPB_setup = {
 		potential = {
 			tag = UPB

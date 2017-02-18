@@ -4,7 +4,7 @@ add_core = PRU
 add_core = SLS
 add_core = POL
 add_core = GER
-trade_goods = iron
+trade_goods = coal
 life_rating = 40
 terrain = hilly_farmland
 1861.1.1 = { railroad = 3 }

@@ -9,7 +9,7 @@ country = {
 	REBEL_ACCEPTANCE_MONTHS = 60,
 	BASE_COUNTRY_TAX_EFFICIENCY = 0.50, -- Basic efficiency for taxes without 'crats and tech
 	BASE_COUNTRY_ADMIN_EFFICIENCY = 0.2,
-	GOLD_TO_CASH_RATE = 0.1, -- Amount of money generated per gold unit
+	GOLD_TO_CASH_RATE = 1, -- Amount of money generated per gold unit
 	GOLD_TO_WORKER_PAY_RATE = 3, -- Multiplier for how much money gold pays to pops
 	GREAT_NATIONS_COUNT = 8,
 	GREATNESS_DAYS = 360, 	   -- how many days until country risks losing status as great nation
@@ -124,7 +124,7 @@ economy = {
 	TRADE_CAP_LOW_LIMIT_LAND = 0.25, 				-- the lowest % the slider can go for land units
 	TRADE_CAP_LOW_LIMIT_NAVAL = 0.25, 			-- the lowest % the slider can go for naval units
 	TRADE_CAP_LOW_LIMIT_CONSTRUCTIONS = 0.25, 		-- the lowest % the slider can go for constructions
-	FACTORY_PURCHASE_MIN_FACTOR = 0.1,			-- the lowest % of its daily needs a factory will purchase
+	FACTORY_PURCHASE_MIN_FACTOR = 0.5,			-- the lowest % of its daily needs a factory will purchase
 	FACTORY_PURCHASE_DRAWDOWN_FACTOR = 0.01		-- the % a factory will reduce its input purchases each day if it did not sell all its goods (also used for scaling up production if all goods are sold)
 },
 
@@ -626,7 +626,7 @@ pops = {
 	PROMOTION_SCALE = 0.0025,
 	PROMOTION_ASSIMILATION_CHANCE = 0,
 	LUXURY_THRESHOLD = 500,
-	BASE_GOODS_DEMAND = 1,
+	BASE_GOODS_DEMAND = 0.8,
 	BASE_POPGROWTH = 0.0001,
 	MIN_LIFE_RATING_FOR_GROWTH = 29,
 	LIFE_RATING_GROWTH_BONUS = 0.0001,

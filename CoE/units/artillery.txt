@@ -20,14 +20,12 @@ artillery = {
 	build_cost = {
 		artillery = 2.5
 		regular_clothes = 3
-		horses = 1
 	}
 	
 	supply_consumption = 1
 	supply_cost = {
 		artillery = 0.5
 		explosives = 0.25
-		horses = 0.2
 	}
 	
 

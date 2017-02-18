@@ -800,6 +800,10 @@ emigration_chance =
 			location = { controlled_by = owner }
 		}	
 	}
+	modifier = {
+		factor = -3
+		NOT = { year = 1830 }
+	}
 }
 
 #general assimilation mtth, same for all pops

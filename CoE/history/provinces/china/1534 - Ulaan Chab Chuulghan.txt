@@ -2,6 +2,6 @@ owner = QNG
 controller = QNG
 add_core = CHI
 add_core = MGL
-trade_goods = horses
+trade_goods = cattle
 life_rating = 31
 terrain = hilly_grassland

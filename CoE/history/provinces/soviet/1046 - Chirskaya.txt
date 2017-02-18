@@ -3,6 +3,5 @@ controller = RUS
 add_core = RUS
 add_core = DON
 add_core = KMK
-trade_goods = horses
-life_rating = 35
+trade_goods = cattlelife_rating = 35
 terrain = dry_grassland

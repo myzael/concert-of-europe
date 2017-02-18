@@ -1192,7 +1192,7 @@ stables = {
 		iron = 5			#33
 	}
 	output_goods = horses
-	value = 28
+	value = 35
 	bonus = {
 		trigger = {
 			trade_goods_in_state = grain
@@ -1599,13 +1599,6 @@ cattle_ranch = {
 	template = RGO_template_farmers
 	output_goods = cattle
 	value = 10
-	farm = yes
-}
-
-horse_ranch = {
-	template = RGO_template_farmers
-	output_goods = horses
-	value = 5
 	farm = yes
 }
 
@@ -2401,7 +2394,7 @@ artisan_horsebreeder = {
 	}
 
 	output_goods = horses
-	value = 52
+	value = 70
 	owner = {
 		poptype = artisan
 		effect = output

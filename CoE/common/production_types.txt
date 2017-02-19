@@ -2141,7 +2141,7 @@ artisan_regular_clothes = {
 		dye = 3
 	}
 	output_goods = regular_clothes
-	value = 16
+	value = 12
 
 	owner = {
 		poptype = artisan
@@ -2159,7 +2159,7 @@ artisan_regular_silk_clothes = {
 		dye = 12
 	}
 	output_goods = regular_clothes
-	value = 16
+	value = 12
 
 	owner = {
 		poptype = artisan
@@ -2213,7 +2213,7 @@ artisan_canned_food = {
 		cattle = 50
 	}
 	output_goods = canned_food
-	value = 37.5
+	value = 40
 
 	owner = {
 		poptype = artisan
@@ -2287,7 +2287,7 @@ artisan_fabric = {
 		cotton = 50
 	}
 	output_goods = fabric
-	value = 32
+	value = 24
 
 	owner = {
 		poptype = artisan
@@ -2444,7 +2444,7 @@ artisan_weaver = {
 		wool = 50
 	}
 	output_goods = fabric
-	value = 32
+	value = 24
 	owner = {
 		poptype = artisan
 		effect = output
@@ -2462,7 +2462,7 @@ artisan_baker = {
 		grain = 67
 	}
 	output_goods = canned_food
-	value = 37.5
+	value = 40
 
 	owner = {
 		poptype = artisan
@@ -2479,7 +2479,7 @@ artisan_fishmonger = {
 		fish = 50
 	}
 	output_goods = canned_food
-	value = 37.5
+	value = 40
 
 	owner = {
 		poptype = artisan
@@ -2496,7 +2496,7 @@ artisan_costermonger = {
 		fruit = 50
 	}
 	output_goods = canned_food
-	value = 37.5
+	value = 40
 
 	owner = {
 		poptype = artisan

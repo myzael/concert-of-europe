@@ -45,6 +45,16 @@ potato_blight = {
 	icon = 20
 }
 
+scandinavian_famine = {
+	farm_RGO_eff = -0.5
+	pop_consciousness_modifier = 0.3
+	poor_life_needs = 0.2
+	immigrant_push = 1
+	prestige = -0.03
+	population_growth = -0.01
+	icon = 20
+}
+
 anti_jacobin_tract = {
 	political_reform_desire = -0.05
 	global_pop_consciousness_modifier = -0.25

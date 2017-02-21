@@ -252,6 +252,8 @@ country_event = {
 		exists = yes
 		has_global_flag = berlin_conference
 		NOT = { tag = QNG }
+		NOT = { tag = TPG }
+		NOT = { primary_culture = japanese }
 		civilized = no
 		war = no
 		part_of_sphere = yes

@@ -559,16 +559,12 @@
 			set_country_flag = greater_PLC
 			badboy = 10
 			prestige = 5
-			351 = { add_core = PLC } #Livonia
-			352 = { add_core = PLC } #Livonia
-			354 = { add_core = PLC } #Livonia
-			355 = { add_core = PLC } #Livonia
+			RUS_354 = { add_core = PLC } #Livonia
 			PRU_695 = { add_core = PLC } #East Prussia
-			692 = { add_core = PLC } #Deutsch Krone
-			962 = { add_core = PLC } #Chernigov
-			963 = { add_core = PLC } #Poltava
-			943 = { add_core = PLC } #Smolensk
-			1016 = { add_core = PLC } #Bryansk
+			PRU_690 = { add_core = PLC } #Deutsch Krone
+			RUS_1016 = { add_core = PLC } #Chernigov
+			RUS_978 = { add_core = PLC } #Poltava
+			RUS_943 = { add_core = PLC } #Smolensk
 			any_country = {
 				limit = {
 					OR = {

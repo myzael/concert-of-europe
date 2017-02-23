@@ -2141,7 +2141,7 @@ artisan_regular_clothes = {
 		dye = 3
 	}
 	output_goods = regular_clothes
-	value = 12
+	value = 14
 
 	owner = {
 		poptype = artisan
@@ -2159,7 +2159,7 @@ artisan_regular_silk_clothes = {
 		dye = 12
 	}
 	output_goods = regular_clothes
-	value = 12
+	value = 14
 
 	owner = {
 		poptype = artisan
@@ -2287,7 +2287,7 @@ artisan_fabric = {
 		cotton = 50
 	}
 	output_goods = fabric
-	value = 24
+	value = 28
 
 	owner = {
 		poptype = artisan
@@ -2444,7 +2444,7 @@ artisan_weaver = {
 		wool = 50
 	}
 	output_goods = fabric
-	value = 24
+	value = 28
 	owner = {
 		poptype = artisan
 		effect = output

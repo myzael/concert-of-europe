@@ -370,7 +370,7 @@ local_economic_downturn = {
 
 ##### AMERICAN CIVIL WAR #####
 southern_plantations = {
-	farm_RGO_eff = 3
+	farm_RGO_eff = 2.5
 	pop_consciousness_modifier = -0.01
 	immigrant_attract = -0.25
 	icon = 4

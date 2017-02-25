@@ -3,6 +3,6 @@ controller = ENG
 add_core = AST
 add_core = ENG
 trade_goods = lead
-life_rating = 30
+life_rating = 37
 terrain = dry_grassland
 colonial = 2

@@ -3,5 +3,5 @@ controller = TOS
 add_core = TOS
 add_core = TKG
 trade_goods = sugar
-life_rating = 35
+life_rating = 36
 terrain = good_farmland

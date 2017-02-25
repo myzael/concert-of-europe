@@ -32,7 +32,7 @@ political_decisions = {
 			}
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}			
 		}
 		
@@ -73,7 +73,7 @@ political_decisions = {
 			}
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}			
 		}
 		
@@ -118,7 +118,7 @@ political_decisions = {
 			}
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}			
 		}
 		
@@ -170,7 +170,7 @@ political_decisions = {
 			}
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}			
 		}
 		
@@ -204,7 +204,7 @@ political_decisions = {
 			nationalvalue = nv_loyalty
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}			
 		}
 		
@@ -253,7 +253,7 @@ political_decisions = {
 			nationalvalue = nv_unity
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}
 		}
 		
@@ -294,7 +294,7 @@ political_decisions = {
 			nationalvalue = nv_unity
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}
 		}
 		
@@ -335,7 +335,7 @@ political_decisions = {
 			nationalvalue = nv_prosperity
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}
 		}
 		
@@ -376,7 +376,7 @@ political_decisions = {
 			nationalvalue = nv_prosperity
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}
 		}
 		
@@ -423,7 +423,7 @@ political_decisions = {
 			nationalvalue = nv_glory
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}
 		}
 		
@@ -464,7 +464,7 @@ political_decisions = {
 			nationalvalue = nv_glory
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}
 		}
 		
@@ -505,7 +505,7 @@ political_decisions = {
 			nationalvalue = nv_dominion
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}
 		}
 		
@@ -552,7 +552,7 @@ political_decisions = {
 			nationalvalue = nv_dominion
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}
 		}
 		
@@ -587,7 +587,7 @@ political_decisions = {
 			nationalvalue = nv_fraternity
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}
 		}
 		
@@ -622,7 +622,7 @@ political_decisions = {
 			nationalvalue = nv_freedom
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}
 		}
 		
@@ -657,7 +657,7 @@ political_decisions = {
 			nationalvalue = nv_supremacy
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}
 		}
 		
@@ -692,7 +692,7 @@ political_decisions = {
 			nationalvalue = nv_productivity
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}
 		}
 		
@@ -729,7 +729,7 @@ political_decisions = {
 			nationalvalue = nv_equality
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}
 		}
 	}
@@ -762,7 +762,7 @@ political_decisions = {
 			nationalvalue = nv_liberty
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}
 		}
 	}
@@ -795,7 +795,7 @@ political_decisions = {
 			nationalvalue = nv_might
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}
 		}
 	}
@@ -828,7 +828,7 @@ political_decisions = {
 			nationalvalue = nv_order
 			add_country_modifier = {
 				name = national_confusion
-				duration = 3650
+				duration = 730
 			}
 		}
 	}

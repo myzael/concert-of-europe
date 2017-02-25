@@ -38,6 +38,8 @@ nv_liberty = {
 	poor_everyday_needs = 0.05
 	middle_everyday_needs = 0.05
 	rich_everyday_needs = 0.05
+	political_reform_desire = 0.05
+	literacy_con_impact = 0.05
 }
 
 nv_equality = {
@@ -52,6 +54,11 @@ nv_might = {
 	leadership_modifier = 0.2
 	unit_start_experience = 0.2
 	assimilation_rate = -0.1
+	core_pop_militancy_modifier = -0.02
+	core_pop_consciousness_modifier = -0.03
+	social_reform_desire = -0.1
+	political_reform_desire = -0.1
+	literacy_con_impact = -0.2
 }
 
 nv_order = {
@@ -59,6 +66,9 @@ nv_order = {
 	core_pop_consciousness_modifier = -0.01
 	rgo_output = 0.05
 	factory_owner_cost = -0.1
+	social_reform_desire = -0.05
+	political_reform_desire = -0.05
+	literacy_con_impact = -0.1
 }
 
 nv_freedom = {
@@ -73,6 +83,7 @@ nv_freedom = {
 	poor_luxury_needs = 0.1
 	middle_luxury_needs = 0.1
 	rich_luxury_needs = 0.1
+	literacy_con_impact = 0.1
 }
 
 nv_fraternity = {
@@ -91,10 +102,12 @@ nv_unity = {
 	social_reform_desire = 0.1
 	assimilation_rate = 0.2
 	rgo_output = 0.05
+	literacy_con_impact = -0.05
 }
 
 nv_supremacy = {
-	global_pop_militancy_modifier = -0.02
+	global_pop_militancy_modifier = -0.03
+	global_pop_consciousness_modifier = -0.05
 	war_exhaustion = -0.2
 	leadership_modifier = 0.3
 	unit_start_experience = 0.5
@@ -103,7 +116,9 @@ nv_supremacy = {
 	global_immigrant_attract = -0.5
 	army_tech_research_bonus = 0.1
 	navy_tech_research_bonus = 0.05
-	culture_tech_research_bonus = -0.1
+	social_reform_desire = -0.1
+	political_reform_desire = -0.2
+	literacy_con_impact = -0.3
 }
 
 nv_prosperity = {
@@ -130,6 +145,7 @@ nv_productivity = {
 	rich_everyday_needs = -0.1
 	industry_tech_research_bonus = 0.1
 	social_reform_desire = -0.2
+	literacy_con_impact = -0.1
 }
 
 nv_glory = {
@@ -144,6 +160,9 @@ nv_glory = {
 	war_exhaustion = -0.05
 	leadership_modifier = 0.1
 	unit_start_experience = 0.2
+	social_reform_desire = -0.05
+	political_reform_desire = -0.05
+	literacy_con_impact = -0.05
 }
 
 nv_dominion = {
@@ -155,7 +174,10 @@ nv_dominion = {
 	assimilation_rate = -0.1
 	factory_owner_cost = -0.1
 	supply_consumption = -0.05
-	global_pop_consciousness_modifier = -0.02
+	global_pop_consciousness_modifier = -0.03
 	non_accepted_pop_militancy_modifier = -0.02
 	rgo_output = 0.1
+	social_reform_desire = -0.1
+	political_reform_desire = -0.1
+	literacy_con_impact = -0.15
 }

@@ -1,6 +1,6 @@
 sprite = 2
 color = { 119 98 34 }
-strata = middle
+strata = rich
 demote_migrant = yes
 leadership = 2
 state_capital_only = yes

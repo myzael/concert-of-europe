@@ -5,4 +5,4 @@ add_core = UKR
 add_core = DON
 trade_goods = iron
 life_rating = 38
-terrain = dry_grassland
+terrain = rich_farmland

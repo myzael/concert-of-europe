@@ -4,4 +4,4 @@ add_core = RUS
 add_core = UKR
 trade_goods = wool
 life_rating = 37
-terrain = temperate_grassland
+terrain = forested_farmland

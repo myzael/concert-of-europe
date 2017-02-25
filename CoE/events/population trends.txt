@@ -83,6 +83,7 @@ country_event = {
 				nationalvalue = nv_unity
 				nationalvalue = nv_prosperity
 				nationalvalue = nv_equality
+				nationalvalue = nv_fraternity
 			}
 		}
 		modifier = {
@@ -91,6 +92,8 @@ country_event = {
 				nationalvalue = nv_order
 				nationalvalue = nv_might
 				nationalvalue = nv_productivity
+				nationalvalue = nv_dominion
+				nationalvalue = nv_supremacy
 			}
 		}
 		modifier = {
@@ -205,6 +208,7 @@ country_event = {
 				nationalvalue = nv_unity
 				nationalvalue = nv_prosperity
 				nationalvalue = nv_equality
+				nationalvalue = nv_fraternity
 			}
 		}
 		modifier = {
@@ -213,6 +217,8 @@ country_event = {
 				nationalvalue = nv_order
 				nationalvalue = nv_might
 				nationalvalue = nv_productivity
+				nationalvalue = nv_dominion
+				nationalvalue = nv_supremacy
 			}
 		}
 		modifier = {
@@ -332,6 +338,7 @@ country_event = {
 				nationalvalue = nv_unity
 				nationalvalue = nv_prosperity
 				nationalvalue = nv_equality
+				nationalvalue = nv_fraternity
 			}
 		}
 		modifier = {
@@ -340,6 +347,8 @@ country_event = {
 				nationalvalue = nv_order
 				nationalvalue = nv_might
 				nationalvalue = nv_productivity
+				nationalvalue = nv_dominion
+				nationalvalue = nv_supremacy
 			}
 		}
 		modifier = {
@@ -575,6 +584,7 @@ country_event = {
 				nationalvalue = nv_unity
 				nationalvalue = nv_prosperity
 				nationalvalue = nv_equality
+				nationalvalue = nv_fraternity
 			}
 		}
 		modifier = {
@@ -583,6 +593,8 @@ country_event = {
 				nationalvalue = nv_order
 				nationalvalue = nv_might
 				nationalvalue = nv_productivity
+				nationalvalue = nv_dominion
+				nationalvalue = nv_supremacy
 			}
 		}
 		modifier = {
@@ -696,6 +708,7 @@ country_event = {
 				nationalvalue = nv_unity
 				nationalvalue = nv_prosperity
 				nationalvalue = nv_equality
+				nationalvalue = nv_fraternity
 			}
 		}
 		modifier = {
@@ -704,6 +717,8 @@ country_event = {
 				nationalvalue = nv_order
 				nationalvalue = nv_might
 				nationalvalue = nv_productivity
+				nationalvalue = nv_dominion
+				nationalvalue = nv_supremacy
 			}
 		}
 		modifier = {
@@ -820,6 +835,7 @@ country_event = {
 				nationalvalue = nv_unity
 				nationalvalue = nv_prosperity
 				nationalvalue = nv_equality
+				nationalvalue = nv_fraternity
 			}
 		}
 		modifier = {
@@ -828,6 +844,8 @@ country_event = {
 				nationalvalue = nv_order
 				nationalvalue = nv_might
 				nationalvalue = nv_productivity
+				nationalvalue = nv_dominion
+				nationalvalue = nv_supremacy
 			}
 		}
 		modifier = {

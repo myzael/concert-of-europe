@@ -1,3 +1,6 @@
+
+rebels_casualties = yes
+
 oob = "/1821/REB_oob.txt"
 
 1836.1.1 = {

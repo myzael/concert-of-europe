@@ -17,7 +17,7 @@ trade_unions = state_controlled
 voting_system = first_past_the_post
 political_parties = harassment
 minorities_reform = oppression
-immigration_policy = open_immigration
+immigration_policy = quota_immigration
 conscription=four_year_draft
 
 # Social Reforms

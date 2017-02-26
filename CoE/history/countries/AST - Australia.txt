@@ -17,7 +17,7 @@ trade_unions = all_trade_unions
 voting_system = jefferson_method
 political_parties = non_secret_ballots
 minorities_reform = oppression
-immigration_policy = open_immigration
+immigration_policy = naturalization
 conscription = two_year_draft
 
 # Social Reforms

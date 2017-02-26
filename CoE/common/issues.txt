@@ -1242,12 +1242,12 @@ economic_reforms = {
 		herbalism = {
 			global_pop_consciousness_modifier = -0.05
 			global_pop_militancy_modifier = -0.01
-			global_population_growth = -0.002
+			global_population_growth = -0.001
 		}
 		alchemy = {
 			technology_cost = 8250
 			civilization_progress_modifier = 0.05
-			global_population_growth = -0.001
+			global_population_growth = 0
 			org_regain = 0.1
 			on_execute = {
 				effect = {

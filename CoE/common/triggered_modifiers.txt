@@ -277,7 +277,7 @@ landlocked_nation = {
 		NOT = { num_of_ports = 1 }
 	}
 	icon = 10
-	prestige = -0.3
+	prestige = -0.5
 	RGO_throughput = -0.02
 	factory_throughput = -0.05
 	diplomatic_points_modifier = -0.25
@@ -980,3 +980,20 @@ occupied_capital = {
 	global_pop_pop_militancy_modifier = 0.02
 	icon = 1
 }
+
+lack_of_mining = {
+	trigger = {
+	 NOT = { any_owned_province = {
+	  OR = {
+       trade_goods = coal
+	   trade_goods = iron 
+	  }
+	 }
+	}
+	} 
+	prestige = -0.1
+	global_pop_consciousness_modifier = -0.01
+	factory_throughput = -0.25
+	icon = 1
+}
+

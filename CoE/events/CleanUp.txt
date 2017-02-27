@@ -659,6 +659,7 @@ country_event = {
 			tag = FSA
 			tag = UIL
 			tag = UNB
+			tag = TEX
 		}
 		NOT = { has_country_flag = post_colonial_country }
 	}

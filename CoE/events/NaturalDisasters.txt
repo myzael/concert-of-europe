@@ -25,7 +25,7 @@ country_event = {
 		name = "EVTOPTA21500"
 		2694 = {
 			any_pop = {
-				reduce_pop = 0.10
+				reduce_pop = 0.99
 			}
 			life_rating = -10
 		}
@@ -59,9 +59,9 @@ country_event = {
 		name = "EVTOPTA21510"
 		1414 = {
 			any_pop = {
-				reduce_pop = 0.1
+				reduce_pop = 0.9
 			}
-			life_rating = -10
+			life_rating = -1
 		}
 	}
 }

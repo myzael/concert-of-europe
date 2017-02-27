@@ -2731,6 +2731,7 @@ pop_militancy_modifier = 0.03
 icon = 13
 }
 
+###+demand###
 
 water_wheel_power = {
    poor_income_modifier = 0.2
@@ -3178,4 +3179,96 @@ neoliberal_theory = {
    middle_luxury_needs = 0.05
    rich_luxury_needs = 0.05
    icon = 12
+}
+
+###+RGO_education###
+
+RGO_education_1 = {
+	local_RGO_output = 0.1
+	local_factory_output = 0.01
+    poor_income_modifier = 0.25
+    middle_income_modifier = 0.25
+    rich_income_modifier = 0.25
+	icon = 3
+}
+
+RGO_education_2 = {
+	local_RGO_output = 0.2
+	local_factory_output = 0.02
+    poor_income_modifier = 0.50
+    middle_income_modifier = 0.50
+    rich_income_modifier = 0.50
+	icon = 3
+}
+
+RGO_education_3 = {
+	local_RGO_output = 0.3
+	local_factory_output = 0.03
+    poor_income_modifier = 0.75
+    middle_income_modifier = 0.75
+    rich_income_modifier = 0.75
+	icon = 3
+}
+
+RGO_education_4 = {
+	local_RGO_output = 0.4
+	local_factory_output = 0.04
+    poor_income_modifier = 1
+    middle_income_modifier = 1
+    rich_income_modifier = 1
+	icon = 3
+}
+
+RGO_education_5 = {
+	local_RGO_output = 0.5
+	local_factory_output = 0.05
+    poor_income_modifier = 1.25
+    middle_income_modifier = 1.25
+    rich_income_modifier = 1.25
+	icon = 3
+}
+
+RGO_education_6 = {
+	local_RGO_output = 0.6
+	local_factory_output = 0.06
+    poor_income_modifier = 1.50
+    middle_income_modifier = 1.50
+    rich_income_modifier = 1.50
+	icon = 3
+}
+
+RGO_education_7 = {
+	local_RGO_output = 0.7
+	local_factory_output = 0.07
+    poor_income_modifier = 1.75
+    middle_income_modifier = 1.75
+    rich_income_modifier = 1.75
+	icon = 3
+}
+
+RGO_education_8 = {
+	local_RGO_output = 0.8
+	local_factory_output = 0.08
+    poor_income_modifier = 2
+    middle_income_modifier = 2
+    rich_income_modifier = 2
+	icon = 3
+}
+
+RGO_education_9 = {
+	local_RGO_output = 0.9
+	local_factory_output = 0.09
+    poor_income_modifier = 2.25
+    middle_income_modifier = 2.25
+    rich_income_modifier = 2.25
+	icon = 3
+}
+
+RGO_education_10 = {
+	local_RGO_output = 1
+	local_factory_output = 0.1
+    poor_income_modifier = 2.5
+    middle_income_modifier = 2.5
+    rich_income_modifier = 2.5
+	icon = 3
 }

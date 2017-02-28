@@ -79,7 +79,10 @@ political_decisions = {
 			war = no
 			SUD = {
 				all_core = {
-					owned_by = THIS
+					OR = {
+						owned_by = THIS
+						province_id = 2564
+					}
 				}
 			}
 		}

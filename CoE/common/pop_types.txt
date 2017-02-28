@@ -817,35 +817,35 @@ assimilation_chance =
 	factor = 0.02
 	group = {
 		modifier = {
-			factor = 2
+			factor = 1
 			luxury_needs = 0.9
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			luxury_needs = 0.8
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			luxury_needs = 0.7
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			luxury_needs = 0.6
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			luxury_needs = 0.5
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			luxury_needs = 0.4
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			luxury_needs = 0.3
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			luxury_needs = 0.2
 		}
 		modifier = {
@@ -895,14 +895,14 @@ assimilation_chance =
 		country = { religion = jewish }
 	}
 	modifier = {
-		factor = 5
+		factor = 4
 		OR = { 
 			strata = rich
 			strata = middle
 		}
 	}
 	modifier = {
-		factor = -10
+		factor = -6
 		country = { citizenship_policy = residency }
 	}
 	modifier = {
@@ -926,13 +926,19 @@ assimilation_chance =
 		NOT = { religion = THIS }
 	}
 	modifier = {
-		factor = 3
+		factor = 4
 		country = { religious_policy = moralism }
 		religion = THIS 
 	}
 	modifier = {
+		factor = 3
+		country = { religious_policy = pluralism }
+		religion = THIS
+	}
+	modifier = {
 		factor = 1
 		country = { religious_policy = pluralism }
+		NOT = { religion = THIS }
 	}
 	modifier = {
 		factor = 3
@@ -952,6 +958,7 @@ assimilation_chance =
 		factor = 20
 		is_accepted_culture = no
 		is_primary_culture = no
+		country = { civilized = yes }
 		OR = { 
 			continent = north_america
 			continent = south_america
@@ -990,19 +997,32 @@ assimilation_chance =
 		}
 	}
 	modifier = {
-		factor = -3
+		factor = -4
 		NOT = { religion = THIS }
 	}
 	modifier = {
-		factor = -50
+		factor = -2
 		country = { civilized = no }
+	}
+	group = {
+		modifier = {
+			factor = -0.3
+			NOT = { literacy = 0.3 }
+		}
+		modifier = {
+			factor = -0.3
+			NOT = { literacy = 0.2 }
+		}
+		modifier = {
+			factor = -0.4
+			NOT = { literacy = 0.1 }
+		}
 	}
 }
 
 #general conversion mtth, same for all pops
 conversion_chance = 
-{
-	factor = 0.1
+	factor = 0.05
 	group = {
 		modifier = {
 			factor = 0.2
@@ -1018,23 +1038,39 @@ conversion_chance =
 		}
 	}
 	modifier = {
-		factor = -3
-		NOT = { consciousness = 3 }
-	}
-	modifier = {
-		factor = 5
+		factor = 2.5
 		OR = { 
 			strata = rich
 			strata = middle
 		}
 	}
-	modifier = {
-		factor = -5
-		NOT = { consciousness = 2 }
+	group = {
+		modifier = {
+			factor = -1
+			NOT = { consciousness = 5 }
+		}
+		modifier = {
+			factor = -2
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = -3
+			NOT = { consciousness = 1 }
+		}
 	}
-	modifier = {
-		factor = -10
-		NOT = { consciousness = 1 }
+	group = {
+		modifier = {
+			factor = -0.8
+			militancy = 5
+		}
+		modifier = {
+			factor = -0.5
+			militancy = 3
+		}
+		modifier = {
+			factor = -0.2
+			militancy = 1
+		}
 	}
 	modifier = {
 		factor = -10
@@ -1045,21 +1081,32 @@ conversion_chance =
 		has_pop_religion = mormon
 	}
 	modifier = {
-		factor = 3
+		factor = 2
 		has_pop_religion = animist
 		location = { continent = africa }
 	}
+	modifier = {
+		factor = -1
+		continent = europe
+	}
+	modifier = {
+		factor = -2
+		OR = {
+			country = { religion = jewish }
+			country = { religion = shinto }
+		}
+	}
 	group = {
 		modifier = {
-			factor = 0.5
+			factor = 0.6
 			NOT = { life_needs = 0.9 }
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.6
 			NOT = { life_needs = 0.8 }
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.6
 			NOT = { life_needs = 0.7 }
 		}
 	}
@@ -1070,37 +1117,43 @@ conversion_chance =
 		}
 	}
 	modifier = {
-		factor = 1.5
+		factor = 1
 		culture = THIS
 	}
 	modifier = {
-		factor = 2
+		factor = 2.5
 		country = { religious_policy = moralism }
 	}
 	modifier = {
-		factor = 1
+		factor = 2
 		country = { religious_policy = pluralism }
 	}
 	modifier = {
 		factor = -3
 		country = { religious_policy = pro_atheism }
 	}
-	modifier = {
-		factor = -1
-		country = { religious_policy = secularized }
-	}
 	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.2
 			unemployment = 0.1
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.2
 			unemployment = 0.2
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.2
 			unemployment = 0.3
+		}
+	}
+	group = {
+		modifier = {
+			factor = -0.2
+			NOT = { literacy = 0.2 }
+		}
+		modifier = {
+			factor = -0.2
+			NOT = { literacy = 0.1 }
 		}
 	}
 }

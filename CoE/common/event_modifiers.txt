@@ -2733,370 +2733,117 @@ icon = 13
 ###+demand###
 
 water_wheel_power = {
-   poor_income_modifier = 0.2
-   middle_income_modifier = 0.2
-   rich_income_modifier = 0.2
-   poor_life_needs = 0.05
-   middle_life_needs = 0.05
-   rich_life_needs = 0.05
-   poor_everyday_needs = 0.1
-   middle_everyday_needs = 0.1
-   rich_everyday_needs = 0.1
-   poor_luxury_needs = 0.1
-   middle_luxury_needs = 0.1
-   rich_luxury_needs = 0.1
+goods_demand = 0.1
    icon = 12
 }
 
 practical_steam_engine = {
-   poor_income_modifier = 0.2
-   middle_income_modifier = 0.2
-   rich_income_modifier = 0.2
-   poor_life_needs = 0.05
-   middle_life_needs = 0.05
-   rich_life_needs = 0.05
-   poor_everyday_needs = 0.1
-   middle_everyday_needs = 0.1
-   rich_everyday_needs = 0.1
-   poor_luxury_needs = 0.1
-   middle_luxury_needs = 0.1
-   rich_luxury_needs = 0.1
+goods_demand = 0.1
    icon = 12
 }
 
 high_n_low_pressure_steam_engines = {
-   poor_income_modifier = 0.2
-   middle_income_modifier = 0.2
-   rich_income_modifier = 0.2
-   poor_life_needs = 0.05
-   middle_life_needs = 0.05
-   rich_life_needs = 0.05
-   poor_everyday_needs = 0.1
-   middle_everyday_needs = 0.1
-   rich_everyday_needs = 0.1
-   poor_luxury_needs = 0.1
-   middle_luxury_needs = 0.1
-   rich_luxury_needs = 0.1
+goods_demand = 0.1
    icon = 12
 }
 
 steam_turbine = {
-   poor_income_modifier = 0.2
-   middle_income_modifier = 0.2
-   rich_income_modifier = 0.2
-   poor_life_needs = 0.05
-   middle_life_needs = 0.05
-   rich_life_needs = 0.05
-   poor_everyday_needs = 0.1
-   middle_everyday_needs = 0.1
-   rich_everyday_needs = 0.1
-   poor_luxury_needs = 0.1
-   middle_luxury_needs = 0.1
-   rich_luxury_needs = 0.1
+goods_demand = 0.1
    icon = 12
 }
 
 combustion_engine = {
-   poor_income_modifier = 0.2
-   middle_income_modifier = 0.2
-   rich_income_modifier = 0.2
-   poor_life_needs = 0.05
-   middle_life_needs = 0.05
-   rich_life_needs = 0.05
-   poor_everyday_needs = 0.1
-   middle_everyday_needs = 0.1
-   rich_everyday_needs = 0.1
-   poor_luxury_needs = 0.1
-   middle_luxury_needs = 0.1
-   rich_luxury_needs = 0.1
+goods_demand = 0.1
    icon = 12
 }
 
 electrical_power_generation = {
-   poor_income_modifier = 0.2
-   middle_income_modifier = 0.2
-   rich_income_modifier = 0.2
-   poor_life_needs = 0.05
-   middle_life_needs = 0.05
-   rich_life_needs = 0.05
-   poor_everyday_needs = 0.1
-   middle_everyday_needs = 0.1
-   rich_everyday_needs = 0.1
-   poor_luxury_needs = 0.1
-   middle_luxury_needs = 0.1
-   rich_luxury_needs = 0.1
+goods_demand = 0.1
    icon = 12
 }
 
 modern_power_generation = {
-   poor_income_modifier = 0.2
-   middle_income_modifier = 0.2
-   rich_income_modifier = 0.2
-   poor_life_needs = 0.05
-   middle_life_needs = 0.05
-   rich_life_needs = 0.05
-   poor_everyday_needs = 0.1
-   middle_everyday_needs = 0.1
-   rich_everyday_needs = 0.1
-   poor_luxury_needs = 0.1
-   middle_luxury_needs = 0.1
-   rich_luxury_needs = 0.1
+goods_demand = 0.1
    icon = 12
 }
 
 publishing_industry = {
-   poor_income_modifier = 0.2
-   middle_income_modifier = 0.2
-   rich_income_modifier = 0.2
-   poor_life_needs = 0.05
-   middle_life_needs = 0.05
-   rich_life_needs = 0.05
-   poor_everyday_needs = 0.1
-   middle_everyday_needs = 0.1
-   rich_everyday_needs = 0.1
-   poor_luxury_needs = 0.1
-   middle_luxury_needs = 0.1
-   rich_luxury_needs = 0.1
+goods_demand = 0.1
    icon = 12
 }
 
 mechanical_production = {
-   poor_income_modifier = 0.2
-   middle_income_modifier = 0.2
-   rich_income_modifier = 0.2
-   poor_life_needs = 0.05
-   middle_life_needs = 0.05
-   rich_life_needs = 0.05
-   poor_everyday_needs = 0.1
-   middle_everyday_needs = 0.1
-   rich_everyday_needs = 0.1
-   poor_luxury_needs = 0.1
-   middle_luxury_needs = 0.1
-   rich_luxury_needs = 0.1
+goods_demand = 0.1
    icon = 12
 }
 
 interchangeable_parts = {
-   poor_income_modifier = 0.2
-   middle_income_modifier = 0.2
-   rich_income_modifier = 0.2
-   poor_life_needs = 0.05
-   middle_life_needs = 0.05
-   rich_life_needs = 0.05
-   poor_everyday_needs = 0.1
-   middle_everyday_needs = 0.1
-   rich_everyday_needs = 0.1
-   poor_luxury_needs = 0.1
-   middle_luxury_needs = 0.1
-   rich_luxury_needs = 0.1
+goods_demand = 0.1
    icon = 12
 }
 
 semi_automatization = {
-   poor_income_modifier = 0.2
-   middle_income_modifier = 0.2
-   rich_income_modifier = 0.2
-   poor_life_needs = 0.05
-   middle_life_needs = 0.05
-   rich_life_needs = 0.05
-   poor_everyday_needs = 0.1
-   middle_everyday_needs = 0.1
-   rich_everyday_needs = 0.1
-   poor_luxury_needs = 0.1
-   middle_luxury_needs = 0.1
-   rich_luxury_needs = 0.1
+goods_demand = 0.1
    icon = 12
 }
 
 assembly_line = {
-   poor_income_modifier = 0.2
-   middle_income_modifier = 0.2
-   rich_income_modifier = 0.2
-   poor_life_needs = 0.05
-   middle_life_needs = 0.05
-   rich_life_needs = 0.05
-   poor_everyday_needs = 0.1
-   middle_everyday_needs = 0.1
-   rich_everyday_needs = 0.1
-   poor_luxury_needs = 0.1
-   middle_luxury_needs = 0.1
-   rich_luxury_needs = 0.1
+goods_demand = 0.1
    icon = 12
 }
 
 shift_work = {
-   poor_income_modifier = 0.2
-   middle_income_modifier = 0.2
-   rich_income_modifier = 0.2
-   poor_life_needs = 0.05
-   middle_life_needs = 0.05
-   rich_life_needs = 0.05
-   poor_everyday_needs = 0.1
-   middle_everyday_needs = 0.1
-   rich_everyday_needs = 0.1
-   poor_luxury_needs = 0.1
-   middle_luxury_needs = 0.1
-   rich_luxury_needs = 0.1
+goods_demand = 0.1
    icon = 12
 }
 
 electricity = {
-   poor_income_modifier = 0.2
-   middle_income_modifier = 0.2
-   rich_income_modifier = 0.2
-   poor_life_needs = 0.025
-   middle_life_needs = 0.025
-   rich_life_needs = 0.025
-   poor_everyday_needs = 0.05
-   middle_everyday_needs = 0.05
-   rich_everyday_needs = 0.05
-   poor_luxury_needs = 0.05
-   middle_luxury_needs = 0.05
-   rich_luxury_needs = 0.05
+goods_demand = 0.05
    icon = 12
 }
 
 freedom_of_trade = {
-   poor_income_modifier = 0.1
-   middle_income_modifier = 0.1
-   rich_income_modifier = 0.1
-   poor_life_needs = 0.025
-   middle_life_needs = 0.025
-   rich_life_needs = 0.025
-   poor_everyday_needs = 0.05
-   middle_everyday_needs = 0.05
-   rich_everyday_needs = 0.05
-   poor_luxury_needs = 0.05
-   middle_luxury_needs = 0.05
-   rich_luxury_needs = 0.05
+goods_demand = 0.05
    icon = 12
 }
 
 market_structure = {
-   poor_income_modifier = 0.1
-   middle_income_modifier = 0.1
-   rich_income_modifier = 0.1
-   poor_life_needs = 0.025
-   middle_life_needs = 0.025
-   rich_life_needs = 0.025
-   poor_everyday_needs = 0.05
-   middle_everyday_needs = 0.05
-   rich_everyday_needs = 0.05
-   poor_luxury_needs = 0.05
-   middle_luxury_needs = 0.05
-   rich_luxury_needs = 0.05
+goods_demand = 0.05
    icon = 12
 }
 
 business_regulations = {
-   poor_income_modifier = 0.1
-   middle_income_modifier = 0.1
-   rich_income_modifier = 0.1
-   poor_life_needs = 0.025
-   middle_life_needs = 0.025
-   rich_life_needs = 0.025
-   poor_everyday_needs = 0.05
-   middle_everyday_needs = 0.05
-   rich_everyday_needs = 0.05
-   poor_luxury_needs = 0.05
-   middle_luxury_needs = 0.05
-   rich_luxury_needs = 0.05
+goods_demand = 0.05
    icon = 12
 }
 
 market_regulations = {
-   poor_income_modifier = 0.1
-   middle_income_modifier = 0.1
-   rich_income_modifier = 0.1
-   poor_life_needs = 0.025
-   middle_life_needs = 0.025
-   rich_life_needs = 0.025
-   poor_everyday_needs = 0.05
-   middle_everyday_needs = 0.05
-   rich_everyday_needs = 0.05
-   poor_luxury_needs = 0.05
-   middle_luxury_needs = 0.05
-   rich_luxury_needs = 0.05
+goods_demand = 0.05
    icon = 12
 }
 
 economic_responsibility = {
-   poor_income_modifier = 0.1
-   middle_income_modifier = 0.1
-   rich_income_modifier = 0.1
-   poor_life_needs = 0.025
-   middle_life_needs = 0.025
-   rich_life_needs = 0.025
-   poor_everyday_needs = 0.05
-   middle_everyday_needs = 0.05
-   rich_everyday_needs = 0.05
-   poor_luxury_needs = 0.05
-   middle_luxury_needs = 0.05
-   rich_luxury_needs = 0.05
+goods_demand = 0.05
    icon = 12
 }
 
 government_interventionism = {
-   poor_income_modifier = 0.1
-   middle_income_modifier = 0.1
-   rich_income_modifier = 0.1
-   poor_life_needs = 0.025
-   middle_life_needs = 0.025
-   rich_life_needs = 0.025
-   poor_everyday_needs = 0.05
-   middle_everyday_needs = 0.05
-   rich_everyday_needs = 0.05
-   poor_luxury_needs = 0.05
-   middle_luxury_needs = 0.05
-   rich_luxury_needs = 0.05
+goods_demand = 0.05
    icon = 12
 }
 
 globalized_markets = {
-   poor_income_modifier = 0.2
-   middle_income_modifier = 0.2
-   rich_income_modifier = 0.2
-   poor_life_needs = 0.05
-   middle_life_needs = 0.05
-   rich_life_needs = 0.05
-   poor_everyday_needs = 0.1
-   middle_everyday_needs = 0.1
-   rich_everyday_needs = 0.1
-   poor_luxury_needs = 0.1
-   middle_luxury_needs = 0.1
-   rich_luxury_needs = 0.1
+goods_demand = 0.1
    icon = 12
 }
 
 early_classical_theory_and_critique = {
-   poor_income_modifier = 0.1
-   middle_income_modifier = 0.1
-   rich_income_modifier = 0.1
-   poor_life_needs = 0.025
-   middle_life_needs = 0.025
-   rich_life_needs = 0.025
-   poor_everyday_needs = 0.05
-   middle_everyday_needs = 0.05
-   rich_everyday_needs = 0.05
-   poor_luxury_needs = 0.05
-   middle_luxury_needs = 0.05
-   rich_luxury_needs = 0.05
+goods_demand = 0.05
    icon = 12
 }
 
 late_classical_theory = {
-   poor_income_modifier = 0.05
-   middle_income_modifier = 0.05
-   rich_income_modifier = 0.05
-   poor_life_needs = 0.0125
-   middle_life_needs = 0.0125
-   rich_life_needs = 0.0125
-   poor_everyday_needs = 0.025
-   middle_everyday_needs = 0.025
-   rich_everyday_needs = 0.025
-   poor_luxury_needs = 0.025
-   middle_luxury_needs = 0.025
-   rich_luxury_needs = 0.025
+goods_demand = 0.025
    icon = 12
 }
 
@@ -3104,79 +2851,27 @@ collectivist_theory = {
    factory_throughput = 0.05
    mine_rgo_eff = 0.1
    farm_rgo_eff = 0.1
-   poor_life_needs = -0.0125
-   middle_life_needs = -0.0125
-   rich_life_needs = -0.0125
-   poor_everyday_needs = -0.025
-   middle_everyday_needs = -0.025
-   rich_everyday_needs = -0.025
-   poor_luxury_needs = -0.025
-   middle_luxury_needs = -0.025
-   rich_luxury_needs = -0.025
+   goods_demand = -0.025
    icon = 12
 }
 
 the_historical_theory = {
-   poor_income_modifier = 0.05
-   middle_income_modifier = 0.05
-   rich_income_modifier = 0.05
-   poor_life_needs = 0.0125
-   middle_life_needs = 0.0125
-   rich_life_needs = 0.0125
-   poor_everyday_needs = 0.025
-   middle_everyday_needs = 0.025
-   rich_everyday_needs = 0.025
-   poor_luxury_needs = 0.025
-   middle_luxury_needs = 0.025
-   rich_luxury_needs = 0.025
+goods_demand = 0.025
    icon = 12
 }
 
 neoclassical_theory = {
-   poor_income_modifier = 0.05
-   middle_income_modifier = 0.05
-   rich_income_modifier = 0.05
-   poor_life_needs = 0.0125
-   middle_life_needs = 0.0125
-   rich_life_needs = 0.0125
-   poor_everyday_needs = 0.025
-   middle_everyday_needs = 0.025
-   rich_everyday_needs = 0.025
-   poor_luxury_needs = 0.025
-   middle_luxury_needs = 0.025
-   rich_luxury_needs = 0.025
+goods_demand = 0.025
    icon = 12
 }
 
 keynesian_economics = {
-   poor_income_modifier = 0.05
-   middle_income_modifier = 0.05
-   rich_income_modifier = 0.05
-   poor_life_needs = 0.0125
-   middle_life_needs = 0.0125
-   rich_life_needs = 0.0125
-   poor_everyday_needs = 0.025
-   middle_everyday_needs = 0.025
-   rich_everyday_needs = 0.025
-   poor_luxury_needs = 0.025
-   middle_luxury_needs = 0.025
-   rich_luxury_needs = 0.025
+goods_demand = 0.025
    icon = 12
 }
 
 neoliberal_theory = {
-   poor_income_modifier = 0.05
-   middle_income_modifier = 0.05
-   rich_income_modifier = 0.05
-   poor_life_needs = 0.025
-   middle_life_needs = 0.025
-   rich_life_needs = 0.025
-   poor_everyday_needs = 0.05
-   middle_everyday_needs = 0.05
-   rich_everyday_needs = 0.05
-   poor_luxury_needs = 0.05
-   middle_luxury_needs = 0.05
-   rich_luxury_needs = 0.05
+goods_demand = 0.05
    icon = 12
 }
 

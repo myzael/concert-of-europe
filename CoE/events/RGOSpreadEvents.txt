@@ -6,34 +6,7 @@ province_event = {
 	
 	trigger = {
 		NOT = { has_province_modifier = local_tractors }
-		OR = { 
-			AND = {
-				owner = { invention = tractors }
-				is_capital = yes
-			}
-			AND = {
-				OR = {
-					province_id = 2136 #Canary Islands
-					province_id = 502 #Balearic Islands
-					province_id = 765 #Cagliari
-					province_id = 854 #Malta
-					province_id = 848 #Iraklion
-					province_id = 855 #Nicosia
-					province_id = 86 #Sacramento
-					province_id = 81 #Portland
-					province_id = 78 #Seattle
-					AND = {
-						is_overseas = yes
-						port = yes
-					}
-				}
-				capital_scope = { has_province_modifier = local_tractors }
-				owner = { invention = tractors }
-			}
-			any_neighbor_province = {
-				has_province_modifier = local_tractors
-			}
-		}
+		owner = { invention = tractors }
 	}
 	
 	mean_time_to_happen = {
@@ -144,6 +117,12 @@ province_event = {
 			factor = 2
 			is_overseas = yes
 		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = {
+				has_province_modifier = local_tractors
+			}
+		}
 	}
 	
 	option = {
@@ -173,30 +152,6 @@ province_event = {
 			has_province_modifier = local_electricity
 		}
 		owner = { invention = edison_light_bulb }		
-		OR = {
-			any_neighbor_province = {
-				has_province_modifier = local_electricity
-			}
-			is_capital = yes
-			AND = {
-				OR = {
-					province_id = 2136 #Canary Islands
-					province_id = 502 #Balearic Islands
-					province_id = 765 #Cagliari
-					province_id = 854 #Malta
-					province_id = 848 #Iraklion
-					province_id = 855 #Nicosia
-					province_id = 86 #Sacramento
-					province_id = 81 #Portland
-					province_id = 78 #Seattle
-					AND = {
-						is_overseas = yes
-						port = yes
-					}
-				}
-				capital_scope = { has_province_modifier = local_electricity }
-			}
-		}
 	}
 	
 	mean_time_to_happen = {
@@ -346,6 +301,12 @@ province_event = {
 			factor = 2
 			is_overseas = yes
 		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = {
+				has_province_modifier = local_electricity
+			}
+		}
 	}
 	
 	option = {
@@ -369,34 +330,7 @@ province_event = {
 	
 	trigger = {
 		NOT = { has_province_modifier = local_nitroglycerin }
-		OR = { 
-			AND = {
-				owner = { invention = nitroglycerin }	
-				is_capital = yes
-			}
-			any_neighbor_province = {
-				has_province_modifier = local_nitroglycerin
-			}
-			AND = {
-				OR = {
-					province_id = 2136 #Canary Islands
-					province_id = 502 #Balearic Islands
-					province_id = 765 #Cagliari
-					province_id = 854 #Malta
-					province_id = 848 #Iraklion
-					province_id = 855 #Nicosia
-					province_id = 86 #Sacramento
-					province_id = 81 #Portland
-					province_id = 78 #Seattle
-					AND = {
-						is_overseas = yes
-						port = yes
-					}
-				}
-				capital_scope = { has_province_modifier = local_nitroglycerin }
-				owner = { invention = nitroglycerin }
-			}
-		}
+		owner = { invention = nitroglycerin }	
 	}
 	
 	mean_time_to_happen = {
@@ -552,6 +486,12 @@ province_event = {
 			factor = 2
 			is_overseas = yes
 		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = {
+				has_province_modifier = local_nitroglycerin
+			}
+		}
 	}
 	
 	option = {
@@ -579,30 +519,6 @@ province_event = {
 	trigger = {
 		NOT = { has_province_modifier = local_distribution_channels }
 		owner = { invention = distribution_channels }
-		OR = { 
-			is_capital = yes
-			any_neighbor_province = {
-				has_province_modifier = local_distribution_channels
-			}
-			AND = {
-				OR = {
-					province_id = 2136 #Canary Islands
-					province_id = 502 #Balearic Islands
-					province_id = 765 #Cagliari
-					province_id = 854 #Malta
-					province_id = 848 #Iraklion
-					province_id = 855 #Nicosia
-					province_id = 86 #Sacramento
-					province_id = 81 #Portland
-					province_id = 78 #Seattle
-					AND = {
-						is_overseas = yes
-						port = yes
-					}
-				}
-				capital_scope = { has_province_modifier = local_distribution_channels }
-			}
-		}
 	}
 	
 	mean_time_to_happen = {
@@ -751,6 +667,12 @@ province_event = {
 			factor = 2
 			is_overseas = yes
 		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = {
+				has_province_modifier = local_distribution_channels
+			}
+		}
 	}
 	
 	option = {
@@ -774,34 +696,7 @@ province_event = {
 	
 	trigger = {
 		NOT = { has_province_modifier = local_machine_tools }
-		OR = {
-			AND ={ 
-				owner = { invention = machine_tools }
-				is_capital = yes
-			}
-			any_neighbor_province = {
-				has_province_modifier = local_machine_tools
-			}
-			AND = {
-				OR = {
-					province_id = 2136 #Canary Islands
-					province_id = 502 #Balearic Islands
-					province_id = 765 #Cagliari
-					province_id = 854 #Malta
-					province_id = 848 #Iraklion
-					province_id = 855 #Nicosia
-					province_id = 86 #Sacramento
-					province_id = 81 #Portland
-					province_id = 78 #Seattle
-					AND = {
-						is_overseas = yes
-						port = yes
-					}
-				}
-				capital_scope = { has_province_modifier = local_machine_tools }
-				owner = { invention = machine_tools }
-			}
-		}
+		owner = { invention = machine_tools }
 	}
 	
 	mean_time_to_happen = {
@@ -958,6 +853,12 @@ province_event = {
 			factor = 2
 			is_overseas = yes
 		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = {
+				has_province_modifier = local_machine_tools
+			}
+		}
 	}
 	
 	option = {
@@ -989,38 +890,7 @@ province_event = {
 		NOT = { has_province_modifier = shaft_mine }
 		NOT = { has_province_modifier = pit_mine }
 		NOT = { has_province_modifier = strip_mine }
-		OR = { 
-			AND = {
-				owner = { mechanized_mining = 1 }
-				is_capital = yes
-			}
-			any_neighbor_province = {
-				OR = {
-					has_province_modifier = shaft_mine
-					has_province_modifier = pit_mine
-					has_province_modifier = strip_mine
-				}
-			}
-			AND = {
-				OR = {
-					province_id = 2136 #Canary Islands
-					province_id = 502 #Balearic Islands
-					province_id = 765 #Cagliari
-					province_id = 854 #Malta
-					province_id = 848 #Iraklion
-					province_id = 855 #Nicosia
-					province_id = 86 #Sacramento
-					province_id = 81 #Portland
-					province_id = 78 #Seattle
-					AND = {
-						is_overseas = yes
-						port = yes
-					}
-				}
-				capital_scope = { has_province_modifier = shaft_mine }
-				owner = { mechanized_mining = 1 }
-			}
-		}
+		owner = { mechanized_mining = 1 }		
 	}
 	
 	mean_time_to_happen = {
@@ -1127,6 +997,16 @@ province_event = {
 			factor = 2
 			is_overseas = yes
 		}
+		modifier = {
+					factor = 0.5
+					any_neighbor_province = {
+				OR = {
+					has_province_modifier = shaft_mine
+					has_province_modifier = pit_mine
+					has_province_modifier = strip_mine
+				}
+			}
+		}
 	}
 	
 	option = {
@@ -1156,37 +1036,7 @@ province_event = {
 		has_province_modifier = shaft_mine
 		NOT = { has_province_modifier = pit_mine }
 		NOT = { has_province_modifier = strip_mine }
-		OR = { 
-			AND = {
-				owner = { cheap_iron = 1 }
-				is_capital = yes
-			}
-			any_neighbor_province = {
-				OR = {
-					has_province_modifier = pit_mine
-					has_province_modifier = strip_mine
-				}
-			}
-			AND = {
-				OR = {
-					province_id = 2136 #Canary Islands
-					province_id = 502 #Balearic Islands
-					province_id = 765 #Cagliari
-					province_id = 854 #Malta
-					province_id = 848 #Iraklion
-					province_id = 855 #Nicosia
-					province_id = 86 #Sacramento
-					province_id = 81 #Portland
-					province_id = 78 #Seattle
-					AND = {
-						is_overseas = yes
-						port = yes
-					}
-				}
-				capital_scope = { has_province_modifier = pit_mine }
-				owner = { cheap_iron = 1 }
-			}
-		}
+		owner = { cheap_iron = 1 }
 	}
 	
 	mean_time_to_happen = {
@@ -1295,6 +1145,15 @@ province_event = {
 			factor = 2
 			is_overseas = yes
 		}
+		modifier = {
+					factor = 0.5
+					any_neighbor_province = {
+				OR = {
+					has_province_modifier = pit_mine
+					has_province_modifier = strip_mine
+				}
+			}
+		}
 	}
 	
 	option = {
@@ -1326,34 +1185,7 @@ province_event = {
 	trigger = {
 		has_province_modifier = pit_mine
 		NOT = { has_province_modifier = strip_mine }
-		OR = { 
-			AND = {
-				owner = { electric_furnace  = 1 }
-				is_capital = yes
-			}
-			any_neighbor_province = {
-				has_province_modifier = strip_mine
-			}
-			AND = {
-				OR = {
-					province_id = 2136 #Canary Islands
-					province_id = 502 #Balearic Islands
-					province_id = 765 #Cagliari
-					province_id = 854 #Malta
-					province_id = 848 #Iraklion
-					province_id = 855 #Nicosia
-					province_id = 86 #Sacramento
-					province_id = 81 #Portland
-					province_id = 78 #Seattle
-					AND = {
-						is_overseas = yes
-						port = yes
-					}
-				}
-				capital_scope = { has_province_modifier = strip_mine }
-				owner = { electric_furnace  = 1 }
-			}
-		}
+		owner = { electric_furnace  = 1 }	
 	}
 	
 	mean_time_to_happen = {
@@ -1462,6 +1294,12 @@ province_event = {
 			factor = 2
 			is_overseas = yes
 		}
+		modifier = {
+					factor = 0.5
+					any_neighbor_province = {
+					has_province_modifier = strip_mine
+			}
+		}
 	}
 	
 	option = {
@@ -1503,38 +1341,7 @@ province_event = {
 		NOT = { has_province_modifier = crop_rotation }
 		NOT = { has_province_modifier = phosphates }
 		NOT = { has_province_modifier = nitrates }	
-		OR = { 
-			AND = {
-				owner = { water_wheel_power = 1 }
-				is_capital = yes
-			}
-			any_neighbor_province = {
-				OR = {
-					has_province_modifier = crop_rotation
-					has_province_modifier = phosphates
-					has_province_modifier = nitrates
-				}
-			}
-			AND = {
-				OR = {
-					province_id = 2136 #Canary Islands
-					province_id = 502 #Balearic Islands
-					province_id = 765 #Cagliari
-					province_id = 854 #Malta
-					province_id = 848 #Iraklion
-					province_id = 855 #Nicosia
-					province_id = 86 #Sacramento
-					province_id = 81 #Portland
-					province_id = 78 #Seattle
-					AND = {
-						is_overseas = yes
-						port = yes
-					}
-				}
-				capital_scope = { has_province_modifier = crop_rotation }
-				owner = { water_wheel_power = 1 }
-			}
-		}	
+		owner = { water_wheel_power = 1 }	
 	}
 	
 	mean_time_to_happen = {
@@ -1635,6 +1442,16 @@ province_event = {
 			factor = 2
 			is_overseas = yes
 		}
+		modifier = {
+					factor = 0.5
+					any_neighbor_province = {
+				OR = {
+					has_province_modifier = crop_rotation
+					has_province_modifier = phosphates
+					has_province_modifier = nitrates
+				}
+			}
+		}
 	}
 	
 	option = {
@@ -1664,37 +1481,7 @@ province_event = {
 		has_province_modifier = crop_rotation
 		NOT = { has_province_modifier = phosphates }
 		NOT = { has_province_modifier = nitrates }	
-		OR = { 
-			AND = {
-				owner = { invention = artificial_fertilizers }
-				is_capital = yes
-			}
-			any_neighbor_province = {
-				OR = {
-					has_province_modifier = phosphates
-					has_province_modifier = nitrates
-				}
-			}
-			AND = {
-				OR = {
-					province_id = 2136 #Canary Islands
-					province_id = 502 #Balearic Islands
-					province_id = 765 #Cagliari
-					province_id = 854 #Malta
-					province_id = 848 #Iraklion
-					province_id = 855 #Nicosia
-					province_id = 86 #Sacramento
-					province_id = 81 #Portland
-					province_id = 78 #Seattle
-					AND = {
-						is_overseas = yes
-						port = yes
-					}
-				}
-				capital_scope = { has_province_modifier = phosphates }
-				owner = { invention = artificial_fertilizers }
-			}
-		}
+		owner = { invention = artificial_fertilizers }
 	}
 	
 	mean_time_to_happen = {
@@ -1803,6 +1590,15 @@ province_event = {
 			factor = 2
 			is_overseas = yes
 		}
+		modifier = {
+					factor = 0.5
+					any_neighbor_province = {
+				OR = {
+					has_province_modifier = phosphates
+					has_province_modifier = nitrates
+				}
+			}
+		}
 	}
 	
 	option = {
@@ -1834,34 +1630,7 @@ province_event = {
 	trigger = {
 		has_province_modifier = phosphates
 		NOT = { has_province_modifier = nitrates }	
-		OR = { 
-			AND = {
-				owner = { invention = carbon_soil_enrichment }
-				is_capital = yes
-			}
-			any_neighbor_province = {
-				has_province_modifier = nitrates
-			}
-			AND = {
-				OR = {
-					province_id = 2136 #Canary Islands
-					province_id = 502 #Balearic Islands
-					province_id = 765 #Cagliari
-					province_id = 854 #Malta
-					province_id = 848 #Iraklion
-					province_id = 855 #Nicosia
-					province_id = 86 #Sacramento
-					province_id = 81 #Portland
-					province_id = 78 #Seattle
-					AND = {
-						is_overseas = yes
-						port = yes
-					}
-				}
-				capital_scope = { has_province_modifier = nitrates }
-				owner = { invention = carbon_soil_enrichment }
-			}
-		}	
+		owner = { invention = carbon_soil_enrichment }	
 	}
 	
 	mean_time_to_happen = {
@@ -1969,6 +1738,12 @@ province_event = {
 		modifier = {
 			factor = 2
 			is_overseas = yes
+		}
+		modifier = {
+					factor = 0.5
+					any_neighbor_province = {
+					has_province_modifier = nitrates
+			}
 		}
 	}
 	

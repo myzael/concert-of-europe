@@ -28,6 +28,7 @@ province_event = {
             remove_province_modifier = RGO_education_8
             remove_province_modifier = RGO_education_9
             remove_province_modifier = RGO_education_10
+			remove_province_modifier = RGO_education_0
 				add_province_modifier = {
 					name = RGO_education_1
 					duration = -1
@@ -67,6 +68,7 @@ province_event = {
             remove_province_modifier = RGO_education_8
             remove_province_modifier = RGO_education_9
             remove_province_modifier = RGO_education_10
+			remove_province_modifier = RGO_education_0
 				add_province_modifier = {
 					name = RGO_education_2
 					duration = -1
@@ -106,6 +108,7 @@ province_event = {
             remove_province_modifier = RGO_education_8
             remove_province_modifier = RGO_education_9
             remove_province_modifier = RGO_education_10
+			remove_province_modifier = RGO_education_0
 				add_province_modifier = {
 					name = RGO_education_3
 					duration = -1
@@ -145,6 +148,7 @@ province_event = {
             remove_province_modifier = RGO_education_8
             remove_province_modifier = RGO_education_9
             remove_province_modifier = RGO_education_10
+			remove_province_modifier = RGO_education_0
 				add_province_modifier = {
 					name = RGO_education_4
 					duration = -1
@@ -184,6 +188,7 @@ province_event = {
             remove_province_modifier = RGO_education_8
             remove_province_modifier = RGO_education_9
             remove_province_modifier = RGO_education_10
+			remove_province_modifier = RGO_education_0
 				add_province_modifier = {
 					name = RGO_education_5
 					duration = -1
@@ -223,6 +228,7 @@ province_event = {
             remove_province_modifier = RGO_education_8
             remove_province_modifier = RGO_education_9
             remove_province_modifier = RGO_education_10
+			remove_province_modifier = RGO_education_0
 				add_province_modifier = {
 					name = RGO_education_6
 					duration = -1
@@ -262,6 +268,7 @@ province_event = {
             remove_province_modifier = RGO_education_8
             remove_province_modifier = RGO_education_9
             remove_province_modifier = RGO_education_10
+			remove_province_modifier = RGO_education_0
 				add_province_modifier = {
 					name = RGO_education_7
 					duration = -1
@@ -301,6 +308,7 @@ province_event = {
             remove_province_modifier = RGO_education_7
             remove_province_modifier = RGO_education_9
             remove_province_modifier = RGO_education_10
+			remove_province_modifier = RGO_education_0
 				add_province_modifier = {
 					name = RGO_education_8
 					duration = -1
@@ -340,6 +348,7 @@ province_event = {
             remove_province_modifier = RGO_education_7
             remove_province_modifier = RGO_education_8
             remove_province_modifier = RGO_education_10
+			remove_province_modifier = RGO_education_0
 				add_province_modifier = {
 					name = RGO_education_9
 					duration = -1
@@ -378,8 +387,49 @@ province_event = {
             remove_province_modifier = RGO_education_7
             remove_province_modifier = RGO_education_8
             remove_province_modifier = RGO_education_9
+			remove_province_modifier = RGO_education_0
 				add_province_modifier = {
 					name = RGO_education_10
+					duration = -1
+				}
+			}
+		}		
+	}
+}
+
+province_event = {
+	id = 999959
+	title = "Education in $STATENAME$"
+	desc = "Education in $STATENAME$ accelerates economic growth."
+	
+	trigger = {
+      state_scope = {
+	  literacy = 0
+      NOT = { literacy = 0.1 }
+	  }
+	  NOT = { has_province_modifier = RGO_education_0 }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "Advance $COUNTRY$ !"
+		state_scope = {
+			any_owned = {
+			remove_province_modifier = RGO_education_1
+            remove_province_modifier = RGO_education_2
+            remove_province_modifier = RGO_education_3
+            remove_province_modifier = RGO_education_4
+            remove_province_modifier = RGO_education_5
+            remove_province_modifier = RGO_education_6
+            remove_province_modifier = RGO_education_7
+            remove_province_modifier = RGO_education_8
+            remove_province_modifier = RGO_education_9
+            remove_province_modifier = RGO_education_10
+				add_province_modifier = {
+					name = RGO_education_0
 					duration = -1
 				}
 			}

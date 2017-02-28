@@ -801,7 +801,7 @@ emigration_chance =
 		}	
 	}
 	modifier = {
-		factor = 1.2
+		factor = 1.0
 		is_primary_culture = no
 		is_accepted_culture = no
 	}

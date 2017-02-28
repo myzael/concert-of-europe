@@ -47,7 +47,7 @@ populationsize_25k = {
 		}
 	}
 	research_points = -1
-	global_population_growth = 0.005
+	global_population_growth = 0.004
 	mobilisation_size = 0.10
 	tax_efficiency = 0.05
 	icon = 11
@@ -61,7 +61,7 @@ populationsize_50k = {
 		}
 	}
 	research_points = -0.75
-	global_population_growth = 0.004
+	global_population_growth = 0.003
 	mobilisation_size = 0.05
 	tax_efficiency = 0.04
 	icon = 11
@@ -168,7 +168,6 @@ populationsize_25M = {
 	}
 	research_points = 0.33
 	tax_efficiency = -0.04
-	global_population_growth = -0.001
 	icon = 5
 }
 
@@ -181,7 +180,6 @@ populationsize_50M = {
 	}
 	research_points = 0.5
 	tax_efficiency = -0.05
-	global_population_growth = -0.002
 	icon = 5
 }
 
@@ -194,7 +192,6 @@ populationsize_100M = {
 	}
 	research_points = 0.66
 	tax_efficiency = -0.06
-	global_population_growth = -0.002
 	icon = 5
 }
 
@@ -207,7 +204,6 @@ populationsize_200M = {
 	}
 	research_points = 0.75
 	tax_efficiency = -0.08
-	global_population_growth = -0.003
 	icon = 5
 }
 
@@ -217,7 +213,6 @@ populationsize_300M = {
 	}
 	research_points = 1
 	tax_efficiency = -0.1
-	global_population_growth = -0.003
 	icon = 5
 }
 
@@ -290,7 +285,7 @@ city_state = {
 		}
 	}
 	icon = 10
-	prestige = -0.025
+	prestige = -0.05
 }
 
 small_nation = {
@@ -302,7 +297,7 @@ small_nation = {
 		}
 	}
 	icon = 10
-	prestige = -0.01
+	prestige = -0.025
 }
 
 large_nation = {
@@ -375,7 +370,7 @@ vassal_nation = {
 		is_vassal = yes
 	}
 	icon = 10
-	prestige = -1.0
+	prestige = -1
 }
 
 oversized_industry_1850 = {
@@ -671,20 +666,6 @@ memory_of_iberian_glory  = {
 	research_points = 0.5
 	icon = 19
 }
-the_police_state_effect = {
-	trigger = {
-		invention = the_police_state
-		or = {
-			government = fascist_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = proletarian_dictatorship
-		}
-	}
-	icon = 1
-	core_pop_consciousness_modifier = -0.03
-	core_pop_militancy_modifier = -0.02
-}
 
 plurality_0_10 = {
 	trigger = {
@@ -774,94 +755,6 @@ plurality_90_100 = {
 	icon = 1
 }
 
-literacy_0_10 = {
-	trigger = {
-		not = { literacy = 0.1 }
-	}
-	global_pop_consciousness_modifier = 0.01
-	icon = 1
-}
-
-literacy_10_20 = {
-	trigger = {
-		literacy = 0.1
-		not = { literacy = 0.2 }
-	}
-	global_pop_consciousness_modifier = 0.02
-	icon = 1
-}
-
-literacy_20_30 = {
-	trigger = {
-		literacy = 0.2
-		not = { literacy = 0.3 }
-	}
-	global_pop_consciousness_modifier = 0.03
-	icon = 1
-}
-
-literacy_30_40 = {
-	trigger = {
-		literacy = 0.3
-		not = { literacy = 0.4 }
-	}
-	global_pop_consciousness_modifier = 0.04
-	icon = 1
-}
-
-literacy_40_50 = {
-	trigger = {
-		literacy = 0.4
-		not = { literacy = 0.5 }
-	}
-	global_pop_consciousness_modifier = 0.05
-	icon = 1
-}
-
-literacy_50_60 = {
-	trigger = {
-		literacy = 0.5
-		not = { literacy = 0.6 }
-	}
-	global_pop_consciousness_modifier = 0.06
-	icon = 1
-}
-
-literacy_60_70 = {
-	trigger = {
-		literacy = 0.6
-		not = { literacy = 0.7 }
-	}
-	global_pop_consciousness_modifier = 0.07
-	icon = 1
-}
-
-literacy_70_80 = {
-	trigger = {
-		literacy = 0.7
-		not = { literacy = 0.8 }
-	}
-	global_pop_consciousness_modifier = 0.08
-	icon = 1
-}
-
-literacy_80_90 = {
-	trigger = {
-		literacy = 0.8
-		not = { literacy = 0.9 }
-	}
-	global_pop_consciousness_modifier = 0.09
-	icon = 1
-}
-
-literacy_90_100 = {
-	trigger = {
-		literacy = 0.9
-	}
-	global_pop_consciousness_modifier = 0.1
-	icon = 1
-}
-
 #the_concert_of_europe = {
 #	trigger = {
 #		not = { year = 1840 }
@@ -919,7 +812,12 @@ social_chaos = {
 money_hoarder_1 = {
 	trigger = {
 		money = 1000000
-		not = { money = 2000000 }
+		not = {
+			or {
+				money = 2000000
+				num_of_cities = 50
+			}
+		}
 	}
 	tax_efficiency = -0.05
 	tariff_efficiency_modifier = -0.20
@@ -928,8 +826,20 @@ money_hoarder_1 = {
 
 money_hoarder_2 = {
 	trigger = {
-		money = 2000000
-		not = { money = 5000000 }
+		or = {
+			and = {
+				money = 2000000
+				not = {
+					num_of_cities = 50
+					money = 5000000
+				}
+			}
+			and = {
+				money = 5000000
+				num_of_cities = 50
+				not = { money = 10000000 }
+			}
+		}
 	}
 	tax_efficiency = -0.10
 	tariff_efficiency_modifier = -0.40
@@ -938,8 +848,20 @@ money_hoarder_2 = {
 
 money_hoarder_3 = {
 	trigger = {
-		money = 5000000
-		not = { money = 10000000 }
+		or = {
+			and = {
+				money = 1000000
+				not = {
+					num_of_cities = 50
+					money = 1500000
+				}
+			}
+			and = {
+				money = 15000000
+				num_of_cities = 50
+				not = { money = 20000000 }
+			}
+		}
 	}
 	tax_efficiency = -0.15
 	tariff_efficiency_modifier = -0.60
@@ -948,8 +870,20 @@ money_hoarder_3 = {
 
 money_hoarder_4 = {
 	trigger = {
-		money = 10000000
-		not = { money = 15000000 }
+		or = {
+			and = {
+				money = 10000000
+				not = {
+					num_of_cities = 50
+					money = 15000000
+				}
+			}
+			and = {
+				money = 15000000
+				num_of_cities = 50
+				not = { money = 20000000 }
+			}
+		}
 	}
 	tax_efficiency = -0.20
 	tariff_efficiency_modifier = -0.80
@@ -958,9 +892,17 @@ money_hoarder_4 = {
 
 money_hoarder_5 = {
 	trigger = {
-		money = 15000000
+		or = {
+			and = {
+				money = 15000000
+				not = { num_of_cities = 50 }
+			}
+			and = {
+				money = 20000000
+				num_of_cities = 50
+			}
+		}
 	}
-	factory_output = -0.10
 	tax_efficiency = -0.25
 	tariff_efficiency_modifier = -1.0
 	icon = 1

@@ -124,6 +124,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_productivity
+				nationalvalue = nv_prosperity
+			}
+		}
 	}
 	
 	option = {
@@ -434,6 +441,15 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_independence
+				nationalvalue = nv_supremacy
+				nationalvalue = nv_glory
+				nationalvalue = nv_might
+			}
+		}
 	}
 	
 	option = {
@@ -502,7 +518,7 @@ country_event = {
 			has_country_modifier = simon_bolivar
 			has_country_modifier = power_vacuum
 		}
-			num_of_ports = 1
+		num_of_ports = 1
 		OR = { 
 			government = theocracy
 			government = absolute_monarchy
@@ -512,6 +528,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_glory
+				nationalvalue = nv_dominion
+			}
+		}
 	}
 	
 	option = {
@@ -666,6 +689,14 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 1.5
+			year = 1860
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_independence
+		}
 	}
 	
 	option = {
@@ -898,6 +929,15 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_liberty
+				nationalvalue = nv_freedom
+				nationalvalue = nv_equality
+				nationalvalue = nv_prosperity
+			}
+		}
 	}
 	
 	option = {
@@ -1052,6 +1092,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_productivity
+				nationalvalue = nv_order
+			}
+		}
 	}
 	
 	option = {
@@ -1129,6 +1176,10 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 1.2
+			nationalvalue = nv_independence
+		}
 	}
 	
 	option = {
@@ -1360,6 +1411,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_supremacy
+				nationalvalue = nv_might
+			}
+		}
 	}
 	
 	option = {
@@ -1437,6 +1495,14 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_productivity
+				nationalvalue = nv_supremacy
+				nationalvalue = nv_dominion
+			}
+		}
 	}
 	
 	option = {
@@ -1514,6 +1580,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_independence
+				nationalvalue = nv_order
+			}
+		}
 	}
 	
 	option = {
@@ -1758,6 +1831,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_productivity
+				nationalvalue = nv_prosperity
+			}
+		}
 	}
 	
 	option = {
@@ -2067,6 +2147,15 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifer = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_independence
+				nationalvalue = nv_supremacy
+				nationalvalue = nv_glory
+				nationalvalue = nv_might
+			}
+		}
 	}
 	
 	option = {
@@ -2146,6 +2235,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_glory
+				nationalvalue = nv_dominion
+			}
+		}
 	}
 	
 	option = {
@@ -2300,6 +2396,14 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 1.5
+			year = 1860
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_independence
+		}
 	}
 	
 	option = {
@@ -2456,6 +2560,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_productivity
+				nationalvalue = nv_order
+			}
+		}
 	}
 	
 	option = {
@@ -2534,6 +2645,10 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 1.2
+			nationalvalue = nv_independence
+		}
 	}
 	
 	option = {
@@ -2612,6 +2727,15 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_unity
+				nationalvalue = nv_fraternity
+				nationalvalue = nv_equality
+				nationalvalue = nv_prosperity
+			}
+		}
 	}
 	
 	option = {
@@ -2766,6 +2890,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_supremacy
+				nationalvalue = nv_might
+			}
+		}
 	}
 	
 	option = {
@@ -2843,6 +2974,14 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_productivity
+				nationalvalue = nv_supremacy
+				nationalvalue = nv_dominion
+			}
+		}
 	}
 	
 	option = {
@@ -2921,6 +3060,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_independence
+				nationalvalue = nv_order
+			}
+		}
 	}
 	
 	option = {
@@ -2999,6 +3145,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_productivity
+				nationalvalue = nv_order
+			}
+		}
 	}
 	
 	option = {
@@ -3259,6 +3412,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_productivity
+				nationalvalue = nv_prosperity
+			}
+		}
 	}
 	
 	option = {
@@ -3500,6 +3660,12 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+			OR = {
+				nationalvalue = nv_independence
+				nationalvalue = nv_supremacy
+				nationalvalue = nv_glory
+				nationalvalue = nv_might
+			}
 	}
 	
 	option = {
@@ -3581,6 +3747,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_glory
+				nationalvalue = nv_dominion
+			}
+		}
 	}
 	
 	option = {
@@ -3902,6 +4075,15 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_liberty
+				nationalvalue = nv_freedom
+				nationalvalue = nv_equality
+				nationalvalue = nv_prosperity
+			}
+		}
 	}
 	
 	option = {
@@ -4062,6 +4244,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_productivity
+				nationalvalue = nv_order
+			}
+		}
 	}
 	
 	option = {
@@ -4551,6 +4740,12 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+			OR = {
+				nationalvalue = nv_independence
+				nationalvalue = nv_supremacy
+				nationalvalue = nv_glory
+				nationalvalue = nv_might
+			}
 	}
 	
 	option = {
@@ -4633,6 +4828,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_glory
+				nationalvalue = nv_dominion
+			}
+		}
 	}
 	
 	option = {
@@ -4795,6 +4997,14 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 1.5
+			year = 1860
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_independence
+		}
 	}
 	
 	option = {
@@ -5119,6 +5329,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_productivity
+				nationalvalue = nv_order
+			}
+		}
 	}
 	
 	option = {
@@ -5444,6 +5661,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_productivity
+				nationalvalue = nv_order
+			}
+		}
 	}
 	
 	option = {
@@ -5525,6 +5749,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_independence
+				nationalvalue = nv_order
+			}
+		}
 	}
 	
 	option = {
@@ -5937,6 +6168,14 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 1.5
+			year = 1860
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_independence
+		}
 	}
 	
 	option = {
@@ -6180,6 +6419,15 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_liberty
+				nationalvalue = nv_freedom
+				nationalvalue = nv_equality
+				nationalvalue = nv_prosperity
+			}
+		}
 	}
 	
 	option = {
@@ -6262,6 +6510,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_productivity
+				nationalvalue = nv_order
+			}
+		}
 	}
 	
 	option = {
@@ -6505,6 +6760,15 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_unity
+				nationalvalue = nv_fraternity
+				nationalvalue = nv_equality
+				nationalvalue = nv_prosperity
+			}
+		}
 	}
 	
 	option = {
@@ -6587,6 +6851,14 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_productivity
+				nationalvalue = nv_supremacy
+				nationalvalue = nv_dominion
+			}
+		}
 	}
 	
 	option = {
@@ -6668,6 +6940,13 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+			factor = 0.8
+			OR = {
+				nationalvalue = nv_independence
+				nationalvalue = nv_order
+			}
+		}
 	}
 	
 	option = {

@@ -842,6 +842,10 @@ country_event = {
 				remove_core = TUR
 				add_core = EGY
 			}
+			911 = {
+				remove_core = TUR
+				add_core = EGY
+			}
 			EGY_903 = {
 				remove_core = TUR
 				add_core = EGY
@@ -1053,6 +1057,7 @@ country_event = {
 		EGY_915 = { add_core = EGY }
 		EGY_921 = { add_core = EGY }
 		EGY_910 = { add_core = EGY }
+		911 = { add_core = EGY }
 		TUR = { country_event = 90078 }
 		remove_country_modifier = muhammad_alis_reforms
 		any_pop = {
@@ -1247,6 +1252,7 @@ country_event = {
 					region = TUR_855
 					province_id = 847
 					province_id = 848
+					province_id = 911
 				}
 			}
 			add_core = EGY

@@ -2975,3 +2975,17 @@ RGO_education_0 = {
     rich_income_modifier = 0
 	icon = 3
 }
+
+heavenly_china = {
+	core_pop_militancy_modifier = -0.01
+	core_pop_consciousness_modifier = 0.02
+	prestige = 0.05
+	icon = 17
+}
+
+chinese_christianity = {
+	core_pop_militancy_modifier = -0.03
+	core_pop_consciousness_modifier = 0.02
+	prestige = 0.1
+	icon = 17
+}

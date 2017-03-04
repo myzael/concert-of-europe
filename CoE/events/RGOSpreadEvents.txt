@@ -7,6 +7,7 @@ province_event = {
 	trigger = {
 		NOT = { has_province_modifier = local_tractors }
 		owner = { invention = tractors }
+		is_colonial = no
 	}
 	
 	mean_time_to_happen = {
@@ -151,7 +152,8 @@ province_event = {
 		NOT = {
 			has_province_modifier = local_electricity
 		}
-		owner = { invention = edison_light_bulb }		
+		owner = { invention = edison_light_bulb }
+		is_colonial = no
 	}
 	
 	mean_time_to_happen = {
@@ -330,7 +332,8 @@ province_event = {
 	
 	trigger = {
 		NOT = { has_province_modifier = local_nitroglycerin }
-		owner = { invention = nitroglycerin }	
+		owner = { invention = nitroglycerin }
+		is_colonial = no
 	}
 	
 	mean_time_to_happen = {
@@ -519,6 +522,7 @@ province_event = {
 	trigger = {
 		NOT = { has_province_modifier = local_distribution_channels }
 		owner = { invention = distribution_channels }
+		is_colonial = no
 	}
 	
 	mean_time_to_happen = {
@@ -697,6 +701,7 @@ province_event = {
 	trigger = {
 		NOT = { has_province_modifier = local_machine_tools }
 		owner = { invention = machine_tools }
+		is_colonial = no
 	}
 	
 	mean_time_to_happen = {
@@ -890,7 +895,8 @@ province_event = {
 		NOT = { has_province_modifier = shaft_mine }
 		NOT = { has_province_modifier = pit_mine }
 		NOT = { has_province_modifier = strip_mine }
-		owner = { mechanized_mining = 1 }		
+		owner = { mechanized_mining = 1 }
+		is_colonial = no
 	}
 	
 	mean_time_to_happen = {
@@ -1037,6 +1043,7 @@ province_event = {
 		NOT = { has_province_modifier = pit_mine }
 		NOT = { has_province_modifier = strip_mine }
 		owner = { cheap_iron = 1 }
+		is_colonial = no
 	}
 	
 	mean_time_to_happen = {
@@ -1185,7 +1192,8 @@ province_event = {
 	trigger = {
 		has_province_modifier = pit_mine
 		NOT = { has_province_modifier = strip_mine }
-		owner = { electric_furnace  = 1 }	
+		owner = { electric_furnace  = 1 }
+		is_colonial = no
 	}
 	
 	mean_time_to_happen = {
@@ -1342,6 +1350,7 @@ province_event = {
 		NOT = { has_province_modifier = phosphates }
 		NOT = { has_province_modifier = nitrates }	
 		owner = { water_wheel_power = 1 }	
+		is_colonial = no
 	}
 	
 	mean_time_to_happen = {
@@ -1482,6 +1491,7 @@ province_event = {
 		NOT = { has_province_modifier = phosphates }
 		NOT = { has_province_modifier = nitrates }	
 		owner = { invention = artificial_fertilizers }
+		is_colonial = no
 	}
 	
 	mean_time_to_happen = {
@@ -1631,6 +1641,7 @@ province_event = {
 		has_province_modifier = phosphates
 		NOT = { has_province_modifier = nitrates }	
 		owner = { invention = carbon_soil_enrichment }	
+		is_colonial = no
 	}
 	
 	mean_time_to_happen = {

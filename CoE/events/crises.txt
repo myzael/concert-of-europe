@@ -680,7 +680,6 @@ province_event = {
 	
 	trigger = {
 		NOT = { year = 1849 }
-		is_colonial = no
 		OR = {
 			state_scope = {
 				flashpoint_tension = 30

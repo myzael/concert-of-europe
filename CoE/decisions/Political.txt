@@ -143,4 +143,37 @@ political_decisions = {
 			factor = 0
 		}
 	}
+	
+	begin_book_burn = {
+		potential = {
+			government = fascist_dictatorship
+			NOT = { has_country_modifier = book_burning }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = book_burning
+				duration = 1825
+			}
+			prestige_factor = -0.05
+			clergymen = {
+				militancy = 3
+				consciousness = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					NOT = { average_militancy = 3 }
+					NOT = { average_consciousness = 5 }
+				}
+			}
+		}
+	}
 }

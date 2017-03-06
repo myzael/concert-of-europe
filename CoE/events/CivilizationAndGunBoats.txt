@@ -2224,7 +2224,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 24
 		modifier = {
 			factor = 0.8
 			average_militancy = 3
@@ -2631,7 +2631,7 @@ country_event = {
 	mean_time_to_happen = {
 		months = 120
 		modifier = {
-			factor = 0.8
+			factor = 0.9
 			civilization_progress = 0.25
 		}
 		modifier = {
@@ -2639,12 +2639,15 @@ country_event = {
 			civilization_progress = 0.5
 		}
 		modifier = {
-			factor = 0.8
+			factor = 0.6
 			civilization_progress = 0.75
 		}
 		modifier = {
 			factor = 0.8
-			education_reform = yes_education_reform
+			OR = {
+				education_reform = yes_education_reform
+				education_reform = advanced_education_reform
+			}
 		}
 		modifier = {
 			factor = 0.8
@@ -2696,7 +2699,6 @@ country_event = {
 	
 	option = {
 		name = "Refuse. We don't need their methods."
-		prestige = -3
 		years_of_research = -0.1
 		ai_chance = {
 			factor = 20
@@ -2819,7 +2821,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB13190"
-		prestige = 10
+		prestige = 3
 		soldiers = {
 			militancy = -2
 		}
@@ -3124,6 +3126,10 @@ country_event = {
 		exists = yes
 		has_country_modifier = western_influences
 		NOT = { has_country_modifier = educational_reform }
+		OR = {
+			education_reform = yes_education_reform
+			education_reform = advanced_education_reform
+		}
 	}
 	
 	mean_time_to_happen = {

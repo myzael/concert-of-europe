@@ -272,6 +272,7 @@ political_decisions = {
 					has_global_flag = berlin_conference
 				}
 			}
+			XHO = { exists = yes }
 			NOT = { has_country_flag = claimed_xhosa }
 		}
 

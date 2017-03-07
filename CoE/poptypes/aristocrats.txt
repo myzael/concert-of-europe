@@ -8030,6 +8030,7 @@ trinket_subsidies = {
 				nationalvalue = nv_supremacy
 				nationalvalue = nv_glory
 				nationalvalue = nv_might
+				nationalvalue = nv_dominion
 			}
 			conscription = no_draft
 		}
@@ -8039,8 +8040,8 @@ trinket_subsidies = {
 				nationalvalue = nv_liberty
 				nationalvalue = nv_freedom
 				nationalvalue = nv_prosperity
-			conscription = two_year_draft
 			}
+			conscription = two_year_draft
 		}
 		modifier = {
 			factor = 1.5
@@ -8128,6 +8129,7 @@ trinket_subsidies = {
 				nationalvalue = nv_supremacy
 				nationalvalue = nv_glory
 				nationalvalue = nv_might
+				nationalvalue = nv_dominion
 			}
 			conscription = one_year_draft
 		}
@@ -8137,8 +8139,8 @@ trinket_subsidies = {
 				nationalvalue = nv_liberty
 				nationalvalue = nv_freedom
 				nationalvalue = nv_prosperity
-			conscription = four_year_draft
 			}
+			conscription = four_year_draft
 		}
 		modifier = {
 			factor = 3
@@ -8227,6 +8229,7 @@ trinket_subsidies = {
 				nationalvalue = nv_supremacy
 				nationalvalue = nv_glory
 				nationalvalue = nv_might
+				nationalvalue = nv_dominion
 			}
 			conscription = two_year_draft
 		}
@@ -8236,8 +8239,8 @@ trinket_subsidies = {
 				nationalvalue = nv_liberty
 				nationalvalue = nv_freedom
 				nationalvalue = nv_prosperity
-			conscription = mandatory_service
 			}
+			conscription = mandatory_service
 		}
 		modifier = {
 			factor = 3
@@ -8321,6 +8324,7 @@ trinket_subsidies = {
 				nationalvalue = nv_supremacy
 				nationalvalue = nv_glory
 				nationalvalue = nv_might
+				nationalvalue = nv_dominion
 			}
 		}
 		modifier = {

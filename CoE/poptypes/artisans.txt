@@ -8231,7 +8231,7 @@ trinket_subsidies = {
 	}
 
 	no_draft = {
-		factor = 1
+		factor = 0.8
 		modifier = {
 			factor = 0
 			OR = {
@@ -8242,17 +8242,25 @@ trinket_subsidies = {
 			}
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
+			OR = {
+				nationalvalue = nv_liberty
+				nationalvalue = nv_freedom
+				nationalvalue = nv_prosperity
+			}
+		}
+		modifier = {
+			factor = 1.3
 			war_exhaustion = 5
 
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 1.3
 			war_exhaustion = 10
 
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 1.3
 			war_exhaustion = 15
 
 		}	
@@ -8314,7 +8322,30 @@ trinket_subsidies = {
 			}
 		}
 		modifier = {
+			factor = 0.8
+			unemployment = 0.1
+			conscription = two_year_draft
+		}
+		modifier = {
 			factor = 2
+			OR = {
+				nationalvalue = nv_supremacy
+				nationalvalue = nv_glory
+				nationalvalue = nv_might
+			}
+			conscription = no_draft
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				nationalvalue = nv_liberty
+				nationalvalue = nv_freedom
+				nationalvalue = nv_prosperity
+			conscription = two_year_draft
+			}
+		}
+		modifier = {
+			factor = 3
 			not = {
 				any_neighbor_country = {
 					military_score = THIS
@@ -8323,24 +8354,24 @@ trinket_subsidies = {
 			conscription = two_year_draft
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
 				any_neighbor_country = {
 					military_score = THIS
 				}
 				conscription = no_draft
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.3
 			war_exhaustion = 5
 			conscription = two_year_draft
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 1.3
 			war_exhaustion = 10
 			conscription = two_year_draft
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 1.3
 			war_exhaustion = 15
 			conscription = two_year_draft
 		}	
@@ -8394,31 +8425,54 @@ trinket_subsidies = {
 			}
 		}
 		modifier = {
+			factor = 0.8
+			unemployment = 0.1
+			conscription = four_year_draft
+		}
+		modifier = {
 			factor = 2
+			OR = {
+				nationalvalue = nv_supremacy
+				nationalvalue = nv_glory
+				nationalvalue = nv_might
+			}
+			conscription = one_year_draft
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				nationalvalue = nv_liberty
+				nationalvalue = nv_freedom
+				nationalvalue = nv_prosperity
+			conscription = four_year_draft
+			}
+		}
+		modifier = {
+			factor = 1.5
 			any_neighbor_country = {
 				military_score = THIS
 			}
 			conscription = one_year_draft
 		}
 		modifier = {
-			factor = 2
+			factor = 3
 			not = { any_neighbor_country = { military_score = THIS } }
 			conscription = four_year_draft
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.3
 			war_exhaustion = 5
 
 			conscription = four_year_draft
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 1.3
 			war_exhaustion = 10
 
 			conscription = four_year_draft
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 1.3
 			war_exhaustion = 15
 
 			conscription = four_year_draft
@@ -8475,29 +8529,52 @@ trinket_subsidies = {
 			}
 		}
 		modifier = {
+			factor = 0.8
+			unemployment = 0.1
+			conscription = mandatory_service
+		}
+		modifier = {
 			factor = 2
+			OR = {
+				nationalvalue = nv_supremacy
+				nationalvalue = nv_glory
+				nationalvalue = nv_might
+			}
+			conscription = two_year_draft
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				nationalvalue = nv_liberty
+				nationalvalue = nv_freedom
+				nationalvalue = nv_prosperity
+			conscription = mandatory_service
+			}
+		}
+		modifier = {
+			factor = 1.5
 			any_neighbor_country = { military_score = THIS }
 			conscription = two_year_draft
 		}
 		modifier = {
-			factor = 2
+			factor = 3
 			not = { any_neighbor_country = { military_score = THIS } }
 			conscription = mandatory_service
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.3
 			war_exhaustion = 5
 
 			conscription = mandatory_service
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 1.3
 			war_exhaustion = 10
 
 			conscription = mandatory_service
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 1.3
 			war_exhaustion = 15
 
 			conscription = mandatory_service
@@ -8541,7 +8618,7 @@ trinket_subsidies = {
 	}
 	
 	mandatory_service = {
-		factor = 1
+		factor = 0.8
 		modifier = {
 			factor = 0
 			OR = {
@@ -8552,6 +8629,22 @@ trinket_subsidies = {
 		}
 		modifier = {
 			factor = 2
+			OR = {
+				nationalvalue = nv_supremacy
+				nationalvalue = nv_glory
+				nationalvalue = nv_might
+			}
+		}
+		modifier = {
+			factor = 0.6
+			OR = {
+				nationalvalue = nv_liberty
+				nationalvalue = nv_freedom
+				nationalvalue = nv_prosperity
+			}
+		}
+		modifier = {
+			factor = 1.5
 			any_neighbor_country = {
 				military_score = THIS
 			}

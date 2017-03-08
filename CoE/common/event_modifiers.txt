@@ -550,7 +550,7 @@ ruhr_boom = {
 	population_growth = 0.003
 	local_factory_output = 0.05
 	local_rgo_output = 0.1
-	immigrant_push = 0.2
+	immigrant_attract = 0.2
 	icon = 11
 }
 
@@ -3005,4 +3005,13 @@ book_burning = {
 	global_pop_consciousness_modifier = -0.05
 	research_points_modifier = -0.05
 	icon = 14
+}
+
+ziemia_obiecana = {
+	population_growth = 0.003
+	local_factory_output = 0.05
+	local_rgo_output = 0.1
+	global_immigrant_attract = 0.3
+	immigrant_attract = 0.2
+	icon = 11
 }

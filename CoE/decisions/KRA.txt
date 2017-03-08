@@ -1756,4 +1756,34 @@ political_decisions = {
 			RUS = { prestige = -1 }
 		}
 	}
+
+	ziemia_obiecana = {
+			picture = ziemia_obiecana
+		potential = {
+			owns = 712 #Lodz
+			NOT = {
+				has_global_flag = ziemia_obiecana_happened
+			}
+		}
+		
+		allow = {
+			owns = 712 #Lodz
+			market_structure = 1
+			organized_factories = 1
+			early_railroad = 1
+		}
+		
+		effect = {
+			any_owned = {
+				limit = {
+						province_id = 712 #Lodz
+				}
+				add_province_modifier = {
+					name = ziemia_obiecana
+					duration = 3650
+				}
+			}
+			set_global_flag = ziemia_obiecana_happened
+		}
+	}	
 }

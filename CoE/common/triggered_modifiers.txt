@@ -370,7 +370,7 @@ vassal_nation = {
 		is_vassal = yes
 	}
 	icon = 10
-	prestige = -3
+	prestige = -5
 }
 
 oversized_industry_1850 = {
@@ -671,7 +671,7 @@ plurality_0_10 = {
 	trigger = {
 		not = { plurality = 10 }
 	}
-	global_pop_consciousness_modifier = 0.01
+	global_pop_consciousness_modifier = 0.005
 	icon = 1
 }
 
@@ -680,7 +680,7 @@ plurality_10_20 = {
 		plurality = 10
 		not = { plurality = 20 }
 	}
-	global_pop_consciousness_modifier = 0.02
+	global_pop_consciousness_modifier = 0.01
 	icon = 1
 }
 
@@ -689,7 +689,7 @@ plurality_20_30 = {
 		plurality = 20
 		not = { plurality = 30 }
 	}
-	global_pop_consciousness_modifier = 0.03
+	global_pop_consciousness_modifier = 0.015
 	icon = 1
 }
 
@@ -698,7 +698,7 @@ plurality_30_40 = {
 		plurality = 30
 		not = { plurality = 40 }
 	}
-	global_pop_consciousness_modifier = 0.04
+	global_pop_consciousness_modifier = 0.02
 	icon = 1
 }
 
@@ -707,7 +707,7 @@ plurality_40_50 = {
 		plurality = 40
 		not = { plurality = 50 }
 	}
-	global_pop_consciousness_modifier = 0.05
+	global_pop_consciousness_modifier = 0.025
 	icon = 1
 }
 
@@ -716,7 +716,7 @@ plurality_50_60 = {
 		plurality = 50
 		not = { plurality = 60 }
 	}
-	global_pop_consciousness_modifier = 0.06
+	global_pop_consciousness_modifier = 0.03
 	icon = 1
 }
 
@@ -725,7 +725,7 @@ plurality_60_70 = {
 		plurality = 60
 		not = { plurality = 70 }
 	}
-	global_pop_consciousness_modifier = 0.07
+	global_pop_consciousness_modifier = 0.035
 	icon = 1
 }
 
@@ -734,7 +734,7 @@ plurality_70_80 = {
 		plurality = 70
 		not = { plurality = 80 }
 	}
-	global_pop_consciousness_modifier = 0.08
+	global_pop_consciousness_modifier = 0.04
 	icon = 1
 }
 
@@ -743,7 +743,7 @@ plurality_80_90 = {
 		plurality = 80
 		not = { plurality = 90 }
 	}
-	global_pop_consciousness_modifier = 0.09
+	global_pop_consciousness_modifier = 0.045
 	icon = 1
 }
 
@@ -751,7 +751,7 @@ plurality_90_100 = {
 	trigger = {
 		plurality = 90
 	}
-	global_pop_consciousness_modifier = 0.1
+	global_pop_consciousness_modifier = 0.05
 	icon = 1
 }
 
@@ -768,7 +768,7 @@ social_dissent = {
 		average_militancy = 1
 		not = { average_militancy = 2 }
 	}
-	global_pop_consciousness_modifier = 0.04
+	global_pop_consciousness_modifier = 0.02
 	mobilisation_size = -0.005
 	issue_change_speed = 0.5
 	icon = 2
@@ -779,7 +779,7 @@ social_tensions = {
 		average_militancy = 2
 		not = { average_militancy = 4 }
 	}
-	global_pop_consciousness_modifier = 0.08
+	global_pop_consciousness_modifier = 0.04
 	mobilisation_size = -0.01
 	prestige = -0.05
 	issue_change_speed = 1.0
@@ -791,7 +791,7 @@ social_disorder = {
 		average_militancy = 4
 		not = { average_militancy = 6 }
 	}
-	global_pop_consciousness_modifier = 0.12
+	global_pop_consciousness_modifier = 0.06
 	mobilisation_size = -0.02
 	prestige = -0.1
 	issue_change_speed = 1.5
@@ -802,7 +802,7 @@ social_chaos = {
 	trigger = {
 		average_militancy = 6
 	}
-	global_pop_consciousness_modifier = 0.2
+	global_pop_consciousness_modifier = 0.1
 	mobilisation_size = -0.04
 	prestige = -0.2
 	issue_change_speed = 2.0

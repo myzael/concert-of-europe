@@ -207,10 +207,6 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.5
-			unemployment = 0.4
-		}
-		modifier = {
-			factor = 0.5
 			tag = FRA
 		}
 	}

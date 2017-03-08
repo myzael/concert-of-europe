@@ -36,7 +36,7 @@ education = elite
 govt_flag = 
 {
 	government = hms_government
-	flag = presidential_dictatorship
+	flag = theocracy
 }
 
 ruling_party = GER_conservative

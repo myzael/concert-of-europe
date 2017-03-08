@@ -48,11 +48,11 @@ province_event = {
 		life_rating = 5
 		add_province_modifier = {
 			name = gold_rush
-			duration = 1825
+			duration = 365
 		}
 		add_province_modifier = {
 			name = switched_production
-			duration = 1825
+			duration = 365
 		}
 	}
 }

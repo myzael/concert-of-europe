@@ -3015,3 +3015,14 @@ ziemia_obiecana = {
 	immigrant_attract = 0.2
 	icon = 11
 }
+
+relentless_progress = {
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.1
+	education_efficiency_modifier = 0.5
+	suppression_points_modifier = 0.3
+	leadership_modifier = -0.1
+	research_points_modifier = -0.2
+	prestige = -0.05
+	icon = 3
+}

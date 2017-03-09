@@ -32,7 +32,7 @@ party = {
 }
 
 party = {
-	name = "FRA_reactionary_2" #Droite nationaliste
+	name = "FRA_reactionary_2" #Action Française
 	start_date = 1883.1.1
 	end_date = 2000.1.1
 
@@ -46,8 +46,8 @@ party = {
 }
 
 party = {
-	name = "FRA_liberal" #Républicain
-	start_date = 1820.1.1
+	name = "FRA_liberal" #Libéraux
+	start_date = 1830.1.1
 	end_date = 1848.1.1
 
 	ideology = liberal
@@ -60,7 +60,7 @@ party = {
 }
 
 party = {
-	name = "FRA_liberal_2" #Union libérale
+	name = "FRA_liberal_2" #Tiers parti
 	start_date = 1848.1.1
 	end_date = 1870.1.1
 
@@ -74,7 +74,7 @@ party = {
 }
 
 party = {
-	name = "FRA_liberal_3" #Républicain Libéral
+	name = "FRA_liberal_3" #Modérés
 	start_date = 1870.1.1
 	end_date = 2000.1.1
 
@@ -102,7 +102,7 @@ party = {
 }
 
 party = {
-	name = "FRA_conservative" #Orléaniste
+	name = "FRA_conservative" #Droite dynastique
 	start_date = 1830.7.1
 	end_date = 1848.1.1
 
@@ -116,7 +116,7 @@ party = {
 }
 
 party = {
-	name = "FRA_conservative_2" #Bonapartiste
+	name = "FRA_conservative_2" #Parti de l'ordre
 	start_date = 1848.1.1
 	end_date = 1870.1.1
 
@@ -130,7 +130,7 @@ party = {
 }
 
 party = {
-	name = "FRA_conservative_3" #Républicain modéré
+	name = "FRA_conservative_3" #Parti de l'ordre
 	start_date = 1870.1.1
 	end_date = 2000.1.1
 
@@ -242,8 +242,8 @@ party = {
 }
 
 party = {
-	name = "FRA_fascist" #Fascists
-	start_date = 1905.1.1
+	name = "FRA_fascist" #Parti Populaire Français
+	start_date = 1905.1.1 #Was technically founded later, but no older Fascist party exists in France
 	end_date = 2000.1.1
 
 	ideology = fascist
@@ -256,7 +256,7 @@ party = {
 }
 
 party = {
-	name = "FRA_social_liberal"
+	name = "FRA_social_liberal" #Parti Radical
 	start_date = 1890.1.1
 	end_date = 2000.1.1
 

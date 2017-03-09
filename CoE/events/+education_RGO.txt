@@ -11,6 +11,8 @@ province_event = {
 	  NOT = { has_province_modifier = RGO_education_1 }
 	}
 	
+	allow_multiple_instances = yes
+	
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -50,6 +52,8 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_2 }
 	}
+	
+	allow_multiple_instances = yes
 	
 	mean_time_to_happen = {
 		months = 1
@@ -91,6 +95,8 @@ province_event = {
 	  NOT = { has_province_modifier = RGO_education_3 }
 	}
 	
+	allow_multiple_instances = yes
+	
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -130,6 +136,8 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_4 }
 	}
+	
+	allow_multiple_instances = yes
 	
 	mean_time_to_happen = {
 		months = 1
@@ -171,6 +179,8 @@ province_event = {
 	  NOT = { has_province_modifier = RGO_education_5 }
 	}
 	
+	allow_multiple_instances = yes
+	
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -210,6 +220,8 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_6 }
 	}
+	
+	allow_multiple_instances = yes
 	
 	mean_time_to_happen = {
 		months = 1
@@ -251,6 +263,8 @@ province_event = {
 	  NOT = { has_province_modifier = RGO_education_7 }
 	}
 	
+	allow_multiple_instances = yes
+	
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -290,6 +304,8 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_8 }
 	}
+	
+	allow_multiple_instances = yes
 	
 	mean_time_to_happen = {
 		months = 1
@@ -331,6 +347,8 @@ province_event = {
 	  NOT = { has_province_modifier = RGO_education_9 }
 	}
 	
+	allow_multiple_instances = yes
+	
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -369,6 +387,8 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_10 }
 	}
+	
+	allow_multiple_instances = yes
 	
 	mean_time_to_happen = {
 		months = 1
@@ -409,6 +429,8 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_0 }
 	}
+	
+	allow_multiple_instances = yes
 	
 	mean_time_to_happen = {
 		months = 1

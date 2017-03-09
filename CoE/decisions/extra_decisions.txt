@@ -678,51 +678,6 @@ political_decisions = {
 		}
 	}
 	
-	five_year_plan = {
-		alert = yes
-		potential = {
-			government = proletarian_dictatorship
-			NOT = {
-				has_country_modifier = five_year_plan
-			}
-		}
-		allow = {
-			revolution_n_counterrevolution = 1
-		}
-		effect = {
-			add_country_modifier = {
-				name = five_year_plan
-				duration = 1825
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	purge_the_traitors = {
-		alert = yes
-		potential = {
-			government = proletarian_dictatorship
-			NOT = {
-				has_country_modifier = purge
-			}
-		}
-		allow = {
-			revolution_n_counterrevolution = 1
-			average_militancy = 3
-		}
-		effect = {
-			add_country_modifier = {
-				name = purge
-				duration = 1825
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
 	conference1 = {
 		alert = yes
 		potential = {

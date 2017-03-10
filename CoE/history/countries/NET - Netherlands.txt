@@ -36,7 +36,7 @@ child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = public
 
-ruling_party = NET_regeringsgezind
+ruling_party = NET_statist
 upper_house = {
 	fascist = 0
 	liberal = 1

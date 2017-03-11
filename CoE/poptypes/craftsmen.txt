@@ -1574,100 +1574,110 @@ promote_to =
 		}
 		group = {
 			modifier = {
-				factor = -2
+				factor = -0.25
 				state_scope = {
 				soldiers = 0.003
 				}
 			}
 			modifier = {
-				factor = -2
-								state_scope = {
+				factor = -0.25
+				state_scope = {
 				soldiers = 0.06 
 				}
 			}
 			modifier = {
-				factor = -2
-								state_scope = {
+				factor = -0.25
+				state_scope = {
 				soldiers = 0.01 
 			}
 			}
 			modifier = {
-				factor = -2
+				factor = -0.25
 				state_scope = {
 				soldiers = 0.013 
 				}
 			}
 			modifier = {
-				factor = -2
+				factor = -0.25
 				state_scope = {
 				soldiers = 0.016 
 				}
 			}
 			modifier = {
-				factor = -2
+				factor = -0.25
 				state_scope = {
 				soldiers = 0.02 
 				}
 			}
 			modifier = {
-				factor = -2
+				factor = -0.25
 				state_scope = {
 				soldiers = 0.023 
 				}
 			}
 			modifier = {
-				factor = -2
+				factor = -0.25
 				state_scope = {
 				soldiers = 0.026 
 				}
 			}
 			modifier = {
-				factor = -2
+				factor = -0.25
 				state_scope = {
 				soldiers = 0.03 
 				}
 			}
 		}
 		modifier = {
-				factor = -5
+				factor = -1.25
 				state_scope = {
 				soldiers = 0.035 
 				}
 			}
 			modifier = {
-				factor = -5
+				factor = -1.25
 				state_scope = {
 				soldiers = 0.038
 				}
 			}
 			modifier = {
-				factor = -5
+				factor = -2.5
 				state_scope = {
 				soldiers = 0.04
 				}
 			}
 			modifier = {
-				factor = -5
+				factor = -2.5
 				state_scope = {
 				soldiers = 0.043
 				}
 			}
 			modifier = {
-				factor = -5
+				factor = -2.5
 				state_scope = {
 				soldiers = 0.045
 				}
 			}
 			modifier = {
-				factor = -5
+				factor = -2.5
 				state_scope = {
 				soldiers = 0.048
 				}
 			}
-			modifier = {
-				factor = -50
+		modifier = {
+				factor = -5
 				state_scope = {
 				soldiers = 0.05
+				}
+		modifier = {
+				factor = -5
+				state_scope = {
+				soldiers = 0.075
+				}
+		modifier = {
+				factor = -50
+				state_scope = {
+				soldiers = 0.105
 				}
 			}		
 		group = {

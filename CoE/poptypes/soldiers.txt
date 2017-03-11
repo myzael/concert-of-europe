@@ -752,7 +752,7 @@ promote_to =
 	}
 	
 	officers = {
-		factor = 0.01
+		factor = 0.015
 		modifier = {
 			factor = 100
 			country = { ai = yes }

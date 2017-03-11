@@ -92,7 +92,7 @@ conservative_group = {
 		can_reduce_militancy = yes
 
 		add_political_reform = {
-			base = 0
+			base = 0.1
 			group = {
 				modifier = {
 					factor = 0.05
@@ -169,7 +169,7 @@ conservative_group = {
 			}
 		}
 		remove_political_reform = {
-			base = 0
+			base = 0.1
 		}
 		add_social_reform = {
 			base = 0.3
@@ -251,7 +251,7 @@ conservative_group = {
 
 		}
 		remove_social_reform = {
-			base = 0
+			base = 0.2
 		}
 
 		add_military_reform = {

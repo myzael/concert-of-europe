@@ -1136,55 +1136,55 @@ promote_to =
 		}
 		group = {
 			modifier = {
-				factor = -0.25
+				factor = -0.5
 				state_scope = {
 				soldiers = 0.003
 				}
 			}
 			modifier = {
-				factor = -0.25
+				factor = -0.5
 				state_scope = {
 				soldiers = 0.06 
 				}
 			}
 			modifier = {
-				factor = -0.25
+				factor = -0.5
 				state_scope = {
 				soldiers = 0.01 
 			}
 			}
 			modifier = {
-				factor = -0.25
+				factor = -0.5
 				state_scope = {
 				soldiers = 0.013 
 				}
 			}
 			modifier = {
-				factor = -0.25
+				factor = -0.5
 				state_scope = {
 				soldiers = 0.016 
 				}
 			}
 			modifier = {
-				factor = -0.25
+				factor = -0.5
 				state_scope = {
 				soldiers = 0.02 
 				}
 			}
 			modifier = {
-				factor = -0.25
+				factor = -0.5
 				state_scope = {
 				soldiers = 0.023 
 				}
 			}
 			modifier = {
-				factor = -0.25
+				factor = -0.5
 				state_scope = {
 				soldiers = 0.026 
 				}
 			}
 			modifier = {
-				factor = -0.25
+				factor = -0.5
 				state_scope = {
 				soldiers = 0.03 
 				}

@@ -1167,7 +1167,7 @@ human_wave_doctrine = {
 		army_base = {
 			maneuver = 2
 		}
-		mobilisation_size = 0.004
+		mobilisation_size = 0.008
 	}
 }
 
@@ -2673,7 +2673,7 @@ first_railroads = {
 	effect = {
 		shared_prestige = 5
 		activate_building = railroad
-		mobilisation_size = 0.002
+		mobilisation_size = 0.004
 	}
 }
 
@@ -2694,7 +2694,7 @@ industrial_railroads = {
 	effect = {
 		shared_prestige = 10
 		max_railroad = 1
-		mobilisation_size = 0.002
+		mobilisation_size = 0.004
 	}
 }
 
@@ -2715,7 +2715,7 @@ the_iron_horse = {
 	effect = {
 		shared_prestige = 15
 		max_railroad = 1
-		mobilisation_size = 0.002
+		mobilisation_size = 0.004
 	}
 }
 
@@ -2736,7 +2736,7 @@ commercial_railroads = {
 	effect = {
 		shared_prestige = 20
 		max_railroad = 1
-		mobilisation_size = 0.002
+		mobilisation_size = 0.004
 	}
 }
 
@@ -2757,7 +2757,7 @@ arteries_of_commerce = {
 	effect = {
 		shared_prestige = 25
 		max_railroad = 1
-		mobilisation_size = 0.002
+		mobilisation_size = 0.004
 	}
 }
 
@@ -2774,7 +2774,7 @@ autobahn = {
 	effect = {
 		max_railroad = 1
 		shared_prestige = 30
-		mobilisation_size = 0.002
+		mobilisation_size = 0.004
 	}
 }
 
@@ -4192,7 +4192,7 @@ modern_infrastructure_invention = {
 	}
 	effect = {
 		max_railroad = 1
-		mobilisation_size = 0.002
+		mobilisation_size = 0.004
 		shared_prestige = 50
 	}
 }
@@ -4651,7 +4651,7 @@ total_war_paradigm = {
 		base = 6
 	}
 	effect = {
-		mobilisation_size = 0.01
+		mobilisation_size = 0.02
 	}
 }
 
@@ -7308,7 +7308,7 @@ army_2 = {
 		base = 100
 	}
 	effect = {
-		mobilisation_size = 0.002
+		mobilisation_size = 0.004
 		morale = 0.10
 	}
 }
@@ -7906,7 +7906,7 @@ industry_6 = {
 	}
 	effect = {
 		rgo_throughput = 0.1
-		mobilisation_size = 0.002
+		mobilisation_size = 0.004
 	}
 }
 

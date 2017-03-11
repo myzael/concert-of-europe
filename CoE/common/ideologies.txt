@@ -172,7 +172,7 @@ conservative_group = {
 			base = 0
 		}
 		add_social_reform = {
-			base = 0
+			base = 0.3
 
 			group = {
 				modifier = {
@@ -270,7 +270,7 @@ socialist_group = {
 		date = 1860.1.1
 
 		add_political_reform = {
-			base = 0
+			base = 0.8
 			group = {
 				modifier = {
 					factor = 0.05
@@ -536,7 +536,7 @@ liberal_group = {
 			base = 0
 		}
 		add_social_reform = {
-			base = 1
+			base = 0.8
 		}
 		remove_social_reform = {
 			base = 0

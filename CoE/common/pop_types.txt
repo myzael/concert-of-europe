@@ -108,11 +108,31 @@ promotion_chance =
 		factor = -100
 		location = { NOT = { controlled_by = owner } }
 	}
+	modifier = {
+		factor = -0.2
+        has_pop_type = soldiers
+		location = { state_scope = NOT = { { soldiers = 0.11 } } }
+	}
+	modifier = {
+		factor = -0.2
+        has_pop_type = officers
+		location = { state_scope = NOT = { { officers = 0.026 } } }
+	}
 }
 
 demotion_chance = 
 {
 	factor = 1
+	modifier = {
+		factor = -0.5
+        has_pop_type = soldiers
+		location = { state_scope = NOT = { { soldiers = 0.11 } } }
+	}
+	modifier = {
+		factor = -0.5
+        has_pop_type = officers
+		location = { state_scope = NOT = { { officers = 0.026 } } }
+	}
 	modifier = {
 		factor = 2
         has_pop_type = craftsmen

@@ -315,7 +315,7 @@ migration_target =
 	factor = 1
 	modifier = {
 		factor = -10
-		state_scope = { soldiers = 0.1 }
+		state_scope = { soldiers = 0.11 }
 	}
 	modifier = {
 		factor = 1.2

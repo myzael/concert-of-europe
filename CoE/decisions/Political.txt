@@ -198,6 +198,10 @@ political_decisions = {
 				militancy = 2
 				consciousness = -3
 			}
+			clergymen = {
+				consciousness = 5
+				reduce_pop = 0.9
+			}
 		}
 		ai_will_do = {
 			factor = 1

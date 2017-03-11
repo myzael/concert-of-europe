@@ -48,7 +48,7 @@ populationsize_25k = {
 	}
 	research_points = -1
 	global_population_growth = 0.004
-	mobilisation_size = 0.20
+	mobilisation_size = 0.10
 	tax_efficiency = 0.05
 	icon = 11
 }
@@ -62,7 +62,7 @@ populationsize_50k = {
 	}
 	research_points = -0.75
 	global_population_growth = 0.003
-	mobilisation_size = 0.1
+	mobilisation_size = 0.05
 	tax_efficiency = 0.04
 	icon = 11
 }
@@ -76,7 +76,7 @@ populationsize_100k = {
 	}
 	research_points = -0.66
 	global_population_growth = 0.003
-	mobilisation_size = 0.06
+	mobilisation_size = 0.03
 	tax_efficiency = 0.03
 	icon = 5
 }
@@ -90,7 +90,7 @@ populationsize_250k = {
 	}
 	research_points = -0.5
 	global_population_growth = 0.002
-	mobilisation_size = 0.02
+	mobilisation_size = 0.01
 	tax_efficiency = 0.02
 	icon = 5
 }
@@ -104,7 +104,7 @@ populationsize_500k = {
 	}
 	research_points = -0.25
 	global_population_growth = 0.002
-	mobilisation_size = 0.02
+	mobilisation_size = 0.01
 	tax_efficiency = 0.01
 	icon = 5
 }
@@ -119,7 +119,7 @@ populationsize_1M = {
 	}
 	research_points = -0.15
 	global_population_growth = 0.001
-	mobilisation_size = 0.01
+	mobilisation_size = 0.005
 	icon = 5
 }
 
@@ -769,7 +769,7 @@ social_dissent = {
 		not = { average_militancy = 2 }
 	}
 	global_pop_consciousness_modifier = 0.02
-	mobilisation_size = -0.01
+	mobilisation_size = -0.005
 	issue_change_speed = 0.5
 	icon = 2
 }
@@ -780,7 +780,7 @@ social_tensions = {
 		not = { average_militancy = 4 }
 	}
 	global_pop_consciousness_modifier = 0.04
-	mobilisation_size = -0.02
+	mobilisation_size = -0.01
 	prestige = -0.05
 	issue_change_speed = 1.0
 	icon = 1
@@ -792,7 +792,7 @@ social_disorder = {
 		not = { average_militancy = 6 }
 	}
 	global_pop_consciousness_modifier = 0.06
-	mobilisation_size = -0.04
+	mobilisation_size = -0.02
 	prestige = -0.1
 	issue_change_speed = 1.5
 	icon = 1
@@ -803,7 +803,7 @@ social_chaos = {
 		average_militancy = 6
 	}
 	global_pop_consciousness_modifier = 0.1
-	mobilisation_size = -0.08
+	mobilisation_size = -0.04
 	prestige = -0.2
 	issue_change_speed = 2.0
 	icon = 1
@@ -917,7 +917,7 @@ occupied_capital = {
 	}
 	prestige = -0.25
 	tax_efficiency = -0.10
-	mobilisation_size = -0.01
+	mobilisation_size = -0.005
 	global_pop_consciousness_modifier = 0.05
 	global_pop_pop_militancy_modifier = 0.02
 	icon = 1
@@ -933,9 +933,8 @@ lack_of_mining = {
 	 }
 	}
 	} 
-	prestige = -0.2
+	prestige = -0.1
 	global_pop_consciousness_modifier = -0.01
-    factory_output = -0.05	
 	factory_throughput = -0.25
 	icon = 1
 }

@@ -169,7 +169,7 @@ conservative_group = {
 			}
 		}
 		remove_political_reform = {
-			base = 0.1
+			base = 0.2
 		}
 		add_social_reform = {
 			base = 0.3
@@ -345,9 +345,17 @@ socialist_group = {
 					political_movement_strength = 0.9
 				}
 			}
+			modifier = {
+				factor = -0.6
+				ruling_party_ideology = socialist
+			}
 		}
 		remove_political_reform = {
 			base = 0
+			modifier = {
+				factor = 0.1
+				ruling_party_ideology = socialist
+			}
 		}
 		add_social_reform = {
 			base = 1
@@ -479,7 +487,7 @@ liberal_group = {
 			}
 		}
 		remove_social_reform = {
-			base = 0
+			base = 0.2
 			#modifier = {
 			#	factor = 1
 			#	ruling_party_ideology = liberal
@@ -565,13 +573,13 @@ minor_group = {
 		color = { 30 60 60 }
 
 		add_political_reform = {
-			base = 0
+			base = 0.6
 		}
 		remove_political_reform = {
 			base = 0
 		}
 		add_social_reform = {
-			base = 0
+			base = 0.4
 		}
 		remove_social_reform = {
 			base = 0

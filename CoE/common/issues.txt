@@ -440,7 +440,8 @@ political_reforms = {
 	conscription = {
 		next_step_only = yes
 		mandatory_service = {
-			mobilisation_size = 0.02
+			mobilization_impact = 0.5
+			mobilisation_size = 0.25
 			mobilisation_economy_impact = 2
 			global_immigrant_attract = -0.1
 			non_accepted_pop_militancy_modifier = 0.01
@@ -449,27 +450,32 @@ political_reforms = {
 			max_military_spending = 0.20
 		}
 		four_year_draft = {
-			mobilisation_size = 0.015
+			mobilization_impact = 0.5
+			mobilisation_size = 0.2
 			mobilisation_economy_impact = 1.75
 			global_immigrant_attract = -0.05
 			global_pop_consciousness_modifier = -0.01
-			land_unit_start_experience = 5
+			land_unit_start_experience = 7.5
 			max_military_spending = 0.10
 		}
 		two_year_draft = {
-			mobilisation_size = 0.01
+			mobilization_impact = 0.5
+			mobilisation_size = 0.15
 			mobilisation_economy_impact = 1.5
-			land_unit_start_experience = 2
+			land_unit_start_experience = 5
 		}
 		one_year_draft = {
-			mobilisation_size = 0.005
+			mobilization_impact = 0.5
+			mobilisation_size = 0.1
 			mobilisation_economy_impact = 1.25
 			global_immigrant_attract = 0.05
 			global_pop_consciousness_modifier = 0.01
-			land_unit_start_experience = 1
+			land_unit_start_experience = 2.5
 			max_military_spending = -0.10
 		}
 		no_draft = {
+		    mobilization_impact = 0.5
+			mobilisation_size = 0.05
 			mobilisation_economy_impact = 1
 			global_immigrant_attract = 0.1
 			global_pop_consciousness_modifier = 0.02
@@ -480,7 +486,7 @@ political_reforms = {
 	minorities_reform = {
 		next_step_only = yes
 		oppression = {
-			rules = { primary_culture_voting = yes }
+			rules = { culture_voting = yes }
 			global_immigrant_attract = -0.1
 		}
 		limited = {

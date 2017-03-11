@@ -36,7 +36,7 @@ child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = public
 
-ruling_party = NET_statist
+ruling_party = NET_statisten
 upper_house = {
 	fascist = 0
 	liberal = 1
@@ -82,17 +82,17 @@ oob = "/1821/NET_oob.txt"
 	clr_country_flag = united_netherlands
 	set_country_flag = DIM_afscheiding_1834_intolerance
 }
-1834.1.1 = { 
+1834.1.1 = {
 	set_country_flag = DIM_rebuilding_buitenzorg
 }
 
 1836.1.1 = {
 	literacy = 0.55
 	prestige = 10
-	
+
 	set_country_flag = belgium_seceded
 	set_global_flag = london_conference_1830_held
-	
+
 	# Technologies
 	post_napoleonic_thought = 1
 	flintlock_rifles = 1
@@ -165,7 +165,7 @@ oob = "NET_oob.txt"
 	military_plans = 1
 	army_command_principle = 1
 	army_professionalism = 1
-	
+
 	post_nelsonian_thought = 1
 	battleship_column_doctrine = 1
 	raider_group_doctrine = 1
@@ -178,7 +178,7 @@ oob = "NET_oob.txt"
 	naval_plans = 1
 	the_command_principle = 1
 	naval_professionalism = 1
-	
+
 	private_banks = 1
 	stock_exchange = 1
 	business_banks = 1
@@ -190,7 +190,7 @@ oob = "NET_oob.txt"
 	market_structure = 1
 	guild_based_production = 1
 	organized_factories = 1
-	
+
 	classicism_n_early_romanticism = 1
 	romanticism = 1
 	realism = 1
@@ -204,7 +204,7 @@ oob = "NET_oob.txt"
 	nationalism_n_imperialism = 1
 	introspectionism = 1
 	associationism = 1
-	
+
 	water_wheel_power = 1
 	practical_steam_engine = 1
 	high_n_low_pressure_steam_engines = 1

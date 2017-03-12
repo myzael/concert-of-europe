@@ -451,7 +451,7 @@ political_reforms = {
 		}
 		four_year_draft = {
 			mobilization_impact = 0.5
-			mobilisation_size = 0.25
+			mobilisation_size = 0.20
 			mobilisation_economy_impact = 1.75
 			global_immigrant_attract = -0.05
 			global_pop_consciousness_modifier = -0.01
@@ -460,13 +460,13 @@ political_reforms = {
 		}
 		two_year_draft = {
 			mobilization_impact = 0.25
-			mobilisation_size = 0.25
+			mobilisation_size = 0.15
 			mobilisation_economy_impact = 1.5
 			land_unit_start_experience = 5
 		}
 		one_year_draft = {
 			mobilization_impact = 0
-			mobilisation_size = 0.25
+			mobilisation_size = 0.1
 			mobilisation_economy_impact = 1.25
 			global_immigrant_attract = 0.05
 			global_pop_consciousness_modifier = 0.01
@@ -475,7 +475,7 @@ political_reforms = {
 		}
 		no_draft = {
 		    mobilization_impact = -0.25
-			mobilisation_size = 0.25
+			mobilisation_size = 0.05
 			mobilisation_economy_impact = 1
 			global_immigrant_attract = 0.1
 			global_pop_consciousness_modifier = 0.02

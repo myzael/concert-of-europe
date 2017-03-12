@@ -560,7 +560,8 @@ prussian_general_staff = {
 	land_unit_start_experience = 0.5
 	supply_consumption = -0.05
 	leadership_modifier = 0.25
-	mobilisation_size = 0.005
+	mobilisation_size = 0.05
+	mobilization_impact = 0.1
 	icon = 15
 }
 

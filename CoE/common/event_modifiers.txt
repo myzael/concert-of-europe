@@ -557,10 +557,10 @@ ruhr_boom = {
 prussian_general_staff = {
 	org_regain = 0.25
 	land_organisation = 0.1
-	land_unit_start_experience = 0.5
+	land_unit_start_experience = 2.5
 	supply_consumption = -0.05
 	leadership_modifier = 0.25
-	mobilisation_size = 0.05
+	mobilisation_size = 0.02
 	mobilization_impact = 0.1
 	icon = 15
 }
@@ -1715,7 +1715,7 @@ irish_integration  = {
 ### Great War ###
 great_war = {
 	war_exhaustion = -2.0
-	mobilisation_size = 0.01
+	mobilisation_size = 0.05
 	mobilization_impact = 0.5
 	core_pop_militancy_modifier = -0.2
 	global_population_growth = -0.001
@@ -1724,7 +1724,7 @@ great_war = {
 
 great_war2 = {
 	war_exhaustion = -1.0
-	mobilisation_size = 0.005
+	mobilisation_size = 0.025
 	mobilization_impact = 0.25
 	global_population_growth = -0.002
 	icon = 16

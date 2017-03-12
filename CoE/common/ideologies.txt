@@ -170,6 +170,11 @@ conservative_group = {
 		}
 		remove_political_reform = {
 			base = 0.3
+			modifier = {
+				factor = 0.3
+				ruling_party_ideology = conservative
+                government = presidential_dictatorship
+			}
 		}
 		add_social_reform = {
 			base = 0.3
@@ -252,6 +257,11 @@ conservative_group = {
 		}
 		remove_social_reform = {
 			base = 0.2
+			modifier = {
+				factor = 0.3
+				ruling_party_ideology = conservative
+                government = presidential_dictatorship
+			}
 		}
 
 		add_military_reform = {
@@ -346,8 +356,14 @@ socialist_group = {
 				}
 			}
 			modifier = {
+				factor = -0.3
+				ruling_party_ideology = socialist
+				government = democracy
+			}
+			modifier = {
 				factor = -0.6
 				ruling_party_ideology = socialist
+                government = presidential_dictatorship
 			}
 		}
 		remove_political_reform = {
@@ -355,6 +371,12 @@ socialist_group = {
 			modifier = {
 				factor = 0.1
 				ruling_party_ideology = socialist
+                government = democracy
+			}
+			modifier = {
+				factor = 0.5
+				ruling_party_ideology = socialist
+                government = presidential_dictatorship
 			}
 		}
 		add_social_reform = {
@@ -362,6 +384,11 @@ socialist_group = {
 		}
 		remove_social_reform = {
 			base = 0
+			modifier = {
+				factor = 0.4
+				ruling_party_ideology = socialist
+                government = presidential_dictatorship
+			}
 		}
 	}
 

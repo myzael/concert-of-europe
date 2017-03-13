@@ -926,7 +926,7 @@ country_event = {
 
 country_event = {
 	id = 95514
-	title = "EVTNAME95514" #Ethiopian Rule
+	title = "EVTNAME95514" #Abyssinian Rule
 	desc = "EVTDESC95514"
 	picture = "arab_revolt"
 	

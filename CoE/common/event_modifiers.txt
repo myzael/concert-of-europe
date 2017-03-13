@@ -2192,7 +2192,7 @@ french_growth_nerf = {
 	icon = 18
 }
 
-### Ethiopia ###
+### Abyssinia ###
 zemene_mesafint = {
 	mobilisation_size = 0.12
 	mobilization_impact = 0.5

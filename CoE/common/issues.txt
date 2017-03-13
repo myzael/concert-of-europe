@@ -813,22 +813,28 @@ social_reforms = {
 		no_endowment = {
 		}
 		small_endowment = {
-			administrative_multiplier = 1
+			administrative_multiplier = 0.5
 			prestige = 0.1
+			research_points = 0.05
+			education_efficiency_modifier = 0.025
 		}
 		medium_endowment = {
-			administrative_multiplier = 2
+			administrative_multiplier = 1
 			prestige = 0.2
+			research_points = 0.1
+			education_efficiency_modifier = 0.05
 		}
 		large_endowment = {
-			administrative_multiplier = 3
+			administrative_multiplier = 1.5
 			prestige = 0.3
-			global_pop_consciousness_modifier = -0.01
+			research_points = 0.15
+			education_efficiency_modifier = 0.075
 		}
 		massive_endowment = {
-			administrative_multiplier = 4
+			administrative_multiplier = 2
+			research_points = 0.2
 			prestige = 0.4
-			global_pop_consciousness_modifier = -0.02
+			education_efficiency_modifier = 0.1
 		}
 	}
 }

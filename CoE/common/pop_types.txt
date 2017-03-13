@@ -806,7 +806,7 @@ emigration_chance =
 		is_accepted_culture = no
 	}
 	modifier = {
-		factor = 1.2
+		factor = 1.0
         has_pop_type = artisans
 	}
 }

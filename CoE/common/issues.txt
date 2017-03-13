@@ -491,6 +491,7 @@ political_reforms = {
 		}
 		limited = {
 			rules = { culture_voting = yes }
+			non_accepted_pop_militancy_modifier = -0.01
 		}
 		protected = {
 			rules = { all_voting = yes }

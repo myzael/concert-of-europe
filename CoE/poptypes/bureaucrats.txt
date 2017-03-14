@@ -49,6 +49,7 @@ everyday_needs = {
 	steel = 4
 	cement = 4
 	machine_parts = 1
+	glass = 0.5
 	lumber = 4
 	sugar = 15
 	pharmaceuticals = 10

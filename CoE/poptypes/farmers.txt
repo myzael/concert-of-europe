@@ -26,6 +26,7 @@ everyday_needs = {
 	bronze = 1
 	cement = 2
 	machine_parts = 0.5
+	glass = 0.25
 	lumber = 2
 	sugar = 10
 	tea = 10

@@ -25898,14 +25898,14 @@
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 48876
 		culture = north_german
 		religion = protestant
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 879
 		culture = north_german

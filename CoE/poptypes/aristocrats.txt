@@ -22,11 +22,12 @@ life_needs = {
 }
 everyday_needs = {
 	horses = 10	
-	bronze = 10
-	steel = 10
+	bronze = 8
+	steel = 8
+	cement = 8
+	machine_parts = 2
 	sugar = 25
 	spices = 25
-	cement = 25
 	coffee = 25
 	tea = 25
 	glass = 5

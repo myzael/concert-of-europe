@@ -39,8 +39,10 @@ life_needs = {
 	canned_food = 6
 }
 everyday_needs = {
-	steel = 10
-	bronze = 10
+	bronze = 2
+	steel = 4
+	cement = 4
+	machine_parts = 1
 	sugar = 15
 	pharmaceuticals = 10
 	print = 20
@@ -52,7 +54,6 @@ everyday_needs = {
 	cigarettes = 10
 	shoes = 10
 	electric_power = 20
-
 }
 luxury_needs = {
 	boots = 20

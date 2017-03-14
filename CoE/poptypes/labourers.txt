@@ -23,19 +23,21 @@ life_needs = {
 }
 
 everyday_needs = {
-	iron = 2
-	copper = 1
-	coal = 1
+	steel = 2
+	bronze = 1
+	cement = 2
+	machine_parts = 1
 	sugar = 10
 	tea = 10
-	cement = 1
-	liquor = 6
-	regular_clothes = 5
-	furniture = 2
+	liquor = 5
+	regular_clothes = 8
+	furniture = 3
 	cigarettes = 3
 	shoes = 5
 	print = 3
-	explosives = 1
+	explosives = 2
+	pharmaceuticals = 1
+	electric_power = 5
 }
 luxury_needs = {
 	boots = 10
@@ -48,7 +50,7 @@ luxury_needs = {
 	cigars = 10
 	fuel = 10
 	radio = 10
-	electric_power = 15
+	electric_power = 10
 }
 
 

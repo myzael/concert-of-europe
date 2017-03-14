@@ -22,19 +22,21 @@ life_needs = {
 	canned_food = 6
 }
 everyday_needs = {
-	iron = 2
-	copper = 1
+	steel = 2
+	bronze = 1
+	cement = 2
+	machine_parts = 0.5
 	sugar = 10
-	coal = 1
 	tea = 10
-	cement = 1
-	liquor = 6
-	regular_clothes = 5
-	furniture = 2
+	liquor = 5
+	regular_clothes = 8
+	furniture = 3
 	cigarettes = 3
 	shoes = 5
 	print = 3
 	fertilizer = 5
+	pharmaceuticals = 1
+	electric_power = 5
 }
 luxury_needs = {
 	boots = 10
@@ -47,7 +49,7 @@ luxury_needs = {
 	cigars = 10
 	fuel = 10
 	radio = 10
-	electric_power = 15
+	electric_power = 10
 }
 
 country_migration_target =

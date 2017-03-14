@@ -3,7 +3,7 @@
 
 factory_template = {
 	efficiency = {
-		cement = 6 #if no coal, work at 75% efficiency  total cost £50
+		coal = 6 #if no coal, work at 75% efficiency  total cost £50
 	}
 
 	owner =
@@ -32,7 +32,7 @@ factory_template = {
 
 cheap_factory_template = {
 	efficiency = {
-		cement = 3 #if no coal, work at 75% efficiency  total cost £24
+		coal = 3 #if no coal, work at 75% efficiency  total cost £24
 	}
 
 	owner =
@@ -61,7 +61,7 @@ cheap_factory_template = {
 
 cement_factory_template = {
 	efficiency = {
-		machine_parts = 1  #if no coal, work at 75% efficiency  total cost £20
+		coal = 1  #if no coal, work at 75% efficiency  total cost £20
 	}
 
 	owner =
@@ -113,9 +113,9 @@ bank_template = {
 
 modern_factory_template = {
 	efficiency = {
-		cement = 4 #if no cement, work at 75% efficiency    total cost £98
-		electric_power = 8
-		machine_parts = 1
+		cement = 0 #if no cement, work at 75% efficiency    total cost £98
+		electric_power = 10
+		machine_parts = 0
 		financial_services = 1
 	}
 
@@ -1605,7 +1605,7 @@ cattle_ranch = {
 coal_mine = {
 	template = RGO_template_labourers
 	output_goods = coal
-	value = 1.5
+	value = 3
 	mine = yes
 }
 
@@ -1619,7 +1619,7 @@ coffee_plantation = {
 copper_mine = {
 	template = RGO_template_labourers
 	output_goods = copper
-	value = 2
+	value = 4
 	mine = yes
 }
 
@@ -1654,14 +1654,14 @@ grain_farm = {
 iron_mine = {
 	template = RGO_template_labourers
 	output_goods = iron
-	value = 1.25
+	value = 2.5
 	mine = yes
 }
 
 lead_mine = {
 	template = RGO_template_labourers
 	output_goods = lead
-	value = 1.5
+	value = 3
 	mine = yes
 }
 
@@ -1731,7 +1731,7 @@ sugar_plantation = {
 sulphur_mine = {
 	template = RGO_template_labourers
 	output_goods = sulphur
-	value = 1.5
+	value = 3
 	mine = yes
 }
 

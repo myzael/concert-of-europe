@@ -7,7 +7,7 @@ factory_template = {
 		cement = 2
 		steel = 2.5
 		machine_parts = 1
-		glass = 0.1
+		glass = 0.2
 	}
 
 	owner =
@@ -40,7 +40,7 @@ cheap_factory_template = {
 		cement = 1
 		steel = 1.25
 		machine_parts = 0.5
-		glass = 0.05
+		glass = 0.1
 	}
 
 	owner =
@@ -72,7 +72,7 @@ cement_factory_template = {
 		coal = 1  #if no coal, work at 75% efficiency  total cost £20
 		steel = 1.25
 		machine_parts = 0.5
-		glass = 0.05
+		glass = 0.1
 	}
 
 	owner =
@@ -130,7 +130,7 @@ modern_factory_template = {
 		machine_parts = 1
 		electric_power = 10
 		financial_services = 1
-		glass = 0.1
+		glass = 0.2
 	}
 
 	owner =

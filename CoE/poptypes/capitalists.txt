@@ -30,6 +30,7 @@ everyday_needs = {
 	bronze = 100
 	cement = 100
 	machine_parts = 100
+	lumber = 100
 	spices = 100
 	print = 100
 	sugar = 100

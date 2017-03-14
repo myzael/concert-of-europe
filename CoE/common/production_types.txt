@@ -1619,7 +1619,7 @@ coffee_plantation = {
 copper_mine = {
 	template = RGO_template_labourers
 	output_goods = copper
-	value = 4
+	value = 3.5
 	mine = yes
 }
 
@@ -1661,7 +1661,7 @@ iron_mine = {
 lead_mine = {
 	template = RGO_template_labourers
 	output_goods = lead
-	value = 3
+	value = 3.5
 	mine = yes
 }
 

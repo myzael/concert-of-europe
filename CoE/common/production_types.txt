@@ -523,9 +523,7 @@ luxury_furniture_factory = {
 machine_parts_factory = {
 	template = factory_template	#24
 	input_goods = {
-		bronze = 10		#90
-		steel = 10
-		iron= 10
+		bronze = 30		#90
 		coal = 24			#84
 
 	}

@@ -4,7 +4,7 @@ country_event = {
 	title = "EVTNAME16000"
 	desc = "EVTDESC16000"
 	major = yes
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -32,11 +32,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 12
 	}
-	
+
 	option = {
 		name = "EVTOPTA16000"
 		clr_country_flag = the_slavery_debate
@@ -75,7 +75,7 @@ country_event = {
 		}
 		capital = 220
 	}
-	
+
 	option = {
 		name = "EVTOPTB16000"
 		clr_country_flag = the_slavery_debate
@@ -138,7 +138,7 @@ country_event = {
 	news_desc_short = "EVTDESC16001_NEWS_SHORT"
 	fire_only_once = yes
 	picture = "Slaves"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -149,7 +149,7 @@ country_event = {
 			has_country_flag = house_gag_rule_enacted
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 20
 		modifier = {
@@ -163,7 +163,7 @@ country_event = {
 			year = 1850
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16001"
 		add_country_modifier = {
@@ -179,7 +179,7 @@ country_event = {
 	title = "Gag Rule under scrutiny!"
 	desc = "There is a significant element in the House of Representatives seeking to repeal the gag rule."
 	picture = "Slaves"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -194,11 +194,11 @@ country_event = {
 			has_global_flag = american_civil_was_has_happened
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 50
 	}
-	
+
 	option = {
 		name = "Repeal the gag rule"
 		set_country_flag = house_gag_rule_repealed
@@ -210,7 +210,7 @@ country_event = {
 				any_pop = {
 					consciousness = 2
 				}
-			}		
+			}
 	}
 	option = {
 		name = "No abolitionist nonsense for us!"
@@ -267,20 +267,20 @@ country_event = {
 	title = "EVTNAME16005"
 	desc = "EVTDESC16005"
 	picture = "sumter"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
 		exists = CSA
 		NOT = { has_global_flag = american_civil_war_has_happened }
 	}
-	
+
 	fire_only_once = yes
-	
+
 	mean_time_to_happen = {
 		months = 2
 	}
-	
+
 	option = {
 		name = "The Rebels leave us with no choice."
 		release_vassal = CSA
@@ -308,9 +308,9 @@ country_event = {
 	title = "EVTNAME16005"
 	desc = "EVTDESC16005"
 	picture = "sumter"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "The Federals leave us with no choice."
 		add_country_modifier = {
@@ -326,7 +326,7 @@ country_event = {
 	title = "Death of John Brown"
 	desc = "EVTDESC16010"
 	picture = "Execution"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -346,7 +346,7 @@ country_event = {
 			value = 0.2
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 10
 		modifier = {
@@ -367,7 +367,7 @@ country_event = {
 			year = 1860
 		}
 	}
-	
+
 	option = {
 		name = "A murderer and a traitor he was, let him hang!"
 		set_country_flag = john_browns_raid
@@ -408,7 +408,7 @@ country_event = {
 	news_desc_short = "EVTDESC16020_NEWS_SHORT"
 	picture = "danishgovernment"
 	major = yes
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -428,7 +428,7 @@ country_event = {
 			value = 0.15
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 10
 		modifier = {
@@ -453,7 +453,7 @@ country_event = {
 			has_country_flag = john_browns_raid
 		}
 	}
-	
+
 	option = {
 		name = "Find for Sanford"
 		set_country_flag = dred_scott_decision
@@ -492,7 +492,7 @@ country_event = {
 	title = "EVTNAME16030"
 	desc = "EVTDESC16030"
 	picture = "Lola"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -501,7 +501,7 @@ country_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 30
 		modifier = {
@@ -519,7 +519,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16030"
 		random_state = {
@@ -532,10 +532,10 @@ country_event = {
 			}
 			capitalists = {
 				consciousness = 2
-			}	
+			}
 		}
 	}
-	
+
 	option = {
 		name  = "EVTOPTB16030"
 		random_state = {
@@ -559,7 +559,7 @@ country_event = {
 	title = "EVTNAME16040"
 	desc = "EVTDESC16040"
 	picture = "Utopia"
-	
+
 	trigger = {
 		tag = USA
 		any_state = {
@@ -570,7 +570,7 @@ country_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 800
 		modifier = {
@@ -588,7 +588,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16040"
 		random_state = {
@@ -609,7 +609,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB16040"
 		random_state = {
@@ -656,7 +656,7 @@ country_event = {
 	title = "EVTNAME16050"
 	desc = "EVTDESC16050"
 	picture = "dixie"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -669,7 +669,7 @@ country_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 800
 		modifier = {
@@ -687,7 +687,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16050"
 		random_state = {
@@ -711,7 +711,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB16050"
 		random_state = {
@@ -735,7 +735,7 @@ country_event = {
 	title = "EVTNAME16060"
 	desc = "EVTDESC16060"
 	picture = "yankee"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -748,7 +748,7 @@ country_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 800
 		modifier = {
@@ -766,7 +766,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16060"
 		random_state = {
@@ -787,7 +787,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB16060"
 		random_state = {
@@ -811,7 +811,7 @@ country_event = {
 	title = "EVTNAME16070"
 	desc = "EVTDESC16070"
 	picture = "Metis"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -820,7 +820,7 @@ country_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 24
 		modifier = {
@@ -838,7 +838,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16070"
 		random_state = {
@@ -860,7 +860,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB16070"
 		random_state = {
@@ -904,7 +904,7 @@ country_event = {
 	title = "EVTNAME16080"
 	desc = "EVTDESC16080"
 	picture = "prisonworkers"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -917,7 +917,7 @@ country_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 800
 		modifier = {
@@ -935,7 +935,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16080"
 		random_state = {
@@ -952,7 +952,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB16080"
 		random_state = {
@@ -979,7 +979,7 @@ province_event = {
 	id = 16090
 	title = "Clans Organize"
 	desc = "EVTDESC16090"
-	
+
 	trigger = {
 		owner = {
 			tag = USA
@@ -999,7 +999,7 @@ province_event = {
 			has_province_modifier = knights_of_the_golden_circle
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2400
 		modifier = {
@@ -1017,7 +1017,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16090"
 		state_scope = {
@@ -1042,7 +1042,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB16090"
 		state_scope = {
@@ -1058,7 +1058,7 @@ province_event = {
 	id = 16100
 	title = "EVTNAME16100"
 	desc = "EVTDESC16100"
-	
+
 	trigger = {
 		owner = {
 			tag = USA
@@ -1078,7 +1078,7 @@ province_event = {
 			has_province_modifier = american_anti_slavery_society
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2400
 		modifier = {
@@ -1096,7 +1096,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16100"
 		state_scope = {
@@ -1140,7 +1140,7 @@ country_event = {
 	title = "EVTNAME16110"
 	desc = "EVTDESC16110"
 	picture = "Slaves"
-	
+
 	trigger = {
 		tag = USA
 		slavery = yes_slavery
@@ -1152,7 +1152,7 @@ country_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 800
 		modifier = {
@@ -1170,7 +1170,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16110"
 		random_state = {
@@ -1187,7 +1187,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB16110"
 		any_state = {
@@ -1215,7 +1215,7 @@ country_event = {
 	title = "EVTNAME16120"
 	desc = "EVTDESC16120"
 	picture = "Liberator"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -1242,7 +1242,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16120"
 		random_state = {
@@ -1280,7 +1280,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB16120"
 		random_state = {
@@ -1342,13 +1342,13 @@ country_event = {
 	}
 }
 
-#Fugitive Slave 
+#Fugitive Slave
 country_event = {
 	id = 16130
 	title = "EVTNAME16130"
 	desc = "EVTDESC16130"
 	picture = "Slaves"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -1358,7 +1358,7 @@ country_event = {
 			has_country_flag = fugitive_slave_act_enacted
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 30
 		modifier = {
@@ -1380,7 +1380,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16130"
 		random_state = {
@@ -1423,7 +1423,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB16130"
 		any_state = {
@@ -1450,7 +1450,7 @@ country_event = {
 	title = "EVTNAME16140"
 	desc = "EVTDESC16140"
 	picture = "Liberator"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -1459,7 +1459,7 @@ country_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 30
 		modifier = {
@@ -1477,7 +1477,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16140"
 		random_state = {
@@ -1493,7 +1493,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB16140"
 		random_state = {
@@ -1541,14 +1541,14 @@ country_event = {
 	title = "EVTNAME16150"
 	desc = "EVTDESC16150"
 	picture = "AnarchoLiberals"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
 		slavery = yes_slavery
 		NOT = { has_global_flag = american_civil_war_has_happened }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 30
 		modifier = {
@@ -1566,7 +1566,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16150"
 		random_state = {
@@ -1624,7 +1624,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB16150"
 		random_state = {
@@ -1681,7 +1681,7 @@ country_event = {
 	title = "EVTNAME16160"
 	desc = "EVTDESC16160"
 	picture = "Liberator"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -1694,7 +1694,7 @@ country_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 800
 		modifier = {
@@ -1712,7 +1712,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16160"
 		any_state = {
@@ -1754,7 +1754,7 @@ country_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 800
 		modifier = {
@@ -1772,7 +1772,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16170"
 		any_state = {
@@ -1799,7 +1799,7 @@ province_event = {
 	id = 16180
 	title = "EVTNAME16180"
 	desc = "EVTDESC16180"
-	
+
 	trigger = {
 		owner = {
 			tag = USA
@@ -1818,15 +1818,15 @@ province_event = {
 			has_province_modifier = free_staters
 		}
 		any_neighbor_province = {
-			state_scope = { 
-				OR = { 
+			state_scope = {
+				OR = {
 					is_slave = no
 					is_colonial = yes
 				}
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 240
 		modifier = {
@@ -1840,7 +1840,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16180"
 		state_scope = {
@@ -1858,7 +1858,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB16180"
 		owner = {
@@ -1880,7 +1880,7 @@ province_event = {
 	id = 16190
 	title = "EVTNAME16190"
 	desc = "EVTDESC16190"
-	
+
 	trigger = {
 		owner = {
 			tag = USA
@@ -1899,15 +1899,15 @@ province_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 		any_neighbor_province = {
-			state_scope = { 
-				OR = { 
+			state_scope = {
+				OR = {
 					is_slave = no
 					is_colonial = yes
 				}
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 360
 		modifier = {
@@ -1915,7 +1915,7 @@ province_event = {
 			has_province_modifier = free_staters
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16190"
 		state_scope = {
@@ -1933,7 +1933,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB16190"
 		owner = {
@@ -1955,7 +1955,7 @@ province_event = {
 	id = 16200
 	title = "EVTNAME16200"
 	desc = "EVTDESC16200"
-	
+
 	trigger = {
 		owner = {
 			tag = USA
@@ -1969,11 +1969,11 @@ province_event = {
 			has_country_flag = bleeding_kansas
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 12
 	}
-	
+
 	option = {
 		name = "EVTOPTA16200"
 		remove_province_modifier = border_ruffians
@@ -2003,7 +2003,7 @@ province_event = {
 	id = 16210
 	title = "EVTNAME16210"
 	desc = "EVTDESC16210"
-	
+
 	trigger = {
 		owner = {
 			tag = USA
@@ -2015,11 +2015,11 @@ province_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 30
 	}
-	
+
 	option = {
 		name = "EVTOPTA14210"
 		any_pop = {
@@ -2034,7 +2034,7 @@ province_event = {
 	id = 16220
 	title = "EVTNAME16220"
 	desc = "EVTDESC16220"
-	
+
 	trigger = {
 		owner = {
 			tag = USA
@@ -2050,7 +2050,7 @@ province_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 400
 		modifier = {
@@ -2060,7 +2060,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16220"
 		owner = {
@@ -2083,7 +2083,7 @@ province_event = {
 	id = 16230
 	title = "EVTNAME16230"
 	desc = "EVTDESC16230"
-	
+
 	trigger = {
 		owner = {
 			tag = USA
@@ -2095,10 +2095,10 @@ province_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 200
-		
+
 		modifier = {
 			factor = 0.9
 			average_consciousness = 4
@@ -2114,7 +2114,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16230"
 		remove_province_modifier = free_staters
@@ -2129,7 +2129,7 @@ province_event = {
 	id = 16240
 	title = "EVTNAME16240"
 	desc = "EVTDESC16240"
-	
+
 	trigger = {
 		owner = {
 			tag = USA
@@ -2141,7 +2141,7 @@ province_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 200
 		modifier = {
@@ -2159,7 +2159,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16240"
 		remove_province_modifier = border_ruffians
@@ -2174,7 +2174,7 @@ province_event = {
 	id = 16250
 	title = "EVTNAME16250"
 	desc = "EVTDESC16250"
-	
+
 	trigger = {
 		NOT = { is_core = CSA }
 		OR = {
@@ -2204,7 +2204,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3
 		modifier = {
@@ -2224,7 +2224,7 @@ province_event = {
 			NOT = { average_consciousness = 4 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA16250"
 		owner = { prestige = -2 }
@@ -2250,7 +2250,7 @@ country_event = {
 	title = "EVTNAME16300"
 	desc = "EVTDESC16300"
 	picture = "Uncletom"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -2261,13 +2261,13 @@ country_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
-	
+
 	fire_only_once = yes
-	
+
 	mean_time_to_happen = {
 		months = 4
 	}
-	
+
 	option = {
 		name = "EVTOPTA16300"
 		any_pop = {
@@ -2307,7 +2307,7 @@ country_event = {
 	title = "EVTNAME16310"
 	desc = "EVTDESC16310"
 	picture = "Amistad"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -2318,13 +2318,13 @@ country_event = {
 			has_global_flag = american_civil_war_has_happened
 		}
 	}
-	
+
 	fire_only_once = yes
-	
+
 	mean_time_to_happen = {
 		months = 4
 	}
-	
+
 	option = {
 		name = "EVTOPTA16310"
 		any_pop = {
@@ -2346,7 +2346,7 @@ country_event = {
 	title = "EVTNAME16350" #Britain gets event of HMS Trent being captured by the USS San Jacinto
 	desc = "EVTDESC16350"
 	picture = "hms_trent"
-	
+
 	trigger = {
 		tag = ENG
 		is_greater_power = yes
@@ -2359,11 +2359,11 @@ country_event = {
 			has_global_flag = trent_affair_resolved
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 8
 	}
-	
+
 	option = {
 		name = "The United States must answer for this!"
 		set_global_flag = trent_affair_begun
@@ -2387,9 +2387,9 @@ country_event = {
 	id = 16351
 	title = "EVTNAME16350" #USA decides whether to accept the British demands
 	desc = "EVTDESC16351"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "We will apologize and release the envoys. This mustn't come to war."
 		prestige = -20
@@ -2418,7 +2418,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "All is fair in war!"
 		prestige = 5
@@ -2451,9 +2451,9 @@ country_event = {
 	title = "EVTNAME16350" #UK reaction event - USA apologizes
 	desc = "EVTDESC16352"
 	picture = "hms_trent"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "Another victory for England!"
 		set_global_flag = trent_affair_resolved
@@ -2469,9 +2469,9 @@ country_event = {
 	desc = "EVTDESC16353"
 	picture = "hms_trent"
 	major = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "They will regret this."
 		set_global_flag = trent_affair_resolved
@@ -2495,9 +2495,9 @@ country_event = {
 	title = "EVTNAME16350" #CSA reacts to the USA giving in to the British
 	desc = "EVTDESC16354"
 	picture = "hms_trent"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "Not what we were hoping for..."
 	}
@@ -2508,9 +2508,9 @@ country_event = {
 	title = "EVTNAME16350" #CSA reacts to the British declaration of war
 	desc = "EVTDESC16355"
 	picture = "hms_trent"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "Excellent news for Dixie!"
 	}
@@ -2523,10 +2523,11 @@ country_event = {
 	title = "EVTNAME16400"
 	desc = "EVTDESC16400"
 	picture = "Administration"
-	
+
 	is_triggered_only = yes
+	allow_multiple_instances = yes #Might fix the issue with this thing, if it does I will impliment this with the access thing too
 	major = yes
-	
+
 	option = {
 		name = "EVTOPTA16400"
 		FROM = {
@@ -2554,7 +2555,7 @@ country_event = {
 			factor = 100
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB16400"
 		relation = {
@@ -2572,10 +2573,10 @@ country_event = {
 	title = "EVTNAME16405"
 	desc = "EVTDESC16405"
 	picture = "Expansion"
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	option = {
 		name = "We will claim everything from Texas westward!"
 		badboy = 15
@@ -2628,7 +2629,7 @@ country_event = {
 			factor = 90
 		}
 	}
-	
+
 	option = {
 		name = "We will claim everything from the deserts of Sonora and Chihuahua northward!"
 		badboy = 25
@@ -2695,10 +2696,10 @@ country_event = {
 	title = "EVTNAME16405"
 	desc = "EVTDESC16406"
 	picture = "Expansion"
-	
+
 	is_triggered_only = yes
 	major = yes
-	
+
 	option = {
 		name = "We will claim everything from Kansas westward!"
 		badboy = 10
@@ -2745,7 +2746,7 @@ country_event = {
 			factor = 100
 		}
 	}
-	
+
 	option = {
 		name = "We will claim everything from Texas westward!"
 		badboy = 25
@@ -2806,7 +2807,7 @@ country_event = {
 	title = "EVTNAME16410"
 	desc = "EVTDESC16410"
 	picture = "Anaconda"
-	
+
 	trigger = {
 		has_country_modifier = anaconda_plan
 		OR = {
@@ -2816,11 +2817,11 @@ country_event = {
 			war = no
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "EVTOPTA16410"
 		remove_country_modifier = anaconda_plan
@@ -2834,7 +2835,7 @@ country_event = {
 	desc = "EVTDESC16415"
 	fire_only_once = yes
 	picture = "kkk"
-	
+
 	trigger = {
 		tag = USA
 		exists = yes
@@ -2845,11 +2846,11 @@ country_event = {
 		owns = 195
 		owns = 139
 	}
-	
+
 	mean_time_to_happen = {
 		months = 30
 	}
-	
+
 	option = {
 		name = "EVTOPTA16415"
 		set_country_flag = kkk
@@ -2875,7 +2876,7 @@ country_event = {
 	title = "EVTNAME16420"
 	desc = "EVTDESC16420"
 	picture = "Sioux"
-	
+
 	trigger = {
 		owns = 122
 		has_country_flag = custers_expedition_sent
@@ -2886,11 +2887,11 @@ country_event = {
 			has_country_flag = sioux_wars
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 12
 	}
-	
+
 	option = {
 		name = "EVTOPTA16420"
 		any_pop = {
@@ -2909,16 +2910,16 @@ country_event = {
 	desc = "EVTDESC16430"
 	picture = "sittingbull"
 	fire_only_once = yes
-	
+
 	trigger = {
 		has_country_flag = sioux_wars
 		NOT = { has_country_flag = sioux_wars_over }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 12
 	}
-	
+
 	option = {
 		name = "EVTOPTA16430"
 		prestige = -5
@@ -2940,16 +2941,16 @@ country_event = {
 	desc = "EVTDESC16430"
 	picture = "sittingbull"
 	fire_only_once = yes
-	
+
 	trigger = {
 		has_country_flag = sioux_wars
 		num_of_revolts = 0
 	}
-	
+
 	mean_time_to_happen = {
 		months = 50
 	}
-	
+
 	option = {
 		name = "EVTOPTA16430"
 		any_pop = {
@@ -2971,7 +2972,7 @@ country_event = {
 	title = "EVTNAME16440"
 	desc = "EVTDESC16440"
 	picture = "Sioux"
-	
+
 	trigger = {
 		owns = 105
 		year = 1840
@@ -2984,11 +2985,11 @@ country_event = {
 			has_country_flag = apache_wars
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
-	
+
 	option = {
 		name = "EVTOPTA16440"
 		105 = {
@@ -3018,18 +3019,18 @@ province_event = {
 	title = "Apache Raiders"
 	desc = "Local native groups are raiding our settlements in $PROVINCENAME$"
 	picture = "Sioux"
-	
+
 	trigger = {
 		is_colonial = yes
 		has_country_flag = apache_wars
 		has_pop_culture = native_american_minor
 		not = { has_country_flag = apache_wars_over }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 200
 	}
-	
+
 	option = {
 		name = "Blast them!"
 		state_scope = {
@@ -3055,17 +3056,17 @@ country_event = {
 	desc = "EVTDESC16450"
 	picture = "geronimo"
 	fire_only_once = yes
-	
+
 	trigger = {
 		exists = yes
 		year = 1886
 		has_country_flag = apache_wars
 	}
-	
+
 	mean_time_to_happen = {
 		months = 96
 	}
-	
+
 	option = {
 		name = "EVTOPTA16450"
 		any_pop = {
@@ -3087,14 +3088,14 @@ country_event = {
 	title = "EVTNAME16451"
 	desc = "EVTDESC16451"
 	picture = "dixie"
-	
+
  	trigger = {
 		tag = TEX
 		exists = yes
 	}
-	
+
 	fire_only_once = yes
-	
+
 	option = {
 		name = "EVTOPTA1206" #Ok
 		small_arms = 100

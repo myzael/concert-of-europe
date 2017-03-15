@@ -3473,22 +3473,22 @@ liberal = {
 			modifier = {
 				factor = 1.01
 				everyday_needs = 0.8
-				pollution = trinket_envir
+				land_property = landed_estates
 			}
 			modifier = {
 				factor = 1.02
 				everyday_needs = 0.8
-				pollution = low_envir
+				land_property = land_purchase
 			}
 			modifier = {
 				factor = 1.03
 				everyday_needs = 0.8
-				pollution = acceptable_envir
+				land_property = commoners_properties
 			}
 			modifier = {
 				factor = 1.04
 				everyday_needs = 0.8
-				pollution = good_envir
+				land_property = collectivization
 			}
 	}
 }

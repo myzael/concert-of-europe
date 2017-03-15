@@ -1086,7 +1086,7 @@ guiTypes = {
 			}
 			
 		windowType = {
-			name = "pollution"
+			name = "land_property"
 			backGround =""
 			position = { x = 530 y = 262 }
 			size = { x=310 y=100 }

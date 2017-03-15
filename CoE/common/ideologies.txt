@@ -253,6 +253,10 @@ conservative_group = {
 					social_movement_strength = 0.9
 				}
 			}
+			modifier = {
+				factor = -0.2
+                government = absolute_monarchy
+			}
 
 		}
 		remove_social_reform = {

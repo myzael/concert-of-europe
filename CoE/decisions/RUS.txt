@@ -288,6 +288,7 @@ political_decisions = {
 			badboy = -4
 			years_of_research = 1
 			set_country_flag = serfdom_abolished
+            social_reform = landed_estates
 		}
 	}
 	establish_the_sovnarkom = {

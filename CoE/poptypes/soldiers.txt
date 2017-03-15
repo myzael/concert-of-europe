@@ -6693,14 +6693,14 @@ trinket_subsidies = {
 			luxury_needs = 0.75
 		}
 	}
-	trinket_envir = { 
+	landed_estates = { 
 		factor = 1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = { consciousness = 7 }
 				NOT = {
-					is_next_reform = trinket_envir
+					is_next_reform = landed_estates
 				}
 				country = {	civilized = no }
 				NOT = { is_ideology_enabled = socialist }
@@ -6747,14 +6747,14 @@ trinket_subsidies = {
 			luxury_needs = 0.75
 		}
 	}
-		low_envir = { 
+		land_purchase = { 
 		factor = 1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = { consciousness = 7 }
 				NOT = {
-					is_next_reform = low_envir
+					is_next_reform = land_purchase
 				}
 				country = {	civilized = no }
 				NOT = { is_ideology_enabled = socialist }
@@ -6801,14 +6801,14 @@ trinket_subsidies = {
 			luxury_needs = 0.75
 		}
 	}
-		acceptable_envir = { 
+		commoners_properties = { 
 		factor = 1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = { consciousness = 7 }
 				NOT = {
-					is_next_reform = acceptable_envir
+					is_next_reform = commoners_properties
 				}
 				country = {	civilized = no }
 				NOT = { is_ideology_enabled = socialist }
@@ -6855,14 +6855,14 @@ trinket_subsidies = {
 			luxury_needs = 0.75
 		}
 	}
-		good_envir = { 
+		collectivization = { 
 		factor = 1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = { consciousness = 7 }
 				NOT = {
-					is_next_reform = good_envir
+					is_next_reform = collectivization
 				}
 				country = {	civilized = no }
 				NOT = { is_ideology_enabled = socialist }

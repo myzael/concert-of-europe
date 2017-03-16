@@ -431,7 +431,7 @@ factor = 0.5
 colonialmigration_chance = {
 	factor = 0.2
 	modifier = {
-		factor = -10
+		factor = -0.1
 		is_accepted_culture = no
 	}
 	modifier = {

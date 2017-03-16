@@ -841,8 +841,8 @@ guiTypes = {
 			fullScreen = no
 			
 				iconType = {
-				name = "politics_polparties"
-				spriteType = "GFX_politics_polparties"
+				name = "politics_army_training"
+				spriteType = "GFX_politics_army_training"
 				position = { x= 11 y = 6 } #WAS { x= 7 y = 8 }
 				Orientation = "UPPER_LEFT"
 					}
@@ -1069,8 +1069,8 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-					 name = "politics_school"
-					 spriteType = "GFX_politics_school"
+				     name = "politics_education_reform"
+				     spriteType = "GFX_politics_education_reform"
 					 position = { x= 7 y = 7 }
 					 Orientation = "UPPER_LEFT"
 				 }
@@ -1097,8 +1097,8 @@ guiTypes = {
 			fullScreen = no
 			
 			iconType = {
-			 name = "politics_healthcare"
-			 spriteType = "GFX_politics_healthcare"
+			 name = "politics_finance_reform"
+			 spriteType = "GFX_politics_finance_reform"
 			 position = { x= 10 y = 6 } #WAS { x= 7 y = 7 }
 			 Orientation = "UPPER_LEFT"
 		 }
@@ -1125,8 +1125,8 @@ guiTypes = {
 			fullScreen = no
 			
 			iconType = {
-			 name = "politics_healthcare"
-			 spriteType = "GFX_politics_healthcare"
+			 name = "politics_school"
+			 spriteType = "GFX_politics_school"
 			 position = { x= 10 y = 6 } #WAS { x= 7 y = 7 }
 			 Orientation = "UPPER_LEFT"
 		 }
@@ -1153,8 +1153,8 @@ guiTypes = {
 			fullScreen = no
 			
 			iconType = {
-			 name = "politics_healthcare"
-			 spriteType = "GFX_politics_healthcare"
+			 name = "politics_industrial_construction"
+			 spriteType = "GFX_politics_industrial_construction"
 			 position = { x= 10 y = 6 } #WAS { x= 7 y = 7 }
 			 Orientation = "UPPER_LEFT"
 		 }

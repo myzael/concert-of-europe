@@ -727,6 +727,7 @@ social_reforms = {
 	land_property = {
 		next_step_only = yes
 		serfdom = {
+		mobilisation_size = -0.02
 	    farm_RGO_eff = 0.50
 		education_efficiency_modifier = -0.3
 		factory_output = -0.2
@@ -735,6 +736,7 @@ social_reforms = {
 		 }		
 		}
 		landed_estates = {
+		mobilisation_size = -0.01
 	    farm_RGO_eff = 0.25
 		education_efficiency_modifier = -0.15
     	political_reform_desire = -0.05

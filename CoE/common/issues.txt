@@ -728,19 +728,27 @@ social_reforms = {
 		next_step_only = yes
 		serfdom = {
 		mobilisation_size = -0.02
+		unit_start_experience = -5
 	    farm_RGO_eff = 0.50
 		education_efficiency_modifier = -0.3
 		factory_output = -0.2
+		poor_life_needs = -0.2
+		poor_everyday_needs = -0.2
+        poor_luxury_needs = -0.2	
 		 allow = {
 			always = no
 		 }		
 		}
 		landed_estates = {
 		mobilisation_size = -0.01
+		unit_start_experience = -2.5
 	    farm_RGO_eff = 0.3
 		education_efficiency_modifier = -0.15
-    	political_reform_desire = -0.05
+    	political_reform_desire = -0.025
 		factory_output = -0.1
+		poor_life_needs = -0.1
+		poor_everyday_needs = -0.1
+        poor_luxury_needs = -0.1	
 		 allow = {
 			always = no
 		 }
@@ -748,7 +756,10 @@ social_reforms = {
 		land_purchase = {
 		factory_output = 0.05
 		mine_rgo_eff = 0.1
-        political_reform_desire = -0.1
+        political_reform_desire = -0.05
+		poor_life_needs = 0.1
+		poor_everyday_needs = 0.1
+        poor_luxury_needs = 0.1	
 		 allow = {
 			always = no
 		 }
@@ -756,19 +767,23 @@ social_reforms = {
 		commoners_properties = {
 	    farm_RGO_eff = 0.20
 		education_efficiency_modifier = 0.15
-        political_reform_desire = -0.1
+        political_reform_desire = -0.05
 		social_reform_desire = -0.05
 		 allow = {
 			always = no
 		 }
 		}
 		collectivization = {
+		mobilisation_size = 0.01
 		farm_RGO_eff = -0.2
 		mine_rgo_eff = 0.2
 		factory_output = 0.1
 		education_efficiency_modifier = 0.3
-        political_reform_desire = -0.1
+        political_reform_desire = -0.05
 		social_reform_desire = -0.1
+		poor_life_needs = 0.30
+		poor_everyday_needs = 0.30
+        poor_luxury_needs = 0.30		
 		 allow = {
 			always = no
 		 }

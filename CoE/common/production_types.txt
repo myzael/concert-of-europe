@@ -1767,7 +1767,7 @@ tea_plantation = {
 timber_lodge = {
 	template = RGO_template_labourers
 	output_goods = timber
-	value = 5
+	value = 6
 	mine = yes
 }
 

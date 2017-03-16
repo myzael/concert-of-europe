@@ -737,7 +737,7 @@ social_reforms = {
 		}
 		landed_estates = {
 		mobilisation_size = -0.01
-	    farm_RGO_eff = 0.25
+	    farm_RGO_eff = 0.3
 		education_efficiency_modifier = -0.15
     	political_reform_desire = -0.05
 		factory_output = -0.1

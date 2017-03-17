@@ -38,7 +38,7 @@ restore_armenia_TUR_desc;We returned our Armenian lands and should restore their
 byzantine_levant_title;Byzantine Levant;;;;;;;;;;;;;x
 byzantine_levant_desc;Levant is ours and its province names should be restored to respective old names.;;;;;;;;;;;;x;
 restore_levant_title;Restore Levant;;;;;;;;;;;;;x
-reastore_levant_desc;Levant is returned and the names of its provinces should be restored.;;;;;;;;;;;;x;
+restore_levant_desc;Levant is returned and the names of its provinces should be restored.;;;;;;;;;;;;x;
 byzantine_egypt_title;Byzanine Egypt;;;;;;;;;;;;;x
 byzantine_egypt_desc;Aegyptus has been returned and should be assigned proper province names of old.;;;;;;;;;;;;x;
 byzantine_cyrenaica_title;Byzantine Cyrenaica;;;;;;;;;;;;;x

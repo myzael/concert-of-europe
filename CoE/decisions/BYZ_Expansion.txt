@@ -785,7 +785,7 @@ accept_armenians = {
 # Greek names are courtesy of dherve10 #
 ########################################
 
-rename_anatolia = {
+byzantine_anatolia = {
 	potential = {
 		tag = BYZ
 		OR = {
@@ -1001,6 +1001,7 @@ byzantine_armenia = {
 		owns = 893  #Diyarbakir
 		owns = 885  #Kars
 		owns = 1098 #Erivan
+		owns = 1099 #Gyumri
 		war = no
 	}
 	effect = {
@@ -1172,7 +1173,7 @@ byzantine_levant = {
 			state_scope = { change_region_name = "Damascus" }
 		}
 		915 = {
-			state_scope = { change_province_name = "Phoenice" }
+			state_scope = { change_region_name = "Phoenice" }
 		}
 		914 = {
 			change_province_name = "Tyrus"
@@ -1190,11 +1191,9 @@ byzantine_levant = {
 		917 = {
 			change_province_name = "Hierosolyma"
 		}
-		910 = {
-			state_scope = { change_region_name = "Arabia"}
-		}
 		922 = {
 			change_province_name = "Kerak"
+			state_scope = { change_region_name = "Arabia"}
 		}
 		911 = {
 			change_province_name = "Bostra"
@@ -1266,11 +1265,9 @@ restore_levant = {
 		917 = {
 			change_province_name = "Jerusalem"
 		}
-		910 = {
-			state_scope = { change_region_name = "Jordan"}
-		}
 		922 = {
 			change_province_name = "Akkaba"
+			state_scope = { change_region_name = "Jordan"}
 		}
 		911 = {
 			change_province_name = "Maan"

@@ -130,6 +130,7 @@ country_event = {
 	picture = "Expansion"
 	
 	trigger = {
+		tag = BYZ
 		war = no
 		has_global_flag = eastern_christian_protector_questioned
 		has_recently_lost_war = no
@@ -160,6 +161,7 @@ country_event = {
 	picture = "slaughter"
 	
 	trigger = {
+		tag = BYZ
 		war = no
 		has_global_flag = eastern_christian_protector_questioned
 		has_recently_lost_war = yes

@@ -1610,6 +1610,55 @@ country_event = {
 }
 
 country_event = {
+	id = 37299
+	title = "EVTNAME37299"
+	desc = "EVTDESC37299"
+	picture = "flagstaffwar"
+	
+	trigger = {
+		OR = {
+			year = 1839
+			year = 1849
+		}
+		tag = FRA
+		exists = yes
+		1972 = { empty = yes }
+		NOT = { has_country_flag = libreville }
+		NOT = { has_country_flag = left_libreville }
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = "Establish a proper colonial administration"
+		prestige = 2
+		random_owned = {
+			limit = {
+				1972 = { empty = yes }
+			}
+			1972 = {
+				secede_province = THIS
+			}
+		}
+		set_country_flag = libreville
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = "Leave them be"
+		prestige = -2
+		set_country_flag = left_libreville
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
 	id = 37300
 	title = "Luxembourg wants to join us"
 	desc = "Luxembourg has recently petitioned to join us as we now have become the dominant power in the region, should we accept or simply guarantee our friendship?"

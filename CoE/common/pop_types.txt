@@ -581,14 +581,18 @@ emigration_chance =
 		country = { immigration_policy = nobody_gets_out }
 	}
 	modifier = {
-		factor = -50
+		factor = -2
 		country = {
 			civilized = no
 		}
 	}
 	modifier = {
-		factor = -50
+		factor = -1
 		strata = poor
+		OR = {
+			is_primary_culture = yes
+			is_accepted_culture = yes
+		}
 		country = {
 			OR = {
 				government = fascist_dictatorship
@@ -605,6 +609,12 @@ emigration_chance =
 				government = proletarian_dictatorship
 			}
 		}
+	}
+	modifier = {
+		factor = 0.5
+		is_primary_culture = no
+		is_accepted_culture = no
+		country = { government = fascist_dictatorship }
 	}
 	modifier = {
 		factor = 3

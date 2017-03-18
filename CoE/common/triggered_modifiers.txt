@@ -667,102 +667,6 @@ memory_of_iberian_glory  = {
 	icon = 19
 }
 
-plurality_0_10 = {
-	trigger = {
-		not = { plurality = 10 }
-	}
-	global_pop_consciousness_modifier = 0.005
-	icon = 1
-}
-
-plurality_10_20 = {
-	trigger = {
-		plurality = 10
-		not = { plurality = 20 }
-	}
-	global_pop_consciousness_modifier = 0.01
-	icon = 1
-}
-
-plurality_20_30 = {
-	trigger = {
-		plurality = 20
-		not = { plurality = 30 }
-	}
-	global_pop_consciousness_modifier = 0.015
-	icon = 1
-}
-
-plurality_30_40 = {
-	trigger = {
-		plurality = 30
-		not = { plurality = 40 }
-	}
-	global_pop_consciousness_modifier = 0.02
-	icon = 1
-}
-
-plurality_40_50 = {
-	trigger = {
-		plurality = 40
-		not = { plurality = 50 }
-	}
-	global_pop_consciousness_modifier = 0.025
-	icon = 1
-}
-
-plurality_50_60 = {
-	trigger = {
-		plurality = 50
-		not = { plurality = 60 }
-	}
-	global_pop_consciousness_modifier = 0.03
-	icon = 1
-}
-
-plurality_60_70 = {
-	trigger = {
-		plurality = 60
-		not = { plurality = 70 }
-	}
-	global_pop_consciousness_modifier = 0.035
-	icon = 1
-}
-
-plurality_70_80 = {
-	trigger = {
-		plurality = 70
-		not = { plurality = 80 }
-	}
-	global_pop_consciousness_modifier = 0.04
-	icon = 1
-}
-
-plurality_80_90 = {
-	trigger = {
-		plurality = 80
-		not = { plurality = 90 }
-	}
-	global_pop_consciousness_modifier = 0.045
-	icon = 1
-}
-
-plurality_90_100 = {
-	trigger = {
-		plurality = 90
-	}
-	global_pop_consciousness_modifier = 0.05
-	icon = 1
-}
-
-#the_concert_of_europe = {
-#	trigger = {
-#		not = { year = 1840 }
-#	}
-#	global_pop_consciousness_modifier = -0.1
-#	icon = 1
-#}
-
 social_dissent = {
 	trigger = {
 		average_militancy = 1
@@ -770,7 +674,7 @@ social_dissent = {
 	}
 	global_pop_consciousness_modifier = 0.02
 	mobilisation_size = -0.005
-	issue_change_speed = 0.5
+	issue_change_speed = 0.3
 	icon = 2
 }
 
@@ -782,7 +686,7 @@ social_tensions = {
 	global_pop_consciousness_modifier = 0.04
 	mobilisation_size = -0.01
 	prestige = -0.05
-	issue_change_speed = 1.0
+	issue_change_speed = 0.6
 	icon = 1
 }
 
@@ -794,7 +698,7 @@ social_disorder = {
 	global_pop_consciousness_modifier = 0.06
 	mobilisation_size = -0.02
 	prestige = -0.1
-	issue_change_speed = 1.5
+	issue_change_speed = 1.2
 	icon = 1
 }
 

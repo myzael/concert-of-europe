@@ -909,7 +909,7 @@ promote_to =
 				}
 		}
 		modifier = {
-				factor = -5
+				factor = -10
 				state_scope = {
 				soldiers = 0.075
 				}

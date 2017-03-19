@@ -2206,7 +2206,7 @@ ideologies = {
 }
 
 	conservative = {
-		factor = 0.8
+		factor = 0.9
 		modifier = {
 			factor = 1.05
 			country = { 
@@ -2336,7 +2336,7 @@ ideologies = {
 	}
 	
 	socialist = {
-		factor = 0.5
+		factor = 0.3
 		modifier = {
 			factor = 1.05
 			country = { 

@@ -3519,7 +3519,7 @@ acquire_state = {
 		}
 		any_state = {
 			is_colonial = no
-			NOT = { any_owned_province = { is_capital = yes } }
+			#NOT = { any_owned_province = { is_capital = yes } }
 		}
 		OR = {
 			THIS = { civilized = no }
@@ -3582,7 +3582,7 @@ acquire_state = {
 		}
 		NOT = {
 			any_owned_province = { is_core = THIS }
-			any_owned_province = { is_capital = yes }
+			#any_owned_province = { is_capital = yes }
 		}
 
 		#AI can only grab neighboring states, coastal if it's a coastal GP
@@ -4095,7 +4095,7 @@ demand_concession_NI_casus_belli = {
 
 	allowed_states = {
 		any_owned_province = { is_colonial = no }
-		NOT = { any_owned_province = { is_capital = yes } }
+		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			THIS = { ai = no }
 			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
@@ -4203,7 +4203,7 @@ demand_concession_BC_casus_belli = {
 
 	allowed_states = {
 		any_owned_province = { is_colonial = no }
-		NOT = { any_owned_province = { is_capital = yes } }
+		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			THIS = { ai = no }
 			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
@@ -4578,7 +4578,7 @@ annex_africa = {
 
 	allowed_states = {
 		any_owned_province = { is_colonial = no }
-		NOT = { any_owned_province = { is_capital = yes } }
+		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			THIS = { ai = no }
 			any_owned_province = { any_neighbor_province = { owned_by = THIS } }

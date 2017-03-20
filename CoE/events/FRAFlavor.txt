@@ -1616,13 +1616,11 @@ country_event = {
 	picture = "flagstaffwar"
 	
 	trigger = {
-		OR = {
-			year = 1839
-			year = 1849
-		}
+		year = 1849
 		tag = FRA
 		exists = yes
 		1972 = { empty = yes }
+		is_greater_power = yes
 		NOT = { has_country_flag = libreville }
 		NOT = { has_country_flag = left_libreville }
 	}
@@ -1634,14 +1632,7 @@ country_event = {
 	option = {
 		name = "Establish a proper colonial administration"
 		prestige = 2
-		random_owned = {
-			limit = {
-				1972 = { empty = yes }
-			}
-			1972 = {
-				secede_province = THIS
-			}
-		}
+		1972 = { secede_province = FRA }
 		set_country_flag = libreville
 		ai_chance = {
 			factor = 1

@@ -358,10 +358,11 @@ political_reforms = {
 	trade_unions = {
 		next_step_only = yes
 		no_trade_unions = {
-			social_reform_desire = -0.1
+			social_reform_desire = 0
 			global_pop_consciousness_modifier = -0.01
 		}
 		state_controlled = {
+            social_reform_desire = 0.05
 			global_immigrant_attract = 0.025
 			suppression_points_modifier = -0.05
 			global_pop_consciousness_modifier = -0.01
@@ -372,7 +373,7 @@ political_reforms = {
 			global_immigrant_attract = 0.05
 		}
 		all_trade_unions = {
-			social_reform_desire = 0.2
+			social_reform_desire = 0.15
 			suppression_points_modifier = -0.25
 			global_immigrant_attract = 0.075
 			global_pop_consciousness_modifier = 0.01

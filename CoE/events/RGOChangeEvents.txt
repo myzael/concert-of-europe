@@ -10,6 +10,7 @@ province_event = {
 	desc = "EVTDESC199000"
 
 	trigger = {
+	    always = no
 		owned_by = THIS
 		controlled_by = THIS
 		OR = { 
@@ -73,6 +74,7 @@ province_event = {
 	desc = "EVTDESC199000"
 
 	trigger = {
+	    always = no
 		controlled_by = THIS
 		owned_by = THIS
 		OR = { 
@@ -208,12 +210,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -289,12 +291,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -370,12 +372,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -451,12 +453,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -532,12 +534,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -602,12 +604,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -667,12 +669,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -736,12 +738,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -802,12 +804,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -866,12 +868,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -934,12 +936,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -1003,12 +1005,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -1071,12 +1073,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -1136,12 +1138,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -1198,12 +1200,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -1266,12 +1268,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -1326,12 +1328,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -1393,12 +1395,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -1463,12 +1465,12 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "No-- $PROVINCENAME$'s current production is too valuable."
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 

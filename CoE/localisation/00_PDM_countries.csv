@@ -1688,9 +1688,9 @@ TPG_proletarian_dictatorship;Communist Taiping;;;;;;;;;;;;;x
 TPG_fascist_dictatorship;Taiping;;;;;;;;;;;;;x
 TPG_presidential_dictatorship;Taiping;;;;;;;;;;;;;x
 TPG_ADJ;Taiping;;;;;;;;;;;;x
-TPG_conservative;West King;;;;;;;;;;;;x
+TPG_conservative;East King;;;;;;;;;;;;x
 TPG_liberal;Yi King;;;;;;;;;;;;x
-TPG_reactionary;East King;;;;;;;;;;;;x
+TPG_reactionary;West King;;;;;;;;;;;;x
 TPG_socialist;North King;;;;;;;;;;;;x
 TPG_anarcho_liberal;The Radical Faction;;;;;;;;;;;;x
 TPG_communist;The Communist Faction;;;;;;;;;;;;x

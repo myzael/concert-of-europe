@@ -11,7 +11,7 @@ rebels_casualties = {
 		}
 	}
 	effect = {
-	soldier_to_pop_loss = 0.9
+	soldier_to_pop_loss = 0.85
 	}
 		
 }

@@ -143719,14 +143719,14 @@
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 16116
 		culture = north_german
 		religion = catholic
 
 	}
-	farmers = {
+	labourers = {
 
 		size = 5036
 		culture = north_german

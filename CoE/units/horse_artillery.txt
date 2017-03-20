@@ -10,7 +10,7 @@ horse_artillery = {
 	priority = 20
 	max_strength = 3
 	default_organisation = 5
-	maximum_speed = 4
+	maximum_speed = 6
 	weighted_value = 7.0
 
 	#Building Costs
@@ -32,7 +32,7 @@ horse_artillery = {
 	#Land Abilties
 	reconnaissance = 0
 	attack = 0.5
-	defence = 3
+	defence = 2.5
 	discipline = 1
 	support = 1.5
 	maneuver = 2

@@ -690,7 +690,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "EVT60168OPTA"
+		name = "OK"
 		any_country = {
 			any_state  = {
 				limit = {

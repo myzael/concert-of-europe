@@ -673,23 +673,21 @@ province_event = {
 
 province_event = {
 	id = 919999
-	title = "EVTNAME60168"
-	desc = "EVTDESC60168"
+	title = "Crisis Blocker"
+	desc = "Crises are locked until 1849"
 	
 	allow_multiple_instances = no
 	
 	trigger = {
 		NOT = { year = 1849 }
-		OR = {
 			state_scope = {
 				flashpoint_tension = 30
 				has_flashpoint = yes
 			}
-		}
-	
+	}
 	mean_time_to_happen = { 
 		days = 10 
-		}
+	}
 	
 	option = {
 		name = "EVT60168OPTA"
@@ -697,10 +695,8 @@ province_event = {
 			any_state  = {
 				limit = {
 					has_flashpoint = yes
-					is_colonial = no
-					}
-				flashpoint_tension = -90
 				}
+				flashpoint_tension = -90
 			}
 		}
 	}

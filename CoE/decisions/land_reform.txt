@@ -1,7 +1,8 @@
 political_decisions = {
 	abolishment_of_serfdom = {
 		potential = {
-            land_property = serfdom
+			land_property = serfdom
+			civilized = yes
 			NOT = { tag = AUS }
 			NOT = { tag = KUK }
 			NOT = { tag = RUS }			
@@ -14,30 +15,26 @@ political_decisions = {
 				ruling_party_ideology = communist
 				ruling_party_ideology = fascist
 			}
-			OR = {
-				upper_house = {
-					ideology = liberal
-					value = 0.3
-				}
-				upper_house = {
-					ideology = anarcho_liberal
-					value = 0.3
-				}
-				upper_house = {
-					ideology = social_liberal
-					value = 0.3
-				}
-				upper_house = {
-					ideology = socialist
-					value = 0.3
-				}
-				upper_house = {
-					ideology = communist
-					value = 0.3
-				}
-				upper_house = {
-					ideology = fascist
-					value = 0.3
+			NOT = {
+				OR = {
+					upper_house = {
+						ideology = conservative
+						value = 0.5
+					}
+					upper_house = {
+						ideology = reactionary
+						value = 0.5
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.25
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.25
+						}
+					}
 				}
 			}
 		}
@@ -50,7 +47,6 @@ political_decisions = {
 				consciousness = 2
 				militancy = 2
 			}
-			money = -10000
 			upper_house = {
 				ideology = conservative
 				value = 0.25
@@ -61,7 +57,8 @@ political_decisions = {
 	
 	land_purchase_initiative = {
 		potential = {
-            land_property = landed_estates			
+			land_property = landed_estates
+			civilized = yes
 		}
 		allow = {
 			NOT = { government = absolute_monarchy }
@@ -73,30 +70,26 @@ political_decisions = {
 				ruling_party_ideology = communist
 				ruling_party_ideology = fascist
 			}
-			OR = {
-				upper_house = {
-					ideology = liberal
-					value = 0.5
-				}
-				upper_house = {
-					ideology = anarcho_liberal
-					value = 0.5
-				}
-				upper_house = {
-					ideology = social_liberal
-					value = 0.5
-				}
-				upper_house = {
-					ideology = socialist
-					value = 0.5
-				}
-				upper_house = {
-					ideology = communist
-					value = 0.5
-				}
-				upper_house = {
-					ideology = fascist
-					value = 0.5
+			NOT = {
+				OR = {
+					upper_house = {
+						ideology = conservative
+						value = 0.5
+					}
+					upper_house = {
+						ideology = reactionary
+						value = 0.5
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.25
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.25
+						}
+					}
 				}
 			}
 		}
@@ -109,7 +102,6 @@ political_decisions = {
 				consciousness = 1
 				militancy = 1
 			}
-			money = -30000
 			upper_house = {
 				ideology = conservative
 				value = 0.25
@@ -120,12 +112,13 @@ political_decisions = {
 
 	partition_of_land = {
 		potential = {
-            land_property = land_purchase			
+			land_property = land_purchase
+			civilized = yes
 		}
 		allow = {
 			NOT = { government = absolute_monarchy }
 			NOT = { government = prussian_constitutionalism }		
-            NOT = { government = hms_government }			
+			NOT = { government = hms_government }			
 			OR = {
 				ruling_party_ideology = socialist
 				ruling_party_ideology = communist
@@ -143,6 +136,26 @@ political_decisions = {
 					ideology = communist
 					value = 0.5
 				}
+				AND = {
+					upper_house = {
+						ideology = social_liberal
+						value = 0.25
+					}
+					upper_house = {
+						ideology = socialist
+						value = 0.25
+					}
+				}
+				AND = {
+					upper_house = {
+						ideology = socialist
+						value = 0.25
+					}
+					upper_house = {
+						ideology = communist
+						value = 0.25
+					}
+				}
 			}
 		}
 		effect = {
@@ -154,25 +167,28 @@ political_decisions = {
 				consciousness = 4
 				militancy = 4
 			}
-			money = -50000
+			capitalists = {
+				consciousness = 4
+				militancy = 4
+			}
 			upper_house = {
 				ideology = conservative
 				value = 0.25
 			}
-            social_reform = commoners_properties
+			social_reform = commoners_properties
 		}
 	}
 
 	collectivization_of_agriculture  = {
 		potential = {
-            land_property = commoners_properties		
+			land_property = commoners_properties
+			government = proletarian_dictatorship
+			OR = {
+				economic_policy = planned_economy
+				economic_policy = anti_industrial
+			}
 		}
 		allow = {
-            government = proletarian_dictatorship			
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = communist
-			}
 			OR = {
 				upper_house = {
 					ideology = socialist
@@ -193,12 +209,15 @@ political_decisions = {
 				consciousness = 10
 				militancy = 10
 			}
-			money = -100000
+			capitalists = {
+				consciousness = 10
+				militancy = 10
+			}
 			upper_house = {
 				ideology = conservative
 				value = 0.25
 			}
-            social_reform = collectivization
+			social_reform = collectivization
 		}
 	}	
 }

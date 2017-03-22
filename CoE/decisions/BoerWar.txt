@@ -396,21 +396,21 @@ political_decisions = {
 			treasury = -10000
 				random_owned = {
 					2092 = {
-						secede_province = ENG
+						secede_province = THIS 
 						change_province_name = "Beaufort"
 						life_rating = 15
 					}
 			}
 				random_owned = {
 					2093 = {
-						secede_province = ENG
+						secede_province = THIS 
 						change_province_name = "Calvinia"
 						life_rating = 15
 					}
 			}
 				random_owned = {
 					2558 = {
-						secede_province = ENG
+						secede_province = THIS 
 						change_province_name = "De Aar"
 						life_rating = 15
 					}

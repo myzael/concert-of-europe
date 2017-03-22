@@ -382,42 +382,42 @@ political_decisions = {
 					2093 = { empty = yes } #Calvinia
 					2558 = { empty = yes } #De Aar
 				}
-			}
 		}
 
 		allow = {
 			war = no
 			year = 1838
 			treasury = 10000
+
 		}
 
 		effect = {
 			prestige = 10
 			treasury = -10000
-			random_owned = {
-				2092 = {
-					secede_province = ENG
-					change_province_name = "Beaufort"
-					life_rating = 15
-				}
+				random_owned = {
+					2092 = {
+						secede_province = ENG
+						change_province_name = "Beaufort"
+						life_rating = 15
+					}
 			}
-			random_owned = {
-				2093 = {
-					secede_province = ENG
-					change_province_name = "Calvinia"
-					life_rating = 15
-				}
+				random_owned = {
+					2093 = {
+						secede_province = ENG
+						change_province_name = "Calvinia"
+						life_rating = 15
+					}
 			}
-			random_owned = {
-				2558 = {
-					secede_province = ENG
-					change_province_name = "De Aar"
-					life_rating = 15
-				}
+				random_owned = {
+					2558 = {
+						secede_province = ENG
+						change_province_name = "De Aar"
+						life_rating = 15
+					}
 			}
-		}
 		ai_will_do = { factor = 1 }
 	}
+}
 
 	bushmen_expedition = {
 		picture = treaty_signing
@@ -436,12 +436,14 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			treasury = -3500
-			2088 = {
-				secede_province = ENG
-				change_province_name = "Springbok"
-				life_rating = 15
-			}
+			random_owned = {
+				2088 = {
+					secede_province = ENG
+					change_province_name = "Springbok"
+					life_rating = 15
+				}
 		}
 		ai_will_do = { factor = 1 }
 	}
+}
 }

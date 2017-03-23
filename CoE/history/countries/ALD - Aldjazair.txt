@@ -51,6 +51,7 @@ foreign_officers = yes_foreign_officers
 academic_institutions = madrasahs
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
+medicine_reform = alchemy
 
 # Technologies
 flintlock_rifles = 1
@@ -58,6 +59,7 @@ army_command_principle = 1
 late_enlightenment_philosophy = 1
 private_banks = 1
 early_classical_theory_and_critique = 1
+basic_chemistry = 1
 
 # Inventions
 
@@ -82,6 +84,7 @@ army_schools = yes_army_schools
 academic_institutions = madrasahs
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
+medicine_reform = alchemy
 
 # Technologies
 military_staff_system = 1
@@ -91,4 +94,5 @@ bronze_muzzle_loaded_artillery = 1
 late_enlightenment_philosophy = 1
 private_banks = 1
 early_classical_theory_and_critique = 1
+basic_chemistry = 1
 }

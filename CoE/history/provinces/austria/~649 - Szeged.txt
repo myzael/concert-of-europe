@@ -1,7 +1,7 @@
 owner = AUS
 controller = AUS
 add_core = HUN
-trade_goods = grain
-life_rating = 37
-terrain = rich_farmland
+trade_goods = fruit
+life_rating = 36
+terrain = temperate_grassland
 1861.1.1 = { railroad = 3 }

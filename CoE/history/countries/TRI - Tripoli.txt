@@ -49,10 +49,12 @@ set_country_flag = existing_country
 
 foreign_weapons = yes_foreign_weapons
 diplomatic_reform = interactive
+medicine_reform = alchemy
 
 # Technologies
 flintlock_rifles = 1
 early_classical_theory_and_critique = 1
+basic_chemistry = 1
 
 # Inventions
 
@@ -71,9 +73,11 @@ oob = "TRI_oob.txt"
 	foreign_weapons = yes_foreign_weapons
 	academic_institutions = madrasahs
 	diplomatic_reform = interactive
+        medicine_reform = alchemy
 	
 	# Technologies
 	flintlock_rifles = 1
 	late_enlightenment_philosophy = 1
 	early_classical_theory_and_critique = 1
+        basic_chemistry = 1
 }

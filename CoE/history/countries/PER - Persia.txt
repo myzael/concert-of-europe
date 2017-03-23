@@ -53,6 +53,7 @@ foreign_weapons = yes_foreign_weapons
 academic_institutions = madrasahs
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
+medicine_reform = alchemy
 
 # Technologies
 military_staff_system = 1
@@ -61,6 +62,7 @@ no_standard = 1
 late_enlightenment_philosophy = 1
 private_banks = 1
 early_classical_theory_and_critique = 1
+basic_chemistry = 1
 
 # Inventions
 
@@ -111,6 +113,7 @@ academic_institutions = universities
 medicine_reform = alchemy
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
+medicine_reform = alchemy
 
 # Technologies
 military_staff_system = 1
@@ -126,6 +129,7 @@ idealism = 1
 basic_chemistry = 1
 private_banks = 1
 early_classical_theory_and_critique = 1
+basic_chemistry = 1
 
 # Inventions
 

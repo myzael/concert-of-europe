@@ -60483,21 +60483,21 @@
 
 	artisans = {
 
-		size = 6860
+		size = 1715
 		culture = north_caucasian
 		religion = sunni
 
 	}
 	clergymen = {
 
-		size = 1370
+		size = 343
 		culture = north_caucasian
 		religion = sunni
 
 	}
 	farmers = {
 
-		size = 117430
+		size = 29358
 		culture = north_caucasian
 		religion = sunni
 
@@ -60522,7 +60522,7 @@
 	}
 	artisans = {
 
-		size = 648
+		size = 1296
 		culture = north_caucasian
 		religion = sunni
 
@@ -60564,7 +60564,7 @@
 	}
 	clergymen = {
 
-		size = 22
+		size = 44
 		culture = north_caucasian
 		religion = sunni
 
@@ -60578,7 +60578,7 @@
 	}
 	farmers = {
 
-		size = 3670
+		size = 7340
 		culture = north_caucasian
 		religion = sunni
 
@@ -60596,42 +60596,42 @@
 
 	artisans = {
 
-		size = 3200
+		size = 800
 		culture = ukrainian
 		religion = orthodox
 
 	}
 	artisans = {
 
-		size = 13270
+		size = 3318
 		culture = north_caucasian
 		religion = sunni
 
 	}
 	clergymen = {
 
-		size = 450
+		size = 113
 		culture = ukrainian
 		religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 2510
+		size = 628
 		culture = north_caucasian
 		religion = sunni
 
 	}
 	farmers = {
 
-		size = 60430
+		size = 15108
 		culture = ukrainian
 		religion = orthodox
 
 	}
 	farmers = {
 
-		size = 171230
+		size = 42808
 		culture = north_caucasian
 		religion = sunni
 
@@ -60649,7 +60649,7 @@
 	}
 	aristocrats = {
 
-		size = 45
+		size = 90
 		culture = azerbaijani
 		religion = sunni
 
@@ -60670,7 +60670,7 @@
 	}
 	artisans = {
 
-		size = 137
+		size = 274
 		culture = azerbaijani
 		religion = sunni
 
@@ -60705,7 +60705,7 @@
 	}
 	farmers = {
 
-		size = 1007
+		size = 2014
 		culture = azerbaijani
 		religion = sunni
 
@@ -60719,14 +60719,14 @@
 	}
 	soldiers = {
 
-		size = 9000
+		size = 10000
 		culture = north_caucasian
 		religion = sunni
 
 	}
 	soldiers = {
 
-		size = 2042
+		size = 2084
 		culture = azerbaijani
 		religion = sunni
 
@@ -60737,42 +60737,42 @@
 
 	artisans = {
 
-		size = 7780
+		size = 1945
 		culture = north_caucasian
 		religion = sunni
 
 	}
 	clergymen = {
 
-		size = 1600
+		size = 400
 		culture = north_caucasian
 		religion = sunni
 
 	}
 	farmers = {
 
-		size = 82410
+		size = 20603
 		culture = north_caucasian
 		religion = sunni
 
 	}
 	artisans = {
 
-		size = 2280
+		size = 570
 		culture = azerbaijani
 		religion = sunni
 
 	}
 	clergymen = {
 
-		size = 450
+		size = 113
 		culture = azerbaijani
 		religion = sunni
 
 	}
 	farmers = {
 
-		size = 16365
+		size = 4092
 		culture = azerbaijani
 		religion = sunni
 
@@ -60783,28 +60783,28 @@
 
 	artisans = {
 
-		size = 8740
+		size = 2185
 		culture = north_caucasian
 		religion = orthodox
 
 	}
 	bureaucrats = {
 
-		size = 910
+		size = 228
 		culture = north_caucasian
 		religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 1820
+		size = 455
 		culture = north_caucasian
 		religion = orthodox
 
 	}
 	farmers = {
 
-		size = 150600
+		size = 37650
 		culture = north_caucasian
 		religion = orthodox
 
@@ -60815,42 +60815,42 @@
 
 	artisans = {
 
-		size = 16020
+		size = 4005
 		culture = north_caucasian
 		religion = sunni
 
 	}
 	artisans = {
 
-		size = 220
+		size = 60
 		culture = sephardic
 		religion = jewish
 
 	}
 	clergymen = {
 
-		size = 3200
+		size = 800
 		culture = north_caucasian
 		religion = sunni
 
 	}
 	clergymen = {
 
-		size = 90
+		size = 25
 		culture = sephardic
 		religion = jewish
 
 	}
 	farmers = {
 
-		size = 221600
+		size = 55400
 		culture = north_caucasian
 		religion = sunni
 
 	}
 	farmers = {
 
-		size = 6080
+		size = 1520
 		culture = sephardic
 		religion = jewish
 
@@ -60861,55 +60861,55 @@
 
 	artisans = {
 
-		size = 10560
+		size = 2640
 		culture = north_caucasian
 		religion = sunni
 
 	}
 	artisans = {
 
-		size = 5560
+		size = 1390
 		culture = ukrainian
 		religion = orthodox
 
 	}
 	clergymen = {
 
-		size = 2200
+		size = 550
 		culture = north_caucasian
 		religion = sunni
 
 	}
 	clergymen = {
 
-		size = 1200
+		size = 300
 		culture = ukrainian
 		religion = orthodox
 	}
 	farmers = {
 
-		size = 106090
+		size = 26523
 		culture = north_caucasian
 		religion = sunni
 
 	}
 	farmers = {
 
-		size = 66090
+		size = 16523
 		culture = ukrainian
 		religion = orthodox
 
 	}
 	soldiers = {
 
-		size = 60000
+		size = 6000
 		culture = north_caucasian
 		religion = sunni
 
 	}
 	soldiers = {
 
-		size = 20000
+		size = 5000
 		culture = ukrainian
 		religion = orthodox
 

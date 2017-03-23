@@ -60522,7 +60522,7 @@
 	}
 	artisans = {
 
-		size = 1296
+		size = 648
 		culture = north_caucasian
 		religion = sunni
 
@@ -60564,7 +60564,7 @@
 	}
 	clergymen = {
 
-		size = 44
+		size = 22
 		culture = north_caucasian
 		religion = sunni
 
@@ -60578,7 +60578,7 @@
 	}
 	farmers = {
 
-		size = 7340
+		size = 3670
 		culture = north_caucasian
 		religion = sunni
 
@@ -60902,7 +60902,7 @@
 	}
 	soldiers = {
 
-		size = 6000
+		size = 15000
 		culture = north_caucasian
 		religion = sunni
 

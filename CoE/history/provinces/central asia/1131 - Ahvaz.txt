@@ -4,5 +4,5 @@ add_core = KHZ
 add_core = PER
 add_core = IRQ
 trade_goods = grain
-life_rating = 36
+life_rating = 38
 terrain = dry_grassland

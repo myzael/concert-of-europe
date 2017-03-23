@@ -2,5 +2,5 @@ owner = PER
 controller = PER
 add_core = PER
 trade_goods = iron
-life_rating = 36
+life_rating = 38
 terrain = hilly_grassland

@@ -471,7 +471,7 @@ political_reforms = {
 			mobilisation_economy_impact = 0.25
 			global_immigrant_attract = 0.05
 			global_pop_consciousness_modifier = 0.01
-			land_unit_start_experience = 2
+			land_unit_start_experience = 20
 			max_military_spending = -0.10
 		}
 		no_draft = {

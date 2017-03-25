@@ -31,89 +31,77 @@ province_event = {
 			is_capital = yes
 		}
 		modifier = {
-			factor = 0.95
+			factor = 0.1
+			literacy = 1
+		}
+		modifier = {
+			factor = 0.5
 			literacy = 0.9
+			NOT = {
+				literacy = 1
+			}
 		}
 		modifier = {
-			factor = 0.95
+			factor = 1
 			literacy = 0.8
-		}
-		modifier = {
-			factor = 0.95
-			literacy = 0.7
-		}
-		modifier = {
-			factor = 0.95
-			literacy = 0.6
+			NOT = {
+				literacy = 0.9
+			}
 		}
 		modifier = {
 			factor = 1.5
+			literacy = 0.7
+			NOT = {
+				literacy = 0.8
+			}
+		}
+		modifier = {
+			factor = 2
+			literacy = 0.6
+			NOT = {
+				literacy = 0.7
+			}
+		}
+		modifier = {
+			factor = 2.5
+			literacy = 0.5
+			NOT = {
+				literacy = 0.6
+			}
+		}
+		modifier = {
+			factor = 3
+			literacy = 0.4
 			NOT = {
 				literacy = 0.5
 			}
 		}
 		modifier = {
-			factor = 3
+			factor = 3.5
+			literacy = 0.3
 			NOT = {
-				literacy = 0.25
+				literacy = 0.4
 			}
 		}
 		modifier = {
-			factor = 0.95
-			owner = {
-				plurality = 15
-			}
-		}
-		modifier = {
-			factor = 0.95
-			owner = {
-				plurality = 20
-			}
-		}
-		modifier = {
-			factor = 0.95
-			owner = {
-				plurality = 25
-			}
-		}
-		modifier = {
-			factor = 0.95
-			owner = {
-				plurality = 30
-			}
-		}
-		modifier = {
-			factor = 0.7
-			is_capital = yes
-		}		
-		modifier = {
-			factor = 0.95
-			average_consciousness = 6
-		}
-		modifier = {
-			factor = 0.95
-			average_consciousness = 7
-		}
-		modifier = {
-			factor = 0.95
-			average_consciousness = 8
-		}
-		modifier = {
-			factor = 1.1
-			average_militancy = 5
-		}
-		modifier = {
-			factor = 1.2
-			average_militancy = 6
-		}
-		modifier = {
-			factor = 1.3
-			average_militancy = 7
-		}
-		modifier = {
-			factor = 0.95
+			factor = 4
+			literacy = 0.2
 			NOT = {
-				average_militancy = 5
+				literacy = 0.3
+			}
+		}
+		modifier = {
+			factor = 4.5
+			literacy = 0.1
+			NOT = {
+				literacy = 0.2
+			}
+		}
+		modifier = {
+			factor = 5
+			literacy = 0
+			NOT = {
+				literacy = 0.1
 			}
 		}
 		modifier = {

@@ -1574,7 +1574,7 @@ military_reforms = {
 			#unit stats improve
 			land_organisation = 0.05
 			mobilisation_size = 0.03
-			land_unit_start_experience = 5
+			land_unit_start_experience = 15
 			technology_cost = 8250
 			civilization_progress_modifier = 0.05
 			on_execute = {
@@ -1605,7 +1605,7 @@ military_reforms = {
 			#unit stats improve
 			land_organisation = 0.1
 			mobilisation_size = 0.06
-			land_unit_start_experience = 10
+			land_unit_start_experience = 30
 			technology_cost = 16500
 			civilization_progress_modifier = 0.15
 			on_execute = {

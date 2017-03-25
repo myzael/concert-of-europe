@@ -1005,11 +1005,8 @@ country_event = {
 			}				
 		}
 
-}
+    }
 
-<<<<<<< HEAD
-}
-=======
 }
 
 country_event = {
@@ -1153,5 +1150,3 @@ country_event = {
 	
 	
 }
-
->>>>>>> parent of bd79fbc... Revert "Add files via upload"

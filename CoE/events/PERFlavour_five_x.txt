@@ -5313,7 +5313,7 @@ country_event = {
 	
 	option = {
 		name = "We cannot oppose the ulama..."
-		year = 3
+		years_of_research = 3
 		plurality = -3
 		any_pop = {
 			limit = {
@@ -5457,6 +5457,7 @@ country_event = {
 			}
 		}
 	}
+}
 }
 
 # The Rise of the Anjoman

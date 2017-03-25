@@ -717,7 +717,7 @@ money_hoarder_1 = {
 	trigger = {
 		money = 1000000
 		not = {
-			or {
+			or = {
 				money = 2000000
 				num_of_cities = 50
 			}

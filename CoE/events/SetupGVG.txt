@@ -22,10 +22,8 @@ country_event = {
 	option = {
 		name = "Splendid!"
 		set_country_flag = setup_done
-		}
 		ai_chance = {
 			factor = 1
-			}
 		}
 	}
 }
@@ -48,13 +46,12 @@ country_event = {
 	option = {
 		name = "Not so splendid!"
 		set_country_flag = setup_done
-		}
+	}
 		ai_chance = {
 			factor = 1
-			}
 		}
-	}
 }
+
 
 country_event = {
 	id = 2000002
@@ -73,7 +70,7 @@ country_event = {
 			tag = SEN
 			tag = YZW
 		  }
-
+    }
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -81,11 +78,9 @@ country_event = {
 	option = {
 		name = "Not so splendid!"
 		set_country_flag = setup_done
-		}
+	}
 		ai_chance = {
 			factor = 1
-			}
 		}
-	}
 }
 

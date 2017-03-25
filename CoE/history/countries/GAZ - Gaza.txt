@@ -52,4 +52,3 @@ oob = "GAZ_oob.txt"
 
 # Technologies
 early_classical_theory_and_critique = 1
-}

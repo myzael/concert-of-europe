@@ -1440,6 +1440,22 @@ promote_to =
 			}
 		}
 		modifier = {
+		factor = -20
+		country = { land_property = serfdom }
+		}
+		modifier = {
+		factor = -10
+		country = { land_property = landed_estates }
+		}
+		modifier = {
+		factor = -5
+		country = { land_property = commoners_properties }
+		}
+		modifier = {
+		factor = 10
+		country = { land_property = collectivization }
+		}
+		modifier = {
 			factor = 1
 			country = { 
 				has_country_flag = improved_capitalist_and_worker_promotion_1

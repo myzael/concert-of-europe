@@ -108,6 +108,14 @@ promotion_chance =
 		factor = -100
 		location = { NOT = { controlled_by = owner } }
 	}
+	modifier = {
+		factor = -0.2
+		country = { land_property = serfdom }
+	}
+	modifier = {
+		factor = -0.1
+		country = { land_property = landed_estates }
+	}
 }
 
 demotion_chance = 
@@ -307,6 +315,14 @@ demotion_chance =
 		factor = -100
 		location = { NOT = { controlled_by = owner } }
 	}
+	modifier = {
+		factor = -0.8
+		country = { land_property = serfdom }
+	}
+	modifier = {
+		factor = -0.4
+		country = { land_property = landed_estates }
+	}
 }
 
 #general migration chance mtth, same for all pops
@@ -425,6 +441,14 @@ factor = 0.5
 			NOT = { is_core = ISR }
 		}
 	}
+	modifier = {
+		factor = -0.3
+		country = { land_property = serfdom }
+	}
+	modifier = {
+		factor = -0.1
+		country = { land_property = landed_estates }
+	}
 }
 
 #general colonial migration mtth, same for all pops
@@ -539,7 +563,7 @@ colonialmigration_chance = {
 #general emigration chance
 emigration_chance = 
 {
-	factor = 0.1
+	factor = 0.3
 	group = {
 		modifier = {
 			factor = 0.25
@@ -816,8 +840,12 @@ emigration_chance =
 		is_accepted_culture = no
 	}
 	modifier = {
-		factor = 1.0
-        has_pop_type = artisans
+		factor = -0.6
+		country = { land_property = serfdom }
+	}
+	modifier = {
+		factor = -0.2
+		country = { land_property = landed_estates }
 	}
 }
 

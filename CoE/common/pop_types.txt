@@ -110,10 +110,12 @@ promotion_chance =
 	}
 	modifier = {
 		factor = -0.2
+		strata = poor
 		country = { land_property = serfdom }
 	}
 	modifier = {
 		factor = -0.1
+		strata = poor
 		country = { land_property = landed_estates }
 	}
 }
@@ -317,10 +319,12 @@ demotion_chance =
 	}
 	modifier = {
 		factor = -0.8
+		strata = poor
 		country = { land_property = serfdom }
 	}
 	modifier = {
 		factor = -0.4
+		strata = poor
 		country = { land_property = landed_estates }
 	}
 }
@@ -443,10 +447,12 @@ factor = 0.5
 	}
 	modifier = {
 		factor = -0.3
+		strata = poor
 		country = { land_property = serfdom }
 	}
 	modifier = {
 		factor = -0.1
+		strata = poor
 		country = { land_property = landed_estates }
 	}
 }
@@ -841,10 +847,12 @@ emigration_chance =
 	}
 	modifier = {
 		factor = -0.6
+		strata = poor
 		country = { land_property = serfdom }
 	}
 	modifier = {
 		factor = -0.2
+		strata = poor
 		country = { land_property = landed_estates }
 	}
 }

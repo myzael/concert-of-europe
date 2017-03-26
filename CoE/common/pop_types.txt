@@ -722,6 +722,16 @@ emigration_chance =
 	modifier = {
 		factor = -1
 		strata = rich
+		OR = {
+		is_primary_culture = yes
+		is_accepted_culture = yes
+		}
+	}
+	modifier = {
+		factor = -0.3
+		strata = rich
+		is_primary_culture = no
+		is_accepted_culture = no
 	}
 	group = {
 		modifier = {

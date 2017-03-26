@@ -118,6 +118,11 @@ promotion_chance =
 		strata = poor
 		country = { land_property = landed_estates }
 	}
+	modifier = {
+		factor = 0.1
+		strata = poor
+		country = { land_property = collectivization }
+	}
 }
 
 demotion_chance = 
@@ -454,6 +459,11 @@ factor = 0.5
 		factor = -0.1
 		strata = poor
 		country = { land_property = landed_estates }
+	}
+	modifier = {
+		factor = 0.1
+		strata = poor
+		country = { land_property = land_purchase }
 	}
 }
 
@@ -856,14 +866,19 @@ emigration_chance =
 		is_accepted_culture = no
 	}
 	modifier = {
-		factor = -0.6
+		factor = -1
 		strata = poor
 		country = { land_property = serfdom }
 	}
 	modifier = {
-		factor = -0.2
+		factor = -0.3
 		strata = poor
 		country = { land_property = landed_estates }
+	}
+	modifier = {
+		factor = 0.3
+		strata = poor
+		country = { land_property = land_purchase }
 	}
 }
 

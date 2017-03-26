@@ -596,7 +596,7 @@ promote_to =
 			}
 		}
 		modifier = {
-		factor = -20
+		factor = -15
 		country = { land_property = serfdom }
 		}
 		modifier = {

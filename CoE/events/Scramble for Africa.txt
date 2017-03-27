@@ -253,6 +253,7 @@ country_event = {
 		has_global_flag = berlin_conference
 		NOT = { tag = QNG }
 		NOT = { tag = TPG }
+		NOT = { is_culture_group = east_asian }
 		NOT = { primary_culture = japanese }
 		civilized = no
 		war = no

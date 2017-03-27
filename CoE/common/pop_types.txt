@@ -549,22 +549,51 @@ colonialmigration_chance = {
 	}
 	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.025
 			unemployment = 0.1
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.025
 			unemployment = 0.2
 			location = { controlled_by = owner }
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.025
 			unemployment = 0.3
 			location = { controlled_by = owner }
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.025
 			unemployment = 0.4
+			location = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.025
+			unemployment = 0.5
+		}
+		modifier = {
+			factor = 0.05
+			unemployment = 0.6
+			location = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.05
+			unemployment = 0.7
+			location = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.05
+			unemployment = 0.8
+			location = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.05
+			unemployment = 0.9
+			location = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.1
+			unemployment = 1
 			location = { controlled_by = owner }
 		}		
 	}
@@ -579,7 +608,7 @@ colonialmigration_chance = {
 #general emigration chance
 emigration_chance = 
 {
-	factor = 0.3
+	factor = 0.2
 	group = {
 		modifier = {
 			factor = 0.25
@@ -807,55 +836,55 @@ emigration_chance =
 	}
 	group = {
 		modifier = {
-			factor = 0.05
+			factor = 0.0125
 			unemployment = 0.05
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.025
 			unemployment = 0.1
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.025
 			unemployment = 0.2
 			location = { controlled_by = owner }
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.025
 			unemployment = 0.3
 			location = { controlled_by = owner }
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.025
 			unemployment = 0.4
 			location = { controlled_by = owner }
 		}		
 		modifier = {
-			factor = 0.1
+			factor = 0.025
 			unemployment = 0.5
 			location = { controlled_by = owner }
 		}		
 		modifier = {
-			factor = 0.1
+			factor = 0.025
 			unemployment = 0.6
 			location = { controlled_by = owner }
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.05
 			unemployment = 0.7
 			location = { controlled_by = owner }
 		}
 		modifier = {
-			factor = 0.75
+			factor = 0.1
 			unemployment = 0.8
 			location = { controlled_by = owner }
 		}		
 		modifier = {
-			factor = 0.75
+			factor = 0.2
 			unemployment = 0.9
 			location = { controlled_by = owner }
 		}		
 		modifier = {
-			factor = 1
+			factor = 0.25
 			unemployment = 1
 			location = { controlled_by = owner }
 		}	

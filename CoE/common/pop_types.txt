@@ -461,7 +461,7 @@ factor = 0.5
 		country = { land_property = landed_estates }
 	}
 	modifier = {
-		factor = 0.1
+		factor = 0.3
 		strata = poor
 		country = { land_property = land_purchase }
 	}
@@ -905,7 +905,7 @@ emigration_chance =
 		country = { land_property = landed_estates }
 	}
 	modifier = {
-		factor = 0.3
+		factor = 0.1
 		strata = poor
 		country = { land_property = land_purchase }
 	}
@@ -925,6 +925,7 @@ emigration_chance =
 		factor = -0.5
 		country = { nationalvalue = nv_unity }
 	}
+}
 
 #general assimilation mtth, same for all pops
 assimilation_chance = 

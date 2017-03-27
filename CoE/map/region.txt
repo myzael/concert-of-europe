@@ -315,7 +315,7 @@ PRU_690 = { 690 691 694 692 } #Westpreuﬂen
 
 PRU_695 = { 695 696 697 698 693 3258 } #Ostpreuﬂen
 
-PRU_701 = { 701 699 700 } #Posen
+PRU_701 = { 699 701 700 } #Posen
 
 
 ### Austria
@@ -328,11 +328,9 @@ AUS_619 = { 619 620 621 622 624 } #÷sterreich
 
 AUS_623 = { 623 639 640 642 643 644 } #Transdanubia
 
-AUS_625 = { 625 626 629 630 3254 } #Bohemia
+AUS_625 = { 625 626 629 3254 631 } #Bohemia
 
-AUS_626 = { 631 632 } #Moravia
-
-AUS_628 = { 628 627 688 } #Sudetenland
+AUS_628 = { 628 627 688 630 632 } #Sudetenland
 
 AUS_633 = { 633 634 635 636 637 638 657 950 } #Slovakia
 
@@ -539,7 +537,7 @@ RUS_339 = { 339 984 995 988 } #Karelia
 
 RUS_706 = { 706 708 709 710 717 712 } #Masovia
 
-RUS_715 = { 715 711 713 716 } #Central Poland
+RUS_715 = { 715 711 713 716 961 } #Central Poland
 
 RUS_936 = { 936 719 937 2614 } #Grodno/BrÍst
 
@@ -551,7 +549,7 @@ RUS_947 = { 944 945 946 948 949 } #Mogilev/Orsha/Vitebsk
 
 RUS_955 = { 955 954 } #Podillia
 
-RUS_956 = { 956 957 961 } #Volhynia
+RUS_956 = { 956 957 } #Volhynia
 
 RUS_958 = { 958 959 960 } #Kiev
 

@@ -832,29 +832,13 @@ lack_of_mining = {
 	 NOT = { any_owned_province = {
 	  OR = {
        trade_goods = coal
-	   trade_goods = iron 
+	   trade_goods = iron
 	  }
 	 }
 	}
-	} 
+	}
 	prestige = -0.1
 	global_pop_consciousness_modifier = -0.01
 	factory_throughput = -0.25
 	icon = 1
-}
-
-papal_rule = {
-	trigger = {
-		tag = PAP
-		government = theocracy
-		NOT = {
-			any_owned_province = {
-				NOT = { is_core = PAP }
-			}
-		}
-	}
-	global_pop_militancy = -0.05
-	political_reform_desire = -0.3
-	prestige = 0.05
-	icon = 19
 }

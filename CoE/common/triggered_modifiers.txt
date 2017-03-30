@@ -826,19 +826,3 @@ occupied_capital = {
 	global_pop_pop_militancy_modifier = 0.02
 	icon = 1
 }
-
-lack_of_mining = {
-	trigger = {
-	 NOT = { any_owned_province = {
-	  OR = {
-       trade_goods = coal
-	   trade_goods = iron
-	  }
-	 }
-	}
-	}
-	prestige = -0.1
-	global_pop_consciousness_modifier = -0.01
-	factory_throughput = -0.25
-	icon = 1
-}

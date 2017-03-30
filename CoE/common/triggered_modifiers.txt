@@ -223,7 +223,7 @@ no_navy = {
 		year = 1837
 		NOT = { total_amount_of_ships = 1 }
 	}
-	prestige = -0.25
+	prestige = -0.2
 	icon = 9
 }
 
@@ -233,7 +233,7 @@ respectable_navy = {
 		total_amount_of_ships = 10
 		NOT = { total_amount_of_ships = 100 }
 	}
-	prestige = 0.1
+	prestige = 0.05
 	icon = 9
 }
 
@@ -351,8 +351,8 @@ poorly_drilled = {
 		officers = 0.0005
 	}
 	icon = 18
-	land_organisation = -0.25
-	naval_organisation = -0.25
+	land_organisation = -0.1
+	naval_organisation = -0.1
 }
 
 undisciplined_mob = {

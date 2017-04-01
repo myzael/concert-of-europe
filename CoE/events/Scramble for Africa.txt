@@ -251,11 +251,9 @@ country_event = {
 	trigger = {
 		exists = yes
 		has_global_flag = berlin_conference
-		NOT = { tag = QNG }
-		NOT = { tag = TPG }
-		NOT = { is_culture_group = east_asian }
-		NOT = { primary_culture = japanese }
+		capital_scope = { continent = africa }
 		civilized = no
+		is_vassal = no
 		war = no
 		part_of_sphere = yes
 		OR = {
@@ -265,6 +263,10 @@ country_event = {
 		sphere_owner = {
 			is_disarmed = no
 			capital_scope = { continent = europe }
+			OR = {
+				NOT = { tag = RUS }
+				neighbour = THIS
+			}
 			nationalism_n_imperialism = 1
 			NOT = {
 				war_policy = pacifism
@@ -273,6 +275,10 @@ country_event = {
 		}
 		NOT = {
 			has_country_flag = refused_protectorate
+			tag = TUN
+			tag = TRI
+			tag = ALD
+			tag = MOR
 		}
 	}
 	
@@ -628,8 +634,8 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		tag = EGY #should be at top -crownsteler
 		exists = yes
-		tag = EGY
 		civilized = no
 		OR = {
 			war = no
@@ -724,7 +730,7 @@ country_event = {
 			is_secondary_power = yes
 		}
 		OR = {
-			government = theocracy
+			#government = theocracy	#Should the Pope (note: capital = europe) really be colonising? -crownsteler
 			government = absolute_monarchy
 			government = prussian_constitutionalism
 			government = hms_government
@@ -833,13 +839,13 @@ country_event = {
 	picture = "arab_revolt"
 
 	trigger = {
-		exists = yes
-		war = no
-		OR = {
+		OR = { #tags should be on top -crownsteler
 			tag = TIG
 			tag = GON
 			tag = SHW
 		}
+		exists = yes
+		war = no
 		total_amount_of_divisions = 1
 		any_neighbor_country = {
 			primary_culture = amhara
@@ -927,13 +933,13 @@ country_event = {
 
 country_event = {
 	id = 95514
-	title = "EVTNAME95514" #Abyssinian Rule
+	title = "EVTNAME95514" #Ethiopian Rule
 	desc = "EVTDESC95514"
 	picture = "arab_revolt"
 	
 	trigger = {
+		tag = ETH #tag should be on top -crownsteler
 		exists = yes
-		tag = ETH
 		war = no
 		owns = 1861 #Aselia
 		has_global_flag = is_negusa_nagast

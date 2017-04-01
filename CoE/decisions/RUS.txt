@@ -80,7 +80,6 @@ political_decisions = {
 				civilized = no
 				war_with = THIS
 				owns = 1098	#Erivan
-				owns = 1107	#Lankaran
 			}
 		}
 		
@@ -93,7 +92,7 @@ political_decisions = {
 					war_exhaustion = 30
 					AND = {
 						1098 = { controlled_by = THIS }
-						1107 = { controlled_by = THIS }
+						1108 = { controlled_by = THIS }
 					}
 				}
 			}
@@ -104,61 +103,12 @@ political_decisions = {
 			set_country_flag = transcaucasia_claimed
 			badboy = 1
 			PER = {
-				country_event = 32541
+				country_event = 301070
 			}
 		}
 		
 		ai_will_do = {
 			factor = 1
-		}
-	}
-	
-	support_kurdish_independence = {
-		picture = unequal_treaty
-		potential = {
-			tag = RUS
-			is_greater_power = yes
-			neighbour = PER
-			PER = { 
-				any_owned_province = { is_core = KDS }
-				NOT = {
-					accepted_culture = kurdish
-					in_sphere = THIS
-				}
-			}
-		}
-		
-		allow = {
-			war = no
-			NOT = {
-				relation = { who = PER value = 50 }
-			}
-		}
-		
-		effect = {
-			badboy = 4
-			relation = { who = PER value = -50 }
-			diplomatic_influence = { who = KDS value = 50 }
-			diplomatic_influence = { who = PER value = -50 }
-			PER = {
-				any_owned = {
-					limit = {
-						is_core = KDS
-					}
-					add_province_modifier = {
-						name = nationalist_agitation
-						duration = 1500
-					}
-				}
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				badboy = 0.8
-			}
 		}
 	}
 	
@@ -224,7 +174,7 @@ political_decisions = {
 		}
 	}
 	
-	the_port_of_novorossiysk = {
+the_port_of_novorossiysk = {
 		potential = {
 			tag = RUS
 			has_country_flag = transcaucasia_claimed
@@ -252,7 +202,6 @@ political_decisions = {
 			set_country_flag = novorossiysk_port
 		}
 	}
-	
 	abolish_serfdom = {
 		potential = {
 			tag = RUS
@@ -288,7 +237,7 @@ political_decisions = {
 			badboy = -4
 			years_of_research = 1
 			set_country_flag = serfdom_abolished
-            social_reform = landed_estates
+			social_reform = landed_estates
 		}
 	}
 	establish_the_sovnarkom = {

@@ -2,7 +2,7 @@ owner = AKH
 controller = AKH
 add_core = AKH
 add_core = RUS
-trade_goods = fish
+trade_goods = wool
 life_rating = 37
 terrain = semi_desert
 

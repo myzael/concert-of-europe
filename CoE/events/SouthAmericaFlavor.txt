@@ -440,17 +440,17 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		2549 = {
-			empty = yes
-			is_core = THIS
-		}
-		war = no
-		OR = {
+		OR = { #moved up 2 -crownsteler
 			owns = 2404
 			owns = 2321
 			owns = 2301
 			owns = 2300
 		}
+		2549 = {
+			empty = yes
+			is_core = THIS
+		}
+		war = no
 		OR = {
 			nationalism_n_imperialism = 1
 			machine_guns = 1
@@ -1054,11 +1054,11 @@ province_event = {
 	desc = "EVTDESC97086"
 	
 	trigger = {
-		OR = {
-			region = CHL_2332
-			region = ARG_2398
-			region = ARG_2391
-		}
+		#OR = {	#2 provinces outside of these regions have a PTG core, so I don't see the point. -Crownsteler
+		#	region = CHL_2332
+		#	region = ARG_2398
+		#	region = ARG_2391
+		#}
 		is_core = PTG
 		NOT = { life_rating = 16 }
 	}

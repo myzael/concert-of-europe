@@ -42,7 +42,7 @@ promotion_focus = {
 			civilized = yes
 			literacy = 0.35
 			is_colonial = no
-			OR = {
+		OR = {
 				NOT = { unemployment_by_type = { type = clerks value = 0.5 } }
 				owner = { ai = no }
 			}
@@ -55,7 +55,6 @@ promotion_focus = {
 		outliner_show_as_percent = yes
 		limit = { 
 			is_colonial = no
-			NOT = { state_scope = { any_owned_province = { unemployment_by_type = { type = craftsmen value = 0.5 } } } }
 		}
 	}
 
@@ -295,7 +294,8 @@ social_development_focus = {
 		has_flashpoint = yes
 		own_provinces = no
 		flashpoint_tension = 0.08
-		limit = { 
+		limit = {
+			NOT = { has_global_flag = the_watchers_on_the_wall }
 			OR = {
 				THIS = { is_greater_power = yes }
 				AND = { 

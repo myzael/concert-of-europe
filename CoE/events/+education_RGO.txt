@@ -280,6 +280,7 @@ country_event = {
 		}
 set_global_flag = education_setup
 }
+}
 
 
 province_event = {

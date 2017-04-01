@@ -9,13 +9,13 @@ country_event = {
 
 	trigger = {
 		exists = yes
+		is_greater_power = yes # Nation is a great power #moved to higher -crownsteler
 		not = { has_global_flag = NileDiscovered }
 		not = { has_country_flag = NoGoToNile }
 		not = { has_country_flag = YesGoToNileAgain }
 		not = { has_country_flag = YesGoToNile }
 		not = { has_country_flag = YesGoToNileThird }
 		not = { owns = 2019 } # Entebbe, where direct source of Nile is located
-		is_greater_power = yes # Nation is a great power
 		year = 1866 # Will happen sometime after 1866
 	}
 
@@ -241,12 +241,12 @@ country_event = {
 
 	trigger = {
 		exists = yes
+		is_greater_power = yes # Nation is a great power #moved to higher -crownsteler
 		not = { has_global_flag = NorthPoleDiscovered }
 		not = { has_country_flag = NoGoToNorthPole }
 		not = { has_country_flag = YesGoToNorthPole }
 		not = { has_country_flag = YesGoToNorthPole }
 		not = { has_country_flag = YesGoToNorthPoleThird }
-		is_greater_power = yes # Nation is a great power
 		year = 1895 # Will happen sometime after 1895
 	}
 
@@ -465,12 +465,12 @@ country_event = {
 
 	trigger = {
 		exists = yes
+		is_greater_power = yes # Nation is a great power #moved to higher -crownsteler
 		not = { has_global_flag = SouthPoleDiscovered }
 		not = { has_country_flag = NoGoToSouthPole }
 		not = { has_country_flag = YesGoToSouthPoleAgain }
 		not = { has_country_flag = YesGoToSouthPole }
 		not = { has_country_flag = YesGoToSouthPoleThird }
-		is_greater_power = yes # Nation is a great power
 		year = 1906 # Will happen sometime after 1906
 	}
 
@@ -700,5 +700,461 @@ country_event = {
 	option = {
 		name = "EVTOPTA23212"
 		years_of_research = 0.1
+	}
+}
+
+
+#################################
+#	 The Search for Timbuktu	#
+#################################
+#event triggered
+country_event = {
+
+	id = 23220
+
+	trigger = {
+		tag = FRA
+		year = 1823
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	title = "EVTNAME23220"
+	desc = "EVTDESC23220"
+	picture = "timbuktu"
+	
+	fire_only_once = yes
+
+	option = {
+		name = "Marcus, get my camel!"
+		set_global_flag = the_search_for_timbuktu
+		set_country_flag = searching_for_timbuktu
+		prestige = 3
+		treasury = -10000
+		
+		#London
+		300 = {
+			province_event = { id = 23221 }
+		}
+		#Copenhagen
+		372 = {
+			province_event = { id = 23221 }
+		}
+		#Amsterdam
+		375 = {
+			province_event = { id = 23221 }
+		}
+		#Madrid
+		478 = {
+			province_event = { id = 23221 }
+		}
+		#Lisbon
+		521 = {
+			province_event = { id = 23221 }
+		}
+		#Berlin
+		549 = {
+			province_event = { id = 23221 }
+		}
+		#Vienna
+		619 = {
+			province_event = { id = 23221 }
+		}
+		#Saint Petersburg
+		994 = {
+			province_event = { id = 23221 }
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				NOT = {
+					treasury = 15000
+				}
+			}
+		}
+	}
+	option = {
+		name = "Put a stop to this nonsense"
+		prestige = -2
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 10
+				NOT = {
+					treasury = 15000
+				}
+			}
+		}
+	}
+}
+
+#reaction event for other powers
+province_event = {
+
+	id = 23221
+
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+
+	title = "EVTNAME23221"
+	desc = "EVTDESC23221"
+	picture = "timbuktu"
+
+	option = {
+		name = "Marcus, get my camel!"
+		owner = {
+			set_country_flag = searching_for_timbuktu
+			treasury = -7500
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				NOT = {
+					money = 15000
+				}
+			}
+			modifier = {
+				factor = 0.5
+				war = yes
+			}
+			modifier = {
+				factor = 0.5
+				colonial_nation = no
+			}
+			modifier = {
+				factor = 0.5
+				tag = RUS
+			}
+		}
+	}
+	option = {
+		name = "What a load of nonsense"
+		middle_strata = {
+			militancy = 0.5
+		}
+		country = {
+			prestige = -2
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 10
+				NOT = {
+					money = 15000
+				}
+			}
+			modifier = {
+				factor = 3
+				war = yes
+			}
+			modifier = {
+				factor = 3
+				colonial_nation = no
+			}
+			modifier = {
+				factor = 3
+				tag = RUS
+			}
+		}
+	}
+}
+
+#Timbuktu found!
+country_event = {
+
+	id = 23222
+
+	trigger = {
+		exists = yes
+		has_country_flag = searching_for_timbuktu
+	}
+
+	mean_time_to_happen = {
+		months = 50
+		modifier = {
+			factor = 0.9
+			any_owned_province = {
+				continent = africa
+			}
+		}
+		modifier = {
+			factor = 0.95
+			tag = FRA
+		}
+		modifier = {
+			factor = 0.98
+			tag = ENG
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			has_country_flag = timbuktu_disaster
+		}
+		modifier = {
+			factor = 1.25
+			has_country_flag = timbuktu_returned
+		}
+		modifier = {
+			factor = 0.75
+			has_country_flag = staying_in_timbuktu
+		}
+	}
+
+	title = "EVTNAME23222"
+	desc = "EVTDESC23222"
+	picture = "timbuktu"
+	
+	news = yes
+	news_title = "EVTNEWS23222_title"
+	news_desc_long = "EVTNEWS23222_long"
+	news_desc_medium = "EVTNEWS23222_medium"
+	news_desc_short = "EVTNEWS23222_short"
+	
+	fire_only_once = yes
+
+	option = {
+		name = "All men are jealous of Timbuktu..."
+		clr_global_flag = the_search_for_timbuktu
+		clr_country_flag = searching_for_timbuktu
+		clr_country_flag = staying_in_timbuktu
+		clr_country_flag = timbuktu_disaster
+		any_country = {
+			clr_country_flag = searching_for_timbuktu
+			clr_country_flag = staying_in_timbuktu
+			clr_country_flag = timbuktu_disaster
+		}
+		prestige = 5
+		random_pop = {
+			limit = {
+				is_primary_culture = yes
+				continent = europe
+				strata = middle
+			}
+			money = 10
+		}
+	}
+}
+
+#Timbuktu ruler gets to decided to kill an explorer, or not.
+province_event = {
+
+	id = 23223
+	trigger = {
+		province_id = 1803
+		owner = {
+			has_global_flag = the_search_for_timbuktu
+			civilized = no
+		}	
+	}
+
+	title = "EVTNAME23223"
+	desc = "EVTDESC23223"
+	picture = "timbuktu"
+	
+	mean_time_to_happen = {
+		months = 32
+	}
+
+	option = {
+		name = "Cause him to have an accident."
+		random_country = {
+			limit = {
+				has_country_flag = searching_for_timbuktu
+				NOT = {
+					has_country_flag = timbuktu_disaster
+				}
+			}
+			country_event = 23224
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+	option = {
+		name = "Learn what we can from him."
+		any_pop = {
+			militancy = 1
+			consciousness = 1
+		}
+		country = {
+			years_of_research = 0.1
+			plurality = 1
+		}
+		random_country = {
+			limit = {
+				has_country_flag = searching_for_timbuktu
+			}
+			set_country_flag = staying_in_timbuktu
+			diplomatic_influence = {
+				who = THIS
+				value = 5
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+#Expedition meets with disaster
+country_event = {
+
+	id = 23224
+
+	trigger = {
+		exists = yes
+		has_country_flag = searching_for_timbuktu
+		NOT = {
+			has_country_flag = timbuktu_disaster
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 68
+	}
+
+	title = "EVTNAME23224"
+	desc = "EVTDESC23224"
+	picture = "timbuktu"
+	
+	news = yes
+	news_title = "EVTNEWS23224_title"
+	news_desc_long = "EVTNEWS23224_long"
+	news_desc_medium = "EVTNEWS23224_medium"
+	news_desc_short = "EVTNEWS23224_short"
+	
+
+	option = {
+		name = "Try, try, again!"
+		set_country_flag = timbuktu_disaster
+		treasury = -7500
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				NOT = {
+					money = 15000
+				}
+			}
+			modifier = {
+				factor = 0.5
+				colonial_nation = no
+			}
+			modifier = {
+				factor = 0.75
+				tag = RUS
+			}
+		}
+	}
+	option = {
+		name = "Oh well, we tried."
+		clr_country_flag = searching_for_timbuktu
+		prestige = -1
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 10
+				NOT = {
+					money = 15000
+				}
+			}
+			modifier = {
+				factor = 3
+				colonial_nation = no
+			}
+			modifier = {
+				factor = 1.5
+				tag = RUS
+			}
+		}
+	}
+}
+
+#Expedition forced to return home
+country_event = {
+
+	id = 23225
+
+	trigger = {
+		exists = yes
+		has_country_flag = searching_for_timbuktu
+		NOT = {
+			has_country_flag = timbuktu_returned
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 68
+		modifier = {
+			factor = 0.75
+			NOT = {
+				any_owned_province = {
+					continent = africa
+				}
+			}
+		}
+	}
+
+	title = "EVTNAME23225"
+	desc = "EVTDESC23225"
+	picture = "timbuktu"
+	
+	news = yes
+	news_title = "EVTNEWS23225_title"
+	news_desc_long = "EVTNEWS23225_long"
+	news_desc_medium = "EVTNEWS23225_medium"
+	news_desc_short = "EVTNEWS23225_short"
+	
+
+	option = {
+		name = "Try, try, try again!"
+		set_country_flag = timbuktu_returned
+		treasury = -7500
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				NOT = {
+					money = 15000
+				}
+			}
+			modifier = {
+				factor = 0.5
+				colonial_nation = no
+			}
+			modifier = {
+				factor = 0.75
+				tag = RUS
+			}
+		}
+	}
+	option = {
+		name = "Oh well, we tried."
+		clr_country_flag = searching_for_timbuktu
+		prestige = -1
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 10
+				NOT = {
+					money = 15000
+				}
+			}
+			modifier = {
+				factor = 3
+				colonial_nation = no
+			}
+			modifier = {
+				factor = 1.5
+				tag = RUS
+			}
+		}
 	}
 }

@@ -25,13 +25,13 @@ JOH = {
 
 #Middle East
 PER = {
-	value = 125		#relation
+	value = 100		#relation
 	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 0
+	influence_value = 25
 }
 AFG = {
 	value = 100		#relation
-	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 0
 }
 BHR = {
@@ -46,11 +46,6 @@ ABU = {
 }
 OMA = {
 	value = 50
-	level = 4
-	influence_value = 0
-}
-NEJ = {
-	value = 100
 	level = 4
 	influence_value = 0
 }
@@ -93,6 +88,25 @@ HAN = {
 	value = 125
 	level = 5
 	influence_value = 0
+}
+
+#North America
+RPL = {
+	value = 200		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 100
+}
+
+UOR = {
+	value = 75		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+MTC = {
+	value = 50		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
 }
 
 #South America

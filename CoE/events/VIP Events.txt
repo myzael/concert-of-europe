@@ -9,15 +9,21 @@ country_event = { #original VIP event by Palisadoes
 	
 	fire_only_once = yes
 	
+	news = yes #added -crownsteler
+	news_title = "EVTNEWS101532_title"
+	news_desc_long = "EVTNEWS101532_long"
+	news_desc_medium = "EVTNEWS101532_medium"
+	news_desc_short = "EVTNEWS101532_short"
+	
 	trigger = {
 		exists = yes
+		owns = 702 #Lvov #moved up -crownsteler
 		romanticism = 1
 		ideological_thought = 1
-		owns = 702 #Lvov
 		NOT = {
 			primary_culture = polish
 			primary_culture = ukrainian
-			has_country_flag = dniester_published
+			#has_country_flag = dniester_published	#flag is never set -crownsteler
 		}
 	}
 	

@@ -11,11 +11,11 @@ country_event = {
 			war_with = SWI
 			has_global_flag = LouisNapoleonExtradite
 		}
-
+	
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -33,18 +33,18 @@ country_event = {
 	picture = "napoleon3"
 
 	option = {
-		name = "EVTOPTA37200"
+		name = "EVTOPTA37200" 
 		relation = { who = SWI value = -50 }
 		set_global_flag = LouisNapoleonExtradite
 	}
 
 	option = {
-		name = "EVTOPTB37200"
+		name = "EVTOPTB37200" 
 		relation = { who = SWI value = 50 }
 		any_pop = {
-			limit = {
+			limit = { 
 				has_pop_culture = french
-			}
+			} 
 			consciousness = 1
 		}
 	}
@@ -67,9 +67,9 @@ country_event = {
 			year = 1840
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 
@@ -92,7 +92,7 @@ country_event = {
 	picture = "ArcdeTriomphe"
 
 	option = {
-		name = "EVTOPTA37201"
+		name = "EVTOPTA37201" 
 		prestige = 5
 	}
 
@@ -111,9 +111,9 @@ country_event = {
 			year = 1843
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -131,7 +131,7 @@ country_event = {
 	picture = "JulyColumn"
 
 	option = {
-		name = "EVTOPTA37202"
+		name = "EVTOPTA37202" 
 		prestige = 5
 	}
 
@@ -152,9 +152,9 @@ country_event = {
 			year = 1843
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -182,7 +182,7 @@ country_event = {
 				value = reactionary
 				factor = 0.3
 			}
-		}
+		}		
 		prestige = -5
 	}
 
@@ -205,9 +205,9 @@ country_event = {
 			year = 1843
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -225,7 +225,7 @@ country_event = {
 	picture = "Bonaparte"
 
 	option = {
-		name = "EVTOPTA37204"
+		name = "EVTOPTA37204" 
 		prestige = 5
 	}
 
@@ -244,9 +244,9 @@ country_event = {
 			year = 1846
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -264,7 +264,7 @@ country_event = {
 	picture = "balloon"
 
 	option = {
-		name = "EVTOPTA37205"
+		name = "EVTOPTA37205" 
 		prestige = 5
 	}
 
@@ -283,9 +283,9 @@ country_event = {
 			year = 1849
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -303,7 +303,7 @@ country_event = {
 	picture = "sax"
 
 	option = {
-		name = "EVTOPTA37206"
+		name = "EVTOPTA37206" 
 		prestige = 2
 	}
 
@@ -322,9 +322,9 @@ country_event = {
 			year = 1849
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -353,7 +353,7 @@ country_event = {
 				factor = 0.1
 			}
 		}
-		any_pop = {
+		any_pop = { 
 			scaled_militancy = {
 				factor = 2
 				ideology = reactionary
@@ -377,9 +377,9 @@ country_event = {
 			year = 1851
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 1
 		modifier = {
@@ -401,7 +401,7 @@ country_event = {
 	picture = "napoleon3"
 
 	option = {
-		name = "EVTOPTA37207"
+		name = "EVTOPTA37207" 
 		prestige = 5
 		set_country_flag = louies_back
 		any_pop = {
@@ -425,9 +425,9 @@ country_event = {
 			year = 1849
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -445,7 +445,7 @@ country_event = {
 	picture = "observer"
 
 	option = {
-		name = "EVTOPTA37209"
+		name = "EVTOPTA37209" 
 		prestige = 2
 	}
 
@@ -464,9 +464,9 @@ country_event = {
 			year = 1854
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -484,7 +484,7 @@ country_event = {
 	picture = "anarchism"
 
 	option = {
-		name = "EVTOPTA37210"
+		name = "EVTOPTA37210" 
 		prestige = 5
 	}
 
@@ -503,9 +503,9 @@ country_event = {
 			year = 1855
 		}
 	}
-
+	
 	fire_only_once = yes
-
+	
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -523,7 +523,7 @@ country_event = {
 	picture = "airship"
 
 	option = {
-		name = "EVTOPTA37211"
+		name = "EVTOPTA37211" 
 		prestige = 2
 	}
 
@@ -547,9 +547,9 @@ country_event = {
 			war_with = USA
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -567,7 +567,7 @@ country_event = {
 	picture = "Tocqueville"
 
 	option = {
-		name = "EVTOPTA37213"
+		name = "EVTOPTA37213" 
 		prestige = 3
 		relation = { who = USA value = 25 }
 		any_pop = {
@@ -589,9 +589,9 @@ country_event = {
 			year = 1860
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -609,7 +609,7 @@ country_event = {
 	picture = "Bovary"
 
 	option = {
-		name = "EVTOPTA37215"
+		name = "EVTOPTA37215" 
 		prestige = 5
 	}
 
@@ -634,9 +634,9 @@ country_event = {
 			war_with = GER
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -654,7 +654,7 @@ country_event = {
 	picture = "Dreyfus"
 
 	option = {
-		name = "EVTOPTA37216"
+		name = "EVTOPTA37216" 
 		prestige = 5
 		dominant_issue = { factor = 0.1 value = full_citizenship }
 		dominant_issue = { factor = 0.1 value = moralism }
@@ -662,13 +662,13 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB37216"
+		name = "EVTOPTB37216" 
 		prestige = -5
 		officers = {
-			militancy = 2
+			militancy = 2 
 		}
 		soldiers = {
-			militancy = 1
+			militancy = 1 
 		}
 		set_country_flag = DreyfusInnocent
 		dominant_issue = { factor = 0.1 value = full_citizenship }
@@ -697,9 +697,9 @@ country_event = {
 			has_country_flag = DreyfusGuilty
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -717,9 +717,9 @@ country_event = {
 	picture = "Dreyfus"
 
 	option = {
-		name = "EVTOPTA37217"
+		name = "EVTOPTA37217" 
 		set_country_flag = DreyfusGuilty
-		any_pop = {
+		any_pop = { 
 			scaled_consciousness = {
                                factor = 3
 			       ideology = liberal
@@ -759,9 +759,9 @@ country_event = {
 			has_country_flag = JAccuse
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -779,12 +779,12 @@ country_event = {
 	picture = "Dreyfus"
 
 	option = {
-		name = "EVTOPTA37218"
+		name = "EVTOPTA37218" 
 		prestige = -15
 		plurality = 5
 		set_country_flag = JAccuse
 		any_pop = {
-			consciousness = 1
+			consciousness = 1 
 			dominant_issue = { factor = 0.2 value = full_citizenship }
 			dominant_issue = { factor = 0.2 value = moralism }
 		}
@@ -805,11 +805,11 @@ country_event = {
 		year = 1858
 		NOT = {
 			year = 1861
-		}
+		}	
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -827,7 +827,7 @@ country_event = {
 	picture = "vision"
 
 	option = {
-		name = "EVTOPTA37220"
+		name = "EVTOPTA37220" 
 		prestige = 5
 	}
 }
@@ -841,11 +841,11 @@ country_event = {
 		year = 1892
 		NOT = {
 			year = 1895
-		}
+		}	
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -863,7 +863,7 @@ country_event = {
 	picture = "Bernhardt"
 
 	option = {
-		name = "EVTOPTA37221"
+		name = "EVTOPTA37221" 
 		prestige = 5
 	}
 
@@ -882,9 +882,9 @@ country_event = {
 			year = 1915
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -902,7 +902,7 @@ country_event = {
 	picture = "typeix"
 
 	option = {
-		name = "EVTOPTA37222"
+		name = "EVTOPTA37222" 
 		prestige = 5
 	}
 
@@ -921,9 +921,9 @@ country_event = {
 			year = 1905
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -941,7 +941,7 @@ country_event = {
 		picture = "Jenatzky"
 
 	option = {
-		name = "EVTOPTA37222"
+		name = "EVTOPTA37222" 
 		prestige = 5
 	}
 
@@ -961,9 +961,9 @@ country_event = {
 			year = 1912
 		}
 	}
-
+	
 	fire_only_once = yes
-
+ 
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -981,7 +981,7 @@ country_event = {
 	picture = "ballet"
 
 	option = {
-		name = "EVTOPTA37221"
+		name = "EVTOPTA37221" 
 		prestige = 5
 	}
 }
@@ -999,9 +999,9 @@ country_event = {
 			year = 1880
 		}
 	}
-
+	
 	fire_only_once = yes
-
+	
 	mean_time_to_happen =  {
 		months = 5
 		modifier = {
@@ -1019,19 +1019,19 @@ country_event = {
 	picture = "Manet"
 
 	option = {
-		name = "EVTOPTA37225"
+		name = "EVTOPTA37225" 
 		prestige = 2
 		aristocrats = {
-			consciousness = 1
+			consciousness = 1 
 		}
 		clergymen = {
-			consciousness = 1
+			consciousness = 1 
 		}
 		officers = {
-			consciousness = 1
+			consciousness = 1 
 		}
 		bureaucrats = {
-			consciousness = 1
+			consciousness = 1 
 		}
 	}
 
@@ -1042,7 +1042,7 @@ country_event = {
 	title = "Corsican Rebellion"
 	desc = "The rebellion in Corsica has gone on for too long, and we have lost control over the island."
 	picture = "rebellion"
-
+	
 	trigger = {
 		exists = yes
 		473 = {
@@ -1053,11 +1053,11 @@ country_event = {
 		war = no
 		NOT = { exists = CRS }
 	}
-
+	
 	mean_time_to_happen = {
 		months = 6
 	}
-
+	
 	option = {
 		name = "An outrage!"
 		prestige = -20
@@ -1077,7 +1077,7 @@ country_event = {
 	title = "Rebellion in Crete"
 	desc = "The rebellion in Crete has gone on for too long, and we have lost control over the island."
 	picture = "rebellion"
-
+	
 	trigger = {
 		exists = yes
 		847 = {
@@ -1093,11 +1093,11 @@ country_event = {
 		war = no
 		NOT = { exists = CRE }
 	}
-
+	
 	mean_time_to_happen = {
 		months = 6
 	}
-
+	
 	option = {
 		name = "An outrage!"
 		prestige = -20
@@ -1118,7 +1118,7 @@ country_event = {
 	title = "Rebellion in Cyprus"
 	desc = "The rebellion in Cyprus has gone on for too long, and we have lost control over the island."
 	picture = "rebellion"
-
+	
 	trigger = {
 		exists = yes
 		855 = {
@@ -1139,11 +1139,11 @@ country_event = {
 		war = no
 		NOT = { exists = CYP }
 	}
-
+	
 	mean_time_to_happen = {
 		months = 6
 	}
-
+	
 	option = {
 		name = "An outrage!"
 		prestige = -20
@@ -1162,9 +1162,9 @@ country_event = {
 	title = "EVTNAME37230" #The Kingdom of Pomare
 	desc = "EVTDESC37230"
 	picture = "Waitangi"
-
+	
 	fire_only_once = yes
-
+	
 	trigger = {
 		tag = FRA
 		exists = yes
@@ -1177,7 +1177,7 @@ country_event = {
 			truce_with = ENG
 		}
 	}
-
+	
 	mean_time_to_happen = {
 		months = 24
 		modifier = {
@@ -1189,7 +1189,7 @@ country_event = {
 			year = 1845
 		}
 	}
-
+	
 	option = {
 		name = "We will approve the treaty."
 		prestige = 5
@@ -1213,7 +1213,7 @@ country_event = {
 		}
 		ai_chance = { factor = 95 }
 	}
-
+	
 	option = {
 		name = "We have no interest in the Pacific."
 		prestige = -5
@@ -1244,7 +1244,7 @@ country_event = {
 			civilized = no
 		}
 	}
-
+	
 	fire_only_once = yes
 
 	mean_time_to_happen = {
@@ -1254,24 +1254,16 @@ country_event = {
 			year = 1830
 		}
 	}
-
-	option = {
-		name = "Of course, we will pay what we owe."
-		prestige = -5
-		treasury = -10000
-		ALD = { treasury = 10000 }
-		relation = { who = ALD value = 25 }
-		ai_chance = {
-			factor = 5
-		}
-	}
-
+	
 	option = {
 		name = "What a splendid pretext for war!"
 		badboy = 2
 		leave_alliance = ALD
 		relation = { who = ALD value = -200 }
 		diplomatic_influence = { who = ALD value = -200 }
+		ALD = {
+			capital = 1708
+		}
 		war = {
 			target = ALD
 			attacker_goal = {
@@ -1285,6 +1277,17 @@ country_event = {
 				factor = 0
 				badboy = 0.92
 			}
+		}
+	}
+	
+	option = {
+		name = "Of course, we will pay what we owe."
+		prestige = -5
+		treasury = -10000
+		ALD = { treasury = 10000 }
+		relation = { who = ALD value = 25 }
+		ai_chance = {
+			factor = 5
 		}
 	}
 }
@@ -1313,7 +1316,7 @@ country_event = {
 			has_country_modifier = punitive_effects
 			war_policy = pacifism
 			casus_belli = ALD
-			year = 1850
+			year = 1860
 		}
 	}
 
@@ -1393,7 +1396,7 @@ country_event = {
 	desc = "EVTDESC37240"
 	picture = "monarchy"
 	fire_only_once = yes
-
+	
 	news = yes
 	news_title = "EVTNAME37240_NEWS"
 	news_desc_long = "EVTDESC37240_NEWS_LONG"
@@ -1403,7 +1406,7 @@ country_event = {
 	trigger = {
 		tag = FRA
 		year = 1823
-		NOT = {
+		NOT = { 
 			has_country_flag = july_revolution
 		}
 	}
@@ -1445,7 +1448,7 @@ country_event = {
 	desc = "EVTDESC37242"
 	picture = "deliberation"
 	fire_only_once = yes
-
+	
 	news = yes
 	news_title = "EVTNAME37242_NEWS"
 	news_desc_long = "EVTDESC37242_NEWS_LONG"
@@ -1516,12 +1519,12 @@ country_event = {
 
 country_event = {
 	id = 37244
-
+	
 	title = "EVTNAME37244" #July Revolution
 	desc = "EVTDESC37244"
 	picture = "july_revolution"
 	fire_only_once = yes
-
+	
 	trigger = {
 		tag = FRA
 		has_country_flag = three_glorious_days
@@ -1530,7 +1533,7 @@ country_event = {
 	mean_time_to_happen = {
 		days = 3
 	}
-
+	
 	news = yes
 	news_title = "EVTNAME37244_NEWS"
 	news_desc_long = "EVTDESC37244_NEWS_LONG"
@@ -1580,7 +1583,7 @@ country_event = {
 			factor = 90
 		}
 	}
-
+	
 	option = {
 		name = "Kings do not bow to shopkeepers."
 		set_country_flag = july_revolution
@@ -1610,51 +1613,11 @@ country_event = {
 }
 
 country_event = {
-	id = 37299
-	title = "EVTNAME37299"
-	desc = "EVTDESC37299"
-	picture = "flagstaffwar"
-	
-	trigger = {
-		year = 1849
-		tag = FRA
-		exists = yes
-		1972 = { empty = yes }
-		is_greater_power = yes
-		NOT = { has_country_flag = libreville }
-		NOT = { has_country_flag = left_libreville }
-	}
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-	
-	option = {
-		name = "Establish a proper colonial administration"
-		prestige = 2
-		1972 = { secede_province = FRA }
-		set_country_flag = libreville
-		ai_chance = {
-			factor = 1
-		}
-	}
-	
-	option = {
-		name = "Leave them be"
-		prestige = -2
-		set_country_flag = left_libreville
-		ai_chance = {
-			factor = 0
-		}
-	}
-}
-
-country_event = {
 	id = 37300
 	title = "Luxembourg wants to join us"
 	desc = "Luxembourg has recently petitioned to join us as we now have become the dominant power in the region, should we accept or simply guarantee our friendship?"
 	picture = "ArcdeTriomphe"
-
+	
 	trigger = {
 		owns = 572
 		owns = 575
@@ -1671,13 +1634,13 @@ country_event = {
 			is_our_vassal = LUX
 		}
 		NOT = { has_country_flag = no_luxembourg }
-
+		
 	}
-
+	
 	mean_time_to_happen = {
 		months = 12
 	}
-
+	
 	option = {
 		name = "Let them join us as our bretheren."
 		inherit = LUX
@@ -1686,7 +1649,7 @@ country_event = {
 			factor = 1
 		}
 	}
-
+	
 	option = {
 		name = "We don't want them, cooperation is enough."
 		prestige = -2

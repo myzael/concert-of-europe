@@ -869,7 +869,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 15
+		months = 1
 	}
 	
 	option = {
@@ -880,19 +880,10 @@ country_event = {
 
 country_event = {
 	id = 1645092
-	
-	title = "EVTNAME1645092"
-	desc = "EVTDESC1645092"
-	picture = "qing_emperor"
-	
+	title = "Loss of the Mandate of Heaven"
+	desc = "Clearly, China has lost faith in the Manchu."
+	major = yes
 	fire_only_once = yes
-	
-	news = yes
-	news_title = "EVTNEWS1645092_title"
-	news_desc_long = "EVTNEWS1645092_long"
-	news_desc_medium = "EVTNEWS1645092_medium"
-	news_desc_short = "EVTNEWS1645092_short"
-	
 	trigger = {
  		tag = QNG
 		exists = yes
@@ -917,7 +908,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "We are feeling a breeze..."
+		name = "Oh no!"
 		clr_country_flag = mandate
 		any_pop = {
 			limit = { 
@@ -1159,32 +1150,25 @@ country_event = {
 #Yellow River Floods
 country_event = {
 	id = 164506
-
-	title = "EVTNAME164506"
-	desc = "EVTDESC164506"
+	title = "The Huang He Floods!"
+	desc = "The enormous Huang He river has flooded!"
 	fire_only_once = yes
-	
-	news = yes
-	news_title = "EVTNEWS164506_title"
-	news_desc_long = "EVTNEWS164506_long"
-	news_desc_medium = "EVTNEWS164506_medium"
-	news_desc_short = "EVTNEWS164506_short"
-
-	picture = "china_flood"
+	major = yes
+	picture = "destroyed_forest"
 
 	trigger = {
 		owns = 1510
 		year = 1851
-		NOT = { year = 1853 }
+		not = { has_global_flag = huang1 }
 	}
 	
 	mean_time_to_happen = {
-		months = 7
+		months = 3
 	}
 	
 	option = {
-		name = "It is China's Sorrow!"
-			set_global_flag = huang_flooding
+		name = "Oh no!"
+			set_global_flag = huang1
 			
 			1510 = { 
 				any_pop = {
@@ -1201,33 +1185,25 @@ country_event = {
 
 country_event = {
 	id = 164507
-	
-	title = "EVTNAME164507"
-	desc = "EVTDESC164507"
+	title = "The Huang He bursts its banks again!"
+	desc = "The enormous Huang He river has flooded again!"
 	fire_only_once = yes
-	
-	news = yes
-	news_title = "EVTNEWS164507_title"
-	news_desc_long = "EVTNEWS164507_long"
-	news_desc_medium = "EVTNEWS164507_medium"
-	news_desc_short = "EVTNEWS164507_short"
-
-	picture = "china_shifting_river"
+	major = yes
+	picture = "destroyed_forest"
 
 	trigger = {
 		owns = 1563
 		year = 1855
-		NOT = { year = 1857 }
-		has_global_flag = huang_flooding
+		not = { has_global_flag = huang2 }
 	}
 	
 	mean_time_to_happen = {
-		months = 8
+		months = 3
 	}
 	
 	option = {
-		name = "It truly is the Scourge of the Sons of Han"
-		clr_global_flag = huang_flooding	
+		name = "But we haven't cleared up after last time yet"
+		set_global_flag = huang2	
 		1563 = { 
 			any_pop = {
 				reduce_pop = 0.80
@@ -1243,31 +1219,25 @@ country_event = {
 
 country_event = {
 	id = 164508
-	
-	title = "EVTNAME164508"
-	desc = "EVTDESC164508"
+	title = "The Huang He bursts its banks once more!"
+	desc = "The enormous Huang He river has flooded yet again!"
 	fire_only_once = yes
+	major = yes
+	picture = "destroyed_forest"
 
-	picture = "china_flood"
-
-	news = yes
-	news_title = "EVTNEWS164508_title"
-	news_desc_long = "EVTNEWS164508_long"
-	news_desc_medium = "EVTNEWS164508_medium"
-	news_desc_short = "EVTNEWS164508_short"
-	
 	trigger = {
 		owns = 1510
 		year = 1887
-		NOT = { year = 1889 }
+		not = { has_global_flag = huang3 }
 	}
 	
 	mean_time_to_happen = {
-		months = 6
+		months = 3
 	}
 	
 	option = {
 		name = "Not again!"
+		set_global_flag = huang3	
 		1510 = { 
 			any_pop = {
 				reduce_pop = 0.80
@@ -2634,12 +2604,12 @@ country_event = {
 				civilized = no
 				civilization_progress = 0.8
 				OR = {
-					foreign_weapons = gunpowder_weapons
+					foreign_weapons = modern_weapons
 					AND = {
-						NOT = { unciv_military_training = military_levies }
-						NOT = { unciv_light_armament = traditional_weapons }
-						NOT = { unciv_officer_corps = aristocratic_officers }
-						NOT = { unciv_artillery = no_artillery_for_you }
+						foreign_training = yes_foreign_training
+						foreign_weapons = yes_foreign_weapons
+						foreign_officers = yes_foreign_officers
+						army_schools = yes_army_schools
 					}
 				}
 			}

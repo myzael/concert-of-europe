@@ -1,10 +1,14 @@
+
+
+#========================= H E A D E R =========================
+
 capital = 1147
 primary_culture = persian
 religion = shiite
 government = absolute_monarchy
 plurality = 1
 nationalvalue = nv_might
-literacy = 0.02
+literacy = 0.1
 prestige = 1
 schools = traditional_academic
 
@@ -28,7 +32,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-pollution=no_controls
+land_property=landed_estates
 child_labor = child_labor_legal
 arts_endowment=no_endowment
 education = elite
@@ -48,16 +52,20 @@ set_country_flag = existing_country
 
 foreign_training = yes_foreign_training
 foreign_weapons = yes_foreign_weapons
+finance_reform = yes_finance_reform
 academic_institutions = madrasahs
+medicine_reform = alchemy
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
 
 # Technologies
 military_staff_system = 1
 flintlock_rifles = 1
+no_standard = 1
 late_enlightenment_philosophy = 1
-freedom_of_trade = 1
-classicism_n_early_romanticism = 1
+basic_chemistry = 1
+private_banks = 1
+early_classical_theory_and_critique = 1
 
 # Inventions
 

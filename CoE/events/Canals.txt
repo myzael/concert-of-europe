@@ -4,24 +4,31 @@
 #																				#
 #################################################################################
 
-province_event = {
+country_event = {
 
 	id = 97200
 	title = "Kiel Canal Dividends"
 	desc = "Annual dividends received from control over the Kiel Canal."
 	picture = "Kiel"
 	
-	is_triggered_only = yes
-	
 	trigger = {
-		province_id = 369
-		has_province_modifier = kiel_canal
+		owns = 369
+		369 = { has_province_modifier = kiel_canal }
+		NOT = { has_country_modifier = kiel_canal_dividend }
+		NOT = { month = 1 }
 	}
 	
+	mean_time_to_happen = {
+		days = 3
+	}
 	
 	option = {
 		name = "Until next year"	
-		owner = { treasury = 5000 }
+		treasury = 5000
+		add_country_modifier = {
+			name = kiel_canal_dividend
+			duration = 31
+		}
 	}
 }
 
@@ -91,16 +98,6 @@ country_event = {
 			modifier = {
 				factor = 0.1
 				NOT = { money = 35000 }
-			}
-		}
-		any_country = {	#make the completion event triggered, removes it from the cue -crownster
-			limit = {
-				ai = no
-				NOT = { tag = THIS }
-			}
-			random_owned = {
-				limit = { is_capital = yes }
-				province_event = { id = 97240 }
 			}
 		}
 	}
@@ -234,16 +231,6 @@ country_event = {
 		}
 		clr_global_flag = building_kiel_canal_phase3
 		remove_country_modifier = building_kiel_canal
-		any_country = {	#make the completion event triggered, removes it from the cue -crownster
-			limit = {
-				ai = no
-				NOT = { tag = THIS }
-			}
-			random_owned = {
-				limit = { is_capital = yes }
-				province_event = { id = 97235 }
-			}
-		}
 	}
 }
 
@@ -270,30 +257,49 @@ country_event = {
 	}
 }
 
-province_event = {
+country_event = {
 
 	id = 97235
 	title = "Grüß aus Kiel"
 	desc = "EVTDESC188718955"
 	picture = "Kiel"
 	
-	is_triggered_only = yes #made it triggerable only -crownster
-	allow_multiple_instances = yes
+	fire_only_once = yes
+	
+	trigger = {
+		ai = no
+		NOT = {	has_country_flag = built_kiel }
+		is_canal_enabled = 1
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
 	
 	option = {
 		name = "Sufficient postage"	
 	}
 }
 
-province_event = {
+country_event = {
 
 	id = 97240
 	title = "The Kiel Canal"
 	desc = "A nation has started construction on the Kiel Canal!"
 	picture = "Kiel"
 	
-	is_triggered_only = yes #made it triggerable only -crownster
-	allow_multiple_instances = yes
+	fire_only_once = yes
+	
+	trigger = {
+		ai = no
+		has_global_flag = kiel_canal_global
+		NOT = { has_country_modifier = building_kiel_canal }
+		NOT = {	has_country_flag = built_kiel }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
 	
 	option = {
 		name = "Okay"	
@@ -306,28 +312,34 @@ province_event = {
 #																				#
 #################################################################################
 
-province_event = {
+country_event = {
 
 	id = 97250
 	title = "Suez Canal Dividends"
 	desc = "Annual dividends received from control over the Suez Canal."
 	picture = "Suez3"
 	
-	is_triggered_only = yes
-	
 	trigger = {
-		province_id = 1755
-		has_province_modifier = suez_canal
+		owns = 1755
+		1755 = { has_province_modifier = suez_canal }
+		NOT = { has_country_modifier = suez_canal_dividend }
+		NOT = { month = 1 }
+	}
+	
+	mean_time_to_happen = {
+		days = 3
 	}
 	
 	option = {
 		name = "Until next year"	
-		owner = { 
-			treasury = 25000 
-			random_country = {
-				limit = { has_country_modifier = suez_canal_treaty }
-				military_access = THIS
-			}
+		treasury = 25000 
+		add_country_modifier = {
+			name = suez_canal_dividend
+			duration = 31
+		}
+		random_country = {
+			limit = { has_country_modifier = suez_canal_treaty }
+			military_access = THIS
 		}
 	}
 }
@@ -441,16 +453,6 @@ country_event = {
 		treasury = -75000
 		clr_global_flag = building_suez_canal_phase0
 		set_global_flag = building_suez_canal_phase1
-		any_country = {	#make the completion event triggered, removes it from the cue -crownster
-			limit = {
-				ai = no
-				NOT = { tag = THIS }
-			}
-			random_owned = { 
-				limit = { is_capital = yes }
-				province_event = { id = 97325 }
-			}
-		}
 		ai_chance = {
 			factor = 50
 			modifier = {
@@ -680,16 +682,6 @@ country_event = {
 			limit = { has_country_modifier = suez_canal_treaty }
 			military_access = THIS
 		}
-		any_country = {	#make the completion event triggered, removes it from the cue -crownster
-			limit = {
-				ai = no
-				NOT = { tag = THIS }
-			}
-			random_owned = { 
-				limit = { is_capital = yes }
-				province_event = { id = 97315 }
-			}
-		}
 	}
 }
 
@@ -776,30 +768,29 @@ country_event = {
 		treasury = -30000
 		random_country = {
 			limit = { owns = 1755 }
-			random_owned = {
-				limit = { is_capital = yes }
-				province_event = { id = 97300 }
-			}
+			country_event = 97300
 		}
 	}
 }
 
-province_event = {
+country_event = {
 	id = 97300
 	title = "Suez Canal Treaty"
 	desc = "EVTDESC185918697"
 	picture = "treaty"
 	
 	is_triggered_only = yes
+		
+	mean_time_to_happen = {
+		months = 1
+	}
 	
 	option = {
 		name = "I have a feeling we're getting ripped off..."
-		owner = {
-			treasury = 30000
-			add_country_modifier = {
-				name = suez_canal_treaty
-				duration = -1
-			}
+		treasury = 30000
+		add_country_modifier = {
+			name = suez_canal_treaty
+			duration = -1
 		}
 	}
 }
@@ -854,30 +845,48 @@ country_event = {
 	}
 }
 
-province_event = {
+country_event = {
 
 	id = 97315
 	title = "Greetings from Suez"
 	desc = "EVTDESC185918699"
 	picture = "Suez3"
 	
-	is_triggered_only = yes #-crownster
-	allow_multiple_instances = yes
+	trigger = {
+		ai = no
+		is_canal_enabled = 2
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
 	
 	option = {
 		name = "Who came up with this?"	
 	}
 }
 
-province_event = {
+country_event = {
 
 	id = 97325
 	title = "The Suez Canal"
 	desc = "A nation has started construction on the Suez Canal."
 	picture = "Suez3"
 	
-	is_triggered_only = yes #-crownster
-	allow_multiple_instances = yes
+	trigger = {
+		ai = no
+		NOT = { has_country_modifier = building_suez_canal }
+		NOT = { has_country_flag = built_suez }
+		has_global_flag = suez_canal_global
+	}
+
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
 	
 	option = {
 		name = "We wish them good luck."	
@@ -890,28 +899,34 @@ province_event = {
 #																				#
 #################################################################################
 
-province_event = {
+country_event = {
 
 	id = 97350
 	title = "Panama Canal Dividends"
 	desc = "Annual dividends received from ownership of the Panama Canal."
 	picture = "Panama3"
 	
-	is_triggered_only = yes
-	
 	trigger = {
-		province_id = 1723
-		has_province_modifier = panama_canal
+		owns = 1723
+		1723 = { has_province_modifier = panama_canal }
+		NOT = { has_country_modifier = panama_canal_dividend }
+		NOT = { month = 1 }
+	}
+		
+	mean_time_to_happen = {
+		days = 3
 	}
 	
 	option = {
 		name = "Until next year."	
-		owner = {
-			treasury = 10000
-			random_country = {
-				limit = { has_country_modifier = panama_canal_treaty }
-				military_access = THIS
-			}
+		treasury = 10000
+		add_country_modifier = {
+			name = panama_canal_dividend
+			duration = 31
+		}
+		random_country = {
+			limit = { has_country_modifier = panama_canal_treaty }
+			military_access = THIS
 		}
 	}
 }
@@ -1046,16 +1061,6 @@ country_event = {
 			modifier = {
 				factor = 0.1
 				NOT = { money = 50000 }
-			}
-		}
-		any_country = {	#make the completion event triggered, removes it from the cue -crownster
-			limit = {
-				ai = no
-				NOT = { tag = THIS }
-			}
-			random_owned = {
-				limit = { is_capital = yes }
-				province_event = { id = 97450 }
 			}
 		}
 	}
@@ -1353,13 +1358,6 @@ country_event = {
 			limit = { has_country_modifier = panama_canal_treaty }
 			military_access = THIS
 		}
-		any_country = {	#make the completion event triggered, removes it from the cue -crownster
-			limit = {
-				ai = no
-				NOT = { tag = THIS }
-			}
-			country_event = 97405
-		}
 	}
 }
 
@@ -1414,12 +1412,7 @@ country_event = {
 		name = "Sign the treaty."
 		treasury = 30000
 		prestige = -10
-		FROM = { 
-			random_owned = { 
-				limit = { is_capital = yes }
-				province_event = { id = 97391 }
-			}
-		}
+		FROM = { country_event = 97391 }
 		add_country_modifier = {
 			name = panama_canal_treaty
 			duration = -1
@@ -1453,18 +1446,17 @@ country_event = {
 	}
 }
 
-province_event = {
+country_event = {
 	id = 97391
 	title = "Hay–Bunau-Varilla Treaty"
 	desc = "$FROMCOUNTRY$ has signed our proposed treaty. Construction on the canal may begin!"
 	picture = "treaty"
 	
 	is_triggered_only = yes
-	allow_multiple_instances = yes
 	
 	option = {
 		name = "Excellent!"
-		owner = { treasury = -30000 }
+		treasury = -30000
 	}
 }
 
@@ -1577,12 +1569,7 @@ country_event = {
 			name = panama_canal_treaty
 			duration = -1
 		}
-		FROM = { 
-			random_owned = { 
-				limit = { is_capital = yes }
-				province_event = { id = 97391 }
-			}
-		}
+		FROM = { country_event = 97391 }
 	}
 }
 
@@ -1648,7 +1635,16 @@ country_event = {
 	news_desc_short = "EVTDESC97405_NEWS_SHORT"
 	picture = "Panama3"
 	
-	is_triggered_only = yes #-crownster
+	trigger = {
+		ai = no
+		is_canal_enabled = 3
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
 	
 	option = {
 		name = "Insufficient postage"	
@@ -2041,17 +2037,27 @@ country_event = {
 	}
 }
 
-province_event = {
+country_event = {
 
 	id = 97450
-		
+	
+	trigger = {
+		ai = no
+		NOT = { has_country_flag = built_panama }
+		has_global_flag = panama_canal_global
+		NOT = { has_country_modifier = building_panama_canal }
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
 	title = "The Panama Canal"
 	desc = "A nation has started construction on the Panama Canal."
 	picture = "Panama3"
 
-	is_triggered_only = yes #-crownsteler
-	allow_multiple_instances = yes
-	
 	option = {
 		name = "We wish them the best of luck."	
 	}

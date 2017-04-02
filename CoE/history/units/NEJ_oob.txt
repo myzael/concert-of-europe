@@ -4,9 +4,6 @@ ENG = {
 TUR = {
 	value = 50
 }
-PER = {
-	value = -125
-}
 
 army = {
 	name = "Ibn Saud's Army"

@@ -1647,79 +1647,107 @@ country_event = {
 	}
 }
 
-#The Rise of the Senussi
+#Occupation of Libya
 country_event = {
 	
 	id = 90037
-	title = "EVTNAME90037"
-	desc = "EVTDESC90037"
-	picture = "arab_revolt"
-	
-	news = yes
-	news_title = "EVTNEWS90037_title"
-	news_desc_long = "EVTNEWS90037_long"
-	news_desc_medium = "EVTNEWS90037_medium"
-	news_desc_short = "EVTNEWS90037_short"
+	title = "the Occupation of Libya"
+	desc = "The time has come for us to expand our holdings southward into the Libyan desert."
+	picture = "scramble_for_africa"
 	
 	trigger = {
-		tag = TUR
-		year = 1837
-		1738 = {
-			empty = yes
+		OR = {
+			tag = TUR
+			tag = EGY
+			tag = TRI
+			tag = CYR
+		}
+		exists = yes
+		war = no
+		has_global_flag = berlin_conference
+		is_greater_power = no
+		OR = {
+			AND = {
+				owns = 1734 #Sirt
+				1740 = { empty = yes } #Massekisse
+			}
+			AND = {
+				owns = 1735 #Benghazi
+				OR = {
+					1738 = { empty = yes } #Mossurize
+					1739 = { empty = yes } #Songo
+					2585 = { empty = yes } #Zumbo
+				}
+			}
+		}
+		OR = {
+			is_secondary_power = no
+			AND = {
+				is_secondary_power = yes
+				OR = {
+					NOT = { invention = the_white_mans_burden }
+					NOT = { invention = indigenous_garrisoning }
+				}
+			}
 		}
 	}
 
-	fire_only_once = yes
-	
 	mean_time_to_happen = {
-		months = 60
-		modifier = {
-			factor = 4
-			has_country_flag = ottoman_islamic_caliphate
-		}
+		months = 6
 		modifier = {
 			factor = 0.5
-			has_country_flag = hedjaz_incorporated
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = 0.5
-			year = 1860
-		}
-		modifier = {
-			factor = 0.25
-			year = 1870
-		}
-		modifier = {
-			factor = 0.1
-			year = 1880
+			OR = {
+				has_country_flag = ottoman_islamic_caliphate
+				has_country_flag = hedjaz_incorporated
+			}
 		}
 	}
-	
+
 	option = {
-		name = "We'll keep an eye on them nonetheless"
-		1738 = {
-			secede_province = THIS
-			add_core = CYR
-			secede_province = CYR
+		name = "For $COUNTRY_AJD$ glory!"
+		prestige = 2
+		treasury = -10000
+		random_owned = {
+			limit = {
+				1739 = { owned_by = THIS }
+				2585 = { empty = yes }
+			}
+			2585 = {
+				add_core = CYR
+				secede_province = THIS
+			}
 		}
-		CYR = {
-			set_country_flag = existing_country
-			capital = 1738
-			government = theocracy
-			treasury = 15000
-			economic_reform = universities
-			create_alliance = WAD
-			relation = {
-				who = WAD
-				value = 350
-			}			
+		random_owned = {
+			limit = {
+				1738 = { owned_by = THIS }
+				1739 = { empty = yes }
+			}
+			1739 = {
+				add_core = CYR
+				secede_province = THIS
+			}
+		}
+		random_owned = {
+			limit = {
+				1738 = { empty = yes }
+				1735 = { owned_by = THIS }
+			}
+			1738 = {
+				add_core = CYR
+				secede_province = THIS
+			}
+		}
+		random_owned = {
+			limit = {
+				1740 = { empty = yes }
+				1734 = { owned_by = THIS }
+			}
+			1740 = {
+				add_core = TRI
+				secede_province = THIS
+			}
 		}
 	}
-		
 }
 
 country_event = {
@@ -1732,9 +1760,8 @@ country_event = {
 		tag = TRI
 		exists = yes
 		year = 1830
+		NOT = { has_country_flag = succession_crisis }
 	}
-	
-	fire_only_once = yes
 	
 	mean_time_to_happen = {
 		months = 36
@@ -1742,6 +1769,7 @@ country_event = {
 	
 	option = {
 		name = "The dynasty's prospects are dim."
+		set_country_flag = succession_crisis
 		any_pop = {
 			limit = {
 				OR = {
@@ -1764,10 +1792,6 @@ country_event = {
 	picture = "ottoman"
 	
 	is_triggered_only = yes
-	
-	immediate = {
-		release_vassal = TRI
-	}
 	
 	option = {
 		name = "A splendid opportunity!"

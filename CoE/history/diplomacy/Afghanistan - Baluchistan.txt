@@ -7,14 +7,6 @@ vassal = {
 	end_date = 1922.1.1
 }
 
-#Persia - Khorosand
-vassal = {
-	first = PER
-	second = KHR
-	start_date = 1774.1.1
-	end_date = 1922.1.1
-}
-
 ##Afghanistan
 # Kabul - Herat
 vassal = {

@@ -1,6 +1,7 @@
 owner = KAS
 controller = KAS
 add_core = PNJ
+add_core = AFG
 add_core = HND
 trade_goods = coal
 life_rating = 35

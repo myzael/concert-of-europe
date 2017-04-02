@@ -1,12 +1,12 @@
-owner = PER
-controller = PER
+owner = TUR
+controller = TUR
 add_core = TUR
 add_core = ARM
 add_core = PER
-trade_goods = wool
+trade_goods = grain
 life_rating = 37
 terrain = deciduous_forest_hills
-1828.1.1 = {
+1836.1.1 = {
 	owner = RUS
 	controller = RUS
 	add_core = RUS

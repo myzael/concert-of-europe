@@ -39,13 +39,30 @@ dutch_east_india = {
 	icon = 19
 }
 
+populationsize_25k = {
+	trigger = {
+		total_pops = 6250
+		NOT = {
+			total_pops = 12500
+		}
+	}
+	research_points = -1
+	global_population_growth = 0.004
+	mobilisation_size = 0.10
+	tax_efficiency = 0.05
+	icon = 11
+}
+
 populationsize_50k = {
 	trigger = {
-		NOT = { total_pops = 25000 }
+		total_pops = 12500
+		NOT = {
+			total_pops = 25000
+		}
 	}
-	research_points = -0.8
+	research_points = -0.75
 	global_population_growth = 0.003
-	mobilisation_size = 0.06
+	mobilisation_size = 0.05
 	tax_efficiency = 0.04
 	icon = 11
 }
@@ -57,7 +74,7 @@ populationsize_100k = {
 			total_pops = 62500
 		}
 	}
-	research_points = -0.60
+	research_points = -0.66
 	global_population_growth = 0.003
 	mobilisation_size = 0.03
 	tax_efficiency = 0.03
@@ -71,7 +88,7 @@ populationsize_250k = {
 			total_pops = 125000
 		}
 	}
-	research_points = -0.4
+	research_points = -0.5
 	global_population_growth = 0.002
 	mobilisation_size = 0.01
 	tax_efficiency = 0.02
@@ -85,7 +102,7 @@ populationsize_500k = {
 			total_pops = 250000
 		}
 	}
-	research_points = -0.20
+	research_points = -0.25
 	global_population_growth = 0.002
 	mobilisation_size = 0.01
 	tax_efficiency = 0.01
@@ -100,7 +117,7 @@ populationsize_1M = {
 
 		}
 	}
-	research_points = -0.10
+	research_points = -0.15
 	global_population_growth = 0.001
 	mobilisation_size = 0.005
 	icon = 5
@@ -125,7 +142,7 @@ populationsize_5M = {
 			total_pops = 2500000
 		}
 	}
-	research_points = 0.10
+	research_points = 0.15
 	tax_efficiency = -0.02
 	icon = 5
 }
@@ -137,7 +154,7 @@ populationsize_10M = {
 			total_pops = 6250000
 		}
 	}
-	research_points = 0.20
+	research_points = 0.25
 	tax_efficiency = -0.03
 	icon = 5
 }
@@ -149,7 +166,7 @@ populationsize_25M = {
 			total_pops = 12500000
 		}
 	}
-	research_points = 0.30
+	research_points = 0.33
 	tax_efficiency = -0.04
 	icon = 5
 }
@@ -161,7 +178,7 @@ populationsize_50M = {
 			total_pops = 25000000
 		}
 	}
-	research_points = 0.40
+	research_points = 0.5
 	tax_efficiency = -0.05
 	icon = 5
 }
@@ -173,7 +190,7 @@ populationsize_100M = {
 			total_pops = 50000000
 		}
 	}
-	research_points = 0.60
+	research_points = 0.66
 	tax_efficiency = -0.06
 	icon = 5
 }
@@ -185,7 +202,7 @@ populationsize_200M = {
 			total_pops = 75000000
 		}
 	}
-	research_points = 0.80
+	research_points = 0.75
 	tax_efficiency = -0.08
 	icon = 5
 }
@@ -206,7 +223,7 @@ no_navy = {
 		year = 1837
 		NOT = { total_amount_of_ships = 1 }
 	}
-	prestige = -0.2
+	prestige = -0.25
 	icon = 9
 }
 
@@ -216,7 +233,7 @@ respectable_navy = {
 		total_amount_of_ships = 10
 		NOT = { total_amount_of_ships = 100 }
 	}
-	prestige = 0.05
+	prestige = 0.1
 	icon = 9
 }
 
@@ -334,8 +351,8 @@ poorly_drilled = {
 		officers = 0.0005
 	}
 	icon = 18
-	land_organisation = -0.1
-	naval_organisation = -0.1
+	land_organisation = -0.25
+	naval_organisation = -0.25
 }
 
 undisciplined_mob = {
@@ -698,23 +715,16 @@ social_chaos = {
 
 money_hoarder_1 = {
 	trigger = {
-		or = {
-			and = {
-				money = 1000000
-				not = {
-					num_of_cities = 50
-					money = 5000000
-				}
-			}
-			and = {
-				money = 3000000
+		money = 1000000
+		not = {
+			or = {
+				money = 2000000
 				num_of_cities = 50
-				not = { money = 8000000 }
 			}
 		}
 	}
 	tax_efficiency = -0.05
-	tariff_efficiency_modifier = -0.25
+	tariff_efficiency_modifier = -0.20
 	icon = 1
 }
 
@@ -722,21 +732,21 @@ money_hoarder_2 = {
 	trigger = {
 		or = {
 			and = {
-				money = 5000000
+				money = 2000000
 				not = {
 					num_of_cities = 50
-					money = 10000000
+					money = 5000000
 				}
 			}
 			and = {
-				money = 8000000
+				money = 5000000
 				num_of_cities = 50
-				not = { money = 15000000 }
+				not = { money = 10000000 }
 			}
 		}
 	}
-	tax_efficiency = -0.20
-	tariff_efficiency_modifier = -0.50
+	tax_efficiency = -0.10
+	tariff_efficiency_modifier = -0.40
 	icon = 1
 }
 
@@ -745,16 +755,60 @@ money_hoarder_3 = {
 		or = {
 			and = {
 				money = 1000000
+				not = {
+					num_of_cities = 50
+					money = 1500000
+				}
+			}
+			and = {
+				money = 15000000
+				num_of_cities = 50
+				not = { money = 20000000 }
+			}
+		}
+	}
+	tax_efficiency = -0.15
+	tariff_efficiency_modifier = -0.60
+	icon = 1
+}
+
+money_hoarder_4 = {
+	trigger = {
+		or = {
+			and = {
+				money = 10000000
+				not = {
+					num_of_cities = 50
+					money = 15000000
+				}
+			}
+			and = {
+				money = 15000000
+				num_of_cities = 50
+				not = { money = 20000000 }
+			}
+		}
+	}
+	tax_efficiency = -0.20
+	tariff_efficiency_modifier = -0.80
+	icon = 1
+}
+
+money_hoarder_5 = {
+	trigger = {
+		or = {
+			and = {
+				money = 15000000
 				not = { num_of_cities = 50 }
 			}
 			and = {
-				money = 1500000
+				money = 20000000
 				num_of_cities = 50
 			}
 		}
 	}
-	tax_efficiency = -0.30
-	tariff_efficiency_modifier = -0.75
+	tax_efficiency = -0.25
+	tariff_efficiency_modifier = -1.0
 	icon = 1
 }
 
@@ -770,5 +824,21 @@ occupied_capital = {
 	mobilisation_size = -0.005
 	global_pop_consciousness_modifier = 0.05
 	global_pop_pop_militancy_modifier = 0.02
+	icon = 1
+}
+
+lack_of_mining = {
+	trigger = {
+	 NOT = { any_owned_province = {
+	  OR = {
+       trade_goods = coal
+	   trade_goods = iron
+	  }
+	 }
+	}
+	}
+	prestige = -0.1
+	global_pop_consciousness_modifier = -0.01
+	factory_throughput = -0.25
 	icon = 1
 }

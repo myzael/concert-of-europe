@@ -1,409 +1,3 @@
-#################################
-#		African Map Events		#
-#################################
-#Ethiopa Mission to Cairo decision changed to event.
-country_event = {
-	id = 300956
-	trigger = {
-		tag = ETH
-		EGY = {
-			ai = yes
-			exists = yes
-			neighbour = ETH
-			NOT = {
-				any_owned_province = { is_core = ETH }
-				casus_belli = ETH
-			}
-		}
-		NOT = {
-			war_with = EGY
-			any_owned_province = { is_core = EGY }
-			any_owned_province = { is_core = SUD }
-			casus_belli = EGY
-			truce_with = EGY
-		}
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 3
-	}
-	
-	title = "EVTNAME300956"
-	desc = "EVTDESC300956"
-	picture = "timbuctu"
-	
-	option = {
-		name = "Prosperity for us all!"
-		years_of_research = 0.25
-		relation = { who = EGY value = 300 }
-	}
-}
-
-#Sahara Cleanup
-country_event = {
-	id = 300956
-	trigger = {
-		owns = 1719
-		civilized = yes
-		1724 = {
-			empty = yes
-		}
-		1717 = {
-			empty = yes
-		}
-		has_global_flag = berlin_conference
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 12
-		modifier = {
-			factor = 4
-			war = yes
-		}
-	}
-	
-	title = "EVTNAME300956"
-	desc = "EVTDESC300956"
-	picture = "timbuctu"
-	
-	option = {
-		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
-		prestige = 1
-		money = -5000
-		1717 = {
-			secede_province = THIS
-			any_pop = {
-				militancy = 4
-			}
-		}
-		1724 = {
-			secede_province = THIS
-			any_pop = {
-				militancy = 4
-			}
-		}
-		random_country = {
-			limit = {
-				owns = 1741
-				1743 = { empty = yes }
-			}
-			country_event = { 
-				id = 300975
-				days = 45
-			}
-		}
-	}
-}
-#The Oasis of Taout
-country_event = {
-	id = 300957
-	trigger = {
-		owns = 1710
-		owns = 1715
-		civilized = yes
-		1719 = {
-			empty = yes
-		}
-		state_n_government = 1
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 120
-		modifier = {
-			factor = 0.5
-			year = 1870
-		}
-		modifier = {
-			factor = 0.25
-			year = 1880
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-	
-	title = "EVTNAME300957"
-	desc = "EVTDESC300957"
-	picture = "timbuctu"
-	
-	option = {
-		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
-		prestige = 1
-		money = -5000
-		1719 = {
-			secede_province = THIS
-			any_pop = {
-				militancy = 4
-			}
-		}
-		random_country = {
-			limit = {
-				owns = 1730
-				1729 = { empty = yes }
-			}
-			country_event = {
-				id = 300976
-				days = 45
-			}
-		}
-	}
-}
-
-#The L'Eliza - Founding of Libreville
-country_event = {
-	id = 300958
-	trigger = {
-		tag = FRA
-		1972 = {
-			empty = yes
-		}
-		BRZ_2428 = { is_slave = yes }
-		year = 1840
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 48
-		modifier = {
-			factor = 0.5
-			year = 1846
-		}
-		modifier = {
-			factor = 0.25
-			year = 1848
-		}
-	}
-	
-	title = "EVTNAME300958"
-	desc = "EVTDESC300958"
-	picture = "slaves_freed"
-	
-	option = {
-		name = "What an enlightend idea!"
-		prestige = 5
-		treasury = -15000
-		1972 = {
-			change_province_name = "Libreville"
-		}
-		1972 = {
-			secede_province = FRA
-			random_pop = {
-				limit = {
-					has_pop_culture = african_minor
-					type = labourers
-				}
-				reduce_pop = 1.05
-			}
-			slaves = {
-				pop_type = labourers
-			}
-		}
-		
-		
-		ai_chance = {
-			factor = 65
-			modifier = {
-				factor = 0.33
-				NOT = { money = 20000 } 
-			}
-		}
-	}
-	option = {
-		name = "We intercepted a slave ship? Are you sure?"
-		random_country = {
-			limit = {
-				owns = 2431
-			}
-			BRZ_2428 = {
-				slaves = {
-					reduce_pop = 1.05
-				}
-			}
-			relation = {
-				who = FRA
-				value = 25
-			}
-		}
-		relation = {
-			who = ENG
-			value = -25
-		}
-		ai_chance = {
-			factor = 35
-			modifier = {
-				factor = 2
-				NOT = { money = 20000 } 
-			}
-		}
-	}
-	option = {
-		name = "You know, our colonies could use some more men..."
-		badboy = 2
-		relation = {
-			who = ENG
-			value = -50
-		}
-		random_state = {
-			limit = {
-				owner = {
-					slavery = yes_slavery
-				}
-				is_slave = yes
-			}
-			random_pop = {
-				limit = {
-					type = slaves				
-				}
-				reduce_pop = 1.05
-			}
-		}
-		random_state = {
-			limit = {
-				owner = {
-					slavery = no_slavery
-				}
-				any_pop = {
-					has_pop_culture = afro_antillean
-				}
-			}
-			random_pop = {
-				limit = {
-					has_pop_culture = afro_antillean			
-				}
-				reduce_pop = 1.05
-			}
-		}
-		ai_chance = {
-			factor = 0		
-		}	
-	}
-}
-
-#Cleanup should Libreville not be colonized
-country_event = {
-	id = 300959
-	trigger = {
-		OR = {
-			owns = 1974
-			owns = 1973
-		}
-		civilized = yes
-		has_global_flag = berlin_conference
-		1972 = {
-			empty = yes
-		}
-		1974 = {
-			empty = no
-		}
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 20
-	}
-	
-	title = "EVTNAME300959"
-	desc = "EVTDESC300959"
-	picture = "deliberation"
-	
-	option = {
-		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
-		treasury = -4000
-		prestige = 1
-		1972 = {
-			secede_province = THIS
-		}
-	}
-}
-
-#Lake Chad Outlet for Cameroon
-country_event = {
-	id = 300960
-	trigger = {
-		exists = yes
-		owns = 1963 #Ngaoundere - Cameroon
-		civilized = yes
-		has_global_flag = berlin_conference
-		1964 = {
-			owner = {
-				civilized = no
-				ai = yes
-			}
-		}
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 24
-	}
-	
-	title = "EVTNAME300960"
-	desc = "EVTDESC300960"
-	picture = "deliberation"
-	
-	option = {
-		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!" 
-		prestige = 1
-		money = -4000
-		1964 = {
-			secede_province = THIS
-			any_pop = {
-				militancy = 4
-			}
-		}
-	}
-}
-
-
-#Moundou cleanup
-country_event = {
-	id = 300964
-	trigger = {
-		exists = yes
-		OR = {
-			owns = 1820 #Bongor - Chad
-			owns = 1963 #Ngaoundere - Cameroon
-		}
-		civilized = yes
-		has_global_flag = berlin_conference
-		1819 = { #Moundou
-			empty = yes
-		}
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 24
-	}
-	
-	title = "EVTNAME300964"
-	desc = "EVTDESC300964"
-	picture = "deliberation"
-	
-	option = {
-		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!" 
-		prestige = 1
-		money = -4000
-		1819 = {
-			secede_province = THIS
-			any_pop = {
-				militancy = 4
-			}
-		}
-	}
-}
-
 #Colonising Greenland
 country_event = {
 	id = 300966
@@ -444,7 +38,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Yet more ice for the $COUNTRY_ADJ$ Empire?"
+		name = "Yet ice for the $COUNTRY_ADJ$ Empire?"
 		prestige = -3
 		2591 = { life_rating = 5 }
 		ai_chance = {
@@ -561,8 +155,6 @@ country_event = {
 	id = 300968
 	is_triggered_only = yes
 	
-	allow_multiple_instances = yes
-	
 	title = "EVTNAME300967"
 	desc = "EVTDESC300968"
 	picture = "deliberation"
@@ -578,8 +170,6 @@ country_event = {
 country_event = {
 	id = 300969
 	is_triggered_only = yes
-	
-	allow_multiple_instances = yes
 	
 	title = "EVTNAME300967"
 	desc = "EVTDESC300969"
@@ -658,117 +248,6 @@ country_event = {
 	}
 }
 
-#####################################################
-#													#
-#				Libyan Desert Events				#
-#													#
-#####################################################
-#Begin
-country_event = {
-	id = 300979
-
-	trigger = {
-		exists = yes
-		is_greater_power = yes
-		colonial_nation = yes
-		invention = the_dark_continent 
-		war = no
-		has_global_flag = berlin_conference
-	}
-	
-	fire_only_once = yes
-	
-	title = "EVTNAME300973"
-	desc = "EVTDESC300973"
-	picture = "deliberation"
-		
-	mean_time_to_happen = {
-		months = 10
-		modifier = {
-			any_owned_province = {
-				continent = africa
-				factor = 0.25
-			}
-		}
-	}
-
-
-	option = {
-		name = "Lets get to work!"
-		prestige = 5
-		money = -5000
-		random_country = {
-			limit = {
-				owns = 1760
-				1758 = { empty = yes }
-			}
-			country_event = {
-				id = 300973
-			}
-		}
-		random_country = {
-			limit = {
-				OR = {
-					owns = 1738
-					AND = {
-						owns = 1735
-						1738 = {
-							empty = yes
-						}
-					}
-				
-				}
-				1739 = { empty = yes }
-			}
-			country_event = {
-				id = 300974
-				days = 20
-			}		
-		}
-		random_country = {
-			limit = {
-				owns = 1741
-				1743 = { empty = yes }
-			}
-			country_event = {
-				id = 300975
-				days = 45
-			}		
-		}
-		random_country = {
-			limit = {
-				owns = 1730
-				1829 = { empty = yes }
-			}
-			country_event = {
-				id = 300976
-				days = 70
-			}
-		}
-		random_country = {
-			limit = {
-				owns = 1835
-				2564 = { empty = yes }
-			}
-			country_event = {
-				id = 300977
-				days = 105
-			}		
-		}
-		random_country = {
-			limit = {
-				owns = 1824
-				NOT = { owns = 1826 }
-			}
-			country_event = {
-				id = 300978
-				days = 140
-			}		
-		}
-	}
-}
-
-
 #Eastern Libyan Desert
 country_event = {
 	id = 300973
@@ -783,7 +262,6 @@ country_event = {
 		prestige = 1
 		1758 = {
 			secede_province = THIS
-			add_core = EGY
 		}
 	}
 }
@@ -802,17 +280,6 @@ country_event = {
 		prestige = 1
 		1739 = {
 			secede_province = THIS
-			add_core = CYR
-		}
-		random_owned = {
-			limit = {
-				1738 = {
-					empty = yes
-				}
-			}
-			1738 = {
-				secede_province = THIS
-			}
 		}
 	}
 }
@@ -831,7 +298,6 @@ country_event = {
 		prestige = 1
 		1743 = {
 			secede_province = THIS
-			add_core = TRI
 		}
 	}
 }
@@ -850,7 +316,6 @@ country_event = {
 		prestige = 1
 		1729 = {
 			secede_province = THIS
-			add_core = TUN
 		}
 	}
 }
@@ -869,7 +334,6 @@ country_event = {
 		prestige = 1
 		2564 = {
 			secede_province = THIS
-			add_core = SUD
 		}
 	}
 }
@@ -891,12 +355,6 @@ country_event = {
 		}
 	}
 }
-
-
-
-
-################################################
-
 
 #The Goldsmith Arbitration
 country_event = {
@@ -1468,7 +926,7 @@ country_event = {
 			factor = 5
 			modifier = {
 				factor = 0
-				badboy = 0.6
+				badboy = 15
 			}
 		}
 	}

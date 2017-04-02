@@ -1144,79 +1144,6 @@ iranian_turanian = {
 			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
 		}
 	}
-	parsi = {
-		color = {180 0 160}
-		first_names = {
-			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
-			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Kamran Karim "Lotf Ali" 
-			Massoud "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
-			"Naser ed-Din" Nosret Reza
-			}
-		last_names = {
-			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
-			Jahanbani Kashani Khan Khuzai
-			Meshhedi Nakhchevani Pesyan Rokni Sassanid Shafaei Shahbakhti 
-			Shirazi Tabrizi Tahmasebi Zahedi
-			}
-	}
-	tabari = {
-		color = {92 130 64}
-		first_names = {
-			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
-			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
-			Mahmoud Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
-			"Naser ed-Din" Nosret Reza
-			}
-		last_names = {
-			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
-			Jahanbani Kashani Khan Khuzai
-			Meshhedi Nakhchevani Pahlavi Pesyan Qajar Rokni Shafaei Shahbakhti 
-			Shirazi Tabrizi Tahmasebi Zahedi
-			}
-	}
-	luri = {
-		color = {210 135 125}
-		first_names = {
-			Abdal Abdulkarim Bedr Hafid Ihsan Mahmud Mohammed Qazi Reshid Said Ubaydallah
-			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
-			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
-			Mahmoud Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
-			"Naser ed-Din" Nosret Reza
-			}
-		last_names = {
-			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
-			Jahanbani Kashani Khuzai
-			Badirkhan Barzani Khan Shilak
-			Meshhedi Nakhchevani Pahlavi Pesyan Qajar Rokni Shafaei Shahbakhti 
-			Shirazi Tabrizi Tahmasebi Zahedi
-			}
-	}
-	kalash = {
-		color = {100 0 0}
-		first_names = {
-			Dezauhe Khodai Imra Munjem Mahandeo
-			}
-		last_names = {
-			Kata Kom Mumo Jench Kshto Dungulio Kalasha Tregami Vasi Askunu Sanu Gramsana
-
-			}
-	}
-	ossetian = {
-		color = {227 177 41}
-		first_names = { Akaki Aleksandre Andria Bagrat Besarion David Dimitri Eduard Ekvtime Evgeni
-			Filipp Galaktion Georgi Gaito Givi Grigol Ilia Ioseb Irakli Ivane
-			Jansung Jemal Kaikhosro Konstantine Kosta Leo Levan Luka Meliton Mikheil Murman
-			Nikoloz Noe Otar Polikarp Radish Ramonov Revaz Ruslan Sargis Sergo Shalva Solomon
-			Sulkhan Teimuraz Tingiz Vakhtang Valerian Vasil Vladimer Zakharia Zurab Zviad
-		}
-
-		last_names = { Abkhazi Amilakhvari Avalishvili Bagratuni Bakradze Balanchivadze Barakadze Chabukiani Chavchanadze Chkhubianashvili
-			Cholokashvili Chubinashvili Dodashvili Dudarova Eliava Gabashvili Gazdanov Gokhieli Gordeli Javakhisvili Jugashvili Jugheli
-			Kakabadze Kandelaki Kartvelishvili Karaev Kavtaradze Kereselidze Khelaia Khetagurov Khvitia Kvinitadze Leselidze Maglakelidze
-			Makharadze Mazniashvili Mikeladze Muskhelishvili Nioradze Nutsubideze Otskheli Ramishvili
-			Razikashvili Sabinin Shanidze Sukhisvili Tabidze Takaishvili Tsereteli Tsintsadze Uznadze Vano Zhordania
-		}
-	}
 }
 
 central_asian = {
@@ -1675,37 +1602,47 @@ far_east_asian = {
 	japanese = {
 		color = {230 230 230}
 		first_names = {
-			Aritomo Goro Gentaro Gonnohyoe Heihachiro Hiroshi Hikonojo Hyoe Hayao Iwao Jiro Jinzaburo
-			Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
-			Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo Nariaki Nobuyoshi Rokuro Sukeyuki Sukenori
-			Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku Takayoshi Takamori 
-			Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
-			Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
+		Aritomo
+		Goro Gentaro Gonnohyoe
+		Heihachiro Hiroshi Hikonojo Hyoe Hayao
+		Iwao
+		Jiro Jinzaburo
+		Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
+		Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
+		Nariaki Nobuyoshi
+		Rokuro
+		Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
+		Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
+		Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
 		}
 		last_names = {
-			Arisugawa Arichi Akiyama Araki Dewa	Enomoto	Hasegawa Honjo Ito Inoue Ichinohe Itagaki
-			Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
-			Makino Muto Minami Masaki Matsudaira Nakamuta Nogi Nire Nozu Okubo Oyama Omura Oku Okada Osumi
-			Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa Togo Takashima Tsuboi Tachibana Terauchi 
-			Tamon Takasugi Tokugawa	Uehara Uryu Ugaki Ueda Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
+		Arisugawa Arichi Akiyama Araki
+		Dewa
+		Enomoto
+		Hasegawa Honjo
+		Ito Inoue Ichinohe Itagaki
+		Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
+		Makino Muto Minami Masaki Matsudaira
+		Nakamuta Nogi Nire Nozu
+		Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
+		Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa
+		Uehara Uryu Ugaki Ueda
+		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
 		}
 	}
 	korean = {
 		color = {87 89 25}
-		first_names = { 
-			Yi Jo Bak Yun Sim Kim Hong Seo Jeong Kwon Han
+		first_names = { Yi Jo Bak Yun Sim Kim Hong Seo Jeong Kwon Han
 		}
-		last_names = { 
-			Hwan Chung Hyong Shinjong Haung Ch'ok Taek Seon Si Jip Guk Mok Bo Yong Sun Gyu Hu
+		last_names = { Hwan Chung Hyong Shinjong Haung Ch'ok Taek Seon Si Jip Guk Mok Bo Yong Sun Gyu Hu
 		}
 	}
 	ainu = {
 		color = {130 130 130}
-		first_names = { 
-			Seimei Resaak Akihi Petennouk Unayanke Shiratekka Apniainu Pasekur Munkeke Shitekka Shinriki Shiromainu Menkakush
+		first_names = { Seimei Resaak Akihi Petennouk Unayanke Shiratekka Apniainu Pasekur Munkeke Shitekka Shinriki Shiromainu Menkakush
 		}
-		last_names = { 
-			Aterui Shakushine Koshamine Harukor Turushno Isonash Keutoranke
+		last_names = { Aterui Shakushine Koshamine Harukor Turushno Isonash Keutoranke
 		}
 	}
 }
@@ -1760,27 +1697,427 @@ oceanic = {
 native_american = {
 	leader = nativeamerican
 	is_overseas = no
+	zapotec = {
+		color = {87 199 81}
+		first_names = { Agustín Alberto Alfonso Alfredo Andrés Benito Carlos César Eduardo Eugenio
+		Felipe Fernando Gabriel Gilberto Gregorio Jacinto Jesús José Juan Julio
+		Macario Manuel Miguel Nazario Nicolás Oliverio Pablo Porfirio Rodolfo Rufino }
+
+		last_names = { Alonso Antúnez Cabrera Cajigas Chacón Chiñas Cortés Fernández Gamboa García
+		González Gutiérrez Guzmán Henestrosa Isael Jiménez Juárez López Matus Mérida
+		Morales Nayeli Orozco Ortíz Pineda Rojas Ruíz Suárez Tamayo Vichido }
+	}
+	mayan = {
+		color = {98 88 142}
+		first_names = { Agustín Akbal Alejandro Andrés Aníbal Antonio Armando Bernardo Carlos Crescencio
+		Cristóbal Cuautéhmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto
+		Jesús Luis Marcial Martín Miguel Ramiro Rodolfo Rolando Santiago Yumil }
+
+		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
+		Curruchic Ixquiac López Manzanero Mas Menchú Mérida Mes Osorio Pek
+		Poot Pop Puk Shal Sho Tecú Teul Tuyuc Xicara Xiloj }
+	}
+	nahua = {
+		color = {88 175 160}
+		first_names = { Antonio Carlos Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jesús José Juan Julio Lorenzo Manuel
+		Marcial Mario Martín Natalio Oliverio Pedro Roberto Rodolfo Santiago Víctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Gutiérrez Hernández
+		Huanitzin Itzel Ixtlilxochitl Jiménez Matlacuahuac Mayahuel Moxo Muñoz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicoténcatl Xochitl Zapata Zapotitla }
+	}
+	tarascan = {
+		color = {87 188 192}
+		first_names = { Agustín Alberto Alfredo Antonio Armando Arturo Carlos Cenobio Daniel Diego
+		Everardo Gerardo Gumersindo Héctor Jesús Juan Leobardo Luis Manuel Marcial
+		"Marco Antonio" Melchor Pedro Ricardo Salvador Samuel Sergio Silvano Silvestre Víctor }
+
+		last_names = { Almonte Arredondo Arriaga Aureoles Bernal Brito Calderón Cano Carrillo Cristóbal
+		Cuevas Dimas Esquivel Estrada Galeana Gallardo García Gómez López Maciel
+		Magaña Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas }
+	}
+	quechua = {
+		color = {178 141 85}
+		first_names = { 	Anquimarca Apo Atahualpa Atoc Atoc-Suqui Auqui-Huaman
+	Canchari Chalcuchima Challco Chiaquitinta Chilche Colla-Topa Curiatao Cusi
+	Guacra Guaritito Guaritopa
+	Huachuri Huaman Huascar Huaypalcon
+	Illaquita Inquill
+	Llicllic
+	Maila Maras Marcavilca Mayta
+	Ninancoro
+	Ozcoc
+	Parinango Paucar Paullu Pomacapi Puma Pusca Puyu-Vilca
+	Quilaco Quingallumbo Quintiraura Quisquis Quizo
+	Rimac Ronpa
+	Sahuaraura Sotaurco
+	Tanqui Tucuycuyche Tupac-Amaru
+	Yupanqui }
+
+		last_names = { Arguedas Barrientos Cajahuanca Canchata Chambi Chihuán Cusurichi Espejo Frisancho Gamarra
+		Guaman Guayasamín Gutiérrez Heredia Humala Iturri Lazarte Ludueña Melgarejo Palacios
+		Patiño Quispe Rodríguez Roncaglia "Santa Cruz" Sosa Sumac Toledo Vargas Zapata }
+	}
+	guarani = {
+		color = {89 80 175}
+		first_names = { 	Achachic
+	Achuqalla
+	Alaya
+	Ali
+	Aliqora
+	Amaru
+	Ankalli
+	Anku
+	Ankuwillka
+	Apumayta
+	Aqarapi
+	Aruma
+	Aruni
+	Aruwata
+	Aruwiri
+	Awki
+	Awqapuma
+	Axaqupa
+	Axata
+	Ayawire
+	Ayka
+	Aykisi
+	"Ch Allqu"
+	"Ch Ayña"
+	ChUllqi
+	Champi
+	Champilla
+	Champiwillka
+	Chinpukusi
+	Chiwchi
+	Chuqi
+	Chuqimamani
+	Chuqitinta
+	Chuqiwanka
+	Chuqiwillka
+	Chura
+	Churata
+	Churki
+	Chuwi
+	Chuyma
+	Harawi
+	Haylli
+	Hila
+	Ilawi
+	Illa
+	Illampu
+	Illatarku
+	Illawara
+	Illika
+	Illimani
+	Imiri
+	Inkaruka
+	Inti
+	Intimayta
+	Iraya
+	Jalaru
+	Jalja
+	JanqU
+	Jayri
+	KAwna
+	Kachi
+	Kalisaya
+	Kalla
+	Kanki
+	Katari
+	Khajkiri
+	Khana
+	Khantati
+	Khari
+	Kinu
+	Kuka
+	Kullu
+	Kunturi
+	Kurmi
+	Kurumi
+	Kusi
+	Kusisa
+	Lariku
+	Lawra
+	Lawrawa
+	Laymi
+	Limachi
+	Llallawa
+	Llanqi
+	LluskU
+	LukAna
+	Majnu
+	Mallku
+	Mamani
+	Maya
+	Mayta
+	Mullu
+	Munasiri
+	Nina
+	Ninaqhispi
+	Ninawillka
+	Ollantay Atalaya
+	Panqara
+	Panti
+	Paqari
+	Paqu
+	Pawllu
+	Pawqara
+	Pawqarmayta
+	Payllu
+	Phaksi
+	PhaksiphatI
+	Phuqata
+	Phuyu
+	Pillqu
+	Puma
+	Pumakusi
+	Qalani
+	Qallari
+	Qantuta
+	Qawana
+	Qawaya
+	Qawayu
+	Qhallalli
+	Qharuru
+	Qhispi
+	Qillqa
+	Qinallata
+	Qinaya
+	Qisintuu
+	Qisu
+	Qisuyupanki
+	Quien
+	Qullqi
+	Ruka
+	Sanka
+	Sapana
+	Sawalla
+	Sayri
+	Saywa
+	Shatiri
+	Sillanki
+	Sinchiruka
+	Sisa
+	Sullkani
+	Sullkata
+	Suxsu
+	TAlla
+	TItU
+	TItUatawchi
+	TUla
+	Tanqara
+	Tarki
+	Taypi
+	Thaluki
+	Thaya
+	Thayari
+	Tikuna
+	Tintaya
+	Titi
+	Umantuu
+	UrisakA
+	Uruchi
+	Ururi
+	Uskamayta
+	Usnayu
+	Utuya
+	Wallpa
+	Wampu
+	Wanka
+	Wanka
+	Wara
+	Warachi
+	Warakusi
+	Waranqa
+	Wari
+	WaychU
+	Waylla
+	Wayna
+	Waywa
+	Willka
+	Yana
+	Yatiri
+	Yupanki }
+
+		last_names = { Abjaisu Álvarez Ayegua Camba Chuaie Correa Cunhagatú Díaz Fernández Galeano
+		Gómez González Guaracay Guaraní Guerrero Jopara López Mongelós Morla Ortíz
+		Paravé Picagua Riquelme Rivarola "Santa Cruz" Tarayú Torga Velázquez Yaguarete Yrahi }
+	}
 	aimara = {
 		color = {190 45 23}
-		first_names = { 	
-			Achachic Achuqalla Alaya Ali Aliqora Amaru Ankalli Anku Ankuwillka Apumayta Aqarapi Aruma Aruni Aruwata Aruwiri Awki
-			Awqapuma Axaqupa Axata Ayawire Ayka Aykisi Champi Champilla Champiwillka Chinpukusi	Chiwchi	Chuqi Chuqimamani Chuqitinta
-			Chuqiwanka Chuqiwillka Chura Churata Churki Chuwi Chuyma Harawi Haylli Hila Ilawi Illa Illampu Illatarku Illawara Illika
-			Illimani Imiri Inkaruka Inti Intimayta Iraya Jalaru Jalja Jayri Kachi Kalisaya Kalla Kanki Katari Khajkiri Khana Khantati
-			Khari Kinu Kuka Kullu Kunturi Kurmi Kurumi Kusi Kusisa Lariku Lawra Lawrawa	Laymi Limachi Llallawa Llanqi Majnu Mallku
-			Mamani Maya Mayta Mullu Munasiri Nina Ninaqhispi Ninawillka "Ollantay Atalaya" Panqara Panti Paqari Paqu Pawllu	Pawqara
-			Pawqarmayta Payllu Phaksi Phuqata Phuyu Pillqu Puma Pumakusi Qalani Qallari	Qantuta	Qawana Qawaya Qawayu Qhallalli Qharuru
-			Qhispi Qillqa Qinallata Qinaya Qisintuu Qisu Qisuyupanki Quien Qullqi Ruka Sanka Sapana Sawalla Sayri Saywa Shatiri	Sillanki
-			Sinchiruka Sisa Sullkani Sullkata Suxsu Tanqara Tarki Taypi Thaluki Thaya Thayari Tikuna Tintaya Titi Umantuu Urisaka Uruchi
-			Ururi Uskamayta	Usnayu Utuya Wallpa Wampu Wanka Wanka Wara Warachi Warakusi Waranqa Wari "Waych U" Waylla Wayna Waywa Willka
-			Yatiri Yupanki Evo
-		}
+		first_names = { 	Achachic
+	Achuqalla
+	Alaya
+	Ali
+	Aliqora
+	Amaru
+	Ankalli
+	Anku
+	Ankuwillka
+	Apumayta
+	Aqarapi
+	Aruma
+	Aruni
+	Aruwata
+	Aruwiri
+	Awki
+	Awqapuma
+	Axaqupa
+	Axata
+	Ayawire
+	Ayka
+	Aykisi
+	Champi
+	Champilla
+	Champiwillka
+	Chinpukusi
+	Chiwchi
+	Chuqi
+	Chuqimamani
+	Chuqitinta
+	Chuqiwanka
+	Chuqiwillka
+	Chura
+	Churata
+	Churki
+	Chuwi
+	Chuyma
+	Harawi
+	Haylli
+	Hila
+	Ilawi
+	Illa
+	Illampu
+	Illatarku
+	Illawara
+	Illika
+	Illimani
+	Imiri
+	Inkaruka
+	Inti
+	Intimayta
+	Iraya
+	Jalaru
+	Jalja
+	Jayri
+	Kachi
+	Kalisaya
+	Kalla
+	Kanki
+	Katari
+	Khajkiri
+	Khana
+	Khantati
+	Khari
+	Kinu
+	Kuka
+	Kullu
+	Kunturi
+	Kurmi
+	Kurumi
+	Kusi
+	Kusisa
+	Lariku
+	Lawra
+	Lawrawa
+	Laymi
+	Limachi
+	Llallawa
+	Llanqi
+	Majnu
+	Mallku
+	Mamani
+	Maya
+	Mayta
+	Mullu
+	Munasiri
+	Nina
+	Ninaqhispi
+	Ninawillka
+	"Ollantay Atalaya"
+	Panqara
+	Panti
+	Paqari
+	Paqu
+	Pawllu
+	Pawqara
+	Pawqarmayta
+	Payllu
+	Phaksi
+	Phuqata
+	Phuyu
+	Pillqu
+	Puma
+	Pumakusi
+	Qalani
+	Qallari
+	Qantuta
+	Qawana
+	Qawaya
+	Qawayu
+	Qhallalli
+	Qharuru
+	Qhispi
+	Qillqa
+	Qinallata
+	Qinaya
+	Qisintuu
+	Qisu
+	Qisuyupanki
+	Quien
+	Qullqi
+	Ruka
+	Sanka
+	Sapana
+	Sawalla
+	Sayri
+	Saywa
+	Shatiri
+	Sillanki
+	Sinchiruka
+	Sisa
+	Sullkani
+	Sullkata
+	Suxsu
+	Tanqara
+	Tarki
+	Taypi
+	Thaluki
+	Thaya
+	Thayari
+	Tikuna
+	Tintaya
+	Titi
+	Umantuu
+	Urisaka
+	Uruchi
+	Ururi
+	Uskamayta
+	Usnayu
+	Utuya
+	Wallpa
+	Wampu
+	Wanka
+	Wanka
+	Wara
+	Warachi
+	Warakusi
+	Waranqa
+	Wari
+	"Waych U"
+	Waylla
+	Wayna
+	Waywa
+	Willka
+	Yatiri
+	Yupanki
+Evo	}
 
-		last_names = { 
-			Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
-			Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
-			Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra 
-		}
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
 	}
 	amazonian = {
 		color = {4 255 84}
@@ -1791,58 +2128,105 @@ native_american = {
 		last_names = { Arawá Arawak Bororo Garifuna Gê Guayaná Jeikó Kaingang Kalinago Kamakán
 		Karajá Kayapó Matsés Maxakalí Purí Timbira Xavante Xerente Xokieng Yanomamö }
 	}
-	californian_people = {
-		color = { 199 253 87 }
-		first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
-		}
-		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
-		Magaña Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas
-		}
+
+	patagonian = {
+		color = {88 99 133}
+		first_names = { 	Minchekewün
+	Aukargërü
+	Alongkewün
+	Amuillang
+	Ankafilo
+	Ankafilo
+	Antülaf
+	Antüpang
+	Antifil
+	Anëíllang
+	Aukamaññ
+	Kallfümil
+	Kalfükurra
+	Karrükewün
+	Katrikurra
+	Chinkolef
+	Konümwenu
+	Konnalef
+	Koyawe
+	Kuminaq
+	Kurramill
+	Kurrakewün
+	Kurrüleufu
+	Kurrumaññ
+	Kurripang
+	Kurikewün
+	Epulef
+	Fëta-plom
+	Weikilaf
+	Wechukurra
+	Wellpiñ
+	Wenchulaf
+	Wenchuleufu
+	Wenchumaññ
+	Wenchumilla
+	Wenchungërü
+	wentemil
+	Wenuweke
+	Wenullang
+	Wenumaññ
+	Wenupang
+	Wichacurra
+	Weichawe
+	Wichalef
+	Wenchungërü
+	Widaleufu
+	Winkulche
+	Wirkalaf
+	Wirkaleufu
+	Inalef
+	Likankewün
+	Linkokewün
+	Llangkamill
+	Llankangërü
+	Lonkopang
+	Mañkekurra
+	Mankewün
+	Mangkepang
+	Marikewün
+	Melifilo
+	Mëtrenko
+	Millangërü
+	Namunkurra
+	Nekulmaññ
+	Nekulkewün
+	Ñankufilu
+	Ngélol
+	Paillalef
+	Paillakewün
+	Painekurra
+	Painemilla
+	Painefilo
+	Pichullmaññ
+	Pichuñlaf
+	Keupulikan
+	Keupumill
+	Küdell
+	Küdekewün
+	Kintrekewün
+	Küntrülpe
+	Kintúíllang
+	Kintuñanko
+	Kiñelef
+	Railef
+	Rapimaññ
+	Rëpükurra
+	Rukawe
+	Rukalaf
+	Traunko
+	Tranamill
+	Trekamaññ }
+
+		last_names = { Collao Hualquipán Choripán Aliwen Kuri Ñanku Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil Paifilao
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincomán Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
 	}
-	cherokee = {
-		color = {235 208 106}
-		first_names = { 
-			John Tahlonteeskee Takatoka Charles William Lweis Dennis Joel Thomas Frank Andrew Edward
-		}
-		last_names = { 
-			Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
-		}
-	}
-	cheyenne = { #placeholder names
-		color = {125  92  110}
-		first_names = { 
-			John Tahlonteeskee Takatoka Charles William Lweis Dennis Joel Thomas Frank Andrew Edward
-		}
-		last_names = { 
-			Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
-		}
-	}
-	comanche = { #placeholder names
-		color = {255  205  155}
-		first_names = { 
-			John Tahlonteeskee Takatoka Charles William Lweis Dennis Joel Thomas Frank Andrew Edward
-		}
-		last_names = { 
-			Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
-		}
-	}
-	cree = {
-		color = {127 244 100}
-		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
-		}
-		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
-		}
-	}
-	dakota = {
-		color = {105  145  40}
-		first_names = { 
-			Sinté Thaóyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
-		}
-		last_names = {
-			Gleská Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
-		}
-	}
-	
 	guajiro = {
 		color = {221 248 75}
 		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
@@ -1852,45 +2236,243 @@ native_american = {
 		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
 		Uraliyyu Ulewana Walapuana Walepushana }
 	}
-	
-	guarani = {
-		color = {89 80 175}
-		first_names = { 
-			Achachic Achuqalla Alaya Ali Aliqora Amaru Ankalli Anku Ankuwillka Apumayta Aqarapi Aruma AruniAruwata Aruwiri
-			Awki Awqapuma Axaqupa Axata Ayawire	Ayka Aykisi	"Ch Allqu" "Ch Ayña" ChUllqi Champi Champilla Champiwillka Chinpukusi
-			Chiwchi Chuqi Chuqimamani Chuqitinta Chuqiwanka Chuqiwillka Chura Churata Churki Chuwi Chuyma Harawi Haylli Hila Ilawi Illa
-			Illampu Illatarku Illawara Illika Illimani Imiri Inkaruka Inti Intimayta Iraya Jalaru Jalja JanqU Jayri KAwna Kachi Kalisaya
-			Kalla Kanki Katari Khajkiri Khana Khantati Khari Kinu Kuka Kullu Kunturi Kurmi Kurumi Kusi Kusisa Lariku Lawra Lawrawa Laymi
-			Limachi Llallawa Llanqi LluskU LukAna Majnu Mallku Mamani Maya Mayta Mullu Munasiri Nina Ninaqhispi Ninawillka Ollantay Atalaya
-			Panqara	Panti Paqari Paqu Pawllu Pawqara Pawqarmayta Payllu Phaksi PhaksiphatI Phuqata Phuyu Pillqu Puma Pumakusi Qalani Qallari
-			Qantuta Qawana Qawaya Qawayu Qhallalli Qharuru Qhispi Qillqa Qinallata Qinaya Qisintuu Qisu Qisuyupanki Quien Qullqi Ruka Sanka
-			Sapana Sawalla Sayri Saywa Shatiri Sillanki Sinchiruka Sisa Sullkani Sullkata Suxsu TAlla TItU TItUatawchi TUla Tanqara Tarki
-			Taypi Thaluki Thaya Thayari	Tikuna Tintaya Titi Umantuu	UrisakA	Uruchi Ururi Uskamayta Usnayu Utuya Wallpa Wampu Wanka Wanka Wara
-			Warachi Warakusi Waranqa Wari WaychU Waylla Wayna Waywa Willka Yana Yatiri Yupanki 
+	tupinamba = {
+		color = {43 212 67}
+		first_names = { 	Bambuí
+	Baraúna
+	Birigui
+	Bocaiúva
+	Brenho
+	Caápua
+	Cabuçu
+	Caçapava
+	Caeté
+	Cairu
+	Caiuá
+	Caiubi
+	Cajaty
+	Cajuru
+	Camapuã
+	Cambuci
+	Cambuquira
+	Camby
+	Cambyçara
+	Camocim
+	Camury
+	Canará
+	Cândia
+	Canindé
+	Caramuru
+	Carioca
+	Catira
+	Cauâ
+	Cauê
+	Cayari
+	Cayres
+	Ceci
+	Cipoúna
+	Coaraci
+	Eçaiara
+	Goiás
+	Grajaú
+	Guacira
+	Guarani
+	Guayi
+	Hurassí
+	Iacina
+	Ibá
+	Iderê
+	Iguaba
+	Iguaçu
+	Iguatemi
+	Inaiê
+	Inandê
+	Ipê
+	Ipuã
+	Ipupiara
+	Iraci
+	Iraê
+	Itaperuna
+	Itapoã
+	Itápolis
+	Jaboatão
+	Jacicoê
+	Jandaia
+	Jurandir
+	Juruna
+	Kaluanã
+	Kanauã
+	Lacirandy
+	Maceió
+	Magé
+	Mairarê
+	Majuí
+	Manacá
+	Manhaná
+	Maraneíma
+	Maranhão
+	Maricí
+	Maricy
+	Mauá
+	Mauarí
+	Moara
+	Naara
+	Naindí
+	Pacaembú
+	Paquerer
+	Paquetá
+	Paracambi
+	Paranaguá
+	Paraopeba
+	Parati
+	Paraty
+	Pavuna
+	Peri
+	Piancó
+	Piatã
+	Piraju
+	Pitangui
+	Potengi
+	Potengy
+	Quaraciema
+	Sabará
+	Sepetiba
+	Tabajara
+	Taciquara
+	Taía
+	Uaiana
+	Uaná
+	Uauiarará
+	Ubá
+	Uberaba
+	Guarabira
+	Abaçai
+	Abaeté
+	Abana
+	Abati
+	Acauã
+	Aci
+	Açuã
+	Açucena
+	Aimberê
+	Aimoré
+	Airumã
+	Airy
+	Aisó
+	Ajuricaba
+	Ajyra
+	Amanari
+	Amary
+	Amonati
+	Anahi
+	Anajá
+	Anajé
+	Anami
+	Anauá
+	Andirá
+	Aneci
+	Apiúna
+	Apuã
+	Arabi
+	Aracaê
+	Aracê
+	Aracema
+	Araci
+	Araci
+	Aracunda
+	Araguaci
+	Araguarino
+	Araíba
+	Arani
+	Arapuã
+	Araquém
+	Araribóia
+	Arco-Verde
+	Avaré
+	Caiubi
+	Cajuru
+	Cauã
+	Ceci
+	Coaraci
+	Guaraci
+	Guaraciaba
+	Iaciara
+	Ibiajara
+	Içara
+	Ipanema
+	Iracema
+	Iraí
+	Irajá
+	Iramaia
+	Irani
+	Iraputã
+	Irati
+	Itacira
+	Itagi
+	Itaú
+	Jaci
+	Jaciaba
+	Jaciara
+	Jacobina
+	Janaina
+	Jandira
+	Japira
+	Juacema
+	Juçara
+	Jupi
+	Jurema
+	Jussara
+	Kiary
+	Maiara
+	Mairi
+	Marié
+	Mariú
+	Moema
+	Nhandeara
+	Piatã
+	Potira
+	Rudá
+	Saíra
+	Taina
+	Tinga
+	Ubirajara
+	Ubiratã
+	Unaí
+	Yara
+	Juína
+	Ajuricaba
+	Anori
+	Cauré
+	Airão }
+
+		last_names = { Caetés Potiguara Tabajara Tamoios Temiminó Tupinambá Tupiniquim 	}
+	}
+	metis = {
+		color = {15 68 192}
+		first_names = { Louis John Amroise-Dydime Gabriel Daniel James Jaque William Joel
 		}
-			
-		last_names = { 
-			Abjaisu Álvarez Ayegua Camba Chuaie Correa Cunhagatú Díaz Fernández Galeano
-			Gómez González Guaracay Guaraní Guerrero Jopara López Mongelós Morla Ortíz
-			Paravé Picagua Riquelme Rivarola "Santa Cruz" Tarayú Torga Velázquez Yaguarete Yrahi 
+		last_names = { Riel Bruce Lépine Dumont Clarence Martin
 		}
 	}
-	great_basin_peoples = {
-		color = { 179 53 113 }
-		first_names = { 
-			Sinté Thaóyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
+	dakota = {
+		color = {66 78 134}
+		first_names = { Sinté Thaóyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
 		}
-		last_names = {
-			Gleská Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
+		last_names = { Gleská Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
 		}
 	}
-	lakota = {
-		color = {220  214  86}
-		first_names = { 
-			Sinté Thaóyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
+	cherokee = {
+		color = {136 114 173}
+		first_names = { John Tahlonteeskee Takatoka Charles William Lweis Dennis Joel Thomas Frank Andrew Edward
 		}
-		last_names = {
-			Gleská Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
+		last_names = { Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
+		}
+	}
+	pueblo = {
+		color = {222 238 156}
+		first_names = { Cochise Mangas Loco Taza Nana chihuahua Geronimo Alchesay Naiche Victorio
+		}
+		last_names = { Arivaipa Cibecue Coyotero Jicarilla Llanero Mescalero Nateges Tonto
 		}
 	}
 	inuit = {
@@ -1900,45 +2482,11 @@ native_american = {
 		last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
 		}
 	}
-	mayan = {
-		color = {98 88 142}
-		first_names = { 
-			Agustín Akbal Alejandro Andrés Aníbal Antonio Armando Bernardo Carlos Crescencio
-			Cristóbal Cuautéhmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto
-			Jesús Luis Marcial Martín Miguel Ramiro Rodolfo Rolando Santiago Yumil 
+	cree = {
+		color = {127 244 100}
+		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
 		}
-		last_names = { 
-			Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc	Curruchic Ixquiac López Manzanero
-			Mas Menchú Mérida Mes Osorio Pek Poot Pop Puk Shal Sho Tecú Teul Tuyuc Xicara Xiloj 
-		}
-	}
-	metis = {
-		color = {15 68 192}
-		first_names = { Louis John Amroise-Dydime Gabriel Daniel James Jaque William Joel
-		}
-		last_names = { Riel Bruce Lépine Dumont Clarence Martin
-		}
-	}
-	nakota = {
-		color = {204 153 102}
-		first_names = { 
-			Sinté Thaóyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
-		}
-		last_names = {
-			Gleská Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
-		}
-	}
-	nahua = {
-		color = {88 175 160}
-		first_names = { 
-			Antonio Carlos Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
-			Hilario Ignacio Isaac Jacinto Jesús José Juan Julio Lorenzo Manuel
-			Marcial Mario Martín Natalio Oliverio Pedro Roberto Rodolfo Santiago Víctor 
-		}
-		last_names = { 
-			Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Gutiérrez Hernández
-			Huanitzin Itzel Ixtlilxochitl Jiménez Matlacuahuac Mayahuel Moxo Muñoz Nahui Ocelotl
-			Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicoténcatl Xochitl Zapata Zapotitla 
+		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
 		}
 	}
 	navajo = {
@@ -1956,21 +2504,44 @@ native_american = {
 		Magaña Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas
 		}
 	}
-	north_west_coastal = {
-		color = { 0 80 196 }
-		first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
-		}
-		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
-		Magaña Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas
-		}
+	quechua = {
+		color = {178 141 85}
+		first_names = { Agustín Alejandro Antauro Antonio Basilio Daniel Diego Eugenio Facundo Felipe
+		Francisco Gustavo Hilario Inca Isaac "José María" Julio Lorenzo Manuel Marcos
+		Mariano Martín Nicolás Osvaldo René Roberto Simón Túpac Ulises Víctor }
+
+		last_names = { Arguedas Barrientos Cajahuanca Canchata Chambi Chihuán Cusurichi Espejo Frisancho Gamarra
+		Guaman Guayasamín Gutiérrez Heredia Humala Iturri Lazarte Ludueña Melgarejo Palacios
+		Patiño Quispe Rodríguez Roncaglia "Santa Cruz" Sosa Sumac Toledo Vargas Zapata }
 	}
-	osage = {
-		color = { 199 253 87 }
-		first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
-		}
-		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
-		Magaña Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas
-		}
+	guarani = {
+		color = {89 80 175}
+		first_names = { Aniceto Antonio Bartolomé Camilo Carlos Claudio David Emiliano Eugenio Felipe
+		Félix Fernando Gregorio Jacinto Jesús José Juan Julio Luis Manuel
+		Marcos Máximo Narciso Pablo Pedro Rodrigo Roque Simón Teodoro Víctor }
+
+		last_names = { Abjaisu Álvarez Ayegua Camba Chuaie Correa Cunhagatú Díaz Fernández Galeano
+		Gómez González Guaracay Guaraní Guerrero Jopara López Mongelós Morla Ortíz
+		Paravé Picagua Riquelme Rivarola "Santa Cruz" Tarayú Torga Velázquez Yaguarete Yrahi }
+	}
+	aimara = {
+		color = {190 45 23}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	amazonian = {
+		color = {4 255 84}
+		first_names = { Aníbal Augusto Bento Bernardo César Daniel David Donato Duarte Ernesto
+		Estevão Fernando Francisco Gabriel Graciano Hugo João Julio Leopoldo Lucas
+		Miguel Nuno Óscar Rafael Roberto Sebastião Sergio Simão Vasco Zeferino }
+
+		last_names = { Arawá Arawak Bororo Garifuna Gê Guayaná Jeikó Kaingang Kalinago Kamakán
+		Karajá Kayapó Matsés Maxakalí Purí Timbira Xavante Xerente Xokieng Yanomamö }
 	}
 	patagonian = {
 		color = {88 99 133}
@@ -1982,57 +2553,14 @@ native_american = {
 		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
 		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
 	}
-	pawnee = {
-		color = { 156 232 1 }
-		first_names = { 
-			Sinté Thaóyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
-		}
-		last_names = {
-			Gleská Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
-		}
-	}
-	plateau_peoples = {
-		color = { 188 74 5 }
-		first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
-		}
-		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
-		Magaña Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas
-		}
-	}
-	pueblo = {
-		color = {222 238 156}
-		first_names = { Cochise Mangas Loco Taza Nana chihuahua Geronimo Alchesay Naiche Victorio
-		}
-		last_names = { Arivaipa Cibecue Coyotero Jicarilla Llanero Mescalero Nateges Tonto
-		}
-	}
-	quechua = {
-		color = {178 141 85}
-		first_names = { 
-			Anquimarca Apo Atahualpa Atoc Atoc-Suqui Auqui-Huaman Canchari Chalcuchima Challco Chiaquitinta Chilche Colla-Topa 
-			Curiatao Cusi Guacra Guaritito Guaritopa Huachuri Huaman Huascar Huaypalcon Illaquita Inquill Llicllic Maila Maras
-			Marcavilca Mayta Ninancoro Ozcoc Parinango Paucar Paullu Pomacapi Puma Pusca Puyu-Vilca	Quilaco Quingallumbo 
-			Quintiraura Quisquis Quizo Rimac Ronpa Sahuaraura Sotaurco Tanqui Tucuycuyche Tupac-Amaru Yupanqui
-		}
+	guajiro = {
+		color = {221 248 75}
+		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
+		Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
+		Melchor Narciso Pablo Pedro Ramón Roberto Santiago Sebastián Simón Tomás }
 
-		last_names = { 
-			Arguedas Barrientos Cajahuanca Canchata Chambi Chihuán Cusurichi Espejo Frisancho Gamarra
-			Guaman Guayasamín Gutiérrez Heredia Humala Iturri Lazarte Ludueña Melgarejo Palacios
-			Patiño Quispe Rodríguez Roncaglia "Santa Cruz" Sosa Sumac Toledo Vargas Zapata 
-		}
-	}
-	tarascan = {
-		color = {87 188 192}
-		first_names = { 
-			Agustín Alberto Alfredo Antonio Armando Arturo Carlos Cenobio Daniel Diego
-			Everardo Gerardo Gumersindo Héctor Jesús Juan Leobardo Luis Manuel Marcial
-			"Marco Antonio" Melchor Pedro Ricardo Salvador Samuel Sergio Silvano Silvestre Víctor 
-		}
-		last_names = { 
-			Almonte Arredondo Arriaga Aureoles Bernal Brito Calderón Cano Carrillo Cristóbal
-			Cuevas Dimas Esquivel Estrada Galeana Gallardo García Gómez López Maciel
-			Magaña Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas 
-		}
+		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
+		Uraliyyu Ulewana Walapuana Walepushana }
 	}
 	tupinamba = {
 		color = {43 212 67}
@@ -2042,19 +2570,62 @@ native_american = {
 
 		last_names = { Caetés Potiguara Tabajara Tamoios Temiminó Tupinambá Tupiniquim 	}
 	}
-	zapotec = {
-		color = {87 199 81}
-		first_names = { 
-			Agustín Alberto Alfonso Alfredo Andrés Benito Carlos César Eduardo Eugenio
-			Felipe Fernando Gabriel Gilberto Gregorio Jacinto Jesús José Juan Julio
-			Macario Manuel Miguel Nazario Nicolás Oliverio Pablo Porfirio Rodolfo Rufino 
+	metis = {
+		color = {15 68 192}
+		first_names = { Louis John Amroise-Dydime Gabriel Daniel James Jaque William Joel
 		}
-		last_names = { 
-			Alonso Antúnez Cabrera Cajigas Chacón Chiñas Cortés Fernández Gamboa García
-			González Gutiérrez Guzmán Henestrosa Isael Jiménez Juárez López Matus Mérida
-			Morales Nayeli Orozco Ortíz Pineda Rojas Ruíz Suárez Tamayo Vichido
+		last_names = { Riel Bruce Lépine Dumont Clarence Martin
 		}
-	}	
+	}
+	dakota = {
+		color = {66 78 134}
+		first_names = { Sinté Thaóyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
+		}
+		last_names = { Gleská Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
+		}
+	}
+	cherokee = {
+		color = {136 114 173}
+		first_names = { John Tahlonteeskee Takatoka Charles William Lweis Dennis Joel Thomas Frank Andrew Edward
+		}
+		last_names = { Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
+		}
+	}
+	pueblo = {
+		color = {222 238 156}
+		first_names = { Cochise Mangas Loco Taza Nana chihuahua Geronimo Alchesay Naiche Victorio
+		}
+		last_names = { Arivaipa Cibecue Coyotero Jicarilla Llanero Mescalero Nateges Tonto
+		}
+	}
+	inuit = {
+		color = {210 243 242}
+		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+		}
+		last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+		}
+	}
+	cree = {
+		color = {127 244 100}
+		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
+		}
+		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
+		}
+	}
+	navajo = {
+		color = {83 111 191}
+		first_names = { Narbona Mariano Zarcillos Manuelito Herrero Barboncito Ganado "Henry Chee" "Digul Chee"
+		}
+		last_names = { Naat'aa Martinez Ch'ilhanjini Largos Delagado Grande Da'ghaaii To'tso'nii Dodge
+		}
+	}
+	native_american_minor = {
+		color = {68 55 88}
+		first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+		}
+		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+		}
+	}
 }
 
 american_cultures = {
@@ -2393,7 +2964,7 @@ west_african = {
 		}
 	}
 	bambara = {
-		color = { 164 150 45 }
+		color = {45 88 164}
 		first_names = { Kaladian Mamari Biton Do Tyefolo Nyenemba Ben Kuma Masala Turukoro Bina Kege Mamuru Masaloma Karamoko Mari Bodyan
 		}
 
@@ -2481,7 +3052,7 @@ west_african = {
 		}
 	}
 	mande = {
-		color = { 91 146 32 }
+		color = {44 188 87}
 		first_names = { Neneh Tejan Sheka Kanji Lansana Brima Foda Sekouba Alhassani Sekou Amara Losene Fodey Kaleefa Hatab Daba Massa Aoua Soumaila
 		}
 
@@ -2504,17 +3075,8 @@ west_african = {
 		last_names = { "bi Saydu" "bi Hama" "bi Salifu" "bi Isa" "bi Sori" "bi Faruku" Wattara "dan Tyeba" Moru Dyan
 		}
 	}
-	serer = {
-		color = {162 20 40}
-		first_names = { 
-			Amar Fatou Gnilane Maad Mahecor
-		}
-		last_names = {
-			Diome Diouf Godomat Senghor Joof Faye
-		}
-	}
 	songhai = {
-		color = {142 63 28}
+		color = {142 28 67}
 		first_names = { Hanga Samsu Hargani Fodi Tomo Bassaru Bumi Koyze Wankoy Bigo Dauda Malla
 		}
 
@@ -2538,7 +3100,7 @@ west_african = {
 		}
 	}
 	wolof = {
-		color = { 44 188 87 }
+		color = {91 146 180}
 		first_names = { Birayamb Al-Buri Baka Birayma Mbanyi Lat Bakan-Tam Taanor Amado "Ali Buri" Mba Birawa Samba
 		}
 
@@ -2551,14 +3113,6 @@ west_african = {
 		}
 
 		last_names = { Oladigbolu Adeniran Agogoja Alowolodu Atobatele Zumaw Oyo Tofa Tonyon Bezon Hungbo Dudu
-		}
-	}
-	zarma = {
-		color = { 223 162 17 }
-		first_names = { Hanga Samsu Hargani Issoufou Fodi Tomo Bassaru Bumi Koyze Wankoy Bigo Dauda Malla "Sonni Ali" 
-		}
-
-		last_names = { Awta Attikou Aboubacar Beri Beri Mayrumfa Keyna Kossom Missi "Kodama Komi" Baba Baki Farma Seydou
 		}
 	}
 }

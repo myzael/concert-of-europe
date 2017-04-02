@@ -1132,6 +1132,7 @@ country_event = {
 			}
 		}
 		war_exhaustion = -20
+		set_global_flag = treaty_of_adrianople
 		ai_chance = {
 			factor = 100
 		}
@@ -2341,6 +2342,191 @@ country_event = {
 }
 
 country_event = {
+	id = 32540
+	title = "EVTNAME32540" #Russo-Persian War (1826-1828)
+	desc = "EVTDESC32540"
+	picture = "sultan"
+	
+	trigger = {
+		tag = PER
+		is_subject = no
+		year = 1825
+		AZB = {
+			owns = 1102
+			vassal_of = RUS
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 0.2
+			RUS = { war = yes }
+		}
+	}
+	
+	option = {
+		name = "In for a penny..."
+		set_country_flag = khanates_contested
+		war = {		#Russo-Persian War
+			target = RUS
+			attacker_goal = {
+				casus_belli = release_puppet
+				country = AZB
+			}
+			defender_goal = {
+				casus_belli = cut_down_to_size
+			}
+			call_ally = yes
+		}
+	}
+}
+
+country_event = {
+	id = 32541
+	title = "EVTNAME32541" #Treaty of Turkmenchay
+	desc = "EVTDESC32541"
+	picture = "turkmenchay_treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "There is nothing we can do."
+		set_country_flag = turkmenchay_treaty
+		RUS = {
+			end_war = THIS
+			relation = { who = THIS value = 100 }
+			diplomatic_influence = { who = THIS value = 50 }
+		}
+		1098 = {
+			add_core = RUS
+			remove_core = THIS
+		}
+		1099 = {
+			remove_core = THIS
+		}
+		1100 = {
+			add_core = RUS
+			remove_core = THIS
+		}
+		1101 = {
+			add_core = RUS
+			remove_core = THIS
+		}
+		RUS_1102 = {
+			add_core = RUS
+			remove_core = THIS
+		}
+		random_country = {
+			limit = {
+				tag = AZB
+				exists = yes
+				vassal_of = RUS
+			}
+			PER = {
+				any_owned = {
+					limit = {
+						OR = {
+							region = RUS_1098
+							region = RUS_1102
+						}
+					}
+					secede_province = AZB
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				OR = {
+					tag = RUS
+					tag = DAG
+				}
+				owns = 1102
+			}
+			PER = {
+				any_owned = {
+					limit = {
+						OR = {
+							region = RUS_1098
+							region = RUS_1102
+						}
+					}
+					secede_province = RUS
+				}
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "We will never give in!"
+		prestige = 2
+		badboy = 6
+		war_exhaustion = 25
+		1098 = {
+			add_core = RUS
+		}
+		1100 = {
+			add_core = RUS
+		}
+		1101 = {
+			add_core = RUS
+		}
+		RUS_1102 = {
+			add_core = RUS
+		}
+		RUS = {
+			casus_belli = {
+				target = THIS
+				type = demand_concession_casus_belli
+				months = 60
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 32542
+	title = "EVTNAME32542" #Persian victory in Russo-Persian War (1826-1828)
+	desc = "EVTDESC32542"
+	picture = "turkmenchay_treaty"
+	
+	trigger = {
+		tag = PER
+		war = no
+		truce_with = RUS
+		has_country_flag = khanates_contested
+		AZB = {
+			exists = yes
+			is_vassal = no
+		}
+		RUS = { NOT = { has_country_flag = turkmenchay_treaty } }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "A triumph!"
+		inherit = AZB
+		ENG = { diplomatic_influence = { who = THIS value = 100 } }
+		war_exhaustion = -20
+		any_pop = {
+			militancy = -4
+			consciousness = -2
+		}
+	}
+}
+
+country_event = {
 	id = 32545
 	title = "EVTNAME32545" # Persia loses Kurdish culture
 	desc = "EVTDESC32545"
@@ -2421,7 +2607,7 @@ country_event = {
 	id = 32560
 	title = "EVTNAME32560" #The Caucasus War
 	desc = "EVTDESC32560"
-	picture = "caucasian_war"
+	picture = "rebellion"
 	
 	trigger = {
 		tag = RUS
@@ -2628,776 +2814,6 @@ province_event = {
 					}
 				}
 			}
-		}
-	}
-}
-
-#################################################
-#												#
-#				Kazakh Rebellions				#
-#				 (375000-3750??)				#
-#################################################
-###So much work for wat basically amounts to a bit of flavour text...
-#Event to trigger province event for Russia in empty province (I bet you didn't think this would be possible!)
-country_event = {
-	id = 375000
-	trigger = {
-		tag = KAZ
-		NOT = {
-			owns = 1181
-			owns = 1183
-		}
-		RUS = {
-			NOT = {
-				has_country_flag = kenesary_kasymov
-			}
-		}
-		OR = {
-			1194 = {
-				empty = yes
-			}
-			2664 = {
-				empty = yes
-			}
-		}
-	}
-	
-	title = "EVTNAME375000"
-	desc = "EVTDESC375000"
-	picture = "kazak_rebellion"
-	
-	mean_time_to_happen = {
-		months = 36
-		modifier = {
-			year = 1840
-			factor = 0.6
-		}
-		modifier = {
-			year = 1850
-			factor = 0.4
-		}
-		modifier = {
-			year = 1860
-			factor = 0.2
-		}
-	}
-	
-	immediate = {
-		THIS = {
-			random_owned = {
-				limit = {
-					1183 = { empty = yes }
-				}
-				1183 = { 
-					secede_province = THIS
-				}
-			}
-			random_owned = {
-				limit = {
-					1183 = { empty = no }
-					2611 = { empty = yes }
-				}
-				2611 = {
-					secede_province = THIS
-				}
-			}
-			random_owned = {
-				limit = {
-					1183 = { empty = no }
-					2611 = { empty = no }
-					2702 = { empty = yes }
-				}
-				2702 = { 
-					secede_province = THIS
-				}
-			}
-			random_owned = {
-				limit = {
-					1181 = { empty = yes }
-					2611 = { empty = no }
-					2702 = { empty = no }
-				}
-				1181 = { 
-					secede_province = THIS
-				}
-			}
-			random_owned = {
-				limit = {
-					1181 = { empty = no }
-					1183 = { empty = no }
-					1194 = { empty = yes }
-					2702 = { empty = no }
-				}
-				1194 = {
-					secede_province = THIS
-				}
-			}
-			random_owned = {
-				limit = {
-					1181 = { empty = no }
-					1194 = { empty = no }
-					2611 = { empty = no }
-					2612 = { empty = yes }
-					2702 = { empty = no }
-				}
-				2612 = { 
-					secede_province = THIS
-				}
-			}
-			random_owned = {
-				limit = {
-					1181 = { empty = no }
-					2606 = { empty = yes }
-					2612 = { empty = no }
-				}
-				2606 = { 
-					secede_province = THIS
-				}
-			}
-			random_owned = {
-				limit = {
-					1187 = { empty = yes }
-					2606 = { empty = no }
-				}
-				1187 = { 
-					secede_province = THIS
-				}
-			}
-			random_owned = {
-				limit = {
-					1187 = { empty = no }
-					2664 = { empty = yes }
-				}
-				2664 = { 
-					secede_province = THIS
-				}
-			}
-		}
-	}
-
-	option = {
-		name = "May the Russians give them peace..."
-		random_owned = {
-			limit = {
-				NOT = {
-					is_core = KAZ
-				}
-				OR = {
-					region = RUS_1182
-					region = RUS_1184
-				}
-			}
-			secede_province = RUS
-			province_event = { id = 375002 }
-		}
-	}
-}
-
-
-#And now for just a different flavour text in the event, to which probably no-one will ever pay any heed...
-country_event = {
-	id = 375001
-	trigger = {
-		tag = KAZ
-		RUS = { 
-			has_country_flag = kenesary_kasymov
-		}
-		OR = {
-			1194 = {
-				empty = yes
-			}
-			2664 = {
-				empty = yes
-			}
-		}
-	}
-	
-	title = "EVTNAME375000"
-	desc = "EVTDESC375001"
-	picture = "kazak_rebellion"
-	
-	mean_time_to_happen = {
-		months = 18
-		modifier = {
-			year = 1840
-			factor = 0.8
-		}
-		modifier = {
-			year = 1850
-			factor = 0.6
-		}
-		modifier = {
-			year = 1860
-			factor = 0.4
-		}
-	}
-	
-	immediate = {
-		THIS = {
-			random_owned = {
-				limit = {
-					1183 = { empty = yes }
-				}
-				1183 = { 
-					secede_province = THIS
-				}
-			}
-			random_owned = {
-				limit = {
-					1183 = { empty = no }
-					2611 = { empty = yes }
-				}
-				2611 = {
-					secede_province = THIS
-				}
-			}
-			random_owned = {
-				limit = {
-					1183 = { empty = no }
-					2611 = { empty = no }
-					2702 = { empty = yes }
-				}
-				2702 = { 
-					secede_province = THIS
-				}
-			}
-			random_owned = {
-				limit = {
-					1181 = { empty = yes }
-					2611 = { empty = no }
-					2702 = { empty = no }
-				}
-				1181 = { 
-					secede_province = THIS
-				}
-			}
-			random_owned = {
-				limit = {
-					1181 = { empty = no }
-					1183 = { empty = no }
-					1194 = { empty = yes }
-					2702 = { empty = no }
-				}
-				1194 = {
-					secede_province = THIS
-				}
-			}
-			random_owned = {
-				limit = {
-					1181 = { empty = no }
-					1194 = { empty = no }
-					2611 = { empty = no }
-					2612 = { empty = yes }
-					2702 = { empty = no }
-				}
-				2612 = { 
-					secede_province = THIS
-				}
-			}
-			random_owned = {
-				limit = {
-					1181 = { empty = no }
-					2606 = { empty = yes }
-					2612 = { empty = no }
-				}
-				2606 = { 
-					secede_province = THIS
-				}
-			}
-			random_owned = {
-				limit = {
-					1187 = { empty = yes }
-					2606 = { empty = no }
-				}
-				1187 = { 
-					secede_province = THIS
-				}
-			}
-			random_owned = {
-				limit = {
-					1187 = { empty = no }
-					2664 = { empty = yes }
-				}
-				2664 = { 
-					secede_province = THIS
-				}
-			}
-		}
-	}
-
-	option = {
-		name = "Sometimes the carrot is better than the whip."
-		random_owned = {
-			limit = {
-				NOT = {
-					is_core = KAZ
-				}
-				any_neighbor_province = { owned_by = RUS }
-			}
-			secede_province = RUS
-			province_event = { id = 375002 }
-		}
-	}
-}
-
-#Yey! Free provinces (yes, truly)!
-province_event = {
-	id = 375002
-	title = "EVTNAME375002"
-	desc = "EVTDESC375002"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "We gladly oblige!"
-		any_pop = {
-			militancy = 4
-		}			
-	}
-}
-
-#Same event, just a tiny bit of different flavour text
-province_event = {
-	id = 375003
-	title = "EVTNAME375003"
-	desc = "EVTDESC375003"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "We welcome them into our benevolent patrimony."
-		add_core = KAZ
-		add_province_modifier = {
-			name = nationalist_agitation
-			duration = -1
-		}
-		any_pop = {
-			militancy = 5
-		}
-	}
-}
-
-###You know, it took me all evening to program these /\ 4 events. If only I were capable of accepting less than perfect results...
-
-
-#Bukei rebellion of Makhambet Otemisuly and Isatay Taymanuly
-country_event = {
-	id = 375004
-	
-	trigger = {
-		tag = RUS
-		is_our_vassal = AKH
-		year = 1830
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 48
-	}
-
-	
-	title = "EVTNAME375004"
-	desc = "EVTDESC375004"
-	picture = "kazak_rebellion"
-	
-	option = {
-		name = "We should support the Khan" 
-		release_vassal = AKH
-		casus_belli = {
-			target = AKH
-			type = make_puppet
-			months = 24
-		}
-		war = {
-			target = AKH
-			attacker_goal = { casus_belli = make_puppet }
-			defender_goal = { casus_belli = acquire_all_cores }
-			call_ally = no
-		}
-		AKH = {
-			define_general = {
-				name = "Isatay Taymanuly"
-				personality = inspiring
-				background = poet
-			}	
-			define_general = {
-				name = "Makhambet Otemisuly"
-				personality = imaginative
-				background = poet
-			}	
-		}
-		ai_chance = {
-			factor = 70
-			modifier = {
-				factor = 0.5
-				war = yes
-			}		
-		}
-	}
-	option = {
-		name = "A good opportunity to annex the Horde." 
-		release_vassal = AKH
-		badboy = 4
-		casus_belli = {
-			target = AKH
-			type = establish_protectorate_casus_belli
-			months = 24
-		}
-		war = {
-			target = AKH
-			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
-			defender_goal = { casus_belli = acquire_all_cores }
-			call_ally = no
-		}
-		AKH = {
-			define_general = {
-				name = "Isatay Taymanuly"
-				personality = inspiring
-				background = poet
-			}	
-			define_general = {
-				name = "Makhambet Otemisuly"
-				personality = imaginative
-				background = poet
-			}	
-		}
-		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = 0
-				AKH = {
-					ai = no				
-				}
-			}	
-			modifier = {
-				factor = 0.20
-				war = yes
-			}
-			modifier = {
-				factor = 0
-				badboy = 15
-			}			
-		}
-	}
-	option = {
-		name = "To be frank, my dear, I don't give a damn." 
-		release_vassal = AKH
-		prestige = -10
-		AKH = {
-			define_general = {
-				name = "Isatay Taymanuly"
-				personality = inspiring
-				background = poet
-			}	
-			define_general = {
-				name = "Makhambet Otemisuly"
-				personality = imaginative
-				background = poet
-			}	
-		}
-		ai_chance = {
-			factor = 5
-			modifier = {
-				factor = 2
-				war = yes
-			}				
-		}
-	}
-}
-
-#The Last Bukei Sultan (Bukei Horde absorbed)
-country_event = {
-	id = 375005
-	
-	trigger = {
-		tag = RUS
-		is_our_vassal = AKH
-		year = 1845
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 12
-	}
-
-	
-	title = "EVTNAME375005"
-	desc = "EVTDESC375005"
-	picture = "merv_turkmen"
-	
-	option = {
-		name = "We have grand designes for the steppes" 
-		inherit = AKH
-		AKH = { 
-			primary_culture = tatar
-			civilized = yes
-		}
-		1182 = {
-			remove_core = AKH
-		}
-		2610 = {
-			remove_core = AKH
-		}
-		ai_chance = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AKH = {
-					ai = no				
-				}
-			}		
-		}
-	}
-	option = {
-		name = "We'll let them be" 
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				AKH = {
-					ai = yes				
-				}
-			}		
-		}
-	}
-}
-
-#Rebellion of Kenesary Kasymov
-country_event = {
-	id = 375006
-	
-	trigger = {
-		tag = RUS
-		owns = 1181
-		owns = 2702
-		NOT = { year = 1865 }
-		NOT = {
-			has_country_flag = eset_kotibaruli
-		}
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 96
-		modifier = {
-			year = 1837
-			factor = 0.5
-		}
-		modifier = {
-			year = 1840
-			factor = 0.4
-		}
-		modifier = {
-			year = 1845
-			factor = 0.3
-		}
-		modifier = {
-			war = yes
-			factor = 0.5
-		}
-	}
-
-	news = yes
-    news_title = "EVTNEWS375006_title"
-    news_desc_long = "EVTNEWS375006_long"
-    news_desc_medium = "EVTNEWS375006_medium"
-    news_desc_short = "EVTNEWS375006_short"
-	
-	title = "EVTNAME375006"
-	desc = "EVTDESC375006"
-	picture = "kazak_rebellion"
-	
-	option = {
-		name = "We'll deal with this minor upstart."
-		set_country_flag = kenesary_kasymov
-		any_pop = {
-			limit = {
-				has_pop_culture = kazak
-			}
-			militancy = 5
-			consciousness = 7
-		}
-		RUS_1184 = {
-			add_core = KAZ
-			add_province_modifier = {
-				name = nationalist_agitation
-				duration = -1
-			}
-		}
-		RUS_1182 = {
-			add_core = KAZ
-			add_province_modifier = {
-				name = nationalist_agitation
-				duration = -1
-			}
-		}
-		ai_chance = {
-			factor = 100
-		
-		}
-	}
-	option = {
-		name = "Fine, let him have whatever title he likes."
-		prestige = -10
-		any_owned = {
-			limit = {
-				OR = {
-					region = RUS_1182
-					region = RUS_1184
-				}			
-			}
-			add_core = KAZ
-			secede_province = KAZ
-		}
-		ai_chance = {
-			factor = 0
-		}
-	}
-}
-
-#The Death of Kenesary Kasymov
-country_event = {
-	id = 375007
-	
-	trigger = {
-		tag = RUS
-		exists = yes
-		has_country_flag = kenesary_kasymov
-		any_owned = {
-			is_core = KAZ
-		}
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 96
-		modifier = {
-			factor = 0.5
-			year = 1850
-		}
-		modifier = {
-			factor = 0.5
-			year = 1855
-		}
-		modifier = {
-			factor = 0.5
-			year = 1860
-		}
-	}
-
-	
-	title = "EVTNAME375007"
-	desc = "EVTDESC375007"
-	picture = "kazak_rebellion"
-	
-	option = {
-		name = "Surely the Kazakhs will now return to their loyal and peaceful feelings towards us..." 
-		clr_country_flag = kenesary_kasymov
-		any_pop = {
-			limit = {
-				has_pop_culture = kazak
-			}
-			militancy = -5
-			consciousness = -7
-		}
-		KAZ = {
-			all_core = {
-				remove_province_modifier = nationalist_agitation
-			}
-		}
-	}
-}
-
-#Provinces defect to Kazakstan
-country_event = {
-	id = 375008
-	
-	trigger = {
-		tag = KAZ
-		exists = yes
-		RUS = { 
-			has_country_flag = kenesary_kasymov
-		}
-		any_owned_province = {
-			has_province_modifier = nationalist_agitation		
-		}	
-	}
-		
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	title = "EVTNAME375008"
-	desc = "EVTDESC375008"
-	picture = "kazak_rebellion"
-	
-	option = {
-		name = "Make the Kazakh Khanate great again!" 
-		any_pop = {
-			limit = {
-				has_pop_culture = kazak
-			}
-			militancy = -5
-			consciousness = -7
-		}
-		all_core = {
-			remove_province_modifier = nationalist_agitation
-		}
-	}
-}
-
-
-#Kenesary is successful
-country_event = {
-	id = 375009
-	
-	trigger = {
-		tag = RUS
-		exists = yes
-		has_country_flag = kenesary_kasymov
-		NOT = {
-			any_owned_province = {
-				is_core = KAZ
-			}
-		}
-	}
-		
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	title = "EVTNAME375009"
-	desc = "EVTDESC375009"
-	picture = "kazak_rebellion"
-	
-	fire_only_once = yes
-	
-	option = {
-		name = "How could this have happened?" 
-		prestige = -15
-		clr_country_flag = kenesary_kasymov
-		release = KAZ
-		any_pop = {
-			limit = {
-				is_primary_culture = no
-				is_accepted_culture = no
-			}
-			consciousness = 3
-			militancy = 2
-		}
-		KAZ = {
-			any_owned = {
-				remove_core = RUS			
-			}
-			define_general = {
-				name = "Makhambet Otemisuly"
-				personality = ruthless
-				background = expert_raider
-			}	
 		}
 	}
 }

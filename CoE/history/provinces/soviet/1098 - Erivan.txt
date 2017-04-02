@@ -4,13 +4,12 @@ add_core = ARM
 add_core = AZB
 add_core = PER
 add_core = TUR
-trade_goods = iron
+trade_goods = fruit
 life_rating = 37
 terrain = mountain_farmland
-1828.1.1 = {
+1836.1.1 = {
 	owner = RUS
 	controller = RUS
 	add_core = RUS
 	remove_core = PER
-	remove_core = TUR
 }

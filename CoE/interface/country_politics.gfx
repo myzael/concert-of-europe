@@ -146,18 +146,6 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\politics_healthcare.dds"
 	}
 	spriteType = {
-		name = "GFX_politics_pollution"
-		texturefile = "gfx\\interface\\politics_pollution.dds"
-	}
-	spriteType = {
-		name = "GFX_politics_child_labour"
-		texturefile = "gfx\\interface\\politics_child_labour.dds"
-	}
-	spriteType = {
-		name = "GFX_politics_art"
-		texturefile = "gfx\\interface\\politics_art.dds"
-	}
-	spriteType = {
 		name = "GFX_politics_pensions"
 		texturefile = "gfx\\interface\\politics_pensions.dds"
 	}

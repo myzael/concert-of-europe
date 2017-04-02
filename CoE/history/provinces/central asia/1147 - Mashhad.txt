@@ -1,6 +1,7 @@
-owner = KHR
-controller = KHR
+owner = PER
+controller = PER
+add_core = PER
 add_core = KHR
 trade_goods = iron
-life_rating = 37
+life_rating = 38
 terrain = hilly_grassland

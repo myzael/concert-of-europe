@@ -2,13 +2,7 @@ RUS = {
 	value = 25
 }
 TUR = {
-	value = 75
-}
-ENG = {
-	value = 75
-}
-NEJ = {
-	value = -150
+	value = 25
 }
 
 leader = {
@@ -16,7 +10,7 @@ leader = {
 	type = land
 	date = 1820.1.1
 	personality = intelligent
-	background = natural_born_leader
+	background = poet
 	prestige = 0.4
 }
 
@@ -35,7 +29,7 @@ leader = {
 	date = 1800.1.1
 	personality = chivalrous
 	background = aristocrat
-	prestige = 0.15
+	prestige = 0.25
 }
 
 army = {
@@ -53,13 +47,13 @@ army = {
 		home = 1108
 	}
 	regiment = {
-		name= "Bagadaran Regiment"
+		name= "Bagadaran"
 		type = regular
 		home = 1117
 	}
 
 	regiment = {
-		name= "Valihad Regiment"
+		name= "Valihad"
 		type = regular
 		home = 1127
 	}
@@ -84,7 +78,7 @@ army = {
 	regiment = {
 		name= "irregulars"
 		type = irregular
-		home = 1113
+		home = 1147
 	}
 	
 	regiment = {
@@ -100,13 +94,13 @@ army = {
 	regiment = {
 		name= "Toffanghis"
 		type = infantry
-		home = 1098
+		home = 1108
 	}
 
 	regiment = {
 		name= "Hussein Aga's Cavalry"
 		type = cavalry
-		home = 1098
+		home = 1121
 	}
 
 }

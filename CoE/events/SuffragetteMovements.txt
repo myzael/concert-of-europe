@@ -15,8 +15,8 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		civilized = yes
 		invention = womens_suffrage_movement
+		civilized = yes
 		OR = {
 			government = prussian_constitutionalism
 			government = hms_government
@@ -121,8 +121,8 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		civilized = yes
 		invention = womens_suffrage_movement
+		civilized = yes
 		OR = {
 			government = prussian_constitutionalism
 			government = hms_government
@@ -232,8 +232,8 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		civilized = yes
 		invention = womens_suffrage_movement
+		civilized = yes
 		slavery = no_slavery
 		OR = {
 			government = prussian_constitutionalism
@@ -343,6 +343,7 @@ country_event = {
 		war = yes
 		war_exhaustion = 4
 		is_mobilised = yes
+		year = 1900
 		civilized = yes
 		OR = {
 			government = prussian_constitutionalism
@@ -358,7 +359,6 @@ country_event = {
 		NOT = {
 			has_country_modifier = female_suffrage
 		}
-		year = 1900 #moved to bottom, is equal for all anyway -crownsteler
 	}
 	
 	mean_time_to_happen = {
@@ -450,6 +450,7 @@ country_event = {
 	
 	trigger = {
 		exists = yes
+		year = 1890
 		civilized = yes
 		OR = {
 			government = prussian_constitutionalism
@@ -465,7 +466,6 @@ country_event = {
 		NOT = {
 			has_country_modifier = female_suffrage
 		}
-		year = 1890 #moved to bottom -crownsteler
 	}
 	
 	mean_time_to_happen = {
@@ -561,8 +561,8 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		civilized = yes
 		invention = womens_suffrage_movement
+		civilized = yes
 		public_meetings = yes_meeting
 		OR = {
 			government = prussian_constitutionalism
@@ -676,8 +676,8 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		civilized = yes
 		invention = womens_suffrage_movement
+		civilized = yes
 		OR = {
 			government = prussian_constitutionalism
 			government = hms_government
@@ -789,8 +789,8 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		civilized = yes
 		invention = womens_suffrage_movement
+		civilized = yes
 		is_ideology_enabled = socialist
 		OR = {
 			government = prussian_constitutionalism
@@ -910,8 +910,8 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		civilized = yes
 		invention = womens_suffrage_movement
+		civilized = yes
 		OR = {
 			government = prussian_constitutionalism
 			government = hms_government
@@ -1025,8 +1025,8 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		civilized = yes
 		invention = womens_suffrage_movement
+		civilized = yes
 		OR = {
 			government = prussian_constitutionalism
 			government = hms_government
@@ -1137,8 +1137,8 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		civilized = yes
 		invention = womens_suffrage_movement
+		civilized = yes
 		OR = {
 			government = prussian_constitutionalism
 			government = hms_government
@@ -1255,6 +1255,7 @@ country_event = {
 	
 	trigger = {
 		exists = yes
+		year = 1900
 		civilized = yes
 		OR = {
 			government = prussian_constitutionalism
@@ -1270,7 +1271,6 @@ country_event = {
 		NOT = {
 			has_country_modifier = female_suffrage
 		}
-		year = 1900 #moved to bottom -crownsteler
 	}
 	
 	mean_time_to_happen = {
@@ -1351,8 +1351,8 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		civilized = yes
 		invention = womens_suffrage_movement
+		civilized = yes
 		OR = {
 			government = prussian_constitutionalism
 			government = hms_government
@@ -1458,6 +1458,7 @@ country_event = {
 	
 	trigger = {
 		exists = yes
+		year = 1890
 		civilized = yes
 		OR = {
 			government = prussian_constitutionalism
@@ -1473,7 +1474,6 @@ country_event = {
 		NOT = {
 			has_country_modifier = female_suffrage
 		}
-		year = 1890 #moved to bottom -crownsteler
 	}
 	
 	mean_time_to_happen = {
@@ -1562,6 +1562,7 @@ country_event = {
 	
 	trigger = {
 		exists = yes
+		year = 1890
 		civilized = yes
 		OR = {
 			government = prussian_constitutionalism
@@ -1577,7 +1578,6 @@ country_event = {
 		NOT = {
 			has_country_modifier = female_suffrage
 		}
-		year = 1890 #moved to bottom -crownsteler
 	}
 	
 	mean_time_to_happen = {
@@ -1676,6 +1676,7 @@ country_event = {
 	
 	trigger = {
 		exists = yes
+		year = 1890
 		civilized = yes
 		OR = {
 			government = prussian_constitutionalism
@@ -1691,7 +1692,6 @@ country_event = {
 		NOT = {
 			has_country_modifier = female_suffrage
 		}
-		year = 1890 #bottom -crownsteler
 	}
 	
 	mean_time_to_happen = {

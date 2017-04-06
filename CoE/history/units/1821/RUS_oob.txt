@@ -61,7 +61,19 @@ AZB = {
 	influence_value = 0
 }
 PER = {
-	value = -100
+	value = 25		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}
+BUK = {
+	value = 25		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 5
+}
+KHI = {
+	value = 25		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 5
 }
 AFG = {
 	value = 100

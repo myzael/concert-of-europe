@@ -113,6 +113,35 @@ pagan = {
 		icon = 14
 		color = { 0.5 0.0 0.0 }
 		pagan = yes
-		
+	}
+	dakota_religion = {
+		icon = 14
+		color = { 0.5 0.2 0.2 }
+		pagan = yes	
+	}
+	lakota_religion = {
+		icon = 14
+		color = { 0.5 0.2 0.2 }
+		pagan = yes
+	}
+	nakota_religion = {
+		icon = 14
+		color = { 0.5 0.2 0.2 }
+		pagan = yes
+	}
+	cherokee_religion = {
+		icon = 14
+		color = { 0.5 0.2 0.2 }
+		pagan = yes
+	}
+	cheyenne_religion = {
+		icon = 14
+		color = { 0.5 0.2 0.2 }
+		pagan = yes
+	}
+	comanche_religion = {
+		icon = 14
+		color = { 0.5 0.2 0.2 }
+		pagan = yes
 	}
 }

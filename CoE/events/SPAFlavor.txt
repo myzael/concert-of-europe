@@ -4380,106 +4380,176 @@ country_event = {
 #########################################################
 
 country_event = {
-	id = 37761
-	title = "EVTNAME37761" #Appeal to the Holy Alliance
-	desc = "EVTDESC37761"
-	picture = "carlists"
-	
-	trigger = {
-		tag = SPA
-		exists = yes
-		government = hms_government
-		NOT = { year = 1836 }
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 12
-	}
-	
-	option = {
-		name = "He's inviting them to invade his own country?!"
-		prestige = -2
-		any_pop = {
-			limit = {
-				location = { is_core = SPA }
-			}
-			consciousness = 2
+    id = 37761
+    title = "EVTNAME37761" #Appeal to the Holy Alliance
+    desc = "EVTDESC37761"
+    picture = "carlists"
+   
+    trigger = {
+        tag = SPA
+        exists = yes
+        government = hms_government
+        NOT = { year = 1836 }
+    }
+   
+    fire_only_once = yes
+   
+    mean_time_to_happen = {
+        months = 24
+		modifier = {
+			factor = 0.5
+			year = 1823
 		}
-		FRA = { country_event = 37762 }
-	}
+		modifier = {
+			factor = 0.5
+			year = 1825
+		}
+    }
+   
+    option = {
+        name = "He's inviting them to invade his own country?!"
+        prestige = -2
+        any_pop = {
+            limit = {
+                location = { is_core = SPA }
+            }
+            consciousness = 2
+        }
+        FRA = { country_event = 37762 }
+    }
 }
 
 country_event = {
-	id = 37762
-	title = "EVTNAME37762" #Request for Aid
-	desc = "EVTDESC37762"
-	picture = "carlists"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "Ferdinand will have to deal with his own parliament."
-		prestige = -5
-		relation = { who = FROM value = 25 }
-		ai_chance = {
-			factor = 0
-		}
-	}
-	
-	option = {
-		name = "A splendid excuse for a war!"
-		relation = { who = FROM value = -50 }
-		any_country = {
-			leave_alliance = FROM
-		}
-		leave_alliance = FROM
-		casus_belli = {
+    id = 37762
+    title = "EVTNAME37762" #Request for Aid
+    desc = "EVTDESC37762"
+    picture = "carlists"
+   
+    is_triggered_only = yes
+   
+    option = {
+        name = "A splendid excuse for a war!"
+        set_country_flag = one_hunderd_thousand_sons
+        relation = { who = FROM value = -50 }
+        any_country = {
+            leave_alliance = FROM
+        }
+        leave_alliance = FROM
+        casus_belli = {
+            target = FROM
+            type = cut_down_to_size
+            months = 60
+        }
+		war = {
 			target = FROM
-			type = humiliate
-			months = 60
+			attacker_goal = {
+				casus_belli = cut_down_to_size
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
 		}
-		ai_chance = {
-			factor = 100
-		}
-	}
+        any_pop = {
+            scaled_militancy = {
+                factor = 3
+                ideology = liberal
+            }
+        }
+        any_country = {
+            limit = {
+                civilized = yes
+                OR = {
+                    government = absolute_monarchy
+                    government = prussian_constitutionalism
+                }
+                capital_scope = { 
+                    continent = europe
+                }
+            }
+            relation = {
+                who = THIS
+                value = 15
+            }
+        }
+        ai_chance = {
+            factor = 100
+        }
+    }
+   
+    option = {
+        name = "Ferdinand will have to deal with his own parliament."
+        prestige = -5
+        any_pop = {
+            scaled_consciousness = {
+                factor = 3
+                ideology = liberal
+            }
+        }
+        relation = { who = FROM value = 15 }
+        any_country = {
+            limit = {
+                civilized = yes
+                OR = {
+                    NOT = { government = absolute_monarchy }
+                    NOT = { government = prussian_constitutionalism }
+                }
+                capital_scope = { 
+                    continent = europe
+                }
+            }
+            relation = {
+                who = THIS
+                value = 15
+            }
+        }
+        ai_chance = {
+            factor = 0
+        }
+    }
 }
 
 country_event = {
-	id = 37763
-	title = "EVTNAME37763" #Ferdinand's Restoration
-	desc = "EVTDESC37763"
-	picture = "carlists"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "Ferdinand will be restored, and the Constitution abrogated."
-		prestige = -5
-		end_war = FROM
-		relation = { who = FROM value = 150 }
-		alliance = FROM
-		political_reform = appointed
-		political_reform = underground_parties
-		political_reform = none_voting
-		government = absolute_monarchy
-		add_country_modifier = {
-			name = national_confusion
-			duration = 365
-		}
-		FROM = { prestige = 10 }
-		ai_chance = {
-			factor = 100
-		}
-	}
-	
-	option = {
-		name = "We fight on! For Parliament, and the Constitution!"
-		war_exhaustion = 25
-		badboy = 6
-		ai_chance = {
-			factor = 0
-		}
-	}
+    id = 37763
+    title = "EVTNAME37763" #Ferdinand's Restoration
+    desc = "EVTDESC37763"
+    picture = "carlists"
+   
+    news = yes
+    news_title = "EVTNEWS37763_title"
+    news_desc_long = "EVTNEWS37763_long"
+    news_desc_medium = "EVTNEWS37763_medium"
+    news_desc_short = "EVTNEWS37763_short"
+   
+    is_triggered_only = yes
+   
+    option = {
+        name = "Ferdinand will be restored, and the Constitution abrogated."
+        prestige = -5
+        end_war = FROM
+        relation = { who = FROM value = 250 }
+        FROM = { diplomatic_influence = { who = SPA value = 400 } }
+        alliance = FROM
+        political_reform = appointed
+        political_reform = underground_parties
+        political_reform = none_voting
+        government = absolute_monarchy
+        add_country_modifier = {
+            name = national_confusion
+            duration = 365
+        }
+        FROM = { prestige = 10 }
+        ai_chance = {
+            factor = 100
+        }
+    }
+   
+    option = {
+        name = "We fight on! For Parliament, and the Constitution!"
+        war_exhaustion = 25
+        badboy = 6
+        ai_chance = {
+            factor = 0
+        }
+    }
 }

@@ -1153,8 +1153,8 @@ guiTypes = {
 			fullScreen = no
 			
 			iconType = {
-			 name = "politics_industrial_construction"
-			 spriteType = "GFX_politics_industrial_construction"
+			 name = "politics_child_labour"
+			 spriteType = "GFX_politics_child_labour"
 			 position = { x= 10 y = 6 } #WAS { x= 7 y = 7 }
 			 Orientation = "UPPER_LEFT"
 		 }

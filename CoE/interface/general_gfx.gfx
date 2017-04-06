@@ -13,8 +13,8 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_modifier_icons"
-		texturefile = "gfx\\interface\\modifiers.tga"
-		noOfFrames = 20
+		texturefile = "gfx\\interface\\modifiers_coe.tga"
+		noOfFrames = 130
 		loadType = "INGAME"
 	}
 	

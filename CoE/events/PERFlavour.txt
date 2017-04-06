@@ -1,3 +1,32 @@
+#Goldsmith Arbitration
+country_event = {
+	id = 300999
+	is_triggered_only = yes
+
+	title = "the_goldsmith_arbitration"
+	desc = "EVTDESC300998"
+	picture = "persia_throne"
+
+	option = {
+		name = "Damn" 
+		any_pop = {
+			limit = {
+				has_pop_culture = kurdish
+			}
+			militancy = 3
+		}
+		any_owned = {
+			limit = {
+				is_core = KDS
+			}
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 1000
+			}
+		}
+	}
+}
+
 #Sheikh Ubeydullah Uprising
 country_event = {
 	id = 300999
@@ -55,10 +84,10 @@ country_event = {
 	picture = "ottoman"
 
 	news = yes
-	news_title = NEWS_EVTNAME_301000_title
-	news_desc_short = NEWS_EVTDESC_301000_short
-	news_desc_medium = NEWS_EVTDESC_301000_medium
-	news_desc_long = NEWS_EVTDESC_301000_long
+	news_title = NEWS_EVTNAME301000_title
+	news_desc_short = NEWS_EVTDESC301000_short
+	news_desc_medium = NEWS_EVTDESC301000_medium
+	news_desc_long = NEWS_EVTDESC301000_long
 	
 	option = {
 		name = "Direct his attention towards Persia" 
@@ -80,7 +109,7 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				badboy = 15
+				badboy = 0.6
 			}
 			modifier = {
 				factor = 1.25
@@ -221,6 +250,7 @@ country_event = {
 	option = {
 		name = "Long live the Emir!" 
 		government = absolute_monarchy
+		1223 = { add_core = AFG }
 		any_country = {
 			limit = {
 				vassal_of = THIS
@@ -249,18 +279,18 @@ country_event = {
 			value = 100
 		}
 		ai_chance = {
-			factor = 30
+			factor = 5
 			modifier = {
-				factor = 3
+				factor = 2
 				tag = KDH
 			}
 			modifier = {
-				factor = 1.5
-				relation = { who = AFG value = 75 }
+				factor = 0.2
+				tag = HRT
 			}
 			modifier = {
-				factor = 0.25
-				NOT = { relation = { who = AFG value = 40 } }
+				factor = 0.2
+				tag = KNZ
 			}
 		}
 	}
@@ -278,26 +308,10 @@ country_event = {
 			release_vassal = THIS
 		}
 		ai_chance = {
-			factor = 40
+			factor = 10
 			modifier = {
-				factor = 1.5
+				factor = 3
 				tag = HZJ
-			}
-			modifier = {
-				factor = 4
-				tag = KHR
-			}
-			modifier = {
-				factor = 1.25
-				relation = { who = AFG value = 25 }
-			}
-			modifier = {
-				factor = 0.5
-				NOT = { relation = { who = AFG value = 10 } }
-			}
-			modifier = {
-				factor = 0.2
-				relation = { who = AFG value = 100 }
 			}
 		}
 	}
@@ -312,25 +326,21 @@ country_event = {
 		}
 		relation = {
 			who = AFG
-			value = -75
+			value = -25
 		}
 		ai_chance = {
-			factor = 30
+			factor = 45
 			modifier = {
-				factor = 2.5
+				factor = 5
 				tag = KNZ
 			}
 			modifier = {
-				factor = 2.5
+				factor = 3
 				tag = HRT
 			}
 			modifier = {
-				factor = 2.5
+				factor = 5
 				tag = TAJ
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { relation = { who = AFG value = 25 } }
 			}
 		}
 	}
@@ -367,14 +377,14 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "This could become troublesome..." 
+		name = "We wish them well" 
 		1205 = {
 			any_pop = {
 				limit = {
 					culture = turkmen
 				}
 				militancy = -1
-				reduce_pop = 0.95
+				reduce_pop = 0.8
 			}
 		}
 		1206 = {
@@ -406,7 +416,7 @@ country_event = {
 					culture = turkmen
 				}
 				militancy = 2
-				reduce_pop = 1.15
+				reduce_pop = 1.2
 			}
 			add_province_modifier = {
 				name = nationalist_agitation
@@ -611,7 +621,7 @@ country_event = {
 	fire_only_once = yes
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 8
 		modifier = {
 			factor = 0.4
 			average_militancy = 3
@@ -636,7 +646,7 @@ country_event = {
 	
 	option = {
 		name = "Demand the eunuch to be returned"
-		remove_country_modifier = western_influences
+		prestige = 2
 		1121 = {
 			any_pop = {
 				scaled_militancy = {
@@ -662,6 +672,7 @@ country_event = {
 	}
 	option = {
 		name = "Calm the crowd down"
+		prestige = -5
 		1121 = { 
 			any_pop = {
 				scaled_consciousness = {
@@ -669,7 +680,7 @@ country_event = {
 					ideology = reactionary
 				}
 				scaled_militancy = {
-					factor = 2
+					factor = 4
 					ideology = reactionary
 				}
 			}
@@ -686,7 +697,6 @@ country_event = {
 			}
 		}
 		RUS = {
-			country_event = { id = 301021 days = 10 }
 			diplomatic_influence = {
 				who = PER
 				value = 15
@@ -778,7 +788,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				badboy = 15
+				badboy = 0.6
 			}
 		}
 	}
@@ -826,7 +836,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 5
-				badboy = 15
+				badboy = 0.6
 			}
 		}
 	}
@@ -840,6 +850,30 @@ country_event = {
 	title = "EVTNAME301022"
 	desc = "EVTDESC301022"
 	picture = "persia_dark"
+	
+	option = {
+		name = "Gifts! Gifts solve all the world's problems"
+		RUS = {
+			country_event = { id = 301025 days = 10 }
+			diplomatic_influence = {
+				who = PER
+				value = 15
+			}
+		}
+		prestige = -2
+		any_pop = {
+			scaled_militancy = {
+				factor = 2
+				ideology = reactionary
+			}
+		}
+		aristocrats = {
+			consciousness = 2
+		}
+		ai_chance = {
+			factor = 60
+		}
+	}
 	
 	option = {
 		name = "Heads. Spikes. Walls."
@@ -887,29 +921,6 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 20
-		}
-	}
-	option = {
-		name = "Gifts! Gifts solve all the world's problems"
-		RUS = {
-			country_event = { id = 301025 days = 10 }
-			diplomatic_influence = {
-				who = PER
-				value = 20
-			}
-		}
-		prestige = -2
-		any_pop = {
-			scaled_militancy = {
-				factor = 2
-				ideology = reactionary
-			}
-		}
-		aristocrats = {
-			consciousness = 2
-		}
-		ai_chance = {
-			factor = 60
 		}
 	}
 	option = {
@@ -1107,13 +1118,13 @@ country_event = {
 		PER = {
 			country_event = { id = 301028 days = 10 }
 		}
-		prestige = 5
+		prestige = 2
 		relation = {
 			who = PER
 			value = 30
 		}
 		diplomatic_influence = {
-			value = 15
+			value = 5
 			who = PER
 		}
 		ai_chance = {
@@ -1223,7 +1234,7 @@ country_event = {
 			factor = 30
 			modifier = {
 				factor = 0
-				badboy = 15
+				badboy = 0.6
 			}
 			modifier = {
 				factor = 2
@@ -1390,7 +1401,7 @@ country_event = {
 		}
 		diplomatic_influence = {
 			who = AZB
-			value = 200
+			value = 400
 		}
 		any_pop = {
 			limit = {
@@ -1599,9 +1610,10 @@ country_event = {
 						region = PER_1112
 					}
 				}
-				secede_province = RUS
+				secede_province = AZB
 			}
 		}
+		create_vassal = AZB
 		any_pop = {
 			limit = {
 				type = officers
@@ -1690,12 +1702,17 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "Our honour needs to be satisfied"
+		name = "Our honour needs to be satisfied."
 		set_country_flag = persian_ottoman_war
-		set_country_flag = a_turkish_adventure
+		prestige = 4
 		badboy = 3
-		money = 30000
-		TUR = { country_event = 301041 }
+		money = 50000
+		TUR = { 
+			country_event = {  
+				id = 301041 
+				days = 1
+			} 
+		}
 		ENG = {
 			diplomatic_influence = {
 				who = PER
@@ -1713,9 +1730,9 @@ country_event = {
 			value = 15
 		}
 		casus_belli = {
-	        target = TUR
+			target = TUR
 			type = cut_down_to_size
-			months = 2
+			duration = 24
 		}
 		war = {
 			target = TUR
@@ -1731,30 +1748,36 @@ country_event = {
 			factor = 100
 		}
 	}
-	option = {
-		name = "War is a needless distraction"
-		set_country_flag = a_turkish_adventure
-		prestige = -5
-		RUS = {
-			diplomatic_influence = {
-				who = PER
-				value = -15
-			}		
-		}
-		relation = {
-			who = RUS
-			value = -25
-		}
-		PER_1112 = {
-			add_province_modifier = {
-				name = nationalist_agitation
-				duration = 948
-			}
-		}
-		ai_chance = {
-			factor = 1
-		}
-	}
+	#option = {
+	#	name = "War is a needless distraction."
+	#	set_country_flag = a_turkish_adventure
+	#	prestige = -10
+	#	any_pop = {
+	#		limit = {
+	#			has_pop_culture = kurdish
+	#		}
+	#		militancy = 2
+	#	}
+	#	RUS = {
+	#		diplomatic_influence = {
+	#			who = PER
+	#			value = -15
+	#		}		
+	#	}
+	#	relation = {
+	#		who = RUS
+	#		value = -25
+	#	}
+	#	PER_1112 = {
+	#		add_province_modifier = {
+	#			name = nationalist_agitation
+	#			duration = 948
+	#		}
+	#	}
+	#	ai_chance = {
+	#		factor = 1
+	#	}
+	#}
 }
 
 #The Persian War
@@ -1767,7 +1790,7 @@ country_event = {
 	picture = "persia_royal_procession"
 	
 	option = {
-		name = "What a needless distraction"
+		name = "What a needless distraction."
 	}
 }
 
@@ -1814,7 +1837,6 @@ country_event = {
 	
 	option = {
 		name = "Our honour has been satisfied"
-		clr_country_flag = persian_ottoman_war
 		TUR = { 
 			country_event = {
 				id = 301043
@@ -1827,8 +1849,7 @@ country_event = {
 	}
 	option = {
 		name = "We will pursue this war to its end"
-		badboy = 3
-		clr_country_flag = persian_ottoman_war
+		badboy = 8
 		ai_chance = {
 			factor = 5
 		}
@@ -1845,11 +1866,25 @@ country_event = {
 	picture = "persia_royal_procession"
 	
 	option = {
-		name = "This war is a needless distraction"
+		name = "This war is a needless distraction."
 		end_war = PER
+		any_country = {
+			limit = {
+				war_with = TUR
+				alliance_with = PER
+			}
+			end_war = TUR
+		}
+		any_country = {
+			limit = {
+				war_with = PER
+				alliance_with = TUR
+			}
+			end_war = PER
+		}
 		relation = {
 			who = PER
-			value = 60
+			value = -400
 		}
 		PER = { 
 			country_event = {
@@ -1889,11 +1924,13 @@ country_event = {
 	
 	option = {
 		name = "Good"
-		war_exhaustion = -20
+		clr_country_flag = persian_ottoman_war
+		set_country_flag = a_turkish_adventure
+		war_exhaustion = -5
 		prestige = 5
 		relation = {
 			who = TUR
-			value = 60
+			value = 325
 		}
 	}
 }
@@ -1909,67 +1946,8 @@ country_event = {
 	
 	option = {
 		name = "We will crush them"
-	}
-}
-
-#Bukey Horde Absorbed
-country_event = {
-	id = 300980
-	
-	trigger = {
-		tag = RUS
-		exists = AKH
-		is_our_vassal = AKH
-		year = 1845
-		AKH = {
-			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-			}
-		}
-	}
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 12
-	}
-
-	
-	title = "EVTNAME300980"
-	desc = "EVTDESC300980"
-	picture = "merv_turkmen"
-	
-	option = {
-		name = "We have grand designes for the steppes" 
-		inherit = AKH
-		1182 = {
-			remove_core = AKH
-		}
-		2610 = {
-			remove_core = AKH
-		}
-		ai_chance = {
-			factor = 100
-			modifier = {
-				factor = 0
-				AKH = {
-					ai = no				
-				}
-			}		
-		}
-	}
-	option = {
-		name = "We'll let them be" 
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				AKH = {
-					ai = yes				
-				}
-			}		
-		}
+		war_exhaustion = 5
+		set_country_flag = persian_ottoman_war
 	}
 }
 
@@ -1978,8 +1956,8 @@ country_event = {
 	id = 300983
 	is_triggered_only = yes
 	
-	title = "treaty_of_erzurum_title"
-	desc = "treaty_of_erzurum_desc"
+	title = "second_treaty_of_erzurum_title"
+	desc = "second_treaty_of_erzurum_desc"
 	picture = "treaty_of_erzurum"
 	
 	option = {
@@ -2000,7 +1978,7 @@ country_event = {
 			}
 			relation = {
 				who = TUR
-				value = 100
+				value = 50
 			}
 			any_owned = {
 				remove_core = TUR			
@@ -2097,7 +2075,7 @@ country_event = {
 			factor = 5
 			modifier = {
 				factor = 0
-				badboy = 5
+				badboy = 0.6
 			}
 		}
 	}
@@ -2108,12 +2086,12 @@ country_event = {
 	id = 300984
 	is_triggered_only = yes
 	
-	title = "treaty_of_erzurum_title"
+	title = "second_treaty_of_erzurum_title"
 	desc = "EVTDESC300984"
 	picture = "treaty_of_erzurum"
 	
 	option = {
-		name = "Wonderful"
+		name = "Wonderful."
 	}
 }
 
@@ -2122,11 +2100,1463 @@ country_event = {
 	id = 300985
 	is_triggered_only = yes
 	
-	title = "treaty_of_erzurum_title"
+	title = "second_treaty_of_erzurum_title"
 	desc = "EVTDESC300985"
 	picture = "treaty_of_erzurum"
 	
 	option = {
-		name = "War it is then"
+		name = "War it is then."
+	}
+}
+
+#First Treaty of Erzurum - alternative
+country_event = {
+	id = 300986
+	is_triggered_only = yes
+	
+	title = "first_treaty_of_erzurum_title"
+	desc = "EVTDESC300986"
+	picture = "treaty_of_erzurum"
+	
+	option = {
+		name = "We will get back at them later."
+		PER = {
+			country_event = { 
+				id = 300984
+				days = 5
+			}
+		}
+		prestige = -15
+		war_exhaustion = -5
+		any_owned = {
+			limit = {
+				OR = {
+					province_id = 929
+					province_id = 934
+					region = TUR_935
+					region = ABU_1162
+				}
+			}
+			secede_province = PER 
+			remove_core = TUR	
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+	option = {
+		name = "We fight on."
+		PER = {
+			country_event = { 
+				id = 300985
+				days = 5
+			}
+		}
+		prestige = 3
+		war_exhaustion = 10
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+#Second Treaty of Erzurum - alternative
+country_event = {
+	id = 300987
+	trigger = {
+		tag = PER
+		national_provinces_occupied = 0.15
+		TUR = {
+			NOT = {
+				national_provinces_occupied = 0.05
+			}
+		}
+		934 = {
+			owned_by = PER
+			NOT = { is_core = TUR }
+		}
+		OR = {
+			1108 = {
+				owned_by = PER
+				NOT = { controlled_by = PER }
+			}
+			1121 = {
+				owned_by = PER
+				NOT = { controlled_by = PER }
+			}
+		}
+		war_with = TUR
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	title = "EVTNAME300987"
+	desc = "EVTDESC300987"
+	picture = "treaty_of_erzurum"
+	
+	option = {
+		name = "It was fun while it lasted."
+		TUR = {
+			country_event = { 
+				id = 300988
+				days = 5
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "We fight on."
+		badboy = 5
+		war_exhaustion = 10
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#First Treaty of Erzurum - alternative
+country_event = {
+	id = 300988
+	is_triggered_only = yes
+	
+	title = "EVTNAME300987"
+	desc = "EVTDESC300988"
+	picture = "treaty_of_erzurum"
+	
+	option = {
+		name = "Good."
+		end_war = PER
+		PER = {
+			country_event = { 
+				id = 300984
+				days = 5
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						region = TUR_885
+						region = TUR_890
+						region = TUR_892
+						region = TUR_923
+						region = TUR_931
+						region = TUR_935
+						region = ABU_1162
+					}
+				}
+				secede_province = TUR
+				add_core = TUR
+				remove_core = PER	
+			}
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					region = RUS_1098
+					region = PER_1112
+					region = PER_1122
+					region = PER_1128
+					region = PER_1132
+				}
+			}
+			secede_province = PER
+			add_core = PER
+			remove_core = TUR	
+		}
+		KHZ = {
+			any_owned = {
+				remove_core = TUR
+			}		
+		}
+		any_country = {
+			limit = {
+				is_greater_power = no
+				alliance_with = THIS
+			}
+			end_war = PER
+		}
+		any_country = {
+			limit = {
+				is_greater_power = no
+				alliance_with = PER
+			}
+			end_war = THIS
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "We fight on."
+		PER = {
+			country_event = { 
+				id = 300985
+				days = 5
+			}
+		}
+		badboy = 10
+		war_exhaustion = 20
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#####################################################
+#													#
+#			Build-up to Russo-Persian War			#
+#													#
+#####################################################
+
+#The Russian Occupation of Lake Gokcha
+country_event = {
+	id = 301053
+	title = "EVTNAME301053"
+	desc = "EVTDESC301053"
+	picture = "persia_tiflis_treaty"
+	
+	trigger = {
+		tag = PER
+		NOT = { war_with = RUS }
+		owns = 1098
+		owns = 1099
+		owns = 1100
+		year = 1825
+		AZB = {
+			owns = 1102
+			vassal_of = RUS
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	option = {
+		name = "We will surrender Kapan if they withdraw from Lake Gokcha."
+		1100 = { 
+			secede_province = AZB 
+			remove_core = TUR
+		}
+		1090 = { province_event = { id = 301054 } }
+		prestige = -2
+		any_pop = {
+			limit = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			dominant_issue = {
+				value = jingoism
+				factor = 0.05
+			}
+			ideology = {
+				factor = 0.05
+				value = reactionary
+			}
+			scaled_consciousness = {
+				factor = 1
+				ideology = reactionary
+			}
+			scaled_militancy = {
+				factor = 2
+				ideology = reactionary
+			}
+			consciousness = 1
+			militancy = 0.5
+		}
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0.25
+				RUS = { war = yes }
+			}
+		}
+	}
+	
+	option = {
+		name = "We will not be pressured into giving up territory."
+		1099 = { 
+			secede_province = RUS 
+			remove_core = TUR
+		}
+		1090 = { province_event = { id = 301055 } }
+		any_pop = {
+			limit = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			dominant_issue = {
+				value = jingoism
+				factor = 0.075
+			}
+			ideology = {
+				factor = 0.025
+				value = reactionary
+			}
+			scaled_consciousness = {
+				factor = 2
+				ideology = reactionary
+			}
+			scaled_militancy = {
+				factor = 1
+				ideology = reactionary
+			}
+			consciousness = 1
+			militancy = 1
+		}
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0.5
+				RUS = { war = yes }
+			}			
+		}
+	}
+	
+	option = {
+		name = "If they want our territory, they'd beter be prepared to fight for it!"
+		set_country_flag = khanates_contested
+		RUS = { country_event = 301056 }
+		prestige = 5
+		war_exhaustion = -5
+		war = {		#Russo-Persian War
+			target = RUS
+			attacker_goal = {
+				casus_belli = release_puppet
+				country = AZB
+			}
+			defender_goal = {
+				casus_belli = cut_down_to_size
+			}
+			call_ally = no
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 3
+				RUS = { war = yes }
+			}		
+		}
+	}
+}
+
+#Treaty of Tiflis (Kapan|Russia/Azerbaijan)
+province_event = {
+	id = 301054
+	title = "EVTNAME301053"
+	desc = "EVTDESC301054"
+	picture = "persia_tiflis_treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Whatever he did, it worked."
+		RUS = {
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = north_caucasian
+						has_pop_culture = azerbaijani
+					}
+				}
+				consciousness = -0.5
+				militancy = 0.5
+			}
+		}
+	}	
+}
+
+#Treaty of Tiflis (Gyumri|Russia/Azerbaijan)
+province_event = {
+	id = 301055
+	title = "EVTNAME301053"
+	desc = "EVTDESC301055"
+	picture = "persia_tiflis_treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "What an enterprising man!"
+		RUS = {
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = north_caucasian
+						has_pop_culture = azerbaijani
+					}
+				}
+				consciousness = -0.5
+				militancy = 0.5
+			}
+		}
+	}	
+}
+
+#The Russo-Persian War
+country_event = {
+	id = 301056
+	title = "EVTNAME301056"
+	desc = "EVTDESC301056"
+	picture = "persia_yermolov_erivan"
+	
+	is_triggered_only = yes
+	
+	news = yes
+	news_title = EVTNEWS301056_title
+	news_desc_short = EVTNEWS301056_short
+	news_desc_medium = EVTNEWS301056_medium
+	news_desc_long = EVTNEWS301056_long
+	
+	option = {
+		name = "To war!"
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = north_caucasian
+					has_pop_culture = azerbaijani
+				}
+			}
+			consciousness = 4
+			militancy = 4
+		}
+		random_country = {
+			limit = {
+				vassal_of = PER
+				NOT = {
+					tag = KHR
+					tag = KHZ
+				}
+			}
+			country_event = {
+				id = 301072
+				days = 153
+			}
+		}
+		random_list = {
+			30 = { 
+				KHR = {
+					country_event = {
+						id = 301072
+						days = 45
+					}			
+				}
+				KHZ = {
+					country_event = {
+						id = 301072
+						days = 167
+					}			
+				}
+			}
+			30 = { 
+				KHR = {
+					country_event = {
+						id = 301072
+						days = 32
+					}			
+				}
+				KHZ = {
+					country_event = {
+						id = 301072
+						days = 74
+					}			
+				}
+			}
+			30 = { 
+				KHR = {
+					country_event = {
+						id = 301072
+						days = 149
+					}			
+				}
+				KHZ = {
+					country_event = {
+						id = 301072
+						days = 184
+					}			
+				}
+
+			}
+			10 = { 
+				KHR = {
+					country_event = {
+						id = 301072
+						days = 64
+					}			
+				}
+				KHZ = {
+					country_event = {
+						id = 301072
+						days = 201
+					}			
+				}
+
+			}
+		}
+	}	
+}
+
+#The Council of Sultanieh (Kapan seceded)
+country_event = {
+	id = 301057
+	title = "EVTNAME301057"
+	desc = "EVTDESC301057"
+	picture = "persia_sultanieh"
+	
+	trigger = {
+		tag = PER
+		owns = 1098
+		owns = 1099
+		AZB = {
+			owns = 1102
+			owns = 1100
+			vassal_of = RUS
+		}
+		NOT = {
+			has_country_flag = khanates_contested
+			war_with = RUS
+		}
+		RUS = { NOT = { has_country_flag = turkmenchay_treaty } }
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			NOT = { year = 1826 }
+			factor = 2
+		}
+		modifier = {
+			year = 1827
+			factor = 0.25
+		}
+	}
+	
+	option = {
+		name = "As Protector of the Guarded Realm and the Shia Faithful, we declare war!"
+		set_country_flag = khanates_contested
+		RUS = { country_event = 301056 }
+		prestige = 2
+		war_exhaustion = -5
+		war = {		#Russo-Persian War
+			target = RUS
+			attacker_goal = {
+				casus_belli = release_puppet
+				country = AZB
+			}
+			defender_goal = {
+				casus_belli = cut_down_to_size
+			}
+			call_ally = no
+		}
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 2
+				RUS = { war = yes }
+			}
+		}
+	}
+	option = {
+		name = "Surely a little flexibility can go a long way in establishing peace?"
+		prestige = -5
+		1099 = { 
+			secede_province = RUS 
+			remove_core = TUR
+			province_event = { id = 301059 }
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			dominant_issue = {
+				value = jingoism
+				factor = 0.075
+			}
+			ideology = {
+				factor = 0.05
+				value = reactionary
+			}
+			scaled_consciousness = {
+				factor = 3
+				ideology = reactionary
+			}
+			scaled_militancy = {
+				factor = 2
+				ideology = reactionary
+			}
+			consciousness = 1.5
+			militancy = 1
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0.5
+				RUS = { war = yes }
+			}
+		}
+	}
+}
+
+#The Council of Sultanieh (Gyumri seceded)
+country_event = {
+	id = 301058
+	title = "EVTNAME301057"
+	desc = "EVTDESC301058"
+	picture = "persia_sultanieh"
+	
+	trigger = {
+		tag = PER
+		owns = 1098
+		owns = 1100
+		AZB = {
+			owns = 1102
+			vassal_of = RUS
+		}
+		NOT = {
+			has_country_flag = khanates_contested
+			war_with = RUS
+		}
+		RUS = { 
+			owns = 1099
+			NOT = { has_country_flag = turkmenchay_treaty } 
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			NOT = { year = 1826 }
+			factor = 2
+		}
+		modifier = {
+			year = 1827
+			factor = 0.25
+		}
+	}
+	
+	option = {
+		name = "As Protector of the Guarded Realm and the Shia Faithful, we declare war!"
+		set_country_flag = khanates_contested
+		RUS = { country_event = 301056 }
+		prestige = 2
+		war_exhaustion = -5
+		war = {		#Russo-Persian War
+			target = RUS
+			attacker_goal = {
+				casus_belli = release_puppet
+				country = AZB
+			}
+			defender_goal = {
+				casus_belli = cut_down_to_size
+			}
+			call_ally = no
+		}
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 2
+				RUS = { war = yes }
+			}
+		}
+	}
+	option = {
+		name = "Surely a little flexibility can go a long way in establishing peace?"
+		prestige = -5
+		1100 = { 
+			secede_province = RUS 
+			remove_core = TUR
+			province_event = { id = 301059 }
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			dominant_issue = {
+				value = jingoism
+				factor = 0.15
+			}
+			ideology = {
+				factor = 0.125
+				value = reactionary
+			}
+			scaled_consciousness = {
+				factor = 1.5
+				ideology = reactionary
+			}
+			scaled_militancy = {
+				factor = 2.5
+				ideology = reactionary
+			}
+			consciousness = 1
+			militancy = 1.5
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0.5
+				RUS = { war = yes }
+			}
+		}
+	}
+}
+
+#The Council of Sultanieh (Russia)
+province_event = {
+	id = 301059
+	title = "EVTNAME301058"
+	desc = "EVTDESC301059"
+	picture = "persia_throne"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "The Persians are such an accomdating people."
+		RUS = {
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = north_caucasian
+						has_pop_culture = azerbaijani
+					}
+				}
+				consciousness = -0.5
+				militancy = 0.5
+			}
+		}
+	}	
+}
+
+#No Peace, No War
+country_event = {
+	id = 301060
+	title = "EVTNAME301060"
+	desc = "EVTDESC301060"
+	picture = "persia_troop_inspection"
+	
+	trigger = {
+		tag = PER
+		owns = 1098
+		owns = 1101
+		NOT = {
+			owns = 1099
+			owns = 1100
+		}
+		NOT = {
+			has_country_flag = khanates_contested
+			war_with = RUS
+		}
+		RUS = { 
+			owns = 1099
+			NOT = { has_country_flag = turkmenchay_treaty } 
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			NOT = { year = 1826 }
+			factor = 2
+		}
+		modifier = {
+			year = 1827
+			factor = 0.5
+		}
+	}
+	
+	option = {
+		name = "If we don't go to war now, there will be no end to this..."
+		set_country_flag = khanates_contested
+		RUS = { country_event = 301056 }
+		prestige = 2
+		war_exhaustion = -5
+		war = {		#Russo-Persian War
+			target = RUS
+			attacker_goal = {
+				casus_belli = release_puppet
+				country = AZB
+			}
+			defender_goal = {
+				casus_belli = cut_down_to_size
+			}
+			call_ally = no
+		}
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 2
+				RUS = { war = yes }
+			}
+		}
+	}
+	option = {
+		name = "We cannot resist the Russians..."
+		prestige = -5
+		1101 = { 
+			secede_province = RUS 
+			remove_core = TUR
+			province_event = { id = 301061 }
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			dominant_issue = {
+				value = jingoism
+				factor = 0.1
+			}
+			ideology = {
+				factor = 0.175
+				value = reactionary
+			}
+			scaled_consciousness = {
+				factor = 2
+				ideology = reactionary
+			}
+			scaled_militancy = {
+				factor = 3
+				ideology = reactionary
+			}
+			consciousness = 2
+			militancy = 1
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0.5
+				RUS = { war = yes }
+			}
+		}
+	}
+}
+
+#No Peace, No War (Russia)
+province_event = {
+	id = 301061
+	title = "EVTNAME301058"
+	desc = "EVTDESC301061"
+	picture = "persia_troop_inspection"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Who would have imagined the Persians would roll over so easily?"
+		RUS = {
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = north_caucasian
+						has_pop_culture = azerbaijani
+					}
+				}
+				consciousness = -0.5
+				militancy = 0.5
+			}
+		}
+	}	
+}
+
+#The Sardar of Erivan
+country_event = {
+	id = 301062
+	title = "EVTNAME301062"
+	desc = "EVTDESC301062"
+	picture = "persia_yermolov_erivan"
+	
+	trigger = {
+		tag = PER
+		owns = 1098
+		NOT = {
+			owns = 1099
+			owns = 1100
+			owns = 1101
+		}
+		NOT = {
+			has_country_flag = khanates_contested
+			war_with = RUS
+		}
+		RUS = { 
+			owns = 1099
+			NOT = { has_country_flag = turkmenchay_treaty } 
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			NOT = { year = 1826 }
+			factor = 2
+		}
+		modifier = {
+			year = 1827
+			factor = 0.75
+		}
+	}
+	
+	option = {
+		name = "If we don't go to war now, there will be no end to this..."
+		set_country_flag = khanates_contested
+		RUS = { country_event = 301056 }
+		prestige = 2
+		war_exhaustion = -5
+		war = {		#Russo-Persian War
+			target = RUS
+			attacker_goal = {
+				casus_belli = release_puppet
+				country = AZB
+			}
+			defender_goal = {
+				casus_belli = cut_down_to_size
+			}
+			call_ally = no
+		}
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 2
+				RUS = { war = yes }
+			}
+		}
+	}
+	option = {
+		name = "Erivan is just not worth it..."
+		prestige = -5
+		release = ARM
+		any_pop = {
+			limit = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			dominant_issue = {
+				value = jingoism
+				factor = 0.1
+			}
+			ideology = {
+				factor = 0.2
+				value = reactionary
+			}
+			scaled_consciousness = {
+				factor = 4
+				ideology = reactionary
+			}
+			scaled_militancy = {
+				factor = 4
+				ideology = reactionary
+			}
+			consciousness = 2
+			militancy = 1
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0.5
+				RUS = { war = yes }
+			}
+		}
+	}
+}
+
+#The Sardar of Erivan (Russia)
+province_event = {
+	id = 301063
+	title = "EVTNAME301058"
+	desc = "EVTDESC301063"
+	picture = "persia_yermolov_erivan"
+	
+	is_triggered_only = yes
+	
+	news = yes
+	news_title = EVTNEWS301063_title
+	news_desc_short = EVTNEWS301063_short
+	news_desc_medium = EVTNEWS301063_medium
+	news_desc_long = EVTNEWS301063_long
+	
+	option = {
+		name = "Who would have imagined the Persians would roll over so easily?"
+		RUS = {
+			casus_belli = {
+				target = ARM
+				type = establish_protectorate_casus_belli
+				months = 60
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = north_caucasian
+						has_pop_culture = azerbaijani
+					}
+				}
+				consciousness = -0.5
+				militancy = 0.5
+			}
+		}
+		random_country = {
+			limit = {
+				vassal_of = PER
+				NOT = {
+					tag = KHR
+					tag = KHZ
+				}
+			}
+			country_event = {
+				id = 301072
+				days = 45
+			}
+		}
+		random_list = {
+			30 = { 
+				KHR = {
+					country_event = {
+						id = 301072
+						days = 45
+					}			
+				}
+				KHZ = {
+					country_event = {
+						id = 301072
+						days = 167
+					}			
+				}
+			}
+			30 = { 
+				KHR = {
+					country_event = {
+						id = 301072
+						days = 32
+					}			
+				}
+				KHZ = {
+					country_event = {
+						id = 301072
+						days = 74
+					}			
+				}
+			}
+			30 = { 
+				KHR = {
+					country_event = {
+						id = 301072
+						days = 149
+					}			
+				}
+				KHZ = {
+					country_event = {
+						id = 301072
+						days = 184
+					}			
+				}
+
+			}
+			10 = { 
+				KHR = {
+					country_event = {
+						id = 301072
+						days = 64
+					}			
+				}
+				KHZ = {
+					country_event = {
+						id = 301072
+						days = 201
+					}			
+				}
+
+			}
+		}
+	}	
+}
+
+#####################################################
+#													#
+#				  Russo-Persian War					#
+#													#
+#####################################################
+
+country_event = {
+	id = 301070
+	title = "EVTNAME301070" #Treaty of Turkmenchay
+	desc = "EVTDESC301070"
+	picture = "turkmenchay_treaty"
+	
+	news = yes
+	news_title = EVTNEWS301070_title
+	news_desc_short = EVTNEWS301070_short
+	news_desc_medium = EVTNEWS301070_medium
+	news_desc_long = EVTNEWS301070_long
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "There is nothing we can do."
+		set_country_flag = turkmenchay_treaty
+		RUS = {
+			end_war = THIS
+			relation = { who = THIS value = 100 }
+			diplomatic_influence = { who = THIS value = 50 }
+		}
+		1098 = {
+			add_core = RUS
+			remove_core = THIS
+			remove_core = TUR
+		}
+		1099 = {
+			add_core = RUS
+			remove_core = THIS
+			remove_core = TUR
+		}
+		1100 = {
+			add_core = RUS
+			remove_core = THIS
+			remove_core = TUR
+		}
+		1101 = {
+			add_core = RUS
+			remove_core = THIS
+			remove_core = TUR
+		}
+		2667 = {
+			add_core = RUS
+			remove_core = THIS
+			remove_core = TUR
+		}
+		RUS_1102 = {
+			add_core = RUS
+			remove_core = THIS
+			remove_core = TUR
+		}
+		random_country = {
+			limit = {
+				tag = AZB
+				exists = yes
+				vassal_of = RUS
+			}
+			PER = {
+				any_owned = {
+					limit = {
+						OR = {
+							region = RUS_1098
+							region = RUS_1102
+							province_id = 2667
+						}
+					}
+					secede_province = AZB
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				OR = {
+					tag = RUS
+					tag = DAG
+				}
+				owns = 1102
+			}
+			PER = {
+				any_owned = {
+					limit = {
+						OR = {
+							region = RUS_1098
+							region = RUS_1102
+							province_id = 2667
+						}
+					}
+					secede_province = RUS
+				}
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "We will never give in!"
+		prestige = 2
+		badboy = 6
+		war_exhaustion = 25
+		1098 = {
+			add_core = RUS
+		}
+		1099 = {
+			add_core = RUS
+		}
+		1100 = {
+			add_core = RUS
+		}
+		1101 = {
+			add_core = RUS
+		}
+		RUS_1102 = {
+			add_core = RUS
+		}
+		RUS = {
+			casus_belli = {
+				target = THIS
+				type = demand_concession_casus_belli
+				months = 60
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 301071
+	title = "EVTNAME301071" #Persian victory in Russo-Persian War (1826-1828)
+	desc = "EVTDESC301071"
+	picture = "turkmenchay_treaty"
+	
+	news = yes
+	news_title = EVTNEWS301071_title
+	news_desc_short = EVTNEWS301071_short
+	news_desc_medium = EVTNEWS301071_medium
+	news_desc_long = EVTNEWS301071_long
+	
+	trigger = {
+		tag = PER
+		war = no
+		truce_with = RUS
+		has_country_flag = khanates_contested
+		AZB = {
+			exists = yes
+			is_vassal = no
+		}
+		RUS = { NOT = { has_country_flag = turkmenchay_treaty } }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "A triumph!"
+		inherit = AZB
+		DAG = {
+			any_owned = {
+				limit = {
+					is_core = AZB
+				}
+			}
+			secede_province = PER
+		}
+		ENG = { diplomatic_influence = { who = THIS value = 50 } }
+		war_exhaustion = -20
+		any_pop = {
+			militancy = -4
+			consciousness = -2
+		}
+	}
+}
+
+#Korosan rebellion as a result of the Russo-Persian war
+country_event = {
+	id = 301072
+	is_triggered_only = yes #For now
+
+	title = "EVTNAME301072"
+	desc = "EVTDESC301072"
+	picture = "persia_royal_procession"
+	
+	option = {
+		name = "Independence!"
+		prestige = 5
+		relation = {
+			who = PER
+			value = -300
+		}
+		PER = {
+			release_vassal = THIS
+			country_event = 301703
+		}
+		any_country = {
+			end_war = THIS
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				PER = { 
+					NOT = { has_country_flag = khanates_contested } 
+				}
+				factor = 1.5
+			}
+			modifier = {
+				tag = KHR
+				factor = 1.25
+			}
+			modifier = {
+				tag = KHZ
+				factor = 0.75
+			}
+		}
+	}
+	option = {
+		name = "We are loyal subjects!"
+		prestige = -2
+		ai_chance = {
+			factor = 50
+			modifier = {
+				PER = { 
+					NOT = { has_country_flag = khanates_contested } 
+				}
+				factor = 0.9
+			}
+			modifier = {
+				tag = KHR
+				factor = 0.75
+			}
+			modifier = {
+				tag = KHZ
+				factor = 1.25
+			}
+		}
+	}
+}
+
+#Reaction to the vassal Rebellion
+country_event = {
+	id = 301073
+	is_triggered_only = yes
+
+	title = "EVTNAME301073"
+	desc = "EVTDESC301073"
+	picture = "persia_throne"
+	
+	option = {
+		name = "When will the hurting stop..."
+		casus_belli = {
+			target = FROM
+			type = make_puppet
+			months = 120
+		}
+		any_pop = {
+			limit = {
+				NOT = {
+					strata = poor
+				}
+				OR = {
+					has_pop_religion = shiite
+					has_pop_religion = sunni
+					has_pop_religion = ibadi
+				}
+			}
+			consciousness = 1
+		}
+	}
+}
+
+#Reaction to the vassal Rebellion
+country_event = {
+	id = 301074
+	trigger = {
+		tag = PER
+		exists = yes
+		ai = yes
+		war = no
+		exists = KHZ
+		NOT = { is_our_vassal = KHZ }
+		NOT = { KHZ = { part_of_sphere = yes } }
+		NOT = { KHZ = { is_vassal = yes } }
+	}
+	
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME301074"
+	desc = "EVTDESC301074"
+	picture = "persia_throne"
+	
+	option = {
+		name = "It is ours afterall..."
+		casus_belli = {
+			target = KHZ
+			type = make_puppet
+			months = 12
+		}
+		war = {
+			target = KHZ
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+				call_ally = no
+		}
+	}
+}
+
+#Reaction to the vassal Rebellion
+country_event = {
+	id = 301075
+	trigger = {
+		tag = PER
+		exists = yes
+		ai = yes
+		war = no
+		exists = KHR
+		NOT = { is_our_vassal = KHR }
+		NOT = { KHR = { part_of_sphere = yes } }
+		NOT = { KHR = { is_vassal = yes } }
+	}
+	
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME301074"
+	desc = "EVTDESC301074"
+	picture = "persia_throne"
+	
+	option = {
+		name = "It is ours afterall..."
+		casus_belli = {
+			target = KHR
+			type = make_puppet
+			months = 12
+		}
+		war = {
+			target = KHR
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+				call_ally = no
+		}
 	}
 }

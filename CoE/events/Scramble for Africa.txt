@@ -268,6 +268,7 @@ country_event = {
 				war_policy = pacifism
 				num_of_revolts = 1
 			}
+            NOT = { badboy = 0.6 }
 		}
 		NOT = {
 			has_country_flag = refused_protectorate

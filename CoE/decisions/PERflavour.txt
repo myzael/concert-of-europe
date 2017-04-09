@@ -81,9 +81,7 @@ political_decisions = {
 					value = 25
 				}
 				random_owned = {
-					limit = {
-						is_capital = yes
-					}
+					limit = { is_capital = yes }
 					province_event = { id = 190370 }
 				}
 			}

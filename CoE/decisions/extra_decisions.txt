@@ -1264,6 +1264,9 @@ political_decisions = {
 		
 		effect = {
 			KOK = { annex_to = THIS }
+			1193 = {
+				change_province_name = "Perovsk"
+			}
 		}
 	}
 
@@ -1847,6 +1850,8 @@ political_decisions = {
 		allow = {
 			war = no
 			government = democracy
+			romanticism = 1
+			idealism = 1
 		}
 		
 		effect = {
@@ -1871,7 +1876,6 @@ political_decisions = {
 				government = presidential_dictatorship
 				government = bourgeois_dictatorship
 				government = fascist_dictatorship
-				government = absolute_monarchy
 			}
 		}
 		allow = {

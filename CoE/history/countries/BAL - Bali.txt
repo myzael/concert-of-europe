@@ -1,7 +1,7 @@
 capital = 1438
-primary_culture = malay
-culture = moluccan
-religion = animist
+primary_culture = balinese
+culture = sasak
+religion = hindu
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
@@ -28,7 +28,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-land_property=landed_estates
+land_property = landed_estates
 child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = elite
@@ -50,8 +50,8 @@ taxation_reform = tax_farmers
 diplomatic_reform = interactive
 
 # Technologies
-private_banks = 1
-early_classical_theory_and_critique = 1
+freedom_of_trade = 1
+classicism_n_early_romanticism = 1
 
 # Inventions
 

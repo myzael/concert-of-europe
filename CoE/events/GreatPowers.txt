@@ -492,42 +492,100 @@ country_event = {
 	}
 }
 
-#Provincename Botanical Expedition
-province_event = {
+#triggers Botanical Expedition
+country_event = {
 	id = 19020
 	title = "EVTNAME19020"
 	desc = "EVTDESC19020"
 	
 	trigger = {
-		owner = {
-			is_greater_power = yes
-		}
-		is_colonial = yes
-		NOT = {
-			life_rating = 25
-			has_global_flag = botanical_expedition_in_progress
+		tag = BHU
+		year = 1860
+		NOT = { has_global_flag = botanical_expedition_in_progress }
+		NOT = { 
+			any_greater_power = { has_country_flag = in_great_war }
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 600
+		months = 200
 		modifier = {
 			factor = 0.8
-			NOT = {
-				life_rating = 20
-			}
+			year = 1875
 		}
 		modifier = {
-			factor = 0.9
-			NOT = {
-				life_rating = 25
-			}
+			factor = 0.8
+			year = 1885
 		}
 		modifier = {
-			factor = 1.5
-			average_consciousness = 4
+			factor = 0.8
+			year = 1895
+		}
+		modifier = {
+			factor = 0.8
+			year = 1905
+		}
+		modifier = {
+			factor = 0.8
+			year = 1915
 		}
 	}
+	
+	option = {
+		name = "Lets get this ball rolling"
+		random_country = {
+			limit = {
+				OR = {
+					is_greater_power = yes
+					tag = NET
+					tag = POR
+					tag = BEL
+				}
+				colonial_nation = yes
+				any_owned_province = {
+					is_colonial = yes
+					NOT = { life_rating = 25 }
+					NOT = { average_militancy = 5 }
+					OR = {
+						terrain = jungle
+						terrain = jungle_hills
+						terrain = jungle_mountains
+						terrain = seasonal_jungle
+						terrain = seasonal_jungle_hills
+						terrain = seasonal_jungle_mountains
+						terrain = swamp_jungle
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					is_colonial = yes
+					NOT = { life_rating = 25 }
+					NOT = { average_militancy = 5 }
+					OR = {
+						terrain = jungle
+						terrain = jungle_hills
+						terrain = jungle_mountains
+						terrain = seasonal_jungle
+						terrain = seasonal_jungle_hills
+						terrain = seasonal_jungle_mountains
+						terrain = swamp_jungle
+					}
+				}
+				province_event = { id = 19021 }
+			}
+		
+		}
+	}
+}
+
+#Provincename Botanical Expedition
+province_event = {
+	id = 19021
+	title = "EVTNAME19020"
+	desc = "EVTDESC19020"
+	
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTA19020"

@@ -264,6 +264,7 @@ country_event = {
 country_event = {
 	id = 301012
 	is_triggered_only = yes
+	allow_multiple_instances = yes
 
 	title = "EVTNAME301012"
 	desc = "EVTDESC301012"
@@ -2993,6 +2994,7 @@ country_event = {
 	trigger = {
 		tag = PER
 		owns = 1098
+		owns = 2667
 		NOT = {
 			owns = 1099
 			owns = 1100
@@ -3050,6 +3052,10 @@ country_event = {
 	option = {
 		name = "Erivan is just not worth it..."
 		prestige = -5
+		2667 = {
+			secede_province = RUS 
+			province_event = { id = 301063 }
+		}
 		release = ARM
 		any_pop = {
 			limit = {
@@ -3489,6 +3495,8 @@ country_event = {
 		NOT = { is_our_vassal = KHZ }
 		NOT = { KHZ = { part_of_sphere = yes } }
 		NOT = { KHZ = { is_vassal = yes } }
+		NOT = { KHZ = { stronger_army_than = PER } } }
+		military_score = 4
 	}
 	
 	mean_time_to_happen = {
@@ -3531,6 +3539,8 @@ country_event = {
 		NOT = { is_our_vassal = KHR }
 		NOT = { KHR = { part_of_sphere = yes } }
 		NOT = { KHR = { is_vassal = yes } }
+		NOT = { KHR = { stronger_army_than = PER } } }
+		military_score = 4
 	}
 	
 	mean_time_to_happen = {

@@ -1,4 +1,6 @@
-add_core = TRZ
-trade_goods = grain
-life_rating = 10
-terrain = desert
+owner = SAK
+controller = SAK
+add_core = SAK
+trade_goods = spices
+life_rating = 25
+terrain = rich_farmland

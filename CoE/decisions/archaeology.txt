@@ -48,7 +48,7 @@ political_decisions = {
 		
 		effect = {		
 			1767 = {
-				owner = { country_event = 19040 }
+				province_event = { id = 19040 }
 			}
 		}
 	}
@@ -118,7 +118,7 @@ political_decisions = {
 		
 		effect = {		
 			2189 = {
-				owner = { country_event = 201004 }
+				province_event = { id = 201004 }
 			}
 		}
 	}
@@ -212,7 +212,7 @@ political_decisions = {
 		
 		effect = {		
 			840 = {
-				owner = { country_event = 190401 }
+				province_event = { id = 190401 }
 			}
 		}
 	}
@@ -280,9 +280,7 @@ political_decisions = {
 		
 		effect = {
 			847 = {
-				owner = {
-					country_event = 1904012
-				}
+				province_event = { id = 1904012	}
 			}
 		}
 	}
@@ -351,7 +349,7 @@ political_decisions = {
 		
 		effect = {		
 			2302 = {
-				owner = { country_event = 201007 }
+				province_event = { id = 201007 }
 			}
 		}
 	}
@@ -423,7 +421,7 @@ political_decisions = {
 		
 		effect = {		
 			926 = {
-				owner = { country_event = 201010 }
+				province_event = { id = 201010 }
 			}
 		}
 	}

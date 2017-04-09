@@ -385,6 +385,8 @@ political_decisions = {
 						has_pop_culture = north_german
 						has_pop_culture = french
 						has_pop_culture = picard
+						has_pop_culture = sephardic
+						has_pop_culture = ashkenazi
 					}
 				}
 				literacy = 0.49
@@ -400,18 +402,7 @@ political_decisions = {
 				limit = {
 					has_pop_culture = flemish
 				}
-				literacy = 0.05
 				consciousness = 1
-			}
-			any_owned = {
-				limit = {
-					region = NET_1447
-					trade_goods = spices
-					NOT = { has_province_modifier = verplichte_levering }
-				}
-				add_province_modifier = {
-					name = verplichte_levering
-					duration = -1
 			}
 		}
 	}

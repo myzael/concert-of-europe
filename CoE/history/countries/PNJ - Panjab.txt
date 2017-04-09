@@ -27,7 +27,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-land_property=landed_estates
+land_property = landed_estates
 child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = elite
@@ -45,9 +45,9 @@ upper_house = {
 
 set_country_flag = existing_country
 
-foreign_weapons = yes_foreign_weapons
-foreign_officers = yes_foreign_officers
-army_schools = yes_army_schools
+unciv_light_armament = gunpowder_weapons
+unciv_officer_corps = foreign_officers_commanding
+unciv_artillery = early_light_artillery
 admin_reform = yes_admin_reform
 diplomatic_reform = interactive
 
@@ -56,7 +56,7 @@ flintlock_rifles = 1
 army_command_principle = 1
 bronze_muzzle_loaded_artillery = 1
 enlightenment_thought = 1
-early_classical_theory_and_critique = 1
+classicism_n_early_romanticism = 1
 
 # Inventions
 
@@ -70,10 +70,10 @@ oob = "PAN_oob.txt"
 	literacy = 0.05
 	non_state_culture_literacy = 0.02
 	
-	foreign_training = yes_foreign_training
-	foreign_weapons = yes_foreign_weapons
-	foreign_officers = yes_foreign_officers
-	army_schools = yes_army_schools
+	unciv_military_training = field_drills
+	unciv_light_armament = gunpowder_weapons
+	unciv_officer_corps = foreign_officers_commanding
+	unciv_artillery = early_light_artillery
 	admin_reform = yes_admin_reform
 	academic_institutions = madrasahs
 	diplomatic_reform = interactive
@@ -85,7 +85,7 @@ oob = "PAN_oob.txt"
 	bronze_muzzle_loaded_artillery = 1
 	enlightenment_thought = 1
 	late_enlightenment_philosophy = 1
-	early_classical_theory_and_critique = 1
+	classicism_n_early_romanticism = 1
 }
 
 1861.1.1 = {

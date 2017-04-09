@@ -1,9 +1,8 @@
 add_core = AST
 add_core = ENG
-trade_goods = coal
-life_rating = 30
-terrain = semi_desert
-colonial = 2
+trade_goods = wool
+life_rating = 15
+terrain = dry_grassland
 1836.1.1 = {
 	owner = ENG
 	controller = ENG

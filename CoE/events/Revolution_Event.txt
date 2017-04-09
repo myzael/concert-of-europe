@@ -1379,7 +1379,7 @@ country_event = {
 		clr_country_flag = post_colonial_country
 		random_owned = {
 			limit = {
-				owner = { tag = BMK }
+				owner = { tag = MLI }
 			}
 			owner = { primary_culture = songhai }
 		}
@@ -1458,12 +1458,17 @@ country_event = {
 				owner = {
 					OR = {
 						tag = NGR
-						tag = NIG
 						tag = GNE
 					}
 				}
 			}
 			owner = { primary_culture = fulbe }
+		}
+		random_owned = {
+			limit = {
+				owner = { tag = NIG }
+			}
+			owner = { primary_culture = zarma }
 		}
 		random_owned = {
 			limit = {
@@ -1513,7 +1518,7 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				owner = { tag = SNG }
+				owner = { tag = WOL }
 			}
 			owner = { primary_culture = wolof }
 		}

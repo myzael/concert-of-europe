@@ -1,7 +1,7 @@
 owner = SPA
 controller = SPA
 add_core = PHL
-trade_goods = spices
+trade_goods = tobacco
 life_rating = 38
 terrain = jungle_farmland
 colonial = 1

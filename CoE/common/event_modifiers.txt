@@ -1865,7 +1865,7 @@ gauche_buffoon = {
 	prestige = -0.05
 	diplomatic_points_modifier = -0.5
 	issue_change_speed = 0.1
-	icon = 17 #31 is the MAGA hat, which nobody likes... :'(
+	icon = 31
 }
 
 administrative_genius = {

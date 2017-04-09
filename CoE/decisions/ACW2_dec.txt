@@ -254,7 +254,7 @@ political_decisions = {
 				owned_by = THIS
 				is_core = THIS
 			}
-			2599 = {
+			2630 = {
 				empty = no
 				is_core = THIS
 				NOT = { owned_by = THIS }
@@ -265,7 +265,7 @@ political_decisions = {
 		allow = {
 			war = no
 			money = 50000
-			2599 = {
+			2630 = {
 				owner = {
 					war = no
 					relation = { who = THIS value = 50 }
@@ -275,7 +275,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = second_alaskan_purchase
-			2599 = {
+			2630 = {
 				owner = { country_event = 44140 }
 			}
 		}

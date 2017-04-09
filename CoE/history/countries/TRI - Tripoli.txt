@@ -29,7 +29,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-land_property=landed_estates
+land_property = landed_estates
 child_labor = child_labor_restricted
 arts_endowment = no_endowment
 education = elite
@@ -47,14 +47,18 @@ upper_house = {
 
 set_country_flag = existing_country
 
-foreign_weapons = yes_foreign_weapons
+unciv_light_armament = gunpowder_weapons
+unciv_naval_construction = unciv_standardised_naval_designs
+unciv_naval_organisation = unciv_local_admiralities
 diplomatic_reform = interactive
-medicine_reform = alchemy
 
 # Technologies
 flintlock_rifles = 1
-early_classical_theory_and_critique = 1
-basic_chemistry = 1
+clipper_design = 1
+naval_design_bureaus = 1
+post_nelsonian_thought = 1
+naval_command_principle = 1
+classicism_n_early_romanticism = 1
 
 # Inventions
 
@@ -70,14 +74,12 @@ oob = "TRI_oob.txt"
 	
 	set_country_flag = succession_crisis
 	
-	foreign_weapons = yes_foreign_weapons
+	unciv_light_armament = gunpowder_weapons
 	academic_institutions = madrasahs
 	diplomatic_reform = interactive
-        medicine_reform = alchemy
 	
 	# Technologies
 	flintlock_rifles = 1
 	late_enlightenment_philosophy = 1
-	early_classical_theory_and_critique = 1
-        basic_chemistry = 1
+	classicism_n_early_romanticism = 1
 }

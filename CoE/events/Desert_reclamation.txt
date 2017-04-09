@@ -45,12 +45,12 @@ country_event = {
 country_event = {
 	id = 300956
 	trigger = {
-		owns = 1719
+		owns = 1713
 		civilized = yes
-		1724 = {
+		1712 = {
 			empty = yes
 		}
-		1717 = {
+		1714 = {
 			empty = yes
 		}
 		has_global_flag = berlin_conference
@@ -74,13 +74,13 @@ country_event = {
 		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
 		prestige = 1
 		money = -5000
-		1717 = {
+		1712 = {
 			secede_province = THIS
 			any_pop = {
 				militancy = 4
 			}
 		}
-		1724 = {
+		1714 = {
 			secede_province = THIS
 			any_pop = {
 				militancy = 4
@@ -105,7 +105,7 @@ country_event = {
 		owns = 1710
 		owns = 1715
 		civilized = yes
-		1719 = {
+		1713 = {
 			empty = yes
 		}
 		state_n_government = 1
@@ -458,9 +458,10 @@ country_event = {
 }
 
 #The Coromandel Coast
-country_event = {
+province_event = {
 	id = 300967
 	is_triggered_only = yes
+	allow_multiple_instances = yes
 	
 	title = "EVTNAME300967"
 	desc = "EVTDESC300967"
@@ -474,44 +475,41 @@ country_event = {
 				days = 5
 			}			
 		}
-		money = 15000
-		prestige = -2
-		relation = {
-			who = ENG
-			value = 15
-		}
-		any_owned = {
-			limit = {
-				region = ENG_1721			
+		owner = { 
+			money = 15000
+			prestige = -2
+			relation = {
+				who = ENG
+				value = 15
 			}
-			secede_province = ENG
 		}
+		secede_province = FROM
 		ai_chance = {
 			factor = 50
 			modifier = {
 				factor = 1.25
-				NOT = { money = 15000 }
+				NOT = { owner = { money = 15000 } }
 			}
 			modifier = {
 				factor = 1.25
-				NOT = { money = 50000 }
+				NOT = { owner = {  money = 50000 } }
 			}
 			modifier = {
-				factor = 0
-				is_greater_power = yes
+				factor = 0.1
+				owner = { is_greater_power = yes }
 			}
 			modifier = {
 				factor = 2
-				is_secondary_power = no
-				is_greater_power = no
+				owner = { is_secondary_power = no }
+				owner = { is_greater_power = no }
 			}
 			modifier = {
-				factor = 0.25
-				tag = FRA
+				factor = 0.5
+				owner = { tag = FRA }
 			}
 			modifier = {
 				factor = 1.25
-				tag = DEN
+				owner = { tag = DEN }
 			}
 		}
 	}
@@ -524,33 +522,35 @@ country_event = {
 				days = 5
 			}			
 		}
-		prestige = 1
-		relation = {
-			who = ENG
-			value = -15
+		owner = {
+			prestige = 1
+			relation = {
+				who = ENG
+				value = -15
+			}
 		}
 		ai_chance = {
 			factor = 50
 			modifier = {
 				factor = 1.25
-				money = 50000
+				owner = { money = 50000 }
 			}
 			modifier = {
 				factor = 2
-				is_greater_power = yes
+				owner = { is_greater_power = yes }
 			}
 			modifier = {
 				factor = 0.25
-				is_secondary_power = no
-				is_greater_power = no
+				owner = { is_secondary_power = no }
+				owner = { is_greater_power = no }
 			}
 			modifier = {
-				factor = 2
-				tag = FRA
+				factor = 1.25
+				owner = { tag = FRA }
 			}
 			modifier = {
-				factor = 0.5
-				tag = DEN
+				factor = 0.75
+				owner = { tag = DEN }
 			}
 		}
 	}

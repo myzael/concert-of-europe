@@ -1,7 +1,6 @@
-owner = NET
-controller = NET
+owner = KLM
+controller = KLM
 add_core = KLM
-trade_goods = spices
-life_rating = 35
-terrain = jungle_farmland
-colonial = 1
+trade_goods = sulphur
+life_rating = 30
+terrain = swamp_jungle

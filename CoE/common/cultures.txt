@@ -872,6 +872,20 @@ turko_semitic = {
 			Pertev Rauf Receb Reshad Refet Rifat Riza
 			Sabaheddin Said Selim Shevket Shukru Suleyman
 			Talat Tevfik Vefik Yusuf Yunus Ziya Ziyauddin
+			"Hurshid Ahmed" "Hurshid Mehmet" "Seydi Ali" "Cezayirli Ali" "Trabluslu Ali"
+			"Koca Husrev" "Mehmed Husrev" Khosrew "Muftizade Ahmed" "Muftizade Ali"
+			"Mehmed Emin Rauf" "Emin Rauf" "Mehmed Rauf" "Mehmed Emin" "Laz Ahmed" "Topal Izzet"
+			"Mustafa Reshid" "Mehmed Selim" "Elmas Mehmed" "Amcazade Mehmed" "Amcazade Emin" 
+			"Koprulu Huseyin" "Laz Aziz Ahmed" "Cirpanli Nadir" "Ahmed Eyub" "Abdulkerim Nadir"
+			"Cirpanli Abdi" "Mehmed Riza" "Vehib" "Ahmed Izzet" "Ali Said" "Mustafa Ertugrul"
+			"Dadayli Halit" Muhiddin "Mehmet Ali" "Big Ahmed Fevzi" "Ahmed Big" "Ahmed Fevzi"
+			"Mehmed Esad" "Kel Ali" "Cihangirzade Ibrahim" "Colak ibrahim" "Ahmed Djemal"
+			"Huseyin Nureddin" "Mehmet Ihsan" "Mehmet Nazim" "Mustafa Hilmi" "Mehmed Djemal"
+			"Mehmet Hayri" "Mehmet Arif" "Mahmud Kamil" "Sukru Naili" "Kemalettin Sami"
+			"Ali Sadullah" "Bekir Sami" "Mehmet Cevat Abbas" "Abdurrahman Nafiz" "Hafiz Hakki"
+			"Hasan Izzet" "Mahmut Nedim" "Huseyin Avni" "Mustafa Ismet" "Ismail Fazil"
+			"ismail Hakki" "Kara Vasif" "Kilic Ali" "Nureddin Ibrahim" "Huseyin Rauf" "Halil Sami"
+			"Ahmet Zeki" "Suleyman Sabri" "Abdullah Nevzat" "Yusuf Izzet" "Mehmet Zeki"
 		}
 
 		last_names = {
@@ -1488,16 +1502,6 @@ southeast_asian = {
 
 		}
 	}
-	malay = {
-		color = {85 78 89}
-		first_names = { Shahabuddin Riayat Abdullah Jaafar Safiuddin Muhammad Ali Al-Mukammal Ismail Muabidin Tuanku Yusuf Idris Jalil Isandar Aziz
-
-		}
-
-		last_names = { "Raja Inu" al-Marhum "Raja Ahmad" "Riayat Shah" al-Khairat Muadzam Bendahara Aadzam Murshidul
-
-		}
-	}
 	filipino = {
 		color = {200 220 30}
 		first_names = { Emilio Apolinario Andrés José Hermano Jacinto Mariano Deodato Ladislao Teodoro Valentíne Antonio León Simeón Arcadio Artemio Manuel
@@ -1505,26 +1509,6 @@ southeast_asian = {
 		}
 
 		last_names = { Aguainaldo Mabini Bonifacio Jacinto Rizal Díaz Plata Diwa Arellano
-
-		}
-	}
-	javan = {
-		color = {154 32 88}
-		first_names = { Abul Muhammad Safiuddin Ahmad Muhieddin Zainul Cirebon Amir Arifin Panembahan Haji Anom
-
-		}
-
-		last_names = { Salihin Mufakhir Alaeddin Muttakin Sepuh Nurus Khairuddin Djalaluddin Emiruddin Akbaruddin Tajul Natadiningrat
-
-		}
-	}
-	moluccan = {
-		color = {90 132 76}
-		first_names = { Ellyas Ignacio Jordao Michael Sonny Denny Mohammad Edinho Jos Levi
-
-		}
-
-		last_names = { Leiwakabessy Mainaky Weisapy Bouma Palyama Pattinama Pelmelay Lilipaly Hafiedz
 
 		}
 	}
@@ -1598,6 +1582,172 @@ southeast_asian = {
 
 		}
 	}
+}
+
+indonesian = {
+	leader = asian
+	unit = AsianGC
+	acehnese = {
+		color = {250 166 26}
+		first_names = { Teuku Ismed Surya Hilbram Hamzah Nuruddin Alauddin Ali Iskander Salahuddin "Ratu Safiatuddin" Daud Hasan "Cut Nyak"
+		Azwar Hasballah Irwandi Jusman Mustafa Zaini
+		}
+		
+		last_names = { Abdullah Abubakar Nazar Djamal Saad Umar Meutia Dhien di Tiro Bereueh "Taj ul-Alam" Thani Muda "al Qahhar" Fansuri
+		"ar-Raniri" Sofyan   
+		}
+
+	}
+	balinese = {
+		color = {219 139 34}
+		first_names = { "I Gusti" "Anak Agung" "Tjokorda" "Ida I Dewa" "Dewa Agung" "I Dewa"	
+		}
+		
+		last_names = { Wayan Made Nyoman Ketut Putu Kadek Komang NgNga      
+		}
+	}
+	batak = {
+		color = {125 167 217}
+		first_names = { "Makaro-Karo" Ginting Sembiring "Parangin-Angin" Tarigan Situmorang Padiangan Nainggolan Simatupang Aritonang 
+		Siregar "Nai Ambaton" "Nai Rasaon" Purba Saragih Damanik Sinaga Sipajung Sjarifoeddin Adnan Burhanuddin
+		}
+		
+		last_names = { Simarmata Girsang Simbolon Manurung "Sibagot Nipohan" Silo "ompu Sunggu" Togatorup "Lumban Raja" Pandiangan Bonar 
+		"Lumban Pande" Tambun Silangit Kutabuluh Pandea Muhan Keloko Manik Munte Suka Sinulingga Barus Sitepu Amir Nasution Harahap
+		Simatupang Situmorang   
+		}
+	}
+	betawi = {
+		color = {108 192 113}
+		first_names = { Oto Iskandar Umar Djuanda Ali Ajip Marty Taufik Eka Jajang Zaenal Asep Achdiat Hassan Mochtar Ginandjar
+		}
+		
+		last_names = { Husni Thamrin Marzuki Mizwar Sueb Rohali Bowo Muntaco Wirajuda Ismail Alie Saidi Ardan Saputra Ali
+		Alawiyah Sulistyowati   
+		}
+	}
+	bantenese = {
+		color = {253 161 137}
+		first_names = { Muhammad Husni Benyamin Fauzi Ismail Iko
+		}
+		
+		last_names = { Hidayat Darwis Natalegawa Kartawidjaja Sadikin Rosidi Wirahadikusumah "di Nata" Sartika Mulyana Subagja Suranya Gutawa
+		Mihardja Alisjahbana Kusumaatmadja Kartasasmita   
+		}
+	}
+	banjarnese = {
+		color = {0 180 141}
+		first_names = { Pangeran Idham Saadillah Syamsul Taufiq "Abdul Hafiz" Abdul Gusti Muhammad Adam "Prabu Anom" Tamjidillah Hidayatullah	
+		}
+		
+		last_names = { Antasari Noor Chalid Mursjid "Mu'arif" Effendi Anshari Hatta Ariffin Alham Ramlan
+		}
+	}
+	bunginese = {
+		color = {251 200 180}
+		first_names = { Daeng Ahmad Yunus Zulkifli Abdul Hendra "Raja Haji" "Raja Ali" Muhammad "La Nyalla" Rachmat Hamka Nurdin Coppong Syamsul
+		Rasyid Asri Irsyad
+		}
+		
+		last_names = { Parani Amiruddin Akbar Aras Bakri Chaerudding Rannu Habitbie Halid Hamzah Kalla Matalatta Matalitti Mizwar Pondaag
+		Rachmat Haji Fisabilillah Ridwan Sulaiman Syukur Yosfiah      
+		}
+	}
+	dayak = {
+		color = {191 187 147}
+		first_names = { Raden Libau Kalong Temenggong Tun Datuk Empu Bikukng Pancur Tanjung
+		}
+		
+		last_names = { "Demang Behe" Bawin Rentap Ningkan Jugah "Jugah anak Barieng" Kanang "Kanang anak Langkau" Porikng Sembore Tiung Geremeng  
+		}
+	}
+	javan = {
+		color = {154 32 88}
+		first_names = { Abul Muhammad Safiuddin Ahmad Muhieddin Zainul Cirebon Amir Arifin Panembahan Haji Anom 
+			
+		}
+		
+		last_names = { Salihin Mufakhir Alaeddin Muttakin Sepuh Nurus Khairuddin Djalaluddin Emiruddin Akbaruddin Tajul Natadiningrat
+               
+		}
+	}
+	madurese = {
+		color = {242 102 73}
+		first_names = { Wardiman Raden Jenderal Artidjo Awang Mien Ahmad Said Mohammad 
+	}
+		
+		last_names = { Mahfud Djojonegoro Trunojoyo Hartono Noersaid Kelana Rifai Noer Roesmanhadi Abdullah Soewitomo Supadri
+		}
+	}
+	makassarese = {
+		color = {242 102 73}
+		first_names = { Charllofta Sampara Dara Syachruddin Mohammad Massikki Ilham
+		}
+		
+		last_names = { Salawati "Daeng Lili" Ahmad "Daeng Mile" "Daeng Latif" Arupala "Daeng Patompo" Abustam Suwahyo Sirajuddin      
+		}
+	}
+	malay = {
+		color = {85 78 89}
+		first_names = { Shahabuddin Riayat Abdullah Jaafar Safiuddin Muhammad Ali Al-Mukammal Ismail Muabidin Tuanku Yusuf Idris Jalil Isandar Aziz
+			
+		}
+		
+		last_names = { "Raja Inu" al-Marhum "Raja Ahmad" "Riayat Shah" al-Khairat Muadzam Bendahara Aadzam Murshidul
+               
+		}
+	}
+	minahasan = {
+		color = {217 115 122}
+		first_names = { Alexander Arie Daan Robert Lambertus Sam Frans Ventje Lumoindong Jopie Alex Henk Jan Rudolf Bernard Stevie
+		}
+		
+		last_names = { Abuthan Adam Agou Akai Aling Alow Alouw Alui Amoi Andu Andries Anes Angkouw Anis Ante Bangkang Batas
+		Bolung Bororing Boyoh Damongilala Damopoli Danes Dapu Datumbanua Dondo Dondokambey Egam Emor Gerungang Inarai
+		Gigir Goniwala Goni Ilat Imbar Kaat Kairupan Kalakuntla Kembau Kembuan Kenap Kereh Kesek Kalipong Kimbal Lamongi
+		Macawalang Maengkong Mailoor Makiolor Maleke Mangare Manus Mumek Numu Nangi Naray Nayoan Oley Ombu Pangkong Pajow Palangiten
+		Palit Palohon Panda Pandean Pandeiroot Rampangiley Sagay Sahea Sahensolar Sirang Siwu Surentu Tumonggor Tumiwang 
+		Umbas Umboh Unsulangi Umbokahu Undap Waani Whaney Wagey Waha Worotikan Wotulo        
+		}
+	}
+	minangkabau = {
+		color = {215 203 92}
+		first_names = { Arbi Arifin Mochtar Alan Ananda Markis Mohammad Nasrul Nil Hamka Idrus Takdir Wisran Basrizal
+		}
+		
+		last_names = { Usman Koto Suhaimi Firmansyah Mahathir Busye Malna Priadi Pranata Putra Apin Titra Daradjat Nasroen Djalal Suprapto    
+		}
+	}
+	moluccan = {
+		color = {241 102 130}
+		first_names = { Ellyas Ignacio Jordao Michael Sonny Denny Mohammad Edinho Jos Levi
+			
+		}
+		
+		last_names = { Leiwakabessy Mainaky Weisapy Bouma Palyama Pattinama Pelmelay Lilipaly Hafiedz
+               
+		}
+	}
+
+	sasak = {
+		color = {157 210 156}
+		first_names = { Submit
+		}
+		
+		last_names = { "one please"
+		}
+	}
+	
+	sundanese = {
+		color = {186 205 234}
+		first_names = { Oto Iskandar Umar Djuanda Ali Ajip Marty Taufik Eka Jajang Zaenal Asep Achdiat Hassan Mochtar Ginandjar
+		}
+		
+		last_names = { Hidayat Darwis Natalegawa Kartawidjaja Sadikin Rosidi Wirahadikusumah "di Nata" Sartika Mulyana Subagja Suranya Gutawa 
+		Mihardja Alisjahbana Kusumaatmadja Kartasasmita      
+		}
+	}
+
 }
 
 east_asian = {

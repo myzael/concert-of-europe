@@ -1840,7 +1840,7 @@
 
 }
 
-1713 = {
+1711 = {
 
 	aristocrats = {
 
@@ -1929,6 +1929,84 @@
 
 }
 
+1712 = {
+
+	clergymen = {
+
+		size = 48
+		culture = tuareg
+		religion = sunni
+
+	}
+	labourers = {
+
+		size = 2720
+		culture = tuareg
+		religion = sunni
+
+	}
+
+}
+
+1713 = {
+
+	clergymen = {
+
+		size = 346
+		culture = tuareg
+		religion = sunni
+
+	}
+	farmers = {
+
+		size = 2701
+		culture = berber
+		religion = sunni
+
+	}
+	farmers = {
+
+		size = 5541
+		culture = tuareg
+		religion = sunni
+
+	}
+}
+
+1714 = {
+
+	aristocrats = {
+
+		size = 108
+		culture = tuareg
+		religion = sunni
+
+	}
+	clergymen = {
+
+		size = 39
+		culture = tuareg
+		religion = sunni
+
+	}
+
+	labourers = {
+
+		size = 4680
+		culture = tuareg
+		religion = sunni
+
+	}
+
+	soldiers = {
+
+		size = 523
+		culture = berber
+		religion = sunni
+
+	}
+
+}
 
 1715 = {
 
@@ -1971,76 +2049,6 @@
 
 		size = 9993
 		culture = maghrebi
-		religion = sunni
-
-	}
-
-}
-
-1717 = {
-
-	clergymen = {
-
-		size = 14
-		culture = tuareg
-		religion = sunni
-
-	}
-	farmers = {
-
-		size = 1880
-		culture = tuareg
-		religion = sunni
-
-	}
-
-}
-
-1719 = {
-
-	clergymen = {
-
-		size = 14
-		culture = tuareg
-		religion = sunni
-
-	}
-	farmers = {
-
-		size = 1880
-		culture = tuareg
-		religion = sunni
-
-	}
-
-}
-1724 = {
-
-	clergymen = {
-
-		size = 19
-		culture = berber
-		religion = sunni
-
-	}
-	clergymen = {
-
-		size = 14
-		culture = tuareg
-		religion = sunni
-
-	}
-	farmers = {
-
-		size = 1830
-		culture = berber
-		religion = sunni
-
-	}
-	farmers = {
-
-		size = 1880
-		culture = tuareg
 		religion = sunni
 
 	}

@@ -1,11 +1,6 @@
-owner = TRI
-controller = TRI
-add_core = TRI
-trade_goods = wool
-life_rating = 15
-terrain = desert
-1861.1.1 = {
-	owner = TUR
-	controller = TUR
-	colonial = 0
-}
+owner = D20
+controller = D20
+add_core = D20
+trade_goods = precious_metal
+life_rating = 25
+terrain = jungle_mountains

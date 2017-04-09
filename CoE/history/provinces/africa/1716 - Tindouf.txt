@@ -1,3 +1,7 @@
-trade_goods = lead
-life_rating = 10
-terrain = desert_hills
+owner = NET
+controller = NET
+add_core = JAV
+trade_goods = sugar
+life_rating = 35
+terrain = jungle_mountains
+colonial = 2

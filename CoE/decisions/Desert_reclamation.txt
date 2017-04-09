@@ -104,7 +104,7 @@ political_decisions = {
 			}
 			OR = {
 				civilized = yes
-				NOT = { foreign_officers = no_foreign_officers }
+				NOT = { unciv_military_doctrines = traditional_military_doctrines }
 				has_country_flag = turkmenchay_treaty
 			}
 		}
@@ -820,11 +820,9 @@ political_decisions = {
 			ideological_thought = 1
 			NOT = {
 				has_country_flag = monopolising_the_coromandel_coast
-				AND = {
-					owns = 1312
-					owns = 1813
-					owns = 1817
-				}
+				owns = 1312
+				owns = 1813
+				owns = 1817
 			}
 		}
 		
@@ -856,33 +854,21 @@ political_decisions = {
 			set_country_flag = monopolising_the_coromandel_coast
 			random_country = {
 				limit = {
-					NOT = { tag = THIS }
-					owns = 1312
+					NOT = { 1312 = { owned_by = ENG } }
 				}
-				country_event = {
-					id = 300967
-					days = 25
-				}
+				1312 = { province_event = { id = 300967 } }
 			}
 			random_country = {
 				limit = {
-					NOT = { tag = THIS }
-					owns = 1813
+					NOT = { 1813 = { owned_by = ENG } }
 				}
-				country_event = {
-					id = 300967
-					days = 5
-				}
+				1813 = { province_event = { id = 300967 } }
 			}
 			random_country = {
 				limit = {
-					NOT = { tag = THIS }
-					owns = 1817
+					NOT = { 1817 = { owned_by = ENG } }
 				}
-				country_event = {
-					id = 300967
-					days = 15
-				}
+				1817 = { province_event = { id = 300967 } }
 			}
 		}
 		ai_will_do = {

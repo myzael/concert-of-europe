@@ -315,7 +315,7 @@ political_decisions = {
 			random_owned = {
 				limit = {
 					owner = {
-						foreign_training = no_foreign_training
+						unciv_military_training = military_levies
 						civilized = no
 					}
 				}
@@ -329,7 +329,7 @@ political_decisions = {
 			random_owned = {
 				limit = {
 					owner = {
-						foreign_training = yes_foreign_training
+						unciv_military_training = field_drills
 						civilized = no
 					}
 				}

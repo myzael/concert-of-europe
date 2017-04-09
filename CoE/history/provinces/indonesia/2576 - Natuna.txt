@@ -1,7 +1,4 @@
-owner = NET
-controller = NET
 add_core = JOH
-trade_goods = spices
-life_rating = 35
-terrain = jungle
-colonial = 1
+trade_goods = fish
+life_rating = 10
+terrain = insular

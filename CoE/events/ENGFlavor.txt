@@ -3065,28 +3065,318 @@ country_event = {
 }
 
 country_event = {
-	id = 36990
-	title = "EVTNAME36990" #Claiming Australia
+	id = 36980
+	title = "EVTNAME36990" #Claiming NSW
 	desc = "EVTDESC36990"
 	picture = "Expansion"
 	
 	trigger = {
-		tag = ENG
-		exists = yes
+		tag = BHU
+		ENG = { money = 15000 }
+		year = 1830
 		OR = {
-			2505 = { empty = yes } #Palmerston
-			2498 = { empty = yes } #Kojonup
-			2499 = { empty = yes } #Geraldton
-			2501 = { empty = yes } #Broome
-			2506 = { empty = yes } #Tennant Creek
-			2492 = { empty = yes } #Port Lincoln
-			2493 = { empty = yes } #Robe
-			2504 = { empty = yes } #Esperance
-			2494 = { empty = yes } #Port Augusta
-			2496 = { empty = yes } #Tarcoola
-			2500 = { empty = yes } #Kalgoorlie
-			2602 = { empty = yes } #Roebourne
-			2502 = { empty = yes } #Dampier
+			2470 = { empty = yes }
+			AND = {
+				2471 = { empty = yes }
+				year = 1831
+			}
+			AND = {
+				2472 = { empty = yes }
+				year = 1842
+			}
+			AND = {
+				2473 = { empty = yes }
+				year = 1846
+			}
+			AND = {
+				2474 = { empty = yes }
+				year = 1852
+			}
+		}
+		OR = {
+			2468 = { owned_by = ENG }
+			2468 = { owned_by = AST }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	immediate = { #DO NOT CHANGE ORDER!
+		random_owned = {
+			limit = {
+				2470 = { empty = no }
+				2471 = { empty = no }
+				2472 = { empty = no }
+				2473 = { empty = no }
+				2474 = { empty = yes }
+			}
+			2474 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2470 = { empty = no }
+				2471 = { empty = no }
+				2472 = { empty = no }
+				2473 = { empty = yes }
+				2474 = { empty = yes }
+			}
+			2473 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2470 = { empty = no }
+				2471 = { empty = no }
+				2472 = { empty = yes }
+				2473 = { empty = yes }
+				2474 = { empty = yes }
+			}
+			2472 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2470 = { empty = no }
+				2471 = { empty = yes }
+				2472 = { empty = yes }
+				2473 = { empty = yes }
+				2474 = { empty = yes }
+			}
+			2471 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2470 = { empty = yes }
+				2471 = { empty = yes }
+				2472 = { empty = yes }
+				2473 = { empty = yes }
+				2474 = { empty = yes }
+			}
+			2470 = { secede_province = THIS }
+		}
+	}
+
+	option = {
+		name = "We must claim Australia."
+		any_owned = {
+			limit = { 
+				is_core = AST 
+				2468 = { owned_by = ENG }
+			}
+			secede_province = ENG
+			province_event = { id = 36985 }
+		}
+		any_owned = {
+			limit = { 
+				is_core = AST 
+				2468 = { owned_by = AST }
+			}
+			secede_province = AST
+			province_event = { id = 36985 }
+		}
+		
+	}
+}
+
+country_event = {
+	id = 36981
+	title = "EVTNAME36990" #Claiming Victoria
+	desc = "EVTDESC36990"
+	picture = "Expansion"
+	
+	trigger = {
+		tag = BHU
+		ENG = { money = 15000 }
+		year = 1835
+		OR = {
+			2476 = { empty = yes }
+			AND = {
+				2477 = { empty = yes }
+				year = 1846
+			}
+			AND = {
+				2478 = { empty = yes }
+				year = 1850
+			}
+			AND = {
+				2479 = { empty = yes }
+				year = 1848
+			}
+			AND = {
+				2480 = { empty = yes }
+				year = 1853
+			}
+			AND = {
+				2481 = { empty = yes }
+				year = 1852
+			}
+			AND = {
+				2481 = { empty = yes }
+				2493 = { empty = no }
+				2477 = { empty = no }
+			}
+		}
+		OR = {
+			2468 = { owned_by = ENG } 
+			2468 = { owned_by = AST } 
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	immediate = {	#DO NOT CHANGE ORDER!
+		random_owned = {
+			limit = {
+				2476 = { empty = no }
+				2477 = { empty = no }
+				2478 = { empty = no }
+				2479 = { empty = no }
+				2481 = { empty = no }
+				2480 = { empty = yes }
+			}
+			2480 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2476 = { empty = no }
+				2477 = { empty = no }
+				2478 = { empty = no }
+				2479 = { empty = no }
+				2481 = { empty = yes }
+				2480 = { empty = yes }
+			}
+			2481 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2476 = { empty = no }
+				2477 = { empty = no }
+				2478 = { empty = no }
+				2479 = { empty = yes }
+				2481 = { empty = yes }
+				2480 = { empty = yes }
+			}
+			2479 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2476 = { empty = no }
+				2477 = { empty = no }
+				2478 = { empty = yes }
+				2479 = { empty = yes }
+				2481 = { empty = yes }
+				2480 = { empty = yes }
+			}
+			2478 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2476 = { empty = no }
+				2477 = { empty = yes }
+				2478 = { empty = yes }
+				2479 = { empty = yes }
+				2481 = { empty = yes }
+				2480 = { empty = yes }
+			}
+			2477 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2476 = { empty = yes }
+				2477 = { empty = yes }
+				2478 = { empty = yes }
+				2479 = { empty = yes }
+				2481 = { empty = yes }
+				2480 = { empty = yes }
+			}
+			2476 = { secede_province = THIS }
+		}
+	
+	}
+
+	option = {
+		name = "We must claim Australia."
+		any_owned = {
+			limit = { 
+				province_id = 2476				#Melbourne
+				is_core = AST
+				2468 = { owned_by = ENG }
+			}
+			secede_province = ENG
+			province_event = { id = 36986 }		#Founding Melbourne
+		}
+		any_owned = {
+			limit = {
+				province_id = 2476				#Melbourne
+				is_core = AST 
+				2468 = { owned_by = AST }
+			}
+			secede_province = AST
+			province_event = { id = 36986 }		#Founding Melbourne
+		}
+		any_owned = {
+			limit = { 
+				NOT = { province_id = 2476 }	#NOT Melbourne
+				is_core = AST
+				2468 = { owned_by = ENG }		
+			}
+			secede_province = ENG
+			province_event = { id = 36987 }		#The Victoria Colony
+		}
+		any_owned = {
+			limit = {
+				NOT = { province_id = 2476 }	#NOT Melbourne
+				is_core = AST 
+				2468 = { owned_by = AST }
+			}
+			secede_province = AST
+			province_event = { id = 36987 }		#The Victoria Colony
+		}
+	}
+}
+
+country_event = {
+	id = 36982
+	title = "EVTNAME36990" #Claiming Queensland
+	desc = "EVTDESC36990"
+	picture = "Expansion"
+	
+	trigger = {
+		tag = BHU
+		ENG = { money = 15000 }
+		year = 1825
+		OR = {
+			2508 = { empty = yes }
+			AND = {
+				2483 = { empty = yes }
+				year = 1838
+			}
+			AND = {
+				2484 = { empty = yes }
+				year = 1853
+			}
+			AND = {
+				2485 = { empty = yes }
+				year = 1861
+			}
+			AND = {
+				2486 = { empty = yes }
+				year = 1849
+			}
+			AND = {
+				2487 = { empty = yes }
+				year = 1866
+			}
+			AND = {
+				2488 = { empty = yes }
+				year = 1873
+			}
+		}
+		OR = {
+			2468 = { owned_by = ENG } 
+			2468 = { owned_by = AST } 
 		}
 	}
 
@@ -3094,198 +3384,768 @@ country_event = {
 		months = 6
 	}
 
+	immediate = {	#DO NOT CHANGE ORDER!
+		random_owned = {
+			limit = {
+				2508 = { empty = no }
+				2483 = { empty = no }
+				2484 = { empty = no }
+				2486 = { empty = no }
+				2485 = { empty = no }
+				2487 = { empty = no }
+				2488 = { empty = yes }
+			}
+			2488 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2508 = { empty = no }
+				2483 = { empty = no }
+				2484 = { empty = no }
+				2486 = { empty = no }
+				2485 = { empty = no }
+				2487 = { empty = yes }
+				2488 = { empty = yes }
+			}
+			2487 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2508 = { empty = no }
+				2483 = { empty = no }
+				2484 = { empty = no }
+				2486 = { empty = no }
+				2485 = { empty = yes }
+				2487 = { empty = yes }
+				2488 = { empty = yes }
+			}
+			2485 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2508 = { empty = no }
+				2483 = { empty = no }
+				2484 = { empty = no }
+				2486 = { empty = yes }
+				2485 = { empty = yes }
+				2487 = { empty = yes }
+				2488 = { empty = yes }
+			}
+			2486 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2508 = { empty = no }
+				2483 = { empty = no }
+				2484 = { empty = yes }
+				2486 = { empty = yes }
+				2485 = { empty = yes }
+				2487 = { empty = yes }
+				2488 = { empty = yes }
+			}
+			2484 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2508 = { empty = no }
+				2483 = { empty = yes }
+				2484 = { empty = yes }
+				2486 = { empty = yes }
+				2485 = { empty = yes }
+				2487 = { empty = yes }
+				2488 = { empty = yes }
+			}
+			2483 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2508 = { empty = yes }
+				2483 = { empty = yes }
+				2484 = { empty = yes }
+				2486 = { empty = yes }
+				2485 = { empty = yes }
+				2487 = { empty = yes }
+				2488 = { empty = yes }
+			}
+			2508 = { secede_province = THIS }
+		}
+	
+	}
+	
 	option = {
 		name = "We must claim Australia."
-		treasury = -4000
-		random_owned = {
+		any_owned = {
 			limit = {
-				2505 = { empty = no }
-				2498 = { empty = no }
-				2499 = { empty = no }
-				2501 = { empty = no }
-				2506 = { empty = no }
-				2492 = { empty = no }
-				2493 = { empty = no }
-				2504 = { empty = no }
-				2494 = { empty = no }
-				2496 = { empty = no }
-				2500 = { empty = no }
-				2602 = { empty = no }
-				2502 = { empty = yes }
+				province_id = 2483				#Brisbane
+				is_core = AST 
+				2468 = { owned_by = ENG }
 			}
-			2502 = {
-				secede_province = THIS
-			}
+			secede_province = ENG
+			province_event = { id = 36988 }		#Founding Brisbane
 		}
-		random_owned = {
+		any_owned = {
 			limit = {
-				2505 = { empty = no }
-				2498 = { empty = no }
-				2499 = { empty = no }
-				2501 = { empty = no }
-				2506 = { empty = no }
-				2492 = { empty = no }
-				2493 = { empty = no }
-				2504 = { empty = no }
-				2494 = { empty = no }
-				2496 = { empty = no }
-				2500 = { empty = no }
-				2602 = { empty = yes }
+				province_id = 2483				#Brisbane
+				is_core = AST 
+				2468 = { owned_by = AST }
 			}
-			2602 = {
-				secede_province = THIS
-			}
+			secede_province = AST
+			province_event = { id = 36988 }		#Founding Brisbane
 		}
-		random_owned = {
+		any_owned = {
 			limit = {
-				2505 = { empty = no }
-				2498 = { empty = no }
-				2499 = { empty = no }
-				2501 = { empty = no }
-				2506 = { empty = no }
-				2492 = { empty = no }
-				2493 = { empty = no }
-				2504 = { empty = no }
-				2494 = { empty = no }
-				2496 = { empty = no }
-				2500 = { empty = yes }
+				NOT = { province_id = 2483 }	#NOT Brisbane
+				is_core = AST 
+				2468 = { owned_by = ENG }
 			}
-			2500 = {
-				secede_province = THIS
-			}
+			secede_province = ENG
+			province_event = { id = 36989 }		#The Queensland Colony
 		}
-		random_owned = {
+		any_owned = {
 			limit = {
-				2505 = { empty = no }
-				2498 = { empty = no }
-				2499 = { empty = no }
-				2501 = { empty = no }
-				2506 = { empty = no }
-				2492 = { empty = no }
-				2493 = { empty = no }
-				2504 = { empty = no }
-				2494 = { empty = no }
-				2496 = { empty = yes }
+				NOT = { province_id = 2483 }	#NOT Brisbane
+				is_core = AST 
+				2468 = { owned_by = AST }
 			}
-			2496 = {
-				secede_province = THIS
-			}
-		}
-		random_owned = {
-			limit = {
-				2505 = { empty = no }
-				2498 = { empty = no }
-				2499 = { empty = no }
-				2501 = { empty = no }
-				2506 = { empty = no }
-				2492 = { empty = no }
-				2493 = { empty = no }
-				2504 = { empty = no }
-				2494 = { empty = yes }
-			}
-			2494 = {
-				secede_province = THIS
-			}
-		}
-		random_owned = {
-			limit = {
-				2505 = { empty = no }
-				2498 = { empty = no }
-				2499 = { empty = no }
-				2501 = { empty = no }
-				2506 = { empty = no }
-				2492 = { empty = no }
-				2493 = { empty = no }
-				2504 = { empty = yes }
-			}
-			2504 = {
-				secede_province = THIS
-			}
-		}
-		random_owned = {
-			limit = {
-				2505 = { empty = no }
-				2498 = { empty = no }
-				2499 = { empty = no }
-				2501 = { empty = no }
-				2506 = { empty = no }
-				2492 = { empty = no }
-				2493 = { empty = yes }
-			}
-			2493 = {
-				secede_province = THIS
-			}
-		}
-		random_owned = {
-			limit = {
-				2505 = { empty = no }
-				2498 = { empty = no }
-				2499 = { empty = no }
-				2501 = { empty = no }
-				2506 = { empty = no }
-				2492 = { empty = yes }
-			}
-			2492 = {
-				secede_province = THIS
-			}
-		}
-		random_owned = {
-			limit = {
-				2505 = { empty = no }
-				2498 = { empty = no }
-				2499 = { empty = no }
-				2501 = { empty = no }
-				2506 = { empty = yes }
-			}
-			2506 = {
-				secede_province = THIS
-			}
-		}
-		random_owned = {
-			limit = {
-				2505 = { empty = no }
-				2498 = { empty = no }
-				2499 = { empty = no }
-				2501 = { empty = yes }
-			}
-			2501 = {
-				secede_province = THIS
-			}
-		}
-		random_owned = {
-			limit = {
-				2505 = { empty = no }
-				2498 = { empty = no }
-				2499 = { empty = yes }
-			}
-			2499 = {
-				secede_province = THIS
-			}
-		}
-		random_owned = {
-			limit = {
-				2505 = { empty = no }
-				2498 = { empty = yes }
-			}
-			2498 = {
-				secede_province = THIS
-			}
-		}
-		random_owned = {
-			limit = {
-				2505 = { empty = yes }
-			}
-			2505 = {
-				secede_province = THIS
-			}
+			secede_province = AST
+			province_event = { id = 36989 }		#The Queensland Colony
 		}
 	}
 }
 
 country_event = {
+	id = 36983
+	title = "EVTNAME36990" #Claiming South Australia, Northern Territories & Coast
+	desc = "EVTDESC36990"
+	picture = "Expansion"
+	
+	trigger = {
+		tag = BHU
+		ENG = { money = 15000 }
+		year = 1836
+		OR = {
+			2491 = { empty = yes }
+			AND = {
+				2493 = { empty = yes }
+				year = 1845
+			}
+			AND = {
+				2494 = { empty = yes }
+				year = 1847
+			}
+			AND = {
+				2505 = { empty = yes }
+				year = 1869
+			}
+			AND = {
+				2492 = { empty = yes }
+				year = 1882
+			}
+			AND = {
+				2504 = { empty = yes }
+				year = 1882
+			}
+			AND = {
+				2501 = { empty = yes }
+				year = 1885
+			}
+			AND = {
+				2506 = { empty = yes }
+				year = 1885
+			}
+			AND = {
+				2604 = { empty = yes }
+				year = 1885
+			}
+		}
+		OR = {
+			2468 = { owned_by = ENG } 
+			2468 = { owned_by = AST } 
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			factor = 0.2
+			year = 1880
+		}
+	}
+	
+	immediate = { 	#DO NOT CHANGE ORDER!
+		random_owned = {
+			limit = {
+				2491 = { empty = no }
+				2493 = { empty = no }
+				2494 = { empty = no }
+				2505 = { empty = no }
+				2492 = { empty = no }
+				2504 = { empty = no }
+				2501 = { empty = yes }
+				2506 = { empty = yes }
+				2604 = { empty = yes }
+			}
+			2501 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2491 = { empty = no }
+				2493 = { empty = no }
+				2494 = { empty = no }
+				2505 = { empty = no }
+				2492 = { empty = no }
+				2504 = { empty = no }
+				2501 = { empty = no }
+				2506 = { empty = yes }
+				2604 = { empty = yes }
+			}
+			2506 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2491 = { empty = no }
+				2493 = { empty = no }
+				2494 = { empty = no }
+				2505 = { empty = no }
+				2492 = { empty = no }
+				2504 = { empty = no }
+				2501 = { empty = no }
+				2506 = { empty = no }
+				2604 = { empty = yes }
+			}
+			2604 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2491 = { empty = no }
+				2493 = { empty = no }
+				2494 = { empty = no }
+				2505 = { empty = no }
+				2492 = { empty = yes }
+				2504 = { empty = yes }
+				2501 = { empty = yes }
+				2506 = { empty = yes }
+				2604 = { empty = yes }
+			}
+			2492 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2491 = { empty = no }
+				2493 = { empty = no }
+				2494 = { empty = no }
+				2505 = { empty = no }
+				2492 = { empty = no }
+				2504 = { empty = yes }
+				2501 = { empty = yes }
+				2506 = { empty = yes }
+				2604 = { empty = yes }
+			}
+			2504 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2491 = { empty = no }
+				2493 = { empty = no }
+				2494 = { empty = no }
+				2505 = { empty = yes }
+				2492 = { empty = yes }
+				2504 = { empty = yes }
+				2501 = { empty = yes }
+				2506 = { empty = yes }
+				2604 = { empty = yes }
+			}
+			2505 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2491 = { empty = no }
+				2493 = { empty = no }
+				2494 = { empty = yes }
+				2505 = { empty = yes }
+				2492 = { empty = yes }
+				2504 = { empty = yes }
+				2501 = { empty = yes }
+				2506 = { empty = yes }
+				2604 = { empty = yes }
+			}
+			2494 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2491 = { empty = no }
+				2493 = { empty = yes }
+				2494 = { empty = yes }
+				2505 = { empty = yes }
+				2492 = { empty = yes }
+				2504 = { empty = yes }
+				2501 = { empty = yes }
+				2506 = { empty = yes }
+				2604 = { empty = yes }
+			}
+			2493 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2491 = { empty = yes }
+				2493 = { empty = yes }
+				2494 = { empty = yes }
+				2505 = { empty = yes }
+				2492 = { empty = yes }
+				2504 = { empty = yes }
+				2501 = { empty = yes }
+				2506 = { empty = yes }
+				2604 = { empty = yes }
+			}
+			2491 = { secede_province = THIS }
+		}
+	}
+
+	option = {
+		name = "We must claim Australia."
+		any_owned = {
+			limit = {
+				province_id = 2491					#Adelaide
+				is_core = AST 
+				2468 = { owned_by = ENG }
+			}
+			secede_province = ENG
+			province_event = { id = 36990 }			#Founding of Adelaide
+		}
+		any_owned = {
+			limit = { 
+				province_id = 2491					#Adelaide
+				is_core = AST 
+				2468 = { owned_by = AST }
+			}
+			secede_province = AST
+			province_event = { id = 36990 }			#Founding of Adelaide
+		}
+		any_owned = {
+			limit = {
+				province_id = 2505					#Darwin
+				is_core = AST 
+				2468 = { owned_by = ENG }
+			}
+			secede_province = ENG
+			province_event = { id = 36991 }			#Founding of Darwin
+		}
+		any_owned = {
+			limit = { 
+				province_id = 2505					#Darwin
+				is_core = AST 
+				2468 = { owned_by = AST }
+			}
+			secede_province = AST
+			province_event = { id = 36991 }			#Founding of Darwin
+		}
+		any_owned = {
+			limit = {
+				NOT = { province_id = 2491 }		#NOT Adelaide
+				NOT = { province_id = 2505 }		#NOT Darwin
+				life_rating = 15
+				is_core = AST 
+				2468 = { owned_by = ENG }
+			}
+			secede_province = ENG
+			province_event = { id = 36992 }			#The South Australia Colony
+		}
+		any_owned = {
+			limit = { 
+				NOT = { province_id = 2491 }		#NOT Adelaide
+				NOT = { province_id = 2505 }		#NOT Darwin
+				life_rating = 15
+				is_core = AST 
+				2468 = { owned_by = AST }
+			}
+			secede_province = AST
+			province_event = { id = 36992 }			#The South Australia Colony
+		}
+		any_owned = {
+			limit = {
+				NOT = { province_id = 2491 }		#NOT Adelaide
+				NOT = { province_id = 2505 }		#NOT Darwin
+				NOT = { life_rating = 14 }
+				is_core = AST 
+				2468 = { owned_by = ENG }
+			}
+			secede_province = ENG
+			province_event = { id = 36993 }			#Coastal Australia
+		}
+		any_owned = {
+			limit = { 
+				NOT = { province_id = 2491 }		#NOT Adelaide
+				NOT = { province_id = 2505 }		#NOT Darwin
+				NOT = { life_rating = 14 }
+				is_core = AST 
+				2468 = { owned_by = AST }
+			}
+			secede_province = AST
+			province_event = { id = 36993 }			#Coastal Australia
+		}
+	}
+}
+
+country_event = {
+	id = 36984
+	title = "EVTNAME36990" #Claiming Western Australia
+	desc = "EVTDESC36990"
+	picture = "Expansion"
+	
+	trigger = {
+		tag = BHU
+		exists = yes
+		ENG = { money = 15000 }
+		year = 1829
+		OR = {
+			2497 = { empty = yes }
+			AND = { 
+				2498 = { empty = yes }
+				year = 1832
+			}
+			AND = { 
+				2499 = { empty = yes }
+				year = 1848
+			}
+			AND = { 
+				2502 = { empty = yes }
+				year = 1848
+			}
+			AND = { 
+				2503 = { empty = yes }
+				year = 1871
+			}
+			AND = { 
+				2602 = { empty = yes }
+				year = 1862
+			}
+		}
+		OR = {
+			2468 = { owned_by = ENG } 
+			2468 = { owned_by = AST } 
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	immediate = {	#DO NOT CHANGE ORDER!
+		random_owned = {
+			limit = {
+				2497 = { empty = no }
+				2498 = { empty = no }
+				2499 = { empty = no }
+				2502 = { empty = no }
+				2602 = { empty = no }
+				2503 = { empty = yes }
+			}
+			2503 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2497 = { empty = no }
+				2498 = { empty = no }
+				2499 = { empty = no }
+				2502 = { empty = no }
+				2602 = { empty = yes }
+				2503 = { empty = yes }
+			}
+			2602 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2497 = { empty = no }
+				2498 = { empty = no }
+				2499 = { empty = no }
+				2502 = { empty = yes }
+				2602 = { empty = yes }
+				2503 = { empty = yes }
+			}
+			2502 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2497 = { empty = no }
+				2498 = { empty = no }
+				2499 = { empty = yes }
+				2502 = { empty = yes }
+				2602 = { empty = yes }
+				2503 = { empty = yes }
+			}
+			2499 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2497 = { empty = no }
+				2498 = { empty = yes }
+				2499 = { empty = yes }
+				2502 = { empty = yes }
+				2602 = { empty = yes }
+				2503 = { empty = yes }
+			}
+			2498 = { secede_province = THIS }
+		}
+		random_owned = {
+			limit = {
+				2497 = { empty = yes }
+				2498 = { empty = yes }
+				2499 = { empty = yes }
+				2502 = { empty = yes }
+				2602 = { empty = yes }
+				2503 = { empty = yes }
+			}
+			2497 = { secede_province = THIS }
+		}
+	}
+
+	option = {
+		name = "We must claim Australia."
+		any_owned = {
+			limit = { 
+				province_id = 2497				#Perth
+				is_core = AST 
+				2468 = { owned_by = ENG }
+			}
+			secede_province = ENG
+			province_event = { id = 36995 }		#The Swan River Colony
+		}
+		any_owned = {
+			limit = { 
+				province_id = 2497				#Perth
+				is_core = AST 
+				2468 = { owned_by = AST }
+			}
+			secede_province = AST
+			province_event = { id = 36994 }		#The Swan River Colony
+		}
+		any_owned = {
+			limit = { 
+				NOT = { province_id = 2497 }	#NOT Perth
+				is_core = AST 
+				2468 = { owned_by = ENG }
+			}
+			secede_province = ENG
+			province_event = { id = 36995 }		#The West Australia Colony
+		}
+		any_owned = {
+			limit = { 
+				NOT = { province_id = 2497 }	#NOT Perth
+				is_core = AST 
+				2468 = { owned_by = AST }
+			}
+			secede_province = AST
+			province_event = { id = 36995 }		#The West Australia Colony
+		}
+	}
+}
+
+province_event = {
+	id = 36985
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	title = "EVTNAME36985"	#Claiming New South Wales
+	desc = "EVTDESC36985"
+	picture = "Expansion"
+	
+	option = {
+		name = "We must claim Australia."
+		owner = {
+			treasury = -4000
+		}
+		life_rating = 15
+	}
+}
+
+province_event = {
+	id = 36986
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	title = "EVTNAME36986"	#Founding of Melbourne
+	desc = "EVTDESC36986"
+	picture = "Expansion"
+	
+	option = {
+		name = "We must claim Australia."
+		owner = {
+			treasury = -4000
+		}
+		life_rating = 20
+	}
+}
+
+province_event = {
+	id = 36987
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	title = "EVTNAME36987"	#The Victoria Colony
+	desc = "EVTDESC36987"
+	picture = "Expansion"
+	
+	option = {
+		name = "We must claim Australia."
+		owner = {
+			treasury = -4000
+		}
+		life_rating = 15
+	}
+}
+
+province_event = {
+	id = 36988
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	title = "EVTNAME36988"	#The Queensland Capital
+	desc = "EVTDESC36988"
+	picture = "Expansion"
+	
+	option = {
+		name = "We must claim Australia."
+		owner = {
+			treasury = -4000
+		}
+		life_rating = 20
+	}
+}
+
+province_event = {
+	id = 36989
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	title = "EVTNAME36989"	#The Queensland Colony
+	desc = "EVTDESC36989"
+	picture = "Expansion"
+	
+	option = {
+		name = "We must claim Australia."
+		owner = {
+			treasury = -4000
+		}
+		life_rating = 15
+	}
+}
+
+province_event = {
+	id = 36990
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	title = "EVTNAME36990"	#The South Australia Capital
+	desc = "EVTDESC36990"
+	picture = "Expansion"
+	
+	option = {
+		name = "We must claim Australia."
+		owner = {
+			treasury = -4000
+		}
+		life_rating = 20
+	}
+}
+
+province_event = {
+	id = 36991
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	title = "EVTNAME36991"	#The Founding of Darwin
+	desc = "EVTDESC36991"
+	picture = "Expansion"
+	
+	option = {
+		name = "We must claim Australia."
+		owner = {
+			treasury = -4000
+		}
+		life_rating = 20
+	}
+}
+
+province_event = {
+	id = 36992
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	title = "EVTNAME36992"	#The South Australia Colony
+	desc = "EVTDESC36992"
+	picture = "Expansion"
+	
+	option = {
+		name = "We must claim Australia."
+		owner = {
+			treasury = -4000
+		}
+		life_rating = 15
+	}
+}
+
+province_event = {
+	id = 36993
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	title = "EVTNAME36993"	#Coastal Australia
+	desc = "EVTDESC36993"
+	picture = "Expansion"
+	
+	option = {
+		name = "We must claim Australia."
+		owner = {
+			treasury = -4000
+		}
+		life_rating = 15
+	}
+}
+
+province_event = {
+	id = 36994
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	title = "EVTNAME36994"	#The Swan River Colony
+	desc = "EVTDESC36994"
+	picture = "Expansion"
+	
+	option = {
+		name = "We must claim Australia."
+		owner = {
+			treasury = -4000
+			relation = {
+				who = FRA
+				value = -5
+			}
+		}
+		life_rating = 20
+	}
+}
+
+province_event = {
 	id = 36995
-	title = "EVTNAME36995" #Claiming Rupert's Land
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	title = "EVTNAME36995"	#The West Australia Colony
 	desc = "EVTDESC36995"
+	picture = "Expansion"
+	
+	option = {
+		name = "We must claim Australia."
+		owner = {
+			treasury = -4000
+		}
+		life_rating = 15
+	}
+}
+
+country_event = {
+	id = 36999
+	title = "EVTNAME36999" #Claiming Rupert's Land
+	desc = "EVTDESC36999"
 	picture = "Expansion"
 	
 	trigger = {

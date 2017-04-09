@@ -6596,24 +6596,7 @@
 	}
 
 }
-2490 = {
-
-	clergymen = {
-
-		size = 24
-		culture = aborigine
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 890
-		culture = aborigine
-		religion = animist
-
-	}
-
-}
+###2490 ---> Removed Provinces.txt
 2491 = {
 
 	aristocrats = {
@@ -6700,24 +6683,7 @@
 	}
 
 }
-2495 = {
-
-	clergymen = {
-
-		size = 24
-		culture = aborigine
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 890
-		culture = aborigine
-		religion = animist
-
-	}
-
-}
+###2495 ---> Removed Provinces.txt
 2496 = {
 
 	clergymen = {
@@ -7706,24 +7672,7 @@
 	}
 
 }
-2603 = {
-
-	clergymen = {
-
-		size = 2
-		culture = aborigine
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 272
-		culture = aborigine
-		religion = animist
-
-	}
-
-}
+###2603 ---> Removed Provinces.txt
 2604 = {
 
 	clergymen = {
@@ -7742,25 +7691,8 @@
 	}
 
 }
-2605 = {
 
-	clergymen = {
-
-		size = 14
-		culture = aborigine
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 717
-		culture = aborigine
-		religion = animist
-
-	}
-
-}
-
+###2605 ---> Removed Provinces.txt
 ###2606
 ###2607 ---> China.txt
 ###2608 ---> China.txt
@@ -8088,31 +8020,7 @@
 	}
 
 }
-2622 = {
-
-	artisans = {
-
-		size = 3
-		culture = siberian
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 2
-		culture = siberian
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 133
-		culture = siberian
-		religion = animist
-
-	}
-
-}
+###2622 ---> to Indonesia
 ###2623 ---> Pacific Islands (inc Hawaii).txt
 ###2624 ---> Tropical Africa.txt
 ###2625 ---> Canada.txt
@@ -8244,32 +8152,8 @@
 }
 
 ###2636
+###2637 --> to Indonesia
 
-2637 = {
-
-	artisans = {
-
-		size = 23
-		culture = inuit
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 9
-		culture = inuit
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 419
-		culture = inuit
-		religion = animist
-
-	}
-
-}
 2638 = {
 
 	artisans = {
@@ -8320,52 +8204,9 @@
 	}
 
 }
-2640 = {
 
-	artisans = {
+###2640 --> to Indonesia
 
-		size = 3
-		culture = siberian
-		religion = animist
-
-	}
-	artisans = {
-
-		size = 4
-		culture = yakut
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 2
-		culture = siberian
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 1
-		culture = yakut
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 133
-		culture = siberian
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 89
-		culture = yakut
-		religion = animist
-
-	}
-
-}
 2641 = {
 
 	artisans = {
@@ -8671,31 +8512,7 @@
 	}
 
 }
-2649 = {
-
-	artisans = {
-
-		size = 49
-		culture = yakut
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 14
-		culture = yakut
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 890
-		culture = yakut
-		religion = animist
-
-	}
-
-}
+###2649 ---> to Indonesia
 2650 = {
 
 	artisans = {
@@ -8781,31 +8598,8 @@
 	}
 
 }
-2652 = {
+###2652 ---> to Indonesia
 
-	artisans = {
-
-		size = 9
-		culture = yakut
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 4
-		culture = yakut
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 227
-		culture = yakut
-		religion = animist
-
-	}
-
-}
 2653 = {
 
 	aristocrats = {
@@ -9151,32 +8945,8 @@
 	}
 
 }
-2666 = {
 
-	artisans = {
-
-		size = 3
-		culture = inuit
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 2
-		culture = inuit
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 125
-		culture = inuit
-		religion = animist
-
-	}
-
-}
-
+###2666 ---> To Indonesia
 ###2667
 ###2668
 
@@ -9470,33 +9240,8 @@
 
 ###2678 ---> China.txt
 ###2679 ---> China.txt
+###2680 ---> to Indonesia
 
-
-2680 = {
-
-	artisans = {
-
-		size = 7
-		culture = siberian
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 4
-		culture = siberian
-		religion = animist
-
-	}
-	labourers = {
-
-		size = 224
-		culture = siberian
-		religion = animist
-
-	}
-
-}
 2681 = {
 
 	artisans = {

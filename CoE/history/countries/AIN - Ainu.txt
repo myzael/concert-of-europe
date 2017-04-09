@@ -27,7 +27,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-land_property=landed_estates
+land_property = landed_estates
 child_labor = child_labor_legal
 arts_endowment= no_endowment
 education = elite
@@ -59,7 +59,7 @@ oob = "AIN_oob.txt"
 
 1861.1.1 = {
 
-foreign_weapons = yes_foreign_weapons
+unciv_light_armament = gunpowder_weapons
 taxation_reform = tax_farmers
 
 # Technologies

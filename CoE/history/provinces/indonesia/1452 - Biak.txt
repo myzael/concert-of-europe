@@ -1,6 +1,6 @@
-owner = NET
-controller = NET
+owner = D25
+controller = D25
+add_core = D25
 trade_goods = spices
 life_rating = 30
-terrain = jungle_hills
-colonial = 1
+terrain = swamp_jungle

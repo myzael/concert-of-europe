@@ -3,7 +3,7 @@ controller = AKH
 add_core = AKH
 add_core = RUS
 trade_goods = wool
-life_rating = 37
+life_rating = 20
 terrain = semi_desert
 
 1846.1.1 = {

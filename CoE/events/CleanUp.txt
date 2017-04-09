@@ -13,8 +13,8 @@ country_event = {
 		exists = yes
 		is_vassal = no
 		civilized = yes
+		ruling_party_ideology = communist #seems less likely to be satisfied than being a proletarian_dictatorship code_optimalisation
 		NOT = { government = proletarian_dictatorship }
-		ruling_party_ideology = communist
 		average_militancy = 3
 		OR = {
 			num_of_revolts = 1
@@ -200,8 +200,8 @@ country_event = {
 		exists = yes
 		is_vassal = no
 		civilized = yes
+		ruling_party_ideology = anarcho_liberal #moved one up. seems less likely to be satisfied than government type code_optimalisation
 		NOT = { government = bourgeois_dictatorship }
-		ruling_party_ideology = anarcho_liberal
 		average_militancy = 3
 		OR = {
 			num_of_revolts = 1
@@ -272,8 +272,8 @@ country_event = {
 		exists = yes
 		is_vassal = no
 		civilized = yes
+		ruling_party_ideology = fascist #moved one up. seems less likely to be satisfied than government type code_optimalisation
 		NOT = { government = fascist_dictatorship }
-		ruling_party_ideology = fascist
 		average_militancy = 3
 		OR = {
 			num_of_revolts = 1
@@ -627,9 +627,9 @@ country_event = {
 	
 	trigger = {
 		exists = yes
+		part_of_sphere = yes #moved two up, seems more reasonable code_optimalisation
 		ai = yes
 		war = no
-		part_of_sphere = yes
 		sphere_owner = {
 			is_greater_power = yes
 			is_culture_group = THIS
@@ -659,7 +659,6 @@ country_event = {
 			tag = FSA
 			tag = UIL
 			tag = UNB
-			tag = TEX
 		}
 		NOT = { has_country_flag = post_colonial_country }
 	}
@@ -894,62 +893,35 @@ country_event = {
 				owner = {
 					civilized = no
 					any_owned_province = { port = yes }
-					foreign_navies = no_foreign_navies
+					unciv_naval_construction = ad_hoc_naval_design
 					OR = {
-						foreign_training = yes_foreign_training
-						army_schools = yes_army_schools
-						foreign_officers = yes_foreign_officers
+						NOT = { unciv_officer_corps = aristocratic_officers }
+						NOT = { unciv_military_training = military_levies }
+						NOT = { unciv_artillery = no_artillery_for_you }
 					}
 					year = 1880
 				}
 			}
 			owner = {
-				military_reform = yes_foreign_navies
-				activate_technology = clipper_design
+				military_reform = unciv_standardised_naval_designs
+				activate_technology = naval_design_bureaus
+				activate_technology = post_nelsonian_thought
 			}
 		}
 		random_owned = {
 			limit = {
 				owner = {
 					civilized = no
-					foreign_officers = no_foreign_officers
+					unciv_officer_corps = aristocratic_officers
 					OR = {
-						foreign_training = yes_foreign_training
-						army_schools = yes_army_schools
+						unciv_military_training = field_drills
+						unciv_artillery = early_light_artillery
 					}
 					year = 1900
 				}
 			}
 			owner = {
-				military_reform = yes_foreign_officers
-				activate_technology = army_command_principle
-			}
-		}
-		random_owned = {
-			limit = {
-				owner = {
-					civilized = no
-					foreign_training = yes_foreign_training
-					army_schools = no_army_schools
-					year = 1900
-				}
-			}
-			owner = {
-				military_reform = yes_army_schools
-				activate_technology = bronze_muzzle_loaded_artillery
-			}
-		}
-		random_owned = {
-			limit = {
-				owner = {
-					civilized = no
-					foreign_training = no_foreign_training
-					foreign_weapons = yes_foreign_weapons
-					year = 1880
-				}
-			}
-			owner = {
-				military_reform = yes_foreign_training
+				military_reform = foreign_officers_commanding
 				activate_technology = military_staff_system
 			}
 		}
@@ -957,24 +929,58 @@ country_event = {
 			limit = {
 				owner = {
 					civilized = no
-					foreign_weapons = yes_foreign_weapons
-					year = 1920
+					NOT = { unciv_military_training = military_levies }
+					unciv_artillery = no_artillery_for_you
+					year = 1900
 				}
 			}
 			owner = {
-				military_reform = modern_weapons
+				military_reform = early_light_artillery
+				activate_technology = bronze_muzzle_loaded_artillery
 			}
 		}
 		random_owned = {
 			limit = {
 				owner = {
 					civilized = no
-					foreign_weapons = no_foreign_weapons
+					unciv_military_training = military_levies
+					NOT = { unciv_light_armament = traditional_weapons }
+					year = 1880
+				}
+			}
+			owner = {
+				unciv_officer_corps = foreign_officers_commanding
+				activate_technology = military_staff_system
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					civilized = no
+					NOT = {
+						unciv_light_armament = traditional_weapons					
+					}
+					year = 1920
+				}
+			}
+			owner = {
+				military_reform = modern_imported_weapons
+				activate_technology = flintlock_rifles
+				activate_technology = muzzle_loaded_rifles
+				activate_technology = breech_loaded_rifles
+				activate_technology = bolt_action_rifles
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					civilized = no
+					unciv_light_armament = traditional_weapons
 					year = 1870
 				}
 			}
 			owner = {
-				military_reform = yes_foreign_weapons
+				military_reform = gunpowder_weapons
 				activate_technology = flintlock_rifles
 			}
 		}		

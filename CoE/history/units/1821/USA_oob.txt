@@ -68,11 +68,11 @@ MOR = {
 QNG ={
 	level = 0
 }
-LIB = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
+#LIB = {
+#	value = 125
+#	level = 5
+#	influence_value = 0
+#}
 EGY = {
 	value = 0		#relation
 	level = 0		#3=cordial, 4 = friendly, 5 sphere

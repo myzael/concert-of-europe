@@ -1,6 +1,6 @@
-owner = SEG
-controller = SEG
-add_core = SEG
+owner = KRT
+controller = KRT
+add_core = KRT
 add_core = TRZ
 trade_goods = fruit
 life_rating = 10

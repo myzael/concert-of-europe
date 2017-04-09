@@ -48,6 +48,36 @@ SUL = {
 	value = 100
 }
 
+BIM = {		#Bima
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
+D20 = {		#Pagaruyung
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
+D21 = {		#Palembang
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
+D33 = {		#Lingga
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
+SLW = {		#Boni
+	value = 100
+	level = 5
+	influence_value = 25
+}
+
 army = {
 	name = "1e Divisie"
 	location = 375

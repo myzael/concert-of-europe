@@ -1,9 +1,9 @@
 owner = DJA
 controller = DJA
 add_core = DJA
-trade_goods = spices
+trade_goods = fruit
 life_rating = 35
-terrain = jungle_farmland
+terrain = swamp_jungle
 1836.1.1 = {
 	owner = NET
 	controller = NET

@@ -1,6 +1,6 @@
-owner = ATJ
-controller = ATJ
-add_core = ATJ
-trade_goods = tobacco
-life_rating = 40
-terrain = jungle_farmland
+owner = SAK
+controller = SAK
+add_core = SAK
+trade_goods = grain
+life_rating = 30
+terrain = rich_farmland

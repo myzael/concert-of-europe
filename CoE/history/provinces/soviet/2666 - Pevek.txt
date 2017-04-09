@@ -1,5 +1,6 @@
-add_core = RUS
-add_core = KAM
-trade_goods = grain
-life_rating = 15
-terrain = tundra_hills
+owner = D22
+controller = D22
+add_core = D22
+trade_goods = precious_metal
+life_rating = 35
+terrain = jungle

@@ -74,6 +74,44 @@ From;To;Type;Through;Data;Comment
 254;304;sea;2737;0;Irish Strait
 
 #
+# Indonesian Straits
+#
+
+1384;1385;sea;2801;0;Straits of Johore Singapore-Johor
+1384;1402;sea;2801;0;Straits of Johore Singapore-Riouw Archipelago
+1385;1402;sea;2801;0;Straits of Johore Johor-Riouw Archipelago
+1386;1402;sea;2801;0;Straits of Malaca Malaca-Siak
+1399;1404;sea;2810;0;Palak Panang Strait Palembang-Palak Pinang
+1400;1402;sea;2801;0;Straits of Malaca Indragiri-Riouw
+1401;1402;sea;2801;0;Straits of Malaca Siak-Riouw
+1403;1724;sea;2805;0;Sunda Strait Lampongs-Bantam
+1404;1719;sea;2801;0;Billiton Strait Palak Pinang-Billiton
+1411;1408;sea;2804;0;Gunungsitoli Strait
+1418;1421;sea;2856;0;Strait of Madura
+1434;2629;sea;2812;0;Straits of Makassar Luwuk-Goenoegs Taboer
+1434;2629;sea;2812;0;Straits of Makassar Luwuk-Koetai Berat
+1434;1447;sea;2852;0;Sea of Celebes Luwuk-Batjan
+1441;1443;sea;2810;0;Soemba-Koepang Strait
+1444;1451;sea;2810;0;Banda Sea Alor/Flores-Aroe
+1444;1446;sea;2810;0;Alor-Dili Strait
+1447;1448;sea;2852;0;Moluccas Batjan-Tidore
+1447;1449;sea;2852;0;Moluccas Batjan-Ambon
+1447;1450;sea;2852;0;Moluccas Batjan-Ternate
+1448;1449;sea;2852;0;Moluccas Tidore-Ambon
+1448;1560;sea;2852;0;Moluccas Tidore-Coast of Papua
+1449;1451;sea;3077;0;Moluccas Ambon-Aroe
+1451;1453;sea;2810;0;Banda Sea Aroe-Timor
+1453;1451;sea;2810;0;Dili-Aroe Strait
+
+1420;1438;sea;2808;0;Bali Strait
+1438;1442;sea;2808;0;Lombok Strait
+1442;1440;sea;2808;0;Sumbawa Strait
+
+2609;1439;sea;2810;0;Sumbawa-Flores Strait
+2609;1441;sea;2808;0;Sumbawa-Sumba Strait
+
+
+#
 # Asian Straits
 #
 1083;1086;sea;2832;0;Tatar Straits
@@ -84,16 +122,10 @@ From;To;Type;Through;Data;Comment
 1169;1142;sea;2787;0;Straits of Hormuz
 1309;1322;sea;2794;0;Palk Strait #Ceylon-S India
 1310;1322;sea;2794;0;Palk Strait #Ceylon-S India
-1384;1385;sea;2814;0;Straits of Johore
-1384;1402;sea;2814;0;Straits of Johore
-1385;1402;sea;2814;0;Straits of Johore
-1403;1413;sea;2805;0;Sunda Strait
+
 1412;1851;sea;2782;0;Aden Strait
 1412;1875;sea;2782;0;Aden Strait
-1418;1421;sea;2811;0;Strait of Madura
-1420;1438;sea;2811;0;Bali Strait
-1438;1442;sea;2811;0;Lombok Strait
-1442;1440;sea;2811;0;Sumbawa Strait
+
 1495;1499;sea;2823;0;Hainan Strait
 1457;1461;sea;2849;0;Tacloban Strait
 1640;1660;land;2843;0;Fukuoka Strait
@@ -102,9 +134,8 @@ From;To;Type;Through;Data;Comment
 1664;1666;land;2843;0;Matsuyama Strait
 1667;1659;land;2843;0;Setto Strait
 1320;3252;sea;2799;0;Ten Degree Channel
-1411;1408;sea;2803;0;Gunungsitoli Strait
-1404;1399;land;2813;0;Palak Panang Strait
-1402;1398;sea;2814;0;Tanjungpinang Strait
+
+
 1458;1455;land;2848;0;Mindoro Strait
 1458;1459;sea;2848;0;Mindoro Strait
 1458;1460;land;2850;0;Mindoro Strait
@@ -113,28 +144,13 @@ From;To;Type;Through;Data;Comment
 1461;1463;land;2850;0;Davao Strait
 1462;1460;land;2850;0;Iloilo Strait
 1462;1464;sea;2851;0;Sulu Strait
-1440;1439;sea;2810;0;Sumbawa-Flores Strait
-1440;1441;sea;2808;0;Sumbawa-Sumba Strait
-1441;1443;sea;2809;0;Sumba-Roti Strait
-1443;1445;sea;2809;0;Roti-Kaupeng Strait
-1439;1444;sea;2809;0;Flores-Alor Strait
-1444;1446;sea;2809;0;Alor-Dili Strait
-1444;1451;sea;2854;0;Alor-Aru Strait
-1446;1451;sea;2854;0;Dili-Aru Strait
-1450;1449;sea;2853;0;Ceram-Ambon Strait
-1449;1447;sea;2852;0;Ambon Strait
-1447;1448;sea;2853;0;Ternate-Jilolo Strait
-1451;1453;sea;2862;0;Aru-Sorong Strait
-1450;1453;sea;2853;0;Ceram-Sorong Strait
-1447;1434;sea;2852;0;Ternate Strait
-1437;1436;sea;2810;0;Bulon-Kendari Strait
-1435;1425;sea;2812;0;Palu-Tarakan Strait
 1644;1089;sea;2839;0;Nemuru-Etorofu Strait
 1089;1088;sea;2839;0;Etorofu-Shumshu Strait
 1088;1074;sea;2838;0;Shumshu-Petropavlovsk Strait
 1679;1678;sea;2845;0;Amari-Okinawa Strait
 1637;1635;sea;2829;0;Cheju-Kwangju Strait
 1637;1661;sea;2829;0;Cheju-Nagasaki Strait
+
 #
 # Oceanian Straits
 #
@@ -209,17 +225,27 @@ From;To;Type;Through;Data;Comment
 
 #Greater Caucasus
 
+1049;1095;impassable;0;0;Novorossiysk-Sukhum
+1049;1095;sea;2777;0;Novorossiysk-Sukhum #Coastal movement 
+1051;1092;impassable;0;0;Adygei-Kutais
 1051;1095;impassable;0;0;Adygei-Sukhumi
-1056;1092;impassable;0;0;Pyatigorsk-Kutaisi
-1054;1092;impassable;0;0;Vladikavkaz-Kutaisi
-1055;1091;impassable;0;0;Grozny-Pasanauri
+1052;1091;impassable;0;0;Derbent-Pasanauri
+1052;1104;impassable;0;0;Derbent-Sheki
 1053;1091;impassable;0;0;Gunib-Pasanauri
+1055;1091;impassable;0;0;Grozny-Pasanauri
+1056;1092;impassable;0;0;Pyatigorsk-Kutaisi
+1103;1104;impassable;0;0;Siyazen-Sheki
 
 #Lesser Caucasus
 
+1092;1093;impassable;0;0;Kutaisi-Akhaltsikhe
+1092;1096;impassable;0;0;Kutaisi-Batum
 1099;1105;impassable;0;0;Gyumri-Ganja
 1098;1105;impassable;0;0;Erivan-Ganja
 1098;1106;impassable;0;0;Erivan-Agdam
+1100;1101;impassable;0;0;Kapan-Nakhichevan
+1100;1109;impassable;0;0;Kapan-Khovoy
+1100;1112;impassable;0;0;Kapan-Ardabil
 
 #Greenland
 
@@ -233,6 +259,7 @@ From;To;Type;Through;Data;Comment
 1;17;impassable;0;0;
 15;16;impassable;0;0;
 13;16;impassable;0;0;
+6;2630;impassable;0;0;
 
 #Rockies
 
@@ -246,6 +273,7 @@ From;To;Type;Through;Data;Comment
 
 #Appalachians
 
+201;2556;impassable;0;0;Georgia north extension
 217;215;impassable;0;0;Wheeling-Staunton
 185;216;impassable;0;0;Lexington-Roanoke
 218;216;impassable;0;0;Huntington-Roanoke
@@ -293,9 +321,66 @@ From;To;Type;Through;Data;Comment
 2332;2397;impassable;0;0;Osorno-Esquel
 2333;2399;impassable;0;0;Puerto Aisen-Rio Gallegos
 
-#Misc
-1312;1309;impassable;0;0;Pondicherry exclaves
-1312;1317;impassable;0;0;Pondicherry exclaves
+#Guyana
+1979;2245;impassable;0;0;Biloka-Apetina
+1979;2408;impassable;0;0;Biloka-Oriximina
+2239;2240;impassable;0;0;Georgetown-Paramaribo
+2239;2245;impassable;0;0;Georgetown-Apetina
+2240;2241;impassable;0;0;Paramaribo-Cayena
+2241;2414;impassable;0;0;Cayena-Amapa
+2241;2245;impassable;0;0;Cayena-Apetina
+2242;2408;impassable;0;0;Mahdia-Oriximina
+2242;2275;impassable;0;0;Mahdia-Angostura
+2243;2275;impassable;0;0;Essequibo-Angostura
+2243;2276;impassable;0;0;Essequibo-Curiapo
+2245;2408;impassable;0;0;Apetina-Oriximina
+2246;2414;impassable;0;0;Maripasoula-Amapa
+2246;2408;impassable;0;0;Maripasoula-Oriximina
+2246;2245;impassable;0;0;Maripasoula-Apetina
+
+#Guyana Cross border movement - removed as it doesn't actually do much.
+2243;2276;sea;2980;0;Coast of Guyana
+2239;2240;sea;2980;0;Coast of Guyana
+2240;2241;sea;2980;0;Coast of Guyana
+2241;2414;sea;2981;0;Coast of Amapa
+
+#Northern Amazon
+2261;2278;impassable;0;0;Obando-San Fernando
+2261;2401;impassable;0;0;Obando-Marabitanas
+2263;2284;impassable;0;0;El Encanto-Tena
+2263;2286;impassable;0;0;El Encanto-Iquitos
+2263;2289;impassable;0;0;El Encanto-Puca Urco
+2263;2401;impassable;0;0;El Encanto-Marabitanas
+2275;2277;impassable;0;0;Angostura-El Jobal
+2277;2532;impassable;0;0;El Jobal-Forte Sao Joaquim
+2278;2401;impassable;0;0;San Fernando-Marabitanas
+2278;2403;impassable;0;0;San Fernando-Cachoeira
+2278;2532;impassable;0;0;San Fernando-Forte Sao Joaquim
+
+#Australian Deserts
+2475;2489;impassable;0;0;NSW-Queensland
+2475;2496;impassable;0;0;NSW-South Australia
+2481;2496;impassable;0;0;Victoria-South Australia
+2489;2496;impassable;0;0;Queensland-South Australia
+2489;2507;impassable;0;0;Queensland-Northern Territory
+2496;2500;impassable;0;0;South Australia-West Australia
+2496;2507;impassable;0;0;South Australia-Northern Territory
+2500;2601;impassable;0;0;Northern West Australia-Southern West Australia
+2507;2601;impassable;0;0;Northern Territory-West Australia
+
+#Alborz Mountains
+1107;1112;impassable;0;0;Lankaran-Ardabil
+1112;1113;impassable;0;0;Ardabil-Rasht
+1113;1123;impassable;0;0;Rasht-Zanjan
+1113;1124;impassable;0;0;Noshehr-Qazvin
+1115;1126;impassable;0;0;Sari-Semnan
+
+#Iran Western border
+890;1109;impassable;0;0;Van-Khvoy
+890;1110;impassable;0;0;Van-Urumia
+925;1110;impassable;0;0;Kirkuk-Urumia
+925;1117;impassable;0;0;Kirkuk-Kermanshah
+928;1119;impassable;0;0;Mendeli-Ilam
 
 #Central Asian Deserts
 
@@ -304,7 +389,6 @@ From;To;Type;Through;Data;Comment
 1129;1148;impassable;0;0;Dasht-e Kavir
 1129;1149;impassable;0;0;Dasht-e Kavir
 1130;1148;impassable;0;0;Dasht-e Lut
-1140;1144;impassable;0;0;Dasht-e Lut
 1140;1148;impassable;0;0;Dasht-e Lut
 1141;1142;impassable;0;0;Bandar Abbas-Hajjiabad
 1142;1143;impassable;0;0;Bandar Abbas-Bam
@@ -355,10 +439,8 @@ From;To;Type;Through;Data;Comment
 #Libya
 1729;1744;impassable;0;0;Libya-Tunisia Border
 1732;1743;impassable;0;0;West Libya Desert
+1734;1739;impassable;0;0;Sirte-Libya Desert
 1735;1739;impassable;0;0;East Libya Desert
-1736;1739;impassable;0;0;East Libya Desert
-1737;1739;impassable;0;0;East Libya Desert
-1739;1740;impassable;0;0;East Libya Desert
 1739;1741;impassable;0;0;East Libya Desert
 1739;1742;impassable;0;0;East Libya Desert
 1739;1826;impassable;0;0;Libya-Chad Border
@@ -367,6 +449,7 @@ From;To;Type;Through;Data;Comment
 1743;1744;impassable;0;0;West Libya Desert
 
 #Egypt Deserts
+1738;1754;impassable;0;0;Libya-Egypt Border
 1739;1754;impassable;0;0;Libya-Egypt Border
 1739;1758;impassable;0;0;Libya-Egypt Border
 1747;1759;impassable;0;0;Sahara
@@ -411,17 +494,55 @@ From;To;Type;Through;Data;Comment
 1826;1842;impassable;0;0;Sudan-Chad Border
 
 #Algeria
+1696;1712;impassable;0;0;Tarfaya-Chenachene Morocco-Algeria Border
+1698;1712;impassable;0;0;Rachidia-Chenachene Morocco-Algeria Border
+1699;1712;impassable;0;0;Warzatzat-Chenachene Morocco-Algeria Border
 1710;1727;impassable;0;0;Algeria-Tunisia Border
-1724;1812;impassable;0;0;Algeria-Niger Border
-1724;1814;impassable;0;0;Algeria-Niger Border
+1712;1714;impassable;0;0;Chenachene-Tamanrasset West-East Sahara
+1712;1773;impassable;0;0;Chenachene-Aaiun Algeria-Western Sahara Border
+1712;1781;impassable;0;0;Chenachene-Bir Murghayn Algeria-Mauritania Border
+1713;1729;impassable;0;0;Illizi-Tozeur Algeria-Tunisia Border
+1713;1743;impassable;0;0;Algeria-Libya Border
+1714;1743;impassable;0;0;Algeria-Libya Border
+1714;1814;impassable;0;0;Tamanrasset-Madama Algeria-Niger Border
 
-#provinces to be moved
+#Sahara
+1743;1814;impassable;0;0;Ghat-Madama Libya-Niger Border
+1781;1806;impassable;0;0;Walata-Taoudenni Mauritania-Mali Border
+1781;1803;impassable;0;0;Walata-Timbuktu Mauritania-Mali Border
+1806;1814;impassable;0;0;Tessalit-Agades Mali-Niger Border
 
-1712;1729;impassable;0;0;Algeria-Tunisia Border
-1719;1729;impassable;0;0;Algeria-Tunisia Border
-1743;1719;impassable;0;0;Libya-Algeria Border
-1743;1724;impassable;0;0;Libya-Algeria Border
-1743;1814;impassable;0;0;Libya-Niger Border
+
+#
+##African rainforests - test to see if this will result in better colonisation
+#
+
+#Cameroon Eastern Border - subject to change
+1959;1973;impassable;0;0;Yaounde-Bata
+1959;1976;impassable;0;0;Yaounde-Makokou
+1959;1981;impassable;0;0;Yaounde-Impfondo
+1962;1966;impassable;0;0;Bertoua-Nola
+1963;1966;impassable;0;0;Ngaoundere-Nola
+1963;1967;impassable;0;0;Ngaoundere-Bouar
+
+
+#Gabon
+1973;1976;impassable;0;0;Bata-Makokou
+1974;1978;impassable;0;0;Mayumbe-Madingou
+1975;1978;impassable;0;0;Moanda-Madingou
+1975;1980;impassable;0;0;Moanda-Djambala
+1976;1980;impassable;0;0;Makokou-Djambala
+1976;1981;impassable;0;0;Makokou-Impfondo
+
+#The Congo
+1965;1995;impassable;0;0;Bangui-Gemena
+1970;1995;impassable;0;0;Bangui-Bangassou
+1980;1993;impassable;0;0;Djambala-Irebu
+1981;1993;impassable;0;0;Impfondo-Irebu
+1981;1995;impassable;0;0;Impfondo-Gemena
+1982;2001;impassable;0;0;Kinshasa-Mbanza
+1985;2001;impassable;0;0;Kumbana-Mbanza
+1985;2009;impassable;0;0;Kumbana-Malanje
 
 #
 # The canals

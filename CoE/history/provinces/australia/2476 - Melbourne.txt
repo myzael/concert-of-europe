@@ -1,11 +1,8 @@
-owner = ENG
-controller = ENG
 add_core = AST
 add_core = ENG
 trade_goods = wool
-life_rating = 45
+life_rating = 25
 terrain = forested_farmland
-colonial = 2
 1861.1.1 = {
 	colonial = 1
 	state_building = {

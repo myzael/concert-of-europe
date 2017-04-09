@@ -1185,7 +1185,7 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = {
-					foreign_training = no_foreign_training
+					unciv_military_training = military_levies
 					civilized = no
 				}
 			}
@@ -1199,7 +1199,7 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = {
-					foreign_training = yes_foreign_training
+					NOT = { unciv_military_training = military_levies }
 					civilized = no
 				}
 			}
@@ -1373,7 +1373,7 @@ country_event = {
 			limit = {
 				FROM = { civilized = yes }
 				owner = {
-					foreign_training = yes_foreign_training
+					NOT = { unciv_military_training = military_levies }
 					civilized = no
 				}
 			}
@@ -1422,7 +1422,7 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = {
-					foreign_training = no_foreign_training
+					unciv_military_training = military_levies
 					civilized = no
 				}
 			}
@@ -1436,7 +1436,7 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = {
-					foreign_training = yes_foreign_training
+					NOT = {unciv_military_training = military_levies }
 					civilized = no
 				}
 			}

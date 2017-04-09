@@ -379,7 +379,7 @@ province_event = {
 					NOT = { is_core = GMB }
 				}
 				add_core = GMB
-				remove_core = SNG
+				remove_core = WOL
 				remove_core = GNE
 				any_pop = { militancy = -3 }
 			}
@@ -854,14 +854,14 @@ province_event = {
 				1785 = { owned_by = THIS }
 			}
 			AND = {
-				is_core = SNG
+				is_core = WOL
 				1783 = { owned_by = THIS }
 			}
 			GMB = {
 				vassal_of = THIS
 				is_culture_group = THIS
 			}
-			SNG = {
+			WOL = {
 				vassal_of = THIS
 				is_culture_group = THIS
 			}
@@ -881,7 +881,7 @@ province_event = {
 				}
 				add_core = GNE
 				remove_core = GMB
-				remove_core = SNG
+				remove_core = WOL
 				any_pop = { militancy = -3 }
 			}
 		}
@@ -899,7 +899,7 @@ province_event = {
 		owned_by = THIS
 		controlled_by = THIS
 		any_neighbor_province = {
-			is_core = SNG
+			is_core = WOL
 		}
 		owner = {
 			civilized = yes
@@ -908,15 +908,15 @@ province_event = {
 		OR = {
 			AND = {
 				owner = { owns = 1783 }
-				SNG = { exists = no }
+				WOL = { exists = no }
 			}
-			SNG = {
+			WOL = {
 				vassal_of = THIS
 				is_culture_group = THIS
 			}
 		}
 		NOT = {
-			is_core = SNG
+			is_core = WOL
 		}
 	}
 	
@@ -929,9 +929,9 @@ province_event = {
 		state_scope = {
 			any_owned = {
 				limit = {
-					NOT = { is_core = SNG }
+					NOT = { is_core = WOL }
 				}
-				add_core = SNG
+				add_core = WOL
 				any_pop = { militancy = -3 }
 			}
 		}
@@ -948,7 +948,7 @@ province_event = {
 		owned_by = THIS
 		controlled_by = THIS
 		any_neighbor_province = {
-			is_core = SNG
+			is_core = WOL
 		}
 		owner = {
 			civilized = yes
@@ -957,15 +957,15 @@ province_event = {
 		OR = {
 			AND = {
 				owner = { owns = 1783 }
-				SNG = { exists = no }
+				WOL = { exists = no }
 			}
-			SNG = {
+			WOL = {
 				vassal_of = THIS
 				is_culture_group = THIS
 			}
 		}
 		NOT = {
-			is_core = SNG
+			is_core = WOL
 			AND = {
 				is_core = GMB
 				1785 = { owned_by = THIS }
@@ -986,9 +986,9 @@ province_event = {
 		state_scope = {
 			any_owned = {
 				limit = {
-					NOT = { is_core = SNG }
+					NOT = { is_core = WOL }
 				}
-				add_core = SNG
+				add_core = WOL
 				remove_core = GMB
 				any_pop = { militancy = -3 }
 			}
@@ -1003,10 +1003,7 @@ province_event = {
 	desc = "EVTDESC98822"
 	
 	trigger = {
-		OR = {
-			region = ALD_1718
-			region = ALD_1714
-		}
+		province_id = 1714
 		owned_by = THIS
 		controlled_by = THIS
 		any_neighbor_province = {
@@ -1073,7 +1070,7 @@ province_event = {
 		}
 		OR = {
 			AND = {
-				owner = { owns = 1812 }
+				owner = { owns = 1814 }
 				NIG = { exists = no }
 			}
 			NIG = {
@@ -1129,7 +1126,7 @@ province_event = {
 		}
 		OR = {
 			AND = {
-				owner = { owns = 1812 }
+				owner = { owns = 1814 }
 				NIG = { exists = no }
 			}
 			NIG = {
@@ -1188,7 +1185,7 @@ province_event = {
 		}
 		OR = {
 			AND = {
-				owner = { owns = 1812 }
+				owner = { owns = 1814 }
 				NIG = { exists = no }
 			}
 			NIG = {
@@ -1236,7 +1233,10 @@ province_event = {
 	desc = "EVTDESC98830"
 	
 	trigger = {
-		region = ENG_1818
+		OR = {
+			region = ENG_1818
+			region = ENG_1819
+		}
 		owned_by = THIS
 		controlled_by = THIS
 		any_neighbor_province = {
@@ -1258,6 +1258,7 @@ province_event = {
 		}
 		NOT = {
 			is_core = CHD
+			is_core = CMR
 		}
 	}
 	
@@ -1271,6 +1272,7 @@ province_event = {
 			any_owned = {
 				limit = {
 					NOT = { is_core = CHD }
+					NOT = { is_core = CMR }
 				}
 				add_core = CHD
 				any_pop = { militancy = -3 }
@@ -1429,7 +1431,7 @@ province_event = {
 			is_core = CHD
 			AND = {
 				is_core = NIG
-				1812 = { owned_by = THIS }
+				1814 = { owned_by = THIS }
 			}
 			NIG = {
 				vassal_of = THIS
@@ -1590,7 +1592,11 @@ province_event = {
 	desc = "EVTDESC98835"
 	
 	trigger = {
-		region = SOK_1963
+		OR = {
+			region = SOK_1963
+			region = ENG_1819
+			province_id = 1964
+		}
 		owned_by = THIS
 		controlled_by = THIS
 		any_neighbor_province = {
@@ -1612,6 +1618,7 @@ province_event = {
 		}
 		NOT = {
 			is_core = CMR
+			is_core = CHD
 		}
 	}
 	
@@ -1624,7 +1631,10 @@ province_event = {
 		state_scope = {
 			any_owned = {
 				limit = {
-					NOT = { is_core = CMR }
+					NOT = { 
+						is_core = CMR 
+						is_core = CHD
+					}
 				}
 				add_core = CMR
 				remove_core = NGR
@@ -3158,7 +3168,7 @@ province_event = {
 		owned_by = THIS
 		controlled_by = THIS
 		any_neighbor_province = {
-			is_core = BMK
+			is_core = MLI
 		}
 		owner = {
 			civilized = yes
@@ -3166,16 +3176,16 @@ province_event = {
 		}
 		OR = {
 			AND = {
-				owner = { owns = 2609 }
-				BMK = { exists = no }
+				owner = { owns = 1806 }
+				MLI = { exists = no }
 			}
-			BMK = {
+			MLI = {
 				vassal_of = THIS
 				is_culture_group = THIS
 			}
 		}
 		NOT = {
-			is_core = BMK
+			is_core = MLI
 		}
 	}
 	
@@ -3188,9 +3198,9 @@ province_event = {
 		state_scope = {
 			any_owned = {
 				limit = {
-					NOT = { is_core = BMK }
+					NOT = { is_core = MLI }
 				}
-				add_core = BMK
+				add_core = MLI
 				remove_core = MOS
 				any_pop = { militancy = -3 }
 			}
@@ -3208,7 +3218,7 @@ province_event = {
 		owned_by = THIS
 		controlled_by = THIS
 		any_neighbor_province = {
-			is_core = BMK
+			is_core = MLI
 		}
 		owner = {
 			civilized = yes
@@ -3216,16 +3226,16 @@ province_event = {
 		}
 		OR = {
 			AND = {
-				owner = { owns = 2609 }
-				BMK = { exists = no }
+				owner = { owns = 1806 }
+				MLI = { exists = no }
 			}
-			BMK = {
+			MLI = {
 				vassal_of = THIS
 				is_culture_group = THIS
 			}
 		}
 		NOT = {
-			is_core = BMK
+			is_core = MLI
 		}
 	}
 	
@@ -3238,14 +3248,14 @@ province_event = {
 		state_scope = {
 			any_owned = {
 				limit = {
-					NOT = { is_core = BMK }
+					NOT = { is_core = MLI }
 				}
-				add_core = BMK
+				add_core = MLI
 				remove_core = MOS
 				any_pop = { militancy = -3 }
 			}
 		}
-		BMK = { add_accepted_culture = bambara }
+		MLI = { add_accepted_culture = bambara }
 	}
 }
 
@@ -3259,7 +3269,7 @@ province_event = {
 		owned_by = THIS
 		controlled_by = THIS
 		any_neighbor_province = {
-			is_core = BMK
+			is_core = MLI
 		}
 		owner = {
 			civilized = yes
@@ -3267,16 +3277,16 @@ province_event = {
 		}
 		OR = {
 			AND = {
-				owner = { owns = 2609 }
-				BMK = { exists = no }
+				owner = { owns = 1806 }
+				MLI = { exists = no }
 			}
-			BMK = {
+			MLI = {
 				vassal_of = THIS
 				is_culture_group = THIS
 			}
 		}
 		NOT = {
-			is_core = BMK
+			is_core = MLI
 		}
 	}
 	
@@ -3289,13 +3299,13 @@ province_event = {
 		state_scope = {
 			any_owned = {
 				limit = {
-					NOT = { is_core = BMK }
+					NOT = { is_core = MLI }
 				}
-				add_core = BMK
+				add_core = MLI
 				any_pop = { militancy = -3 }
 			}
 		}
-		BMK = {
+		MLI = {
 			add_accepted_culture = bambara
 			add_accepted_culture = fulbe
 		}
@@ -3312,7 +3322,7 @@ province_event = {
 		owned_by = THIS
 		controlled_by = THIS
 		any_neighbor_province = {
-			is_core = BMK
+			is_core = MLI
 		}
 		owner = {
 			civilized = yes
@@ -3320,16 +3330,16 @@ province_event = {
 		}
 		OR = {
 			AND = {
-				owner = { owns = 2609 }
-				BMK = { exists = no }
+				owner = { owns = 1806 }
+				MLI = { exists = no }
 			}
-			BMK = {
+			MLI = {
 				vassal_of = THIS
 				is_culture_group = THIS
 			}
 		}
 		NOT = {
-			is_core = BMK
+			is_core = MLI
 			1775 = { owned_by = THIS }
 			TRZ = {
 				vassal_of = THIS
@@ -3347,13 +3357,13 @@ province_event = {
 		state_scope = {
 			any_owned = {
 				limit = {
-					NOT = { is_core = BMK }
+					NOT = { is_core = MLI }
 				}
-				add_core = BMK
+				add_core = MLI
 				any_pop = { militancy = -3 }
 			}
 		}
-		BMK = { add_accepted_culture = maures }
+		MLI = { add_accepted_culture = maures }
 	}
 }
 
@@ -3367,7 +3377,7 @@ province_event = {
 		owned_by = THIS
 		controlled_by = THIS
 		any_neighbor_province = {
-			is_core = BMK
+			is_core = MLI
 		}
 		owner = {
 			civilized = yes
@@ -3375,16 +3385,16 @@ province_event = {
 		}
 		OR = {
 			AND = {
-				owner = { owns = 2609 }
-				BMK = { exists = no }
+				owner = { owns = 1806 }
+				MLI = { exists = no }
 			}
-			BMK = {
+			MLI = {
 				vassal_of = THIS
 				is_culture_group = THIS
 			}
 		}
 		NOT = {
-			is_core = BMK
+			is_core = MLI
 			1901 = { owned_by = THIS }
 			MOS = {
 				vassal_of = THIS
@@ -3402,9 +3412,9 @@ province_event = {
 		state_scope = {
 			any_owned = {
 				limit = {
-					NOT = { is_core = BMK }
+					NOT = { is_core = MLI }
 				}
-				add_core = BMK
+				add_core = MLI
 				remove_core = MOS
 				any_pop = { militancy = -3 }
 			}
@@ -3532,10 +3542,7 @@ province_event = {
 	desc = "EVTDESC98880"
 	
 	trigger = {
-		OR = {
-			region = ALD_1718
-			region = ALD_1714
-		}
+		province_id = 1724
 		owned_by = THIS
 		controlled_by = THIS
 		any_neighbor_province = {
@@ -3824,7 +3831,7 @@ province_event = {
 	desc = "EVTDESC98890"
 	
 	trigger = {
-		region = MOR_1696
+		province_id = 1773
 		owned_by = THIS
 		controlled_by = THIS
 		any_neighbor_province = {
@@ -3879,7 +3886,7 @@ province_event = {
 	desc = "EVTDESC98891"
 	
 	trigger = {
-		region = MOR_1696
+		province_id = 1696
 		owned_by = THIS
 		controlled_by = THIS
 		any_neighbor_province = {
@@ -4034,7 +4041,7 @@ province_event = {
 					NOT = { is_core = MOS }
 				}
 				add_core = MOS
-				remove_core = BMK
+				remove_core = MLI
 				any_pop = { militancy = -3 }
 			}
 		}
@@ -4072,8 +4079,8 @@ province_event = {
 		}
 		NOT = {
 			is_core = ASH
-			2609 = { owned_by = THIS }
-			BMK = {
+			1806 = { owned_by = THIS }
+			MLI = {
 				vassal_of = THIS
 				is_culture_group = THIS
 			}
@@ -4092,7 +4099,7 @@ province_event = {
 					NOT = { is_core = MOS }
 				}
 				add_core = MOS
-				remove_core = BMK
+				remove_core = MLI
 				any_pop = { militancy = -3 }
 			}
 		}

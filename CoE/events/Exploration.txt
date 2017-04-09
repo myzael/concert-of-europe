@@ -769,7 +769,7 @@ country_event = {
 		ai_chance = {
 			factor = 90
 			modifier = {
-				factor = 0
+				factor = 0.1
 				NOT = {
 					treasury = 15000
 				}
@@ -782,7 +782,7 @@ country_event = {
 		ai_chance = {
 			factor = 10
 			modifier = {
-				factor = 10
+				factor = 5
 				NOT = {
 					treasury = 15000
 				}
@@ -931,13 +931,17 @@ country_event = {
 			clr_country_flag = timbuktu_disaster
 		}
 		prestige = 5
-		random_pop = {
+		random_owned = {
 			limit = {
-				is_primary_culture = yes
-				continent = europe
-				strata = middle
+				is_colonial = no
 			}
-			money = 10
+			random_pop = {
+				limit = {
+					is_primary_culture = yes
+					strata = middle
+				}
+				money = 10
+			}
 		}
 	}
 }

@@ -43,13 +43,15 @@ political_decisions = {
 			economic_reform = yes_finance_reform
 			economic_reform = yes_admin_reform
 			economic_reform = yes_land_reform
-			military_reform = yes_army_schools
-			military_reform = yes_foreign_officers
+			military_reform = early_light_artillery
+			military_reform = field_drills
+			military_reform = foreign_officers_commanding
+			military_reform = the_lessons_of_war
 			activate_technology = no_standard
 			activate_technology = enlightenment_thought
 			activate_technology = water_wheel_power
 			activate_technology = bronze_muzzle_loaded_artillery
-			activate_technology = army_command_principle
+			activate_technology = military_staff_system
 			small_arms = 50
 			regular_clothes = 50
 			horses = 20
@@ -281,34 +283,50 @@ political_decisions = {
 	
 	begin_zemene_mesafint = {
 		potential = {
-			civilized = no
-			primary_culture = amhara
-			any_neighbor_country = { primary_culture = amhara }
+			OR = {
+				tag = GON
+				tag = SHW
+				tag = TIG
+			}
 			NOT = { 
 				has_global_flag = is_negusa_nagast
 				has_country_modifier = zemene_mesafint
-				foreign_training = yes_foreign_training
 			}
 		}
 		
 		allow = {
-			any_neighbor_country = {
-				primary_culture = amhara
-				war_with = THIS
+			OR = {
+				any_neighbor_country = {
+					primary_culture = amhara
+					war_with = THIS
+				}
+				civilization_progress = 0.4
 			}
 		}
 		
 		effect = {
 			add_country_modifier = {
 				name = zemene_mesafint
-				duration = 365
+				duration = 730
 			}
+			1852 = { add_core = THIS }
+			1853 = { add_core = THIS }
+			1854 = { add_core = THIS }
+			1855 = { add_core = THIS }
+			1856 = { add_core = THIS }
+			1857 = { add_core = THIS }
+			1859 = { add_core = THIS }
+			1860 = { add_core = THIS }
+			1861 = { add_core = THIS }
+			1862 = { add_core = THIS }
+			1863 = { add_core = THIS }
+			1865 = { add_core = THIS }
 		}
 		
 		ai_will_do = {
 			factor = 1
 		}
-	}	
+	}		
 	
 	become_negusa_nagast = {
 		potential = {
@@ -421,43 +439,6 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
-#	eth_mission_to_cairo = {	#decisions are resource intensive, where possible it is preferable to use events.
-#		potential = {
-#			tag = ETH
-#			ai = yes		#Only if Ethiopia is AI
-#			EGY = {
-#				ai = yes	#And if Egypt is AI... So it will never show up for the player, and is better handled via events.
-#				exists = yes
-#				neighbour = ETH
-#				NOT = {
-#					any_owned_province = { is_core = ETH }
-#					casus_belli = ETH
-#				}
-#			}
-#			NOT = {
-#				has_country_flag = mission_to_cairo
-#				any_owned_province = { is_core = EGY }
-#				any_owned_province = { is_core = SUD }
-#				casus_belli = EGY
-#				truce_with = EGY
-#			}
-#		}
-#		
-#		allow = {
-#			NOT = { war_with = EGY }
-#		}
-#		
-#		effect = {
-#			set_country_flag = mission_to_cairo
-#			years_of_research = 0.25
-#			relation = { who = EGY value = 200 }
-#		}
-#		
-#		ai_will_do = {
-#			factor = 1
-#		}
-#	}
 
 	unite_somalia = {
 		potential = {
@@ -557,7 +538,7 @@ political_decisions = {
 
 		allow = {
 			owns = 1700
-			war = no		#Yey! The Fan Affair will work properly now!
+			war = no
 		}
 
 		effect = {
@@ -575,11 +556,10 @@ political_decisions = {
 			tag = MOR
 			civilized = yes
 			1696 = { empty = yes } #Tarfaya
-			1714 = { empty = yes } #Bechar
+			1773 = { empty = yes } #Bechar
 		}
 	
 		allow = {
-			owns = 1683 #Taza
 			owns = 1694 #Agadir
 		}
 	
@@ -587,9 +567,7 @@ political_decisions = {
 			prestige = 5
 			badboy = 3
 			1696 = { secede_province = THIS }
-			1714 = { secede_province = THIS }
-			1716 = { secede_province = THIS }
-			1717 = { secede_province = THIS }
+			1773 = { secede_province = THIS }
 		}
 	
 		ai_will_do = {
@@ -601,22 +579,19 @@ political_decisions = {
 		potential = {
 			tag = ALD
 			civilized = yes
-			1720 = { empty = yes } #Timimoun
-			1718 = { empty = yes } #In Salah
+			1713 = { empty = yes }
 		}
 	
 		allow = {
-			owns = 1713 #Laghwat
+			owns = 1711 #Laghwat
 		}
 	
 		effect = {
 			prestige = 8
 			badboy = 5
-			1720 = { secede_province = THIS }
-			1718 = { secede_province = THIS }
-			1719 = { secede_province = THIS }
-			1722 = { secede_province = THIS }
-			1724 = { secede_province = THIS }
+			1712 = { secede_province = THIS }
+			1713 = { secede_province = THIS }
+			1714 = { secede_province = THIS }
 		}
 	
 		ai_will_do = {
@@ -651,24 +626,27 @@ political_decisions = {
 	become_toucouleur = {
 		potential = {
 			OR = {
-				tag = MAS
-				tag = TOO
-				tag = JAL
-				tag = KNG
-				tag = WOL
-				tag = DND
+				tag = BDU
 				tag = DAM
-				tag = SOK
+				tag = MAS
+				tag = KNG
+				tag = JAL
+				tag = TOO
+				tag = WOL
 			}
 			NOT = { has_global_flag = toucouleur_created }
 		}
 
 		allow = {
 			war = no
-			government = absolute_monarchy
+			OR = {
+				government = theocracy
+				government = absolute_monarchy
+			}
+			owns = 1796
 			owns = 1800
+			owns = 1803
 			owns = 1804
-			owns = 1808	
 		}
 
 		effect = {
@@ -695,15 +673,17 @@ political_decisions = {
 	become_mali_empire = {
 		potential = {
 			OR = {
-				tag = MAS
-				tag = TOO
+				tag = BDO
+				tag = DAM
+				tag = DND
 				tag = JAL
 				tag = KNG
-				tag = WOL
-				tag = DND
-				tag = DAM
+				tag = KRT
+				tag = MAS
 				tag = SOK
+				tag = TOO
 				tag = TOU
+				tag = WOL
 			}
 			NOT = { has_global_flag = mali_empire_created }
 		}

@@ -28,7 +28,6 @@ province_event = {
 			province_id = 1659			# Kobe
 			province_id = 2575			# Ipoh
 			province_id = 2601			# Sandy Desert
-			province_id = 2605			# Gibson's Desert
 			province_id = 695			# Königsberg
 			province_id = 2610
 		}
@@ -66,7 +65,6 @@ province_event = {
 		OR = {
 			province_id = 88			# Mariposa
 			province_id = 2142			# Chihuahua
-			province_id = 2599			# Fairbanks
 		}
 		NOT = { trade_goods = precious_metal }
 	}
@@ -364,8 +362,10 @@ province_event = {
 			province_id = 1385
 			province_id = 1386
 			province_id = 1389
-			province_id = 1402
-			province_id = 1404
+			province_id = 1402	#Riouw
+			province_id = 1409	#Siboga
+			province_id = 1724	#Bantam
+			province_id = 1782	#Asahan
 			province_id = 1827
 			province_id = 1829
 			province_id = 1833
@@ -1066,9 +1066,9 @@ province_event = {
 		year = 1885
 		OR = {
 			province_id = 1393		# Brunei
-			province_id = 1401		# Siak
+			province_id = 1779		# Langkat
 			province_id = 1425		# Tarakan
-			province_id = 1432		# Mamuju
+			province_id = 1429		# Samarinde
 		}
 		NOT = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }

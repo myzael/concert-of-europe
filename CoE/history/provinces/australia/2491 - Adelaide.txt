@@ -1,9 +1,6 @@
-owner = ENG
-controller = ENG
 add_core = AST
 add_core = ENG
 trade_goods = wool
-life_rating = 40
-terrain = dry_grassland
-colonial = 2
+life_rating = 20
+terrain = dry_forest_hills
 1861.1.1 = { railroad = 1 }

@@ -3495,7 +3495,7 @@ country_event = {
 		NOT = { is_our_vassal = KHZ }
 		NOT = { KHZ = { part_of_sphere = yes } }
 		NOT = { KHZ = { is_vassal = yes } }
-		NOT = { KHZ = { stronger_army_than = PER } } }
+		NOT = { KHZ = { stronger_army_than = PER } }
 		military_score = 4
 	}
 	
@@ -3539,7 +3539,7 @@ country_event = {
 		NOT = { is_our_vassal = KHR }
 		NOT = { KHR = { part_of_sphere = yes } }
 		NOT = { KHR = { is_vassal = yes } }
-		NOT = { KHR = { stronger_army_than = PER } } }
+		NOT = { KHR = { stronger_army_than = PER } }
 		military_score = 4
 	}
 	

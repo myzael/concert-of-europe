@@ -4423,7 +4423,7 @@ country_event = {
 				tag = THIS
 				social_reform_name = public
 			}
-			any_pop = 
+			any_pop = {
 				limit = {
 					OR = {
 						has_pop_religion = shiite

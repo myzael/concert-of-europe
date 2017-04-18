@@ -21,7 +21,7 @@ country_event = {
 	option = {
 		name = "Take tighter control over the whole sultanate"
 		prestige = 2
-		treasury = = -10000
+		treasury = -10000
 		badboy = 2
 		create_vassal = D21
 		diplomatic_influence = {

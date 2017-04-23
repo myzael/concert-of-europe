@@ -2830,6 +2830,11 @@ goods_demand = 0.1
    icon = 12
 }
 
+mechanized_manufacture = {
+goods_demand = 0.1
+   icon = 12
+}
+
 electricity = {
 goods_demand = 0.05
    icon = 12

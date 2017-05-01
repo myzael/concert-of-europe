@@ -28,11 +28,491 @@ political_decisions = {
 					AND = {
 						upper_house = {
 							ideology = reactionary
+							value = 0.01
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.49
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.02
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.48
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.03
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.47
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.04
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.46
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.05
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.45
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.06
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.44
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.07
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.43
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.08
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.42
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.09
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.41
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.1
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.4
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.11
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.39
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.12
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.38
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.13
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.37
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.14
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.36
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.15
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.35
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.16
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.34
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.17
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.33
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.18
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.32
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.19
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.31
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.2
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.3
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.21
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.29
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.22
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.28
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.23
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.27
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.24
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.26
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
 							value = 0.25
 						}
 						upper_house = {
 							ideology = conservative
 							value = 0.25
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.26
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.24
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.27
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.23
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.28
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.22
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.29
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.21
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.3
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.2
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.31
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.19
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.32
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.18
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.33
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.17
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.34
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.16
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.35
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.15
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.36
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.14
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.37
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.13
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.38
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.12
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.39
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.11
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.4
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.1
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.41
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.09
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.42
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.08
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.43
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.07
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.44
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.06
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.45
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.05
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.46
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.04
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.47
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.03
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.48
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.02
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.49
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.01
 						}
 					}
 				}
@@ -83,11 +563,491 @@ political_decisions = {
 					AND = {
 						upper_house = {
 							ideology = reactionary
+							value = 0.01
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.49
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.02
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.48
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.03
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.47
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.04
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.46
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.05
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.45
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.06
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.44
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.07
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.43
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.08
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.42
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.09
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.41
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.1
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.4
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.11
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.39
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.12
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.38
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.13
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.37
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.14
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.36
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.15
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.35
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.16
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.34
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.17
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.33
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.18
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.32
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.19
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.31
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.2
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.3
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.21
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.29
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.22
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.28
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.23
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.27
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.24
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.26
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
 							value = 0.25
 						}
 						upper_house = {
 							ideology = conservative
 							value = 0.25
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.26
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.24
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.27
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.23
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.28
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.22
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.29
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.21
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.3
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.2
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.31
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.19
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.32
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.18
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.33
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.17
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.34
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.16
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.35
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.15
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.36
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.14
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.37
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.13
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.38
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.12
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.39
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.11
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.4
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.1
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.41
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.09
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.42
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.08
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.43
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.07
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.44
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.06
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.45
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.05
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.46
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.04
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.47
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.03
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.48
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.02
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = reactionary
+							value = 0.49
+						}
+						upper_house = {
+							ideology = conservative
+							value = 0.01
 						}
 					}
 				}
@@ -125,10 +1085,6 @@ political_decisions = {
 			}
 			OR = {
 				upper_house = {
-					ideology = social_liberal
-					value = 0.5
-				}
-				upper_house = {
 					ideology = socialist
 					value = 0.5
 				}
@@ -136,26 +1092,496 @@ political_decisions = {
 					ideology = communist
 					value = 0.5
 				}
-				AND = {
-					upper_house = {
-						ideology = social_liberal
-						value = 0.25
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.01
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.49
+						}
 					}
-					upper_house = {
-						ideology = socialist
-						value = 0.25
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.02
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.48
+						}
 					}
-				}
-				AND = {
-					upper_house = {
-						ideology = socialist
-						value = 0.25
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.03
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.47
+						}
 					}
-					upper_house = {
-						ideology = communist
-						value = 0.25
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.04
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.46
+						}
 					}
-				}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.05
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.45
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.06
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.44
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.07
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.43
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.08
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.42
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.09
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.41
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.1
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.4
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.11
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.39
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.12
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.38
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.13
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.37
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.14
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.36
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.15
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.35
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.16
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.34
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.17
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.33
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.18
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.32
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.19
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.31
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.2
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.3
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.21
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.29
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.22
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.28
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.23
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.27
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.24
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.26
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.25
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.25
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.26
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.24
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.27
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.23
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.28
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.22
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.29
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.21
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.3
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.2
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.31
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.19
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.32
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.18
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.33
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.17
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.34
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.16
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.35
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.15
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.36
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.14
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.37
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.13
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.38
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.12
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.39
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.11
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.4
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.1
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.41
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.09
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.42
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.08
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.43
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.07
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.44
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.06
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.45
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.05
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.46
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.04
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.47
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.03
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.48
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.02
+						}
+					}
+					AND = {
+						upper_house = {
+							ideology = communist
+							value = 0.49
+						}
+						upper_house = {
+							ideology = socialist
+							value = 0.01
+						}
+					}
 			}
 		}
 		effect = {

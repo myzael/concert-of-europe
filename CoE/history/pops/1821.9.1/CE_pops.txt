@@ -6023,28 +6023,28 @@
 	artisans = {
 
 		size = 3204
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
 	bureaucrats = {
 
 		size = 32
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
 	clergymen = {
 
 		size = 105
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
 	farmers = {
 
 		size = 4029
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
@@ -6065,7 +6065,7 @@
 	soldiers = {
 
 		size = 1123
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
@@ -6083,21 +6083,21 @@
 	artisans = {
 
 		size = 228
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
 	clergymen = {
 
 		size = 41
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
 	labourers = {
 
 		size = 1529
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
@@ -6122,21 +6122,21 @@
 	artisans = {
 
 		size = 45
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
 	clergymen = {
 
 		size = 68
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
 	farmers = {
 
 		size = 824
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
@@ -6179,7 +6179,7 @@
 	clergymen = {
 
 		size = 114
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
@@ -6193,7 +6193,7 @@
 	farmers = {
 
 		size = 1694
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
@@ -6204,28 +6204,28 @@
 	artisans = {
 
 		size = 45
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
 	bureaucrats = {
 
 		size = 1
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
 	clergymen = {
 
 		size = 68
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
 	farmers = {
 
 		size = 822
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
@@ -6307,7 +6307,7 @@
 	soldiers = {
 
 		size = 91
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
@@ -6408,21 +6408,21 @@
 	bureaucrats = {
 
 		size = 22
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
 	clergymen = {
 
 		size = 91
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
 	labourers = {
 
 		size = 8035
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
@@ -6440,7 +6440,7 @@
 	artisans = {
 
 		size = 45
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
@@ -6454,7 +6454,7 @@
 	clergymen = {
 
 		size = 22
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
@@ -6468,7 +6468,7 @@
 	farmers = {
 
 		size = 824
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
@@ -6482,7 +6482,7 @@
 	soldiers = {
 
 		size = 22
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
@@ -6714,7 +6714,7 @@
 	clergymen = {
 
 		size = 13
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
@@ -6728,7 +6728,7 @@
 	farmers = {
 
 		size = 627
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
@@ -6742,7 +6742,7 @@
 	soldiers = {
 
 		size = 9
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
@@ -6954,14 +6954,14 @@
 	clergymen = {
 
 		size = 2
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
 	farmers = {
 
 		size = 215
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}

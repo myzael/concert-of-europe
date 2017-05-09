@@ -1452,7 +1452,7 @@ the_statue_of_liberty = {
 
 gateway_to_america = {
 	immigrant_attract = 0.5
-	population_growth = 0.002
+	population_growth = 0.0005
 	icon = 19
 }
 

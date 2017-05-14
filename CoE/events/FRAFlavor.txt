@@ -1391,55 +1391,61 @@ country_event = {
 #########################################################
 
 country_event = {
-	id = 37240
-	title = "EVTNAME37240" #The Accession of Charles X
-	desc = "EVTDESC37240"
-	picture = "monarchy"
-	fire_only_once = yes
-	
-	news = yes
-	news_title = "EVTNAME37240_NEWS"
-	news_desc_long = "EVTDESC37240_NEWS_LONG"
-	news_desc_medium = "EVTDESC37240_NEWS_MEDIUM"
-	news_desc_short = "EVTDESC37240_NEWS_SHORT"
+    id = 37240
+    title = "EVTNAME37240" # The Accession of Charles X
+    desc = "EVTDESC37240"
+    picture = "monarchy"
+    fire_only_once = yes
 
-	trigger = {
-		tag = FRA
-		year = 1823
-		NOT = { 
-			has_country_flag = july_revolution
-		}
-	}
+    news = yes
+    news_title = "EVTNAME37240_NEWS"
+    news_desc_long = "EVTDESC37240_NEWS_LONG"
+    news_desc_medium = "EVTDESC37240_NEWS_MEDIUM"
+    news_desc_short = "EVTDESC37240_NEWS_SHORT"
 
-	mean_time_to_happen = {
-		months = 12
-	}
+    trigger = {
+        tag = FRA
+        year = 1824
+        month = 9 # September 16th historicaly
+        NOT = {
+                OR = {
+                        has_country_flag = july_revolution
+                        year = 1836 # Death of Charles X
+                }
+        }
+        OR = {
+                government = absolute_monarchy
+                government = prussian_constitutionalism
+                government = hms_government
+                government = theocracy
+        }
+    }
 
-	option = {
-		name = "Long live the king!"
-		set_country_flag = charles_x
-		political_reform = underground_parties
-		political_reform = no_meeting
-		plurality = -5
-		any_pop = {
-			limit = {
-				location = { is_colonial = no }
-			}
-			ideology = {
-				value = liberal
-				factor = 0.1
-			}
-			consciousness = 2
-			scaled_militancy = {
-				ideology = liberal
-				factor = 10
-			}
-		}
-		add_country_modifier = {
-			name = liberal_reaction
-			duration = 3650
-		}
-	}
+    option = {
+        name = "Long live the king!"
+        set_country_flag = charles_x
+        political_reform = underground_parties
+        political_reform = no_meeting
+        plurality = -5
+        any_pop = {
+            limit = {
+                location = { is_colonial = no }
+            }
+            ideology = {
+                value = liberal
+                factor = 0.1
+            }
+            consciousness = 2
+            scaled_militancy = {
+                ideology = liberal
+                factor = 10
+            }
+        }
+        add_country_modifier = {
+            name = liberal_reaction
+            duration = 3650
+        }
+    }
 }
 
 country_event = {

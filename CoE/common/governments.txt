@@ -20,7 +20,7 @@ proletarian_dictatorship2 =
 	
 	election = no
 	appoint_ruling_party = yes
-	flagType = communist
+	flagType = communist2
 }
 
 proletarian_dictatorship3 =
@@ -30,7 +30,7 @@ proletarian_dictatorship3 =
 	
 	election = no
 	appoint_ruling_party = yes
-	flagType = communist
+	flagType = communist3
 }
 
 
@@ -56,7 +56,7 @@ presidential_dictatorship2 =
 	
 	election = no
 	appoint_ruling_party = no
-	flagType = republic
+	flagType = republic2
 }
 
 presidential_dictatorship3 =
@@ -68,7 +68,7 @@ presidential_dictatorship3 =
 	
 	election = no
 	appoint_ruling_party = no
-	flagType = republic
+	flagType = republic3
 }
  
 bourgeois_dictatorship =
@@ -88,7 +88,7 @@ bourgeois_dictatorship2 =
 	
 	election = no
 	appoint_ruling_party = yes
-	flagType = republic
+	flagType = republic2
 }
 
 bourgeois_dictatorship3 =
@@ -98,7 +98,7 @@ bourgeois_dictatorship3 =
 	
 	election = no
 	appoint_ruling_party = yes
-	flagType = republic
+	flagType = republic3
 }
 
 fascist_dictatorship =
@@ -118,7 +118,7 @@ fascist_dictatorship2 =
 	
 	election = no
 	appoint_ruling_party = yes
-	flagType = fascist
+	flagType = fascist2
 }
 
 fascist_dictatorship3 =
@@ -128,7 +128,7 @@ fascist_dictatorship3 =
 	
 	election = no
 	appoint_ruling_party = yes
-	flagType = fascist
+	flagType = fascist3
 }
  
 absolute_monarchy = {
@@ -148,7 +148,7 @@ absolute_monarchy2 = {
 	
 	election = no
 	appoint_ruling_party = yes
-	flagType = monarchy
+	flagType = monarchy2
 }
 
 absolute_monarchy3 = {
@@ -158,7 +158,7 @@ absolute_monarchy3 = {
 	
 	election = no
 	appoint_ruling_party = yes
-	flagType = monarchy
+	flagType = monarchy3
 }
  
 prussian_constitutionalism = {
@@ -186,7 +186,7 @@ prussian_constitutionalism2 = {
 	election = yes
 	duration = 60
 	appoint_ruling_party = yes
-	flagType = monarchy
+	flagType = monarchy2
 }
 
 prussian_constitutionalism3 = {
@@ -200,7 +200,7 @@ prussian_constitutionalism3 = {
 	election = yes
 	duration = 60
 	appoint_ruling_party = yes
-	flagType = monarchy
+	flagType = monarchy3
 }
 
 hms_government = {
@@ -228,7 +228,7 @@ hms_government2 = {
 	election = yes
 	duration = 48
 	appoint_ruling_party = no
-	flagType = monarchy
+	flagType = monarchy2
 }
 
 hms_government3 = {
@@ -242,7 +242,7 @@ hms_government3 = {
 	election = yes
 	duration = 48
 	appoint_ruling_party = no
-	flagType = monarchy
+	flagType = monarchy3
 }
 
 democracy = {
@@ -274,7 +274,7 @@ democracy2 = {
 	election = yes
 	duration = 48
 	appoint_ruling_party = no
-	flagType = republic
+	flagType = republic2
 }
 
 democracy3 = {
@@ -290,7 +290,7 @@ democracy3 = {
 	election = yes
 	duration = 48
 	appoint_ruling_party = no
-	flagType = republic
+	flagType = republic3
 }
 
 theocracy = {
@@ -304,12 +304,12 @@ theocracy2 = {
 	reactionary = yes
 	
 	appoint_ruling_party = yes
-	flagType = theocracy
+	flagType = theocracy2
 }
 
 theocracy3 = {
 	reactionary = yes
 	
 	appoint_ruling_party = yes
-	flagType = theocracy
+	flagType = theocracy3
 }

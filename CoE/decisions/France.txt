@@ -577,7 +577,7 @@ political_decisions = {
             political_reform = appointed
             political_reform = censored_press
             plurality = -5
-            OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+            government = absolute_monarchy2
             ruling_party_ideology = reactionary
             any_pop = {
                 limit = {

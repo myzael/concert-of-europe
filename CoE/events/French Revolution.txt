@@ -108,7 +108,7 @@ country_event = {
 			}
 			change_controller = FRA
 		}
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		ruling_party_ideology = liberal
 		political_reform = universal_voting
 		political_reform = population_equal_weight
@@ -462,7 +462,7 @@ country_event = {
 		name = "Viva la 2nd Empire!"
 		set_country_flag = napoleons_coup_de_tat		
 		prestige = 25
-		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		government = absolute_monarchy
 		ruling_party_ideology = conservative
 		political_reform = none_voting
 		political_reform = no_meeting
@@ -575,7 +575,7 @@ country_event = {
 		set_country_flag = louis_deposed
 		remove_country_modifier = louis_napoleon_iii
 		prestige = -25
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		ruling_party_ideology = liberal
 		political_reform = universal_voting
 		political_reform = population_equal_weight
@@ -630,7 +630,7 @@ country_event = {
 			duration = 3650
 		}
 		prestige = 25
-		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		government = absolute_monarchy2
 		ruling_party_ideology = reactionary
 		political_reform = none_voting
 		political_reform = party_appointed
@@ -684,7 +684,7 @@ country_event = {
 			name = man_of_the_people
 			duration = 3650
 		}
-		OR = { government = hms_government government = hms_government2 government = hms_government3 }
+		government = hms_government3
 		ruling_party_ideology = conservative
 		political_reform = universal_voting
 		political_reform = state_equal_weight
@@ -820,6 +820,7 @@ country_event = {
 		set_country_flag = louis_deposed
 		remove_country_modifier = louis_napoleon_iii
 		prestige = 25
+		government = hms_government3
 		ruling_party_ideology = reactionary
 		add_country_modifier = {
 			name = man_of_the_people
@@ -860,7 +861,7 @@ country_event = {
 		set_country_flag = louis_deposed
 		remove_country_modifier = louis_napoleon_iii
 		prestige = -25
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		ruling_party_ideology = liberal
 		political_reform = universal_voting
 		political_reform = population_equal_weight

@@ -1568,7 +1568,7 @@ country_event = {
         political_reform = free_press
         political_reform = yes_meeting
         plurality = 10
-        OR = { government = hms_government government = hms_government2 government = hms_government3 }
+        government = hms_government2
         ruling_party_ideology = liberal
         any_pop = {
             limit = {

@@ -4,7 +4,7 @@ culture = french_canadian
 culture = picard
 culture = occitan
 religion = catholic
-government = prussian_constitutionalism
+government = prussian_constitutionalism2
 plurality = 5
 nationalvalue = nv_equality
 literacy = 0.59
@@ -38,12 +38,6 @@ land_property=commoners_properties
 child_labor = child_labor_restricted
 arts_endowment = no_endowment
 education = elite
-
-govt_flag = 
-	{
-		government = absolute_monarchy
-		flag = theocracy
-	}
 
 # Technologies
 post_napoleonic_thought = 1

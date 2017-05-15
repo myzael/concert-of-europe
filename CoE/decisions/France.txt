@@ -545,6 +545,63 @@ political_decisions = {
 				}
 				literacy = 0.45
 			}
+		    badboy = 15.2
 		}
 	}
+	
+    constitution_suspended = {
+        picture = sign_the_geneva_convention
+        potential = {
+            tag = FRA
+            OR = {
+                government = absolute_monarchy
+                government = prussian_constitutionalism
+            }
+            NOT = {
+                OR = {
+                    has_country_flag = july_revolution
+                    has_country_flag = three_glorious_days
+                }
+            }
+        }
+
+        allow = {
+            upper_house = {
+                    ideology = liberal
+                    value = 0.25
+            }
+        }
+
+        effect = {
+            set_country_flag = three_glorious_days
+            political_reform = appointed
+            political_reform = censored_press
+            plurality = -5
+            government = absolute_monarchy
+            ruling_party_ideology = reactionary
+            any_pop = {
+                limit = {
+                    location = { is_colonial = no }
+                }
+                ideology = {
+                    value = liberal
+                    factor = 0.2
+                }
+                consciousness = 4
+            }
+        }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        year = 1830
+                        month = 6
+                    }
+                }
+            }
+        }
+    }
 }

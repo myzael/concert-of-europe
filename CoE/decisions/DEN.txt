@@ -17,7 +17,7 @@ political_decisions = {
 		
 		effect = {
 			political_reform = landed_voting
-			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			government = hms_government
 			prestige = 5
 			set_country_flag = danish_constitutionalism
 		}

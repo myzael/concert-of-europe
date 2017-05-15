@@ -4360,7 +4360,7 @@ country_event = {
 				owner = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 			}
 			owner = {
-				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				government = prussian_constitutionalism
 				political_reform = landed_voting
 				political_reform = yes_meeting
 				political_reform = free_press
@@ -4528,7 +4528,7 @@ country_event = {
 			limit = {
 				owner = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 			}
-			owner = { OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } }
+			owner = { government = prussian_constitutionalism }
 		}
 		election = yes		
 		random_owned = {

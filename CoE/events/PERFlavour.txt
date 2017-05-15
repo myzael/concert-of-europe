@@ -249,7 +249,7 @@ country_event = {
 
 	option = {
 		name = "Long live the Emir!" 
-		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		government = absolute_monarchy
 		1223 = { add_core = AFG }
 		any_country = {
 			limit = {

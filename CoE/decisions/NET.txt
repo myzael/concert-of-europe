@@ -93,7 +93,7 @@ political_decisions = {
 			}
 			vote_franschise = wealth_weighted_voting
 			political_parties = gerrymandering
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			government = prussian_constitutionalism
 			any_pop = {
 				militancy = -4
 				consciousness = 2

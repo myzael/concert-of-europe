@@ -321,7 +321,7 @@ province_event = {
 				}
 				owner = {
 					political_reform = state_equal_weight
-					OR = { government = democracy government = democracy2 government = democracy3 }
+					government = democracy
 					clr_country_flag = conservative_constitution
 					set_country_flag = liberal_constitution
 				}
@@ -558,7 +558,7 @@ province_event = {
 				}
 				owner = {
 					political_reform = underground_parties
-					OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+					government = presidential_dictatorship
 					clr_country_flag = liberal_constitution
 					set_country_flag = conservative_constitution
 				}
@@ -901,7 +901,7 @@ country_event = {
 		political_reform = appointed
 		political_reform = none_voting
 		political_reform = underground_parties
-		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+		government = presidential_dictatorship
 		release = VNZ
 		relation = { who = VNZ value = -400 }
 		VNZ = {
@@ -1012,7 +1012,7 @@ country_event = {
 		political_reform = appointed
 		political_reform = none_voting
 		political_reform = underground_parties
-		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+		government = presidential_dictatorship
 		release = VNZ
 		diplomatic_influence = { who = VNZ value = 50 }
 		VNZ = {

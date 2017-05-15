@@ -80,7 +80,7 @@ country_event = {
 		political_reform = free_press
 		political_reform = non_socialist
 		political_reform = secret_ballots
-		OR = { government = hms_government government = hms_government2 government = hms_government3 }
+		government = hms_government
 		prestige = -15
 		badboy = 10
 		ai_chance = {
@@ -780,7 +780,7 @@ country_event = {
 		political_reform = free_press
 		political_reform = non_socialist
 		political_reform = secret_ballots
-		OR = { government = hms_government government = hms_government2 government = hms_government3 }
+		government = hms_government
 		prestige = -15
 		badboy = 10
 		any_country = {

@@ -63,7 +63,7 @@ country_event = {
 		1147 = { add_core = TKM } #Mashhad
 		2654 = { add_core = TKM } #Chardzhou
 		TKM = { civilized = yes }
-		TKM = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
+		TKM = { government = presidential_dictatorship }
 	}
 }
 
@@ -133,7 +133,7 @@ country_event = {
 			}
 		}
 		KAZ = { civilized = yes }
-		KAZ = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
+		KAZ = { government = presidential_dictatorship }
 	}
 }
 
@@ -199,7 +199,7 @@ country_event = {
 		1195 = { add_core = BUK } #Tashkent
 		1202 = { add_core = BUK } #Kokand
 		BUK = { civilized = yes }
-		BUK = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
+		BUK = { government = presidential_dictatorship }
 	}
 }
 
@@ -380,7 +380,7 @@ country_event = {
 		1209 = { add_core = TAJ } #Kabul
 		1213 = { add_core = TAJ } #Bamyan
 		TAJ = { civilized = yes }
-		TAJ = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
+		TAJ = { government = presidential_dictatorship }
 	}
 }
 
@@ -444,7 +444,7 @@ country_event = {
 		KOK = {
 			civilized = yes
 			primary_culture = kirgiz
-			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			government = presidential_dictatorship
 		}
 	}
 }

@@ -1709,7 +1709,7 @@ country_event = {
 		CYR = {
 			set_country_flag = existing_country
 			capital = 1738
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			government = theocracy
 			treasury = 15000
 			economic_reform = universities
 			create_alliance = WAD
@@ -3603,7 +3603,7 @@ country_event = {
 		set_country_flag = ottoman_constitution_refused
 		prestige = -25
 		ruling_party_ideology = reactionary
-		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		government = absolute_monarchy
 		political_reform = none_voting
 		political_reform = party_appointed
 		political_reform = no_meeting

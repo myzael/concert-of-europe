@@ -3659,13 +3659,15 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		modifier = {
+		    factor = 0.8
 			OR = {
 				nationalvalue = nv_independence
 				nationalvalue = nv_supremacy
 				nationalvalue = nv_glory
 				nationalvalue = nv_might
 			}
+		}
 	}
 	
 	option = {
@@ -4740,12 +4742,15 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+		    factor = 0.8
 			OR = {
 				nationalvalue = nv_independence
 				nationalvalue = nv_supremacy
 				nationalvalue = nv_glory
 				nationalvalue = nv_might
 			}
+		}
 	}
 	
 	option = {

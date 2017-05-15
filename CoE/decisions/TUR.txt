@@ -215,7 +215,7 @@ political_decisions = {
 			add_accepted_culture = misri
 			remove_country_modifier = tanzimat_era
 			ruling_party_ideology = reactionary
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			government = absolute_monarchy
 			political_reform = none_voting
 			political_reform = party_appointed
 			political_reform = no_meeting

@@ -802,7 +802,7 @@ country_event = {
 			add_core = SPC
 		}
 		change_tag = SPC
-		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		government = absolute_monarchy
 		ruling_party_ideology = reactionary
 		political_reform = none_voting
 		political_reform = party_appointed
@@ -2517,7 +2517,7 @@ country_event = {
 			duration = 1095
 		}
 		prestige = -10
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		ruling_party_ideology = liberal
 		set_country_flag = liberal_election_win
 		election = yes
@@ -2758,7 +2758,7 @@ country_event = {
 			name = national_instability
 			duration = 1095
 		}
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		ruling_party_ideology = liberal
 		set_country_flag = liberal_election_win
 		election = yes
@@ -2964,7 +2964,7 @@ country_event = {
 			name = national_instability
 			duration = 1095
 		}
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		ruling_party_ideology = liberal
 		set_country_flag = liberal_election_win
 		election = yes
@@ -3173,7 +3173,7 @@ country_event = {
 			duration = 365
 		}
 		prestige = 5
-		OR = { government = hms_government government = hms_government2 government = hms_government3 }
+		government = hms_government
 		ruling_party_ideology = conservative
 		set_country_flag = tory_election_win
 		any_pop = {
@@ -4533,7 +4533,7 @@ country_event = {
         political_reform = appointed
         political_reform = underground_parties
         political_reform = none_voting
-        OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+        government = absolute_monarchy
         add_country_modifier = {
             name = national_confusion
             duration = 365

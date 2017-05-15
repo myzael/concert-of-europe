@@ -1053,7 +1053,7 @@ country_event = {
 		clr_country_flag = political_showdown
 		clr_country_flag = election_overridden
 		prestige = -25
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		aristocrats = {
 			limit = { is_primary_culture = yes }
 			ideology = {
@@ -1239,7 +1239,7 @@ country_event = {
 		clr_country_flag = political_showdown
 		clr_country_flag = election_overridden
 		prestige = -25
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		aristocrats = {
 			limit = { is_primary_culture = yes }
 			ideology = {
@@ -1378,7 +1378,7 @@ country_event = {
 		clr_country_flag = political_showdown
 		clr_country_flag = election_overridden
 		prestige = -25
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		aristocrats = {
 			limit = { is_primary_culture = yes }
 			ideology = {
@@ -1698,7 +1698,7 @@ country_event = {
 		clr_country_flag = political_showdown
 		set_country_flag = election_overridden
 		ruling_party_ideology = liberal
-		OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		government = prussian_constitutionalism
 		random_owned = {
 			limit = {
 				owner = {
@@ -1751,7 +1751,7 @@ country_event = {
 		clr_country_flag = political_showdown
 		set_country_flag = election_overridden
 		ruling_party_ideology = conservative
-		OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		government = prussian_constitutionalism
 		random_owned = {
 			limit = {
 				owner = {
@@ -2390,7 +2390,7 @@ country_event = {
 			militancy = -8
 			consciousness = -4
 		}
-		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+		government = presidential_dictatorship
 		ruling_party_ideology = reactionary
 		political_reform = none_voting
 		political_reform = party_appointed

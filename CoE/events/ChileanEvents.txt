@@ -469,7 +469,7 @@ country_event = {
 	
 		name = "We need a strong president with high authority."
 		set_country_flag = chl_constitucion
-		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+		government = presidential_dictatorship
 				any_pop = {
 					ideology = {
 						value = reactionary

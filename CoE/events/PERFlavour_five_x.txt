@@ -2397,14 +2397,14 @@ country_event = {
 			}
 		}
 		plurality = 10
-		OR = { government = hms_government government = hms_government2 government = hms_government3 }
+		government = hms_government
 		#Added reforms below this point:
 		political_reform = universal_weighted_voting
 		political_reform = population_equal_weight
 		political_reform = jefferson_method
 		political_reform = yes_meeting
 		political_reform = free_press
-		political_reform = no_secret_ballots
+		political_reform = non_secret_ballots
 		political_reform = limited
 		any_neighbor_country = {
 			limit = {
@@ -2531,7 +2531,7 @@ province_event = {
 		}
 		KHR = {
 			civilized = yes
-			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			government = presidential_dictatorship
 		}
 		state_scope = {
 			any_owned = {
@@ -2658,7 +2658,7 @@ province_event = {
 		}
 		GLN = {
 			civilized = yes
-			OR = { government = democracy government = democracy2 government = democracy3 }
+			government = democracy
 		}
 		state_scope = {
 			any_owned = {
@@ -2780,7 +2780,7 @@ country_event = {
 			secede_province = GLN
 		}
 		GLN = {
-			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			government = proletarian_dictatorship
 			leadership = 80
 			add_country_modifier = {
 				name = small_country_draft
@@ -2918,7 +2918,7 @@ province_event = {
 		}
 		KHZ = {
 			civilized = yes
-			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			government = absolute_monarchy
 		}
 		1131 = {
 			add_province_modifier = {
@@ -3068,7 +3068,7 @@ country_event = {
 			name = csa_draft
 			duration = 1095
 		}
-		OR = { government = hms_government government = hms_government2 government = hms_government3 }
+		government = hms_government
 		ruling_party_ideology = liberal
 		upper_house = {
 			ideology = liberal
@@ -3200,7 +3200,7 @@ country_event = {
 		}
 		AZB = {
 			civilized = yes
-			OR = { government = democracy government = democracy2 government = democracy3 }
+			government = democracy
 			leadership = 80
 			add_country_modifier = {
 				name = small_country_draft

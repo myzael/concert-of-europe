@@ -98,7 +98,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = chinese_theocracy_done
 			prestige = 15
-			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			government = theocracy government
 			any_pop = {
 				consciousness = 3
 			}

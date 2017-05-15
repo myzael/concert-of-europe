@@ -357,7 +357,7 @@ political_decisions = {
 			prestige = 5
 			political_reform = landed_voting
 			political_reform = free_press
-			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			government = prussian_constitutionalism
 			any_pop = {
 				militancy = -3
 				consciousness = -3

@@ -881,7 +881,7 @@ country_event = {
 
 	option = {
 		name = "It was bound to happen."
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		ruling_party_ideology = liberal
 		clr_country_flag = tory_election_win
 		clr_country_flag = socialist_election_win
@@ -979,7 +979,7 @@ country_event = {
 	option = {
 		name = "We welcome El Presidente!"
 		prestige = -10
-		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+		government = presidential_dictatorship
 		ruling_party_ideology = conservative
 		political_reform = none_voting
 		political_reform = party_appointed
@@ -1348,7 +1348,7 @@ country_event = {
 		political_reform = appointed
 		political_reform = none_voting
 		political_reform = underground_parties
-		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		government = absolute_monarchy
 		plurality = -3
 		add_country_modifier = {
 			name = national_confusion
@@ -1401,7 +1401,7 @@ country_event = {
 		set_country_flag = first_empire
 		political_reform = wealth_voting
 		political_reform = non_secret_ballots
-		OR = { government = hms_government government = hms_government2 government = hms_government3 }
+		government = hms_government
 		plurality = 3
 		add_country_modifier = {
 			name = national_confusion
@@ -1645,7 +1645,7 @@ country_event = {
 		political_reform = state_equal_weight
 		political_reform = wealth_weighted_voting
 		political_reform = gerrymandering
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		plurality = 5
 		remove_country_modifier = liberal_reaction
 		add_country_modifier = {
@@ -1785,7 +1785,7 @@ country_event = {
 		political_reform = none_voting
 		political_reform = state_press
 		political_reform = underground_parties
-		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+		government = presidential_dictatorship
 		add_country_modifier = {
 			name = national_confusion
 			duration = 365

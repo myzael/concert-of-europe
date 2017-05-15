@@ -8942,7 +8942,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA96085" #We welcome the new regime.
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		ruling_party_ideology = liberal
 		political_reform = universal_weighted_voting
 		political_reform = population_equal_weight
@@ -9042,7 +9042,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA96085" #We welcome the new regime.
-		OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+		government = fascist_dictatorship
 		ruling_party_ideology = fascist
 		political_reform = none_voting
 		political_reform = party_appointed
@@ -9166,7 +9166,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA96085" #We welcome the new regime.
-		OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+		government = proletarian_dictatorship
 		ruling_party_ideology = communist
 		political_reform = none_voting
 		political_reform = party_appointed
@@ -9315,7 +9315,7 @@ country_event = {
 				}
 			}
 			owner = {
-				OR = { government = democracy government = democracy2 government = democracy3 }
+				government = democracy
 				election = yes
 			}
 		}
@@ -9323,7 +9323,7 @@ country_event = {
 			limit = {
 				owner = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 			}
-			owner = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
+			owner = { government = presidential_dictatorship }
 		}
 		aristocrats = {
 			ideology = {

@@ -310,7 +310,7 @@ country_event = {
 
 	option = {
 		name = "We must keep order in Ecuador."
-		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+		government = presidential_dictatorship
 		ruling_party_ideology = reactionary
 		political_reform = none_voting
 		political_reform = party_appointed
@@ -359,7 +359,7 @@ country_event = {
 
 	option = {
 		name = "Hail El Presidente!"
-		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+		government = presidential_dictatorship
 		ruling_party_ideology = conservative
 		political_reform = none_voting
 		political_reform = party_appointed
@@ -1251,7 +1251,7 @@ country_event = {
 	option = {
 		name = "$COUNTRY$ needs its freedom."
 		set_country_flag = liberal_constitution
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		political_reform = wealth_voting
 		political_reform = gerrymandering
 		political_reform = state_equal_weight
@@ -1293,7 +1293,7 @@ country_event = {
 	option = {
 		name = "$COUNTRY$ needs a firm hand."
 		set_country_flag = conservative_constitution
-		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+		government = presidential_dictatorship
 		political_reform = landed_voting
 		political_reform = underground_parties
 		political_reform = appointed

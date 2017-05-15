@@ -202,7 +202,7 @@ country_event = {
 		ruling_party_ideology = reactionary
 		political_reform = appointed
 		political_reform = harassment
-		OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+		government = prussian_constitutionalism
 		clr_country_flag = tory_election_win
 		clr_country_flag = socialist_election_win
 		clr_country_flag = liberal_election_win
@@ -1946,7 +1946,7 @@ country_event = {
 		political_reform = appointed
 		political_reform = underground_parties
 		political_reform = none_voting
-		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+		government = absolute_monarchy
 		ruling_party_ideology = reactionary
 		relation = { who = BRZ value = -100 }
 		leave_alliance = BRZ

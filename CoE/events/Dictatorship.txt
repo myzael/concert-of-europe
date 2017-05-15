@@ -344,7 +344,7 @@ country_event = {
 		remove_country_modifier = revolutionary_society
 		remove_country_modifier = power_vacuum
 		set_country_flag = dictatorship_overthrown
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		election = yes
 		ruling_party_ideology = liberal
 		political_reform = population_equal_weight
@@ -821,7 +821,7 @@ country_event = {
 		}
 		set_country_flag = dictatorship_overthrown
 		prestige = 5
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		election = yes
 		ruling_party_ideology = liberal
 		political_reform = population_equal_weight

@@ -1607,7 +1607,7 @@ country_event = {
 		set_country_flag = reorganization
 		political_reform = none_voting
 		political_reform = underground_parties
-		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+		government = presidential_dictatorship
 		add_country_modifier = {
 			name = national_confusion
 			duration = 365

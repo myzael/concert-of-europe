@@ -1434,7 +1434,7 @@ country_event = {
 			}
 		}
 		years_of_research = 0.5
-		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+		government = presidential_dictatorship
 		ruling_party_ideology = conservative
 		ai_chance = {
 			factor = 30
@@ -1540,7 +1540,7 @@ country_event = {
 				owner = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 			}
 			TAI = {
-				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				government = absolute_monarchy
 				ruling_party_ideology = reactionary
 				political_reform = none_voting
 				political_reform = party_appointed
@@ -1555,7 +1555,7 @@ country_event = {
 				owner = { OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } }
 			}
 			TAI = {
-				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				government = prussian_constitutionalism
 				ruling_party_ideology = reactionary
 				political_reform = landed_voting
 				political_reform = party_appointed
@@ -1570,7 +1570,7 @@ country_event = {
 				owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }
 			}
 			TAI = {
-				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				government = hms_government
 			}
 		}
 		random_owned = {
@@ -1578,7 +1578,7 @@ country_event = {
 				owner = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 			}
 			TAI = {
-				OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+				government = presidential_dictatorship
 				ruling_party_ideology = reactionary
 				political_reform = none_voting
 				political_reform = party_appointed
@@ -1593,7 +1593,7 @@ country_event = {
 				owner = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 			}
 			TAI = {
-				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+				government = fascist_dictatorship
 				ruling_party_ideology = fascist
 				political_reform = none_voting
 				political_reform = party_appointed
@@ -1608,7 +1608,7 @@ country_event = {
 				owner = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			}
 			TAI = {
-				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+				government = proletarian_dictatorship
 				ruling_party_ideology = communist
 				political_reform = none_voting
 				political_reform = party_appointed

@@ -246,7 +246,7 @@ country_event = {
 	trigger = {
 		tag = ECU
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		year = 1842
 		election = yes
 		NOT = { year = 1860 }
@@ -310,7 +310,7 @@ country_event = {
 
 	option = {
 		name = "We must keep order in Ecuador."
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		ruling_party_ideology = reactionary
 		political_reform = none_voting
 		political_reform = party_appointed
@@ -343,7 +343,7 @@ country_event = {
 	trigger = {
 		tag = ECU
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		year = 1860
 		NOT = { year = 1885 }
 		OR = {
@@ -359,7 +359,7 @@ country_event = {
 
 	option = {
 		name = "Hail El Presidente!"
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		ruling_party_ideology = conservative
 		political_reform = none_voting
 		political_reform = party_appointed
@@ -1251,7 +1251,7 @@ country_event = {
 	option = {
 		name = "$COUNTRY$ needs its freedom."
 		set_country_flag = liberal_constitution
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		political_reform = wealth_voting
 		political_reform = gerrymandering
 		political_reform = state_equal_weight
@@ -1293,7 +1293,7 @@ country_event = {
 	option = {
 		name = "$COUNTRY$ needs a firm hand."
 		set_country_flag = conservative_constitution
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		political_reform = landed_voting
 		political_reform = underground_parties
 		political_reform = appointed

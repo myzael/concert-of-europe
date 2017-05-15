@@ -320,7 +320,7 @@ political_decisions = {
 	award_order_of_st_francis = {
 		potential = {
 			tag = SIC
-			government = absolute_monarchy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			NOT = { has_country_flag = order_awarded }
 		}
 
@@ -341,7 +341,7 @@ political_decisions = {
 				tag = SAR
 				tag = SVY
 			}
-			government = absolute_monarchy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			NOT = { has_country_flag = get_your_statuto_albertino_here }
 		}
 
@@ -357,7 +357,7 @@ political_decisions = {
 			prestige = 5
 			political_reform = landed_voting
 			political_reform = free_press
-			government = prussian_constitutionalism
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 			any_pop = {
 				militancy = -3
 				consciousness = -3
@@ -370,9 +370,9 @@ political_decisions = {
 		potential = {
 			tag = ITA
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			NOT = { has_country_flag = vittoriano_built }
 		}
@@ -394,7 +394,7 @@ political_decisions = {
 	the_case_of_edgardo_mortara = {
 		potential = {
 			tag = PAP
-			government = theocracy
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 			NOT = { has_country_flag = edgardo_mortara }
 			year = 1858
 			owns = 741
@@ -422,7 +422,7 @@ political_decisions = {
 			tag = PAP
 			OR = {
 				AND = {
-					government = theocracy
+					OR = { government = theocracy government = theocracy2 government = theocracy3 }
 					has_global_flag = pius_IX_reforms
 				}
 			}
@@ -674,9 +674,9 @@ political_decisions = {
 		allow = {
 			war = no
 			OR = {
-				government = prussian_constitutionalism
-				government = hms_government
-				government = democracy
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			OR = {
 				VEN = { exists = no }
@@ -858,9 +858,9 @@ political_decisions = {
 		
 		allow = {
 			OR = {
-				government = prussian_constitutionalism
-				government = hms_government
-				government = democracy
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 		}
 		
@@ -886,7 +886,7 @@ political_decisions = {
 				exists = ITA
 				has_global_flag = italian_call_to_union
 				has_global_flag = garibaldi_redshirts
-				government = theocracy
+				OR = { government = theocracy government = theocracy2 government = theocracy3 }
 			}
 		}
 		

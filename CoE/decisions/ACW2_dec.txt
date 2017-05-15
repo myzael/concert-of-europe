@@ -18,7 +18,7 @@ political_decisions = {
 			war = no
 			is_greater_power = no
 			is_secondary_power = no
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			OR = {
 				part_of_sphere = no
 				sphere_owner = { is_sphere_leader_of = CSA }
@@ -26,7 +26,7 @@ political_decisions = {
 			}
 			CSA = {
 				war = no
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				NOT = { truce_with = THIS }
 			}
 			OR = {
@@ -66,7 +66,7 @@ political_decisions = {
 			war = no
 			is_greater_power = no
 			is_secondary_power = no
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			OR = {
 				part_of_sphere = no
 				sphere_owner = { is_sphere_leader_of = FSA }
@@ -74,7 +74,7 @@ political_decisions = {
 			}
 			FSA = {
 				war = no
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				NOT = { truce_with = THIS }
 			}
 			OR = {
@@ -113,7 +113,7 @@ political_decisions = {
 			war = no
 			is_greater_power = no
 			is_secondary_power = no
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			OR = {
 				part_of_sphere = no
 				sphere_owner = { is_sphere_leader_of = CAL }
@@ -121,7 +121,7 @@ political_decisions = {
 			}
 			CAL = {
 				war = no
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				NOT = { truce_with = THIS }
 			}
 			OR = {
@@ -158,7 +158,7 @@ political_decisions = {
 			war = no
 			is_greater_power = no
 			is_secondary_power = no
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			OR = {
 				part_of_sphere = no
 				sphere_owner = { is_sphere_leader_of = UIL }
@@ -166,7 +166,7 @@ political_decisions = {
 			}
 			UIL = {
 				war = no
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				NOT = { truce_with = THIS }
 			}
 			OR = {
@@ -225,14 +225,14 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			OR = {
 				sphere_owner = { is_sphere_leader_of = USA }
 				in_sphere = USA
 			}
 			USA = {
 				war = no
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				relation = { who = THIS value = 150 }
 			}
 		}

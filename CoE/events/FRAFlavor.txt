@@ -146,7 +146,7 @@ country_event = {
 		exists = yes
 		year = 1840
 		war = no
-		government = hms_government
+		OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		NOT = {
 			ruling_party_ideology = liberal
 			year = 1843
@@ -371,7 +371,7 @@ country_event = {
 		tag = FRA
 		exists = yes
 		year = 1845
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		war = no
 		NOT = {
 			year = 1851
@@ -1414,10 +1414,10 @@ country_event = {
                 }
         }
         OR = {
-                government = absolute_monarchy
-                government = prussian_constitutionalism
-                government = hms_government
-                government = theocracy
+                OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+                OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+                OR = { government = hms_government government = hms_government2 government = hms_government3 }
+                OR = { government = theocracy government = theocracy2 government = theocracy3 }
         }
     }
 
@@ -1497,7 +1497,7 @@ country_event = {
 #		political_reform = none_voting
 #		political_reform = censored_press
 #		plurality = -5
-#		government = absolute_monarchy
+#		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 #		ruling_party_ideology = reactionary
 #		any_pop = {
 #			limit = {
@@ -1539,9 +1539,9 @@ country_event = {
                     average_militancy = 5
                 }
                 OR = {
-                       government = absolute_monarchy
-                       government = prussian_constitutionalism
-                       government = theocracy
+                       OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+                       OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+                       OR = { government = theocracy government = theocracy2 government = theocracy3 }
                 }
                 NOT = {
                     year = 1836
@@ -1568,7 +1568,7 @@ country_event = {
         political_reform = free_press
         political_reform = yes_meeting
         plurality = 10
-        government = hms_government
+        OR = { government = hms_government government = hms_government2 government = hms_government3 }
         ruling_party_ideology = liberal
         any_pop = {
             limit = {

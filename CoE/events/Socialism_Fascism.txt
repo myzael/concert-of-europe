@@ -26,11 +26,11 @@ province_event = {
 		NOT = { has_province_modifier = labor_union }
 		owner = {
 			OR = {
-				government = prussian_constitutionalism
-				government = democracy
-				government = hms_government
-				government = absolute_monarchy
-				government = theocracy
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = theocracy government = theocracy2 government = theocracy3 }
 			}
 			OR = {
 				trade_unions = non_socialist
@@ -228,11 +228,11 @@ country_event = {
 		civilized = yes
 		socialist = 5
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		OR = {
 			trade_unions = non_socialist
@@ -405,11 +405,11 @@ province_event = {
 		socialist = 10
 		owner = {
 			OR = {
-				government = prussian_constitutionalism
-				government = democracy
-				government = hms_government
-				government = absolute_monarchy
-				government = theocracy
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = theocracy government = theocracy2 government = theocracy3 }
 			}
 			OR = {
 				trade_unions = non_socialist
@@ -622,11 +622,11 @@ country_event = {
 		civilized = yes
 		socialist = 15
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		OR = {
 			trade_unions = non_socialist
@@ -782,11 +782,11 @@ province_event = {
 		socialist = 10
 		owner = {
 			OR = {
-				government = prussian_constitutionalism
-				government = democracy
-				government = hms_government
-				government = absolute_monarchy
-				government = theocracy
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = theocracy government = theocracy2 government = theocracy3 }
 			}
 			OR = {
 				trade_unions = non_socialist
@@ -1027,11 +1027,11 @@ country_event = {
 		is_ideology_enabled = socialist
 		civilized = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		OR = {
 			trade_unions = non_socialist
@@ -1183,11 +1183,11 @@ country_event = {
 		year = 1886
 		socialist = 10
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		public_meetings = yes_meeting
 		NOT = {
@@ -1338,11 +1338,11 @@ country_event = {
 		is_ideology_enabled = socialist
 		civilized = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		press_rights = free_press
 	}
@@ -1486,11 +1486,11 @@ country_event = {
 		is_ideology_enabled = socialist
 		civilized = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		any_owned_province = {
 			OR = {
@@ -1695,11 +1695,11 @@ country_event = {
 		civilized = yes
 		socialist = 5
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		any_state = {
 			has_building = factory
@@ -1884,11 +1884,11 @@ country_event = {
 		NOT = { fascist = 5 }
 		civilized = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		OR = {
 			nationalvalue = nv_supremacy
@@ -2089,11 +2089,11 @@ country_event = {
 		public_meetings = yes_meeting
 		NOT = { has_country_flag = paramilitaries_outlawed }
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		OR = {
 			nationalvalue = nv_supremacy
@@ -2294,11 +2294,11 @@ country_event = {
 		is_ideology_enabled = fascist
 		civilized = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		any_owned_province = {
 			is_colonial = no
@@ -2496,11 +2496,11 @@ country_event = {
 		civilized = yes
 		fascist = 30
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		NOT = { has_country_flag = march_on_capital }
 	}
@@ -2634,7 +2634,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB17630"
-		government = fascist_dictatorship
+		OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		ruling_party_ideology = fascist
 		political_reform = none_voting
 		political_reform = party_appointed
@@ -2720,11 +2720,11 @@ country_event = {
 		civilized = yes
 		war = no
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		OR = {
 			nationalvalue = nv_supremacy
@@ -2936,11 +2936,11 @@ country_event = {
 		civilized = yes
 		press_rights = free_press
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		OR = {
 			nationalvalue = nv_supremacy
@@ -3117,11 +3117,11 @@ country_event = {
 		is_ideology_enabled = fascist
 		civilized = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		any_owned_province = {
 			has_province_modifier = black_shirts
@@ -3303,11 +3303,11 @@ country_event = {
 		civilized = yes
 		fascist = 10
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		OR = {
 			nationalvalue = nv_supremacy
@@ -3512,11 +3512,11 @@ country_event = {
 		civilized = yes
 		fascist = 10
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		any_owned_province = {
 			has_province_modifier = black_shirts
@@ -3699,11 +3699,11 @@ country_event = {
 		is_ideology_enabled = fascist
 		civilized = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		any_owned_province = {
 			is_colonial = no
@@ -3903,11 +3903,11 @@ country_event = {
 		civilized = yes
 		NOT = { trade_unions = no_trade_unions }
 		OR = {
-			government = prussian_constitutionalism
-			government = democracy
-			government = hms_government
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		any_owned_province = {
 			is_colonial = no
@@ -4121,8 +4121,8 @@ country_event = {
 			}
 		}
 		NOT = {
-			government = proletarian_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -4237,7 +4237,7 @@ country_event = {
 		modifier = {
 			factor = 0.8
 			any_neighbor_country = {
-				government = proletarian_dictatorship
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 			}
 		}
 	}
@@ -4328,8 +4328,8 @@ country_event = {
 			modifier = {
 				factor = 0.5
 				OR = {
-					government = theocracy
-					government = absolute_monarchy
+					OR = { government = theocracy government = theocracy2 government = theocracy3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				}
 			}
 		}		
@@ -4352,11 +4352,11 @@ country_event = {
 			socialist = 20
 		}
 		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = theocracy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 	}
 
@@ -4417,13 +4417,13 @@ country_event = {
 		modifier = {
 			factor = 0.75
 			OR = {
-				government = theocracy
-				government = absolute_monarchy
+				OR = { government = theocracy government = theocracy2 government = theocracy3 }
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 		}
 		modifier = {
 			factor = 1.25
-			government = prussian_constitutionalism
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 		modifier = {
 			factor = 0.75
@@ -4479,7 +4479,7 @@ country_event = {
 		modifier = {
 			factor = 0.8
 			any_neighbor_country = {
-				government = proletarian_dictatorship
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 			}
 		}
 	}
@@ -4567,8 +4567,8 @@ country_event = {
 			average_militancy = 4
 		}
 		NOT = {
-			government = proletarian_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -4683,7 +4683,7 @@ country_event = {
 		modifier = {
 			factor = 0.8
 			any_neighbor_country = {
-				government = proletarian_dictatorship
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 			}
 		}
 	}
@@ -4776,8 +4776,8 @@ province_event = {
 		}
 		owner = {
 			NOT = {
-				government = proletarian_dictatorship
-				government = fascist_dictatorship
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 			}
 			civilized = yes
 			public_meetings = yes_meeting
@@ -4877,7 +4877,7 @@ province_event = {
 		modifier = {
 			factor = 0.8
 			any_neighbor_province = {
-				owner = { government = proletarian_dictatorship }
+				owner = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			}
 		}
 		modifier = {

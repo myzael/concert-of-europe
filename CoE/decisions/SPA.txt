@@ -6,9 +6,9 @@ political_decisions = {
 				tag = IBR
 			}
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			has_country_flag = carlism_questioned
 			NOT = { has_country_flag = guardia_civil_established }
@@ -78,7 +78,7 @@ political_decisions = {
 		potential = {
 			tag = SPA
 			has_country_flag = king_alfonso_rules
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			NOT = { has_country_flag = spanish_restoration }
 		}
 		

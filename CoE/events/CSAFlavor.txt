@@ -247,7 +247,7 @@ country_event = {
 					ruling_party_ideology = conservative
 					ruling_party_ideology = fascist
 					NOT = {
-						government = democracy
+						OR = { government = democracy government = democracy2 government = democracy3 }
 					}
 				}
 			}
@@ -350,7 +350,7 @@ country_event = {
 					ruling_party_ideology = conservative
 					ruling_party_ideology = fascist
 					NOT = {
-						government = democracy
+						OR = { government = democracy government = democracy2 government = democracy3 }
 					}
 				}
 			}
@@ -413,7 +413,7 @@ country_event = {
 				ruling_party_ideology = conservative
 				ruling_party_ideology = fascist
 				NOT = {
-					government = democracy
+					OR = { government = democracy government = democracy2 government = democracy3 }
 				}
 			}
 		}
@@ -503,7 +503,7 @@ country_event = {
 					ruling_party_ideology = conservative
 					ruling_party_ideology = fascist
 					NOT = {
-						government = democracy
+						OR = { government = democracy government = democracy2 government = democracy3 }
 					}
 				}
 			}

@@ -658,7 +658,7 @@ country_event = {
 		tag = TKG
 		exists = yes
 		year = 1858
-		government = absolute_monarchy
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		NOT = { has_global_flag = yoshinobu_shogun }
 		NOT = { has_global_flag = iemochi_shogun }
 		NOT = { has_global_flag = boshin_war }
@@ -976,7 +976,7 @@ country_event = {
 		tag = TKG
 		exists = yes
 		year = 1860
-		government = absolute_monarchy
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		OR = {
 			has_country_modifier = kobu_gattai
 			has_country_flag = sakuradamon_incident
@@ -1042,7 +1042,7 @@ country_event = {
 	trigger = {
 		tag = TKG
 		exists = yes
-		government = absolute_monarchy
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		OR = {
 			has_country_flag = caved_to_commodore_perry
 			has_country_flag = surrendered_to_perry
@@ -1946,8 +1946,8 @@ country_event = {
 		exists = yes
 		war = no
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		OR = {
 			liberal = 10
@@ -2067,8 +2067,8 @@ country_event = {
 		exists = yes
 		war = no
 		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 		has_country_flag = han_system_abolished
 		owns = 1662
@@ -2083,7 +2083,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.5
-			government = prussian_constitutionalism
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	

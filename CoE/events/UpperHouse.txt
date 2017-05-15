@@ -1407,9 +1407,9 @@ country_event = {
 			ruling_party_ideology = communist
 		}
 		OR = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 		war = no
 		OR = {

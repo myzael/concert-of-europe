@@ -216,7 +216,7 @@ country_event = {
 	trigger = {
 		tag = AFG
 		year = 1823
-		government = theocracy
+		OR = { government = theocracy government = theocracy2 government = theocracy3 }
 	}
 	
 	mean_time_to_happen = {
@@ -249,7 +249,7 @@ country_event = {
 
 	option = {
 		name = "Long live the Emir!" 
-		government = absolute_monarchy
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		1223 = { add_core = AFG }
 		any_country = {
 			limit = {

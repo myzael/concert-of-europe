@@ -3,8 +3,8 @@ political_decisions = {
 		potential = {
 			tag = MEX
 			OR = {
-				government = hms_government
-				government = democracy
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			slavery = no_slavery
 			NOT = {
@@ -40,8 +40,8 @@ political_decisions = {
 				}
 			}
 			OR = {
-				government = hms_government
-				government = democracy
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			slavery = no_slavery
 			NOT = {
@@ -73,8 +73,8 @@ political_decisions = {
 				tag = PBC
 			}
 			OR = {
-				government = hms_government
-				government = democracy
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			slavery = no_slavery
 			NOT = {
@@ -105,8 +105,8 @@ political_decisions = {
 				tag = GCO
 			}
 			OR = {
-				government = hms_government
-				government = democracy
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			slavery = no_slavery
 			NOT = {

@@ -3,7 +3,7 @@ political_decisions = {
 	apply_for_USA_statehood = {
 		potential = {	
 			exists = USA
-			USA = { government = democracy }
+			USA = { OR = { government = democracy government = democracy2 government = democracy3 } }
 			OR = {
 				tag = TEX
 				tag = DES
@@ -19,7 +19,7 @@ political_decisions = {
 				in_sphere = USA
 			}
 			ai = yes
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			NOT = { has_country_flag = usstatehood_we_have_applied }
 		}
 		allow = {
@@ -134,7 +134,7 @@ political_decisions = {
 				tag = CSA
 				tag = FSA
 			}
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			NOT = {
 				has_country_modifier = the_homestead_act
 			}

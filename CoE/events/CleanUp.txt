@@ -14,7 +14,7 @@ country_event = {
 		is_vassal = no
 		civilized = yes
 		ruling_party_ideology = communist #seems less likely to be satisfied than being a proletarian_dictatorship code_optimalisation
-		NOT = { government = proletarian_dictatorship }
+		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 		average_militancy = 3
 		OR = {
 			num_of_revolts = 1
@@ -48,7 +48,7 @@ country_event = {
 	major = yes
 	option = {
 		name = "EVTOPTA60000"
-		government = proletarian_dictatorship
+		OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 		political_reform = none_voting
 		political_reform = party_appointed
 		political_reform = no_meeting
@@ -92,7 +92,7 @@ country_event = {
 		exists = yes
 		is_vassal = no
 		civilized = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		ruling_party_ideology = reactionary
 		average_militancy = 3
 		OR = {
@@ -138,7 +138,7 @@ country_event = {
 	major = yes
 	option = {
 		name = "This is only temporary until the crisis passes"
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		political_reform = none_voting
 		political_reform = party_appointed
 		political_reform = no_meeting
@@ -201,7 +201,7 @@ country_event = {
 		is_vassal = no
 		civilized = yes
 		ruling_party_ideology = anarcho_liberal #moved one up. seems less likely to be satisfied than government type code_optimalisation
-		NOT = { government = bourgeois_dictatorship }
+		NOT = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }
 		average_militancy = 3
 		OR = {
 			num_of_revolts = 1
@@ -234,7 +234,7 @@ country_event = {
 	major = yes
 	option = {
 		name = "EVTOPTA60020"
-		government = bourgeois_dictatorship
+		OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
 		political_reform = none_voting
 		political_reform = party_appointed
 		political_reform = yes_meeting
@@ -273,7 +273,7 @@ country_event = {
 		is_vassal = no
 		civilized = yes
 		ruling_party_ideology = fascist #moved one up. seems less likely to be satisfied than government type code_optimalisation
-		NOT = { government = fascist_dictatorship }
+		NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 		average_militancy = 3
 		OR = {
 			num_of_revolts = 1
@@ -306,7 +306,7 @@ country_event = {
 	major = yes
 	option = {
 		name = "Our destiny awaits."
-		government = fascist_dictatorship
+		OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		political_reform = none_voting
 		political_reform = party_appointed
 		political_reform = no_meeting
@@ -342,10 +342,10 @@ country_event = {
 	trigger = {
 		exists = yes
 		OR = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 		civilized = yes
 		NOT = { vote_franschise = none_voting }
@@ -360,7 +360,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA60050"
 		remove_country_modifier = fight_the_power
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		election = yes
 	}
 }
@@ -374,8 +374,8 @@ country_event = {
 	trigger = {
 		exists = yes
 		OR = {
-			government = hms_government
-			government = prussian_constitutionalism
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 		civilized = yes	
 		vote_franschise = none_voting
@@ -387,7 +387,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA60040"
-		government = absolute_monarchy
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		clr_country_flag = tory_election_win
 		clr_country_flag = socialist_election_win
 		clr_country_flag = liberal_election_win
@@ -413,8 +413,8 @@ country_event = {
 	trigger = {
 		exists = yes
 		OR = {
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 		NOT = { vote_franschise = none_voting }		
 		civilized = yes	
@@ -426,7 +426,7 @@ country_event = {
 	
 	option = {
 		name = "EVTNAME60060"
-		government = prussian_constitutionalism
+		OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 	}
 }
 
@@ -443,7 +443,7 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		government = prussian_constitutionalism
+		OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		OR = {
 			political_parties = secret_ballots
 			political_parties = non_secret_ballots
@@ -461,7 +461,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA60070"
-		government = hms_government
+		OR = { government = hms_government government = hms_government2 government = hms_government3 }
 	}
 }
 
@@ -478,7 +478,7 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		vote_franschise = none_voting		
 		OR = {
 			ruling_party_ideology = conservative
@@ -495,7 +495,7 @@ country_event = {
 	major = yes
 	option = {
 		name = "Long Live the President!"
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		clr_country_flag = tory_election_win
 		clr_country_flag = socialist_election_win
 		clr_country_flag = liberal_election_win
@@ -520,7 +520,7 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		vote_franschise = none_voting
 		ruling_party_ideology = anarcho_liberal
 		civilized = yes
@@ -532,7 +532,7 @@ country_event = {
 	major = yes
 	option = {
 		name = "Long Live the Bourgeois!"
-		government = bourgeois_dictatorship
+		OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
 		clr_country_flag = tory_election_win
 		clr_country_flag = socialist_election_win
 		clr_country_flag = liberal_election_win
@@ -557,7 +557,7 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		vote_franschise = none_voting
 		ruling_party_ideology = communist
 		civilized = yes
@@ -569,7 +569,7 @@ country_event = {
 	major = yes
 	option = {
 		name = "The Workers have prevailed!"
-		government = proletarian_dictatorship
+		OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 		clr_country_flag = tory_election_win
 		clr_country_flag = socialist_election_win
 		clr_country_flag = liberal_election_win
@@ -594,7 +594,7 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		vote_franschise = none_voting
 		ruling_party_ideology = fascist
 		civilized = yes
@@ -606,7 +606,7 @@ country_event = {
 	major = yes
 	option = {
 		name = "The $COUNTRY_ADJ$ Destiny!"
-		government = fascist_dictatorship
+		OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		clr_country_flag = tory_election_win
 		clr_country_flag = socialist_election_win
 		clr_country_flag = liberal_election_win

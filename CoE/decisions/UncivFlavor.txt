@@ -640,8 +640,8 @@ political_decisions = {
 		allow = {
 			war = no
 			OR = {
-				government = theocracy
-				government = absolute_monarchy
+				OR = { government = theocracy government = theocracy2 government = theocracy3 }
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 			owns = 1796
 			owns = 1800
@@ -690,7 +690,7 @@ political_decisions = {
 
 		allow = {
 			war = no
-			government = absolute_monarchy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			owns = 1794
 			owns = 1786
 			owns = 1789

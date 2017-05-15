@@ -22,18 +22,18 @@ country_event = {
 			has_country_flag = royal_heir_born
 		}
 		OR = {
-			government = prussian_constitutionalism
-			government = absolute_monarchy
-			government = hms_government
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		any_neighbor_country = {
 			war = no
 			NOT = { truce_with = THIS }		
 			civilized = yes
 			OR = {
-				government = prussian_constitutionalism
-				government = absolute_monarchy
-				government = hms_government
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			relation = {
 				who = THIS
@@ -73,9 +73,9 @@ country_event = {
 				NOT = { truce_with = THIS }		
 				civilized = yes
 				OR = {
-					government = prussian_constitutionalism
-					government = absolute_monarchy
-					government = hms_government
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 				relation = {
 					who = THIS
@@ -167,9 +167,9 @@ country_event = {
 			has_country_flag = royal_heir_born
 		}
 		OR = {
-			government = prussian_constitutionalism
-			government = absolute_monarchy
-			government = hms_government
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		NOT = {
 			any_neighbor_country = {
@@ -177,9 +177,9 @@ country_event = {
 				NOT = { truce_with = THIS }
 				civilized = yes
 				OR = {
-					government = prussian_constitutionalism
-					government = absolute_monarchy
-					government = hms_government
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 				relation = {
 					who = THIS
@@ -254,9 +254,9 @@ country_event = {
 		has_country_flag = royal_wedding
 		NOT = { has_country_flag = royal_heir_born }
 		OR = {
-			government = prussian_constitutionalism
-			government = absolute_monarchy
-			government = hms_government
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 	mean_time_to_happen = {
@@ -293,9 +293,9 @@ country_event = {
 		exists = yes
 		has_country_flag = royal_heir_born
 		OR = {
-			government = prussian_constitutionalism
-			government = absolute_monarchy
-			government = hms_government
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 	mean_time_to_happen = {
@@ -345,9 +345,9 @@ country_event = {
 		exists = yes
 		has_country_flag = royal_heir_born
 		OR = {
-			government = prussian_constitutionalism
-			government = absolute_monarchy
-			government = hms_government
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 	mean_time_to_happen = {
@@ -402,7 +402,7 @@ country_event = {
 	trigger = {
 		exists = yes
 		civilized = yes
-		government = absolute_monarchy
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		liberal = 10
 		OR = {
 			has_country_modifier = global_liberal_agitation
@@ -553,7 +553,7 @@ country_event = {
 
 	trigger = {
 		exists = yes
-		government = absolute_monarchy
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		has_country_flag = monarchy_agitation
 		any_owned_province = {
 			is_colonial = no
@@ -730,7 +730,7 @@ country_event = {
 
 	trigger = {
 		exists = yes
-		government = absolute_monarchy
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		has_country_flag = monarchy_agitation
 		press_rights = free_press
 		any_owned_province = {
@@ -887,7 +887,7 @@ country_event = {
 	trigger = {
 		exists = yes
 		has_country_flag = monarchy_agitation
-		government = absolute_monarchy
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		any_owned_province = {
 			is_capital = yes
 			OR = {
@@ -1085,7 +1085,7 @@ country_event = {
 
 	trigger = {
 		exists = yes
-		government = absolute_monarchy
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		has_country_flag = overthrow_the_monarch
 		OR = {
 			average_consciousness = 4
@@ -1285,7 +1285,7 @@ country_event = {
 
 	trigger = {
 		exists = yes
-		NOT = { government = absolute_monarchy }
+		NOT = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 		has_country_flag = monarchy_revolution_initialised
 	}
 	
@@ -1317,7 +1317,7 @@ country_event = {
 	trigger = {
 		exists = yes
 		civilized = yes
-		government = prussian_constitutionalism
+		OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		OR = {
 			liberal = 10
 			socialist = 10
@@ -1439,8 +1439,8 @@ country_event = {
 		exists = yes
 		civilized = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		liberal = 20
 		consciousness = 4
@@ -1645,9 +1645,9 @@ country_event = {
 	trigger = {
 		exists = yes
 		OR = {
-			government = absolute_monarchy
-			government = hms_government
-			government = prussian_constitutionalism
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 		OR = {
 			has_country_flag = liberal_revolution_in_progress
@@ -1762,11 +1762,11 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.5
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 			modifier = {
 				factor = 0.5
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		}			
 	}
@@ -1795,11 +1795,11 @@ country_event = {
 			factor = 40
 			modifier = {
 				factor = 0.75
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 			modifier = {
 				factor = 0.75
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		}
 	}
@@ -1828,11 +1828,11 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 			modifier = {
 				factor = 1.5
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		}
 	}

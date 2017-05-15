@@ -13,9 +13,53 @@ proletarian_dictatorship =
 	flagType = communist
 }
 
+proletarian_dictatorship2 =
+{
+	#which ideology of parties.
+	communist = yes
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = communist
+}
+
+proletarian_dictatorship3 =
+{
+	#which ideology of parties.
+	communist = yes
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = communist
+}
+
 
 
 presidential_dictatorship =
+{
+	#which ideology of parties.
+	socialist = yes
+	conservative = yes
+	reactionary = yes
+	
+	election = no
+	appoint_ruling_party = no
+	flagType = republic
+}
+
+presidential_dictatorship2 =
+{
+	#which ideology of parties.
+	socialist = yes
+	conservative = yes
+	reactionary = yes
+	
+	election = no
+	appoint_ruling_party = no
+	flagType = republic
+}
+
+presidential_dictatorship3 =
 {
 	#which ideology of parties.
 	socialist = yes
@@ -37,7 +81,47 @@ bourgeois_dictatorship =
 	flagType = republic
 }
 
+bourgeois_dictatorship2 =
+{
+	#which ideology of parties.
+	anarcho_liberal = yes
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = republic
+}
+
+bourgeois_dictatorship3 =
+{
+	#which ideology of parties.
+	anarcho_liberal = yes
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = republic
+}
+
 fascist_dictatorship =
+{
+	#which ideology of parties.
+	fascist = yes	
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = fascist
+}
+
+fascist_dictatorship2 =
+{
+	#which ideology of parties.
+	fascist = yes	
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = fascist
+}
+
+fascist_dictatorship3 =
 {
 	#which ideology of parties.
 	fascist = yes	
@@ -48,6 +132,26 @@ fascist_dictatorship =
 }
  
 absolute_monarchy = {
+	liberal = yes
+	conservative = yes
+	reactionary = yes
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = monarchy
+}
+
+absolute_monarchy2 = {
+	liberal = yes
+	conservative = yes
+	reactionary = yes
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = monarchy
+}
+
+absolute_monarchy3 = {
 	liberal = yes
 	conservative = yes
 	reactionary = yes
@@ -71,7 +175,63 @@ prussian_constitutionalism = {
 	flagType = monarchy
 }
 
+prussian_constitutionalism2 = {
+	liberal = yes
+	socialist = yes
+	social_liberal = yes
+	conservative = yes
+	reactionary = yes
+	fascist = yes
+
+	election = yes
+	duration = 60
+	appoint_ruling_party = yes
+	flagType = monarchy
+}
+
+prussian_constitutionalism3 = {
+	liberal = yes
+	socialist = yes
+	social_liberal = yes
+	conservative = yes
+	reactionary = yes
+	fascist = yes
+
+	election = yes
+	duration = 60
+	appoint_ruling_party = yes
+	flagType = monarchy
+}
+
 hms_government = {
+	liberal = yes
+	socialist = yes
+	social_liberal = yes
+	conservative = yes
+	reactionary = yes
+	fascist = yes
+
+	election = yes
+	duration = 48
+	appoint_ruling_party = no
+	flagType = monarchy
+}
+
+hms_government2 = {
+	liberal = yes
+	socialist = yes
+	social_liberal = yes
+	conservative = yes
+	reactionary = yes
+	fascist = yes
+
+	election = yes
+	duration = 48
+	appoint_ruling_party = no
+	flagType = monarchy
+}
+
+hms_government3 = {
 	liberal = yes
 	socialist = yes
 	social_liberal = yes
@@ -101,7 +261,53 @@ democracy = {
 	flagType = republic
 }
 
+democracy2 = {
+	liberal = yes
+	socialist = yes
+	social_liberal = yes
+	conservative = yes
+	reactionary = yes
+	communist = yes
+	anarcho_liberal = yes
+	fascist = yes
+
+	election = yes
+	duration = 48
+	appoint_ruling_party = no
+	flagType = republic
+}
+
+democracy3 = {
+	liberal = yes
+	socialist = yes
+	social_liberal = yes
+	conservative = yes
+	reactionary = yes
+	communist = yes
+	anarcho_liberal = yes
+	fascist = yes
+
+	election = yes
+	duration = 48
+	appoint_ruling_party = no
+	flagType = republic
+}
+
 theocracy = {
+	reactionary = yes
+	
+	appoint_ruling_party = yes
+	flagType = theocracy
+}
+
+theocracy2 = {
+	reactionary = yes
+	
+	appoint_ruling_party = yes
+	flagType = theocracy
+}
+
+theocracy3 = {
 	reactionary = yes
 	
 	appoint_ruling_party = yes

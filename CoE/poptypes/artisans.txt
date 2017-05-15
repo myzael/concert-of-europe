@@ -244,7 +244,7 @@ country_migration_target =
 	}
 	modifier = {
 		factor = 1.2
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 	}
 	modifier = {
 		factor = 1.5
@@ -2375,7 +2375,7 @@ ideologies = {
 		}
 		modifier = {
 			factor = 4
-			government = fascist_dictatorship
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 			not = { militancy = 4 }
 		}
 		modifier = {
@@ -2581,14 +2581,14 @@ ideologies = {
 		modifier = {
 			factor = 0.75
 			not = { militancy = 2 }
-			not = { government = presidential_dictatorship }
-			not = { government = absolute_monarchy }
+			not = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
+			not = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 		}
 		modifier = {
 			factor = 0.75
 			not = { militancy = 4 }
-			not = { government = presidential_dictatorship }
-			not = { government = absolute_monarchy }
+			not = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
+			not = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 		}
 		modifier = {
 			factor = 1.2
@@ -2639,15 +2639,15 @@ ideologies = {
 		}
 		modifier = {
 			factor = 4
-			government = presidential_dictatorship
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 			not = { militancy = 4 }
 		}	
 		modifier = {
 			factor = 1.2
 			OR = { 
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			country = { not = { average_militancy = 2 } }
 		}
@@ -3071,7 +3071,7 @@ ideologies = {
 		}
 		modifier = {
 			factor = 4
-			government = proletarian_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 			not = { militancy = 4 }
 		}
 		modifier = {
@@ -3099,17 +3099,17 @@ ideologies = {
 		modifier = {
 			factor = 0.5
 			not = { militancy = 1 }
-			not = { government = proletarian_dictatorship }
+			not = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 		}			
 		modifier = {
 			factor = 0.5
 			not = { militancy = 3 }
-			not = { government = proletarian_dictatorship }
+			not = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 		}	
 		modifier = {
 			factor = 0.5
 			not = { militancy = 5 }
-			not = { government = proletarian_dictatorship }
+			not = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 		}
 		modifier = {
 			factor = 1.2
@@ -3309,20 +3309,20 @@ liberal = {
 		modifier = {
 			factor = 1.25
 			OR = {
-				government = proletarian_dictatorship
-				government = presidential_dictatorship
-				government = bourgeois_dictatorship
-				government = fascist_dictatorship
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+				OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+				OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 			}
 			militancy = 4
 		}
 		modifier = {
 			factor = 1.25
 			OR = {
-				government = proletarian_dictatorship
-				government = presidential_dictatorship
-				government = bourgeois_dictatorship
-				government = fascist_dictatorship
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+				OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+				OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 			}
 			militancy = 6
 		}
@@ -3375,7 +3375,7 @@ liberal = {
 		}
 		modifier = {
 			factor = 4
-			government = bourgeois_dictatorship
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
 			not = { militancy = 4 }
 		}
 		modifier = {
@@ -3404,17 +3404,17 @@ liberal = {
 		modifier = {
 			factor = 0.5
 			not = { militancy = 1 }
-			not = { government = bourgeois_dictatorship }
+			not = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }
 		}			
 		modifier = {
 			factor = 0.5
 			not = { militancy = 3 }
-			not = { government = bourgeois_dictatorship }
+			not = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }
 		}	
 		modifier = {
 			factor = 0.5
 			not = { militancy = 5 }
-			not = { government = bourgeois_dictatorship }
+			not = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }
 		}
 		modifier = {
 			factor = 1.2	
@@ -5056,10 +5056,10 @@ issues = {
 			NOT = { vote_franschise = none_voting }
 			NOT = { upper_house_composition = party_appointed }
 			or = {
-				government = proletarian_dictatorship
-				government = presidential_dictatorship
-				government = bourgeois_dictatorship
-				government = fascist_dictatorship
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+				OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+				OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 			}
 		}
 		modifier = {
@@ -5368,10 +5368,10 @@ issues = {
 		modifier = {
 			factor = 0.25
 			or = {
-				government = fascist_dictatorship
-				government = presidential_dictatorship
-				government = bourgeois_dictatorship
-				government = proletarian_dictatorship
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+				OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+				OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 			}
 		}
 	}
@@ -5444,10 +5444,10 @@ issues = {
 		modifier = {
 			factor = 0.25
 			or = {
-				government = fascist_dictatorship
-				government = presidential_dictatorship
-				government = bourgeois_dictatorship
-				government = proletarian_dictatorship
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+				OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+				OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 			}
 		}
 	}
@@ -5512,10 +5512,10 @@ issues = {
 		modifier = {
 			factor = 0.25
 			or = {
-				government = fascist_dictatorship
-				government = presidential_dictatorship
-				government = bourgeois_dictatorship
-				government = proletarian_dictatorship
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+				OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+				OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 			}
 		}
 	}

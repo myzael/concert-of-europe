@@ -1220,7 +1220,7 @@ country_event = {
 		tag = TPG
 		exists = yes
 		civilized = no
-		government = absolute_monarchy
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		has_global_flag = taiping_victorious
 		war = no
 	}
@@ -1434,7 +1434,7 @@ country_event = {
 			}
 		}
 		years_of_research = 0.5
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		ruling_party_ideology = conservative
 		ai_chance = {
 			factor = 30
@@ -1537,10 +1537,10 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				owner = { government = absolute_monarchy }
+				owner = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 			}
 			TAI = {
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				ruling_party_ideology = reactionary
 				political_reform = none_voting
 				political_reform = party_appointed
@@ -1552,10 +1552,10 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				owner = { government = prussian_constitutionalism }
+				owner = { OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } }
 			}
 			TAI = {
-				government = prussian_constitutionalism
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				ruling_party_ideology = reactionary
 				political_reform = landed_voting
 				political_reform = party_appointed
@@ -1567,18 +1567,18 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				owner = { government = hms_government }
+				owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }
 			}
 			TAI = {
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		}
 		random_owned = {
 			limit = {
-				owner = { government = presidential_dictatorship }
+				owner = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 			}
 			TAI = {
-				government = presidential_dictatorship
+				OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				ruling_party_ideology = reactionary
 				political_reform = none_voting
 				political_reform = party_appointed
@@ -1590,10 +1590,10 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				owner = { government = fascist_dictatorship }
+				owner = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 			}
 			TAI = {
-				government = fascist_dictatorship
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 				ruling_party_ideology = fascist
 				political_reform = none_voting
 				political_reform = party_appointed
@@ -1605,10 +1605,10 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				owner = { government = proletarian_dictatorship }
+				owner = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			}
 			TAI = {
-				government = proletarian_dictatorship
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 				ruling_party_ideology = communist
 				political_reform = none_voting
 				political_reform = party_appointed

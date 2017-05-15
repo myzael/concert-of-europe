@@ -8,8 +8,8 @@ country_event = {
 		year = 1898
 		war = no
 		OR = {
-			government = democracy
-			government = presidential_dictatorship
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		}	
 		NOT = {
 			year = 1902

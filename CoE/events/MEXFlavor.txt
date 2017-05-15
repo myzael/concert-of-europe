@@ -19,8 +19,8 @@ country_event = {
 		war = no
 		NOT = {
 			year = 1913
-			government = democracy
-			government = hms_government
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			poor_strata_everyday_needs = 0.75 #will not fire if poor are getting 75%+ everyday needs
 		}
 	}
@@ -73,7 +73,7 @@ country_event = {
 			militancy = 3
 			consciousness = 3
 		}
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		ruling_party_ideology = liberal
 		political_reform = universal_weighted_voting
 		political_reform = population_equal_weight
@@ -127,8 +127,8 @@ country_event = {
 		has_country_flag = Madero
 		NOT = {
 			year = 1914
-			government = democracy
-			government = hms_government
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			poor_strata_everyday_needs = 0.95 #will not fire if poor are getting 95%+ everyday needs
 		}
 	}
@@ -186,8 +186,8 @@ country_event = {
 		has_country_flag = MaderoRevolt
 		NOT = {
 			year = 1915
-			government = democracy
-			government = hms_government
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
  
@@ -233,8 +233,8 @@ country_event = {
 		has_country_flag = MaderoRevolt
 		year = 1911
 		NOT = {
-			government = democracy
-			government = hms_government
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			year = 1915
 		}
 	}
@@ -278,7 +278,7 @@ country_event = {
 	trigger = {
 		tag = MEX
 		exists = yes
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		has_country_flag = cuernavaca_plan
 		NOT = {
 			has_country_flag = mexico_1836_set_up
@@ -367,7 +367,7 @@ province_event = {
 		owner = {
 			tag = MEX
 			exists = yes
-			government = presidential_dictatorship
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 			has_country_modifier = fight_the_power
 		}
 		culture = mexican
@@ -478,7 +478,7 @@ country_event = {
 		tag = MEX
 		exists = yes
 		war = no
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		has_country_modifier = fight_the_power
 		134 = { owned_by = THIS }
 	}
@@ -625,8 +625,8 @@ country_event = {
 		is_vassal = no
 		NOT = {
 			exists = YUC
-			government = democracy
-			government = hms_government
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		year = 1841
 	}
@@ -701,13 +701,13 @@ country_event = {
 	trigger = {
 		tag = YUC
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		is_vassal = no
 		war = no
 		UCA = {
 			war = no
 			neighbour = THIS
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			is_vassal = no
 		}
 	}
@@ -869,7 +869,7 @@ country_event = {
 	trigger = {
 		tag = MEX
 		exists = yes
-		government = hms_government
+		OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		has_country_flag = we_have_tried_this_once
 		2172 = { controlled_by_rebels = yes }
 		NOT = { year = 1880 }
@@ -881,7 +881,7 @@ country_event = {
 
 	option = {
 		name = "It was bound to happen."
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		ruling_party_ideology = liberal
 		clr_country_flag = tory_election_win
 		clr_country_flag = socialist_election_win
@@ -951,7 +951,7 @@ country_event = {
 		exists = yes
 		war = no
 		ai = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		year = 1876
 		NOT = { year = 1900 }
 	}
@@ -979,7 +979,7 @@ country_event = {
 	option = {
 		name = "We welcome El Presidente!"
 		prestige = -10
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		ruling_party_ideology = conservative
 		political_reform = none_voting
 		political_reform = party_appointed
@@ -1330,7 +1330,7 @@ country_event = {
 	trigger = {
 		tag = MEX
 		exists = yes
-		government = prussian_constitutionalism
+		OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		year = 1821
 		UCA = { has_country_flag = join_mexico }
 		NOT = {
@@ -1348,7 +1348,7 @@ country_event = {
 		political_reform = appointed
 		political_reform = none_voting
 		political_reform = underground_parties
-		government = absolute_monarchy
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		plurality = -3
 		add_country_modifier = {
 			name = national_confusion
@@ -1401,7 +1401,7 @@ country_event = {
 		set_country_flag = first_empire
 		political_reform = wealth_voting
 		political_reform = non_secret_ballots
-		government = hms_government
+		OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		plurality = 3
 		add_country_modifier = {
 			name = national_confusion
@@ -1462,9 +1462,9 @@ country_event = {
 		NOT = { year = 1836 }
 		OR = {
 			NOT = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			any_owned_province = {
 				OR = {
@@ -1528,7 +1528,7 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 0
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 		}
 	}
@@ -1564,7 +1564,7 @@ country_event = {
 			factor = 90
 			modifier = {
 				factor = 0
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 		}
 	}
@@ -1618,9 +1618,9 @@ country_event = {
 		tag = MEX
 		exists = yes
 		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		has_country_flag = first_empire
 		any_owned_province = {
@@ -1645,7 +1645,7 @@ country_event = {
 		political_reform = state_equal_weight
 		political_reform = wealth_weighted_voting
 		political_reform = gerrymandering
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		plurality = 5
 		remove_country_modifier = liberal_reaction
 		add_country_modifier = {
@@ -1759,7 +1759,7 @@ country_event = {
 	trigger = {
 		tag = MEX
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		year = 1830
 		any_owned_province = {
 			is_core = MEX
@@ -1785,7 +1785,7 @@ country_event = {
 		political_reform = none_voting
 		political_reform = state_press
 		political_reform = underground_parties
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		add_country_modifier = {
 			name = national_confusion
 			duration = 365
@@ -1963,7 +1963,7 @@ country_event = {
 		months = 60
 		modifier = {
 			factor = 0.1
-			government = presidential_dictatorship
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		}
 	}
 

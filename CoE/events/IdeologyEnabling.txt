@@ -266,7 +266,7 @@ country_event = {
 			is_disarmed = yes
 			unemployment = 0.3
 			any_neighbor_country = {
-				government = proletarian_dictatorship
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 			}
 		}
 	}

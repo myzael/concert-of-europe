@@ -2,13 +2,13 @@ political_decisions = {
 	restore_mexican_empire = {
 		potential = {
 			tag = MEX
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			year = 1850
 			NOT = { has_country_flag = we_have_tried_this_once }
 			FRA = {
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 		}
@@ -21,7 +21,7 @@ political_decisions = {
 			average_militancy = 3
 		}
 		effect = {
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			any_pop = {
 				scaled_militancy = {
 					ideology = liberal
@@ -151,8 +151,8 @@ political_decisions = {
 			}
 			nationalism_n_imperialism = 1
 			OR = {
-				government = democracy
-				government = hms_government
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			GUA = {
 				OR = {
@@ -229,8 +229,8 @@ political_decisions = {
 			has_country_flag = manifest_destiny_refuted
 			owns = 104 #Albuquerque
 			OR = {
-				government = hms_government
-				government = democracy
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			slavery = no_slavery
 			NOT = {
@@ -291,8 +291,8 @@ political_decisions = {
 				has_country_flag = integrated_afro_caribeno
 			}
 			OR = {
-				government = hms_government
-				government = democracy
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			slavery = no_slavery
 		}

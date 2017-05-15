@@ -22,7 +22,7 @@ country_event = {
 		tag = USA
 		exists = yes
 		war = no
-		NOT = { government = democracy }
+		NOT = { OR = { government = democracy government = democracy2 government = democracy3 } }
 		NOT = { has_global_flag = disunited_states }
 		NOT = { has_country_modifier = begin_disunited_states }
 		has_global_flag = american_civil_war_has_happened
@@ -179,7 +179,7 @@ province_event = {
 		}
 		modifier = {
 			factor = 2
-			owner = { government = hms_government }
+			owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }
 		}
 	}
 
@@ -228,7 +228,7 @@ country_event = {
 	trigger = {
 		tag = USA
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		has_global_flag = disunited_states
 	}
 
@@ -335,11 +335,11 @@ country_event = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		modifier = {
 			factor = 1.5
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 
@@ -500,11 +500,11 @@ province_event = {
 		}
 		modifier = {
 			factor = 2
-			owner = { government = democracy }
+			owner = { OR = { government = democracy government = democracy2 government = democracy3 } }
 		}
 		modifier = {
 			factor = 1.5
-			owner = { government = hms_government }
+			owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }
 		}
 	}
 	
@@ -604,11 +604,11 @@ country_event = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		modifier = {
 			factor = 1.5
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 
@@ -768,11 +768,11 @@ province_event = {
 		}
 		modifier = {
 			factor = 2
-			owner = { government = democracy }
+			owner = { OR = { government = democracy government = democracy2 government = democracy3 } }
 		}
 		modifier = {
 			factor = 1.5
-			owner = { government = hms_government }
+			owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }
 		}
 	}
 	
@@ -873,11 +873,11 @@ country_event = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		modifier = {
 			factor = 1.5
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 
@@ -1023,11 +1023,11 @@ province_event = {
 		}
 		modifier = {
 			factor = 2
-			owner = { government = democracy }
+			owner = { OR = { government = democracy government = democracy2 government = democracy3 } }
 		}
 		modifier = {
 			factor = 1.5
-			owner = { government = hms_government }
+			owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }
 		}
 	}
 	
@@ -1128,11 +1128,11 @@ country_event = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		modifier = {
 			factor = 1.5
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 
@@ -1276,11 +1276,11 @@ province_event = {
 		}
 		modifier = {
 			factor = 2
-			owner = { government = democracy }
+			owner = { OR = { government = democracy government = democracy2 government = democracy3 } }
 		}
 		modifier = {
 			factor = 1.5
-			owner = { government = hms_government }
+			owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }
 		}
 	}
 	
@@ -1380,11 +1380,11 @@ country_event = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		modifier = {
 			factor = 1.5
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 
@@ -1529,11 +1529,11 @@ province_event = {
 		}
 		modifier = {
 			factor = 2
-			owner = { government = democracy }
+			owner = { OR = { government = democracy government = democracy2 government = democracy3 } }
 		}
 		modifier = {
 			factor = 1.5
-			owner = { government = hms_government }
+			owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }
 		}
 	}
 	
@@ -1634,11 +1634,11 @@ country_event = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		modifier = {
 			factor = 1.5
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 
@@ -1782,11 +1782,11 @@ province_event = {
 		}
 		modifier = {
 			factor = 2
-			owner = { government = democracy }
+			owner = { OR = { government = democracy government = democracy2 government = democracy3 } }
 		}
 		modifier = {
 			factor = 1.5
-			owner = { government = hms_government }
+			owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }
 		}
 	}
 	
@@ -1887,11 +1887,11 @@ country_event = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		modifier = {
 			factor = 1.5
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 
@@ -2012,11 +2012,11 @@ country_event = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		modifier = {
 			factor = 1.5
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 
@@ -2141,11 +2141,11 @@ country_event = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		modifier = {
 			factor = 1.5
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 
@@ -2268,11 +2268,11 @@ country_event = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		modifier = {
 			factor = 1.5
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 
@@ -2395,11 +2395,11 @@ country_event = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		modifier = {
 			factor = 1.5
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 
@@ -2507,11 +2507,11 @@ country_event = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		modifier = {
 			factor = 1.5
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 
@@ -2619,11 +2619,11 @@ country_event = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		modifier = {
 			factor = 1.5
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 
@@ -2642,7 +2642,7 @@ country_event = {
 			set_country_flag = usstatehood_we_have_applied
 			primary_culture = yankee
 			add_accepted_culture = polynesian
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			ruling_party_ideology = liberal
 			political_reform = universal_voting
 			political_reform = population_equal_weight
@@ -2694,8 +2694,8 @@ country_event = {
 		has_global_flag = second_american_civil_war
 		neighbour = CAN
 		OR = {
-			government = democracy
-			government = hms_government
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		OR = {
 			in_sphere = CAN
@@ -2707,8 +2707,8 @@ country_event = {
 		CAN = {
 			is_vassal = no
 			OR = {
-				government = democracy
-				government = hms_government
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		}
 	}

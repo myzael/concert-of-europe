@@ -166,8 +166,8 @@ country_event = {
 		civilized = no
 		is_disarmed = no
 		OR = {
-			government = theocracy
-			government = absolute_monarchy
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		}
 		NOT = {
 			num_of_revolts = 1
@@ -723,10 +723,10 @@ country_event = {
 			is_secondary_power = yes
 		}
 		OR = {
-			#government = theocracy	#Should the Pope (note: capital = europe) really be colonising? -crownsteler
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
+			#OR = { government = theocracy government = theocracy2 government = theocracy3 }	#Should the Pope (note: capital = europe) really be colonising? -crownsteler
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		total_amount_of_ships = 20
 		total_amount_of_divisions = 10

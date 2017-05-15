@@ -5,9 +5,9 @@ political_decisions = {
 			tag = TUR
 			NOT = { has_country_flag = tanzimat_reforms_enacted }
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		}
 		
@@ -39,9 +39,9 @@ political_decisions = {
 			tag = TUR
 			has_country_modifier = tanzimat_era
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			NOT = {
 				has_country_flag = ottoman_western_democracy
@@ -172,9 +172,9 @@ political_decisions = {
 				limit = {
 					capital_scope = { continent = europe }
 					OR = {
-						government = democracy
-						government = hms_government
-						government = prussian_constitutionalism
+						OR = { government = democracy government = democracy2 government = democracy3 }
+						OR = { government = hms_government government = hms_government2 government = hms_government3 }
+						OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 					}
 				}
 				relation = { who = THIS value = 50 }
@@ -191,9 +191,9 @@ political_decisions = {
 			tag = TUR
 			has_country_modifier = tanzimat_era
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			NOT = {
 				has_country_flag = ottoman_western_democracy
@@ -215,7 +215,7 @@ political_decisions = {
 			add_accepted_culture = misri
 			remove_country_modifier = tanzimat_era
 			ruling_party_ideology = reactionary
-			government = absolute_monarchy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			political_reform = none_voting
 			political_reform = party_appointed
 			political_reform = no_meeting
@@ -299,9 +299,9 @@ political_decisions = {
 			tag = TUR
 			has_country_modifier = tanzimat_era
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			NOT = {
 				has_country_flag = ottoman_western_democracy
@@ -408,9 +408,9 @@ political_decisions = {
 		potential = {
 			tag = TUR
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			has_country_flag = ottoman_mixed
 			NOT = {
@@ -421,7 +421,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			revolution_n_counterrevolution = 1
 			OR = {
 				liberal = 30
@@ -496,9 +496,9 @@ political_decisions = {
 		potential = {
 			tag = TUR
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			has_country_flag = ottoman_western_democracy
 			NOT = {
@@ -509,7 +509,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			revolution_n_counterrevolution = 1
 			OR = {
 				liberal = 30
@@ -574,9 +574,9 @@ political_decisions = {
 		potential = {
 			tag = TUR
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			has_country_flag = ottoman_islamic_caliphate
 			NOT = {
@@ -655,7 +655,7 @@ political_decisions = {
 	republican_reforms = {
 		potential = {
 			tag = TUR
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			NOT = { has_country_flag = had_ataturk_reforms }
 		}
 		
@@ -703,7 +703,7 @@ political_decisions = {
 	greater_turkey = {
 		potential = {
 			tag = TUR
-			government = fascist_dictatorship
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 			has_country_flag = ottomans_to_turks
 			NOT = { has_country_flag = claimed_greater_turkey }
 		}

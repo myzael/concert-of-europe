@@ -949,7 +949,7 @@ country_event = {
 			factor = 60
 			modifier = {
 				factor = 4
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 		}
 	}
@@ -980,11 +980,11 @@ country_event = {
 			}
 			modifier = {
 				factor = 3
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			modifier = {
 				factor = 8
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 4
@@ -1029,11 +1029,11 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			modifier = {
 				factor = 2
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 3
@@ -1219,7 +1219,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.9
-			government = absolute_monarchy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		}
 		modifier = {
 			factor = 1.2

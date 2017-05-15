@@ -212,7 +212,7 @@ country_event = {
 	
 	trigger = {
 		exists = yes
-		government = proletarian_dictatorship
+		OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 		is_greater_power = yes
 		NOT = { has_global_flag = the_great_experiment_communist }
 	}
@@ -244,7 +244,7 @@ country_event = {
 	trigger = {	exists = yes
 		is_greater_power = yes
 		NOT = { has_global_flag = the_great_experiment_fascist }
-		government = fascist_dictatorship
+		OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 	}
 	
 	mean_time_to_happen = {

@@ -115,7 +115,7 @@ political_decisions = {
 	court_yard_speech = {
 		potential = {
 			tag = SWE
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			OR = {
 				vote_franschise = wealth_weighted_voting
 				vote_franschise = wealth_voting

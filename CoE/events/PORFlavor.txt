@@ -18,7 +18,7 @@ country_event = {
 			tag = UPB
 		}
 		exists = yes
-		government = hms_government
+		OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		has_global_flag = liberal_revolution_somewhere
 		NOT = { ruling_party_ideology = reactionary }
 		NOT = {
@@ -82,7 +82,7 @@ province_event = {
 	trigger = {
 		owner = {
 			has_country_flag = maria_de_fonte_revolution
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			NOT = { ruling_party_ideology = reactionary }
 		}
 		is_capital = no
@@ -132,7 +132,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.1
-			NOT = { government = hms_government }
+			NOT = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }
 		}
 		modifier = {
 			factor = 0.1
@@ -176,7 +176,7 @@ country_event = {
 		has_country_flag = maria_de_fonte_revolution
 		exists = yes
 		any_owned_province = { has_province_modifier = peasant_revolt }
-		government = hms_government
+		OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		NOT = { ruling_party_ideology = reactionary }
 	}
 
@@ -202,7 +202,7 @@ country_event = {
 		ruling_party_ideology = reactionary
 		political_reform = appointed
 		political_reform = harassment
-		government = prussian_constitutionalism
+		OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		clr_country_flag = tory_election_win
 		clr_country_flag = socialist_election_win
 		clr_country_flag = liberal_election_win
@@ -763,7 +763,7 @@ country_event = {
 		exists = yes
 		year = 1905
 		is_greater_power = no
-		government = hms_government
+		OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		NOT = {
 			has_country_flag = regicide_king_carlos
 			year = 1915
@@ -845,7 +845,7 @@ country_event = {
 		has_country_flag = regicide_king_carlos
 		exists = yes
 		is_greater_power = no
-		government = hms_government
+		OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		NOT = { year = 1915 }
 	}
 
@@ -877,7 +877,7 @@ country_event = {
 		name = "Long live the Republic!"
 		prestige = -10
 		ruling_party_ideology = liberal
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		political_reform = universal_weighted_voting
 		political_reform = population_equal_weight
 		political_reform = yes_meeting
@@ -1305,7 +1305,7 @@ country_event = {
 		tag = UPB
 		exists = yes
 		is_our_vassal = BRZ
-		government = absolute_monarchy
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 	}
 	
 	fire_only_once = yes
@@ -1736,8 +1736,8 @@ country_event = {
 			modifier = {
 				factor = 0
 				NOT = {
-					government = proletarian_dictatorship
-					government = fascist_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 				}
 			}
 		}
@@ -1792,8 +1792,8 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = proletarian_dictatorship
-					government = fascist_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 				}
 			}
 		}
@@ -1820,8 +1820,8 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = proletarian_dictatorship
-					government = fascist_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 				}
 			}
 		}
@@ -1946,7 +1946,7 @@ country_event = {
 		political_reform = appointed
 		political_reform = underground_parties
 		political_reform = none_voting
-		government = absolute_monarchy
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		ruling_party_ideology = reactionary
 		relation = { who = BRZ value = -100 }
 		leave_alliance = BRZ
@@ -2001,10 +2001,10 @@ country_event = {
 		is_greater_power = yes
 		capital_scope = { continent = europe }
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
-		POR = { government = absolute_monarchy }
+		POR = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 		NOT = {
 			year = 1836
 		}

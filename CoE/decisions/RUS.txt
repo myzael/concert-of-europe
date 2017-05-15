@@ -247,8 +247,8 @@ the_port_of_novorossiysk = {
 				has_country_flag = big_brother_is_watching
 			}
 			OR = {
-				government = hms_government
-				government = proletarian_dictatorship
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 			}
 		}
 		allow = {
@@ -272,7 +272,7 @@ the_port_of_novorossiysk = {
 	manifesto_on_unshakable_autocracy = {
 		potential = {
 			tag = RUS
-			government = absolute_monarchy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			NOT = {
 				has_country_flag = the_manifesto
 			}
@@ -301,8 +301,8 @@ the_port_of_novorossiysk = {
 				has_country_flag = ems_ukaz_dispatched
 			}
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 			}
 			owns = 958
 			phenomenalism = 1
@@ -333,9 +333,9 @@ the_port_of_novorossiysk = {
 			tag = RUS
 			is_greater_power = yes
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			NOT = { has_country_flag = eastern_christians_up_in_here_yall }
 			NOT = { has_global_flag = berlin_congress_held }
@@ -708,8 +708,8 @@ the_port_of_novorossiysk = {
 					province_id = 719
 					NOT = { is_core = RUS }
 				}
-				government = fascist_dictatorship
-				government = proletarian_dictatorship
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 			}
 		}
 		
@@ -718,8 +718,8 @@ the_port_of_novorossiysk = {
 			random_owned = {
 				limit = {
 					OR = {
-						owner = { government = fascist_dictatorship }
-						owner = { government = proletarian_dictatorship }
+						owner = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+						owner = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 					}
 				}
 				RUS_706 = { add_core = RUS }

@@ -3,9 +3,9 @@ political_decisions = {
 		potential = {
 			tag = AUS
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			OR = {
 				AND = {
@@ -661,10 +661,10 @@ political_decisions = {
 					owns = 641 #Budapest
 				}
 				NOT = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
-					government = hms_government
-					government = democracy
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
+					OR = { government = democracy government = democracy2 government = democracy3 }
 				}
 			}
 		}
@@ -1060,8 +1060,8 @@ political_decisions = {
 			revolution_n_counterrevolution = 1
 			social_science = 1
 			OR = {
-				government = democracy
-				government = hms_government
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			NOT = {
 				average_militancy = 4
@@ -1150,8 +1150,8 @@ political_decisions = {
 		allow = {
 			war = no
 			OR = {
-				government = democracy
-				government = hms_government
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			NOT = {
 				average_militancy = 4

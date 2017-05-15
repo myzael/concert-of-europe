@@ -30,8 +30,8 @@ country_event = {
 			modifier = {
 				factor = 0
 				badboy = 0.8
-				NOT = { government = fascist_dictatorship }
-				NOT = { government = proletarian_dictatorship }
+				NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+				NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			}
 			modifier = {
 				factor = 1.25
@@ -300,8 +300,8 @@ country_event = {
 			modifier = {
 				factor = 0.5
 				OR = {
-					government = proletarian_dictatorship
-					government = fascist_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 				}
 			}		
 			modifier = {
@@ -489,8 +489,8 @@ country_event = {
 			modifier = {
 				factor = 0.5
 				OR = {
-					government = proletarian_dictatorship
-					government = fascist_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 				}
 			}		
 			modifier = {
@@ -829,8 +829,8 @@ country_event = {
 			modifier = {
 				factor = 0.5
 				OR = {
-					government = proletarian_dictatorship
-					government = fascist_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 				}
 			}		
 			modifier = {

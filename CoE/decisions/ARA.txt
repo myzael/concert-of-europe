@@ -369,9 +369,9 @@ political_decisions = {
 					}
 				}
 				OR = {
-					government = hms_government
-					government = prussian_constitutionalism
-					government = absolute_monarchy
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				}
 			}
 			year = 1900
@@ -397,7 +397,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			government = absolute_monarchy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		}
 		
 		effect = {
@@ -433,7 +433,7 @@ political_decisions = {
 		}
 
 		allow = {
-			government = absolute_monarchy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		}
 
 		effect = {

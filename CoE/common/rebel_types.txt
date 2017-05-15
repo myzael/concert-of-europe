@@ -211,11 +211,11 @@ reactionary_rebels = {
 		}
 		modifier = {
 			factor = 0
-			country = { government = absolute_monarchy}
+			country = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }}
 		}
 		modifier = {
 			factor = 0.2
-			country = { government = presidential_dictatorship }
+			country = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 		}
 		modifier = {
 			factor = 1.5
@@ -226,10 +226,10 @@ reactionary_rebels = {
 			country = {
 				tag = SPA
 				OR = {
-					government = hms_government
-					government = prussian_constitutionalism
-					government = absolute_monarchy
-					government = democracy
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = democracy government = democracy2 government = democracy3 }
 				}
 			}
 			OR = {
@@ -534,7 +534,7 @@ fascist_rebels = {
 		}
 		modifier = {
 			factor = 0
-			country = { government = fascist_dictatorship }
+			country = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 		}
 		modifier = {
 			factor = 1.5
@@ -783,7 +783,7 @@ communist_rebels = {
 		modifier = {
 			factor = 0.95
 			any_neighbor_country = {
-				government = proletarian_dictatorship
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 			}
 		}
 	}
@@ -799,7 +799,7 @@ communist_rebels = {
 		}
 		modifier = {
 			factor = 0
-			government = proletarian_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 		}
 		modifier = {
 			factor = 0
@@ -918,7 +918,7 @@ communist_rebels = {
 			factor = 2
 			country = {
 				any_neighbor_country = {
-					government = proletarian_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 				}
 			}
 		}
@@ -1160,19 +1160,19 @@ anarcho_liberal_rebels = {
 		}
 		modifier = {
 			factor = 0.1
-			country = { government = bourgeois_dictatorship }
+			country = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }
 		}
 		modifier = {
 			factor = 0
 			country = {
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				ruling_party_ideology = anarcho_liberal
 			}
 		}
 		modifier = {
 			factor = 0.5
 			country = {
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				ruling_party_ideology = liberal
 			}
 		}
@@ -1566,8 +1566,8 @@ nationalist_rebels = {
 			country = {
 				tag = SPA
 				OR = {
-					government = prussian_constitutionalism
-					government = hms_government
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 			}
 		}
@@ -2280,10 +2280,10 @@ carlist_rebels = {
 			country = {
 				NOT = {
 					OR = {
-						government = hms_government
-						government = prussian_constitutionalism
-						government = absolute_monarchy
-						government = democracy
+						OR = { government = hms_government government = hms_government2 government = hms_government3 }
+						OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+						OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+						OR = { government = democracy government = democracy2 government = democracy3 }
 					}
 				}
 			}
@@ -2561,9 +2561,9 @@ christino_rebels = {
 			country = {
 				NOT = {
 					OR = {
-						government = hms_government
-						government = prussian_constitutionalism
-						government = absolute_monarchy
+						OR = { government = hms_government government = hms_government2 government = hms_government3 }
+						OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+						OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 					}
 				}
 			}
@@ -3539,7 +3539,7 @@ liberal_rebels = {
 		factor = 2
 		modifier = {
 			factor = 0.25
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			vote_franschise = universal_voting
 			political_parties = secret_ballots
 			or = {
@@ -3552,7 +3552,7 @@ liberal_rebels = {
 		}
 		modifier = {
 				factor = 0.5
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				vote_franschise = universal_voting
 				political_parties = secret_ballots
 				or = {
@@ -3630,8 +3630,8 @@ liberal_rebels = {
 			factor = 0
 			country = {
 				OR = {
-					government = democracy
-					government = hms_government
+					OR = { government = democracy government = democracy2 government = democracy3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 				OR = {
 					vote_franschise = universal_weighted_voting
@@ -3644,8 +3644,8 @@ liberal_rebels = {
 			factor = 0.5
 			country = {
 				OR = {
-					government = democracy
-					government = hms_government
+					OR = { government = democracy government = democracy2 government = democracy3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 				vote_franschise = universal_voting
 				political_parties = secret_ballots
@@ -3729,9 +3729,9 @@ liberal_rebels = {
 			country = {
 				tag = SPC
 				OR = {
-					government = hms_government
-					government = prussian_constitutionalism
-					government = absolute_monarchy
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				}
 			}
 			pop_majority_ideology = liberal
@@ -4579,8 +4579,8 @@ socialist_rebels = {
 			factor = 0
 			country = {
 				OR = {
-					government = democracy
-					government = hms_government
+					OR = { government = democracy government = democracy2 government = democracy3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 				vote_franschise = universal_voting
 				public_meetings = yes_meeting
@@ -5039,9 +5039,9 @@ turkish_nationalist_rebels = {
 			country = {
 				NOT = {
 					OR = {
-						government = absolute_monarchy
-						government = prussian_constitutionalism
-						government = hms_government
+						OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+						OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+						OR = { government = hms_government government = hms_government2 government = hms_government3 }
 					}
 				}
 			}

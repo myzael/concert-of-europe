@@ -1442,8 +1442,8 @@ country_event = {
 		has_country_flag = election_initialized
 		ruling_party_ideology = communist
 		NOT = {
-			government = hms_government
-			government = prussian_constitutionalism
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -1640,7 +1640,7 @@ country_event = {
 		has_country_flag = election_initialized
 		ruling_party_ideology = fascist
 		NOT = {
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 	
@@ -2021,8 +2021,8 @@ country_event = {
 		has_country_flag = election_initialized
 		ruling_party_ideology = anarcho_liberal
 		NOT = {
-			government = hms_government
-			government = prussian_constitutionalism
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	

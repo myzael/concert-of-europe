@@ -862,9 +862,9 @@ country_event = {
 		election = no
 		has_country_flag = easter_rising
 		OR = {
-			government = democracy
-			government = hms_government
-			government = prussian_constitutionalism
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 		OR = {
 			AND = {
@@ -1114,8 +1114,8 @@ country_event = {
 		year = 1875
 		any_owned_province = { is_core = IRE }
 		OR = {
-			government = democracy
-			government = hms_government
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		OR = {
 			AND = {
@@ -1242,9 +1242,9 @@ country_event = {
 			has_country_flag = parnell_encouraged
 		}
 		OR = {
-			government = democracy
-			government = hms_government
-			government = prussian_constitutionalism
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 		NOT = { exists = IRE }
 	}
@@ -1344,7 +1344,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5
@@ -1411,7 +1411,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 1.5

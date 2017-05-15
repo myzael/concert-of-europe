@@ -1052,8 +1052,8 @@ political_decisions = {
 				limit = {
 					owner = {
 						OR = {
-							government = prussian_constitutionalism
-							government = absolute_monarchy
+							OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+							OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 						}
 					}
 				}
@@ -1064,7 +1064,7 @@ political_decisions = {
 					political_reform = free_press
 					political_reform = non_socialist
 					political_reform = secret_ballots
-					government = hms_government
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 			}
 			add_accepted_culture = avadhi
@@ -1141,8 +1141,8 @@ political_decisions = {
 				limit = {
 					owner = {
 						OR = {
-							government = prussian_constitutionalism
-							government = absolute_monarchy
+							OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+							OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 						}
 					}
 				}
@@ -1153,7 +1153,7 @@ political_decisions = {
 					political_reform = free_press
 					political_reform = non_socialist
 					political_reform = secret_ballots
-					government = hms_government
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 			}
 			ENG_1258 = { add_core = BNG } #Assam
@@ -1204,8 +1204,8 @@ political_decisions = {
 				limit = {
 					owner = {
 						OR = {
-							government = prussian_constitutionalism
-							government = absolute_monarchy
+							OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+							OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 						}
 					}
 				}
@@ -1216,7 +1216,7 @@ political_decisions = {
 					political_reform = free_press
 					political_reform = non_socialist
 					political_reform = secret_ballots
-					government = hms_government
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 			}
 			add_accepted_culture = gujarati
@@ -1319,8 +1319,8 @@ political_decisions = {
 				limit = {
 					owner = {
 						OR = {
-							government = prussian_constitutionalism
-							government = absolute_monarchy
+							OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+							OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 						}
 					}
 				}
@@ -1331,7 +1331,7 @@ political_decisions = {
 					political_reform = free_press
 					political_reform = non_socialist
 					political_reform = secret_ballots
-					government = hms_government
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 			}
 			add_accepted_culture = tamil

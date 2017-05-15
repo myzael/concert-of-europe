@@ -12,8 +12,8 @@ political_decisions = {
 			war = no
 			is_vassal = no
 			nationalism_n_imperialism = 1
-			NOT = { government = hms_government }
-			NOT = {	government = democracy }
+			NOT = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }
+			NOT = {	OR = { government = democracy government = democracy2 government = democracy3 } }
 			NOT = { war_policy = pacifism }
 			OR = {
 				owns = 994
@@ -839,7 +839,7 @@ political_decisions = {
 			OR = {
 				owns = 890
 				owns = 928
-				government = fascist_dictatorship
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 				is_secondary_power = yes
 				is_greater_power = yes
 			}

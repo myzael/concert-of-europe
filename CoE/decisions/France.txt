@@ -8,13 +8,13 @@ political_decisions = {
 			exists = FRA
 			exists = USA
 			USA = {
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				owns = 232
 			}
 			FRA = {
 				OR = {
-					government = hms_government
-					government = democracy
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
+					OR = { government = democracy government = democracy2 government = democracy3 }
 				}
 			}	
 			year = 1850
@@ -389,9 +389,9 @@ political_decisions = {
 			ideological_thought = 1
 			1097 = { empty = yes }
 			OR = {
-				government = hms_government
-				government = prussian_constitutionalism
-				government = absolute_monarchy
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 		}
 		
@@ -499,11 +499,11 @@ political_decisions = {
             tag = FRA
             war_with = SPA
             OR = {
-                government = absolute_monarchy
-                government = prussian_constitutionalism
+                OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+                OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
             }
             SPA = {
-                government = hms_government
+                OR = { government = hms_government government = hms_government2 government = hms_government3 }
             }
             has_country_flag = one_hunderd_thousand_sons
         }
@@ -554,8 +554,8 @@ political_decisions = {
         potential = {
             tag = FRA
             OR = {
-                government = absolute_monarchy
-                government = prussian_constitutionalism
+                OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+                OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
             }
             NOT = {
                 OR = {
@@ -577,7 +577,7 @@ political_decisions = {
             political_reform = appointed
             political_reform = censored_press
             plurality = -5
-            government = absolute_monarchy
+            OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
             ruling_party_ideology = reactionary
             any_pop = {
                 limit = {

@@ -95,9 +95,9 @@ political_decisions = {
 			NOT = { has_country_flag = naser_in_europe }
 			has_country_flag = naser_al_din
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		}
 		allow = {
@@ -175,7 +175,7 @@ political_decisions = {
 		picture = "decision_majles"
 		potential = {
 			tag = PER
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			NOT = { has_country_flag = bombarded_majles }
 			has_country_flag = persian_constitution_flag
 		}
@@ -515,7 +515,7 @@ political_decisions = {
 		
 		allow = {
 			OR = {
-				government = theocracy
+				OR = { government = theocracy government = theocracy2 government = theocracy3 }
 				AND = {
 					owns = 929
 					owns = 933

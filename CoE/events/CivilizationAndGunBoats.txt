@@ -893,8 +893,8 @@ country_event = {
 			modifier = {
 				factor = 0.5
 				OR = {
-					government = democracy
-					government = hms_government
+					OR = { government = democracy government = democracy2 government = democracy3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 			}
 		}
@@ -942,10 +942,10 @@ country_event = {
 			modifier = {
 				factor = 0.5
 				OR = {
-					government = absolute_monarchy
-					government = proletarian_dictatorship
-					government = fascist_dictatorship
-					government = bourgeois_dictatorship
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
 				}
 			}
 		}
@@ -1778,7 +1778,7 @@ country_event = {
 			has_pop_type = aristocrats
 			has_province_modifier = western_presence
 		}
-		government = absolute_monarchy
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		civilized = no
 	}
 	
@@ -2069,9 +2069,9 @@ country_event = {
 		exists = yes
 		has_country_flag = princes_recieve_foreign_education
 		OR = {
-			government = hms_government
-			government = prussian_constitutionalism
-			government = absolute_monarchy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		}
 		slavery = yes_slavery
 		NOT = { has_country_flag = educated_princes_refused }
@@ -2545,8 +2545,8 @@ country_event = {
 			modifier = {
 				factor = 0.5
 				OR = {
-					government = democracy
-					government = hms_government
+					OR = { government = democracy government = democracy2 government = democracy3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 			}
 		}
@@ -2580,10 +2580,10 @@ country_event = {
 			modifier = {
 				factor = 0.5
 				OR = {
-					government = absolute_monarchy
-					government = proletarian_dictatorship
-					government = fascist_dictatorship
-					government = bourgeois_dictatorship
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
 				}
 			}
 		}
@@ -3084,8 +3084,8 @@ country_event = {
 				factor = 0
 				badboy = 0.92
 				NOT = {
-					government = fascist_dictatorship
-					government = proletarian_dictatorship
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 				}
 			}
 		}
@@ -3107,8 +3107,8 @@ country_event = {
 			modifier = {
 				factor = 0.1
 				OR = {
-					government = fascist_dictatorship
-					government = proletarian_dictatorship
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 				}
 			}
 		}
@@ -3835,9 +3835,9 @@ country_event = {
 		modifier = {
 			factor = 0.1
 			NOT = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		}
 	}

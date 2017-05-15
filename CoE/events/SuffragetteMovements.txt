@@ -18,9 +18,9 @@ country_event = {
 		civilized = yes
 		invention = womens_suffrage_movement
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -124,9 +124,9 @@ country_event = {
 		civilized = yes
 		invention = womens_suffrage_movement
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -236,9 +236,9 @@ country_event = {
 		invention = womens_suffrage_movement
 		slavery = no_slavery
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -345,9 +345,9 @@ country_event = {
 		is_mobilised = yes
 		civilized = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -452,9 +452,9 @@ country_event = {
 		exists = yes
 		civilized = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -565,9 +565,9 @@ country_event = {
 		invention = womens_suffrage_movement
 		public_meetings = yes_meeting
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -679,9 +679,9 @@ country_event = {
 		civilized = yes
 		invention = womens_suffrage_movement
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -793,9 +793,9 @@ country_event = {
 		invention = womens_suffrage_movement
 		is_ideology_enabled = socialist
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -913,9 +913,9 @@ country_event = {
 		civilized = yes
 		invention = womens_suffrage_movement
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -1028,9 +1028,9 @@ country_event = {
 		civilized = yes
 		invention = womens_suffrage_movement
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -1140,9 +1140,9 @@ country_event = {
 		civilized = yes
 		invention = womens_suffrage_movement
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -1257,9 +1257,9 @@ country_event = {
 		exists = yes
 		civilized = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -1354,9 +1354,9 @@ country_event = {
 		civilized = yes
 		invention = womens_suffrage_movement
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -1460,9 +1460,9 @@ country_event = {
 		exists = yes
 		civilized = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -1564,9 +1564,9 @@ country_event = {
 		exists = yes
 		civilized = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -1678,9 +1678,9 @@ country_event = {
 		exists = yes
 		civilized = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -1790,9 +1790,9 @@ country_event = {
 		year = 1890
 		civilized = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {
@@ -1893,9 +1893,9 @@ country_event = {
 		has_country_modifier = female_suffrage
 		civilized = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			# All forms of government that have elections
 		}
 		OR = {

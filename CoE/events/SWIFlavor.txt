@@ -133,7 +133,7 @@ country_event = {
 	trigger = {
 		tag = SWI
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		year = 1898
 		NOT = {
 			year = 1902
@@ -174,7 +174,7 @@ country_event = {
 	trigger = {
 		tag = SWI
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		year = 1866
 		NOT = {
 			year = 1869
@@ -221,7 +221,7 @@ country_event = {
 	trigger = {
 		tag = SWI
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		year = 1887
 		NOT = {
 			year = 1890
@@ -322,8 +322,8 @@ country_event = {
 		exists = AUS
 		AUS = {
 			OR = {
-				government = absolute_monarchy
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		}
 		
@@ -372,7 +372,7 @@ country_event = {
 	trigger = {
 		tag = SWI
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		war = no
 		year = 1915
 		NOT = {
@@ -421,7 +421,7 @@ country_event = {
 	trigger = {
 		tag = SWI
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		war = no
 		year = 1916
 		has_country_flag = 1stSocCon

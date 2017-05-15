@@ -623,7 +623,7 @@ socialist_realism = {
 		base = 2
 		modifier = {
 			factor = 2
-			government = proletarian_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 		}
 		modifier = {
 			factor = 2
@@ -1170,15 +1170,15 @@ hierarchical_order = {
 		base = 0
 		modifier = {
 			factor = 5
-			government = absolute_monarchy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		}
 		modifier = {
 			factor = 3
-			government = prussian_constitutionalism
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 		modifier = {
 			factor = 1
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 	global_pop_consciousness_modifier = -0.01	
@@ -1198,11 +1198,11 @@ traditionalism = {
 		}
 		modifier = {
 			factor = 2
-			government = absolute_monarchy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		}
 		modifier = {
 			factor = 1
-			government = prussian_constitutionalism
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	global_pop_consciousness_modifier = -0.01
@@ -1254,7 +1254,7 @@ constitutionalism = {
 		base = 3
 		modifier = {
 			factor = 2
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		modifier = {
 			factor = 1
@@ -1403,7 +1403,7 @@ egalitarianism = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		modifier = {
 			factor = 1
@@ -2343,11 +2343,11 @@ mass_advertising = {
 		}
 		modifier = {
 			factor = 2
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		modifier = {
 			factor = 1
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		modifier = {
 			factor = -2
@@ -2380,7 +2380,7 @@ national_radio_networks = {
 		}
 		modifier = {
 			factor = 1
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		modifier = {
 			factor = -1

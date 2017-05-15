@@ -20,8 +20,8 @@ country_event = {
 		war = no
 		is_ideology_enabled = anarcho_liberal
 		OR = {
-			government = democracy
-			government = hms_government
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 
 	}
@@ -119,8 +119,8 @@ country_event = {
 			has_country_flag = Facundo
 		}
 		OR = {
-			government = presidential_dictatorship  #book is reaction against strong-man rule
-			government = absolute_monarchy
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }  #book is reaction against strong-man rule
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		}  
 	}
  
@@ -202,12 +202,12 @@ country_event = {
 			}
 		}
 		OR = {
-			government = democracy
-			government = hms_government
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		ARG = {
 			owns = 2356
-			government = presidential_dictatorship
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 			OR = {
 				liberal = 30
 				average_militancy = 3
@@ -289,7 +289,7 @@ country_event = {
 		owns = 2356
 		war = no
 		NOT = { exists = ENT }
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		year = 1850
 		OR = {
 			liberal = 30
@@ -333,7 +333,7 @@ country_event = {
 	option = {
 		name = "We welcome the republic."
 		prestige = -5
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		ruling_party_ideology = liberal
 		political_reform = no_slavery
 		political_reform = landed_voting
@@ -475,7 +475,7 @@ country_event = {
 		clr_global_flag = entre_rios_rebellion
 		set_country_flag = entre_rios_has_happened
 		prestige = 5
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		ruling_party_ideology = liberal
 		political_reform = no_slavery
 		political_reform = landed_voting

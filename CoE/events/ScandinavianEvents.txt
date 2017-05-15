@@ -43,10 +43,10 @@ country_event = {
 				factor = 0.5
 				NOT = {
 					OR = {
-						government = absolute_monarchy
-						government = prussian_constitutionalism
-						government = hms_government
-						government = democracy
+						OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+						OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+						OR = { government = hms_government government = hms_government2 government = hms_government3 }
+						OR = { government = democracy government = democracy2 government = democracy3 }
 					}
 				}
 			}
@@ -55,10 +55,10 @@ country_event = {
 				FROM = {
 					NOT = {
 						OR = {
-							government = absolute_monarchy
-							government = prussian_constitutionalism
-							government = hms_government
-							government = democracy
+							OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+							OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+							OR = { government = hms_government government = hms_government2 government = hms_government3 }
+							OR = { government = democracy government = democracy2 government = democracy3 }
 						}
 					}
 				}
@@ -203,10 +203,10 @@ country_event = {
 				factor = 0.5
 				NOT = {
 					OR = {
-						government = absolute_monarchy
-						government = prussian_constitutionalism
-						government = hms_government
-						government = democracy
+						OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+						OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+						OR = { government = hms_government government = hms_government2 government = hms_government3 }
+						OR = { government = democracy government = democracy2 government = democracy3 }
 					}
 				}
 			}
@@ -215,10 +215,10 @@ country_event = {
 				FROM = {
 					NOT = {
 						OR = {
-							government = absolute_monarchy
-							government = prussian_constitutionalism
-							government = hms_government
-							government = democracy
+							OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+							OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+							OR = { government = hms_government government = hms_government2 government = hms_government3 }
+							OR = { government = democracy government = democracy2 government = democracy3 }
 						}
 					}
 				}
@@ -297,10 +297,10 @@ country_event = {
 				factor = 0.5
 				NOT = {
 					OR = {
-						government = absolute_monarchy
-						government = prussian_constitutionalism
-						government = hms_government
-						government = democracy
+						OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+						OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+						OR = { government = hms_government government = hms_government2 government = hms_government3 }
+						OR = { government = democracy government = democracy2 government = democracy3 }
 					}
 				}
 			}
@@ -309,10 +309,10 @@ country_event = {
 				FROM = {
 					NOT = {
 						OR = {
-							government = absolute_monarchy
-							government = prussian_constitutionalism
-							government = hms_government
-							government = democracy
+							OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+							OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+							OR = { government = hms_government government = hms_government2 government = hms_government3 }
+							OR = { government = democracy government = democracy2 government = democracy3 }
 						}
 					}
 				}
@@ -586,7 +586,7 @@ country_event = {
 		nationalism_n_imperialism = 1
 		NOT = {
 			has_country_flag = finnish_independence
-			government = absolute_monarchy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			exists = FIN
 		}
 		is_possible_vassal = FIN

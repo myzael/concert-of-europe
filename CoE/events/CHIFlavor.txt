@@ -80,9 +80,9 @@ country_event = {
 		}
 		exists = yes
 		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		any_owned_province = {
 			is_capital = yes
@@ -254,7 +254,7 @@ country_event = {
 		remove_country_modifier = pig_headed_isolationist
 		remove_country_modifier = ambitious_union_boss
 		remove_country_modifier = dour_economist
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		ruling_party_ideology = reactionary
 		political_reform = none_voting
 		political_reform = party_appointed
@@ -415,7 +415,7 @@ country_event = {
 		remove_country_modifier = pig_headed_isolationist
 		remove_country_modifier = ambitious_union_boss
 		remove_country_modifier = dour_economist
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		ruling_party_ideology = liberal
 		set_country_flag = liberal_election_win
 		political_reform = universal_weighted_voting
@@ -500,9 +500,9 @@ country_event = {
 		exists = yes
 		civilized = yes
 		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		has_global_flag = the_new_army
 		NOT = { has_country_flag = tongmenghui }
@@ -696,9 +696,9 @@ province_event = {
 			NOT = { has_global_flag = warlord_era_has_begun }
 			war = no
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		}
 	}
@@ -3509,14 +3509,14 @@ country_event = {
 			tag = KMT
 			AND = {
 				tag = CHI
-				NOT = { government = presidential_dictatorship }
+				NOT = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 				has_country_flag = xinhai_revolution
 			}
 			AND = {
 				tag = TPG
 				OR = {
-					government = democracy
-					government = hms_government
+					OR = { government = democracy government = democracy2 government = democracy3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 			}
 			NOT = { prestige = 25 }
@@ -3596,24 +3596,24 @@ country_event = {
 		modifier = {
 			factor = 0.1
 			OR = {
-				government = bourgeois_dictatorship
-				government = proletarian_dictatorship
-				government = fascist_dictatorship
-				government = absolute_monarchy
+				OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 		}
 		modifier = {
 			factor = 0.1
 			tag = TPG
 			OR = {
-				government = democracy
-				government = hms_government
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		}
 		modifier = {
 			factor = 0.1
 			tag = CHI
-			NOT = { government = presidential_dictatorship }
+			NOT = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 		}
 		modifier = {
 			factor = 0.5
@@ -4002,7 +4002,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				NOT = { government = presidential_dictatorship }
+				NOT = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 			}
 		}
 	}
@@ -4084,7 +4084,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				NOT = { government = presidential_dictatorship }
+				NOT = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 			}
 		}
 	}
@@ -4186,7 +4186,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				NOT = { government = presidential_dictatorship }
+				NOT = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 			}
 		}
 	}
@@ -4321,7 +4321,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				NOT = { government = presidential_dictatorship }
+				NOT = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 			}
 		}
 	}
@@ -4408,7 +4408,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				NOT = { government = presidential_dictatorship }
+				NOT = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 			}
 		}
 	}
@@ -4446,7 +4446,7 @@ country_event = {
 			}
 		}
 		ruling_party_ideology = communist
-		government = proletarian_dictatorship
+		OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 		political_reform = none_voting
 		political_reform = party_appointed
 		political_reform = no_meeting
@@ -4595,7 +4595,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				NOT = { government = presidential_dictatorship }
+				NOT = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 			}
 		}
 	}
@@ -4730,7 +4730,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				NOT = { government = presidential_dictatorship }
+				NOT = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 			}
 		}
 	}
@@ -4817,7 +4817,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				NOT = { government = presidential_dictatorship }
+				NOT = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 			}
 		}
 	}
@@ -4855,7 +4855,7 @@ country_event = {
 			}
 		}
 		ruling_party_ideology = fascist
-		government = fascist_dictatorship
+		OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		political_reform = none_voting
 		political_reform = party_appointed
 		political_reform = no_meeting
@@ -4972,7 +4972,7 @@ country_event = {
 			}
 		}
 		ruling_party_ideology = communist
-		government = proletarian_dictatorship
+		OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 		political_reform = none_voting
 		political_reform = party_appointed
 		political_reform = no_meeting
@@ -5156,7 +5156,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				NOT = { government = presidential_dictatorship }
+				NOT = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 			}
 		}
 	}
@@ -5553,23 +5553,23 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				government = proletarian_dictatorship
-				FROM = { NOT = { government = proletarian_dictatorship }  }
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+				FROM = { NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }  }
 			}
 			modifier = {
 				factor = 0.5
-				government = bourgeois_dictatorship
-				FROM = { NOT = { government = bourgeois_dictatorship }  }
+				OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+				FROM = { NOT = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }  }
 			}
 			modifier = {
 				factor = 0
-				government = fascist_dictatorship
-				FROM = { NOT = { government = fascist_dictatorship }  }
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+				FROM = { NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }  }
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
-				FROM = { NOT = { government = democracy }  }
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				FROM = { NOT = { OR = { government = democracy government = democracy2 government = democracy3 } }  }
 			}
 		}
 	}
@@ -5607,33 +5607,33 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				government = proletarian_dictatorship
-				FROM = { NOT = { government = proletarian_dictatorship }  }
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+				FROM = { NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }  }
 			}
 			modifier = {
 				factor = 0
-				FROM = { government = proletarian_dictatorship }
-				NOT = { government = proletarian_dictatorship }
+				FROM = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
+				NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			}
 			modifier = {
 				factor = 2
-				government = bourgeois_dictatorship
-				FROM = { NOT = { government = bourgeois_dictatorship }  }
+				OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+				FROM = { NOT = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }  }
 			}
 			modifier = {
 				factor = 0
-				government = fascist_dictatorship
-				FROM = { NOT = { government = fascist_dictatorship }  }
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+				FROM = { NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }  }
 			}
 			modifier = {
 				factor = 0
-				FROM = { government = fascist_dictatorship }
-				NOT = { government = fascist_dictatorship }
+				FROM = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+				NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 			}
 			modifier = {
 				factor = 2
-				government = democracy
-				FROM = { NOT = { government = democracy }  }
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				FROM = { NOT = { OR = { government = democracy government = democracy2 government = democracy3 } }  }
 			}
 		}
 	}
@@ -5657,28 +5657,28 @@ country_event = {
 			}
 			modifier = {
 				factor = 3
-				government = proletarian_dictatorship
-				FROM = { NOT = { government = proletarian_dictatorship }  }
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+				FROM = { NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }  }
 			}
 			modifier = {
 				factor = 3
-				government = bourgeois_dictatorship
-				FROM = { NOT = { government = bourgeois_dictatorship }  }
+				OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+				FROM = { NOT = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }  }
 			}
 			modifier = {
 				factor = 3
-				government = fascist_dictatorship
-				FROM = { NOT = { government = fascist_dictatorship }  }
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+				FROM = { NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }  }
 			}
 			modifier = {
 				factor = 3
-				FROM = { government = fascist_dictatorship }
-				NOT = { government = fascist_dictatorship }
+				FROM = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+				NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 			}
 			modifier = {
 				factor = 3
-				FROM = { government = proletarian_dictatorship }
-				NOT = { government = proletarian_dictatorship }
+				FROM = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
+				NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			}
 			modifier = {
 				factor = 3

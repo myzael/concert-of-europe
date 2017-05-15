@@ -1735,7 +1735,7 @@ political_decisions = {
 			}
 			ALD = {
 				set_country_flag = civilize_after_release
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				political_reform = landed_voting
 				capital = 1700
 			}
@@ -1774,7 +1774,7 @@ political_decisions = {
 				set_country_flag = post_colonial_country
 				primary_culture = THIS
 				add_accepted_culture = baganda
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				political_reform = landed_voting
 				set_country_flag = civilize_after_release
 			}
@@ -1814,7 +1814,7 @@ political_decisions = {
 				set_country_flag = post_colonial_country
 				primary_culture = THIS
 				add_accepted_culture = tswana
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				political_reform = landed_voting
 				set_country_flag = civilize_after_release
 			}
@@ -1852,7 +1852,7 @@ political_decisions = {
 			}
 			ZAN = {
 				set_country_flag = post_colonial_country
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				political_reform = landed_voting
 				set_country_flag = civilize_after_release
 			}
@@ -1892,7 +1892,7 @@ political_decisions = {
 			SUD = {
 				all_core = { remove_core = EGY }
 				set_country_flag = post_colonial_country
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				political_reform = landed_voting
 				set_country_flag = civilize_after_release
 			}
@@ -1929,7 +1929,7 @@ political_decisions = {
 			}
 			ASH = {
 				set_country_flag = post_colonial_country
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				political_reform = landed_voting
 				set_country_flag = civilize_after_release
 			}
@@ -1986,7 +1986,7 @@ political_decisions = {
 			}
 			MOS = {
 				set_country_flag = post_colonial_country
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				political_reform = landed_voting
 				set_country_flag = civilize_after_release
 			}
@@ -2023,7 +2023,7 @@ political_decisions = {
 			}
 			TRZ = {
 				set_country_flag = post_colonial_country
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				political_reform = landed_voting
 				set_country_flag = civilize_after_release
 			}
@@ -2060,7 +2060,7 @@ political_decisions = {
 			}
 			DAH = {
 				set_country_flag = post_colonial_country
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				political_reform = landed_voting
 				set_country_flag = civilize_after_release
 			}

@@ -516,16 +516,16 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				government = fascist_dictatorship
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 				FROM = {
-					government = fascist_dictatorship
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 				}
 			}
 			modifier = {
 				factor = 2
-				government = proletarian_dictatorship
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 				FROM = {
-					government = proletarian_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 				}
 			}
 			modifier = {
@@ -565,16 +565,16 @@ country_event = {
 			}
 			modifier = {
 				factor = 10
-				government = fascist_dictatorship
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 				FROM = {
-					government = proletarian_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 				}
 			}
 			modifier = {
 				factor = 10
-				government = proletarian_dictatorship
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 				FROM = {
-					government = fascist_dictatorship
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 				}
 			}
 		}

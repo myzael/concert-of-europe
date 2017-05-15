@@ -1098,7 +1098,7 @@ country_event = {
 			factor = 95
 			modifier = {
 				factor = 0.1
-				government = fascist_dictatorship
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 			}
 		}
 	}
@@ -1112,7 +1112,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = democracy
+					OR = { government = democracy government = democracy2 government = democracy3 }
 					war_policy = pacifism
 				}
 			}

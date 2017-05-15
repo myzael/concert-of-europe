@@ -643,8 +643,8 @@ country_event = {
 			modifier = {
 				factor = 1.2
 				OR = {
-					government = theocracy
-					government = absolute_monarchy
+					OR = { government = theocracy government = theocracy2 government = theocracy3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				}
 			}
 			modifier = {
@@ -697,7 +697,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			modifier = {
 				factor = 0.8
@@ -822,7 +822,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			modifier = {
 				factor = 0.8
@@ -878,8 +878,8 @@ country_event = {
 			modifier = {
 				factor = 1.2
 				OR = {
-					government = theocracy
-					government = absolute_monarchy
+					OR = { government = theocracy government = theocracy2 government = theocracy3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				}
 			}
 			modifier = {
@@ -1019,7 +1019,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			modifier = {
 				factor = 0.8
@@ -1090,8 +1090,8 @@ country_event = {
 			modifier = {
 				factor = 1.2
 				OR = {
-					government = theocracy
-					government = absolute_monarchy
+					OR = { government = theocracy government = theocracy2 government = theocracy3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				}
 			}
 			modifier = {
@@ -1240,7 +1240,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			modifier = {
 				factor = 0.8
@@ -1331,8 +1331,8 @@ country_event = {
 			modifier = {
 				factor = 1.2
 				OR = {
-					government = theocracy
-					government = absolute_monarchy
+					OR = { government = theocracy government = theocracy2 government = theocracy3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				}
 			}
 			modifier = {
@@ -1466,7 +1466,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			modifier = {
 				factor = 0.8
@@ -1552,8 +1552,8 @@ country_event = {
 			modifier = {
 				factor = 1.2
 				OR = {
-					government = theocracy
-					government = absolute_monarchy
+					OR = { government = theocracy government = theocracy2 government = theocracy3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				}
 			}
 			modifier = {
@@ -1920,8 +1920,8 @@ country_event = {
 			modifier = {
 				factor = 1.4
 				OR = {
-					government = theocracy
-					government = absolute_monarchy
+					OR = { government = theocracy government = theocracy2 government = theocracy3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				}
 			}
 			modifier = {
@@ -2018,7 +2018,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			modifier = {
 				factor = 0.6
@@ -2269,8 +2269,8 @@ country_event = {
 			modifier = {
 				factor = 1.2
 				OR = {
-					government = theocracy
-					government = absolute_monarchy
+					OR = { government = theocracy government = theocracy2 government = theocracy3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				}
 			}
 			modifier = {
@@ -2350,7 +2350,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			modifier = {
 				factor = 0.8
@@ -2865,7 +2865,7 @@ province_event = {
 			}
 			modifier = {
 				factor = 1.4
-				owner = { government = absolute_monarchy }
+				owner = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 			}
 			modifier = {
 				factor = 1.4
@@ -2922,7 +2922,7 @@ province_event = {
 			}
 			modifier = {
 				factor = 1.2
-				owner = { government = hms_government }
+				owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }
 			}
 			modifier = {
 				factor = 0.6
@@ -3513,7 +3513,7 @@ province_event = {
 			}
 			modifier = {
 				factor = 1.4
-				owner = { government = absolute_monarchy }
+				owner = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 			}
 			modifier = {
 				factor = 1.4
@@ -3576,7 +3576,7 @@ province_event = {
 			}
 			modifier = {
 				factor = 1.2
-				owner = { government = hms_government }
+				owner = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }
 			}
 			modifier = {
 				factor = 0.6
@@ -4320,9 +4320,9 @@ country_event = {
 		exists = yes
 		exists = BEL
 		OR = {
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 		OR = {
 			has_country_flag = liberal_revolution_in_progress
@@ -4347,7 +4347,7 @@ country_event = {
 		prestige = -10
 		random_owned = {
 			limit = {
-				owner = { government = prussian_constitutionalism }
+				owner = { OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } }
 			}
 			owner = {
 				political_reform = universal_weighted_voting
@@ -4357,10 +4357,10 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				owner = { government = absolute_monarchy }
+				owner = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 			}
 			owner = {
-				government = prussian_constitutionalism
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				political_reform = landed_voting
 				political_reform = yes_meeting
 				political_reform = free_press
@@ -4466,9 +4466,9 @@ country_event = {
 		}
 		exists = yes
 		OR = {
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 		OR = {
 			vote_franschise = none_voting
@@ -4526,9 +4526,9 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				owner = { government = absolute_monarchy }
+				owner = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 			}
-			owner = { government = prussian_constitutionalism }
+			owner = { OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } }
 		}
 		election = yes		
 		random_owned = {
@@ -4922,7 +4922,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.2
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			modifier = {
 				factor = 0.8
@@ -4969,8 +4969,8 @@ country_event = {
 			modifier = {
 				factor = 1.2
 				OR = {
-					government = theocracy
-					government = absolute_monarchy
+					OR = { government = theocracy government = theocracy2 government = theocracy3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				}
 			}
 			modifier = {
@@ -5145,7 +5145,7 @@ country_event = {
 		exists = yes
 		NOT = {
 			economic_policy = laissez_faire
-			government = proletarian_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 		}
 		has_pop_type = capitalists
 		average_consciousness = 2

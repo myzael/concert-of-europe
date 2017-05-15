@@ -20,9 +20,9 @@ country_event = {
 			AND = {
 				tag = TUR
 				NOT = {
-					government = hms_government
-					government = prussian_constitutionalism
-					government = absolute_monarchy
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				}
 			}
 		}
@@ -31,9 +31,9 @@ country_event = {
 			AND = {
 				tag = TUR
 				NOT = {
-					government = hms_government
-					government = prussian_constitutionalism
-					government = absolute_monarchy
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				}
 			}
 		}
@@ -41,9 +41,9 @@ country_event = {
 			AND = {
 				tag = TUR
 				OR = {
-					government = hms_government
-					government = prussian_constitutionalism
-					government = absolute_monarchy
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				}
 				has_country_modifier = ottomanism_reform
 				minorities_reform = protected
@@ -74,9 +74,9 @@ country_event = {
 			factor = 0.1
 			tag = TUR
 			NOT = {
-				government = hms_government
-				government = prussian_constitutionalism
-				government = absolute_monarchy
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 		}
 		modifier = {
@@ -265,8 +265,8 @@ country_event = {
 			modifier = {
 				factor = 2
 				OR = {
-					government = democracy
-					government = hms_government
+					OR = { government = democracy government = democracy2 government = democracy3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 			}
 			modifier = {

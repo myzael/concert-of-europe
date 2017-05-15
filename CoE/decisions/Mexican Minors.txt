@@ -3,7 +3,7 @@ greater_rio_grande = {
 	tag = RGR
 		NOT = {
 			has_country_flag = greater_rio_grande
-			MEX = { government = democracy
+			MEX = { OR = { government = democracy government = democracy2 government = democracy3 }
 			government = { hms_government }
 		}
 	}

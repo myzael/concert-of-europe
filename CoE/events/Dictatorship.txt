@@ -36,7 +36,7 @@ country_event = {
 	trigger = {
 		exists = yes
 		year = 1865
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		average_consciousness = 2
 		NOT = { has_country_flag = dictatorship_revolution_initialised }
 	}
@@ -100,7 +100,7 @@ province_event = {
 
 	trigger = {
 		owner = {
-			government = presidential_dictatorship
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 			has_country_flag = dictatorship_agitation
 		}
 		NOT = {
@@ -249,7 +249,7 @@ country_event = {
 
 	trigger = {
 		exists = yes
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		average_consciousness = 3.0
 		has_country_flag = dictatorship_agitation
 		NOT = {
@@ -344,7 +344,7 @@ country_event = {
 		remove_country_modifier = revolutionary_society
 		remove_country_modifier = power_vacuum
 		set_country_flag = dictatorship_overthrown
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		election = yes
 		ruling_party_ideology = liberal
 		political_reform = population_equal_weight
@@ -462,7 +462,7 @@ country_event = {
 
 	trigger = {
 		exists = yes
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		average_consciousness = 3.0
 		average_militancy = 1.0
 		has_country_flag = dictator_assassination_attempts
@@ -623,7 +623,7 @@ country_event = {
 
 	trigger = {
 		exists = yes
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		has_country_flag = dictator_assassination_attempts
 		has_country_modifier = revolutionary_society
 		NOT = {
@@ -686,7 +686,7 @@ country_event = {
 
 	trigger = {
 		exists = yes
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		has_country_flag = dictator_assassination_attempts
 		has_country_modifier = revolutionary_society
 		NOT = {
@@ -758,7 +758,7 @@ country_event = {
 
 	trigger = {
 		exists = yes
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		has_country_flag = dictator_killed
 	}
 
@@ -821,7 +821,7 @@ country_event = {
 		}
 		set_country_flag = dictatorship_overthrown
 		prestige = 5
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		election = yes
 		ruling_party_ideology = liberal
 		political_reform = population_equal_weight
@@ -862,7 +862,7 @@ country_event = {
 
 	trigger = {
 		exists = yes
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		has_country_flag = dictator_killed
 	}
 	mean_time_to_happen = {
@@ -941,7 +941,7 @@ country_event = {
 
 	trigger = {
 		exists = yes
-		NOT = { government = presidential_dictatorship }
+		NOT = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 		has_country_flag = dictatorship_revolution_initialised
 	}
 	mean_time_to_happen = {

@@ -108,7 +108,7 @@ country_event = {
 			tag = FSA
 		}
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		invention = double_standard 
 		year = 1895
 		NOT = {
@@ -200,7 +200,7 @@ country_event = {
 	trigger = {
 		tag = USA
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		year = 1838
 		NOT = {
 			year = 1842
@@ -340,7 +340,7 @@ country_event = {
 	trigger = {
 		tag = USA
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		year = 1861
 		NOT = {
 			year = 1864
@@ -478,7 +478,7 @@ country_event = {
 		}
 		exists = yes
 		year = 1916
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		is_greater_power = yes
 		war = yes
 		NOT = {

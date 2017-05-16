@@ -140,22 +140,6 @@ country_event = {
 		NET = { country_event = { id = 95254 days = 10 } }
 		ai_chance = {
 			factor = 5
-			modifier = {
-				factor = 0
-				alliance_with = NET
-			}
-			modifier = {
-				factor = 0
-				war = yes
-			}
-			modifier = {
-				factor = 0
-				war_policy = pacifism
-			}
-			modifier = {
-				factor = 20
-				war_policy = jingoism
-			}
 		}
 	}
 }

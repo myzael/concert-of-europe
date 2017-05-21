@@ -1078,7 +1078,11 @@ political_decisions = {
 		allow = {
 			NOT = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 			NOT = { OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } }		
-			NOT = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }			
+			OR = {
+			  NOT = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }
+			  AND = { OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			    OR = { NOT = { upper_house_composition = party_appointed }  NOT = { upper_house_composition = appointed } }
+			}	
 			OR = {
 				ruling_party_ideology = socialist
 				ruling_party_ideology = communist

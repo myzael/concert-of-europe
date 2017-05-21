@@ -1082,6 +1082,7 @@ political_decisions = {
 			  NOT = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }
 			  AND = { OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			    OR = { NOT = { upper_house_composition = party_appointed }  NOT = { upper_house_composition = appointed } }
+			  }
 			}	
 			OR = {
 				ruling_party_ideology = socialist

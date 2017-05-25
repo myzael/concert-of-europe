@@ -1579,47 +1579,55 @@ promote_to = {
 	soldiers = {
 		factor = 0.01
 		modifier = {
-			factor = 2
+			factor = 1
 			OR = {
 				nationalvalue = nv_dominion
 				nationalvalue = nv_glory
 			}
 		}
 		modifier = {
-			factor = -4
+			factor = -2
 			nationalvalue = nv_liberty
 		}
 
 			modifier = {
-				factor = -5
+				factor = -1.25
 				not = { recruited_percentage = 0.25 }
 				country = { total_amount_of_divisions = 1 }
 			}
 			modifier = {
-				factor = -5
+				factor = -1.25
 				not = {  recruited_percentage = 0.33 }
 				country = { total_amount_of_divisions = 1 }
 			}
 			modifier = {
-				factor = -5
+				factor = -1.25
 				not = { recruited_percentage = 0.40 }
 				country = { total_amount_of_divisions = 1 }
 			}
 			modifier = {
-				factor = -5
+				factor = -1.25
 				not = {  recruited_percentage = 0.50 }
 				country = { total_amount_of_divisions = 1 }
 			}
+       		modifier = {
+				factor = 50
+				NOT = {
+				state_scope = {
+				soldiers = 0.025
+				}
+				}
+		   }
 
 		modifier = {
-			factor = 5
+			factor = 2.5
 			OR = {
 				nationalvalue = nv_might
 				nationalvalue = nv_independence
 			}
 		}
 		modifier = {
-			factor = 10
+			factor = 5
 			nationalvalue = nv_supremacy
 		}
 		modifier = {
@@ -1675,32 +1683,20 @@ promote_to = {
 			modifier = {
 				factor = -0.5
 				state_scope = {
-				soldiers = 0.003
-				}
-			}
-			modifier = {
-				factor = -0.5
-				state_scope = {
-				soldiers = 0.06 
+				soldiers = 0.005
 				}
 			}
 			modifier = {
 				factor = -0.5
 				state_scope = {
 				soldiers = 0.01 
-			}
-			}
-			modifier = {
-				factor = -0.5
-				state_scope = {
-				soldiers = 0.013 
 				}
 			}
 			modifier = {
 				factor = -0.5
 				state_scope = {
-				soldiers = 0.016 
-				}
+				soldiers = 0.015 
+			}
 			}
 			modifier = {
 				factor = -0.5
@@ -1711,13 +1707,7 @@ promote_to = {
 			modifier = {
 				factor = -0.5
 				state_scope = {
-				soldiers = 0.023 
-				}
-			}
-			modifier = {
-				factor = -0.5
-				state_scope = {
-				soldiers = 0.026 
+				soldiers = 0.025 
 				}
 			}
 			modifier = {
@@ -1726,53 +1716,70 @@ promote_to = {
 				soldiers = 0.03 
 				}
 			}
-		}
-		modifier = {
-				factor = -1.25
+			modifier = {
+				factor = -0.5
 				state_scope = {
 				soldiers = 0.035 
 				}
 			}
 			modifier = {
-				factor = -1.25
+				factor = -0.5
 				state_scope = {
-				soldiers = 0.038
+				soldiers = 0.04 
 				}
 			}
 			modifier = {
-				factor = -2.5
+				factor = -0.5
 				state_scope = {
-				soldiers = 0.04
-				}
-			}
-			modifier = {
-				factor = -2.5
-				state_scope = {
-				soldiers = 0.043
-				}
-			}
-			modifier = {
-				factor = -2.5
-				state_scope = {
-				soldiers = 0.045
-				}
-			}
-			modifier = {
-				factor = -2.5
-				state_scope = {
-				soldiers = 0.048
+				soldiers = 0.045 
 				}
 			}
 		modifier = {
-				factor = -5
+				factor = -1.0
 				state_scope = {
-				soldiers = 0.05
+				soldiers = 0.05 
+				}
+			}
+			modifier = {
+				factor = -1.0
+				state_scope = {
+				soldiers = 0.055
+				}
+			}
+			modifier = {
+				factor = -2.0
+				state_scope = {
+				soldiers = 0.06
+				}
+			}
+			modifier = {
+				factor = -2.0
+				state_scope = {
+				soldiers = 0.065
+				}
+			}
+			modifier = {
+				factor = -2.0
+				state_scope = {
+				soldiers = 0.07
+				}
+			}
+			modifier = {
+				factor = -2.0
+				state_scope = {
+				soldiers = 0.075
+				}
+			}
+		modifier = {
+				factor = -4
+				state_scope = {
+				soldiers = 0.08
 				}
 		}		
 		modifier = {
 				factor = -10
 				state_scope = {
-				soldiers = 0.075
+				soldiers = 0.085
 				}
 		}
 		modifier = {
@@ -1781,6 +1788,7 @@ promote_to = {
 				soldiers = 0.105
 				}
 			}
+        }
 		group = {
 			modifier = {
 				factor = 1

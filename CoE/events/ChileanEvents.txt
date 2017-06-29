@@ -626,7 +626,10 @@ country_event = {
 	
 		name = "We don't need their support!"
 		prestige = 1		
-		remove_country_modifier =  sac_intervention
+		#ini oscar7211
+		#remove_country_modifier =  sac_intervention
+		remove_country_flag =  sac_intervention
+		#end oscar7211
 		any_pop = {
 					ideology = {
 						value = conservative
@@ -640,7 +643,10 @@ country_event = {
 	}
 	option = {
 		name = "Make vague promises of change."
-		remove_country_modifier =  sac_intervention
+		#ini oscar7211
+		#remove_country_modifier =  sac_intervention
+		remove_country_flag =  sac_intervention
+		#end oscar7211
 		prestige = -1
 		any_pop = {
 					ideology = {
@@ -655,7 +661,10 @@ country_event = {
 	}
 	option = {
 		name = "Apologize and present your resignation."
-		remove_country_modifier =  sac_internvention
+		#ini oscar7211
+		#remove_country_modifier =  sac_internvention
+		remove_country_flag =  sac_internvention
+		#end oscar7211
 		prestige = -5
 		remove_country_modifier = expert_diplomat
 		remove_country_modifier = successful_industrialist

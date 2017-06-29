@@ -22,7 +22,8 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		month = 12
+		#month = 12 oscar7211
+		months = 12
 	}
 	
 	option = {

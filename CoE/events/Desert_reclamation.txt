@@ -685,9 +685,10 @@ country_event = {
 	mean_time_to_happen = {
 		months = 10
 		modifier = {
+			factor = 0.25 #oscar7211
 			any_owned_province = {
 				continent = africa
-				factor = 0.25
+				#factor = 0.25 #oscar7211
 			}
 		}
 	}

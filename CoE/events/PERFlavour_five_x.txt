@@ -121,11 +121,13 @@ country_event = {
 			consciousness = 1
 			ideology = {
 				factor = 0.01
-				ideology = reactionary
+			#	ideology = reactionary #MoralMonster fix
+				value = reactionary
 			}
 			scaled_militancy = {
 				factor = 3.5
-				ideology = reactionaries
+				#ideology = reactionaries oscar7211
+				ideology = reactionary
 			}
 		}
 		random_owned = {

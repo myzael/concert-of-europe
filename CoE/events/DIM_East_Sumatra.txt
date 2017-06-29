@@ -42,10 +42,13 @@ country_event = {
 		create_vassal = D21
 		treasury = -20000
 		badboy = 3
-		PLB = {
+		#ini oscar7211
+		#PLB = {
+		D21 = {
 			1807 = { secede_province = NET }
 			1399 = { any_pop = { militancy = 3 } }
 		}
+		#end oscar7211
 		1807 = { any_pop = { militancy = 5 } }
 		ai_chance = {
 			factor = 4

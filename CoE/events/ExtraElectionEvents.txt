@@ -3476,12 +3476,25 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		is_colonial = no
-		any_pop = {
-			OR = {
-				is_primary_culture = yes
-				is_accepted_culture = yes
+		#ini modif oscar7211
+		OR = {
+			any_pop = {
+					is_primary_culture = yes
+					
+			}
+			any_pop = {
+					is_accepted_culture = yes
 			}
 		}
+		
+		#old code
+		#any_pop = {
+		#	OR = {
+		#		#is_primary_culture = yes
+		#		is_accepted_culture = yes
+		#	}
+		#}end modif oscar7211
+		
 		any_pop = {
 			is_primary_culture = no
 			is_accepted_culture = no

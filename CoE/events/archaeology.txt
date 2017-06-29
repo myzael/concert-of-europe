@@ -1080,7 +1080,10 @@ province_event = {
 		FROM = {
 			random_owned = {
 				limit = { is_capital = yes }
-				province_event = 201005
+				#ini oscar7211
+				#province_event = 201005
+				province_event = { id = 201005 }
+				#end
 			}
 		}
 		ai_chance = {
@@ -1094,7 +1097,10 @@ province_event = {
 		FROM = {
 			random_owned = {
 				limit = { is_capital = yes }
-				province_event = 201006
+				#ini oscar7211
+				#province_event = 201006
+				province_event = { id = 201006 }
+				#end
 			}
 		}
 	}

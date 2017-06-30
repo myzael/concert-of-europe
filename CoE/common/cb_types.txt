@@ -3526,6 +3526,7 @@ acquire_state = {
 			civilized = yes
 		}
 		THIS = {
+			number_of_states = 2
 			NOT = {
 				has_country_modifier = neutrality
 				war_policy = pacifism
@@ -4486,7 +4487,7 @@ conquest = {
 		}
 	}
 
-	badboy_factor = 2.2
+	badboy_factor = 1.5
 	prestige_factor = 5
 	peace_cost_factor = 1
 	penalty_factor = 1

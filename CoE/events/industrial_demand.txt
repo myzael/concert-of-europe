@@ -1,7 +1,7 @@
 country_event = {
 	id = 999999
 	title = EVTNAME999999
-	desc = EVTDESC99999
+	desc = EVTDESC999999
 	picture = "auction"
 
 	trigger = {
@@ -25,7 +25,7 @@ country_event = {
 country_event = {
 	id = 999998
 	title = EVTNAME999998
-	desc = EVTDESC99998
+	desc = EVTDESC999998
 	picture = "auction"
 
 	trigger = {
@@ -48,7 +48,7 @@ country_event = {
 country_event = {
 	id = 999997
 	title = EVTNAME999997
-	desc = EVTDESC99997
+	desc = EVTDESC999997
 	picture = "auction"
 
 	trigger = {
@@ -71,7 +71,7 @@ country_event = {
 country_event = {
 	id = 999996
 	title = EVTNAME999996
-	desc = EVTDESC99996
+	desc = EVTDESC999996
 	picture = "auction"
 
 	trigger = {
@@ -94,7 +94,7 @@ country_event = {
 country_event = {
 	id = 999995
 	title = EVTNAME999995
-	desc = EVTDESC99995
+	desc = EVTDESC999995
 	picture = "auction"
 
 	trigger = {
@@ -117,7 +117,7 @@ country_event = {
 country_event = {
 	id = 999994
 	title = EVTNAME999994
-	desc = EVTDESC99994
+	desc = EVTDESC999994
 	picture = "auction"
 
 	trigger = {
@@ -140,7 +140,7 @@ country_event = {
 country_event = {
 	id = 999993
 	title = EVTNAME999993
-	desc = EVTDESC99993
+	desc = EVTDESC999993
 	picture = "auction"
 
 	trigger = {
@@ -163,7 +163,7 @@ country_event = {
 country_event = {
 	id = 999992
 	title = EVTNAME999992
-	desc = EVTDESC99992
+	desc = EVTDESC999992
 	picture = "auction"
 
 	trigger = {
@@ -186,7 +186,7 @@ country_event = {
 country_event = {
 	id = 999991
 	title = EVTNAME999991
-	desc = EVTDESC99991
+	desc = EVTDESC999991
 	picture = "auction"
 
 	trigger = {
@@ -209,7 +209,7 @@ country_event = {
 country_event = {
 	id = 999990
 	title = EVTNAME999990
-	desc = EVTDESC99990
+	desc = EVTDESC999990
 	picture = "auction"
 
 	trigger = {
@@ -232,7 +232,7 @@ country_event = {
 country_event = {
 	id = 999989
 	title = EVTNAME999989
-	desc = EVTDESC99989
+	desc = EVTDESC999989
 	picture = "auction"
 
 	trigger = {
@@ -255,7 +255,7 @@ country_event = {
 country_event = {
 	id = 999988
 	title = EVTNAME999988
-	desc = EVTDESC99988
+	desc = EVTDESC999988
 	picture = "auction"
 
 	trigger = {
@@ -278,7 +278,7 @@ country_event = {
 country_event = {
 	id = 999987
 	title = EVTNAME999987
-	desc = EVTDESC99987
+	desc = EVTDESC999987
 	picture = "auction"
 
 	trigger = {
@@ -301,7 +301,7 @@ country_event = {
 country_event = {
 	id = 999986
 	title = EVTNAME999986
-	desc = EVTDESC99986
+	desc = EVTDESC999986
 	picture = "auction"
 
 	trigger = {
@@ -324,7 +324,7 @@ country_event = {
 country_event = {
 	id = 999985
 	title = EVTNAME999985
-	desc = EVTDESC99985
+	desc = EVTDESC999985
 	picture = "auction"
 
 	trigger = {
@@ -347,7 +347,7 @@ country_event = {
 country_event = {
 	id = 999984
 	title = EVTNAME999984
-	desc = EVTDESC99984
+	desc = EVTDESC999984
 	picture = "auction"
 
 	trigger = {
@@ -370,7 +370,7 @@ country_event = {
 country_event = {
 	id = 999983
 	title = EVTNAME999983
-	desc = EVTDESC99983
+	desc = EVTDESC999983
 	picture = "auction"
 
 	trigger = {
@@ -393,7 +393,7 @@ country_event = {
 country_event = {
 	id = 999982
 	title = EVTNAME999982
-	desc = EVTDESC99982
+	desc = EVTDESC999982
 	picture = "auction"
 
 	trigger = {
@@ -416,7 +416,7 @@ country_event = {
 country_event = {
 	id = 999981
 	title = EVTNAME999981
-	desc = EVTDESC99981
+	desc = EVTDESC999981
 	picture = "auction"
 
 	trigger = {
@@ -439,7 +439,7 @@ country_event = {
 country_event = {
 	id = 999980
 	title = EVTNAME999980
-	desc = EVTDESC99980
+	desc = EVTDESC999980
 	picture = "auction"
 
 	trigger = {
@@ -462,7 +462,7 @@ country_event = {
 country_event = {
 	id = 999979
 	title = EVTNAME999979
-	desc = EVTDESC99979
+	desc = EVTDESC999979
 	picture = "auction"
 
 	trigger = {
@@ -485,7 +485,7 @@ country_event = {
 country_event = {
 	id = 999978
 	title = EVTNAME999978
-	desc = EVTDESC99978
+	desc = EVTDESC999978
 	picture = "auction"
 
 	trigger = {
@@ -508,7 +508,7 @@ country_event = {
 country_event = {
 	id = 999977
 	title = EVTNAME999977
-	desc = EVTDESC99977
+	desc = EVTDESC999977
 	picture = "auction"
 
 	trigger = {
@@ -531,7 +531,7 @@ country_event = {
 country_event = {
 	id = 999976
 	title = EVTNAME999976
-	desc = EVTDESC99976
+	desc = EVTDESC999976
 	picture = "auction"
 
 	trigger = {
@@ -577,7 +577,7 @@ country_event = {
 country_event = {
 	id = 999974
 	title = EVTNAME999974
-	desc = EVTDESC99974
+	desc = EVTDESC999974
 	picture = "auction"
 
 	trigger = {
@@ -600,7 +600,7 @@ country_event = {
 country_event = {
 	id = 999973
 	title = EVTNAME999973
-	desc = EVTDESC99973
+	desc = EVTDESC999973
 	picture = "auction"
 
 	trigger = {
@@ -623,7 +623,7 @@ country_event = {
 country_event = {
 	id = 999972
 	title = EVTNAME999972
-	desc = EVTDESC99972
+	desc = EVTDESC999972
 	picture = "auction"
 
 	trigger = {
@@ -646,7 +646,7 @@ country_event = {
 country_event = {
 	id = 999971
 	title = EVTNAME999971
-	desc = EVTDESC99971
+	desc = EVTDESC999971
 	picture = "auction"
 
 	trigger = {

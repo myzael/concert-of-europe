@@ -158,7 +158,7 @@ party = {
 
 party = {
 	name = "dominion_communist"
-	start_date = 1848.1.11860.1.1
+	start_date = 1848.1.1
 	end_date = 2000.1.1
 
 	ideology = communist
@@ -184,18 +184,18 @@ party = {
 	war_policy = jingoism
 }
 
-party = {  
-	name = "JAV_social_liberal"  
-	start_date = 1900.1.1  
-	end_date = 2000.1.1  
-	ideology = social_liberal  
-	economic_policy = interventionism  
-	trade_policy = free_trade  
-	religious_policy = secularized  
-	citizenship_policy = full_citizenship  
-	war_policy = anti_military  
-	
-}  
+party = {
+	name = "JAV_social_liberal"
+	start_date = 1900.1.1
+	end_date = 2000.1.1
+	ideology = social_liberal
+	economic_policy = interventionism
+	trade_policy = free_trade
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = anti_military
+
+}
 
 unit_names = {
 	dreadnought = {
@@ -220,10 +220,10 @@ unit_names = {
 		Djokjakarta Lebak Pandeglang Serang Tangerang Cilegon Kujang "Selat Sunda" Panaitan Krakatau Sebuku Sabesi Sangiang Tundo Panjang 	Tinjal Deli
 	}
 	clipper_transport = {
-		
+
 	}
 	steam_transport = {
-		
+
 	}
 	commerce_raider = {
 		Djokjakarta Lebak Pandeglang Serang Tangerang Cilegon Kujang "Selat Sunda" Panaitan Krakatau Sebuku Sabesi Sangiang Tundo Panjang 	Tinjal Deli

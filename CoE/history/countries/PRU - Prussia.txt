@@ -32,7 +32,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-land_property=land_purchase
+land_property=landed_estates
 child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = elite
@@ -88,7 +88,7 @@ oob = "/1821/PRU_oob.txt"
 	literacy = 0.80
 	non_state_culture_literacy = 0.25
 	prestige = 30
-	
+
 	# Technologies
 	post_napoleonic_thought = 1
 	flintlock_rifles = 1
@@ -119,7 +119,7 @@ oob = "/1821/PRU_oob.txt"
 	romanticism = 1
 	practical_steam_engine = 1
 	#clean_coal = 1
-	
+
 	oob = "PRU_oob.txt"
 }
 
@@ -136,7 +136,7 @@ foreign_investment = {
 	SAX = 7500
 	HAN = 10000
 }
-	
+
 	decision = von_moltkes_staff_reforms
 	decision = appoint_von_bismarck
 	decision = the_ruhr_boom
@@ -182,7 +182,7 @@ education = elite
 	army_command_principle = 1
 	army_professionalism = 1
 	army_decision_making = 1
-	
+
 	post_nelsonian_thought = 1
 	battleship_column_doctrine = 1
 	clipper_design = 1
@@ -192,7 +192,7 @@ education = elite
 	alphabetic_flag_signaling = 1
 	naval_plans = 1
 	the_command_principle = 1
-	
+
 	private_banks = 1
 	stock_exchange = 1
 	business_banks = 1
@@ -204,7 +204,7 @@ education = elite
 	market_structure = 1
 	guild_based_production = 1
 	organized_factories = 1
-	
+
 	classicism_n_early_romanticism = 1
 	romanticism = 1
 	late_enlightenment_philosophy = 1
@@ -219,7 +219,7 @@ education = elite
 	introspectionism = 1
 	associationism = 1
 	phenomenalism = 1
-	
+
 	water_wheel_power = 1
 	practical_steam_engine = 1
 	high_n_low_pressure_steam_engines = 1

@@ -2055,119 +2055,6 @@
 	}
 
 }
-132 = {
-	farmers = {
-
-		size = 222
-		culture = native_american_minor
-		religion = animist
-
-	}
-	slaves = {
-
-		size = 2090
-		culture = afro_american
-		religion = protestant
-
-	}
-
-}
-133 = {
-
-	farmers = {
-
-		size = 222
-		culture = native_american_minor
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 184
-		culture = mexican
-		religion = catholic
-
-	}
-	slaves = {
-
-		size = 4098
-		culture = afro_american
-		religion = protestant
-
-	}
-
-}
-134 = {
-
-	farmers = {
-
-		size = 890
-		culture = native_american_minor
-		religion = animist
-
-	}
-	slaves = {
-
-		size = 8
-		culture = afro_american
-		religion = protestant
-
-	}
-
-}
-135 = {
-
-	aristocrats = {
-
-		size = 57
-		culture = native_american_minor
-		religion = animist
-
-	}
-	aristocrats = {
-
-		size = 5
-		culture = mexican
-		religion = catholic
-
-	}
-	artisans = {
-
-		size = 98
-		culture = native_american_minor
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 49
-		culture = native_american_minor
-		religion = animist
-
-	}
-	labourers = {
-
-		size = 1781
-		culture = native_american_minor
-		religion = animist
-
-	}
-	soldiers = {
-
-		size = 64
-		culture = native_american_minor
-		religion = animist
-
-	}
-	soldiers = {
-
-		size = 8
-		culture = mexican
-		religion = catholic
-
-	}
-
-}
 136 = {
 
 	artisans = {
@@ -2196,31 +2083,6 @@
 		size = 186
 		culture = mexican
 		religion = catholic
-
-	}
-
-}
-137 = {
-
-	farmers = {
-
-		size = 222
-		culture = native_american_minor
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 184
-		culture = mexican
-		religion = catholic
-
-	}
-	slaves = {
-
-		size = 2049
-		culture = afro_american
-		religion = protestant
 
 	}
 
@@ -4364,13 +4226,6 @@
 		religion = protestant
 
 	}
-	aristocrats = {
-
-		size = 342
-		culture = texan
-		religion = protestant
-
-	}
 	artisans = {
 
 		size = 430
@@ -4399,20 +4254,6 @@
 		religion = protestant
 
 	}
-	artisans = {
-
-		size = 135
-		culture = texan
-		religion = protestant
-
-	}
-	bureaucrats = {
-
-		size = 9
-		culture = texan
-		religion = protestant
-
-	}
 	clergymen = {
 
 		size = 199
@@ -4424,13 +4265,6 @@
 
 		size = 61
 		culture = afro_american
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 77
-		culture = texan
 		religion = protestant
 
 	}
@@ -4462,24 +4296,10 @@
 		religion = protestant
 
 	}
-	farmers = {
-
-		size = 3832
-		culture = texan
-		religion = protestant
-
-	}
 	officers = {
 
 		size = 82
 		culture = yankee
-		religion = protestant
-
-	}
-	officers = {
-
-		size = 98
-		culture = texan
 		religion = protestant
 
 	}
@@ -4501,13 +4321,6 @@
 
 		size = 82
 		culture = dixie
-		religion = protestant
-
-	}
-	soldiers = {
-
-		size = 2682
-		culture = texan
 		religion = protestant
 
 	}
@@ -4624,13 +4437,6 @@
 		religion = protestant
 
 	}
-	artisans = {
-
-		size = 45
-		culture = texan
-		religion = protestant
-
-	}
 	clergymen = {
 
 		size = 77
@@ -4642,13 +4448,6 @@
 
 		size = 61
 		culture = afro_american
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 36
-		culture = texan
 		religion = protestant
 
 	}
@@ -4670,13 +4469,6 @@
 
 		size = 430
 		culture = afro_american
-		religion = protestant
-
-	}
-	farmers = {
-
-		size = 61
-		culture = texan
 		religion = protestant
 
 	}
@@ -4793,13 +4585,6 @@
 		religion = protestant
 
 	}
-	artisans = {
-
-		size = 1766
-		culture = texan
-		religion = protestant
-
-	}
 	bureaucrats = {
 
 		size = 61
@@ -4811,13 +4596,6 @@
 
 		size = 184
 		culture = dixie
-		religion = protestant
-
-	}
-	bureaucrats = {
-
-		size = 81
-		culture = texan
 		religion = protestant
 
 	}
@@ -4842,13 +4620,6 @@
 		religion = protestant
 
 	}
-	clergymen = {
-
-		size = 61
-		culture = texan
-		religion = protestant
-
-	}
 	farmers = {
 
 		size = 17538
@@ -4867,13 +4638,6 @@
 
 		size = 199
 		culture = afro_american
-		religion = protestant
-
-	}
-	farmers = {
-
-		size = 8378
-		culture = texan
 		religion = protestant
 
 	}
@@ -4937,20 +4701,6 @@
 		religion = protestant
 
 	}
-	artisans = {
-
-		size = 106
-		culture = texan
-		religion = protestant
-
-	}
-	bureaucrats = {
-
-		size = 40
-		culture = texan
-		religion = protestant
-
-	}
 	clergymen = {
 
 		size = 61
@@ -4962,13 +4712,6 @@
 
 		size = 92
 		culture = dixie
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 25
-		culture = texan
 		religion = protestant
 
 	}
@@ -4990,13 +4733,6 @@
 
 		size = 61
 		culture = afro_american
-		religion = protestant
-
-	}
-	farmers = {
-
-		size = 1291
-		culture = texan
 		religion = protestant
 
 	}

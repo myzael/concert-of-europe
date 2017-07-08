@@ -1,4 +1,4 @@
-# Do not change tags in here without changing every other reference to them.
+﻿# Do not change tags in here without changing every other reference to them.
 # If adding new groups or cultures, make sure they are unique.
 
 germanic = {
@@ -2240,16 +2240,6 @@ american_cultures = {
 		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer
 		Davis Lane Posey Scales Warner Imboden Jenkins
 		}
-	}
-	texan = {
-		color = {153 0 0}
-		first_names = {Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin
-		Henry Allison Horace Felix Jerome Lawrence Alexander Louis
-		}
-		last_names = {Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore
-		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
-		}
-		radicalism = 10
 	}
 	union = USA
 }

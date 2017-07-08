@@ -493,7 +493,7 @@ country_event = {
 		war_exhaustion = -30
 		prestige = 5
 		any_pop = {
-			limit = { has_pop_culture = texan }
+			limit = { has_pop_culture = dixie }
 			militancy = 10
 			consciousness = 4
 			dominant_issue = {
@@ -1882,8 +1882,9 @@ country_event = {
 
 	trigger = {
 		tag = MEX
-		year = 1821
+		year = 1830
 		NOT = {
+			year = 1836
 			has_country_flag = tejas_settled
 		}
 	}
@@ -1899,44 +1900,40 @@ country_event = {
 		TEX_132 = { add_core = TEX }
 		103 = { add_core = TEX }
 		105 = { add_core = TEX }
-		184 = {
+		132 = {
 			any_pop = {
 				limit = {
-					culture = texan
+					culture = mexican
+					culture = native_american_minor
 				}
-				move_pop = 132
+				reduce_pop = 0.65
 			}
 		}
-		188 = {
+		133 = {
 			any_pop = {
 				limit = {
-					culture = texan
+					culture = mexican
+					culture = native_american_minor
 				}
-				move_pop = 133
+				reduce_pop = 0.30
 			}
 		}
-		186 = {
+		134 = {
 			any_pop = {
 				limit = {
-					culture = texan
+					culture = mexican
+					culture = native_american_minor
 				}
-				move_pop = 134
+				reduce_pop = 0.50
 			}
 		}
-		189 = {
+		137 = {
 			any_pop = {
 				limit = {
-					culture = texan
+					culture = mexican
+					culture = native_american_minor
 				}
-				move_pop = 137
-			}
-		}
-		USA = {
-			any_pop = {
-				limit = {
-					culture = texan
-				}
-				move_pop = 134
+				reduce _pop = 0.25
 			}
 		}
 	}

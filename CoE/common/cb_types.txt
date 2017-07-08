@@ -3437,19 +3437,11 @@ place_in_the_sun = {
 	allowed_states = {
 		any_owned_province = { is_colonial = yes }
 		OR = {
-			any_owned_province = {
-				NOT = {
-					any_core = {
-						OR = {
-							exists = yes
-							exists = no
-						}
+			NOT = {
+				any_owned_province = {
+					any_core = { civilized = yes }
 					}
 				}
-			}
-			any_owned_province = {
-				any_core = { civilized = no }
-			}
 			any_owned_province = { continent = africa }
 			THIS = { ai = no }
 		}

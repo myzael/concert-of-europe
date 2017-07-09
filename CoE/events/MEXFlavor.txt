@@ -1890,90 +1890,306 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 6
+		months = 12
 	}
 
 	option = {
 		name = "This couldn't possibly cause trouble later!"
 		set_country_flag = tejas_settled
-		prestige = 2
+		prestige = -5
 		TEX_132 = { add_core = TEX }
 		103 = { add_core = TEX }
 		105 = { add_core = TEX }
 		132 = {
 			any_pop = {
-				limit = {
-					has_pop_culture = mexican
-					has_pop_culture = native_american_minor
-				}
+				limit = { has_pop_culture = mexican }
 				money = 50
-				reduce_pop = 0.85
+				reduce_pop = 0.75
+			}
+			any_pop = {
+				limit = { has_pop_culture = native_american_minor }
+				money = 50
+				reduce_pop = 0.50
 			}
 		}
 		133 = {
 			any_pop = {
-				limit = {
-					has_pop_culture = mexican
-					has_pop_culture = native_american_minor
-				}
+				limit = { has_pop_culture = mexican }
 				money = 50
-				reduce_pop = 0.45
+				reduce_pop = 0.30
+			}
+			any_pop = {
+				limit = { has_pop_culture = afro_american }
+				money = 50
+				move_pop = 134
 			}
 		}
 		134 = {
 			any_pop = {
-				limit = {
-					has_pop_culture = mexican
-					has_pop_culture = native_american_minor
-				}
+				limit = { has_pop_culture = mexican }
 				money = 50
-				reduce_pop = 0.68
+				reduce_pop = 0.45
+			}
+			any_pop = {
+				limit = { has_pop_culture = native_american_minor }
+				money = 50
+				reduce_pop = 0.50
 			}
 		}
 		137 = {
 			any_pop = {
-				limit = {
-					has_pop_culture = mexican
-					has_pop_culture = native_american_minor
-				}
-<<<<<<< HEAD
+				limit = { has_pop_culture = mexican }
 				money = 50
-				reduce _pop = 0.35
-=======
 				reduce_pop = 0.25
->>>>>>> d9956de9c3fc75310093a5f2d7330bd09ad537de
+			}
+			any_pop = {
+				limit = { has_pop_culture = afro_american }
+				money = 50
+				move_pop = 132
 			}
 		}
-		any_pop = {
-			limit = {
-				has_pop_culture = dixie
-				has_pop_culture = afro_american
-				OR = {
-					region = USA_129
-					region = USA_126
-					region = USA_124
-					region = USA_106
-					region = USA_111
-					region = USA_158
-				}
+		USA_129 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 132
 			}
-			money = 50
-			move_pop = 132
 		}
-		any_pop = {
-			limit = {
-				has_pop_culture = dixie
-				has_pop_culture = afro_american
-				OR = {
-					region = USA_129
-					region = USA_121
-					region = USA_116
-					region = USA_118
-					region = USA_162	
-				}
+		USA_126 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 132
 			}
-			money = 50
-			move_pop = 134
+		}
+		USA_124 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 132
+			}
+		}
+		USA_106 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 132
+			}
+		}
+		USA_111 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 132
+			}
+		}
+		USA_158 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 132
+			}
+		}
+		USA_129 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 134
+			}
+		}
+		USA_121 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 134
+			}
+		}
+		USA_116 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 134
+			}
+		}
+		USA_118 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 134
+			}
+		}
+		USA_162 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 134
+			}
+		}
+		USA_129 = {
+			any_pop = {
+				limit = { has_pop_culture = afro_american }
+				money = 50
+				move_pop = 132
+			}
+		}
+		USA_126 = {
+			any_pop = {
+				limit = { has_pop_culture = afro_american }
+				money = 50
+				move_pop = 132
+			}
+		}
+		USA_124 = {
+			any_pop = {
+				limit = { has_pop_culture = afro_american }
+				money = 50
+				move_pop = 132
+			}
+		}
+		USA_106 = {
+			any_pop = {
+				limit = { has_pop_culture = afro_american }
+				money = 50
+				move_pop = 132
+			}
+		}
+		USA_111 = {
+			any_pop = {
+				limit = { has_pop_culture = afro_american }
+				money = 50
+				move_pop = 132
+			}
+		}
+		USA_158 = {
+			any_pop = {
+				limit = { has_pop_culture = afro_american }
+				money = 50
+				move_pop = 132
+			}
+		}
+		USA_129 = {
+			any_pop = {
+				limit = { has_pop_culture = afro_american }
+				money = 50
+				move_pop = 134
+			}
+		}
+		USA_121 = {
+			any_pop = {
+				limit = { has_pop_culture = afro_american }
+				money = 50
+				move_pop = 134
+			}
+		}
+		USA_116 = {
+			any_pop = {
+				limit = { has_pop_culture = afro_american }
+				money = 50
+				move_pop = 134
+			}
+		}
+		USA_118 = {
+			any_pop = {
+				limit = { has_pop_culture = afro_american }
+				money = 50
+				move_pop = 134
+			}
+		}
+		USA_162 = {
+			any_pop = {
+				limit = { has_pop_culture = afro_american }
+				money = 50
+				move_pop = 134
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 996542
+	title = "EVTNAME44855" #Empresarios in Tejas
+	desc = "EVTDESC44855"
+	picture = "farming"
+
+	trigger = {
+		tag = MEX
+		year = 1834
+		NOT = {
+			year = 1836
+			has_country_flag = tejas_settled_again
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = "Oh come on now..."
+		set_country_flag = tejas_settled_again
+		prestige = -3
+		132 = {
+			any_pop = {
+				limit = { has_pop_culture = mexican }
+				money = 50
+				reduce_pop = 0.90
+			}
+		}
+		135 = {
+			any_pop = {
+				limit = { has_pop_culture = mexican }
+				money = 50
+				reduce_pop = 0.25
+			}
+		}
+		136 = {
+			any_pop = {
+				limit = { has_pop_culture = mexican }
+				money = 50
+				reduce_pop = 0.25
+			}
+		}
+		USA_129 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 135
+			}
+		}
+		USA_126 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 135
+			}
+		}
+		USA_124 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 135
+			}
+		}
+		USA_106 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 135
+			}
+		}
+		USA_111 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 135
+			}
+		}
+		USA_158 = {
+			any_pop = {
+				limit = { has_pop_culture = dixie }
+				money = 50
+				move_pop = 135
+			}
 		}
 	}
 }

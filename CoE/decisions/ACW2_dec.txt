@@ -11,7 +11,7 @@ political_decisions = {
 			is_vassal = no
 			NOT = { has_country_flag = asked_to_join_csa }
 			neighbour = CSA
-				
+
 		}
 
 		allow = {
@@ -45,7 +45,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	join_fsa = {
 		picture = form_fsa
 		potential = {
@@ -59,7 +59,7 @@ political_decisions = {
 			is_vassal = no
 			NOT = { has_country_flag = asked_to_join_fsa }
 			neighbour = FSA
-				
+
 		}
 
 		allow = {
@@ -93,7 +93,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	join_california = {
 		potential = {
 			OR = {
@@ -106,7 +106,7 @@ political_decisions = {
 			is_vassal = no
 			NOT = { has_country_flag = asked_to_join_california }
 			neighbour = CAL
-				
+
 		}
 
 		allow = {
@@ -140,7 +140,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	join_new_america = {
 		potential = {
 			OR = {
@@ -151,7 +151,7 @@ political_decisions = {
 			is_vassal = no
 			NOT = { has_country_flag = asked_to_join_new_america }
 			neighbour = UIL
-				
+
 		}
 
 		allow = {
@@ -185,7 +185,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	rejoin_usa = {
 		potential = {
 			OR = {
@@ -222,7 +222,7 @@ political_decisions = {
 			is_greater_power = no
 			ai = yes
 		}
-		
+
 		allow = {
 			war = no
 			OR = { government = democracy government = democracy2 government = democracy3 }
@@ -236,17 +236,17 @@ political_decisions = {
 				relation = { who = THIS value = 150 }
 			}
 		}
-		
+
 		effect = {
 			set_country_flag = asked_to_rejoin_usa
 			USA = { country_event = 60130 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	second_alaskan_purchase = {
 		picture = map_alaska
 		potential = {
@@ -261,7 +261,7 @@ political_decisions = {
 			}
 			NOT = { has_country_flag = second_alaskan_purchase }
 		}
-		
+
 		allow = {
 			war = no
 			money = 50000
@@ -272,19 +272,19 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		effect = {
 			set_country_flag = second_alaskan_purchase
 			2630 = {
 				owner = { country_event = 44140 }
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	hawaiian_purchase = {
 		picture = annex_hawaii
 		potential = {
@@ -299,7 +299,7 @@ political_decisions = {
 			}
 			NOT = { has_country_flag = hawaiian_purchase }
 		}
-		
+
 		allow = {
 			war = no
 			money = 50000
@@ -310,19 +310,19 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		effect = {
 			set_country_flag = hawaiian_purchase
 			2524 = {
 				owner = { country_event = 44145 }
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	fsa_enact_anaconda_plan = {
 		picture = enact_anaconda_plan
 		potential = {
@@ -333,13 +333,13 @@ political_decisions = {
 			}
 			NOT = { has_global_flag = anaconda_plan_active }
 		}
-		
+
 		allow = {
 			FSA = {
 				blockade = 0.8
 			}
 		}
-		
+
 		effect = {
 			FSA = {
 				add_country_modifier = {
@@ -350,20 +350,20 @@ political_decisions = {
 			set_global_flag = anaconda_plan_active
 		}
 	}
-	
+
 	fsa_shermans_march_to_the_sea = {
 		picture = shermans_march_to_the_sea
 		potential = {
 			tag = FSA
 			war_with = CSA
 			NOT = { has_country_flag = sherman_marched_to_the_sea }
-		}		
+		}
 		allow = {
 			controls = 201
 			controls = 2555
 			controls = 204
 		}
-		
+
 		effect = {
 			set_country_flag = sherman_marched_to_the_sea
 			201 = {
@@ -386,7 +386,7 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 	raise_the_flag_of_freedom = {
 		picture = switch_to_liberty
 		potential = {
@@ -403,11 +403,11 @@ political_decisions = {
 			}
 			NOT = { has_country_flag = flag_of_freedom }
 		}
-		
+
 		allow = {
 			war_with = USA
 		}
-		
+
 		effect = {
 			set_country_flag = flag_of_freedom
 			any_pop = {
@@ -424,10 +424,10 @@ political_decisions = {
 			add_country_modifier = {
 				name = csa_draft
 				duration = -1
-			}			
+			}
 		}
 	}
-	
+
 	fsa_enact_radical_reconstruction = {
 		picture = enact_radical_reconstruction
 		potential = {
@@ -442,7 +442,7 @@ political_decisions = {
 				has_country_flag = has_used_radical_reconstruction
 			}
 		}
-		
+
 		allow = {
 			NOT = {
 				average_militancy = 4
@@ -465,14 +465,14 @@ political_decisions = {
 			set_country_flag = has_used_radical_reconstruction
 		}
 	}
-	
+
 	restore_the_union = {
 		picture = switch_to_liberty
 		potential = {
 			is_culture_group = american_cultures
 			USA = { exists = no }
 		}
-		
+
 		allow = {
 			war = no
 			USA = {
@@ -521,7 +521,7 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		effect = {
 			clr_global_flag = alt_american_civil_war_has_happened
 			prestige = 20
@@ -544,10 +544,9 @@ political_decisions = {
 			}
 			add_accepted_culture = yankee
 			add_accepted_culture = dixie
-			add_accepted_culture = texan
 		}
 	}
-	
+
 	restore_washington_capital = {
 		potential = {
 			tag = USA
@@ -556,19 +555,19 @@ political_decisions = {
 				capital = 220
 				has_global_flag = alt_american_civil_war_has_happened
 			}
-		}	
-		
+		}
+
 		allow = {
 			controls = 220
 			NOT = { capital = 220 }
 		}
-		
+
 		effect = {
 			capital = 220
 			prestige = 5
 		}
 	}
-	
+
 	move_capital_to_philadelphia = {
 		picture = restore_washington_capital
 		potential = {
@@ -585,18 +584,18 @@ political_decisions = {
 				}
 			}
 			NOT = { capital = 223 }
-		}	
-		
+		}
+
 		allow = {
 			controls = 223
 			NOT = { capital = 223 }
 		}
-		
+
 		effect = {
 			capital = 223
 		}
 	}
-	
+
 	move_capital_to_boston = {
 		picture = restore_washington_capital
 		potential = {
@@ -618,17 +617,17 @@ political_decisions = {
 			}
 			NOT = { capital = 243 }
 		}
-		
+
 		allow = {
 			controls = 243
 			NOT = { capital = 243 }
 		}
-		
+
 		effect = {
 			capital = 243
 		}
 	}
-	
+
 	restore_richmond_capital = {
 		potential = {
 			tag = CSA
@@ -636,19 +635,19 @@ political_decisions = {
 			NOT = {
 				capital = 211
 			}
-		}	
-		
+		}
+
 		allow = {
 			controls = 211
 			NOT = { capital = 211 }
 		}
-		
+
 		effect = {
 			capital = 211
 			prestige = 5
 		}
 	}
-	
+
 	move_capital_to_atlanta = {
 		picture = restore_richmond_capital
 		potential = {
@@ -658,18 +657,18 @@ political_decisions = {
 				owns = 211
 				capital = 201
 			}
-		}	
-		
+		}
+
 		allow = {
 			controls = 201
 			NOT = { capital = 201 }
 		}
-		
+
 		effect = {
 			capital = 201
 		}
 	}
-	
+
 	recognize_puerto_rico = {
 		picture = gtfo
 		potential = {
@@ -686,11 +685,11 @@ political_decisions = {
 				any_owned_province = { is_core = PRI }
 			}
 		}
-		
+
 		allow = {
 			is_greater_power = yes
 		}
-		
+
 		effect = {
 			set_country_flag = recognized_puerto_rico
 			prestige = 5
@@ -713,7 +712,7 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 	recognize_cuba = {
 		picture = gtfo
 		potential = {
@@ -730,11 +729,11 @@ political_decisions = {
 				any_owned_province = { is_core = CUB }
 			}
 		}
-		
+
 		allow = {
 			is_greater_power = yes
 		}
-		
+
 		effect = {
 			set_country_flag = recognized_puerto_rico
 			prestige = 5
@@ -757,7 +756,7 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 	recognize_phillipines = {
 		picture = gtfo
 		potential = {
@@ -775,11 +774,11 @@ political_decisions = {
 				any_owned_province = { is_core = PHL }
 			}
 		}
-		
+
 		allow = {
 			is_greater_power = yes
 		}
-		
+
 		effect = {
 			set_country_flag = recognized_puerto_rico
 			prestige = 5
@@ -802,5 +801,5 @@ political_decisions = {
 			}
 		}
 	}
-			
+
 }

@@ -1,6 +1,5 @@
 capital = 211
 primary_culture = dixie
-culture = texan
 culture = yankee
 religion = protestant
 government = democracy
@@ -139,7 +138,7 @@ market_structure = 1
 	northrop_power_loom = yes
 	mechanical_saw = yes
 	mobilization_time_tables = yes
-	
+
 	pressure_chambers_for_thorax_surgery = yes
 	work_classification = yes
 	personnel_category_tables = yes
@@ -183,7 +182,7 @@ market_structure = 1
 	army_command_principle = 1
 	army_professionalism = 1
 	army_decision_making = 1
-	
+
 	post_nelsonian_thought = 1
 	battleship_column_doctrine = 1
 	clipper_design = 1
@@ -195,7 +194,7 @@ market_structure = 1
 	alphabetic_flag_signaling = 1
 	the_command_principle = 1
 	naval_professionalism = 1
-	
+
 	private_banks = 1
 	stock_exchange = 1
 	no_standard = 1
@@ -207,7 +206,7 @@ market_structure = 1
 	market_structure = 1
 	guild_based_production = 1
 	organized_factories = 1
-	
+
 	classicism_n_early_romanticism = 1
 	romanticism = 1
 	late_enlightenment_philosophy = 1
@@ -219,7 +218,7 @@ market_structure = 1
 	state_n_government = 1
 	introspectionism = 1
 	associationism = 1
-	
+
 	water_wheel_power = 1
 	practical_steam_engine = 1
 	high_n_low_pressure_steam_engines = 1

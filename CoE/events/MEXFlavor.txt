@@ -1903,38 +1903,73 @@ country_event = {
 		132 = {
 			any_pop = {
 				limit = {
-					culture = mexican
-					culture = native_american_minor
+					has_pop_culture = mexican
+					has_pop_culture = native_american_minor
 				}
-				reduce_pop = 0.65
+				money = 50
+				reduce_pop = 0.85
 			}
 		}
 		133 = {
 			any_pop = {
 				limit = {
-					culture = mexican
-					culture = native_american_minor
+					has_pop_culture = mexican
+					has_pop_culture = native_american_minor
 				}
-				reduce_pop = 0.30
+				money = 50
+				reduce_pop = 0.45
 			}
 		}
 		134 = {
 			any_pop = {
 				limit = {
-					culture = mexican
-					culture = native_american_minor
+					has_pop_culture = mexican
+					has_pop_culture = native_american_minor
 				}
-				reduce_pop = 0.50
+				money = 50
+				reduce_pop = 0.68
 			}
 		}
 		137 = {
 			any_pop = {
 				limit = {
-					culture = mexican
-					culture = native_american_minor
+					has_pop_culture = mexican
+					has_pop_culture = native_american_minor
 				}
-				reduce _pop = 0.25
+				money = 50
+				reduce _pop = 0.35
 			}
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = dixie
+				has_pop_culture = afro_american
+				OR = {
+					region = USA_129
+					region = USA_126
+					region = USA_124
+					region = USA_106
+					region = USA_111
+					region = USA_158
+				}
+			}
+			money = 50
+			move_pop = 132
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = dixie
+				has_pop_culture = afro_american
+				OR = {
+					region = USA_129
+					region = USA_121
+					region = USA_116
+					region = USA_118
+					region = USA_162	
+				}
+			}
+			money = 50
+			move_pop = 134
 		}
 	}
 }

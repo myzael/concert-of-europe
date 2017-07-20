@@ -103,6 +103,7 @@ political_decisions = {
 				has_country_modifier = maya_excavations
 				has_country_flag = maya_refused
 				has_global_flag = mirador_found
+				has_country_flag = maya_excavations_requested
 			}
 		}
 		
@@ -116,7 +117,8 @@ political_decisions = {
 			invention = early_archaeology
 		}
 		
-		effect = {		
+		effect = {
+			set_country_flag = maya_excavations_requested
 			2189 = {
 				province_event = { id = 201004 }
 			}

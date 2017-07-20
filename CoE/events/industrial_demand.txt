@@ -1,4 +1,4 @@
-country_event = {
+province_event = {
 	id = 999999
 	title = EVTNAME999999
 	desc = EVTDESC999999
@@ -14,7 +14,7 @@ country_event = {
 	}
 
 	option = {
-		name = ""
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = water_wheel_power
 			duration = -1
@@ -22,7 +22,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999998
 	title = EVTNAME999998
 	desc = EVTDESC999998
@@ -38,6 +38,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = practical_steam_engine
 			duration = -1
@@ -45,7 +46,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999997
 	title = EVTNAME999997
 	desc = EVTDESC999997
@@ -61,6 +62,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = high_n_low_pressure_steam_engines
 			duration = -1
@@ -68,7 +70,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999996
 	title = EVTNAME999996
 	desc = EVTDESC999996
@@ -84,6 +86,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = steam_turbine
 			duration = -1
@@ -91,7 +94,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999995
 	title = EVTNAME999995
 	desc = EVTDESC999995
@@ -107,6 +110,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = combustion_engine
 			duration = -1
@@ -114,7 +118,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999994
 	title = EVTNAME999994
 	desc = EVTDESC999994
@@ -130,6 +134,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = electrical_power_generation
 			duration = -1
@@ -137,7 +142,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999993
 	title = EVTNAME999993
 	desc = EVTDESC999993
@@ -153,6 +158,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = modern_power_generation
 			duration = -1
@@ -160,7 +166,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999992
 	title = EVTNAME999992
 	desc = EVTDESC999992
@@ -176,6 +182,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = publishing_industry
 			duration = -1
@@ -183,7 +190,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999991
 	title = EVTNAME999991
 	desc = EVTDESC999991
@@ -199,6 +206,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = mechanical_production
 			duration = -1
@@ -206,7 +214,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999990
 	title = EVTNAME999990
 	desc = EVTDESC999990
@@ -222,6 +230,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = interchangeable_parts
 			duration = -1
@@ -229,7 +238,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999989
 	title = EVTNAME999989
 	desc = EVTDESC999989
@@ -245,6 +254,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = semi_automatization
 			duration = -1
@@ -252,7 +262,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999988
 	title = EVTNAME999988
 	desc = EVTDESC999988
@@ -268,6 +278,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = assembly_line
 			duration = -1
@@ -275,7 +286,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999987
 	title = EVTNAME999987
 	desc = EVTDESC999987
@@ -291,6 +302,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = shift_work
 			duration = -1
@@ -298,7 +310,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999986
 	title = EVTNAME999986
 	desc = EVTDESC999986
@@ -314,6 +326,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = mechanized_manufacture
 			duration = -1
@@ -321,7 +334,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999985
 	title = EVTNAME999985
 	desc = EVTDESC999985
@@ -337,6 +350,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = electricity
 			duration = -1
@@ -344,7 +358,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999984
 	title = EVTNAME999984
 	desc = EVTDESC999984
@@ -360,6 +374,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = freedom_of_trade
 			duration = -1
@@ -367,7 +382,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999983
 	title = EVTNAME999983
 	desc = EVTDESC999983
@@ -383,6 +398,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = market_structure
 			duration = -1
@@ -390,7 +406,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999982
 	title = EVTNAME999982
 	desc = EVTDESC999982
@@ -406,6 +422,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = business_regulations
 			duration = -1
@@ -413,7 +430,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999981
 	title = EVTNAME999981
 	desc = EVTDESC999981
@@ -429,6 +446,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = market_regulations
 			duration = -1
@@ -436,7 +454,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999980
 	title = EVTNAME999980
 	desc = EVTDESC999980
@@ -452,6 +470,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = economic_responsibility
 			duration = -1
@@ -459,7 +478,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999979
 	title = EVTNAME999979
 	desc = EVTDESC999979
@@ -475,6 +494,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = government_interventionism
 			duration = -1
@@ -482,7 +502,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999978
 	title = EVTNAME999978
 	desc = EVTDESC999978
@@ -498,6 +518,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = globalized_markets
 			duration = -1
@@ -505,7 +526,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999977
 	title = EVTNAME999977
 	desc = EVTDESC999977
@@ -521,6 +542,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = early_classical_theory_and_critique
 			duration = -1
@@ -528,7 +550,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999976
 	title = EVTNAME999976
 	desc = EVTDESC999976
@@ -544,6 +566,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = late_classical_theory
 			duration = -1
@@ -551,7 +574,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999975
 	title = EVTNAME999975
 	desc = EVTDESC999975
@@ -567,6 +590,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = collectivist_theory
 			duration = -1
@@ -574,7 +598,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999974
 	title = EVTNAME999974
 	desc = EVTDESC999974
@@ -590,6 +614,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = the_historical_theory
 			duration = -1
@@ -597,7 +622,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999973
 	title = EVTNAME999973
 	desc = EVTDESC999973
@@ -613,6 +638,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = neoclassical_theory
 			duration = -1
@@ -620,7 +646,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999972
 	title = EVTNAME999972
 	desc = EVTDESC999972
@@ -636,6 +662,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = keynesian_economics
 			duration = -1
@@ -643,7 +670,7 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = 999971
 	title = EVTNAME999971
 	desc = EVTDESC999971
@@ -659,6 +686,7 @@ country_event = {
 	}
 
 	option = {
+		name = "Why can't people be less wasteful"
 		add_country_modifier = {
 			name = neoliberal_theory
 			duration = -1

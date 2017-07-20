@@ -1369,11 +1369,9 @@ byzantine_egypt = {
 		2559 = {
 			change_province_name = "Abydos"
 		}
-		1758 = {
-			state_scope = { change_region_name = "Oasis Megale" }
-		}
 		1760 = {
 			change_province_name = "Tchonemyris"
+			state_scope = { change_region_name = "Oasis Megale" }
 		}
 		1766 = {
 			change_province_name = "Syene"

@@ -2299,4 +2299,144 @@ country_event = {
 		ai_chance = { factor = 0 }
 	}
 }	
+
+country_event = {
+	id = 2670
+	title = "EVTNAME2670" #Our overlord demands their cores
+	desc = "EVTDESC2670"
+	picture = "Celebration"
 	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We will comply with their demands"
+		any_owned = {
+			limit = {
+				is_core = FROM
+			}
+			secede_province = FROM
+		}
+		FROM = {
+			country_event = 2671
+		}
+		ai_chance = { 
+			factor = 100
+			modifier = {
+				factor = 1
+				relation = { who = FROM value = 200 }
+			}
+			modifier = {
+				factor = 0.9
+				relation = { who = FROM value = 150 }
+			}
+			modifier = {
+				factor = 0.8
+				relation = { who = FROM value = 100 }
+			}
+			modifier = {
+				factor = 0.7
+				relation = { who = FROM value = 50 }
+			}
+			modifier = {
+				factor = 0.5
+				relation = { who = FROM value = 0 }
+			}
+			modifier = {
+				factor = 0.3
+				relation = { who = FROM value = -50 }
+			}
+			modifier = {
+				factor = 0.2
+				relation = { who = FROM value = -100 }
+			}
+			modifier = {
+				factor = 0.1
+				relation = { who = FROM value = -150 }
+			}
+			modifier = {
+				factor = 0
+				relation = { who = FROM value = -200 }
+			}
+		}
+	}
+	
+	option = {
+		name = "They will have to take it from us!"
+		FROM = {
+			release_puppet = THIS
+			country_event = 2672
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				relation = { who = FROM value = 200 }
+			}
+			modifier = {
+				factor = 10
+				relation = { who = FROM value = 150 }
+			}
+			modifier = {
+				factor = 20
+				relation = { who = FROM value = 100 }
+			}
+			modifier = {
+				factor = 30
+				relation = { who = FROM value = 50 }
+			}
+			modifier = {
+				factor = 50
+				relation = { who = FROM value = 0 }
+			}
+			modifier = {
+				factor = 70
+				relation = { who = FROM value = -50 }
+			}
+			modifier = {
+				factor = 80
+				relation = { who = FROM value = -100 }
+			}
+			modifier = {
+				factor = 90
+				relation = { who = FROM value = -150 }
+			}
+			modifier = {
+				factor = 100
+				relation = { who = FROM value = -200 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 2671
+	title = "EVTNAME2671" #They accept
+	desc = "EVTDESC2671"
+	picture = "Celebration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "As it should be"
+		prestige = 2
+	}
+}
+
+country_event = {
+	id = 2672
+	title = "EVTNAME2672" #They refuse
+	desc = "EVTDESC2672"
+	picture = "Celebration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Then war it is"
+		war = {
+			target = FROM
+			attacker_goal = { casus_belli = acquire_core casus_belli = make_puppet }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = no
+		}
+	}
+}	

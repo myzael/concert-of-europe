@@ -1392,6 +1392,10 @@ general_strike = {
 	icon = 80
 }
 
+demanded_cores = {
+	icon = 5
+}
+
 address = {
 	icon = 122
 }

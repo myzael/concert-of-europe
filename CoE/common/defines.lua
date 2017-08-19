@@ -90,7 +90,7 @@ country = {
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_LEVEL = 0.005,
 	PARTY_LOYALTY_HIT_ON_WAR_LOSS = 0.5, -- Drops the ruling party loyalty if war is lost.
 	RESEARCH_POINTS_ON_CONQUER_MULT = 60, -- multiplier to RP got by conquering as unciv when got enacted military reforms
-	MAX_RESEARCH_POINTS = 21000, -- max RP you can store for uncivs
+	MAX_RESEARCH_POINTS = 30000, -- max RP you can store for uncivs
 },
 
 economy = {
@@ -704,7 +704,7 @@ ai =
 	NAVAL_SUPPLY_PENALTY_LIMIT = 0.2, -- AI will allow to have max X% of supply penalty (when too little naval bases)
 	CHANCE_BUILD_RAILROAD = 0.2, -- chances in % of AI decisions (max value 1.0)
 	CHANCE_BUILD_NAVAL_BASE = 0.75,
-	CHANCE_BUILD_FORT = 0.5,
+	CHANCE_BUILD_FORT = 0.25,
 	CHANCE_INVEST_POP_PROJ = 0.2,
 	CHANCE_FOREIGN_INVEST = 0.12,
 	TWS_AWARENESS_SCORE_LOW_CAP = 0.2, -- AI will always add CBs if current warscore is less then that number (including TWS)

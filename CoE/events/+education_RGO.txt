@@ -15,8 +15,8 @@ country_event = {
 	option = {
 		name = "OK"
         any_country = {
-        any_owned = { 
-        limit = {  
+        any_owned = {
+        limit = {
 		      state_scope = {
 	          literacy = 0
               NOT = { literacy = 0.1 }
@@ -28,7 +28,7 @@ country_event = {
 		}
 		}
         any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.1
               NOT = { literacy = 0.2 }
@@ -40,7 +40,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.2
               NOT = { literacy = 0.3 }
@@ -52,7 +52,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.3
               NOT = { literacy = 0.4 }
@@ -64,7 +64,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.4
               NOT = { literacy = 0.5 }
@@ -76,7 +76,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.5
               NOT = { literacy = 0.6 }
@@ -88,7 +88,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.6
               NOT = { literacy = 0.7 }
@@ -100,7 +100,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.7
               NOT = { literacy = 0.8 }
@@ -112,7 +112,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.8
               NOT = { literacy = 0.9 }
@@ -124,7 +124,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.9
               NOT = { literacy = 1 }
@@ -136,7 +136,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 1
 	          }
@@ -145,10 +145,10 @@ country_event = {
 		name = RGO_education_10
 		duration = -1
 		}
-		}			
+		}
 	}
-        any_owned = { 
-        limit = {  
+        any_owned = {
+        limit = {
 		      state_scope = {
 	          literacy = 0
               NOT = { literacy = 0.1 }
@@ -160,7 +160,7 @@ country_event = {
 		}
 		}
         any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.1
               NOT = { literacy = 0.2 }
@@ -172,7 +172,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.2
               NOT = { literacy = 0.3 }
@@ -184,7 +184,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.3
               NOT = { literacy = 0.4 }
@@ -196,7 +196,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.4
               NOT = { literacy = 0.5 }
@@ -208,7 +208,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.5
               NOT = { literacy = 0.6 }
@@ -220,7 +220,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.6
               NOT = { literacy = 0.7 }
@@ -232,7 +232,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.7
               NOT = { literacy = 0.8 }
@@ -244,7 +244,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.8
               NOT = { literacy = 0.9 }
@@ -256,7 +256,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 0.9
               NOT = { literacy = 1 }
@@ -268,7 +268,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-        limit = {  
+        limit = {
 		      state_scope = {
 	          literacy = 1
 	          }
@@ -287,7 +287,7 @@ province_event = {
 	id = 999969
 	title = "Education in $STATENAME$"
 	desc = "Education in $STATENAME$ accelerates economic growth."
-	
+
 	trigger = {
 	has_global_flag = education_setup
       state_scope = {
@@ -296,13 +296,13 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_1 }
 	}
-	
+
 	allow_multiple_instances = yes
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "Advance $COUNTRY$ !"
 		state_scope = {
@@ -322,7 +322,7 @@ province_event = {
 					duration = -1
 				}
 			}
-		}		
+		}
 	}
 }
 
@@ -330,7 +330,7 @@ province_event = {
 	id = 999968
 	title = "Education in $STATENAME$"
 	desc = "Education in $STATENAME$ accelerates economic growth."
-	
+
 	trigger = {
 	has_global_flag = education_setup
       state_scope = {
@@ -339,13 +339,13 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_2 }
 	}
-	
+
 	allow_multiple_instances = yes
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "Advance $COUNTRY$ !"
 		state_scope = {
@@ -365,7 +365,7 @@ province_event = {
 					duration = -1
 				}
 			}
-		}		
+		}
 	}
 }
 
@@ -373,7 +373,7 @@ province_event = {
 	id = 999967
 	title = "Education in $STATENAME$"
 	desc = "Education in $STATENAME$ accelerates economic growth."
-	
+
 	trigger = {
 	has_global_flag = education_setup
       state_scope = {
@@ -382,13 +382,13 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_3 }
 	}
-	
+
 	allow_multiple_instances = yes
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "Advance $COUNTRY$ !"
 		state_scope = {
@@ -408,7 +408,7 @@ province_event = {
 					duration = -1
 				}
 			}
-		}		
+		}
 	}
 }
 
@@ -416,7 +416,7 @@ province_event = {
 	id = 999966
 	title = "Education in $STATENAME$"
 	desc = "Education in $STATENAME$ accelerates economic growth."
-	
+
 	trigger = {
 	has_global_flag = education_setup
       state_scope = {
@@ -425,13 +425,13 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_4 }
 	}
-	
+
 	allow_multiple_instances = yes
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "Advance $COUNTRY$ !"
 		state_scope = {
@@ -451,7 +451,7 @@ province_event = {
 					duration = -1
 				}
 			}
-		}		
+		}
 	}
 }
 
@@ -459,7 +459,7 @@ province_event = {
 	id = 999965
 	title = "Education in $STATENAME$"
 	desc = "Education in $STATENAME$ accelerates economic growth."
-	
+
 	trigger = {
 	has_global_flag = education_setup
       state_scope = {
@@ -468,13 +468,13 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_5 }
 	}
-	
+
 	allow_multiple_instances = yes
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "Advance $COUNTRY$ !"
 		state_scope = {
@@ -494,7 +494,7 @@ province_event = {
 					duration = -1
 				}
 			}
-		}		
+		}
 	}
 }
 
@@ -502,7 +502,7 @@ province_event = {
 	id = 999964
 	title = "Education in $STATENAME$"
 	desc = "Education in $STATENAME$ accelerates economic growth."
-	
+
 	trigger = {
 	has_global_flag = education_setup
       state_scope = {
@@ -511,13 +511,13 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_6 }
 	}
-	
+
 	allow_multiple_instances = yes
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "Advance $COUNTRY$ !"
 		state_scope = {
@@ -537,7 +537,7 @@ province_event = {
 					duration = -1
 				}
 			}
-		}		
+		}
 	}
 }
 
@@ -545,7 +545,7 @@ province_event = {
 	id = 999963
 	title = "Education in $STATENAME$"
 	desc = "Education in $STATENAME$ accelerates economic growth."
-	
+
 	trigger = {
 	has_global_flag = education_setup
       state_scope = {
@@ -554,13 +554,13 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_7 }
 	}
-	
+
 	allow_multiple_instances = yes
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "Advance $COUNTRY$ !"
 		state_scope = {
@@ -580,7 +580,7 @@ province_event = {
 					duration = -1
 				}
 			}
-		}		
+		}
 	}
 }
 
@@ -588,7 +588,7 @@ province_event = {
 	id = 999962
 	title = "Education in $STATENAME$"
 	desc = "Education in $STATENAME$ accelerates economic growth."
-	
+
 	trigger = {
 	has_global_flag = education_setup
       state_scope = {
@@ -597,13 +597,13 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_8 }
 	}
-	
+
 	allow_multiple_instances = yes
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "Advance $COUNTRY$ !"
 		state_scope = {
@@ -623,7 +623,7 @@ province_event = {
 					duration = -1
 				}
 			}
-		}		
+		}
 	}
 }
 
@@ -631,7 +631,7 @@ province_event = {
 	id = 999961
 	title = "Education in $STATENAME$"
 	desc = "Education in $STATENAME$ accelerates economic growth."
-	
+
 	trigger = {
 	has_global_flag = education_setup
       state_scope = {
@@ -640,13 +640,13 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_9 }
 	}
-	
+
 	allow_multiple_instances = yes
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "Advance $COUNTRY$ !"
 		state_scope = {
@@ -666,7 +666,7 @@ province_event = {
 					duration = -1
 				}
 			}
-		}		
+		}
 	}
 }
 
@@ -674,7 +674,7 @@ province_event = {
 	id = 999960
 	title = "Education in $STATENAME$"
 	desc = "Education in $STATENAME$ accelerates economic growth."
-	
+
 	trigger = {
 	has_global_flag = education_setup
       state_scope = {
@@ -682,13 +682,13 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_10 }
 	}
-	
+
 	allow_multiple_instances = yes
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "Advance $COUNTRY$ !"
 		state_scope = {
@@ -708,7 +708,7 @@ province_event = {
 					duration = -1
 				}
 			}
-		}		
+		}
 	}
 }
 
@@ -716,7 +716,7 @@ province_event = {
 	id = 999959
 	title = "Education in $STATENAME$"
 	desc = "Education in $STATENAME$ accelerates economic growth."
-	
+
 	trigger = {
 	has_global_flag = education_setup
       state_scope = {
@@ -725,13 +725,13 @@ province_event = {
 	  }
 	  NOT = { has_province_modifier = RGO_education_0 }
 	}
-	
+
 	allow_multiple_instances = yes
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	option = {
 		name = "Advance $COUNTRY$ !"
 		state_scope = {
@@ -751,6 +751,6 @@ province_event = {
 					duration = -1
 				}
 			}
-		}		
+		}
 	}
 }

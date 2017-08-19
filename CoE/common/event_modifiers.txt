@@ -3072,18 +3072,10 @@ relentless_progress = {
 }
 
 papal_rule = {
-	trigger = {
-		tag = PAP
-		OR = { government = theocracy government = theocracy2 government = theocracy3 }
-		NOT = {
-			any_owned_province = {
-				NOT = { is_core = PAP }
-			}
-		}
-	}
 	global_pop_militancy = -0.05
 	political_reform_desire = -0.3
 	prestige = 0.05
 	icon = 19
 }
 
+slavepopupdated = { }

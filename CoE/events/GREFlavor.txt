@@ -22,9 +22,11 @@ country_event = {
 			has_country_flag = hosting_london_conference_1832
 			has_country_flag = hosting_london_conference_1830
 			has_country_modifier = neutrality
+			year = 1840
 		}
 		GRE = {
 			exists = yes
+			is_greater_power = no
 			NOT = { war_with = TUR }
 			has_country_flag = legitimacy
 		}
@@ -90,7 +92,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				tag = ENG
-			}			
+			}
 		}
 	}
 }
@@ -243,7 +245,7 @@ country_event = {
 		NOT = { has_global_flag = london_conference_1832_held }
 	}
 	major = yes
-	
+
 	mean_time_to_happen = {
 		days = 60
 		modifier = {
@@ -301,7 +303,7 @@ country_event = {
 		NOT = { has_global_flag = london_conference_1832_held }
 	}
 	major = yes
-	
+
 	mean_time_to_happen = {
 		days = 60
 		modifier = {
@@ -359,7 +361,7 @@ country_event = {
 		NOT = { has_global_flag = london_conference_1832_held }
 	}
 	major = yes
-	
+
 	mean_time_to_happen = {
 		days = 60
 		modifier = {
@@ -438,7 +440,7 @@ country_event = {
 		clr_country_flag = weak_greece
 		clr_country_flag = medium_greece
 		clr_country_flag = strong_greece
-		
+
 		# Send acknowledgement to attending countries
 		any_country = {
 			limit = {
@@ -450,7 +452,7 @@ country_event = {
 			factor = 100
 		}
 	}
-	
+
 	option = {
 		name = "We refuse! Only full independence is acceptable."
 		prestige = 3
@@ -469,7 +471,7 @@ country_event = {
 		clr_country_flag = weak_greece
 		clr_country_flag = medium_greece
 		clr_country_flag = strong_greece
-		
+
 		# Send refusal to attending countries
 		any_country = {
 			limit = {
@@ -526,7 +528,7 @@ country_event = {
 		clr_country_flag = weak_greece
 		clr_country_flag = medium_greece
 		clr_country_flag = strong_greece
-		
+
 		# Send acknowledgement to attending countries
 		any_country = {
 			limit = {
@@ -538,7 +540,7 @@ country_event = {
 			factor = 100
 		}
 	}
-	
+
 	option = {
 		name = "We refuse! We will keep all the territory we've taken."
 		prestige = 3
@@ -564,7 +566,7 @@ country_event = {
 		clr_country_flag = weak_greece
 		clr_country_flag = medium_greece
 		clr_country_flag = strong_greece
-		
+
 		# Send refusal to attending countries
 		any_country = {
 			limit = {
@@ -626,7 +628,7 @@ country_event = {
 		clr_country_flag = weak_greece
 		clr_country_flag = medium_greece
 		clr_country_flag = strong_greece
-		
+
 		# Send acknowledgement to attending countries
 		any_country = {
 			limit = {
@@ -638,7 +640,7 @@ country_event = {
 			factor = 100
 		}
 	}
-	
+
 	option = {
 		name = "They have no right! Greece is ours!"
 		prestige = 2
@@ -678,7 +680,7 @@ country_event = {
 		clr_country_flag = weak_greece
 		clr_country_flag = medium_greece
 		clr_country_flag = strong_greece
-		
+
 		# Send acknowledgement to attending countries
 		any_country = {
 			limit = {
@@ -701,7 +703,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "Very well, then."	
+		name = "Very well, then."
 		#All countries gain some prestige
 		random_owned = {
 			limit = {
@@ -709,7 +711,7 @@ country_event = {
 			}
 			owner = { prestige = 2 }
 		}
-		
+
 		#Everyone who supported weak Greece gains prestige, gains relations with Ottoman, gains influence & loses relations with Greece
 		random_owned = {
 			limit = {
@@ -740,7 +742,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "Very well, then."		
+		name = "Very well, then."
 		#All countries gain some prestige
 		random_owned = {
 			limit = {
@@ -748,7 +750,7 @@ country_event = {
 			}
 			owner = { prestige = 2 }
 		}
-		
+
 		#Everyone who supported medium Greece gains prestige, relations & influence with Greece & loses relations with Ottoman
 		random_owned = {
 			limit = {
@@ -779,7 +781,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "Very well, then."		
+		name = "Very well, then."
 		#All countries gain some prestige
 		random_owned = {
 			limit = {
@@ -829,7 +831,7 @@ country_event = {
 		relation = { who = GRE value = -50 }
 		diplomatic_influence = { who = GRE value = -50 }
 		leave_alliance = GRE
-		casus_belli = {	
+		casus_belli = {
 			target = GRE
 			type = liberate_country
 			months = 90
@@ -842,7 +844,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "We are secretly pleased."
 		clr_country_flag = greek_question
@@ -877,7 +879,7 @@ country_event = {
 		relation = { who = GRE value = -150 }
 		diplomatic_influence = { who = GRE value = -150 }
 		leave_alliance = GRE
-		casus_belli = {	
+		casus_belli = {
 			target = GRE
 			type = liberate_country
 			months = 90
@@ -890,7 +892,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "We are secretly pleased."
 		clr_country_flag = hosting_london_conference_1830
@@ -932,7 +934,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "We are secretly pleased."
 		clr_country_flag = hosting_london_conference_1830
@@ -949,9 +951,9 @@ country_event = {
 	id = 31230
 	title = "EVTNAME31230" #Greece Retreats from Anatolia
 	desc = "EVTDESC31230"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "Indeed! Let a new day dawn!"
 		prestige = -10
@@ -1056,16 +1058,16 @@ country_event = {
 	id = 31240
 	title = "EVTNAME31240" #Imperial Pretensions Challenged
 	desc = "EVTDESC31240"
-	
+
 	trigger = {
 		tag = BYZ
 		exists = yes
 		is_greater_power = no
 	}
- 
+
 	mean_time_to_happen =  {
 		months = 12
-		
+
 		modifier = {
 			factor = 0.25
 			is_disarmed = yes
@@ -1075,7 +1077,7 @@ country_event = {
 			is_secondary_power = no
 		}
 	}
-	
+
 	option = {
 		name = "It was nice while it lasted"
 		prestige = -50
@@ -1102,7 +1104,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "Never! We'll show them!"
 		prestige = 5

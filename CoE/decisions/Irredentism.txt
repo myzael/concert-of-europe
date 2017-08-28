@@ -397,7 +397,7 @@ political_decisions = {
 				OR = {
 					owned_by = THIS
 					region = RUS_1196 #Turkmenia
-					region = AFG_1214 #Kandahar
+					region = PER_1148 #Khorasan
 				}
 			}
 			is_greater_power = yes

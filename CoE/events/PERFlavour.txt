@@ -2129,13 +2129,17 @@ country_event = {
 		}
 		prestige = -15
 		war_exhaustion = -5
-		any_owned = {
+		any_country = {
 			limit = {
-				OR = {
-					province_id = 929
-					province_id = 934
-					region = TUR_935
-					region = ABU_1162
+				any_owned = {
+					limit = {
+						OR = {
+							province_id = 929
+							province_id = 934
+							region = TUR_935
+							region = ABU_1162
+						}
+					}
 				}
 			}
 			secede_province = PER

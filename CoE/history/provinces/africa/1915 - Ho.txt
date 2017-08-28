@@ -1,4 +1,4 @@
 add_core = ASH
 trade_goods = horses
-life_rating = 20
+life_rating = 15
 terrain = seasonal_jungle_hills

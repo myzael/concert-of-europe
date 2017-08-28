@@ -4143,6 +4143,40 @@ province_event = {
 }
 
 country_event = {
+	id = 36996
+	title = "EVTNAME36990" #Norfolk Island
+	desc = "EVTDESC36990"
+	picture = "Expansion"
+	
+	trigger = {
+		tag = ENG
+		exists = yes
+		year = 1825
+		2508 = { empty = yes } #Norfolk Island
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "We must reclaim the island of Norfolk"
+		treasury = -4000
+		random_owned = {
+			limit = {
+				2508 = { empty = yes }
+			}
+			2508 = { 
+				secede_province = THIS
+				add_core = THIS
+				add_core = AST
+			}
+		}
+	}
+	
+}
+
+country_event = {
 	id = 36999
 	title = "EVTNAME36999" #Claiming Rupert's Land
 	desc = "EVTDESC36999"

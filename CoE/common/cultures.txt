@@ -1757,6 +1757,7 @@ indonesian = {
 		Mihardja Alisjahbana Kusumaatmadja Kartasasmita      
 		}
 	}
+	union = INO
 
 }
 

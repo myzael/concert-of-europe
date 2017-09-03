@@ -1680,13 +1680,6 @@
 
 	aristocrats = {
 
-		size = 44
-		culture = dakota
-		religion = animist
-
-	}
-	aristocrats = {
-
 		size = 9
 		culture = native_american_minor
 		religion = animist
@@ -1695,21 +1688,7 @@
 	artisans = {
 
 		size = 49
-		culture = dakota
-		religion = animist
-
-	}
-	artisans = {
-
-		size = 49
 		culture = native_american_minor
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 24
-		culture = dakota
 		religion = animist
 
 	}
@@ -1723,21 +1702,7 @@
 	farmers = {
 
 		size = 890
-		culture = dakota
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 890
 		culture = native_american_minor
-		religion = animist
-
-	}
-	soldiers = {
-
-		size = 54
-		culture = dakota
 		religion = animist
 
 	}
@@ -1751,7 +1716,42 @@
 
 }
 124 = {
+	
+	aristocrats = {
 
+		size = 44
+		culture = dakota
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 49
+		culture = dakota
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 24
+		culture = dakota
+		religion = animist
+
+	}
+	farmers = {
+
+		size = 890
+		culture = dakota
+		religion = animist
+
+	}
+	soldiers = {
+
+		size = 54
+		culture = dakota
+		religion = animist
+
+	}
 	artisans = {
 
 		size = 49

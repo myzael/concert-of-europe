@@ -1957,8 +1957,8 @@ country_event = {
 	id = 300983
 	is_triggered_only = yes
 
-	title = "second_treaty_of_erzurum_title"
-	desc = "second_treaty_of_erzurum_desc"
+	title = "EVTNAME300983"
+	desc = "EVTNAME300983"
 	picture = "treaty_of_erzurum"
 
 	option = {
@@ -2087,7 +2087,7 @@ country_event = {
 	id = 300984
 	is_triggered_only = yes
 
-	title = "second_treaty_of_erzurum_title"
+	title = "EVTNAME300983"
 	desc = "EVTDESC300984"
 	picture = "treaty_of_erzurum"
 
@@ -2101,7 +2101,7 @@ country_event = {
 	id = 300985
 	is_triggered_only = yes
 
-	title = "second_treaty_of_erzurum_title"
+	title = "EVTNAME300983"
 	desc = "EVTDESC300985"
 	picture = "treaty_of_erzurum"
 
@@ -2115,7 +2115,7 @@ country_event = {
 	id = 300986
 	is_triggered_only = yes
 
-	title = "first_treaty_of_erzurum_title"
+	title = "EVTNAME300986"
 	desc = "EVTDESC300986"
 	picture = "treaty_of_erzurum"
 
@@ -2131,17 +2131,15 @@ country_event = {
 		war_exhaustion = -5
 		any_country = {
 			limit = {
-				any_owned = {
-					OR = {
-						province_id = 929
-						province_id = 934
-						region = TUR_935
-						region = ABU_1162
-					}
-				}
+				tag = TUR
 			}
-			secede_province = PER
-			remove_core = TUR
+			country_event = 300989
+		}
+		any_country = {
+			limit = {
+				tag = IRQ
+			}
+			country_event = 300990
 		}
 		ai_chance = {
 			factor = 95
@@ -2166,6 +2164,10 @@ country_event = {
 #Second Treaty of Erzurum - alternative
 country_event = {
 	id = 300987
+	title = "EVTNAME300987"
+	desc = "EVTDESC300987"
+	picture = "treaty_of_erzurum"
+	
 	trigger = {
 		tag = PER
 		national_provinces_occupied = 0.15
@@ -2197,9 +2199,7 @@ country_event = {
 		days = 1
 	}
 
-	title = "EVTNAME300987"
-	desc = "EVTDESC300987"
-	picture = "treaty_of_erzurum"
+
 
 	option = {
 		name = "It was fun while it lasted."
@@ -2305,6 +2305,46 @@ country_event = {
 		war_exhaustion = 20
 		ai_chance = {
 			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 300989
+	title = "EVTNAME300989"
+	desc = "EVTDESC300989"
+	picture = "treaty_of_erzurum"
+	
+	option = {
+		name = "Ok."
+		any_owned = {
+			limit = {
+				province_id = 929
+				province_id = 934
+				region = TUR_935
+				region = ABU_1162
+			}
+			secede_province = PER
+		}
+	}
+}
+
+country_event = {
+	id = 300990
+	title = "EVTNAME300989"
+	desc = "EVTDESC300989"
+	picture = "treaty_of_erzurum"
+	
+	option = {
+		name = "Ok."
+		any_owned = {
+			limit = {
+				province_id = 929
+				province_id = 934
+				region = TUR_935
+				region = ABU_1162
+			}
+			secede_province = PER
 		}
 	}
 }

@@ -2315,6 +2315,8 @@ country_event = {
 	desc = "EVTDESC300989"
 	picture = "treaty_of_erzurum"
 	
+	is_triggered_only = yes
+	
 	option = {
 		name = "Ok."
 		any_owned = {
@@ -2334,6 +2336,8 @@ country_event = {
 	title = "EVTNAME300989"
 	desc = "EVTDESC300989"
 	picture = "treaty_of_erzurum"
+	
+	is_triggered_only = yes
 	
 	option = {
 		name = "Ok."

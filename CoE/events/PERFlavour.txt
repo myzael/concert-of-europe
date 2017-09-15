@@ -2131,12 +2131,14 @@ country_event = {
 		war_exhaustion = -5
 		any_country = {
 			limit = {
+				IRQ = { exists = no }
 				tag = TUR
 			}
 			country_event = 300989
 		}
 		any_country = {
 			limit = {
+				IRQ = { exists = yes }
 				tag = IRQ
 			}
 			country_event = 300990

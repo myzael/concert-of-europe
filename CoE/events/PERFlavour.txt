@@ -2322,13 +2322,42 @@ country_event = {
 	option = {
 		name = "Ok."
 		any_owned = {
+            limit = {
+                province_id = 929
+            }
+            secede_province = PER
+        }
+        any_owned = {
+            limit = {
+                province_id = 934
+            }
+            secede_province = PER
+        }
+        any_owned = {
+            limit = {
+                region = TUR_935
+            }
+            secede_province = PER
+        }
+        any_owned = {
+            limit = {
+                region = ABU_1162
+            }
+            secede_province = PER
+        }
+		any_country = {
 			limit = {
-				province_id = 929
-				province_id = 934
-				region = TUR_935
-				region = ABU_1162
+				is_greater_power = no
+				alliance_with = THIS
 			}
-			secede_province = PER
+			end_war = PER
+		}
+		any_country = {
+			limit = {
+				is_greater_power = no
+				alliance_with = PER
+			}
+			end_war = THIS
 		}
 	}
 }
@@ -2344,13 +2373,41 @@ country_event = {
 	option = {
 		name = "Ok."
 		any_owned = {
+            limit = {
+                province_id = 929
+            }
+            secede_province = PER
+        }
+        any_owned = {
+            limit = {
+                province_id = 934
+            }
+            secede_province = PER
+        }
+        any_owned = {
+            limit = {
+                region = TUR_935
+            }
+            secede_province = PER
+        }
+        any_owned = {
+            limit = {
+                region = ABU_1162
+            }
+            secede_province = PER
+        }
+		any_country = {
 			limit = {
-				province_id = 929
-				province_id = 934
-				region = TUR_935
-				region = ABU_1162
+				alliance_with = THIS
 			}
-			secede_province = PER
+			end_war = PER
+		}
+		any_country = {
+			limit = {
+				is_greater_power = no
+				alliance_with = PER
+			}
+			end_war = THIS
 		}
 	}
 }

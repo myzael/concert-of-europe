@@ -9,18 +9,18 @@ country_event = {
 	title = "EVTNAME98200" #The Great Boer Trek
 	desc = "EVTDESC98200"
 	picture = "pioneer_wagons"
-	
+
 	trigger = {
 		tag = ENG
 		exists = yes
 		year = 1835
 		NOT = { has_global_flag = great_boer_trek }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 5
 	}
-	
+
 	option = {
 		name = "We shall see."
 		set_global_flag = great_boer_trek
@@ -40,7 +40,7 @@ country_event = {
 	title = "EVTNAME98205" #Invasion of the Laagers
 	desc = "EVTDESC98205"
 	picture = "pioneer_wagons"
-	
+
 	trigger = {
 		tag = ZUL
 		exists = yes
@@ -51,11 +51,11 @@ country_event = {
 			has_country_flag = make_peace_with_the_laagers
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 6
 	}
-	
+
 	option = {
 		name = "We must drive them from our lands!"
 		set_country_flag = attack_the_laagers
@@ -92,7 +92,7 @@ country_event = {
 			factor = 90
 		}
 	}
-	
+
 	option = {
 		name = "There is no choice but to appease them."
 		set_country_flag = make_peace_with_the_laagers
@@ -134,9 +134,9 @@ country_event = {
 	news_desc_medium = "EVTDESC98206_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC98206_NEWS_SHORT"
 	picture = "blood_river"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "They are colonial subjects, no more."
 		prestige = 5
@@ -167,7 +167,7 @@ country_event = {
 			factor = 100
 		}
 	}
-	
+
 	option = {
 		name = "The Boers will stand on their own, if they can."
 		prestige = -5
@@ -210,9 +210,9 @@ country_event = {
 	news_desc_medium = "EVTDESC98207_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC98207_NEWS_SHORT"
 	picture = "boer_war"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "They are colonial subjects, no more."
 		2111 = { secede_province = THIS }
@@ -243,7 +243,7 @@ country_event = {
 			factor = 75
 		}
 	}
-	
+
 	option = {
 		name = "Allow them to find their own way."
 		prestige = 5
@@ -286,7 +286,7 @@ country_event = {
 	news_desc_short = "EVTDESC98210_NEWS_SHORT"
 	picture = "deliberation"
 	major = yes
-	
+
 	trigger = {
 		owns = 2087
 		war = no
@@ -297,7 +297,7 @@ country_event = {
 			vassal_of = THIS
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 50
 		modifier = {
@@ -305,7 +305,7 @@ country_event = {
 			year = 1843
 		}
 	}
-	
+
 	option = {
 		name = "We will annex the Natal."
 		set_country_flag = annexation_of_natal
@@ -314,7 +314,7 @@ country_event = {
 			factor = 90
 		}
 	}
-	
+
 	option = {
 		name = "Let them go."
 		set_country_flag = annexation_of_natal
@@ -336,9 +336,9 @@ country_event = {
 	title = "EVTNAME98211" #Natalian Independence!
 	desc = "EVTDESC98211"
 	picture = "celebration"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "We will maintain good relations with $FROMCOUNTRY$."
 		prestige = -5
@@ -352,7 +352,7 @@ country_event = {
 			diplomatic_influence = { who = THIS value = 100 }
 		}
 	}
-	
+
 	option = {
 		name = "The Boer will find their own way-- without help."
 		prestige = 5
@@ -376,9 +376,9 @@ country_event = {
 	title = "EVTNAME98212" #The Annexation of Natalia
 	desc = "EVTDESC98212"
 	picture = "administration"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "We will not submit to $FROMCOUNTRY_ADJ$ rule!"
 		any_pop = {
@@ -395,7 +395,7 @@ country_event = {
 			factor = 10
 		}
 	}
-	
+
 	option = {
 		name = "We have no choice. We cannot fight them."
 # DUPLICATED -Koro		civilized = no
@@ -403,7 +403,7 @@ country_event = {
 		FROM = { inherit = THIS }
 		civilized = yes
 		FROM = {
-			any_owned = { 
+			any_owned = {
 				limit = {
 					is_core = NAL
 					any_pop = { has_pop_culture = boer }
@@ -425,9 +425,9 @@ country_event = {
 	title = "EVTNAME98213" #The Boers Have Refused!
 	desc = "EVTDESC98213"
 	picture = "deliberation"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "War it is!"
 		diplomatic_influence = { who = FROM value = -200 }
@@ -438,7 +438,7 @@ country_event = {
 			factor = 80
 		}
 	}
-	
+
 	option = {
 		name = "Natalia is not worth fighting over."
 		prestige = -20
@@ -461,10 +461,10 @@ country_event = {
 
 country_event = {
 	id = 98215
-	title = "Establishment of Oranje" 
+	title = "Establishment of Oranje"
 	desc = "EVTDESC98215"
 	picture = "pioneer_wagons"
-	
+
 	trigger = {
 		OR = {
 			tag = ENG
@@ -506,6 +506,7 @@ country_event = {
 		2101 = {
 			state_scope = { is_slave = yes }
 		}
+		release = ORA
 		ORA = {
 			relation = { who = TRN value = 100 }
 			relation = { who = NAL value = 200 }
@@ -531,12 +532,12 @@ country_event = {
 
 country_event = {
 	id = 98220
-	title = "Establishment of Transvaal" 
+	title = "Establishment of Transvaal"
 	desc = "EVTDESC98220"
 	picture = "pioneer_wagons"
-	
+
 	trigger = {
-		tag = ENG 
+		tag = ENG
 		owns = 2093
 		year = 1845
 		NOT = {
@@ -557,7 +558,7 @@ country_event = {
 
 	mean_time_to_happen = {
 		months = 40
-		modifier = {	
+		modifier = {
 			ORA = { exists = yes }
 		}
 	}
@@ -601,6 +602,7 @@ country_event = {
 		2105 = {
 			state_scope = { is_slave = yes }
 		}
+		release = TRN
 		TRN = {
 			relation = { who = ORA value = 100 }
 			relation = { who = NAL value = 200 }
@@ -638,7 +640,7 @@ country_event = {
 
 province_event = {
 	id = 98225
-	title = "The Second Great Trek" 
+	title = "The Second Great Trek"
 	desc = "EVTDESC98225"
 	trigger = {
 		ORA = { exists = yes }
@@ -664,13 +666,13 @@ province_event = {
 		}
 		ai_chance = {
 			factor = 100
-		}		
+		}
 	}
 }
 
 province_event = {
 	id = 98226
-	title = "The Second Great Trek" 
+	title = "The Second Great Trek"
 	desc = "EVTDESC98225"
 	trigger = {
 		ORA = { exists = yes }
@@ -696,13 +698,13 @@ province_event = {
 		}
 		ai_chance = {
 			factor = 100
-		}		
+		}
 	}
 }
 
 country_event = {
 	id = 98230
-	title = "The Frontier Lands Conventions" 
+	title = "The Frontier Lands Conventions"
 	desc = "EVTDESC98230"
 	trigger = {
 		tag = ENG
@@ -712,12 +714,12 @@ country_event = {
 		ORA = { exists = yes }
 		TRN = { exists = yes }
 		NOT = { has_global_flag = boer_convention_accepted }
-		NOT = { has_global_flag = boer_convention_denied }	
+		NOT = { has_global_flag = boer_convention_denied }
 	}
 	picture = "boer_war"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "Let the Afrikaners have their own lands"
 		set_global_flag = boer_convention_accepted
@@ -771,7 +773,7 @@ country_event = {
 			factor = 75
 		}
 	}
-	
+
 	option = {
 		name = "The Boer Republics should be in the British interests."
 		set_global_flag = boer_convention_denied
@@ -826,7 +828,7 @@ country_event = {
 		}
 	fire_only_once = yes
 	mean_time_to_happen = { months = 27 }
-		
+
 	option = {
 		name = "Eureka!"
 		2094 = { add_province_modifier = { name = gold_rush duration = 5400 } }
@@ -851,7 +853,7 @@ country_event = {
 	title = "EVTNAME19501" #Witwatersrand Goldrush
 	desc = "EVTDESC98235"
 	picture = "goldrush"
-	
+
 	trigger = {
 		is_greater_power = yes
 		any_neighbor_country = {
@@ -860,11 +862,11 @@ country_event = {
 			is_greater_power = no
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 6
 	}
-	
+
 	option = {
 		name = "They are proving to be a nuisance."
 		random_country = {
@@ -906,7 +908,7 @@ country_event = {
 			AND = {
 				tag = TRN
 				NOT = { exists = ORA }
-				NOT = { exists = NAL }		
+				NOT = { exists = NAL }
 			}
 		}
 		NOT = {
@@ -915,11 +917,11 @@ country_event = {
 			truce_with = SAF
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 12
 	}
-	
+
 	option = {
 		name = "A Union it shall be!"
 		set_country_flag = asked_to_join
@@ -1089,9 +1091,9 @@ country_event = {
 	news_desc_medium = "EVTDESC98247_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC98247_NEWS_SHORT"
 	picture = "treaty"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "Let us reconcile with the Boers."
 		prestige = -50
@@ -1117,7 +1119,7 @@ country_event = {
 			end_war = THIS
 		}
 	}
-	
+
 	option = {
 		name = "Never! There will be a reckoning."
 		prestige = -25
@@ -1150,9 +1152,9 @@ country_event = {
 	title = "EVTNAME98248" #The Treaty of Vereeniging - Reconciliation
 	desc = "EVTDESC98248"
 	picture = "treaty"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "That's good to hear."
 		prestige = 25
@@ -1183,9 +1185,9 @@ country_event = {
 	title = "EVTNAME98248" #The Treaty of Vereeniging - Anger
 	desc = "EVTDESC98249"
 	picture = "treaty"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "We shall accept their surrender nevertheless."
 		prestige = 25
@@ -1285,7 +1287,7 @@ country_event = {
 			attacker_goal = {
 				casus_belli = establish_protectorate_casus_belli
 			}
-		}	
+		}
 		ai_chance = {
 			factor = 95
 			modifier = {
@@ -1319,7 +1321,7 @@ country_event = {
 	title = "EVTNAME98255" #Conflict with the Xhosa
 	desc = "EVTDESC98256"
 	picture = "zulu"
-	
+
 	trigger = {
 		OR = {
 			tag = ENG
@@ -1338,7 +1340,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 40
 		modifier = {
@@ -1354,7 +1356,7 @@ country_event = {
 			year = 1860
 		}
 	}
-	
+
 	option = {
 		name = "This is beyond the pale!"
 		change_variable = {
@@ -1377,9 +1379,9 @@ country_event = {
 	title = "EVTNAME98256" #The Final Straw
 	desc = "EVTDESC98256"
 	picture = "zulu"
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		OR = {
 			tag = ENG
@@ -1400,7 +1402,7 @@ country_event = {
 			has_country_flag = claimed_xhosa
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 40
 		modifier = {
@@ -1420,7 +1422,7 @@ country_event = {
 			year = 1880
 		}
 	}
-	
+
 	option = {
 		name = "Then so must it be."
 		badboy = 2
@@ -1442,7 +1444,7 @@ country_event = {
 			factor = 90
 		}
 	}
-	
+
 	option = {
 		name = "We will influence their government instead."
 		badboy = -2
@@ -1460,7 +1462,7 @@ country_event = {
 	title = "EVTNAME98260" #Walvis Bay
 	desc = "EVTDESC98260"
 	picture = "pioneer_wagons"
-	
+
 	trigger = {
 		is_greater_power = yes
 		owns = 2088
@@ -1470,11 +1472,11 @@ country_event = {
 		nationalism_n_imperialism  = 1
 		NOT = { has_country_flag = walvis_bay }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 6
 	}
-	
+
 	option = {
 		name = "A fine idea!"
 		set_country_flag = walvis_bay
@@ -1493,7 +1495,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "It's not worth it."
 		set_country_flag = walvis_bay

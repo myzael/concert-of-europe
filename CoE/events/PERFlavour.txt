@@ -2187,7 +2187,7 @@ country_event = {
 	title = "EVTNAME300987"
 	desc = "EVTDESC300987"
 	picture = "treaty_of_erzurum"
-	
+
 	trigger = {
 		tag = PER
 		national_provinces_occupied = 0.15
@@ -2334,9 +2334,9 @@ country_event = {
 	title = "EVTNAME300989"
 	desc = "EVTDESC300989"
 	picture = "treaty_of_erzurum"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "Ok."
 		any_owned = {
@@ -2385,9 +2385,9 @@ country_event = {
 	title = "EVTNAME300989"
 	desc = "EVTDESC300989"
 	picture = "treaty_of_erzurum"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "Ok."
 		any_owned = {
@@ -3527,7 +3527,7 @@ country_event = {
 		}
 		PER = {
 			release_vassal = THIS
-			country_event = 301703
+			country_event = 301073
 		}
 		any_country = {
 			end_war = THIS

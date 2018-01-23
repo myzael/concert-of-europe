@@ -4,5 +4,9 @@ add_core = PER
 add_core = KDS
 add_core = TUR
 trade_goods = wool
+<<<<<<< HEAD
 life_rating = 38
+=======
+life_rating = 35
+>>>>>>> parent of 7ead534... LR changes
 terrain = mountain

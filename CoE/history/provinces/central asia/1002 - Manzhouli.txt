@@ -3,5 +3,9 @@ controller = QNG
 add_core = CHI
 add_core = QNG
 trade_goods = cattle
+<<<<<<< HEAD
 life_rating = 37
+=======
+life_rating = 35
+>>>>>>> parent of 7ead534... LR changes
 terrain = conifer_forest_hills

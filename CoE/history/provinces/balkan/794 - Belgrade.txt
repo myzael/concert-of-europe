@@ -2,9 +2,5 @@ owner = SER
 controller = SER
 add_core = SER
 trade_goods = grain
-<<<<<<< HEAD
 life_rating = 37
-=======
-life_rating = 35
->>>>>>> parent of 7ead534... LR changes
 terrain = good_farmland

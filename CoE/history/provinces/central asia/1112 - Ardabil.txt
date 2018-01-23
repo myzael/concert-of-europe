@@ -3,9 +3,5 @@ controller = PER
 add_core = PER
 add_core = AZB
 trade_goods = timber
-<<<<<<< HEAD
 life_rating = 37
-=======
-life_rating = 35
->>>>>>> parent of 7ead534... LR changes
 terrain = mountain_farmland

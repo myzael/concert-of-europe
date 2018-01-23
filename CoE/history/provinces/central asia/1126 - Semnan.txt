@@ -2,9 +2,5 @@ owner = PER
 controller = PER
 add_core = PER
 trade_goods = coal
-<<<<<<< HEAD
 life_rating = 37
-=======
-life_rating = 35
->>>>>>> parent of 7ead534... LR changes
 terrain = dry_grassland

@@ -1904,67 +1904,34 @@ country_event = {
 			limit = {
 				has_pop_culture = dixie
 				type = farmers
-				location = { continent = north_america }
+				location = { is_core = USA }
 			}
 			move_pop = 132
 		}
-		any_pop = {
-			limit = { 
-				has_pop_culture = mexican
-				location = { province_id = 132 } 
-			}
-			reduce_pop = 0.75
-		}
-		any_pop = {
-			limit = { 
-				has_pop_culture = native_american_minor
-				location = { province_id = 132 } 
-			}
-			reduce_pop = 0.50
+		132 = {
+			any_pop = { limit = { NOT = { has_pop_religion = protestant } } reduce_pop = 0.7 }
 		}
 		random_pop = {
 			limit = {
 				has_pop_culture = dixie
 				type = farmers
-				location = { continent = north_america }
+				location = { is_core = USA }
 			}
 			move_pop = 133
 		}
-		any_pop = {
-			limit = { 
-				has_pop_culture = mexican
-				location = { province_id = 133 } 
-			}
-			reduce_pop = 0.75
-		}
-		any_pop = {
-			limit = { 
-				has_pop_culture = native_american_minor
-				location = { province_id = 133 } 
-			}
-			reduce_pop = 0.50
+		133 = {
+			any_pop = { limit = { NOT = { has_pop_religion = protestant } } reduce_pop = 0.7 }
 		}
 		random_pop = {
 			limit = {
 				has_pop_culture = dixie
 				type = farmers
-				location = { continent = north_america }
+				location = { is_core = USA }
 			}
 			move_pop = 134
 		}
-		any_pop = {
-			limit = { 
-				has_pop_culture = mexican
-				location = { province_id = 134 } 
-			}
-			reduce_pop = 0.75
-		}
-		any_pop = {
-			limit = { 
-				has_pop_culture = native_american_minor
-				location = { province_id = 134 } 
-			}
-			reduce_pop = 0.50
+		134 = {
+			any_pop = { limit = { NOT = { has_pop_religion = protestant } } reduce_pop = 0.7 }
 		}
 		random_pop = {
 			limit = {
@@ -1974,19 +1941,8 @@ country_event = {
 			}
 			move_pop = 137
 		}
-		any_pop = {
-			limit = { 
-				has_pop_culture = mexican
-				location = { province_id = 137 } 
-			}
-			reduce_pop = 0.75
-		}
-		any_pop = {
-			limit = { 
-				has_pop_culture = native_american_minor
-				location = { province_id = 137 } 
-			}
-			reduce_pop = 0.50
+		137 = {
+			any_pop = { limit = { NOT = { has_pop_religion = protestant } } reduce_pop = 0.7 }
 		}
 	}
 }

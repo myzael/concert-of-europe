@@ -1909,7 +1909,7 @@ country_event = {
 			move_pop = 132
 		}
 		132 = {
-			any_pop = { limit = { NOT = { has_pop_religion = protestant } } reduce_pop = 0.7 }
+			any_pop = { limit = { NOT = { has_pop_religion = protestant } } reduce_pop = 0.3 }
 		}
 		random_pop = {
 			limit = {
@@ -1920,7 +1920,7 @@ country_event = {
 			move_pop = 133
 		}
 		133 = {
-			any_pop = { limit = { NOT = { has_pop_religion = protestant } } reduce_pop = 0.7 }
+			any_pop = { limit = { NOT = { has_pop_religion = protestant } } reduce_pop = 0.3 }
 		}
 		random_pop = {
 			limit = {
@@ -1931,7 +1931,7 @@ country_event = {
 			move_pop = 134
 		}
 		134 = {
-			any_pop = { limit = { NOT = { has_pop_religion = protestant } } reduce_pop = 0.7 }
+			any_pop = { limit = { NOT = { has_pop_religion = protestant } } reduce_pop = 0.3 }
 		}
 		random_pop = {
 			limit = {
@@ -1942,7 +1942,7 @@ country_event = {
 			move_pop = 137
 		}
 		137 = {
-			any_pop = { limit = { NOT = { has_pop_religion = protestant } } reduce_pop = 0.7 }
+			any_pop = { limit = { NOT = { has_pop_religion = protestant } } reduce_pop = 0.3 }
 		}
 	}
 }

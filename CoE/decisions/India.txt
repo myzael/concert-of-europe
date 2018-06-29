@@ -1418,7 +1418,6 @@ political_decisions = {
 			}
 			NOT = {
 				has_country_flag = demanded_indian_retreat
-				HND = { exists = yes }
 			}
 		}
 		
@@ -1483,6 +1482,13 @@ political_decisions = {
 		effect = {
 			set_country_flag = demanded_indian_retreat
 			ENG = {
+			  random_country = {
+				limit = {
+					tag = HND
+					exists = yes
+				}
+				ENG = { inherit = HND }
+			  }
 				any_owned = {
 					limit = { is_core = THIS }
 					secede_province = THIS

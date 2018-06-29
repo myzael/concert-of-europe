@@ -44,6 +44,14 @@ political_decisions = {
 		}
 
 		effect = {
+			random_country = {
+				limit = {
+					tag = HND
+					exists = yes
+					ai = yes
+				}
+				THIS = { inherit = HND }
+			}
 			set_global_flag = hindustan_formed
 			prestige = 10
 			add_accepted_culture = avadhi
@@ -1498,6 +1506,10 @@ political_decisions = {
 		
 		allow = {
 			NOT = { capital = 1236 }
+			OR = { 
+			     is_subject = no
+				 year = 1912
+			}
 		}
 		
 		effect = {

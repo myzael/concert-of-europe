@@ -12,7 +12,6 @@ political_decisions = {
 			}
 			NOT = { has_global_flag = hindustan_formed }
 			NOT = { tag = HND }
-			NOT = { tag = HYD }
 		}
 
 		allow = {
@@ -55,11 +54,25 @@ political_decisions = {
 			}
 			set_global_flag = hindustan_formed
 			prestige = 10
-			add_accepted_culture = avadhi
-			add_accepted_culture = kanauji
-			add_accepted_culture = bihari
-			add_accepted_culture = oriya
-			add_accepted_culture = marathi
+            add_accepted_culture = assamese
+            add_accepted_culture = bengali
+            add_accepted_culture = bihari
+            add_accepted_culture = manipuri
+            add_accepted_culture = nepali
+            add_accepted_culture = oriya
+            add_accepted_culture = sinhala
+            add_accepted_culture = avadhi
+            add_accepted_culture = kanauji
+            add_accepted_culture = panjabi
+            add_accepted_culture = kashmiri
+            add_accepted_culture = gujarati
+            add_accepted_culture = marathi
+            add_accepted_culture = sindi
+            add_accepted_culture = rajput
+            add_accepted_culture = kannada
+            add_accepted_culture = malayalam
+            add_accepted_culture = tamil
+            add_accepted_culture = telegu
 			all_core = { remove_core = THIS }
 			change_tag = HDU
 			ENG_1261 = { add_core = HDU } #Cuttack
@@ -1047,7 +1060,6 @@ political_decisions = {
 			has_global_flag = british_dismantled
 			NOT = { has_global_flag = hindustan_formed }
 			NOT = { exists = HND }
-			NOT = { tag = HYD }
 		}
 
 		allow = {
@@ -1077,11 +1089,25 @@ political_decisions = {
 					government = hms_government
 				}
 			}
-			add_accepted_culture = avadhi
-			add_accepted_culture = kanauji
-			add_accepted_culture = bihari
-			add_accepted_culture = oriya
-			add_accepted_culture = marathi
+            add_accepted_culture = assamese
+            add_accepted_culture = bengali
+            add_accepted_culture = bihari
+            add_accepted_culture = manipuri
+            add_accepted_culture = nepali
+            add_accepted_culture = oriya
+            add_accepted_culture = sinhala
+            add_accepted_culture = avadhi
+            add_accepted_culture = kanauji
+            add_accepted_culture = panjabi
+            add_accepted_culture = kashmiri
+            add_accepted_culture = gujarati
+            add_accepted_culture = marathi
+            add_accepted_culture = sindi
+            add_accepted_culture = rajput
+            add_accepted_culture = kannada
+            add_accepted_culture = malayalam
+            add_accepted_culture = tamil
+            add_accepted_culture = telegu
 			all_core = { remove_core = THIS }
 			change_tag = HDU
 			ENG_1261 = { add_core = HDU } #Cuttack

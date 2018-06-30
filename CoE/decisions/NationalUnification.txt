@@ -749,36 +749,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			has_global_flag = indian_call_to_union
-			prestige = 45
-			state_n_government = 1
-			war = no
-			HND = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						province_id = 1303
-						province_id = 1312
-						region = ENG_1320
-						is_core = BLC
-						is_core = KAL
-						is_core = MAK
-						is_core = AFG
-						is_core = KAS
-						is_core = SIK
-						is_core = KDH
-						owner = {
-							in_sphere = THIS
-							OR = {
-								is_vassal = no
-								vassal_of = THIS
-							}
-							war = no
-							is_greater_power = no
-						}
-					}
-				}
-			}
+ai = no
 		}
 		effect = {
 			prestige = 20

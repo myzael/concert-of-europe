@@ -79,6 +79,8 @@ political_decisions = {
 				has_country_flag = sepoy_rebellion
 				has_country_flag = sepoy_rebellion_ended
 			}
+			tag = HND
+			primary_culture = british
 		}
 		allow = {
 			has_country_flag = sepoy_rebellion_ended
@@ -107,7 +109,8 @@ political_decisions = {
 					militancy = -3
 					consciousness = -2
 				}
-			}	
+			}
+			government = prussian_constitutionalism3
 		}
 		ai_will_do = {
 			factor = 1

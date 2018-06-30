@@ -1,5 +1,5 @@
-owner = HND
-controller = HND
+owner = ENG
+controller = ENG
 trade_goods = fish
 life_rating = 30
 terrain = insular

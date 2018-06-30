@@ -1543,7 +1543,7 @@ political_decisions = {
 		allow = {
 			NOT = { capital = 1236 }
 			OR = { 
-			     is_subject = no
+			     is_vassal = no
 				 year = 1912
 			}
 		}

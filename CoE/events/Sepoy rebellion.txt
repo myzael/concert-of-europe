@@ -143,13 +143,5 @@ country_event = {
 				consciousness = 3
 			}
 		}
-		random_country = {
-			limit = {
-				tag = HND
-				exists = yes
-				is_subject = yes
-			}
-			HND = { government = prussian_constitutionalism3 }
-		}
 	}
 }

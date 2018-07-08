@@ -73,7 +73,7 @@ country_event = {
 			militancy = 3
 			consciousness = 3
 		}
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		ruling_party_ideology = liberal
 		political_reform = universal_weighted_voting
 		political_reform = population_equal_weight

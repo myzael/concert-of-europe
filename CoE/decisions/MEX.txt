@@ -21,7 +21,7 @@ political_decisions = {
 			average_militancy = 3
 		}
 		effect = {
-			government = hms_government
+			government = hms_government2
 			any_pop = {
 				scaled_militancy = {
 					ideology = liberal

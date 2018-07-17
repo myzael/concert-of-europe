@@ -193,6 +193,8 @@ political_decisions = {
 				ruling_party_ideology = socialist
 				ruling_party_ideology = communist
 				ruling_party_ideology = fascist
+			}
+			OR = {
 				upper_house = {
 					ideology = liberal
 					value = 0.3

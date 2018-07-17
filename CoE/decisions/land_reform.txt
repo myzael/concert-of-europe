@@ -1,6 +1,5 @@
 political_decisions = {
 	abolishment_of_serfdom = {
-	picture = abolishment_of_serfdom
 		potential = {
 			land_property = serfdom
 			civilized = yes
@@ -10,7 +9,6 @@ political_decisions = {
 		}
 		allow = {
 			OR = {
-			    ruling_party_ideology = conservative
 				ruling_party_ideology = liberal
 				ruling_party_ideology = anarcho_liberal
 				ruling_party_ideology = socialist
@@ -538,7 +536,6 @@ political_decisions = {
 	}
 	
 	land_purchase_initiative = {
-	picture = land_purchase_initiative
 		potential = {
 			land_property = landed_estates
 			civilized = yes
@@ -1074,7 +1071,6 @@ political_decisions = {
 	}
 
 	partition_of_land = {
-	picture = partition_of_land
 		potential = {
 			land_property = land_purchase
 			civilized = yes
@@ -1615,7 +1611,6 @@ political_decisions = {
 	}
 
 	collectivization_of_agriculture  = {
-	picture = collectivization_of_agriculture
 		potential = {
 			land_property = commoners_properties
 			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }

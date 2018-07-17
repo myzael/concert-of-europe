@@ -797,25 +797,13 @@ political_decisions = {
 				}
 				country_event = 11101
 			}
-            add_accepted_culture = assamese
-            add_accepted_culture = bengali
-            add_accepted_culture = bihari
-            add_accepted_culture = manipuri
-            add_accepted_culture = nepali
-            add_accepted_culture = oriya
-            add_accepted_culture = sinhala
-            add_accepted_culture = avadhi
-            add_accepted_culture = kanauji
-            add_accepted_culture = panjabi
-            add_accepted_culture = kashmiri
-            add_accepted_culture = gujarati
-            add_accepted_culture = marathi
-            add_accepted_culture = sindi
-            add_accepted_culture = rajput
-            add_accepted_culture = kannada
-            add_accepted_culture = malayalam
-            add_accepted_culture = tamil
-            add_accepted_culture = telegu		
+			add_accepted_culture = avadhi
+			add_accepted_culture = marathi
+			add_accepted_culture = rajput
+			add_accepted_culture = bihari
+			add_accepted_culture = bengali
+			add_accepted_culture = kanauji
+			add_accepted_culture = panjabi		
 		}
 		ai_will_do = {
 			factor = 1

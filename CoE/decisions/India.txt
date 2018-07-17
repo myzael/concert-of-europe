@@ -1,6 +1,5 @@
 political_decisions = {
 
-#HDU not HND!#
 	form_hindustan = {
         potential = {
 			OR = {
@@ -12,6 +11,7 @@ political_decisions = {
 			}
 			NOT = { has_global_flag = hindustan_formed }
 			NOT = { tag = HND }
+			NOT = { tag = HYD }
 		}
 
 		allow = {
@@ -44,20 +44,13 @@ political_decisions = {
 		}
 
 		effect = {
-			random_country = {
-				limit = {
-					tag = HND
-					exists = yes
-					ai = yes
-				}
-				THIS = { inherit = HND }
-			}
 			set_global_flag = hindustan_formed
 			prestige = 10
-            add_accepted_culture = avadhi
-            add_accepted_culture = kanauji
-            add_accepted_culture = bihari
-            add_accepted_culture = oriya
+			add_accepted_culture = avadhi
+			add_accepted_culture = kanauji
+			add_accepted_culture = bihari
+			add_accepted_culture = oriya
+			add_accepted_culture = marathi
 			all_core = { remove_core = THIS }
 			change_tag = HDU
 			ENG_1261 = { add_core = HDU } #Cuttack
@@ -1044,6 +1037,7 @@ political_decisions = {
 			has_global_flag = british_dismantled
 			NOT = { has_global_flag = hindustan_formed }
 			NOT = { exists = HND }
+			NOT = { tag = HYD }
 		}
 
 		allow = {
@@ -1073,10 +1067,11 @@ political_decisions = {
 					government = hms_government
 				}
 			}
-            add_accepted_culture = avadhi
-            add_accepted_culture = kanauji
-            add_accepted_culture = bihari
-            add_accepted_culture = oriya
+			add_accepted_culture = avadhi
+			add_accepted_culture = kanauji
+			add_accepted_culture = bihari
+			add_accepted_culture = oriya
+			add_accepted_culture = marathi
 			all_core = { remove_core = THIS }
 			change_tag = HDU
 			ENG_1261 = { add_core = HDU } #Cuttack
@@ -1400,7 +1395,7 @@ political_decisions = {
 		potential = {
 			is_culture_group = south_asian
 			ai = no
-            HND = {
+			ENG = {
 				OR = {
 					owns = 1236
 					owns = 1247
@@ -1408,8 +1403,6 @@ political_decisions = {
 					owns = 1275
 					owns = 1297
 				}
-			}
-			ENG = {
 				NOT = {
 					has_global_flag = british_dismantled
 					has_country_flag = refused_indian_retreat
@@ -1417,14 +1410,15 @@ political_decisions = {
 			}
 			NOT = {
 				has_country_flag = demanded_indian_retreat
+				HND = { exists = yes }
 			}
 		}
 		
 		allow = {
-			#civilized = yes
+			civilized = yes
 			ENG = {
 				war_with = THIS
-				#war_exhaustion = 25
+				war_exhaustion = 25
 			}
 			1236 = {
 				controller = {
@@ -1481,13 +1475,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = demanded_indian_retreat
 			ENG = {
-			  random_country = {
-				limit = {
-					tag = HND
-					exists = yes
-				}
-				ENG = { inherit = HND }
-			  }
 				any_owned = {
 					limit = { is_core = THIS }
 					secede_province = THIS
@@ -1511,10 +1498,6 @@ political_decisions = {
 		
 		allow = {
 			NOT = { capital = 1236 }
-			OR = { 
-			     is_vassal = no
-				 year = 1912
-			}
 		}
 		
 		effect = {

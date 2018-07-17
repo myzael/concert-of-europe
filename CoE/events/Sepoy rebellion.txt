@@ -14,7 +14,6 @@ country_event = {
 		OR = {
 			tag = ENG
 			tag = ENL
-			primary_culture = british
 		}
 		exists = yes
 		year = 1857
@@ -98,7 +97,6 @@ country_event = {
 		OR = {
 			tag = ENG
 			tag = ENL
-			primary_culture = british
 		}
 		exists = yes
 		has_country_flag = sepoy_rebellion
@@ -142,6 +140,6 @@ country_event = {
 				militancy = -3
 				consciousness = 3
 			}
-		}
+		}										
 	}
 }

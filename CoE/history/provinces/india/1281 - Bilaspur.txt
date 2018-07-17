@@ -6,7 +6,7 @@ trade_goods = silk
 life_rating = 34
 terrain = dry_forest_hills
 1861.1.1 = {
-	owner = HND
-	controller = HND
+	owner = ENG
+	controller = ENG
 	colonial = 1
 }

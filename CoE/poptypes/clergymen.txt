@@ -584,6 +584,18 @@ promote_to =
 			}
 		}
 		modifier = {
+		factor = -15
+		country = { land_property = serfdom }
+		}
+		modifier = {
+		factor = -10
+		country = { land_property = landed_estates }
+		}
+		modifier = {
+		factor = -5
+		country = { land_property = commoners_properties }
+		}
+		modifier = {
 		factor = 10
 		country = { land_property = collectivization }
 		}
@@ -1840,7 +1852,7 @@ ideologies = {
 	}
 	
 	social_liberal = {
-		factor = 1.1
+		factor = 1
 		modifier = {
 			factor = 1.5
 			has_global_flag = post_colonial_era_fired
@@ -2155,7 +2167,7 @@ ideologies = {
 }
 	
 	fascist = {
-		factor = 1.1
+		factor = 1
 		modifier = {
 			factor = 1.1
 			country = { 
@@ -2563,7 +2575,7 @@ ideologies = {
 }
 
 	conservative = {
-		factor = 0.8
+		factor = 1
 		modifier = {
 			factor = 1.05
 			country = { 
@@ -2835,7 +2847,7 @@ ideologies = {
 	}
 
 	communist = {
-		factor = 1.1
+		factor = 1
 		modifier = {
 			factor = 1.1
 			country = { 
@@ -3007,7 +3019,7 @@ ideologies = {
 	}
 
 liberal = {
-		factor = 1.1
+		factor = 1
 		modifier = {
 			factor = 1.05
 			country = { 
@@ -3167,7 +3179,7 @@ liberal = {
 
 	}
 	anarcho_liberal = {
-		factor = 1.1
+		factor = 1
 		modifier = {
 			factor = 1.1
 			country = { 

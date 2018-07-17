@@ -159,6 +159,12 @@ demotion_chance =
 		strata = rich
 	}
 	modifier = {
+		factor = -0.05
+		country = {
+			has_country_flag = serfdom_not_abolished
+		}
+	}
+	modifier = {
 		factor = -0.1
 		country = { slavery = yes_slavery }
 	}

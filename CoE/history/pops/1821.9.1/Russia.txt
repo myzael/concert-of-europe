@@ -5714,7 +5714,7 @@
 	farmers = {
 
 		size = 2235
-		culture = ugrian
+		culture = pagan
 		religion = orthodox
 
 	}

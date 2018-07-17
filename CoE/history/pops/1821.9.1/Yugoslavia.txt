@@ -3026,7 +3026,7 @@
 	artisans = {
 
 		size = 318
-		culture = serb
+		culture = serbian
 		religion = orthodox
 
 	}
@@ -3069,7 +3069,7 @@
 
 		size = 119
 		culture = bulgarian
-		religion = orthodox
+		religion = serbian
 
 	}
 	clergymen = {
@@ -3110,7 +3110,7 @@
 	farmers = {
 
 		size = 3522
-		culture = serb
+		culture = serbian
 		religion = orthodox
 
 	}
@@ -3171,7 +3171,7 @@
 
 		size = 110
 		culture = turkish
-		religion = sunni
+		religion = albanian
 
 	}
 	clergymen = {

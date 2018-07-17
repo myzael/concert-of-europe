@@ -697,30 +697,3 @@ country_event = {
 		}
 	}
 }
-
-country_event = {
-	
-	id = 97125
-	title = "The collapse of British India"
-	desc = "British government has abandoned us, our existence is unsustainable!"
-
-	trigger = { 
-	    tag = HND
-		primary_culture = british
-		is_vassal = no
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-		
-
-	option = {
-		name = "All hail the free India"
-			set_country_flag = demanded_indian_retreat
-			ENG = {
-				inherit = HND
-				country_event = 97122
-			}
-	}
-}

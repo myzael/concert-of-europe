@@ -6,7 +6,7 @@ trade_goods = tea
 life_rating = 30
 terrain = floodplain_farmland
 1836.1.1 = {
-	owner = HND
-	controller = HND
+	owner = ENG
+	controller = ENG
 	colonial = 1
 }

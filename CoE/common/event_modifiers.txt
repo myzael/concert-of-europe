@@ -63,14 +63,14 @@ anti_jacobin_tract = {
 }
 
 cholera_epidemic_small = {
-	population_growth = -0.001
+	population_growth = -0.002
 	pop_consciousness_modifier = 0.1
 	pop_militancy_modifier = 0.05
 	icon = 86
 }
 
 cholera_epidemic_big = {
-	population_growth = -0.003
+	population_growth = -0.005
 	pop_consciousness_modifier = 0.1
 	pop_militancy_modifier = 0.05
 	icon = 86
@@ -98,7 +98,7 @@ national_tragedy = {
 western_influences = {
 	global_pop_militancy_modifier = 0.1
 	global_pop_consciousness_modifier = 0.1
-	research_points = 1
+	research_points = 0.5
 	icon = 82
 }
 

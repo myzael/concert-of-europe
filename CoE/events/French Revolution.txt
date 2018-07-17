@@ -20,7 +20,7 @@ country_event = {
 	trigger = {
 		tag = FRA
 		exists = yes
-		government = hms_government
+		OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		OR = {
 			has_country_modifier = springtime_of_nations
 			has_country_flag = liberal_revolution_in_progress
@@ -201,8 +201,8 @@ country_event = {
 					has_country_modifier = springtime_of_nations
 				}
 				NOT = { is_culture_group = scandinavian }
-				NOT = { government = democracy }
-				NOT = { government = hms_government }
+				NOT = { OR = { government = democracy government = democracy2 government = democracy3 } }
+				NOT = { OR = { government = hms_government government = hms_government2 government = hms_government3 } }
 			}
 			any_pop = {
 				scaled_militancy = {
@@ -237,7 +237,7 @@ country_event = {
 		exists = yes
 		has_country_modifier = power_vacuum
 		has_country_flag = 2nd_republic
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		election = no
 		NOT = {
 			year = 1870
@@ -347,7 +347,7 @@ country_event = {
 		tag = FRA
 		exists = yes
 		has_country_flag = 2nd_republic
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		ruling_party_ideology = conservative
 		election = no
 		NOT = {
@@ -422,7 +422,7 @@ country_event = {
 		exists = yes
 		has_country_flag = 2nd_republic
 		has_country_modifier = louis_napoleon_iii
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		election = yes
 		year = 1850
 		rank = 5
@@ -546,9 +546,9 @@ country_event = {
 		has_country_flag = 2nd_empire
 		has_country_modifier = louis_napoleon_iii
 		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		war = no
 		OR = {
@@ -630,7 +630,7 @@ country_event = {
 			duration = 3650
 		}
 		prestige = 25
-		government = absolute_monarchy
+		government = absolute_monarchy2
 		ruling_party_ideology = reactionary
 		political_reform = none_voting
 		political_reform = party_appointed
@@ -671,7 +671,7 @@ country_event = {
 			factor = 25
 			modifier = {
 				factor = 0
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		}
 	}
@@ -684,7 +684,7 @@ country_event = {
 			name = man_of_the_people
 			duration = 3650
 		}
-		government = hms_government
+		government = hms_government3
 		ruling_party_ideology = conservative
 		political_reform = universal_voting
 		political_reform = state_equal_weight
@@ -748,9 +748,9 @@ country_event = {
 		has_country_flag = 2nd_empire
 		has_country_modifier = louis_napoleon_iii
 		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		war = no
 		year = 1870	
@@ -820,6 +820,7 @@ country_event = {
 		set_country_flag = louis_deposed
 		remove_country_modifier = louis_napoleon_iii
 		prestige = 25
+		government = hms_government3
 		ruling_party_ideology = reactionary
 		add_country_modifier = {
 			name = man_of_the_people
@@ -850,7 +851,7 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 0
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}			
 		}
 	}

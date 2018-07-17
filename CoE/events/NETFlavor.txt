@@ -298,9 +298,9 @@ country_event = {
 		any_owned_province = { is_core = WLL }
 		NOT = { exists = WLL }
 		OR = {
-			government = democracy
-			government = hms_government
-			government = prussian_constitutionalism
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 		check_variable = {
 			which = wallingant_provinces
@@ -391,7 +391,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5
@@ -453,7 +453,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 1.5

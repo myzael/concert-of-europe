@@ -53,9 +53,9 @@ country_event = {
 		exists = yes
 		year = 1842
 		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		NOT = {
 			year = 1845		
@@ -266,9 +266,9 @@ country_event = {
 		exists = yes
 		year = 1897
 		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		NOT = {
 			year = 1900
@@ -685,9 +685,9 @@ country_event = {
 		}
 		exists = yes
 		OR = {
-			government = absolute_monarchy
-			government = hms_government
-			government = prussian_constitutionalism
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 		war = no
 		is_disarmed = no
@@ -902,8 +902,8 @@ country_event = {
 			modifier = {
 				factor = 1.75
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
@@ -912,7 +912,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 1.5
@@ -982,10 +982,10 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				}
 			}
 			modifier = {
@@ -995,13 +995,13 @@ country_event = {
 			modifier = {
 				factor = 0.25
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
 				factor = 1.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5
@@ -1148,8 +1148,8 @@ country_event = {
 			modifier = {
 				factor = 1.75
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
@@ -1158,7 +1158,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 1.5
@@ -1218,22 +1218,22 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				}
 			}
 			modifier = {
 				factor = 0.25
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
 				factor = 1.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5
@@ -1380,8 +1380,8 @@ country_event = {
 			modifier = {
 				factor = 1.75
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
@@ -1390,11 +1390,11 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.9
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 1.5
@@ -1454,22 +1454,22 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				}
 			}
 			modifier = {
 				factor = 0.25
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
 				factor = 1.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5
@@ -1620,8 +1620,8 @@ country_event = {
 			modifier = {
 				factor = 1.75
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
@@ -1630,7 +1630,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 1.5
@@ -1690,22 +1690,22 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				}
 			}
 			modifier = {
 				factor = 0.25
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
 				factor = 1.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5
@@ -1849,8 +1849,8 @@ country_event = {
 			modifier = {
 				factor = 1.75
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
@@ -1859,7 +1859,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 1.5
@@ -1919,22 +1919,22 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				}
 			}
 			modifier = {
 				factor = 0.25
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
 				factor = 1.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5
@@ -2083,8 +2083,8 @@ country_event = {
 			modifier = {
 				factor = 1.75
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
@@ -2093,7 +2093,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 1.5
@@ -2153,22 +2153,22 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				}
 			}
 			modifier = {
 				factor = 0.25
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
 				factor = 1.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5
@@ -2454,8 +2454,8 @@ country_event = {
 			modifier = {
 				factor = 1.75
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
@@ -2464,11 +2464,11 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.9
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 1.5
@@ -2528,22 +2528,22 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				}
 			}
 			modifier = {
 				factor = 0.25
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
 				factor = 1.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5
@@ -2690,8 +2690,8 @@ country_event = {
 			modifier = {
 				factor = 1.75
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
@@ -2700,11 +2700,11 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.9
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 1.5
@@ -2764,22 +2764,22 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				}
 			}
 			modifier = {
 				factor = 0.25
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
 				factor = 1.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5
@@ -2932,8 +2932,8 @@ country_event = {
 			modifier = {
 				factor = 1.75
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
@@ -2942,11 +2942,11 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.9
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 1.5
@@ -3006,22 +3006,22 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				}
 			}
 			modifier = {
 				factor = 0.25
 				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 			modifier = {
 				factor = 1.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5

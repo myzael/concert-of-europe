@@ -2390,9 +2390,9 @@ country_event = {
 			modifier = {
 				factor = 0
 				NOT = {
-					government = democracy
-					government = hms_government
-					government = prussian_constitutionalism
+					OR = { government = democracy government = democracy2 government = democracy3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 			}
 		}
@@ -2473,9 +2473,9 @@ country_event = {
 		exists = yes
 		war = no
 		NOT = {
-			government = democracy
-			government = hms_government
-			government = prussian_constitutionalism
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 		OR = {
 			average_militancy = 4
@@ -2793,8 +2793,8 @@ country_event = {
 				factor = 0.1
 				FROM = {
 					NOT = {
-						government = democracy
-						government = hms_government
+						OR = { government = democracy government = democracy2 government = democracy3 }
+						OR = { government = hms_government government = hms_government2 government = hms_government3 }
 					}
 				}
 			}

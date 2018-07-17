@@ -304,7 +304,7 @@ country_event = {
 		}
 		exists = yes
 		year = 1854
-		government = hms_government
+		OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		NOT = {
 			year = 1858
 		}
@@ -504,9 +504,9 @@ country_event = {
 		exists = yes
 		year = 1830
 		OR = {
-			government = hms_government
-			government = prussian_constitutionalism
-			government = absolute_monarchy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		}
 		NOT = { has_country_flag = carlism_questioned }
 	}
@@ -650,7 +650,7 @@ country_event = {
 		random_country = {
 			limit = {
 				tag = SIC
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 			relation = {
 				who = THIS
@@ -666,7 +666,7 @@ country_event = {
 		any_country = {
 			limit = {
 				neighbour = THIS
-				NOT = { government = absolute_monarchy }
+				NOT = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 			}
 			any_pop = {
 				scaled_militancy = {
@@ -916,10 +916,10 @@ country_event = {
 		exists = yes
 		has_country_flag = carlism_questioned
 		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
-			government = democracy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 		NOT = {
 			any_owned_province = { has_province_modifier = carlist_sympathies }
@@ -1091,10 +1091,10 @@ province_event = {
 		owner = {
 			tag = SPA
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
-				government = democracy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 		}
 		any_neighbor_province = { has_province_modifier = carlist_sympathies }
@@ -1279,10 +1279,10 @@ province_event = {
 		owner = {
 			tag = SPA
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
-				government = democracy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			NOT = {
 				check_variable = {
@@ -1673,9 +1673,9 @@ country_event = {
 		tag = SPC
 		exists = yes
 		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		NOT = {
 			any_owned_province = { has_province_modifier = christino_sympathies }
@@ -1824,9 +1824,9 @@ province_event = {
 		owner = {
 			tag = SPC
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		}
 		any_neighbor_province = { has_province_modifier = carlist_sympathies }
@@ -1990,9 +1990,9 @@ province_event = {
 		owner = {
 			tag = SPC
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			NOT = {
 				check_variable = {
@@ -2259,8 +2259,8 @@ country_event = {
 		exists = yes
 		year = 1865
 		OR = {
-			government = hms_government
-			government = prussian_constitutionalism
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 		OR = {
 			has_recently_lost_war = yes
@@ -2688,9 +2688,9 @@ country_event = {
 		exists = yes
 		has_country_flag = king_leopold_rules
 		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		OR = {
 			war_with = FRA
@@ -2895,9 +2895,9 @@ country_event = {
 		exists = yes
 		has_country_flag = king_amadeo_rules
 		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		OR = {
 			average_militancy = 3
@@ -3101,7 +3101,7 @@ country_event = {
 		tag = SPA
 		exists = yes
 		has_global_flag = spain_glorious_revolution
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		OR = {
 			487 = { NOT = { controlled_by = THIS } }
 			average_militancy = 3
@@ -3692,8 +3692,8 @@ country_event = {
 				factor = 0
 				badboy = 0.6
 				OR = {
-					government = democracy
-					government = hms_government
+					OR = { government = democracy government = democracy2 government = democracy3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 			}
 		}
@@ -3821,9 +3821,9 @@ country_event = {
 					war = no
 					is_greater_power = yes
 					OR = {
-						government = absolute_monarchy
-						government = prussian_constitutionalism
-						government = hms_government
+						OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+						OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+						OR = { government = hms_government government = hms_government2 government = hms_government3 }
 					}
 				}
 			}
@@ -3835,9 +3835,9 @@ country_event = {
 					war = no
 					is_greater_power = yes
 					OR = {
-						government = absolute_monarchy
-						government = prussian_constitutionalism
-						government = hms_government
+						OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+						OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+						OR = { government = hms_government government = hms_government2 government = hms_government3 }
 					}
 				}
 			}
@@ -4388,7 +4388,11 @@ country_event = {
     trigger = {
         tag = SPA
         exists = yes
+<<<<<<< HEAD
         government = hms_government
+=======
+        OR = { government = hms_government government = hms_government2 government = hms_government3 }
+>>>>>>> Experimental-Branch
         NOT = { year = 1836 }
     }
    
@@ -4460,8 +4464,13 @@ country_event = {
             limit = {
                 civilized = yes
                 OR = {
+<<<<<<< HEAD
                     government = absolute_monarchy
                     government = prussian_constitutionalism
+=======
+                    OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+                    OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+>>>>>>> Experimental-Branch
                 }
                 capital_scope = { 
                     continent = europe
@@ -4491,8 +4500,13 @@ country_event = {
             limit = {
                 civilized = yes
                 OR = {
+<<<<<<< HEAD
                     NOT = { government = absolute_monarchy }
                     NOT = { government = prussian_constitutionalism }
+=======
+                    NOT = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
+                    NOT = { OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } }
+>>>>>>> Experimental-Branch
                 }
                 capital_scope = { 
                     continent = europe

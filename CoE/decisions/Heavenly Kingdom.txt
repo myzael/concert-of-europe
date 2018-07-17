@@ -85,7 +85,7 @@ political_decisions = {
 		potential = {
 			has_country_modifier = heavenly_china
 			has_country_flag = christians_invited
-			NOT = { government = theocracy }
+			NOT = { OR = { government = theocracy government = theocracy2 government = theocracy3 } }
 			civilized = yes
 		}
 		
@@ -98,7 +98,8 @@ political_decisions = {
 		effect = {
 			set_country_flag = chinese_theocracy_done
 			prestige = 15
-			government = theocracy
+			#government = theocracy government #oscar7211
+			government = theocracy #oscar7211
 			any_pop = {
 				consciousness = 3
 			}
@@ -115,7 +116,7 @@ political_decisions = {
 		potential = {
 			tag = TPG
 			has_country_modifier = chinese_christianity
-			government = theocracy
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 			has_country_flag = chinese_theocracy_done
 			NOT = { has_country_flag = christian_mandate_heaven }
 			owns = 2221

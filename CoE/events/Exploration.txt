@@ -769,7 +769,11 @@ country_event = {
 		ai_chance = {
 			factor = 90
 			modifier = {
+<<<<<<< HEAD
 				factor = 0
+=======
+				factor = 0.1
+>>>>>>> Experimental-Branch
 				NOT = {
 					treasury = 15000
 				}
@@ -782,7 +786,11 @@ country_event = {
 		ai_chance = {
 			factor = 10
 			modifier = {
+<<<<<<< HEAD
 				factor = 10
+=======
+				factor = 5
+>>>>>>> Experimental-Branch
 				NOT = {
 					treasury = 15000
 				}
@@ -931,6 +939,7 @@ country_event = {
 			clr_country_flag = timbuktu_disaster
 		}
 		prestige = 5
+<<<<<<< HEAD
 		random_pop = {
 			limit = {
 				is_primary_culture = yes
@@ -938,6 +947,19 @@ country_event = {
 				strata = middle
 			}
 			money = 10
+=======
+		random_owned = {
+			limit = {
+				is_colonial = no
+			}
+			random_pop = {
+				limit = {
+					is_primary_culture = yes
+					strata = middle
+				}
+				money = 10
+			}
+>>>>>>> Experimental-Branch
 		}
 	}
 }

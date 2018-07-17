@@ -2,7 +2,7 @@ political_decisions = {
 	primus_inter_pares = {
 		potential = {
 			tag = HUN
-			government = absolute_monarchy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			NOT = { has_country_flag = primus_inter_pares }
 		}
 	
@@ -16,7 +16,7 @@ political_decisions = {
 			plurality = 5
 			political_reform = landed_voting
 			political_reform = harassment
-			government = prussian_constitutionalism
+			government = prussian_constitutionalism 
 		}
 		
 		ai_will_do = {
@@ -78,9 +78,9 @@ political_decisions = {
 				is_greater_power = yes
 			}
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		}
 		effect = {
@@ -119,10 +119,10 @@ political_decisions = {
 				is_greater_power = yes
 			}
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
-				government = democracy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 		}
 		
@@ -161,10 +161,10 @@ political_decisions = {
 			state_n_government = 1
 			is_greater_power = yes
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
-				government = fascist_dictatorship
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 			}
 		}
 		
@@ -204,10 +204,10 @@ political_decisions = {
 			nationalism_n_imperialism = 1
 			is_greater_power = yes
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
-				government = fascist_dictatorship
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 			}
 		}
 		
@@ -250,8 +250,8 @@ political_decisions = {
 			owns = 779 #Osijek
 			war = no
 			OR = { 
-				government = hms_government
-				government = democracy
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			OR = {
 				is_secondary_power = yes

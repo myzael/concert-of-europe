@@ -13,9 +13,9 @@ country_event = {
 		}
 		exists = yes
 		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		war = no
 		exists = SWH
@@ -271,8 +271,8 @@ country_event = {
 		tag = DEN
 		exists = yes
 		OR = {
-			government = prussian_constitutionalism
-			government = hms_government
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		war = no
 		exists = SWH

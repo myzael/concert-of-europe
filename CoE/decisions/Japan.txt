@@ -208,9 +208,9 @@ political_decisions = {
 		potential = {
 			tag = TKG
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			OR = {
 				has_global_flag = iemochi_shogun
@@ -267,9 +267,9 @@ political_decisions = {
 		potential = {
 			primary_culture = japanese
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			NOT = {
 				has_global_flag = boshin_war
@@ -315,7 +315,7 @@ political_decisions = {
 			random_owned = {
 				limit = {
 					owner = {
-						foreign_training = no_foreign_training
+						unciv_military_training = military_levies
 						civilized = no
 					}
 				}
@@ -329,7 +329,7 @@ political_decisions = {
 			random_owned = {
 				limit = {
 					owner = {
-						foreign_training = yes_foreign_training
+						unciv_military_training = field_drills
 						civilized = no
 					}
 				}
@@ -536,7 +536,7 @@ political_decisions = {
 		potential = {
 			tag = JAP
 			civilized = yes
-			government = absolute_monarchy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			has_country_modifier = fukoku_kyohei
 			NOT = { has_country_flag = enacted_meiji_constitution }
 		}
@@ -980,9 +980,9 @@ political_decisions = {
 		potential = {
 			tag = TKG
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			OR = {
 				SEN = { exists = yes }
@@ -1126,7 +1126,7 @@ political_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 		}
 	}
@@ -1326,31 +1326,31 @@ political_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				government = fascist_dictatorship
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 				JAP = {
-					NOT = { government = fascist_dictatorship }
+					NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 				}
 			}
 			modifier = {
 				factor = 0
-				NOT = { government = fascist_dictatorship }
-				JAP = { government = fascist_dictatorship }
+				NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+				JAP = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 			}
 			modifier = {
 				factor = 0
-				NOT = { government = proletarian_dictatorship }
-				JAP = { government = proletarian_dictatorship }
+				NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
+				JAP = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			}
 			modifier = {
 				factor = 0
 				OR = {
-					government = democracy
-					government = hms_government
+					OR = { government = democracy government = democracy2 government = democracy3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 				JAP = {
 					NOT = {
-						government = democracy
-						government = hms_government
+						OR = { government = democracy government = democracy2 government = democracy3 }
+						OR = { government = hms_government government = hms_government2 government = hms_government3 }
 					}
 				}
 			}
@@ -1358,20 +1358,20 @@ political_decisions = {
 				factor = 0
 				JAP = {
 					OR = {
-						government = democracy
-						government = hms_government
+						OR = { government = democracy government = democracy2 government = democracy3 }
+						OR = { government = hms_government government = hms_government2 government = hms_government3 }
 					}
 				}
 				NOT = {
-					government = democracy
-					government = hms_government
+					OR = { government = democracy government = democracy2 government = democracy3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 			}
 			modifier = {
 				factor = 0
 				OR = {
-					government = presidential_dictatorship
-					government = bourgeois_dictatorship
+					OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
 				}
 			}
 		}

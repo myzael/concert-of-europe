@@ -37,9 +37,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -116,9 +116,9 @@ country_event = {
 		}
 		civilized = yes
 		OR = { 	
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -201,9 +201,9 @@ country_event = {
 		}
 		civilized = yes
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -279,9 +279,9 @@ country_event = {
 		}
 		civilized = yes
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -356,9 +356,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -433,9 +433,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -520,9 +520,9 @@ country_event = {
 		}
 		num_of_ports = 1
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -604,9 +604,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -681,9 +681,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -766,9 +766,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -843,9 +843,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -921,9 +921,9 @@ country_event = {
 		}
 		civilized = yes
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -1007,9 +1007,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -1084,9 +1084,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -1168,9 +1168,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -1249,9 +1249,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -1326,9 +1326,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -1403,9 +1403,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -1487,9 +1487,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -1572,9 +1572,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -1658,9 +1658,9 @@ country_event = {
 		}
 		average_militancy = 5
 		OR = { 
-			government = theocracy
-			government = absolute_monarchy
-			government = prussian_constitutionalism
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -1744,9 +1744,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -1822,10 +1822,10 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -1907,9 +1907,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -1984,10 +1984,10 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -2062,8 +2062,8 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = presidential_dictatorship
-			government = fascist_dictatorship
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -2138,10 +2138,10 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -2226,10 +2226,10 @@ country_event = {
 		}
 		num_of_ports = 1
 		OR = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -2311,10 +2311,10 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -2389,8 +2389,8 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = presidential_dictatorship
-			government = fascist_dictatorship
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -2473,9 +2473,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -2551,10 +2551,10 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -2636,10 +2636,10 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -2719,9 +2719,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -2805,9 +2805,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -2882,9 +2882,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -2966,9 +2966,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -3051,10 +3051,10 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -3137,9 +3137,9 @@ country_event = {
 			has_country_modifier = power_vacuum
 		}
 		OR = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
 		}
 	}
 	
@@ -3228,10 +3228,10 @@ country_event = {
 		}
 			average_militancy = 5
 		OR = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 	
@@ -3324,8 +3324,8 @@ country_event = {
 			has_country_flag = anarcho_liberal_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -3405,8 +3405,8 @@ country_event = {
 			has_country_flag = anarcho_liberal_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -3492,8 +3492,8 @@ country_event = {
 			has_country_flag = anarcho_liberal_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -3572,8 +3572,8 @@ country_event = {
 			has_country_flag = anarcho_liberal_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -3653,19 +3653,21 @@ country_event = {
 			has_country_flag = anarcho_liberal_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		modifier = {
+		    factor = 0.8
 			OR = {
 				nationalvalue = nv_independence
 				nationalvalue = nv_supremacy
 				nationalvalue = nv_glory
 				nationalvalue = nv_might
 			}
+		}
 	}
 	
 	option = {
@@ -3740,8 +3742,8 @@ country_event = {
 		}
 		num_of_ports = 1
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -3827,8 +3829,8 @@ country_event = {
 			has_country_flag = anarcho_liberal_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -3908,8 +3910,8 @@ country_event = {
 			has_country_flag = anarcho_liberal_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -3988,8 +3990,8 @@ country_event = {
 			has_country_flag = anarcho_liberal_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -4068,8 +4070,8 @@ country_event = {
 			has_country_flag = anarcho_liberal_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -4157,8 +4159,8 @@ country_event = {
 			has_country_flag = anarcho_liberal_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -4237,8 +4239,8 @@ country_event = {
 			has_country_flag = anarcho_liberal_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -4324,8 +4326,8 @@ country_event = {
 			has_country_flag = anarcho_liberal_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -4404,8 +4406,8 @@ country_event = {
 			has_country_flag = anarcho_liberal_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -4489,8 +4491,8 @@ country_event = {
 			has_country_flag = reactionary_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -4571,8 +4573,8 @@ country_event = {
 			has_country_flag = reactionary_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -4652,8 +4654,8 @@ country_event = {
 			has_country_flag = reactionary_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -4733,19 +4735,22 @@ country_event = {
 			has_country_flag = reactionary_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
 	mean_time_to_happen = {
 		months = 12
+		modifier = {
+		    factor = 0.8
 			OR = {
 				nationalvalue = nv_independence
 				nationalvalue = nv_supremacy
 				nationalvalue = nv_glory
 				nationalvalue = nv_might
 			}
+		}
 	}
 	
 	option = {
@@ -4821,8 +4826,8 @@ country_event = {
 		}
 		num_of_ports = 1
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -4909,8 +4914,8 @@ country_event = {
 			has_country_flag = reactionary_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -4990,8 +4995,8 @@ country_event = {
 			has_country_flag = reactionary_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -5079,8 +5084,8 @@ country_event = {
 			has_country_flag = reactionary_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -5160,8 +5165,8 @@ country_event = {
 			has_country_flag = reactionary_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -5241,8 +5246,8 @@ country_event = {
 			has_country_flag = reactionary_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -5322,8 +5327,8 @@ country_event = {
 			has_country_flag = reactionary_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -5410,8 +5415,8 @@ country_event = {
 			has_country_flag = reactionary_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -5491,8 +5496,8 @@ country_event = {
 			has_country_flag = reactionary_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -5572,8 +5577,8 @@ country_event = {
 			has_country_flag = reactionary_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -5654,8 +5659,8 @@ country_event = {
 			has_country_flag = reactionary_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -5742,8 +5747,8 @@ country_event = {
 			has_country_flag = reactionary_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -5835,8 +5840,8 @@ country_event = {
 			has_country_flag = social_liberal_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -5917,8 +5922,8 @@ country_event = {
 			has_country_flag = social_liberal_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -5998,8 +6003,8 @@ country_event = {
 			has_country_flag = social_liberal_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -6080,8 +6085,8 @@ country_event = {
 			has_country_flag = social_liberal_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -6161,8 +6166,8 @@ country_event = {
 			has_country_flag = social_liberal_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -6250,8 +6255,8 @@ country_event = {
 			has_country_flag = social_liberal_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -6331,8 +6336,8 @@ country_event = {
 			has_country_flag = social_liberal_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -6412,8 +6417,8 @@ country_event = {
 			has_country_flag = social_liberal_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -6503,8 +6508,8 @@ country_event = {
 			has_country_flag = social_liberal_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -6591,8 +6596,8 @@ country_event = {
 			has_country_flag = social_liberal_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -6672,8 +6677,8 @@ country_event = {
 			has_country_flag = social_liberal_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -6753,8 +6758,8 @@ country_event = {
 			has_country_flag = social_liberal_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -6844,8 +6849,8 @@ country_event = {
 			has_country_flag = social_liberal_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -6933,8 +6938,8 @@ country_event = {
 			has_country_flag = social_liberal_election_win
 		}
 		OR = {
-			government = hms_government
-			government = democracy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = democracy government = democracy2 government = democracy3 }
 		}
 	}
 	
@@ -6988,10 +6993,10 @@ country_event = {
 	trigger = {
 		exists = yes
 		NOT = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 		OR = {
 			has_country_modifier = expert_diplomat
@@ -7064,10 +7069,10 @@ country_event = {
 	trigger = {
 		exists = yes
 		NOT = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 		has_country_modifier = raving_loon
 	}
@@ -7091,10 +7096,10 @@ country_event = {
 	trigger = {
 		exists = yes
 		OR = {
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 		OR = { 			
 			has_country_modifier = expert_diplomat

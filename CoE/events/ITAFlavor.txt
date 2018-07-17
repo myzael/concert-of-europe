@@ -256,8 +256,8 @@ country_event = {
 				factor = 0.5
 				badboy = 0.6
 				NOT = {
-					government = fascist_dictatorship
-					government = absolute_monarchy
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				}
 			}
 		}
@@ -282,8 +282,8 @@ country_event = {
 				factor = 2
 				badboy = 0.6
 				NOT = {
-					government = fascist_dictatorship
-					government = absolute_monarchy
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 				}
 			}
 		}

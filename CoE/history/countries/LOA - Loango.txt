@@ -28,7 +28,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-land_property=landed_estates
+land_property = landed_estates
 child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = elite
@@ -49,7 +49,7 @@ set_country_flag = existing_country
 diplomatic_reform = interactive
 
 # Technologies
-early_classical_theory_and_critique = 1
+classicism_n_early_romanticism = 1
 
 # Inventions
 
@@ -62,12 +62,12 @@ oob = "LOA_oob.txt"
 1836.1.1 = {
 	literacy = 0.001
 	
-	foreign_weapons = yes_foreign_weapons
+	unciv_light_armament = gunpowder_weapons
 	diplomatic_reform = interactive
 	
 	# Technologies
 	flintlock_rifles = 1
-	early_classical_theory_and_critique = 1
+	classicism_n_early_romanticism = 1
 }
 
 1861.1.1 = {
@@ -75,12 +75,12 @@ oob = "LOA_oob.txt"
 }
 1861.1.1 = {
 
-foreign_weapons = yes_foreign_weapons
+unciv_light_armament = gunpowder_weapons
 diplomatic_reform = interactive
 
 # Technologies
 flintlock_rifles = 1
-early_classical_theory_and_critique = 1
+classicism_n_early_romanticism = 1
 
 # Inventions
 

@@ -356,233 +356,234 @@ vassal_nation = {
 	prestige = -5
 }
 
-oversized_industry_1850 = {
-	trigger = {
-		year = 1850
-		not = { year = 1860 }
-		industrial_score = 200
-		not = { industrial_score = 400 }
-	}
-	icon = 10
-	factory_throughput = -0.05
-	prestige = 0.01
-}
+#oversized_industry_1850 = {
+#	trigger = {
+#		year = 1850
+#		not = { year = 1860 }
+#		industrial_score = 200
+#		not = { industrial_score = 400 }
+#	}
+#	icon = 10
+#	factory_throughput = -0.05
+#	prestige = 0.01
+#}
 
-oversized_industry_1860 = {
-	trigger = {
-		year = 1860
-		not = { year = 1870 }
-		industrial_score = 400
-		not = { industrial_score = 800 }
-	}
-	icon = 12
-	factory_throughput = -0.10
-	prestige = 0.02
-}
+#oversized_industry_1860 = {
+#	trigger = {
+#		year = 1860
+#		not = { year = 1870 }
+#		industrial_score = 400
+#		not = { industrial_score = 800 }
+#	}
+#	icon = 12
+#	factory_throughput = -0.10
+#	prestige = 0.02
+#}
 
-oversized_industry_1870 = {
-	trigger = {
-		year = 1870
-		not = { year = 1880 }
-		industrial_score = 600
-		not = { industrial_score = 1200 }
-	}
-	icon = 12
-	factory_throughput = -0.15
-	prestige = 0.03
-}
+#oversized_industry_1870 = {
+#	trigger = {
+#		year = 1870
+#		not = { year = 1880 }
+#		industrial_score = 600
+#		not = { industrial_score = 1200 }
+#	}
+#	icon = 12
+#	factory_throughput = -0.15
+#	prestige = 0.03
+#}
 
-oversized_industry_1880 = {
-	trigger = {
-		year = 1880
-		not = { year = 1890 }
-		industrial_score = 800
-		not = { industrial_score = 1600 }
-	}
-	icon = 12
-	factory_throughput = -0.20
-	prestige = 0.04
-}
+#oversized_industry_1880 = {
+#	trigger = {
+#		year = 1880
+#		not = { year = 1890 }
+#		industrial_score = 800
+#		not = { industrial_score = 1600 }
+#	}
+#	icon = 12
+#	factory_throughput = -0.20
+#	prestige = 0.04
+#}
 
-oversized_industry_1890 = {
-	trigger = {
-		year = 1890
-		not = { year = 1900 }
-		industrial_score = 1000
-		not = { industrial_score = 2000 }
-	}
-	icon = 12
-	factory_throughput = -0.25
-	prestige = 0.05
-}
+#oversized_industry_1890 = {
+#	trigger = {
+#		year = 1890
+#		not = { year = 1900 }
+#		industrial_score = 1000
+#		not = { industrial_score = 2000 }
+#	}
+#	icon = 12
+#	factory_throughput = -0.25
+#	prestige = 0.05
+#}
 
-oversized_industry_1900 = {
-	trigger = {
-		year = 1900
-		not = { year = 1910 }
-		industrial_score = 1250
-		not = { industrial_score = 2500 }
-	}
-	icon = 12
-	factory_throughput = -0.30
-	prestige = 0.06
-}
+#oversized_industry_1900 = {
+#	trigger = {
+#		year = 1900
+#		not = { year = 1910 }
+#		industrial_score = 1250
+#		not = { industrial_score = 2500 }
+#	}
+#	icon = 12
+#	factory_throughput = -0.30
+#	prestige = 0.06
+#}
 
-oversized_industry_1910 = {
-	trigger = {
-		year = 1910
-		not = { year = 1920 }
-		industrial_score = 1500
-		not = { industrial_score = 3000 }
-	}
-	icon = 12
-	factory_throughput = -0.35
-	prestige = 0.07
-}
+#oversized_industry_1910 = {
+#	trigger = {
+#		year = 1910
+#		not = { year = 1920 }
+#		industrial_score = 1500
+#		not = { industrial_score = 3000 }
+#	}
+#	icon = 12
+#	factory_throughput = -0.35
+#	prestige = 0.07
+#}
 
-oversized_industry_1920 = {
-	trigger = {
-		year = 1920
-		not = { year = 1930 }
-		industrial_score = 1750
-		not = { industrial_score = 3500 }
-	}
-	icon = 12
-	factory_throughput = -0.40
-	prestige = 0.08
-}
+#oversized_industry_1920 = {
+#	trigger = {
+#		year = 1920
+#		not = { year = 1930 }
+#		industrial_score = 1750
+#		not = { industrial_score = 3500 }
+#	}
+#	icon = 12
+#	factory_throughput = -0.40
+#	prestige = 0.08
+#}
 
-oversized_industry_1930 = {
-	trigger = {
-		year = 1930
-		not = { year = 1940 }
-		industrial_score = 2000
-		not = { industrial_score = 4000 }
-	}
-	icon = 12
-	factory_throughput = -0.45
-	prestige = 0.09
-}
+#oversized_industry_1930 = {
+#	trigger = {
+#		year = 1930
+#		not = { year = 1940 }
+#		industrial_score = 2000
+#		not = { industrial_score = 4000 }
+#	}
+#	icon = 12
+#	factory_throughput = -0.45
+#	prestige = 0.09
+#}
 
-oversized_industry_1940 = {
-	trigger = {
-		year = 1940
-		industrial_score = 2500
-		not = { industrial_score = 5000 }
-	}
-	icon = 12
-	factory_throughput = -0.50
-	prestige = 0.1
-}
+#oversized_industry_1940 = {
+#	trigger = {
+#		year = 1940
+#		industrial_score = 2500
+#		not = { industrial_score = 5000 }
+#	}
+#	icon = 12
+#	factory_throughput = -0.50
+#	prestige = 0.1
+#}
 
-excessive_industry_1850 = {
-	trigger = {
-		year = 1850
-		not = { year = 1860 }
-		industrial_score = 400
-	}
-	icon = 10
-	factory_throughput = -0.10
-	prestige = 0.02
-}
+#excessive_industry_1850 = {
+#	trigger = {
+#		year = 1850
+#		not = { year = 1860 }
+#		industrial_score = 400
+#	}
+#	icon = 10
+#	factory_throughput = -0.10
+#	prestige = 0.02
+#}
 
-excessive_industry_1860 = {
-	trigger = {
-		year = 1860
-		not = { year = 1870 }
-		industrial_score = 800
-	}
-	icon = 12
-	factory_throughput = -0.20
-	prestige = 0.04
-}
+#excessive_industry_1860 = {
+#	trigger = {
+#		year = 1860
+#		not = { year = 1870 }
+#		industrial_score = 800
+#	}
+#	icon = 12
+#	factory_throughput = -0.20
+#	prestige = 0.04
+#}
 
-excessive_industry_1870 = {
-	trigger = {
-		year = 1870
-		not = { year = 1880 }
-		industrial_score = 1200
-	}
-	icon = 12
-	factory_throughput = -0.30
-	prestige = 0.06
-}
+#excessive_industry_1870 = {
+#	trigger = {
+#		year = 1870
+#		not = { year = 1880 }
+#		industrial_score = 1200
+#	}
+#	icon = 12
+#	factory_throughput = -0.30
+#	prestige = 0.06
+#}
 
-excessive_industry_1880 = {
-	trigger = {
-		year = 1880
-		not = { year = 1890 }
-		industrial_score = 1600
-	}
-	icon = 12
-	factory_throughput = -0.40
-	prestige = 0.08
-}
+#excessive_industry_1880 = {
+#	trigger = {
+#		year = 1880
+#		not = { year = 1890 }
+#		industrial_score = 1600
+#	}
+#	icon = 12
+#	factory_throughput = -0.40
+#	prestige = 0.08
+#}
 
-excessive_industry_1890 = {
-	trigger = {
-		year = 1890
-		not = { year = 1900 }
-		industrial_score = 2000
-	}
-	icon = 12
-	factory_throughput = -0.50
-	prestige = 0.10
-}
+#excessive_industry_1890 = {
+#	trigger = {
+#		year = 1890
+#		not = { year = 1900 }
+#		industrial_score = 2000
+#	}
+#	icon = 12
+#	factory_throughput = -0.50
+#	prestige = 0.10
+#}
 
-excessive_industry_1900 = {
-	trigger = {
-		year = 1900
-		not = { year = 1910 }
-		industrial_score = 2500
-	}
-	icon = 12
-	factory_throughput = -0.60
-	prestige = 0.12
-}
+#excessive_industry_1900 = {
+#	trigger = {
+#		year = 1900
+#		not = { year = 1910 }
+#		industrial_score = 2500
+#	}
+#	icon = 12
+#	factory_throughput = -0.60
+#	prestige = 0.12
+#}
 
-excessive_industry_1910 = {
-	trigger = {
-		year = 1910
-		not = { year = 1920 }
-		industrial_score = 3000
-	}
-	icon = 12
-	factory_throughput = -0.70
-	prestige = 0.14
-}
+#excessive_industry_1910 = {
+#	trigger = {
+#		year = 1910
+#		not = { year = 1920 }
+#		industrial_score = 3000
+#	}
+#	icon = 12
+#	factory_throughput = -0.70
+#	prestige = 0.14
+#}
 
-excessive_industry_1920 = {
-	trigger = {
-		year = 1920
-		not = { year = 1930 }
-		industrial_score = 3500
-	}
-	icon = 12
-	factory_throughput = -0.80
-	prestige = 0.16
-}
+#excessive_industry_1920 = {
+#	trigger = {
+#		year = 1920
+#		not = { year = 1930 }
+#		industrial_score = 3500
+#	}
+#	icon = 12
+#	factory_throughput = -0.80
+#	prestige = 0.16
+#}
 
-excessive_industry_1930 = {
-	trigger = {
-		year = 1930
-		not = { year = 1940 }
-		industrial_score = 4000
-	}
-	icon = 12
-	factory_throughput = -0.90
-	prestige = 0.18
-}
+#excessive_industry_1930 = {
+#	trigger = {
+#		year = 1930
+#		not = { year = 1940 }
+#		industrial_score = 4000
+#	}
+#	icon = 12
+#	factory_throughput = -0.90
+#	prestige = 0.18
+#}
 
-excessive_industry_1940 = {
-	trigger = {
-		year = 1940
-		industrial_score = 5000
-	}
-	icon = 12
-	factory_throughput = -1
-	prestige = 0.2
-}
+#excessive_industry_1940 = {
+#	trigger = {
+#		year = 1940
+#		industrial_score = 5000
+#	}
+#	icon = 12
+#	factory_throughput = -1
+#	prestige = 0.2
+#}
+
 winds_of_change = {
 	trigger = {
 		has_global_flag = berlin_conference
@@ -596,10 +597,10 @@ the_police_state_effect = {
 	trigger = {
 		invention = the_police_state
 		or = {
-			government = fascist_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = proletarian_dictatorship
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 		}
 	}
 	icon = 1

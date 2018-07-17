@@ -1,8 +1,8 @@
 owner = NET
 controller = NET
 add_core = JAV
-trade_goods = coffee
+trade_goods = sugar
 life_rating = 40
 terrain = good_farmland
-colonial = 1
+colonial = 2
 naval_base = 1

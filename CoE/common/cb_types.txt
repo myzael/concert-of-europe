@@ -743,9 +743,9 @@ colonial_reconquest_cb = {
 				is_greater_power = yes
 			}
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			NOT = {
 				war_policy = pacifism
@@ -801,7 +801,6 @@ restore_america = {
 			OR = {
 				primary_culture = yankee
 				primary_culture = dixie
-				primary_culture = texan
 			}
 			NOT = { tag = USA }
 		}
@@ -812,7 +811,7 @@ restore_america = {
 				exists = yes
 				is_greater_power = no
 			}
-			NOT = { government = democracy }
+			NOT = { OR = { government = democracy government = democracy2 government = democracy3 } }
 		}
 		OR = {
 			THIS = { ai = no }
@@ -1527,8 +1526,8 @@ unification_GP_humiliate = {
 			}
 		}
 		OR = {
-			THIS = { government = fascist_dictatorship }
-			THIS = { government = proletarian_dictatorship }
+			THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			war_with = THIS
 			NOT = { relation = { who = THIS value = -50 } }
 		}
@@ -1713,8 +1712,8 @@ take_from_sphere = {
 			}
 		}
 		OR = {
-			THIS = { government = proletarian_dictatorship }
-			THIS = { government = fascist_dictatorship }
+			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
+			THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 			war_with = THIS
 			NOT = { relation = { who = THIS value = 0 } }
 			THIS = { ai = no }
@@ -1803,8 +1802,8 @@ free_peoples = {
 			FROM = { involved_in_crisis = yes }
 		}
 		OR = {
-			THIS = { government = fascist_dictatorship }
-			THIS = { government = proletarian_dictatorship }
+			THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			THIS = { civilized = no }
 			war_with = THIS
 			NOT = { relation = { who = THIS value = 0 } }
@@ -2145,8 +2144,8 @@ liberate_country = {
 			FROM = { involved_in_crisis = yes }
 		}
 		OR = {
-			THIS = { government = fascist_dictatorship }
-			THIS = { government = proletarian_dictatorship }
+			THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			THIS = { civilized = no }
 			war_with = THIS
 			NOT = { relation = { who = THIS value = 0 } }
@@ -2372,8 +2371,8 @@ free_allied_cores = {
 			}
 		}
 		OR = {
-			THIS = { government = fascist_dictatorship }
-			THIS = { government = proletarian_dictatorship }
+			THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			war_with = THIS
 			NOT = { relation = { who = THIS value = 0 } }
 			THIS = { ai = no }
@@ -2605,7 +2604,7 @@ monroe_doctrine = {
 	can_use = {
 		THIS = {
 			tag = USA
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			is_greater_power = yes
 			NOT = { war_policy = pacifism }
 		}
@@ -3031,8 +3030,8 @@ cut_down_to_size = {
 			}
 		}
 		OR = {
-			THIS = { government = fascist_dictatorship }
-			THIS = { government = proletarian_dictatorship }
+			THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			THIS = { civilized = no }
 			war_with = THIS
 			NOT = { relation = { who = THIS value = 0 } }
@@ -3140,9 +3139,9 @@ great_game_cb = {
 				tag = RUS
 			}
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			NOT = {
 				has_country_flag = no_more_great_game
@@ -3249,9 +3248,9 @@ restore_british_raj = {
 		THIS = {
 			tag = ENG
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			NOT = {
 				has_country_modifier = neutrality
@@ -3324,8 +3323,8 @@ humiliate = {
 			THIS = { NOT = { has_country_modifier = no_more_war } }
 		}
 		OR = {
-			THIS = { government = fascist_dictatorship }
-			THIS = { government = proletarian_dictatorship }
+			THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			war_with = THIS
 			NOT = { relation = { who = THIS value = 0 } }
 			THIS = { ai = no }
@@ -3423,8 +3422,8 @@ place_in_the_sun = {
 			}
 		}
 		OR = {
-			THIS = { government = fascist_dictatorship }
-			THIS = { government = proletarian_dictatorship }
+			THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			THIS = { civilized = no }
 			war_with = THIS
 			NOT = {
@@ -3437,19 +3436,11 @@ place_in_the_sun = {
 	allowed_states = {
 		any_owned_province = { is_colonial = yes }
 		OR = {
-			any_owned_province = {
-				NOT = {
-					any_core = {
-						OR = {
-							exists = yes
-							exists = no
-						}
+			NOT = {
+				any_owned_province = {
+					any_core = { civilized = yes }
 					}
 				}
-			}
-			any_owned_province = {
-				any_core = { civilized = no }
-			}
 			any_owned_province = { continent = africa }
 			THIS = { ai = no }
 		}
@@ -3526,6 +3517,7 @@ acquire_state = {
 			civilized = yes
 		}
 		THIS = {
+			number_of_states = 2
 			NOT = {
 				has_country_modifier = neutrality
 				war_policy = pacifism
@@ -3536,8 +3528,8 @@ acquire_state = {
 			THIS = { NOT = { has_country_modifier = no_more_war } }
 		}
 		OR = {
-			THIS = { government = fascist_dictatorship }
-			THIS = { government = proletarian_dictatorship }
+			THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			THIS = { civilized = no }
 			war_with = THIS
 			NOT = { relation = { who = THIS value = 0 } }
@@ -3646,8 +3638,8 @@ acquire_state = {
 		#fascist & communist countries are exempt from this
 		OR = {
 			THIS = { ai = no }
-			THIS = { government = proletarian_dictatorship }
-			THIS = { government = fascist_dictatorship }
+			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
+			THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 			AND = {
 				THIS = { war_policy = pro_military }
 				any_owned_province = {
@@ -3876,7 +3868,7 @@ sahel_jihad_cb = {
 		}
 		THIS = {
 			civilized = no
-			government = absolute_monarchy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			OR = {
 				tag = MAS
 				tag = TOO
@@ -4338,7 +4330,7 @@ conquest = {
 				}
 			}
 			AND = {
-				THIS = { government = fascist_dictatorship }
+				THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 				NOT = { number_of_states = 4 }
 			}
 		}
@@ -4357,8 +4349,8 @@ conquest = {
 			}
 		}
 		OR = {
-			THIS = { government = fascist_dictatorship }
-			THIS = { government = proletarian_dictatorship }
+			THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			war_with = THIS
 			NOT = { relation = { who = THIS value = 0 } }
 			THIS = { ai = no }
@@ -4453,8 +4445,8 @@ conquest = {
 		#fascist & communist countries are exempt from this
 		OR = {
 			THIS = { ai = no }
-			THIS = { government = proletarian_dictatorship }
-			THIS = { government = fascist_dictatorship }
+			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
+			THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 			AND = {
 				THIS = { war_policy = pro_military }
 				any_owned_province = {
@@ -4486,7 +4478,7 @@ conquest = {
 		}
 	}
 
-	badboy_factor = 2.2
+	badboy_factor = 1.5
 	prestige_factor = 5
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -5028,8 +5020,8 @@ make_puppet = {
 			}
 		}
 		OR = {
-			THIS = { government = fascist_dictatorship }
-			THIS = { government = proletarian_dictatorship }
+			THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			war_with = THIS
 			NOT = { relation = { who = THIS value = 0 } }
 			THIS = { ai = no }
@@ -5138,10 +5130,10 @@ install_communist_gov_cb = {
 	can_use = {
 		THIS = {
 			is_greater_power = yes
-			government = proletarian_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 			ruling_party_ideology = communist
 		}
-		NOT = { government = proletarian_dictatorship }
+		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 		is_greater_power = no
 		NOT = { has_country_modifier = neutrality }
 		is_vassal = no
@@ -5213,7 +5205,7 @@ uninstall_communist_gov_cb = {
 		THIS = {
 			NOT = { ruling_party_ideology = communist }
 		}
-		government = proletarian_dictatorship
+		OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 		is_vassal = no
 		THIS = {
 			NOT = {
@@ -5271,8 +5263,8 @@ great_war_install_democracy = {
 			has_country_flag = in_great_war
 			is_greater_power = yes
 			OR = {
-				government = hms_government
-				government = democracy
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 		}
 		has_country_flag = in_great_war
@@ -5281,8 +5273,8 @@ great_war_install_democracy = {
 		NOT = { is_our_vassal = THIS }
 		war_with = THIS
 		OR = {
-			government = proletarian_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
 
@@ -5330,14 +5322,14 @@ great_war_install_fascism = {
 		THIS = {
 			has_country_flag = in_great_war
 			is_greater_power = yes
-			government = fascist_dictatorship
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 		has_country_flag = in_great_war
 		is_vassal = no
 		civilized = yes
 		NOT = { is_our_vassal = THIS }
 		war_with = THIS
-		NOT = { government = fascist_dictatorship }
+		NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 	}
 
 	po_remove_prestige = yes
@@ -5384,14 +5376,14 @@ great_war_install_communism = {
 		THIS = {
 			has_country_flag = in_great_war
 			is_greater_power = yes
-			government = proletarian_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 		}
 		has_country_flag = in_great_war
 		is_vassal = no
 		civilized = yes
 		NOT = { is_our_vassal = THIS }
 		war_with = THIS
-		NOT = { government = proletarian_dictatorship }
+		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 	}
 
 	po_remove_prestige = yes
@@ -5439,8 +5431,8 @@ install_democracy = {
 			is_greater_power = yes
 			mass_politics = 1
 			OR = {
-				government = hms_government
-				government = democracy
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 		}
 		has_global_flag = great_wars_enabled
@@ -5448,8 +5440,8 @@ install_democracy = {
 		civilized = yes
 		NOT = { is_our_vassal = THIS }
 		OR = {
-			government = proletarian_dictatorship
-			government = fascist_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 		THIS = {
 			NOT = {
@@ -5486,8 +5478,8 @@ install_democracy = {
 			any_country = {
 				limit = {
 					OR = {
-						government = proletarian_dictatorship
-						government = fascist_dictatorship
+						OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+						OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 					}
 				}
 				relation = { who = THIS value = -50 }
@@ -5522,13 +5514,13 @@ install_fascism = {
 		THIS = {
 			is_greater_power = yes
 			NOT = { has_country_flag = in_great_war }
-			government = fascist_dictatorship
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 		has_global_flag = great_wars_enabled
 		is_vassal = no
 		civilized = yes
 		NOT = { is_our_vassal = THIS }
-		NOT = { government = fascist_dictatorship }
+		NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 		THIS = {
 			NOT = {
 				has_country_modifier = neutrality
@@ -5564,8 +5556,8 @@ install_fascism = {
 			any_country = {
 				limit = {
 					OR = {
-						government = hms_government
-						government = democracy
+						OR = { government = hms_government government = hms_government2 government = hms_government3 }
+						OR = { government = democracy government = democracy2 government = democracy3 }
 					}
 				}
 				relation = { who = THIS value = -50 }
@@ -5600,13 +5592,13 @@ install_communism = {
 		THIS = {
 			is_greater_power = yes
 			NOT = { has_country_flag = in_great_war }
-			government = proletarian_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 		}
 		has_global_flag = great_wars_enabled
 		is_vassal = no
 		civilized = yes
 		NOT = { is_our_vassal = THIS }
-		NOT = { government = proletarian_dictatorship }
+		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 		NOT = { has_country_modifier = neutrality }
 		THIS = {
 			NOT = {
@@ -5643,8 +5635,8 @@ install_communism = {
 			any_country = {
 				limit = {
 					OR = {
-						government = hms_government
-						government = democracy
+						OR = { government = hms_government government = hms_government2 government = hms_government3 }
+						OR = { government = democracy government = democracy2 government = democracy3 }
 					}
 				}
 				relation = { who = THIS value = -50 }
@@ -5782,8 +5774,8 @@ dismantle_forts = {
 			THIS = { NOT = { has_country_modifier = no_more_war } }
 		}
 		OR = {
-			THIS = { government = fascist_dictatorship }
-			THIS = { government = proletarian_dictatorship }
+			THIS = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+			THIS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 			THIS = { civilized = no }
 			war_with = THIS
 			NOT = { relation = { who = THIS value = 0 } }

@@ -1390,6 +1390,13 @@ general_strike = {
 	RGO_throughput = -5
 	social_reform_desire = 1
 	icon = 80
+<<<<<<< HEAD
+=======
+}
+
+demanded_cores = {
+	icon = 5
+>>>>>>> Experimental-Branch
 }
 
 address = {
@@ -1452,7 +1459,7 @@ the_statue_of_liberty = {
 
 gateway_to_america = {
 	immigrant_attract = 0.5
-	population_growth = 0.002
+	population_growth = 0.0005
 	icon = 19
 }
 
@@ -1865,7 +1872,11 @@ gauche_buffoon = {
 	prestige = -0.05
 	diplomatic_points_modifier = -0.5
 	issue_change_speed = 0.1
+<<<<<<< HEAD
 	icon = 17 #31 is the MAGA hat, which nobody likes... :'(
+=======
+	icon = 31
+>>>>>>> Experimental-Branch
 }
 
 administrative_genius = {
@@ -2830,6 +2841,11 @@ goods_demand = 0.1
    icon = 12
 }
 
+mechanized_manufacture = {
+goods_demand = 0.1
+   icon = 12
+}
+
 electricity = {
 goods_demand = 0.05
    icon = 12
@@ -3063,18 +3079,13 @@ relentless_progress = {
 }
 
 papal_rule = {
-	trigger = {
-		tag = PAP
-		government = theocracy
-		NOT = {
-			any_owned_province = {
-				NOT = { is_core = PAP }
-			}
-		}
-	}
 	global_pop_militancy = -0.05
 	political_reform_desire = -0.3
 	prestige = 0.05
 	icon = 19
 }
 
+<<<<<<< HEAD
+=======
+slavepopupdated = { }
+>>>>>>> Experimental-Branch

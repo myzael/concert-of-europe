@@ -68,6 +68,24 @@ news_priority =
 		trigger = { values_eq = { 0 1 1 } } # If major
 		priority_add = 100
 	}
+	
+	case = {
+		trigger = {
+			OR = {
+				AND = { values_eq = { 0 0 21500 }   values_eq = { 0 3 0 } }
+				AND = { values_eq = { 0 0 21510 }   values_eq = { 0 3 0 } }
+				AND = { values_eq = { 0 0 21520 }   values_eq = { 0 3 0 } }
+				AND = { values_eq = { 0 0 19046 }   values_eq = { 0 3 0 } }
+				AND = { values_eq = { 0 0 190461 }   values_eq = { 0 3 0 } }
+				AND = { values_eq = { 0 0 1904612 }   values_eq = { 0 3 0 } }
+				AND = { values_eq = { 0 0 1905101 }   values_eq = { 0 3 0 } }
+				AND = { values_eq = { 0 0 1905201 }   values_eq = { 0 3 0 } }
+				AND = { values_eq = { 0 0 1905301 }   values_eq = { 0 3 0 } }
+				AND = { values_eq = { 0 0 201026 }   values_eq = { 0 3 0 } }
+			}
+		}
+		priority_add = 100
+	}
 
 	# Except those... (for example)
 	#case =

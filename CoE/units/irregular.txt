@@ -1,11 +1,11 @@
 irregular = {
 	icon = 17
-	
+
 	type = land
 	sprite = Irregular
 	active = yes
 	unit_type = infantry
-	
+
 	#Core Abilities
 	priority = 5
 	max_strength = 3
@@ -19,20 +19,21 @@ irregular = {
 	build_cost = {
 		timber = 5
 	}
-	
+
 	supply_consumption = 1
 	supply_cost = {
 		timber = 0.5
 		wool = 0.5
 	}
-	
+
 
 	#Land Abilties
+	reconnaissance = 0
 	attack = 2
 	defence = 2
 	discipline = 1
 	support = 0.0
 	maneuver = 1
-	
+
 
 }

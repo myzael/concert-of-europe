@@ -1,8 +1,8 @@
-owner = DJA
-controller = DJA
-add_core = DJA
+owner = D21
+controller = D21
+add_core = D21
 trade_goods = spices
-life_rating = 40
+life_rating = 35
 terrain = jungle_farmland
 1836.1.1 = {
 	owner = NET

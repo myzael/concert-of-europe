@@ -183,7 +183,7 @@ province_event = {
 	trigger = {
 		owner = {
 			tag = GCO
-			government = presidential_dictatorship
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 			OR = {
 				has_country_flag = conservative_constitution
 				has_country_flag = liberal_constitution
@@ -410,7 +410,7 @@ province_event = {
 	trigger = {
 		owner = {
 			tag = GCO
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
 			OR = {
 				has_country_flag = conservative_constitution
 				has_country_flag = liberal_constitution
@@ -638,7 +638,7 @@ country_event = {
 	trigger = {
 		tag = GCO
 		exists = yes
-		government = presidential_dictatorship
+		OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 		OR = {
 			has_country_flag = conservative_constitution
 			has_country_flag = liberal_constitution
@@ -859,7 +859,7 @@ country_event = {
 	trigger = {
 		tag = GCO
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		OR = {
 			has_country_flag = conservative_constitution
 			has_country_flag = liberal_constitution

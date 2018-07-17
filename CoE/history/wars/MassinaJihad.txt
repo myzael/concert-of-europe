@@ -10,8 +10,7 @@ name = "Massina Jihad"
 	# country - 3rd party
 	# state_province_id - target state capital
 	war_goal = {
-		casus_belli = acquire_core_state
-		state_province_id = 1803
+		casus_belli = acquire_all_cores
 		actor = MAS
 		receiver = SEG
 	}

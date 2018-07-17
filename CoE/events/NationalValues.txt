@@ -4,6 +4,7 @@
 #											#
 #############################################
 
+#Triggers $COUNTRY_ADJ$ Way - all of them
 country_event = {
 	id = 18500
 	title = "EVTNAME18570" #Work and Progress
@@ -11,98 +12,196 @@ country_event = {
 	picture = "Finepeople"
 	
 	trigger = {
-		exists = yes
-		OR = {
-			nationalvalue = nv_equality
-			nationalvalue = nv_unity
-			nationalvalue = nv_prosperity
-			nationalvalue = nv_fraternity
-		}
+		tag = BHU
+		year = 1824
 	}
 	
 	mean_time_to_happen = {
-		months = 240
+		months = 24
+		modifier = {
+			factor = 0.5
+			year = 1832
+		}
+		modifier = {
+			factor = 0.5
+			year = 1840
+		}
 	}
 	
 	option = {
+		name = "Target Work and Progress"
+		random_country = {
+			limit = {
+				exists = yes
+				OR = {
+					nationalvalue = nv_equality
+					nationalvalue = nv_unity
+					nationalvalue = nv_prosperity
+					nationalvalue = nv_fraternity
+				}
+			}
+			random_owned = {
+				limit = { is_capital = yes }
+				province_event = { id = 18501 }
+			}
+		}
+		ai_chance = {
+			factor = 20		
+		}
+	}
+	
+	option = {
+		name = "Target Equality"
+		random_country = {
+			limit = { 
+				exists = yes
+				nationalvalue = nv_equality
+			}
+			random_owned = {
+				limit = { is_colonial = no }
+				province_event = { id = 18502 }
+				add_province_modifier = {
+					name = futile
+					duration = 1
+				}
+			}
+		}
+		ai_chance = {
+			factor = 20		
+		}
+	}
+	option = {
+		name = "Target Liberty"
+		random_country = {
+			limit = { 
+				exists = yes
+				nationalvalue = nv_liberty	
+			}
+			random_owned = {
+				limit = { is_colonial = no }
+				province_event = { id = 18506 }
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = "Target Might"
+		random_country = {
+			limit = { 
+				exists = yes
+				nationalvalue = nv_might
+			}
+			random_owned = {
+				limit = { is_colonial = no }
+				province_event = { id = 18511 }
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = {
+		name = "Target Order"
+		random_country = {
+			limit = { 
+				exists = yes
+				nationalvalue = nv_order
+			}
+			random_owned = {
+				limit = { is_colonial = no }
+				province_event = { id = 18517 }
+			}
+		}
+		ai_chance = {
+			factor = 20	
+		}
+	}
+}
+
+province_event = {
+	id = 18501
+	title = "EVTNAME18570" #Work and Progress
+	desc = "EVTDESC18570"
+	picture = "Finepeople"
+	
+	is_triggered_only = yes
+	
+	option = {
 		name = "EVTOPTA18570"
-		prestige = 5
-		any_pop = { militancy = -1 }
+		owner = { 
+			prestige = 5
+			any_pop = { militancy = -1 }
+		}
 		ai_chance = {
 			factor = 50
 			modifier = {
 				factor = 1.5
-				average_militancy = 2
+				owner = { average_militancy = 2 }
 			}
 		}
 	}
 	
 	option = {
 		name = "EVTOPTB18570"
-		years_of_research = 0.2
+		owner = { years_of_research = 0.2 }
 		ai_chance = {
 			factor = 50
 			modifier = {
 				factor = 1.5
-				NOT = { average_militancy = 2 }
+				NOT = { owner = { average_militancy = 2 } }
 			}
 		}
 	}
 }
 
-country_event = {
-	id = 18501
+province_event = {
+	id = 18502
 	title = "EVTNAME18501" #The $COUNTRY_ADJ$ Way - Equality
-	desc = "EVTDESC18501"
+	desc = "EVTDESC18501A"
 	picture = "news"
 	
-	trigger = {
-		exists = yes
-		nationalvalue = nv_equality
-	}
-	
-	mean_time_to_happen = {
-		months = 240
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "I always knew this to be true."
-		random_owned = {
-			limit = {
-				is_colonial = no
-				is_core = THIS
-				is_ideology_enabled = socialist
-			}
-			state_scope = {
-				any_pop = {
-					ideology = {
-						value = socialist
-						factor = 0.10
+		owner = {
+			random_owned = {
+				limit = {
+					has_province_modifier = futile
+					owner = { is_ideology_enabled = socialist }
+				}
+				state_scope = {
+					any_pop = {
+						ideology = {
+							value = socialist
+							factor = 0.10
+						}
+						militancy = -3
 					}
-					militancy = -3
+					
 				}
-				
 			}
-		}
-		random_owned = {
-			limit = {
-				is_colonial = no
-				is_core = THIS
-				NOT = { is_ideology_enabled = socialist }
-			}
-			state_scope = {
-				any_pop = {
-					consciousness = -3
-					militancy = -3
+			random_owned = {
+				limit = {
+					has_province_modifier = futile
+					NOT = { owner = { is_ideology_enabled = socialist } }
 				}
-				
+				state_scope = {
+					any_pop = {
+						consciousness = -3
+						militancy = -3
+					}
+					
+				}
 			}
 		}
 	}
 }
 
 country_event = {
-	id = 18502
+	id = 18503
 	title = "EVTNAME18580" #Bread & Peace
 	desc = "EVTDESC18580"
 	picture = "Demonstration"
@@ -215,38 +314,25 @@ country_event = {
 	}
 }
 	
-country_event = {
+province_event = {
 	id = 18506
 	title = "EVTNAME18501" #The $COUNTRY_ADJ$ Way - Liberty
-	desc = "EVTDESC18506"
+	desc = "EVTDESC18506A"
 	picture = "news"
 	
-	trigger = {
-		exists = yes
-		nationalvalue = nv_liberty
-	}
-	
-	mean_time_to_happen = {
-		months = 240
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "I always knew this to be true."
-		random_owned = {
-			limit = {
-				is_colonial = no
-				is_core = THIS
-			}
-			state_scope = {
-				any_pop = {
-					ideology = {
-						value = liberal
-						factor = 0.10
-					}
-					militancy = -3
+		state_scope = {
+			any_pop = {
+				ideology = {
+					value = liberal
+					factor = 0.10
 				}
-				
+				militancy = -3
 			}
+			
 		}
 	}
 }
@@ -266,12 +352,12 @@ country_event = {
 			nationalvalue = nv_freedom
 		}
 		OR = {
-			government = presidential_dictatorship
-			government = fascist_dictatorship
-			government = proletarian_dictatorship
-			government = bourgeois_dictatorship
-			government = absolute_monarchy
-			government = theocracy
+			OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 		}
 	}
 	
@@ -329,81 +415,115 @@ country_event = {
 	}
 }
 
+#triggers military or police parade
 country_event = {
-	id = 18510
+	id = 18509
 	title = "EVTNAME18510" #Military Parade
 	desc = "EVTDESC18510"
 
 	picture = "Parade"
 	
 	trigger = {
-		exists = yes
-		OR = {
-			nationalvalue = nv_might
-			nationalvalue = nv_dominion
-			nationalvalue = nv_glory
-			nationalvalue = nv_supremacy
-		}
-		war = no
+		tag = BHU
 	}
 	
 	mean_time_to_happen = {
-		months = 240
+		months = 72
 	}
 	
 	option = {
-		name = "Let our neighbours fear our might!"
-		prestige = 8
-		any_neighbor_country = {
+		name = "Trigger military parade"
+		random_country = { 
 			limit = {
-				NOT = { alliance_with = THIS }
+				exists = yes
+				OR = {
+					nationalvalue = nv_might
+					nationalvalue = nv_dominion
+					nationalvalue = nv_glory
+					nationalvalue = nv_supremacy
+				}
+				war = no
 			}
-			relation = { who = THIS value = -20 }
+			random_owned = {
+				limit = { is_colonial = no }
+				province_event = { id = 18510 }
+			}
+		}
+	}
+	option = {
+		name = "Trigger military parade"
+		random_country = { 
+			limit = {
+				exists = yes
+				OR = {
+					nationalvalue = nv_order
+					nationalvalue = nv_unity
+					nationalvalue = nv_dominion
+					nationalvalue = nv_productivity
+				}
+				NOT = { militancy = 3 }
+			}
+			random_owned = {
+				limit = { is_capital = yes }
+				province_event = { id = 18516 }
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 18510
+	title = "EVTNAME18510" #Military Parade
+	desc = "EVTDESC18510A"
+
+	picture = "Parade"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Let our neighbours fear our might!"
+		owner = {
+			prestige = 8
+			any_neighbor_country = {
+				limit = {
+					NOT = { alliance_with = THIS }
+				}
+				relation = { who = THIS value = -20 }
+			}
 		}
 	}
 	
 	option = {
 		name = "Let the people witness our strength!"
-		prestige = 3
-		any_pop = {
-			militancy = 1
-			consciousness = -1
+		owner = { prestige = 3 }
+		state_scope = {
+			any_pop = {
+				militancy = 1
+				consciousness = -1
+			}
 		}
 	}
 }
 
-country_event = {
+province_event = {
 	id = 18511
 	title = "EVTNAME18501" #The $COUNTRY_ADJ$ Way - Might
-	desc = "EVTDESC18511"
+	desc = "EVTDESC18511A"
 	picture = "news"
 	
-	trigger = {
-		exists = yes
-		nationalvalue = nv_might
-	}
-	
-	mean_time_to_happen = {
-		months = 240
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "I always knew this to be true."
-		random_owned = {
-			limit = {
-				is_colonial = no
-				is_core = THIS
-			}
-			state_scope = {
-				any_pop = {
-					dominant_issue = {
-						value = jingoism
-						factor = 0.20
-					}
-					consciousness = -3
+		state_scope = {
+			any_pop = {
+				dominant_issue = {
+					value = jingoism
+					factor = 0.20
 				}
-				
+				consciousness = -3
 			}
+			
 		}
 		random_country = {
 			limit = {
@@ -472,28 +592,53 @@ country_event = {
 	}
 }
 
+#triggers Sent in the troops
 country_event = {
+	id = 18514
+	title = "EVTNAME18510" #Military Parade
+	desc = "EVTDESC18510"
+
+	picture = "Parade"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 96
+	}
+	
+	option = {
+		name = "Trigger military parade"
+		random_country = { 
+			limit = {
+				exists = yes
+				OR = {
+					nationalvalue = nv_order
+					nationalvalue = nv_unity
+					nationalvalue = nv_dominion
+					nationalvalue = nv_productivity
+				}
+				war = no
+				any_owned_province = { average_militancy = 5 }
+				NOT = { num_of_revolts = 1 }
+			}
+			random_owned = {
+				limit = { is_colonial = no }
+				average_militancy = 5
+				province_event = { id = 18515 }
+			}
+		}
+	}
+}
+
+province_event = {
 	id = 18515
 	title = "EVTNAME18515" #Send in the Troops
 	desc = "EVTDESC18515"
 	picture = "Demonstration"
-	
-	trigger = {
-		exists = yes
-		OR = {
-			nationalvalue = nv_order
-			nationalvalue = nv_unity
-			nationalvalue = nv_dominion
-			nationalvalue = nv_productivity
-		}
-		war = no
-		average_militancy = 3
-		NOT = { num_of_revolts = 1 }
-	}
-	
-	mean_time_to_happen = {
-		months = 60
-	}
+
+	is_triggered_only = yes
 	
 	option = {
 		name = "We must send in the army, no matter the cost."
@@ -501,292 +646,315 @@ country_event = {
 			militancy = -2
 			consciousness = 1
 		}
-		prestige = -3
+		owner = { prestige = -1 }
 	}
 	
 	option = {
 		name = "We will restrain ourselves. For now."
-		prestige = 3
+		any_pop = {
+			consciousness = 1
+		}
 	}
 }
 
-country_event = {
+province_event = {
 	id = 18516
 	title = "Police Parade in $CAPITAL$" #Parade in the Capital
 	desc = "EVTDESC18500"
 	picture = "Parade"
 	
-	trigger = {
-		exists = yes
-		OR = {
-			nationalvalue = nv_order
-			nationalvalue = nv_unity
-			nationalvalue = nv_dominion
-			nationalvalue = nv_productivity
-		}
-		NOT = { militancy = 3 }
-	}
-	
-	mean_time_to_happen = {
-		months = 240
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTA18500"
-		any_pop = {
-			consciousness = -2
-		}
+		owner = { any_pop = { consciousness = -2 } }
 	}
 	
 	option = {
 		name = "EVTOPTB18500"
-		prestige = 5
+		owner = { prestige = 5} 
 	}
 }
 
-country_event = {
+province_event = {
 	id = 18517
 	title = "EVTNAME18501" #The $COUNTRY_ADJ$ Way - Order
-	desc = "EVTDESC18517"
+	desc = "EVTDESC18517A"
 	picture = "news"
 	
-	trigger = {
-		exists = yes
-		nationalvalue = nv_order
-	}
-	
-	mean_time_to_happen = {
-		months = 240
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "I always knew this to be true."
-		random_owned = {
-			limit = {
-				is_colonial = no
-				is_core = THIS
-			}
-			state_scope = {
-				any_pop = {
-					ideology = {
-						value = conservative
-						factor = 0.10
-					}
-					consciousness = -3
+		state_scope = {
+			any_pop = {
+				ideology = {
+					value = conservative
+					factor = 0.10
 				}
-				
+				consciousness = -3
 			}
 		}
 	}
 }
 
+#triggers Brotherhood of Men/Liberty Shines
 country_event = {
+	id = 18519
+	title = "EVTNAME18521" #Military Parade
+	desc = "EVTDESC18521"
+
+	picture = "Parade"
+	
+	trigger = {
+		tag = BHU
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = "Trigger Brotherhood of Men"
+		random_country = { 
+			limit = {
+				exists = yes
+				nationalvalue = nv_fraternity
+				war = no
+			}
+			random_owned = {
+				limit = { is_colonial = no }
+				province_event = { id = 18520 }
+			}
+		}
+	}
+	option = {
+		name = "Trigger Liberty Shines"
+		random_country = { 
+			limit = {
+				exists = yes
+				nationalvalue = nv_freedom
+				war = no
+			}
+			random_owned = {
+				limit = { is_colonial = no }
+				province_event = { id = 18525 }
+			}
+		}
+	}
+	option = {
+		name = "Trigger The Country Destiny"
+		random_country = { 
+			limit = {
+				exists = yes
+				nationalvalue = nv_supremacy
+				war = no
+				any_neighbor_country = {
+					civilized = yes
+					NOT = {
+						alliance_with = THIS
+						truce_with = THIS
+						relation = { who = THIS value = 75 }
+					}
+				}
+			}
+			random_owned = {
+				limit = { is_capital = yes }
+				province_event = { id = 18530 }
+			}
+		}
+	}
+	option = {
+		name = "Trigger Onward to Tomorrow"
+		random_country = { 
+			limit = {
+				exists = yes
+				nationalvalue = nv_productivity
+				war = no
+			}
+			random_owned = {
+				limit = { is_capital = yes }
+				province_event = { id = 18535 }
+			}
+		}
+	}
+}
+
+province_event = {
 	id = 18520
 	title = "EVTNAME18521" #Brotherhood of Man
-	desc = "EVTDESC18521"
+	desc = "EVTDESC18521A"
 	picture = "Anti-Jacobin"
 	
-	trigger = {
-		exists = yes
-		nationalvalue = nv_fraternity
-		war = no
-	}
-	
-	mean_time_to_happen = {
-		months = 240
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "We should be thankful for our blessings."
-		prestige = 10
-		any_neighbor_country = {
-			relation = { who = THIS value = 25 }
+		owner = { 
+			prestige = 10
+			any_neighbor_country = {
+				relation = { who = THIS value = 25 }
+			}
 		}
 	}
 }
 
-country_event = {
+province_event = {
 	id = 18525
 	title = "EVTNAME18525" #Liberty Shines
-	desc = "EVTDESC18525"
+	desc = "EVTDESC18525A"
 	picture = "Anti-Jacobin"
 	
-	trigger = {
-		exists = yes
-		nationalvalue = nv_freedom
-		war = no
-	}
-	
-	mean_time_to_happen = {
-		months = 240
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "We should be thankful for our blessings."
-		prestige = 10
-		any_pop = { militancy = -2 }
+		owner = {
+			prestige = 10
+			any_pop = { militancy = -2 }
+		}
 	}
 }
 
-country_event = {
+province_event = {
 	id = 18530
 	title = "EVTNAME18530" #The $COUNTRY_ADJ$ Destiny
 	desc = "EVTDESC18531"
 	picture = "Anti-Jacobin"
 	
-	trigger = {
-		exists = yes
-		nationalvalue = nv_supremacy
-		war = no
-		any_neighbor_country = {
-			civilized = yes
-			NOT = {
-				alliance_with = THIS
-				truce_with = THIS
-				relation = { who = THIS value = 75 }
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 240
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "We shall see how this plays out."
-		prestige = 5
-		any_pop = { consciousness = -2 }
-		random_country = {
-			limit = {
-				neighbour = THIS
-				NOT = {
-					alliance_with = THIS
-					truce_with = THIS
-					relation = { who = THIS value = 75 }
+		owner = {
+			prestige = 5
+			any_pop = { consciousness = -2 }
+			random_country = {
+				limit = {
+					neighbour = THIS
+					NOT = {
+						alliance_with = THIS
+						truce_with = THIS
+						relation = { who = THIS value = 75 }
+					}
 				}
-			}
-			add_casus_belli = {
-				target = THIS
-				type = humiliate
-				months = 24
+				add_casus_belli = {
+					target = THIS
+					type = humiliate
+					months = 24
+				}
 			}
 		}
 	}
 }
 
-country_event = {
+province_event = {
 	id = 18535
 	title = "EVTNAME18535" #Onward to Tomorrow
-	desc = "EVTDESC18535"
+	desc = "EVTDESC18535A"
 	picture = "Anti-Jacobin"
 	
-	trigger = {
-		exists = yes
-		nationalvalue = nv_productivity
-		war = no
-	}
-	
-	mean_time_to_happen = {
-		months = 240
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "We should be thankful for our blessings."
-		years_of_research = 0.4
-		random_owned = {
-			limit = {
-				is_capital = yes
-				owner = { ruling_party_ideology = liberal }
-			}
-			state_scope = {
-				any_pop = {
-					ideology = {
-						value = liberal
-						factor = 0.10
+		owner = {
+			years_of_research = 0.4
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = { ruling_party_ideology = liberal }
+				}
+				state_scope = {
+					any_pop = {
+						ideology = {
+							value = liberal
+							factor = 0.10
+						}
 					}
 				}
 			}
-		}
-		random_owned = {
-			limit = {
-				is_capital = yes
-				owner = { ruling_party_ideology = conservative }
-			}
-			state_scope = {
-				any_pop = {
-					ideology = {
-						value = conservative
-						factor = 0.10
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = { ruling_party_ideology = conservative }
+				}
+				state_scope = {
+					any_pop = {
+						ideology = {
+							value = conservative
+							factor = 0.10
+						}
 					}
 				}
 			}
-		}
-		random_owned = {
-			limit = {
-				is_capital = yes
-				owner = { ruling_party_ideology = reactionary }
-			}
-			state_scope = {
-				any_pop = {
-					ideology = {
-						value = reactionary
-						factor = 0.10
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = { ruling_party_ideology = reactionary }
+				}
+				state_scope = {
+					any_pop = {
+						ideology = {
+							value = reactionary
+							factor = 0.10
+						}
 					}
 				}
 			}
-		}
-		random_owned = {
-			limit = {
-				is_capital = yes
-				owner = { ruling_party_ideology = anarcho_liberal }
-			}
-			state_scope = {
-				any_pop = {
-					ideology = {
-						value = anarcho_liberal
-						factor = 0.10
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = { ruling_party_ideology = anarcho_liberal }
+				}
+				state_scope = {
+					any_pop = {
+						ideology = {
+							value = anarcho_liberal
+							factor = 0.10
+						}
 					}
 				}
 			}
-		}
-		random_owned = {
-			limit = {
-				is_capital = yes
-				owner = { ruling_party_ideology = communist }
-			}
-			state_scope = {
-				any_pop = {
-					ideology = {
-						value = communist
-						factor = 0.10
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = { ruling_party_ideology = communist }
+				}
+				state_scope = {
+					any_pop = {
+						ideology = {
+							value = communist
+							factor = 0.10
+						}
 					}
 				}
 			}
-		}
-		random_owned = {
-			limit = {
-				is_capital = yes
-				owner = { ruling_party_ideology = socialist }
-			}
-			state_scope = {
-				any_pop = {
-					ideology = {
-						value = socialist
-						factor = 0.10
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = { ruling_party_ideology = socialist }
+				}
+				state_scope = {
+					any_pop = {
+						ideology = {
+							value = socialist
+							factor = 0.10
+						}
 					}
 				}
 			}
-		}
-		random_owned = {
-			limit = {
-				is_capital = yes
-				owner = { ruling_party_ideology = fascist }
-			}
-			state_scope = {
-				any_pop = {
-					ideology = {
-						value = fascist
-						factor = 0.10
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = { ruling_party_ideology = fascist }
+				}
+				state_scope = {
+					any_pop = {
+						ideology = {
+							value = fascist
+							factor = 0.10
+						}
 					}
 				}
 			}

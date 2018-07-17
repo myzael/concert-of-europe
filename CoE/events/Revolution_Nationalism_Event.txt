@@ -57,13 +57,13 @@ country_event = {
 		modifier = {
 			factor = 1.2
 			OR = {
-				government = democracy
-				government = hms_government
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		}
 		modifier = {
 			factor = 0.8
-			government = fascist_dictatorship
+			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 		modifier = {
 			factor = 1.5

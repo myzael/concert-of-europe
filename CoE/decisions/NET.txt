@@ -52,7 +52,7 @@ political_decisions = {
 	thorbecke's_reforms = {
 		potential = {
 			tag = NET
-			government = absolute_monarchy
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			has_global_flag = liberal_revolutions_should_now_fire
 			NOT = { has_country_flag = thorbecke's_reforms }
 		}
@@ -240,8 +240,8 @@ political_decisions = {
 			revolution_n_counterrevolution = 1
 			social_science = 1
 			OR = {
-				government = democracy
-				government = hms_government
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			NOT = {
 				average_militancy = 4
@@ -318,8 +318,8 @@ political_decisions = {
 			mass_politics = 1
 			is_greater_power = yes
 			OR = {
-				government = fascist_dictatorship
-				government = proletarian_dictatorship
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 			}
 		}
 		
@@ -329,8 +329,8 @@ political_decisions = {
 			random_owned = {
 				limit = {
 					OR = {
-						owner = { government = fascist_dictatorship }
-						owner = { government = proletarian_dictatorship }
+						owner = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
+						owner = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 					}
 				}
 				BEL_387 = { add_core = NET }
@@ -385,6 +385,8 @@ political_decisions = {
 						has_pop_culture = north_german
 						has_pop_culture = french
 						has_pop_culture = picard
+						has_pop_culture = sephardic
+						has_pop_culture = ashkenazi
 					}
 				}
 				literacy = 0.49
@@ -400,20 +402,8 @@ political_decisions = {
 				limit = {
 					has_pop_culture = flemish
 				}
-				literacy = 0.05
 				consciousness = 1
-			}
-			any_owned = {
-				limit = {
-					region = NET_1447
-					trade_goods = spices
-					NOT = { has_province_modifier = verplichte_levering }
-				}
-				add_province_modifier = {
-					name = verplichte_levering
-					duration = -1
 			}
 		}
 	}
-}
 }

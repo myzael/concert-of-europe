@@ -1,8 +1,5 @@
-owner = ENG
-controller = ENG
 add_core = AST
 add_core = ENG
 trade_goods = cattle
-life_rating = 30
+life_rating = 15
 terrain = semi_desert
-colonial = 2

@@ -7,10 +7,10 @@ political_decisions = {
 			NOT = { has_country_modifier = tour }
 			NOT = {	has_country_modifier = national_instability }
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
-				government = theocracy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = theocracy government = theocracy2 government = theocracy3 }
 			}
 		}
 		allow = {
@@ -74,10 +74,10 @@ political_decisions = {
 				has_country_modifier = address
 			}
 			OR = {
-				government = hms_government
-				government = prussian_constitutionalism
-				government = absolute_monarchy
-				government = theocracy
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = theocracy government = theocracy2 government = theocracy3 }
 			}
 		}
 		allow = {
@@ -1205,9 +1205,9 @@ political_decisions = {
 		picture = gtfo
 		potential = {
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			is_greater_power = yes
 			tag = RUS
@@ -1238,9 +1238,9 @@ political_decisions = {
 		picture = gtfo
 		potential = {
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			is_greater_power = yes
 			tag = RUS
@@ -1264,6 +1264,9 @@ political_decisions = {
 		
 		effect = {
 			KOK = { annex_to = THIS }
+			1193 = {
+				change_province_name = "Perovsk"
+			}
 		}
 	}
 
@@ -1271,9 +1274,9 @@ political_decisions = {
 		picture = gtfo
 		potential = {
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			is_greater_power = yes
 			tag = RUS
@@ -1304,9 +1307,9 @@ political_decisions = {
 		picture = gtfo
 		potential = {
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			is_greater_power = yes
 			tag = ENG
@@ -1332,9 +1335,9 @@ political_decisions = {
 		picture = gtfo
 		potential = {
 			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			is_greater_power = yes
 			tag = ENG
@@ -1790,9 +1793,9 @@ political_decisions = {
 				has_country_modifier = dour_economist
 			}		
 			OR = { 
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = theocracy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = theocracy government = theocracy2 government = theocracy3 }
 			}	
 			NOT = { has_country_modifier = national_confusion }
 		}
@@ -1846,7 +1849,9 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			government = democracy
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			romanticism = 1
+			idealism = 1
 		}
 		
 		effect = {
@@ -1867,11 +1872,12 @@ political_decisions = {
 		potential = {	
 			NOT = { has_country_modifier = secret_police }		 	
 			OR = {
-				government = proletarian_dictatorship
-				government = presidential_dictatorship
-				government = bourgeois_dictatorship
-				government = fascist_dictatorship
-				government = absolute_monarchy
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+				OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+				OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 			}
 		}
 		allow = {
@@ -1886,5 +1892,29 @@ political_decisions = {
 		ai_will_do = {
 			factor = 1
 		}
-	}	
+	}
+
+	demand_puppet_cores = {
+		alert = yes
+		potential = {
+			has_country_flag = election_initialized
+			num_of_vassals = 1
+		}
+		allow = {
+			NOT = { has_country_modifier = demanded_cores }
+		}
+		effect = {
+			add_country_modifier = {
+				name = demanded_cores
+				duration = 1460
+			}
+			any_country = {
+				limit = {
+					is_our_vassal = THIS
+					any_owned_province = { is_core = THIS }
+				}
+				country_event = 2670
+			}
+		}
+	}
 }

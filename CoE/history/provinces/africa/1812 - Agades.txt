@@ -1,4 +1,6 @@
-add_core = DAM
-trade_goods = wool
-life_rating = 10
-terrain = desert_mountains
+owner = DJA
+controller = DJA
+add_core = DJA
+trade_goods = grain
+life_rating = 15
+terrain = jungle_mountains

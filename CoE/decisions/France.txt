@@ -8,13 +8,13 @@ political_decisions = {
 			exists = FRA
 			exists = USA
 			USA = {
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 				owns = 232
 			}
 			FRA = {
 				OR = {
-					government = hms_government
-					government = democracy
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
+					OR = { government = democracy government = democracy2 government = democracy3 }
 				}
 			}	
 			year = 1850
@@ -389,9 +389,9 @@ political_decisions = {
 			ideological_thought = 1
 			1097 = { empty = yes }
 			OR = {
-				government = hms_government
-				government = prussian_constitutionalism
-				government = absolute_monarchy
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 		}
 		
@@ -499,11 +499,19 @@ political_decisions = {
             tag = FRA
             war_with = SPA
             OR = {
+<<<<<<< HEAD
                 government = absolute_monarchy
                 government = prussian_constitutionalism
             }
             SPA = {
                 government = hms_government
+=======
+                OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+                OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+            }
+            SPA = {
+                OR = { government = hms_government government = hms_government2 government = hms_government3 }
+>>>>>>> Experimental-Branch
             }
             has_country_flag = one_hunderd_thousand_sons
         }
@@ -545,6 +553,63 @@ political_decisions = {
 				}
 				literacy = 0.45
 			}
+		    badboy = 15.2
 		}
 	}
+	
+    constitution_suspended = {
+        picture = sign_the_geneva_convention
+        potential = {
+            tag = FRA
+            OR = {
+                OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+                OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+            }
+            NOT = {
+                OR = {
+                    has_country_flag = july_revolution
+                    has_country_flag = three_glorious_days
+                }
+            }
+        }
+
+        allow = {
+            upper_house = {
+                    ideology = liberal
+                    value = 0.25
+            }
+        }
+
+        effect = {
+            set_country_flag = three_glorious_days
+            political_reform = appointed
+            political_reform = censored_press
+            plurality = -5
+            government = absolute_monarchy2
+            ruling_party_ideology = reactionary
+            any_pop = {
+                limit = {
+                    location = { is_colonial = no }
+                }
+                ideology = {
+                    value = liberal
+                    factor = 0.2
+                }
+                consciousness = 4
+            }
+        }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                NOT = {
+                    AND = {
+                        year = 1830
+                        month = 6
+                    }
+                }
+            }
+        }
+    }
 }

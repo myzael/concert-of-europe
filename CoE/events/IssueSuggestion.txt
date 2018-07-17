@@ -2261,7 +2261,7 @@ country_event = {
 		is_ideology_enabled = socialist
 		wage_reform = trinket_wage
 		NOT = {
-			government = proletarian_dictatorship
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 		}
 	}
 	

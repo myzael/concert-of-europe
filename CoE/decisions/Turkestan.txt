@@ -3,6 +3,7 @@ political_decisions = {
 		picture = become_uzbekistan
 		potential = {
 			tag = KHI
+			has_global_flag = uzbekistan_created
 		}
 
 		allow = {
@@ -49,6 +50,7 @@ political_decisions = {
 		picture = become_uzbekistan
 		potential = {
 			tag = BUK
+			has_global_flag = uzbekistan_created
 		}
 
 		allow = {

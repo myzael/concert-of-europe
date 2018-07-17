@@ -178,8 +178,8 @@ political_decisions = {
 			is_greater_power = yes
 			nationalism_n_imperialism = 1
 			OR = {
-				government = democracy
-				government = hms_government
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			GUA = {
 				OR = {
@@ -477,8 +477,8 @@ political_decisions = {
 			tag = GCO
 			exists = yes
 			OR = {
-				government = hms_government
-				government = democracy
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			slavery = no_slavery
 			NOT = {

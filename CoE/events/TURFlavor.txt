@@ -53,8 +53,8 @@ country_event = {
 		is_vassal = no
 		has_global_flag = BerlinBaghdadRail
 		OR = {
-			government = absolute_monarchy
-			government = hms_government
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 		NOT = {
 			year = 1910

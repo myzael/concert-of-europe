@@ -27,7 +27,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-land_property=landed_estates
+land_property = landed_estates
 child_labor = child_labor_restricted
 arts_endowment=no_endowment
 education = elite
@@ -50,7 +50,7 @@ taxation_reform = tax_farmers
 
 # Technologies
 late_enlightenment_philosophy = 1
-private_banks = 1
+freedom_of_trade = 1
 
 # Inventions
 
@@ -69,7 +69,7 @@ taxation_reform = tax_farmers
 
 # Technologies
 late_enlightenment_philosophy = 1
-private_banks = 1
+freedom_of_trade = 1
 }
 
 1861.1.1 = {
@@ -77,14 +77,14 @@ private_banks = 1
 }
 1861.1.1 = {
 
-foreign_weapons = yes_foreign_weapons
+unciv_light_armament = gunpowder_weapons
 academic_institutions = madrasahs
 taxation_reform = tax_farmers
 
 # Technologies
 flintlock_rifles = 1
 late_enlightenment_philosophy = 1
-private_banks = 1
+freedom_of_trade = 1
 
 # Inventions
 

@@ -27,7 +27,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-land_property=landed_estates
+land_property = landed_estates
 child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = elite
@@ -45,16 +45,20 @@ upper_house = {
 
 set_country_flag = existing_country
 
-foreign_weapons = yes_foreign_weapons
+unciv_light_armament = gunpowder_weapons
+unciv_naval_construction = unciv_standardised_naval_designs
+unciv_naval_organisation = unciv_local_admiralities
 academic_institutions = madrasahs
 diplomatic_reform = interactive
-medicine_reform = alchemy
 
 # Technologies
 flintlock_rifles = 1
+clipper_design = 1
+naval_design_bureaus = 1
+post_nelsonian_thought = 1
+naval_command_principle = 1
 late_enlightenment_philosophy = 1
-early_classical_theory_and_critique = 1
-basic_chemistry = 1
+classicism_n_early_romanticism = 1
 
 # Inventions
 
@@ -68,20 +72,18 @@ oob = "TUN_oob.txt"
 literacy = 0.03
 non_state_culture_literacy = 0
 
-foreign_weapons = yes_foreign_weapons
-army_schools = yes_army_schools
+unciv_light_armament = gunpowder_weapons
+unciv_artillery = early_light_artillery
 academic_institutions = madrasahs
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
-medicine_reform = alchemy
 
 # Technologies
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
 late_enlightenment_philosophy = 1
-private_banks = 1
-early_classical_theory_and_critique = 1
-basic_chemistry = 1
+freedom_of_trade = 1
+classicism_n_early_romanticism = 1
 }
 
 1861.1.1 = {
@@ -92,16 +94,15 @@ basic_chemistry = 1
 # Political reforms
 slavery = no_slavery
 
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
-foreign_officers = yes_foreign_officers
-army_schools = yes_army_schools
+unciv_military_training = field_drills
+unciv_light_armament = gunpowder_weapons
+unciv_officer_corps = foreign_officers_commanding
+unciv_artillery = early_light_artillery
 admin_reform = yes_admin_reform
 finance_reform = yes_finance_reform
 academic_institutions = madrasahs
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
-medicine_reform = alchemy
 
 # Technologies
 military_staff_system = 1
@@ -111,9 +112,8 @@ bronze_muzzle_loaded_artillery = 1
 enlightenment_thought = 1
 no_standard = 1
 late_enlightenment_philosophy = 1
-private_banks = 1
-early_classical_theory_and_critique = 1
-basic_chemistry = 1
+freedom_of_trade = 1
+classicism_n_early_romanticism = 1
 
 # Inventions
 

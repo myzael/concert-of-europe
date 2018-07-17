@@ -146,7 +146,7 @@ political_decisions = {
 		picture = apply_for_USA_statehood
 		potential = {	
 			exists = USA
-			USA = { government = democracy }
+			USA = { OR = { government = democracy government = democracy2 government = democracy3 } }
 			OR = {
 				tag = NEW
 				tag = MRU
@@ -167,8 +167,8 @@ political_decisions = {
 				any_neighbor_province = { owned_by = USA }
 			}
 			OR = {
-				government = democracy
-				government = hms_government
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			NOT = { has_country_flag = usstatehood_we_have_applied }
 		}
@@ -231,13 +231,13 @@ political_decisions = {
 			}
 			CAN = {
 				OR = {
-					government = democracy
-					government = hms_government
+					OR = { government = democracy government = democracy2 government = democracy3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 			}
 			OR = {
-				government = democracy
-				government = hms_government
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			exists = CAN
 			any_owned_province = {

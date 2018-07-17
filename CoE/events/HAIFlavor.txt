@@ -56,7 +56,7 @@ country_event = {
 		tag = HAI
 		exists = yes
 		year = 1847
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		NOT = { year = 1859 }
 	}
 
@@ -68,7 +68,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA45101"
-		government = absolute_monarchy
+		OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		ruling_party_ideology = reactionary
 		political_reform = none_voting
 		political_reform = party_appointed

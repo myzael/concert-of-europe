@@ -6,12 +6,17 @@ life_rating = 40
 terrain = good_farmland
 state_building = {
 	level = 1
-	building = fabric_factory
+	building = stock_exchange
 	upgrade = yes
 }
 state_building = {
 	level = 1
-	building = stock_exchange
+	building = lumber_mill
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = clipper_shipyard
 	upgrade = yes
 }
 1836.1.1 = {

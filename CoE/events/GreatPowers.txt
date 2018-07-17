@@ -492,42 +492,100 @@ country_event = {
 	}
 }
 
-#Provincename Botanical Expedition
-province_event = {
+#triggers Botanical Expedition
+country_event = {
 	id = 19020
 	title = "EVTNAME19020"
 	desc = "EVTDESC19020"
 	
 	trigger = {
-		owner = {
-			is_greater_power = yes
-		}
-		is_colonial = yes
-		NOT = {
-			life_rating = 25
-			has_global_flag = botanical_expedition_in_progress
+		tag = BHU
+		year = 1860
+		NOT = { has_global_flag = botanical_expedition_in_progress }
+		NOT = { 
+			any_greater_power = { has_country_flag = in_great_war }
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 600
+		months = 200
 		modifier = {
 			factor = 0.8
-			NOT = {
-				life_rating = 20
-			}
+			year = 1875
 		}
 		modifier = {
-			factor = 0.9
-			NOT = {
-				life_rating = 25
-			}
+			factor = 0.8
+			year = 1885
 		}
 		modifier = {
-			factor = 1.5
-			average_consciousness = 4
+			factor = 0.8
+			year = 1895
+		}
+		modifier = {
+			factor = 0.8
+			year = 1905
+		}
+		modifier = {
+			factor = 0.8
+			year = 1915
 		}
 	}
+	
+	option = {
+		name = "Lets get this ball rolling"
+		random_country = {
+			limit = {
+				OR = {
+					is_greater_power = yes
+					tag = NET
+					tag = POR
+					tag = BEL
+				}
+				colonial_nation = yes
+				any_owned_province = {
+					is_colonial = yes
+					NOT = { life_rating = 25 }
+					NOT = { average_militancy = 5 }
+					OR = {
+						terrain = jungle
+						terrain = jungle_hills
+						terrain = jungle_mountains
+						terrain = seasonal_jungle
+						terrain = seasonal_jungle_hills
+						terrain = seasonal_jungle_mountains
+						terrain = swamp_jungle
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					is_colonial = yes
+					NOT = { life_rating = 25 }
+					NOT = { average_militancy = 5 }
+					OR = {
+						terrain = jungle
+						terrain = jungle_hills
+						terrain = jungle_mountains
+						terrain = seasonal_jungle
+						terrain = seasonal_jungle_hills
+						terrain = seasonal_jungle_mountains
+						terrain = swamp_jungle
+					}
+				}
+				province_event = { id = 19021 }
+			}
+		
+		}
+	}
+}
+
+#Provincename Botanical Expedition
+province_event = {
+	id = 19021
+	title = "EVTNAME19020"
+	desc = "EVTDESC19020"
+	
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTA19020"
@@ -1480,10 +1538,10 @@ country_event = {
 		FROM = { create_vassal = THIS }
 		random_owned = {
 			limit = {
-				FROM = { government = fascist_dictatorship }
+				FROM = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 				owner = {
 					civilized = yes
-					NOT = { government = fascist_dictatorship }
+					NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 				}
 			}
 			owner = {
@@ -1538,10 +1596,10 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				FROM = { government = proletarian_dictatorship }
+				FROM = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 				owner = {
 					civilized = yes
-					NOT = { government = proletarian_dictatorship }
+					NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 				}
 			}
 			owner = {
@@ -1602,10 +1660,10 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				FROM = { government = bourgeois_dictatorship }
+				FROM = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }
 				owner = {
 					civilized = yes
-					NOT = { government = bourgeois_dictatorship }
+					NOT = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }
 				}
 			}
 			owner = {
@@ -1668,16 +1726,16 @@ country_event = {
 			limit = {
 				FROM = {
 					OR = {
-						government = democracy
-						government = hms_government
+						OR = { government = democracy government = democracy2 government = democracy3 }
+						OR = { government = hms_government government = hms_government2 government = hms_government3 }
 					}
 				}
 				owner = {
 					civilized = yes
 					OR = {
-						government = theocracy
-						government = absolute_monarchy
-						government = prussian_constitutionalism
+						OR = { government = theocracy government = theocracy2 government = theocracy3 }
+						OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+						OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 					}
 				}
 			}
@@ -1750,16 +1808,16 @@ country_event = {
 			limit = {
 				FROM = {
 					OR = {
-						government = democracy
-						government = hms_government
+						OR = { government = democracy government = democracy2 government = democracy3 }
+						OR = { government = hms_government government = hms_government2 government = hms_government3 }
 					}
 				}
 				owner = {
 					civilized = yes
 					OR = {
-						government = fascist_dictatorship
-						government = proletarian_dictatorship
-						government = bourgeois_dictatorship
+						OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+						OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+						OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
 					}
 				}
 			}
@@ -1832,17 +1890,17 @@ country_event = {
 			limit = {
 				FROM = {
 					OR = {
-						government = theocracy
-						government = absolute_monarchy
-						government = prussian_constitutionalism
+						OR = { government = theocracy government = theocracy2 government = theocracy3 }
+						OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+						OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 					}
 				}
 				owner = {
 					civilized = yes
 					NOT = {
-						government = theocracy
-					 	government = absolute_monarchy
-					 	government = prussian_constitutionalism }
+						OR = { government = theocracy government = theocracy2 government = theocracy3 }
+					 	OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+					 	OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } }
 				}
 			}
 			owner = {
@@ -1891,10 +1949,10 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
-				FROM = { government = presidential_dictatorship }
+				FROM = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 				owner = {
 					civilized = yes
-					NOT = { government = presidential_dictatorship }
+					NOT = { OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 } }
 				}
 			}
 			owner = {

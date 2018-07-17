@@ -20,6 +20,7 @@
 
 }
 ######
+<<<<<<< HEAD
 1711 = {
 
 	clergymen = {
@@ -315,11 +316,21 @@
 		size = 2721
 		culture = bedouin
 		religion = sunni
+=======
+2490 = {
+
+	clergymen = {
+
+		size = 24
+		culture = aborigine
+		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
 	farmers = {
 
 		size = 890
+<<<<<<< HEAD
 		culture = tuareg
 		religion = sunni
 
@@ -343,11 +354,16 @@
 		size = 9
 		culture = tuareg
 		religion = sunni
+=======
+		culture = aborigine
+		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
 
 }
 ######
+<<<<<<< HEAD
 1774 = {	#This province seems to have gone missing....
 
 	artisans = {
@@ -633,3 +649,35 @@
 }
 ######
 
+=======
+2495 = {
+
+	clergymen = {
+
+		size = 24
+		culture = aborigine
+		religion = animist
+
+	}
+	farmers = {
+
+		size = 890
+		culture = aborigine
+		religion = animist
+
+	}
+
+}
+
+######
+2605 = {
+
+
+}
+
+######
+2603 = {
+
+
+}
+>>>>>>> Experimental-Branch

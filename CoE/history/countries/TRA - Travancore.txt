@@ -26,7 +26,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-land_property=landed_estates
+land_property = landed_estates
 child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = elite
@@ -44,12 +44,12 @@ upper_house = {
 
 set_country_flag = existing_country
 
-foreign_weapons = yes_foreign_weapons
+unciv_light_armament = gunpowder_weapons
 diplomatic_reform = interactive
 
 # Technologies
 flintlock_rifles = 1
-early_classical_theory_and_critique = 1
+classicism_n_early_romanticism = 1
 
 # Inventions
 
@@ -63,8 +63,8 @@ oob = "TRA_oob.txt"
 literacy = 0.02
 non_state_culture_literacy = 0
 
-foreign_weapons = yes_foreign_weapons
-army_schools = yes_army_schools
+unciv_light_armament = gunpowder_weapons
+unciv_artillery = early_light_artillery
 academic_institutions = madrasahs
 diplomatic_reform = interactive
 
@@ -72,7 +72,7 @@ diplomatic_reform = interactive
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
 late_enlightenment_philosophy = 1
-early_classical_theory_and_critique = 1
+classicism_n_early_romanticism = 1
 }
 
 1861.1.1 = {
@@ -80,9 +80,9 @@ early_classical_theory_and_critique = 1
 }
 1861.1.1 = {
 
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
-army_schools = yes_army_schools
+unciv_military_training = field_drills
+unciv_light_armament = gunpowder_weapons
+unciv_artillery = early_light_artillery
 academic_institutions = madrasahs
 taxation_reform = tax_farmers
 diplomatic_reform = interactive
@@ -92,8 +92,8 @@ military_staff_system = 1
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
 late_enlightenment_philosophy = 1
-private_banks = 1
-early_classical_theory_and_critique = 1
+freedom_of_trade = 1
+classicism_n_early_romanticism = 1
 
 # Inventions
 

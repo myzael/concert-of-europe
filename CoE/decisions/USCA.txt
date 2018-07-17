@@ -307,8 +307,8 @@ political_decisions = {
 		potential = {
 			exists = UCA
 			is_vassal = no
-			government = democracy
-			UCA = { government = democracy }
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			UCA = { OR = { government = democracy government = democracy2 government = democracy3 } }
 			OR = {
 				tag = PNM
 				tag = YUC

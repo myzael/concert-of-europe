@@ -17,10 +17,10 @@ country_event = {
 		exists = yes
 		war = no
 		money = 20000
-		government = proletarian_dictatorship
+		OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 		any_neighbor_country = {
 			NOT = { 
-				government = proletarian_dictatorship
+				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 				ruling_party_ideology = communist
 				alliance_with = THIS
 			}
@@ -66,7 +66,7 @@ country_event = {
 					NOT = { owned_by = THIS }
 					owner = {
 						NOT = { 
-							government = proletarian_dictatorship
+							OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 							ruling_party_ideology = communist
 							alliance_with = THIS
 						}
@@ -79,7 +79,7 @@ country_event = {
 					NOT = { owned_by = THIS }
 					owner = {
 						NOT = { 
-							government = proletarian_dictatorship
+							OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
 							ruling_party_ideology = communist
 							alliance_with = THIS
 						}
@@ -150,10 +150,10 @@ country_event = {
 		exists = yes
 		war = no
 		money = 20000
-		government = fascist_dictatorship
+		OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		any_neighbor_country = {
 			NOT = { 
-				government = fascist_dictatorship
+				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 				ruling_party_ideology = fascist
 				alliance_with = THIS
 			}
@@ -199,7 +199,7 @@ country_event = {
 					NOT = { owned_by = THIS }
 					owner = {
 						NOT = { 
-							government = fascist_dictatorship
+							OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 							ruling_party_ideology = fascist
 							alliance_with = THIS
 						}
@@ -213,7 +213,7 @@ country_event = {
 					NOT = { owned_by = THIS }
 					owner = {
 						NOT = { 
-							government = fascist_dictatorship
+							OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 							ruling_party_ideology = fascist
 							alliance_with = THIS
 						}
@@ -285,10 +285,10 @@ country_event = {
 		exists = yes
 		war = no
 		money = 20000
-		government = bourgeois_dictatorship
+		OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
 		any_neighbor_country = {
 			NOT = { 
-				government = bourgeois_dictatorship
+				OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
 				ruling_party_ideology = anarcho_liberal
 				alliance_with = THIS
 			}
@@ -336,7 +336,7 @@ country_event = {
 					NOT = { owned_by = THIS }
 					owner = {
 						NOT = { 
-							government = bourgeois_dictatorship
+							OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
 							ruling_party_ideology = anarcho_liberal
 							alliance_with = THIS
 						}
@@ -350,7 +350,7 @@ country_event = {
 					NOT = { owned_by = THIS }
 					owner = {
 						NOT = { 
-							government = bourgeois_dictatorship
+							OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
 							ruling_party_ideology = anarcho_liberal
 							alliance_with = THIS
 						}
@@ -449,8 +449,8 @@ country_event = {
 		war = no
 		money = 20000
 		OR = {
-			government = democracy
-			government = hms_government
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		OR = {
 			check_variable = {
@@ -465,9 +465,9 @@ country_event = {
 		any_neighbor_country = {
 			NOT = { 
 				OR = {
-					government = democracy
-					government = hms_government
-					government = prussian_constitutionalism
+					OR = { government = democracy government = democracy2 government = democracy3 }
+					OR = { government = hms_government government = hms_government2 government = hms_government3 }
+					OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 				}
 				relation = {
 					who = THIS
@@ -520,9 +520,9 @@ country_event = {
 					owner = {
 						NOT = { 
 							OR = {
-								government = democracy
-								government = hms_government
-								government = prussian_constitutionalism
+								OR = { government = democracy government = democracy2 government = democracy3 }
+								OR = { government = hms_government government = hms_government2 government = hms_government3 }
+								OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 							}
 							relation = {
 								who = THIS
@@ -541,9 +541,9 @@ country_event = {
 					owner = {
 						NOT = { 
 							OR = {
-								government = democracy
-								government = hms_government
-								government = prussian_constitutionalism
+								OR = { government = democracy government = democracy2 government = democracy3 }
+								OR = { government = hms_government government = hms_government2 government = hms_government3 }
+								OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 							}
 							relation = {
 								who = THIS

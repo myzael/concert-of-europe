@@ -8,11 +8,11 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war_with = USA
 		}
-		
+
 		effect = {
 			define_general = {
 				name = "Robert E.Lee"
@@ -41,7 +41,7 @@ political_decisions = {
 			}
 			small_arms = 56
 			regular_clothes = 80
-			horses = 41			
+			horses = 41
 			add_country_modifier = {
 				name = the_bonnie_blue_flag
 				duration = 410
@@ -49,7 +49,7 @@ political_decisions = {
 			set_country_flag = bonnie_blue_flag
 		}
 	}
-	
+
 	king_cotton = {
 		alert = yes
 		potential = {
@@ -59,11 +59,11 @@ political_decisions = {
 				has_country_flag = haskingcotton
 			}
 		}
-		
+
 		allow = {
 			cotton = 750
 		}
-		
+
 		effect = {
 			set_country_flag = haskingcotton
 			prestige = 3
@@ -78,7 +78,7 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 	right_to_secede = {
 		picture = reform_csa
 		alert = yes
@@ -147,7 +147,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	FSA_right_to_secede = {
 		picture = form_fsa
 		potential = {
@@ -197,7 +197,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	FSA_second_declaration_of_independence = {
 		alert = yes
 		picture = form_fsa
@@ -233,7 +233,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	2nd_ostend_manifesto = {
 		potential = {
 			tag = CSA
@@ -250,13 +250,13 @@ political_decisions = {
 				2209 = { owner = { truce_with = THIS } }
 			}
 		}
-		
+
 		allow = {
 			war = no
 			ruling_party_ideology = reactionary
 			is_greater_power = yes
 		}
-		
+
 		effect = {
 			badboy = 2
 			set_country_flag = 2nd_ostend_manifesto
@@ -275,7 +275,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	golden_circle_1 = {
 		picture = golden_circle
 		potential = {
@@ -305,7 +305,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	move_capital_to_havana = {
 		picture = golden_havana
 		potential = {
@@ -333,7 +333,7 @@ political_decisions = {
 			factor = 0
 		}
 	}
-	
+
 	annex_cuba = {
 		picture = golden_cuba
 		potential = {
@@ -351,7 +351,7 @@ political_decisions = {
 			inherit = CUB
 		}
 	}
-	
+
 	annex_puerto_rico = {
 		picture = golden_pri
 		potential = {
@@ -368,7 +368,7 @@ political_decisions = {
 			inherit = PRI
 		}
 	}
-	
+
 	leave_slave_trade = {
 		picture = slaves_freed
 		alert = yes
@@ -378,7 +378,9 @@ political_decisions = {
 			NOT = {
 				has_country_modifier = national_confusion
 			}
+			slavery = yes_slavery
 		}
+
 		allow = {
 			war = no
 			upper_house = {
@@ -389,7 +391,7 @@ political_decisions = {
 		effect = {
 			clr_country_flag = the_slavery_debate
 			political_reform = no_slavery
-			add_country_modifier = { 
+			add_country_modifier = {
 				name = national_confusion
 				duration = 365
 			}
@@ -410,7 +412,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	enlist_coloured_troops = {
 		picture = coloured_troops
 		potential = {

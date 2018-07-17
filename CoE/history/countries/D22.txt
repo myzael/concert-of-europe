@@ -1,12 +1,13 @@
-#capital = 
-primary_culture = british
-religion = protestant
+capital = 2666
+primary_culture = malay
+culture = dayak
+religion = sunni
 government = absolute_monarchy
-plurality = 25.1
-nationalvalue = nv_order
-literacy = 0.17
-civilized = yes
-#dominion=yes
+plurality = 0.0
+nationalvalue = nv_tradition
+literacy = 0.02
+non_state_culture_literacy = 0
+prestige = 5
 
 # Political reforms
 slavery = yes_slavery
@@ -33,15 +34,26 @@ child_labor = child_labor_legal
 arts_endowment=no_endowment
 education = elite
 
-ruling_party = dominion_conservative
-upper_house = { # inherit
+set_country_flag = existing_country
+
+1830.1.1 = {
+	clr_country_flag = existing_country
+}
+
+ruling_party = JAV_conservative
+upper_house = {
 	fascist = 0
-	liberal = 25
-	conservative = 65
-	reactionary = 10
+	liberal = 10
+	conservative = 75
+	reactionary = 15
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
 }
 
+unciv_light_armament = gunpowder_weapons
+diplomatic_reform = interactive
 
+# Technologies
+flintlock_rifles = 1
+classicism_n_early_romanticism = 1

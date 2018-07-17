@@ -1530,4 +1530,57 @@
 
 	}
 
+<<<<<<< HEAD
 }
+=======
+}
+
+2667 = {
+	artisans = {
+		size = 600
+		culture = azerbaijani
+		religion = sunni
+	}
+	artisans = {
+		size = 400
+		culture = armenian
+		religion = orthodox
+	}
+	artisans = {
+		size = 200
+		culture = kurdish
+		religion = sunni
+	}
+	clergymen = {
+		size = 78
+		culture = azerbaijani
+		religion = sunni
+	}
+	clergymen = {
+		size = 45
+		culture = armenian
+		religion = orthodox
+	}
+	clergymen = {
+		size = 35
+		culture = kurdish
+		religion = sunni
+	}
+	farmers = {
+		size = 7800
+		culture = azerbaijani
+		religion = sunni
+	}
+	farmers = {
+		size = 4500
+		culture = armenian
+		religion = orthodox
+	}
+	farmers = {
+		size = 3750
+		culture = kurdish
+		religion = sunni
+	}
+
+}
+>>>>>>> Experimental-Branch

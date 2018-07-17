@@ -173,7 +173,7 @@ conservative_group = {
 			modifier = {
 				factor = 0.3
 				ruling_party_ideology = conservative
-                government = presidential_dictatorship
+                OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 			}
 		}
 		add_social_reform = {
@@ -255,7 +255,7 @@ conservative_group = {
 			}
 			modifier = {
 				factor = -0.2
-                government = absolute_monarchy
+                OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 
 		}
@@ -264,7 +264,7 @@ conservative_group = {
 			modifier = {
 				factor = 0.3
 				ruling_party_ideology = conservative
-                government = presidential_dictatorship
+                OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 			}
 		}
 
@@ -362,12 +362,12 @@ socialist_group = {
 			modifier = {
 				factor = -0.3
 				ruling_party_ideology = socialist
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = -0.6
 				ruling_party_ideology = socialist
-                government = presidential_dictatorship
+                OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 			}
 		}
 		remove_political_reform = {
@@ -375,12 +375,12 @@ socialist_group = {
 			modifier = {
 				factor = 0.1
 				ruling_party_ideology = socialist
-                government = democracy
+                OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5
 				ruling_party_ideology = socialist
-                government = presidential_dictatorship
+                OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 			}
 		}
 		add_social_reform = {
@@ -391,7 +391,7 @@ socialist_group = {
 			modifier = {
 				factor = 0.4
 				ruling_party_ideology = socialist
-                government = presidential_dictatorship
+                OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 			}
 		}
 	}

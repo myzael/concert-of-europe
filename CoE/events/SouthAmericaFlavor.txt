@@ -246,7 +246,7 @@ country_event = {
 	trigger = {
 		tag = ECU
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		year = 1842
 		election = yes
 		NOT = { year = 1860 }
@@ -343,7 +343,7 @@ country_event = {
 	trigger = {
 		tag = ECU
 		exists = yes
-		government = democracy
+		OR = { government = democracy government = democracy2 government = democracy3 }
 		year = 1860
 		NOT = { year = 1885 }
 		OR = {

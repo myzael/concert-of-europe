@@ -7,12 +7,12 @@ vassal = {
 }
 
 # USA-Liberia
-vassal = {
-	first = USA
-	second = LIB
-	start_date = 1822.1.1
-	end_date = 1847.7.26
-}
+#vassal = {
+#	first = USA
+#	second = LIB
+#	start_date = 1822.1.1
+#	end_date = 1847.7.26
+#}
 
 # Netherlands-Luxembourg
 vassal = {

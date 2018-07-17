@@ -1,8 +1,5 @@
-owner = ENG
-controller = ENG
 add_core = AST
 add_core = ENG
-trade_goods = lead
-life_rating = 37
+trade_goods = wool
+life_rating = 22
 terrain = dry_grassland
-colonial = 2

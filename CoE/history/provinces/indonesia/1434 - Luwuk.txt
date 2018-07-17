@@ -1,6 +1,4 @@
-owner = SLW
-controller = SLW
 add_core = SLW
-trade_goods = tropical_wood
-life_rating = 35
-terrain = jungle_mountains
+trade_goods = fish
+life_rating = 15
+terrain = seasonal_jungle_mountains

@@ -86,17 +86,17 @@ country_event = {
 		modifier = {
 			factor = 0.8
 			NOT = {
-				government = hms_government
-				government = democracy
-				government = prussian_constitutionalism
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 			}
 		}
 		modifier = {
 			factor = 1.2
 			OR = {
-				government = hms_government
-				government = democracy
-				government = prussian_constitutionalism
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 			}
 		}
 		modifier = {

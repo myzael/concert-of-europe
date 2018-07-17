@@ -17,8 +17,8 @@ country_event = {
 		}
 		war = no
 		OR = {
-			government = absolute_monarchy 
-			government = hms_government
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } 
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		} 
 	}
  

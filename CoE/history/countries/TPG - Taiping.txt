@@ -30,12 +30,12 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-land_property=landed_estates
+land_property = landed_estates
 child_labor = child_labor_legal
 arts_endowment=no_endowment
 education = elite
 
-ruling_party = TPG_reactionary
+ruling_party = TPG_conservative
 upper_house = {
 	fascist = 0
 	liberal = 10
@@ -47,9 +47,9 @@ upper_house = {
 }
 
 diplomatic_reform = interactive
-foreign_weapons = yes_foreign_weapons
-foreign_training = yes_foreign_training
-foreign_officers = yes_foreign_officers
+unciv_light_armament = gunpowder_weapons
+unciv_military_training = field_drills
+unciv_officer_corps = foreign_officers_commanding
 admin_reform = yes_admin_reform
 academic_institutions = madrasahs
 taxation_reform = tax_farmers
@@ -60,8 +60,8 @@ military_staff_system = 1
 army_command_principle = 1
 enlightenment_thought = 1
 late_enlightenment_philosophy = 1
-early_classical_theory_and_critique = 1
-private_banks = 1
+classicism_n_early_romanticism = 1
+freedom_of_trade = 1
 
 
 oob = "TPG_oob.txt"
@@ -70,9 +70,9 @@ oob = "TPG_oob.txt"
 }
 1861.1.1 = {
 
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
-foreign_officers = yes_foreign_officers
+unciv_military_training = field_drills
+unciv_light_armament = gunpowder_weapons
+unciv_officer_corps = foreign_officers_commanding
 land_reform = yes_land_reform
 admin_reform = yes_admin_reform
 finance_reform = yes_finance_reform
@@ -90,8 +90,8 @@ enlightenment_thought = 1
 no_standard = 1
 malthusian_thought = 1
 late_enlightenment_philosophy = 1
-private_banks = 1
-early_classical_theory_and_critique = 1
+freedom_of_trade = 1
+classicism_n_early_romanticism = 1
 
 # Inventions
 

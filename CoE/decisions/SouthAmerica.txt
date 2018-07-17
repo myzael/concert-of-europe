@@ -3,7 +3,7 @@ political_decisions = {
 	fatherland_volunteers = {
 		potential = {
 			tag = BRZ
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			NOT = {
 				has_country_flag = pedro_said_it_best
 			}
@@ -35,8 +35,8 @@ political_decisions = {
 				}
 			}
 			OR = {
-				government = hms_government
-				government = democracy
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			NOT = {
 				has_country_flag = free_at_last
@@ -80,8 +80,8 @@ political_decisions = {
 				}
 			}
 			OR = {
-				government = hms_government
-				government = democracy
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			slavery = no_slavery
 			NOT = {

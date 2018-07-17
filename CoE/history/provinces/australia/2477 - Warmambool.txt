@@ -1,8 +1,5 @@
-owner = ENG
-controller = ENG
 add_core = AST
 add_core = ENG
-trade_goods = wool
-life_rating = 37
-terrain = good_farmland
-colonial = 2
+trade_goods = grain
+life_rating = 22
+terrain = marginal_farmland

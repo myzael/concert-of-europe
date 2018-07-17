@@ -1,9 +1,8 @@
 add_core = AST
 add_core = ENG
-trade_goods = iron
-life_rating = 30
+trade_goods = lead
+life_rating = 15
 terrain = semi_desert
-colonial = 2
 1836.1.1 = {
 	owner = ENG
 	controller = ENG

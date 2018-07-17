@@ -23,6 +23,7 @@ country_event = {
 			truce_with = EGY
 		}
 	}
+<<<<<<< HEAD
 	
 	fire_only_once = yes
 	
@@ -34,6 +35,19 @@ country_event = {
 	desc = "EVTDESC300956"
 	picture = "timbuctu"
 	
+=======
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	title = "EVTNAME300956"
+	desc = "EVTDESC300956"
+	picture = "timbuctu"
+
+>>>>>>> Experimental-Branch
 	option = {
 		name = "Prosperity for us all!"
 		years_of_research = 0.25
@@ -45,19 +59,34 @@ country_event = {
 country_event = {
 	id = 300956
 	trigger = {
+<<<<<<< HEAD
 		owns = 1719
 		civilized = yes
 		1724 = {
 			empty = yes
 		}
 		1717 = {
+=======
+		owns = 1713
+		civilized = yes
+		1712 = {
+			empty = yes
+		}
+		1714 = {
+>>>>>>> Experimental-Branch
 			empty = yes
 		}
 		has_global_flag = berlin_conference
 	}
+<<<<<<< HEAD
 	
 	fire_only_once = yes
 	
+=======
+
+	fire_only_once = yes
+
+>>>>>>> Experimental-Branch
 	mean_time_to_happen = {
 		months = 12
 		modifier = {
@@ -65,22 +94,38 @@ country_event = {
 			war = yes
 		}
 	}
+<<<<<<< HEAD
 	
 	title = "EVTNAME300956"
 	desc = "EVTDESC300956"
 	picture = "timbuctu"
 	
+=======
+
+	title = "EVTNAME300956"
+	desc = "EVTDESC300956"
+	picture = "timbuctu"
+
+>>>>>>> Experimental-Branch
 	option = {
 		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
 		prestige = 1
 		money = -5000
+<<<<<<< HEAD
 		1717 = {
+=======
+		1712 = {
+>>>>>>> Experimental-Branch
 			secede_province = THIS
 			any_pop = {
 				militancy = 4
 			}
 		}
+<<<<<<< HEAD
 		1724 = {
+=======
+		1714 = {
+>>>>>>> Experimental-Branch
 			secede_province = THIS
 			any_pop = {
 				militancy = 4
@@ -91,7 +136,11 @@ country_event = {
 				owns = 1741
 				1743 = { empty = yes }
 			}
+<<<<<<< HEAD
 			country_event = { 
+=======
+			country_event = {
+>>>>>>> Experimental-Branch
 				id = 300975
 				days = 45
 			}
@@ -105,14 +154,24 @@ country_event = {
 		owns = 1710
 		owns = 1715
 		civilized = yes
+<<<<<<< HEAD
 		1719 = {
+=======
+		1713 = {
+>>>>>>> Experimental-Branch
 			empty = yes
 		}
 		state_n_government = 1
 	}
+<<<<<<< HEAD
 	
 	fire_only_once = yes
 	
+=======
+
+	fire_only_once = yes
+
+>>>>>>> Experimental-Branch
 	mean_time_to_happen = {
 		months = 120
 		modifier = {
@@ -128,11 +187,19 @@ country_event = {
 			war = yes
 		}
 	}
+<<<<<<< HEAD
 	
 	title = "EVTNAME300957"
 	desc = "EVTDESC300957"
 	picture = "timbuctu"
 	
+=======
+
+	title = "EVTNAME300957"
+	desc = "EVTDESC300957"
+	picture = "timbuctu"
+
+>>>>>>> Experimental-Branch
 	option = {
 		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
 		prestige = 1
@@ -167,9 +234,15 @@ country_event = {
 		BRZ_2428 = { is_slave = yes }
 		year = 1840
 	}
+<<<<<<< HEAD
 	
 	fire_only_once = yes
 	
+=======
+
+	fire_only_once = yes
+
+>>>>>>> Experimental-Branch
 	mean_time_to_happen = {
 		months = 48
 		modifier = {
@@ -181,11 +254,19 @@ country_event = {
 			year = 1848
 		}
 	}
+<<<<<<< HEAD
 	
 	title = "EVTNAME300958"
 	desc = "EVTDESC300958"
 	picture = "slaves_freed"
 	
+=======
+
+	title = "EVTNAME300958"
+	desc = "EVTDESC300958"
+	picture = "slaves_freed"
+
+>>>>>>> Experimental-Branch
 	option = {
 		name = "What an enlightend idea!"
 		prestige = 5
@@ -206,13 +287,22 @@ country_event = {
 				pop_type = labourers
 			}
 		}
+<<<<<<< HEAD
 		
 		
+=======
+
+
+>>>>>>> Experimental-Branch
 		ai_chance = {
 			factor = 65
 			modifier = {
 				factor = 0.33
+<<<<<<< HEAD
 				NOT = { money = 20000 } 
+=======
+				NOT = { money = 20000 }
+>>>>>>> Experimental-Branch
 			}
 		}
 	}
@@ -240,7 +330,11 @@ country_event = {
 			factor = 35
 			modifier = {
 				factor = 2
+<<<<<<< HEAD
 				NOT = { money = 20000 } 
+=======
+				NOT = { money = 20000 }
+>>>>>>> Experimental-Branch
 			}
 		}
 	}
@@ -260,7 +354,11 @@ country_event = {
 			}
 			random_pop = {
 				limit = {
+<<<<<<< HEAD
 					type = slaves				
+=======
+					type = slaves
+>>>>>>> Experimental-Branch
 				}
 				reduce_pop = 1.05
 			}
@@ -276,14 +374,23 @@ country_event = {
 			}
 			random_pop = {
 				limit = {
+<<<<<<< HEAD
 					has_pop_culture = afro_antillean			
+=======
+					has_pop_culture = afro_antillean
+>>>>>>> Experimental-Branch
 				}
 				reduce_pop = 1.05
 			}
 		}
 		ai_chance = {
+<<<<<<< HEAD
 			factor = 0		
 		}	
+=======
+			factor = 0
+		}
+>>>>>>> Experimental-Branch
 	}
 }
 
@@ -304,6 +411,7 @@ country_event = {
 			empty = no
 		}
 	}
+<<<<<<< HEAD
 	
 	fire_only_once = yes
 	
@@ -315,6 +423,19 @@ country_event = {
 	desc = "EVTDESC300959"
 	picture = "deliberation"
 	
+=======
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 20
+	}
+
+	title = "EVTNAME300959"
+	desc = "EVTDESC300959"
+	picture = "deliberation"
+
+>>>>>>> Experimental-Branch
 	option = {
 		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
 		treasury = -4000
@@ -340,6 +461,7 @@ country_event = {
 			}
 		}
 	}
+<<<<<<< HEAD
 	
 	fire_only_once = yes
 	
@@ -353,6 +475,21 @@ country_event = {
 	
 	option = {
 		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!" 
+=======
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	title = "EVTNAME300960"
+	desc = "EVTDESC300960"
+	picture = "deliberation"
+
+	option = {
+		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
+>>>>>>> Experimental-Branch
 		prestige = 1
 		money = -4000
 		1964 = {
@@ -380,6 +517,7 @@ country_event = {
 			empty = yes
 		}
 	}
+<<<<<<< HEAD
 	
 	fire_only_once = yes
 	
@@ -393,6 +531,21 @@ country_event = {
 	
 	option = {
 		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!" 
+=======
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	title = "EVTNAME300964"
+	desc = "EVTDESC300964"
+	picture = "deliberation"
+
+	option = {
+		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
+>>>>>>> Experimental-Branch
 		prestige = 1
 		money = -4000
 		1819 = {
@@ -415,19 +568,19 @@ country_event = {
 			empty = yes
 		}
 	}
-	
+
 	fire_only_once = yes
-	
+
 	mean_time_to_happen = {
 		months = 24
 	}
-	
+
 	title = "EVTNAME300966"
 	desc = "EVTDESC300966"
 	picture = "deliberation"
-	
+
 	option = {
-		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!" 
+		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
 		prestige = 3
 		money = -5000
 		2591 = {
@@ -442,7 +595,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "Yet more ice for the $COUNTRY_ADJ$ Empire?"
 		prestige = -3
@@ -458,99 +611,99 @@ country_event = {
 }
 
 #The Coromandel Coast
-country_event = {
+province_event = {
 	id = 300967
 	is_triggered_only = yes
-	
+	allow_multiple_instances = yes
+
 	title = "EVTNAME300967"
 	desc = "EVTDESC300967"
 	picture = "deliberation"
-	
+
 	option = {
 		name = "Who needs such specks of Empire anyway?"
-		ENG = { 
+		ENG = {
 			country_event = {
 				id = 300968
 				days = 5
-			}			
-		}
-		money = 15000
-		prestige = -2
-		relation = {
-			who = ENG
-			value = 15
-		}
-		any_owned = {
-			limit = {
-				region = ENG_1721			
 			}
-			secede_province = ENG
 		}
+		owner = {
+			money = 15000
+			prestige = -2
+			relation = {
+				who = ENG
+				value = 15
+			}
+		}
+		secede_province = FROM
 		ai_chance = {
 			factor = 50
 			modifier = {
 				factor = 1.25
-				NOT = { money = 15000 }
+				NOT = { owner = { money = 15000 } }
 			}
 			modifier = {
 				factor = 1.25
-				NOT = { money = 50000 }
+				NOT = { owner = {  money = 50000 } }
 			}
 			modifier = {
-				factor = 0
-				is_greater_power = yes
-			}
-			modifier = {
-				factor = 2
-				is_secondary_power = no
-				is_greater_power = no
-			}
-			modifier = {
-				factor = 0.25
-				tag = FRA
-			}
-			modifier = {
-				factor = 1.25
-				tag = DEN
-			}
-		}
-	}
-	
-	option = {
-		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
-		ENG = { 
-			country_event = {
-				id = 300969
-				days = 5
-			}			
-		}
-		prestige = 1
-		relation = {
-			who = ENG
-			value = -15
-		}
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 1.25
-				money = 50000
+				factor = 0.1
+				owner = { is_greater_power = yes }
 			}
 			modifier = {
 				factor = 2
-				is_greater_power = yes
-			}
-			modifier = {
-				factor = 0.25
-				is_secondary_power = no
-				is_greater_power = no
-			}
-			modifier = {
-				factor = 2
-				tag = FRA
+				owner = { is_secondary_power = no }
+				owner = { is_greater_power = no }
 			}
 			modifier = {
 				factor = 0.5
-				tag = DEN
+				owner = { tag = FRA }
+			}
+			modifier = {
+				factor = 1.25
+				owner = { tag = DEN }
+			}
+		}
+	}
+
+	option = {
+		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
+		ENG = {
+			country_event = {
+				id = 300969
+				days = 5
+			}
+		}
+		owner = {
+			prestige = 1
+			relation = {
+				who = ENG
+				value = -15
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.25
+				owner = { money = 50000 }
+			}
+			modifier = {
+				factor = 2
+				owner = { is_greater_power = yes }
+			}
+			modifier = {
+				factor = 0.25
+				owner = { is_secondary_power = no }
+				owner = { is_greater_power = no }
+			}
+			modifier = {
+				factor = 1.25
+				owner = { tag = FRA }
+			}
+			modifier = {
+				factor = 0.75
+				owner = { tag = DEN }
 			}
 		}
 	}
@@ -560,13 +713,19 @@ country_event = {
 country_event = {
 	id = 300968
 	is_triggered_only = yes
+<<<<<<< HEAD
 	
 	allow_multiple_instances = yes
 	
+=======
+
+	allow_multiple_instances = yes
+
+>>>>>>> Experimental-Branch
 	title = "EVTNAME300967"
 	desc = "EVTDESC300968"
 	picture = "deliberation"
-	
+
 	option = {
 		name = "Great"
 		money = -15000
@@ -578,13 +737,19 @@ country_event = {
 country_event = {
 	id = 300969
 	is_triggered_only = yes
+<<<<<<< HEAD
 	
 	allow_multiple_instances = yes
 	
+=======
+
+	allow_multiple_instances = yes
+
+>>>>>>> Experimental-Branch
 	title = "EVTNAME300967"
 	desc = "EVTDESC300969"
 	picture = "deliberation"
-	
+
 	option = {
 		name = "Shame"
 		prestige = -1
@@ -603,24 +768,24 @@ country_event = {
 
 	option = {
 		name = "You bet we are!"
-		SWE = { 
-			country_event = 300971 
+		SWE = {
+			country_event = 300971
 			2585 = { secede_province = FRA }
 			money = 25000
 		}
 		money = -25000
 		prestige = 5
 		ai_chance = {
-			factor = 100		
+			factor = 100
 		}
 	}
 	option = {
 		name = "More colonies? Who needs those?"
-		SWE = { 
+		SWE = {
 			country_event = 300972
 		}
 		ai_chance = {
-			factor = 0		
+			factor = 0
 		}
 	}
 }
@@ -671,6 +836,7 @@ country_event = {
 		exists = yes
 		is_greater_power = yes
 		colonial_nation = yes
+<<<<<<< HEAD
 		invention = the_dark_continent 
 		war = no
 		has_global_flag = berlin_conference
@@ -688,6 +854,26 @@ country_event = {
 			any_owned_province = {
 				continent = africa
 				factor = 0.25
+=======
+		invention = the_dark_continent
+		war = no
+		has_global_flag = berlin_conference
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME300973"
+	desc = "EVTDESC300973"
+	picture = "deliberation"
+
+	mean_time_to_happen = {
+		months = 10
+		modifier = {
+			factor = 0.25 #oscar7211
+			any_owned_province = {
+				continent = africa
+				#factor = 0.25 #oscar7211
+>>>>>>> Experimental-Branch
 			}
 		}
 	}
@@ -716,14 +902,22 @@ country_event = {
 							empty = yes
 						}
 					}
+<<<<<<< HEAD
 				
+=======
+
+>>>>>>> Experimental-Branch
 				}
 				1739 = { empty = yes }
 			}
 			country_event = {
 				id = 300974
 				days = 20
+<<<<<<< HEAD
 			}		
+=======
+			}
+>>>>>>> Experimental-Branch
 		}
 		random_country = {
 			limit = {
@@ -733,7 +927,11 @@ country_event = {
 			country_event = {
 				id = 300975
 				days = 45
+<<<<<<< HEAD
 			}		
+=======
+			}
+>>>>>>> Experimental-Branch
 		}
 		random_country = {
 			limit = {
@@ -753,7 +951,11 @@ country_event = {
 			country_event = {
 				id = 300977
 				days = 105
+<<<<<<< HEAD
 			}		
+=======
+			}
+>>>>>>> Experimental-Branch
 		}
 		random_country = {
 			limit = {
@@ -763,7 +965,11 @@ country_event = {
 			country_event = {
 				id = 300978
 				days = 140
+<<<<<<< HEAD
 			}		
+=======
+			}
+>>>>>>> Experimental-Branch
 		}
 	}
 }
@@ -923,7 +1129,7 @@ country_event = {
 	picture = "persia_tehran"
 
 	option = {
-		name = "It was worthless anyway!" 
+		name = "It was worthless anyway!"
 		prestige = -1
 		1138 = {
 			secede_province = PER
@@ -941,7 +1147,7 @@ country_event = {
 	picture = "persia_bushehr"
 
 	option = {
-		name = "It was worthless anyway!" 
+		name = "It was worthless anyway!"
 		prestige = -1
 		1136 = {
 			secede_province = PER
@@ -961,7 +1167,7 @@ country_event = {
 	option = {
 		name = "Do we have a choice?"
 		prestige = -1
-		PER = { 
+		PER = {
 			country_event = { id = 301004 days = 5 }
 			set_country_flag = abbas_lease_renegotiated_success
 		}
@@ -980,15 +1186,15 @@ country_event = {
 			}
 		}
 		ai_chance = {
-			factor = 90		
+			factor = 90
 		}
 	}
-	
+
 	option = {
 		name = "What are they going to achieve?"
 		prestige = 1
 		badboy = 1
-		PER = { 
+		PER = {
 			country_event = { id = 301005 days = 5 }
 			1142 = { add_core = PER }
 		}
@@ -1008,7 +1214,7 @@ country_event = {
 			}
 		}
 		ai_chance = {
-			factor = 10	
+			factor = 10
 		}
 	}
 }
@@ -1024,7 +1230,7 @@ country_event = {
 	picture = "persia_tehran"
 
 	option = {
-		name = "Wonderful!" 
+		name = "Wonderful!"
 		prestige = 1
 	}
 }
@@ -1048,7 +1254,7 @@ country_event = {
 #Dominance asserted over Abbas
 country_event = {
 	id = 301006
-	
+
 	news = yes
 	news_desc_long = "NEWS_reclaim_abbas_long"
 	news_desc_medium = "NEWS_reclaim_abbas_medium"
@@ -1061,7 +1267,7 @@ country_event = {
 	picture = "persia_bushehr"
 
 	option = {
-		name = "It was worthless anyway!" 
+		name = "It was worthless anyway!"
 		prestige = -3
 		1142 = {
 			secede_province = PER
@@ -1094,7 +1300,7 @@ country_event = {
 					province_id = 2654
 				}
 			}
-			secede_province = TKM 
+			secede_province = TKM
 		}
 		1204 = { remove_core = PER }
 		1205 = { remove_core = PER }
@@ -1149,7 +1355,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "Comply under protest" 
+		name = "Comply under protest"
 		RUS = {
 			country_event = 301009
 		}
@@ -1223,20 +1429,20 @@ country_event = {
 			country_event = 301010
 		}
 		prestige = 4
-		1204 = { 
-			add_core = PER 
+		1204 = {
+			add_core = PER
 			add_core = RUS
 		}
-		1205 = { 
-			add_core = PER 
+		1205 = {
+			add_core = PER
 			add_core = RUS
 		}
-		1206 = { 
-			add_core = PER 
+		1206 = {
+			add_core = PER
 			add_core = RUS
 		}
-		2654 = { 
-			add_core = PER 
+		2654 = {
+			add_core = PER
 			add_core = RUS
 		}
 		any_pop = {
@@ -1292,7 +1498,7 @@ country_event = {
 #Treaty of Akhal - Accepted
 country_event = {
 	id = 301008
-	
+
 	news = yes
 	news_title = NEWS_EVTNAME301008_title
 	news_desc_long = "NEWS_EVTDESC301008_long"
@@ -1306,11 +1512,11 @@ country_event = {
 	picture = "turkmenchay_treaty"
 
 	option = {
-		name = "For the glory of Russia!" 
+		name = "For the glory of Russia!"
 		prestige = 3
 		any_pop = {
 			limit = {
-				is_culture_group = iranian_turanian			
+				is_culture_group = iranian_turanian
 			}
 			consciousness = -1
 			militancy = -1
@@ -1331,9 +1537,9 @@ country_event = {
 #Treaty of Akhal - Agreed upon
 country_event = {
 	id = 301009
-	
+
 	news = yes
-	news_title = "NEWS_EVTNAME301010_title" 
+	news_title = "NEWS_EVTNAME301010_title"
 	news_desc_long = "NEWS_EVTDESC301009_long"
 	news_desc_medium = "NEWS_EVTDESC301009_medium"
 	news_desc_short = "NEWS_EVTDESC301009_short"
@@ -1345,11 +1551,11 @@ country_event = {
 	picture = "turkmenchay_treaty"
 
 	option = {
-		name = "For the glory of Russia!" 
+		name = "For the glory of Russia!"
 		prestige = 1
 		any_pop = {
 			limit = {
-				is_culture_group = iranian_turanian			
+				is_culture_group = iranian_turanian
 			}
 			consciousness = -0.5
 			militancy = -0.5
@@ -1370,7 +1576,7 @@ country_event = {
 #Treaty of Akhal - Rejected
 country_event = {
 	id = 301010
-	
+
 	news = yes
 	news_title = "NEWS_EVTNAME301010_title"
 	news_desc_long = "NEWS_EVTDESC301010_long"
@@ -1384,11 +1590,11 @@ country_event = {
 	picture = "turkmenchay_treaty"
 
 	option = {
-		name = "This can receive but one responds!" 
+		name = "This can receive but one responds!"
 		prestige = -5
 		any_pop = {
 			limit = {
-				is_culture_group = iranian_turanian			
+				is_culture_group = iranian_turanian
 			}
 			consciousness = 1
 			militancy = 1
@@ -1409,15 +1615,15 @@ country_event = {
 #Russian-Afghan Border Treaty
 country_event = {
 	id = 300981
-	
+
 	trigger = {
 		owns = 1204
 		invention = indigenous_garrisoning
 		1211 = { empty = yes }
 	}
-	
+
 	fire_only_once = yes
-	
+
 	mean_time_to_happen = {
 		months = 24
 		modifier = {
@@ -1437,14 +1643,14 @@ country_event = {
 	title = "EVTNAME300981"
 	desc = "EVTDESC300981"
 	picture = "deliberation"
-	
+
 	option = {
 		name = "Demarcate the borders"
 		relation = {
 			who = ENG
 			value = 25
 		}
-		2619 = { 
+		2619 = {
 			owner = {
 				country_event = 300982
 				relation = {
@@ -1454,7 +1660,7 @@ country_event = {
 			}
 		}
 		ai_chance = {
-			factor = 95	
+			factor = 95
 		}
 	}
 	option = {
@@ -1478,17 +1684,17 @@ country_event = {
 country_event = {
 	id = 300982
 	is_triggered_only = yes
-	
+
 	title = "EVTNAME300982"
 	desc = "EVTDESC300982"
-	
+
 	option = {
 		name = "Demarcate the borders"
 		FROM = {
 			diplomatic_influence = {
 				who = THIS
 				value = 20
-			}	
+			}
 		}
 		1211 = {
 			secede_province = THIS
@@ -1498,15 +1704,15 @@ country_event = {
 
 #Border Treaty
 country_event = {
-	id = 300990
+	id = 400990
 	is_triggered_only = yes
 
 	title = "EVTNAME300990"
 	desc = "EVTDESC300990"
 
 	option = {
-		name = "Okey" 
-		931 = {  
+		name = "Okey"
+		931 = {
 			secede_province = THIS
 		}
 		relation = {
@@ -1525,8 +1731,8 @@ country_event = {
 	desc = "EVTDESC300990"
 
 	option = {
-		name = "Okey" 
-		910 = {  
+		name = "Okey"
+		910 = {
 			secede_province = THIS
 		}
 		relation = {
@@ -1545,8 +1751,8 @@ country_event = {
 	desc = "EVTDESC300996"
 
 	option = {
-		name = "Okey" 
-		1172 = {  
+		name = "Okey"
+		1172 = {
 			secede_province = THIS
 		}
 		relation = {
@@ -1565,8 +1771,8 @@ country_event = {
 	desc = "EVTDESC300996"
 
 	option = {
-		name = "Okey" 
-		1175 = {  
+		name = "Okey"
+		1175 = {
 			secede_province = THIS
 		}
 		relation = {

@@ -80,19 +80,19 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				}
 			}
 			modifier = {
 				factor = 0.25
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 			modifier = {
 				factor = 1.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5
@@ -134,11 +134,11 @@ country_event = {
 			factor = 20
 			modifier = {
 				factor = 1.75
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 1.5
@@ -323,19 +323,19 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				}
 			}
 			modifier = {
 				factor = 0.25
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 			modifier = {
 				factor = 1.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5
@@ -377,11 +377,11 @@ country_event = {
 			factor = 20
 			modifier = {
 				factor = 1.75
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 1.5
@@ -526,19 +526,19 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				}
 			}
 			modifier = {
 				factor = 0.25
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 			modifier = {
 				factor = 1.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5
@@ -580,11 +580,11 @@ country_event = {
 			factor = 20
 			modifier = {
 				factor = 1.75
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 1.5
@@ -733,19 +733,19 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				}
 			}
 			modifier = {
 				factor = 0.25
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 			modifier = {
 				factor = 1.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5
@@ -787,11 +787,11 @@ country_event = {
 			factor = 20
 			modifier = {
 				factor = 1.75
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 1.5
@@ -1024,10 +1024,7 @@ country_event = {
 				6 = { empty = no }
 				7 = { empty = no }
 				8 = { empty = yes } #Ross River
-				OR = {
-					owns = 17
-					owns = 2629
-				}
+				owns = 17
 			}		
 			AND = {
 				6 = { empty = no }
@@ -1045,10 +1042,7 @@ country_event = {
 				8 = { empty = no }
 				2596 = { empty = no }
 				2598 = { empty = yes } #Fort Liard
-				OR = {
-					owns = 2629
-					owns = 8
-				}
+				owns = 8
 			}
 			AND = {
 				6 = { empty = no }
@@ -1212,10 +1206,7 @@ country_event = {
 				8 = { empty = no }
 				2596 = { empty = no }
 				2598 = { empty = yes }
-				OR = {
-					2629 = { owned_by = THIS }
-					8 = { owned_by = THIS }
-				}
+				8 = { owned_by = THIS }
 			}
 			owner = { prestige = -3 }
 			2598 = { secede_province = THIS }
@@ -1239,10 +1230,7 @@ country_event = {
 				6 = { empty = no }
 				7 = { empty = no }
 				8 = { empty = yes }
-				OR = {
-					17 = { owned_by = THIS }
-					2629 = { owned_by = THIS }
-				}
+				17 = { owned_by = THIS }
 			}
 			owner = { prestige = -3 }
 			8 = { secede_province = THIS }
@@ -1475,19 +1463,19 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+					OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 }
+					OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
+					OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
 				}
 			}
 			modifier = {
 				factor = 0.25
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 			modifier = {
 				factor = 1.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 0.5
@@ -1529,11 +1517,11 @@ country_event = {
 			factor = 20
 			modifier = {
 				factor = 1.75
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 			modifier = {
 				factor = 0.5
-				government = democracy
+				OR = { government = democracy government = democracy2 government = democracy3 }
 			}
 			modifier = {
 				factor = 1.5

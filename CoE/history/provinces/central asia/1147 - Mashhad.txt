@@ -2,5 +2,9 @@ owner = KHR
 controller = KHR
 add_core = KHR
 trade_goods = iron
+<<<<<<< HEAD
 life_rating = 37
+=======
+life_rating = 35
+>>>>>>> Experimental-Branch
 terrain = hilly_grassland

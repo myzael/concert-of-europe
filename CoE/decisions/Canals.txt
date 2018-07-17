@@ -60,8 +60,10 @@ political_decisions = {
 					owns = 1755
 					NOT = { tag = THIS }
 				}
-				THIS = { treasury = -300000 }
-				country_event = 97300
+				random_owned = {
+					limit = { is_capital = yes }
+					province_event = { id = 97300 }
+				}
 			}
 		}
 		ai_will_do = {

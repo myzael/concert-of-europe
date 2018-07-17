@@ -1442,8 +1442,8 @@ country_event = {
 		has_country_flag = election_initialized
 		ruling_party_ideology = communist
 		NOT = {
-			government = hms_government
-			government = prussian_constitutionalism
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -1640,7 +1640,7 @@ country_event = {
 		has_country_flag = election_initialized
 		ruling_party_ideology = fascist
 		NOT = {
-			government = hms_government
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 	}
 	
@@ -2021,8 +2021,8 @@ country_event = {
 		has_country_flag = election_initialized
 		ruling_party_ideology = anarcho_liberal
 		NOT = {
-			government = hms_government
-			government = prussian_constitutionalism
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 		}
 	}
 	
@@ -3476,12 +3476,25 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		is_colonial = no
-		any_pop = {
-			OR = {
-				is_primary_culture = yes
-				is_accepted_culture = yes
+		#ini modif oscar7211
+		OR = {
+			any_pop = {
+					is_primary_culture = yes
+					
+			}
+			any_pop = {
+					is_accepted_culture = yes
 			}
 		}
+		
+		#old code
+		#any_pop = {
+		#	OR = {
+		#		#is_primary_culture = yes
+		#		is_accepted_culture = yes
+		#	}
+		#}end modif oscar7211
+		
 		any_pop = {
 			is_primary_culture = no
 			is_accepted_culture = no

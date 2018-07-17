@@ -4097,6 +4097,7 @@
 		size = 327
 		culture = brazilian
 		religion = catholic
+<<<<<<< HEAD
 
 	}
 	farmers = {
@@ -4104,17 +4105,25 @@
 		size = 10780
 		culture = brazilian
 		religion = catholic
+=======
+>>>>>>> Experimental-Branch
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 3074
 		culture = afro_brazilian
+=======
+		size = 10780
+		culture = brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 	slaves = {
 
+<<<<<<< HEAD
 		size = 8197
 		culture = afro_brazilian
 		religion = catholic
@@ -4149,20 +4158,41 @@
 
 		size = 5759
 		culture = brazilian
-		religion = catholic
-
-	}
-	farmers = {
-
-		size = 3463
+=======
+		size = 3074
 		culture = afro_brazilian
 		religion = catholic
 
 	}
 	slaves = {
 
+		size = 8197
+		culture = afro_brazilian
+>>>>>>> Experimental-Branch
+		religion = catholic
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 3463
+		culture = afro_brazilian
+		religion = catholic
+=======
+}
+2433 = {
+>>>>>>> Experimental-Branch
+
+	}
+	slaves = {
+
+<<<<<<< HEAD
 		size = 5738
 		culture = afro_brazilian
+=======
+		size = 266
+		culture = brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
@@ -4172,6 +4202,7 @@
 
 	artisans = {
 
+<<<<<<< HEAD
 		size = 737
 		culture = brazilian
 		religion = catholic
@@ -4180,51 +4211,79 @@
 	artisans = {
 
 		size = 655
+=======
+		size = 491
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
 	clergymen = {
 
+<<<<<<< HEAD
 		size = 307
+=======
+		size = 143
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 15599
+=======
+		size = 5759
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 4057
+=======
+		size = 3463
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
 	slaves = {
 
+<<<<<<< HEAD
 		size = 8197
+=======
+		size = 5738
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
 
 }
+<<<<<<< HEAD
 2435 = {
 
 	artisans = {
 
 		size = 573
+=======
+2434 = {
+
+	artisans = {
+
+		size = 737
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	artisans = {
 
+<<<<<<< HEAD
 		size = 532
 		culture = afro_brazilian
 		religion = catholic
@@ -4235,24 +4294,39 @@
 		size = 225
 		culture = brazilian
 		religion = catholic
+=======
+		size = 655
+		culture = afro_brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 12522
+=======
+		size = 307
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 3422
 		culture = afro_brazilian
+=======
+		size = 15599
+		culture = brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 	slaves = {
 
+<<<<<<< HEAD
 		size = 6558
 		culture = afro_brazilian
 		religion = catholic
@@ -4266,18 +4340,35 @@
 
 		size = 8197
 		culture = brazilian
+=======
+		size = 4057
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	slaves = {
+
+		size = 8197
+		culture = afro_brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 	artisans = {
 
+<<<<<<< HEAD
 		size = 8197
 		culture = brazilian
 		religion = catholic
+=======
+}
+2435 = {
+>>>>>>> Experimental-Branch
 
 	}
 	artisans = {
 
+<<<<<<< HEAD
 		size = 5738
 		culture = brazilian
 		religion = catholic
@@ -4293,10 +4384,14 @@
 	bureaucrats = {
 
 		size = 286
+=======
+		size = 573
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
+<<<<<<< HEAD
 	clergymen = {
 
 		size = 614
@@ -4307,19 +4402,29 @@
 	clergymen = {
 
 		size = 122
+=======
+	artisans = {
+
+		size = 532
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 22842
+=======
+		size = 225
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 4959
 		culture = afro_brazilian
 		religion = catholic
@@ -4362,10 +4467,347 @@
 		size = 102
 		culture = afro_brazilian
 		religion = catholic
+=======
+		size = 12522
+		culture = brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 13793
+		culture = brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+		size = 6810
+=======
+		size = 3422
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	slaves = {
+
+<<<<<<< HEAD
+		size = 13137
+=======
+		size = 6558
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+
+}
+<<<<<<< HEAD
+2438 = {
+
+	artisans = {
+
+		size = 655
+		culture = brazilian
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 614
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 286
+=======
+2436 = {
+
+	artisans = {
+
+		size = 8197
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+<<<<<<< HEAD
+	farmers = {
+
+		size = 14756
+		culture = brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+		size = 4119
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	slaves = {
+
+		size = 7378
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+
+}
+2439 = {
+
+	aristocrats = {
+
+		size = 3771
+=======
+	artisans = {
+
+		size = 8197
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	artisans = {
+
+<<<<<<< HEAD
+		size = 573
+=======
+		size = 5738
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	artisans = {
+
+<<<<<<< HEAD
+		size = 532
+=======
+		size = 4508
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	bureaucrats = {
+
+<<<<<<< HEAD
+		size = 225
+=======
+		size = 286
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 12528
+=======
+		size = 614
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	clergymen = {
+
+<<<<<<< HEAD
+		size = 3412
+=======
+		size = 122
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	officers = {
+
+<<<<<<< HEAD
+		size = 204
+=======
+		size = 22842
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	slaves = {
+
+<<<<<<< HEAD
+		size = 6537
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	soldiers = {
+
+		size = 2192
+		culture = brazilian
+		religion = catholic
+=======
+		size = 4959
+		culture = afro_brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	}
+	slaves = {
+
+<<<<<<< HEAD
+		size = 102
+=======
+		size = 14756
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+
+}
+<<<<<<< HEAD
+2440 = {
+
+	artisans = {
+
+		size = 368
+=======
+2437 = {
+
+	artisans = {
+
+		size = 614
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	artisans = {
+
+<<<<<<< HEAD
+		size = 573
+=======
+		size = 1065
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	clergymen = {
+
+<<<<<<< HEAD
+		size = 204
+		culture = brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+		size = 7972
+		culture = brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+		size = 4570
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	slaves = {
+
+		size = 6968
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+
+}
+2441 = {
+
+	artisans = {
+
+		size = 1188
+=======
+		size = 245
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	artisans = {
+
+<<<<<<< HEAD
+		size = 901
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	bureaucrats = {
+
+		size = 245
+		culture = brazilian
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 389
+		culture = brazilian
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 81
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+		size = 25966
+		culture = brazilian
+		religion = catholic
+=======
+		size = 102
+		culture = afro_brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 7480
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	slaves = {
+
+		size = 10657
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+
+}
+2442 = {
+
+	artisans = {
+
+		size = 430
+=======
 		size = 13793
 		culture = brazilian
 		religion = catholic
@@ -4445,6 +4887,7 @@
 	artisans = {
 
 		size = 573
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
@@ -4458,25 +4901,42 @@
 	}
 	clergymen = {
 
+<<<<<<< HEAD
+		size = 204
+=======
 		size = 225
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 10822
+=======
 		size = 12528
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 3422
+=======
 		size = 3412
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
+<<<<<<< HEAD
+	slaves = {
+
+		size = 6558
+=======
 	officers = {
 
 		size = 204
@@ -4501,24 +4961,37 @@
 	soldiers = {
 
 		size = 102
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
 
 }
+<<<<<<< HEAD
+2443 = {
+
+	artisans = {
+
+		size = 327
+=======
 2440 = {
 
 	artisans = {
 
 		size = 368
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	artisans = {
 
+<<<<<<< HEAD
+		size = 614
+=======
 		size = 573
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
@@ -4528,6 +5001,14 @@
 		size = 204
 		culture = brazilian
 		religion = catholic
+<<<<<<< HEAD
+
+	}
+	farmers = {
+
+		size = 7193
+		culture = brazilian
+=======
 
 	}
 	farmers = {
@@ -4566,39 +5047,86 @@
 
 		size = 901
 		culture = afro_brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 	bureaucrats = {
 
+<<<<<<< HEAD
+		size = 4119
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	slaves = {
+
+		size = 7378
+		culture = afro_brazilian
+=======
 		size = 245
 		culture = brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 	clergymen = {
 
+<<<<<<< HEAD
+}
+2444 = {
+
+	artisans = {
+
+		size = 368
+=======
 		size = 389
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	clergymen = {
 
+<<<<<<< HEAD
+		size = 368
+=======
 		size = 81
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 163
+=======
 		size = 25966
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 7911
+		culture = brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+		size = 2382
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	slaves = {
+
+		size = 4529
+=======
 		size = 7480
 		culture = afro_brazilian
 		religion = catholic
@@ -4607,16 +5135,107 @@
 	slaves = {
 
 		size = 10657
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
 
 }
+<<<<<<< HEAD
+2445 = {
+
+	artisans = {
+
+		size = 225
+=======
 2442 = {
 
 	artisans = {
 
+		size = 430
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	artisans = {
+
+<<<<<<< HEAD
+		size = 409
+=======
+		size = 532
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	clergymen = {
+
+<<<<<<< HEAD
+		size = 143
+=======
+		size = 204
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 5067
+=======
+		size = 10822
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 2738
+=======
+		size = 3422
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	slaves = {
+
+<<<<<<< HEAD
+		size = 4898
+=======
+		size = 6558
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+
+}
+<<<<<<< HEAD
+2446 = {
+=======
+2443 = {
+>>>>>>> Experimental-Branch
+
+	artisans = {
+
+<<<<<<< HEAD
+		size = 3033
+=======
+		size = 327
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	artisans = {
+
+<<<<<<< HEAD
 		size = 430
 		culture = brazilian
 		religion = catholic
@@ -4624,66 +5243,38 @@
 	}
 	artisans = {
 
-		size = 532
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-	clergymen = {
-
-		size = 204
-		culture = brazilian
-		religion = catholic
-
-	}
-	farmers = {
-
-		size = 10822
-		culture = brazilian
-		religion = catholic
-
-	}
-	farmers = {
-
-		size = 3422
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-	slaves = {
-
-		size = 6558
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-
-}
-2443 = {
-
-	artisans = {
-
-		size = 327
-		culture = brazilian
-		religion = catholic
-
-	}
-	artisans = {
-
+		size = 901
+=======
 		size = 614
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
 	clergymen = {
 
+<<<<<<< HEAD
+		size = 184
+=======
 		size = 204
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	clergymen = {
 
+<<<<<<< HEAD
+		size = 81
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 9427
+		culture = brazilian
+=======
 		size = 7193
 		culture = brazilian
 		religion = catholic
@@ -4700,168 +5291,47 @@
 
 		size = 7378
 		culture = afro_brazilian
-		religion = catholic
-
-	}
-
-}
-2444 = {
-
-	artisans = {
-
-		size = 368
-		culture = brazilian
-		religion = catholic
-
-	}
-	artisans = {
-
-		size = 368
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-	clergymen = {
-
-		size = 163
-		culture = brazilian
-		religion = catholic
-
-	}
-	farmers = {
-
-		size = 7911
-		culture = brazilian
-		religion = catholic
-
-	}
-	farmers = {
-
-		size = 2382
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-	slaves = {
-
-		size = 4529
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-
-}
-2445 = {
-
-	artisans = {
-
-		size = 225
-		culture = brazilian
-		religion = catholic
-
-	}
-	artisans = {
-
-		size = 409
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-	clergymen = {
-
-		size = 143
-		culture = brazilian
-		religion = catholic
-
-	}
-	farmers = {
-
-		size = 5067
-		culture = brazilian
-		religion = catholic
-
-	}
-	farmers = {
-
-		size = 2738
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-	slaves = {
-
-		size = 4898
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-
-}
-2446 = {
-
-	aristocrats = {
-
-		size = 3033
-		culture = brazilian
-		religion = catholic
-
-	}
-	artisans = {
-
-		size = 430
-		culture = brazilian
-		religion = catholic
-
-	}
-	artisans = {
-
-		size = 901
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-	clergymen = {
-
-		size = 184
-		culture = brazilian
-		religion = catholic
-
-	}
-	clergymen = {
-
-		size = 81
-		culture = afro_brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 	labourers = {
 
-		size = 9427
-		culture = brazilian
-		religion = catholic
-
-	}
-	labourers = {
-
+<<<<<<< HEAD
 		size = 5492
 		culture = afro_brazilian
 		religion = catholic
+=======
+}
+2444 = {
+>>>>>>> Experimental-Branch
 
 	}
 	officers = {
 
+<<<<<<< HEAD
 		size = 184
+=======
+		size = 368
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
+<<<<<<< HEAD
 	slaves = {
 
 		size = 9837
+=======
+	artisans = {
+
+		size = 368
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
+<<<<<<< HEAD
 	soldiers = {
 
 		size = 1926
@@ -4873,76 +5343,123 @@
 
 		size = 163
 		culture = afro_brazilian
+=======
+	clergymen = {
+
+		size = 163
+		culture = brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
+	farmers = {
 
+<<<<<<< HEAD
 }
 2447 = {
 
 	aristocrats = {
 
 		size = 3381
+=======
+		size = 7911
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
+<<<<<<< HEAD
 	artisans = {
 
 		size = 8197
 		culture = brazilian
+=======
+	farmers = {
+
+		size = 2382
+		culture = afro_brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
-	artisans = {
+	slaves = {
 
+<<<<<<< HEAD
+		size = 8197
+		culture = brazilian
+=======
+		size = 4529
+		culture = afro_brazilian
+>>>>>>> Experimental-Branch
+		religion = catholic
+
+	}
+
+<<<<<<< HEAD
 		size = 8197
 		culture = brazilian
 		religion = catholic
+=======
+}
+2445 = {
+>>>>>>> Experimental-Branch
 
-	}
 	artisans = {
 
-		size = 8197
-		culture = brazilian
-		religion = catholic
-
-	}
-	artisans = {
-
+<<<<<<< HEAD
 		size = 122
+=======
+		size = 225
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	artisans = {
 
+<<<<<<< HEAD
 		size = 1926
+=======
+		size = 409
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
-	bureaucrats = {
+	clergymen = {
 
+<<<<<<< HEAD
 		size = 368
+=======
+		size = 143
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
-	clergymen = {
+	farmers = {
 
+<<<<<<< HEAD
 		size = 1311
+=======
+		size = 5067
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
-	clergymen = {
+	farmers = {
 
+<<<<<<< HEAD
 		size = 122
+=======
+		size = 2738
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
+<<<<<<< HEAD
 	farmers = {
 
 		size = 89279
@@ -4960,10 +5477,27 @@
 	officers = {
 
 		size = 204
+=======
+	slaves = {
+
+		size = 4898
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+
+}
+2446 = {
+
+	aristocrats = {
+
+		size = 3033
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
+<<<<<<< HEAD
 	slaves = {
 
 		size = 14756
@@ -4988,14 +5522,47 @@
 
 }
 2448 = {
-
+=======
 	artisans = {
 
-		size = 660
+		size = 430
 		culture = brazilian
 		religion = catholic
 
 	}
+	artisans = {
+
+		size = 901
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 184
+		culture = brazilian
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 81
+		culture = afro_brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	artisans = {
+
+<<<<<<< HEAD
+		size = 660
+=======
+		size = 9427
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+<<<<<<< HEAD
 	artisans = {
 
 		size = 901
@@ -5013,26 +5580,47 @@
 	clergymen = {
 
 		size = 244
-		culture = brazilian
-		religion = catholic
+=======
+	labourers = {
 
-	}
-	clergymen = {
-
-		size = 81
+		size = 5492
 		culture = afro_brazilian
 		religion = catholic
 
 	}
-	farmers = {
+	officers = {
 
+		size = 184
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	slaves = {
+
+<<<<<<< HEAD
+		size = 81
+=======
+		size = 9837
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	soldiers = {
+
+<<<<<<< HEAD
 		size = 14633
+=======
+		size = 1926
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 6640
 		culture = afro_brazilian
 		religion = catholic
@@ -5041,23 +5629,35 @@
 	slaves = {
 
 		size = 9837
+=======
+		size = 163
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
 
 }
+<<<<<<< HEAD
 2449 = {
+=======
+2447 = {
+>>>>>>> Experimental-Branch
 
-	artisans = {
+	aristocrats = {
 
+<<<<<<< HEAD
 		size = 594
+=======
+		size = 3381
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	artisans = {
 
+<<<<<<< HEAD
 		size = 491
 		culture = afro_brazilian
 		religion = catholic
@@ -5066,17 +5666,34 @@
 	clergymen = {
 
 		size = 225
+=======
+		size = 8197
 		culture = brazilian
 		religion = catholic
 
 	}
+	artisans = {
+
+		size = 8197
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+<<<<<<< HEAD
 	farmers = {
 
 		size = 13321
+=======
+	artisans = {
+
+		size = 8197
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
+<<<<<<< HEAD
 	farmers = {
 
 		size = 3463
@@ -5087,42 +5704,90 @@
 	slaves = {
 
 		size = 5738
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-
-}
-2450 = {
-
+=======
 	artisans = {
 
-		size = 1579
+		size = 122
 		culture = brazilian
 		religion = catholic
 
 	}
 	artisans = {
 
-		size = 614
+		size = 1926
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
 	bureaucrats = {
 
-		size = 102
+<<<<<<< HEAD
+}
+2450 = {
+=======
+		size = 368
 		culture = brazilian
 		religion = catholic
+>>>>>>> Experimental-Branch
 
 	}
 	clergymen = {
 
-		size = 510
+<<<<<<< HEAD
+		size = 1579
+=======
+		size = 1311
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
+	artisans = {
+
+<<<<<<< HEAD
+		size = 614
+=======
+		size = 122
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+<<<<<<< HEAD
+	bureaucrats = {
+
+		size = 102
+=======
+	farmers = {
+
+		size = 89279
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+<<<<<<< HEAD
+	clergymen = {
+
+		size = 510
+=======
+	farmers = {
+
+		size = 7542
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	officers = {
+
+		size = 204
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+<<<<<<< HEAD
 	farmers = {
 
 		size = 35169
@@ -5140,37 +5805,343 @@
 	slaves = {
 
 		size = 7378
+=======
+	slaves = {
+
+		size = 14756
 		culture = afro_brazilian
 		religion = catholic
 
 	}
+	soldiers = {
 
-}
-2451 = {
-
-	artisans = {
-
-		size = 758
+		size = 9591
 		culture = brazilian
 		religion = catholic
 
 	}
+	soldiers = {
+
+		size = 245
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+<<<<<<< HEAD
+
+}
+2451 = {
+=======
+
+}
+2448 = {
+
 	artisans = {
 
+		size = 660
+		culture = brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	artisans = {
+
+<<<<<<< HEAD
+		size = 758
+		culture = brazilian
+=======
+		size = 901
+		culture = afro_brazilian
+>>>>>>> Experimental-Branch
+		religion = catholic
+
+	}
+	bureaucrats = {
+
+<<<<<<< HEAD
 		size = 409
 		culture = afro_brazilian
+=======
+		size = 1
+		culture = brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 	clergymen = {
 
+<<<<<<< HEAD
 		size = 266
+		culture = brazilian
+=======
+		size = 244
+		culture = brazilian
+		religion = catholic
+
+	}
+	clergymen = {
+
+		size = 81
+		culture = afro_brazilian
+>>>>>>> Experimental-Branch
+		religion = catholic
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 17113
+=======
+		size = 14633
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 2746
+=======
+		size = 6640
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	slaves = {
+
+<<<<<<< HEAD
+		size = 4918
+=======
+		size = 9837
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+
+}
+<<<<<<< HEAD
+2452 = {
+
+	artisans = {
+
+		size = 327
+=======
+2449 = {
+
+	artisans = {
+
+		size = 594
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	artisans = {
+
+<<<<<<< HEAD
+		size = 245
+=======
+		size = 491
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	clergymen = {
+
+<<<<<<< HEAD
+		size = 143
+=======
+		size = 225
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 7419
+=======
+		size = 13321
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 1701
+=======
+		size = 3463
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	slaves = {
+
+<<<<<<< HEAD
+		size = 2869
+=======
+		size = 5738
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+
+}
+<<<<<<< HEAD
+2453 = {
+
+	artisans = {
+
+		size = 326
+=======
+2450 = {
+
+	artisans = {
+
+		size = 1579
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	artisans = {
+
+<<<<<<< HEAD
+		size = 163
+=======
+		size = 614
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	bureaucrats = {
+
+<<<<<<< HEAD
+		size = 1
+=======
+		size = 102
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	clergymen = {
+
+<<<<<<< HEAD
+		size = 122
+=======
+		size = 510
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 7460
+=======
+		size = 35169
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 983
+=======
+		size = 4119
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	slaves = {
+
+<<<<<<< HEAD
+		size = 2049
+=======
+		size = 7378
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+
+}
+<<<<<<< HEAD
+
+###2454
+
+2455 = {
+
+	artisans = {
+
+		size = 368
+=======
+2451 = {
+
+	artisans = {
+
+		size = 758
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	artisans = {
+
+<<<<<<< HEAD
+		size = 204
+=======
+		size = 409
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	clergymen = {
+
+<<<<<<< HEAD
+		size = 143
+=======
+		size = 266
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 8177
+		culture = brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+		size = 1393
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	slaves = {
+
+		size = 2459
+=======
 		size = 17113
 		culture = brazilian
 		religion = catholic
@@ -5186,37 +6157,70 @@
 	slaves = {
 
 		size = 4918
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
 
 }
+<<<<<<< HEAD
+2456 = {
+
+	artisans = {
+
+		size = 81
+=======
 2452 = {
 
 	artisans = {
 
 		size = 327
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	artisans = {
 
+<<<<<<< HEAD
+		size = 40
+		culture = brazilian
+=======
 		size = 245
 		culture = afro_brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 	clergymen = {
 
+<<<<<<< HEAD
+		size = 737
+=======
 		size = 143
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 890
+		culture = tupinamba
+		religion = animist
+
+	}
+
+}
+2457 = {
+
+	aristocrats = {
+
+		size = 1188
+		culture = brazilian
+=======
 		size = 7419
 		culture = brazilian
 		religion = catholic
@@ -5233,10 +6237,23 @@
 
 		size = 2869
 		culture = afro_brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
+	artisans = {
 
+<<<<<<< HEAD
+		size = 1248
+		culture = brazilian
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 204
+		culture = afro_brazilian
+=======
 }
 2453 = {
 
@@ -5244,11 +6261,15 @@
 
 		size = 326
 		culture = brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
-	artisans = {
+	bureaucrats = {
 
+<<<<<<< HEAD
+		size = 165
+=======
 		size = 163
 		culture = afro_brazilian
 		religion = catholic
@@ -5257,26 +6278,38 @@
 	bureaucrats = {
 
 		size = 1
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	clergymen = {
 
+<<<<<<< HEAD
+		size = 368
+=======
 		size = 122
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 27770
+=======
 		size = 7460
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 1393
+=======
 		size = 983
 		culture = afro_brazilian
 		religion = catholic
@@ -5285,11 +6318,31 @@
 	slaves = {
 
 		size = 2049
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
+	officers = {
 
+<<<<<<< HEAD
+		size = 102
+		culture = brazilian
+		religion = catholic
+
+	}
+	slaves = {
+
+		size = 2459
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	soldiers = {
+
+		size = 1192
+		culture = brazilian
+=======
 }
 
 ###2454
@@ -5307,57 +6360,104 @@
 
 		size = 204
 		culture = afro_brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 	clergymen = {
 
+<<<<<<< HEAD
+}
+2458 = {
+=======
 		size = 143
 		culture = brazilian
 		religion = catholic
+>>>>>>> Experimental-Branch
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 245
+=======
 		size = 8177
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
+<<<<<<< HEAD
+	artisans = {
+
+		size = 122
+=======
 	farmers = {
 
 		size = 1393
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
+<<<<<<< HEAD
+	clergymen = {
+
+		size = 102
+		culture = brazilian
+=======
 	slaves = {
 
 		size = 2459
 		culture = afro_brazilian
-		religion = catholic
-
-	}
-
-}
-2456 = {
-
-	artisans = {
-
-		size = 81
-		culture = brazilian
-		religion = catholic
-
-	}
-	clergymen = {
-
-		size = 40
-		culture = brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 4426
+		culture = brazilian
+		religion = catholic
+=======
+}
+2456 = {
+>>>>>>> Experimental-Branch
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 1024
+		culture = afro_brazilian
+=======
+		size = 81
+		culture = brazilian
+>>>>>>> Experimental-Branch
+		religion = catholic
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 900
+		culture = tupinamba
+		religion = animist
+=======
+		size = 40
+		culture = brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	}
+	slaves = {
+
+<<<<<<< HEAD
+		size = 1434
+		culture = afro_brazilian
+		religion = catholic
+=======
 		size = 737
 		culture = brazilian
 		religion = catholic
@@ -5368,14 +6468,22 @@
 		size = 890
 		culture = tupinamba
 		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
 
 }
+<<<<<<< HEAD
+2459 = {
+=======
 2457 = {
+>>>>>>> Experimental-Branch
 
 	aristocrats = {
 
+<<<<<<< HEAD
+		size = 217
+=======
 		size = 1188
 		culture = brazilian
 		religion = catholic
@@ -5384,40 +6492,79 @@
 	artisans = {
 
 		size = 1248
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	artisans = {
 
+<<<<<<< HEAD
+		size = 163
+=======
 		size = 204
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
+<<<<<<< HEAD
+	artisans = {
+
+		size = 247
+		culture = guarani
+		religion = animist
+=======
 	bureaucrats = {
 
 		size = 165
 		culture = brazilian
 		religion = catholic
+>>>>>>> Experimental-Branch
 
 	}
 	clergymen = {
 
+<<<<<<< HEAD
+		size = 143
+=======
 		size = 368
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 4406
+=======
 		size = 27770
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 983
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+		size = 4526
+		culture = guarani
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 2049
+		culture = afro_brazilian
+=======
 		size = 1393
 		culture = afro_brazilian
 		religion = catholic
@@ -5441,163 +6588,80 @@
 
 		size = 1192
 		culture = brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 
 }
-2458 = {
-
-	artisans = {
-
-		size = 245
-		culture = brazilian
-		religion = catholic
-
-	}
-	artisans = {
-
-		size = 122
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-	clergymen = {
-
-		size = 102
-		culture = brazilian
-		religion = catholic
-
-	}
-	farmers = {
-
-		size = 4426
-		culture = brazilian
-		religion = catholic
-
-	}
-	farmers = {
-
-		size = 1024
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-	farmers = {
-
-		size = 900
-		culture = tupinamba
-		religion = animist
-
-	}
-	slaves = {
-
-		size = 1434
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-
-}
-2459 = {
-
-	artisans = {
-
-		size = 217
-		culture = brazilian
-		religion = catholic
-
-	}
-	artisans = {
-
-		size = 163
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-	artisans = {
-
-		size = 247
-		culture = guarani
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 143
-		culture = brazilian
-		religion = catholic
-
-	}
-	farmers = {
-
-		size = 4406
-		culture = brazilian
-		religion = catholic
-
-	}
-	farmers = {
-
-		size = 983
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-	farmers = {
-
-		size = 4526
-		culture = guarani
-		religion = animist
-
-	}
-	slaves = {
-
-		size = 2049
-		culture = afro_brazilian
-		religion = catholic
-
-	}
-
-}
+<<<<<<< HEAD
 2460 = {
 
 	artisans = {
 
 		size = 471
+=======
+2458 = {
+
+	artisans = {
+
+		size = 245
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	artisans = {
 
+<<<<<<< HEAD
 		size = 163
+=======
+		size = 122
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
 	clergymen = {
 
+<<<<<<< HEAD
 		size = 184
+=======
+		size = 102
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
+<<<<<<< HEAD
 	craftsmen = {
 
 		size = 20
 		culture = north_italian
+=======
+	farmers = {
+
+		size = 4426
+		culture = brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 9694
 		culture = brazilian
+=======
+		size = 1024
+		culture = afro_brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 983
 		culture = afro_brazilian
 		religion = catholic
@@ -5605,6 +6669,8 @@
 	}
 	farmers = {
 
+=======
+>>>>>>> Experimental-Branch
 		size = 900
 		culture = tupinamba
 		religion = animist
@@ -5612,52 +6678,84 @@
 	}
 	slaves = {
 
+<<<<<<< HEAD
 		size = 2049
+=======
+		size = 1434
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
 
 }
+<<<<<<< HEAD
 2461 = {
 
 	aristocrats = {
 
 		size = 963
+=======
+2459 = {
+
+	artisans = {
+
+		size = 217
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	artisans = {
 
+<<<<<<< HEAD
 		size = 532
 		culture = brazilian
+=======
+		size = 163
+		culture = afro_brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 	artisans = {
 
+<<<<<<< HEAD
 		size = 245
 		culture = afro_brazilian
 		religion = catholic
+=======
+		size = 247
+		culture = guarani
+		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
 	clergymen = {
 
+<<<<<<< HEAD
 		size = 204
+=======
+		size = 143
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 11907
+=======
+		size = 4406
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 1701
 		culture = afro_brazilian
 		religion = catholic
@@ -5681,50 +6779,112 @@
 
 		size = 512
 		culture = brazilian
+=======
+		size = 983
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+		size = 4526
+		culture = guarani
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 2049
+		culture = afro_brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 
 }
+<<<<<<< HEAD
 2462 = {
 
 	artisans = {
 
 		size = 430
+=======
+2460 = {
+
+	artisans = {
+
+		size = 471
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	artisans = {
 
+<<<<<<< HEAD
 		size = 286
+		culture = afro_brazilian
+		religion = catholic
+=======
+		size = 163
 		culture = afro_brazilian
 		religion = catholic
 
 	}
 	clergymen = {
 
+		size = 184
+		culture = brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	}
+	craftsmen = {
+
+<<<<<<< HEAD
 		size = 182
 		culture = brazilian
+=======
+		size = 20
+		culture = north_italian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 	labourers = {
 
+<<<<<<< HEAD
 		size = 9653
+=======
+		size = 9694
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	labourers = {
 
+<<<<<<< HEAD
 		size = 2049
+		culture = afro_brazilian
+		religion = catholic
+=======
+		size = 983
 		culture = afro_brazilian
 		religion = catholic
 
 	}
+	farmers = {
+
+		size = 900
+		culture = tupinamba
+		religion = animist
+>>>>>>> Experimental-Branch
+
+	}
 	slaves = {
 
+<<<<<<< HEAD
 		size = 3279
 		culture = afro_brazilian
 		religion = catholic
@@ -5744,6 +6904,19 @@
 	artisans = {
 
 		size = 2233
+=======
+		size = 2049
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+
+}
+2461 = {
+
+	aristocrats = {
+
+		size = 963
 		culture = brazilian
 		religion = catholic
 
@@ -5751,93 +6924,167 @@
 	artisans = {
 
 		size = 532
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	artisans = {
+
+<<<<<<< HEAD
+		size = 532
+=======
+		size = 245
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
 	bureaucrats = {
 
+<<<<<<< HEAD
 		size = 245
-		culture = brazilian
-		religion = catholic
-
-	}
-	clergymen = {
-
-		size = 491
+=======
+		size = 204
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 491
+=======
+		size = 11907
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
 		size = 26735
 		culture = brazilian
-		religion = catholic
-
-	}
-	farmers = {
-
-		size = 3422
+=======
+		size = 1701
 		culture = afro_brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 	officers = {
 
+<<<<<<< HEAD
+		size = 3422
+		culture = afro_brazilian
+=======
+		size = 1
+		culture = brazilian
+>>>>>>> Experimental-Branch
+		religion = catholic
+
+	}
+	officers = {
+
+<<<<<<< HEAD
 		size = 184
+=======
+		size = 2869
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	soldiers = {
+
+		size = 512
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	slaves = {
 
+<<<<<<< HEAD
 		size = 6558
 		culture = afro_brazilian
 		religion = catholic
+=======
+}
+2462 = {
+>>>>>>> Experimental-Branch
 
 	}
 	soldiers = {
 
+<<<<<<< HEAD
 		size = 11846
+=======
+		size = 430
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
+<<<<<<< HEAD
 	soldiers = {
 
 		size = 102
+=======
+	artisans = {
+
+		size = 286
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
+<<<<<<< HEAD
 	soldiers = {
 
 		size = 98
 		culture = guarani
 		religion = animist
+=======
+	clergymen = {
+
+		size = 182
+		culture = brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
 
 	}
+	labourers = {
 
+<<<<<<< HEAD
 }
 2464 = {
 
 	artisans = {
 
 		size = 245
+=======
+		size = 9653
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
-	artisans = {
+	labourers = {
 
+<<<<<<< HEAD
 		size = 163
+=======
+		size = 2049
+>>>>>>> Experimental-Branch
 		culture = afro_brazilian
 		religion = catholic
 
 	}
-	clergymen = {
+	slaves = {
 
+<<<<<<< HEAD
 		size = 102
 		culture = brazilian
 		religion = catholic
@@ -5867,16 +7114,31 @@
 
 }
 2465 = {
+=======
+		size = 3279
+		culture = afro_brazilian
+		religion = catholic
 
-	artisans = {
+	}
 
+}
+2463 = {
+>>>>>>> Experimental-Branch
+
+	aristocrats = {
+
+<<<<<<< HEAD
 		size = 594
+=======
+		size = 1926
+>>>>>>> Experimental-Branch
 		culture = brazilian
 		religion = catholic
 
 	}
 	artisans = {
 
+<<<<<<< HEAD
 		size = 204
 		culture = afro_brazilian
 		religion = catholic
@@ -5887,31 +7149,51 @@
 		size = 247
 		culture = guarani
 		religion = animist
+=======
+		size = 2233
+		culture = brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	}
+	artisans = {
+
+<<<<<<< HEAD
+		size = 286
+		culture = brazilian
+=======
+		size = 532
+		culture = afro_brazilian
+>>>>>>> Experimental-Branch
+		religion = catholic
+
+	}
+	bureaucrats = {
+
+<<<<<<< HEAD
+		size = 11477
+=======
+		size = 245
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
 
 	}
 	clergymen = {
 
-		size = 286
-		culture = brazilian
-		religion = catholic
-
-	}
-	farmers = {
-
-		size = 11477
-		culture = brazilian
-		religion = catholic
-
-	}
-	farmers = {
-
+<<<<<<< HEAD
 		size = 1393
 		culture = afro_brazilian
+=======
+		size = 491
+		culture = brazilian
+>>>>>>> Experimental-Branch
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 4601
 		culture = guarani
 		religion = animist
@@ -5939,11 +7221,30 @@
 
 		size = 245
 		culture = afro_brazilian
+=======
+		size = 26735
+		culture = brazilian
 		religion = catholic
 
 	}
-	clergymen = {
+	farmers = {
 
+		size = 3422
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	officers = {
+
+		size = 184
+		culture = brazilian
+>>>>>>> Experimental-Branch
+		religion = catholic
+
+	}
+	slaves = {
+
+<<<<<<< HEAD
 		size = 204
 		culture = brazilian
 		religion = catholic
@@ -5952,12 +7253,267 @@
 	farmers = {
 
 		size = 9837
+=======
+		size = 6558
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	soldiers = {
+
+		size = 11846
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+<<<<<<< HEAD
+	farmers = {
+
+		size = 1701
+=======
+	soldiers = {
+
+		size = 102
+>>>>>>> Experimental-Branch
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+<<<<<<< HEAD
+	slaves = {
+
+		size = 2869
+		culture = afro_brazilian
+		religion = catholic
+=======
+	soldiers = {
+
+		size = 98
+		culture = guarani
+		religion = animist
+>>>>>>> Experimental-Branch
+
+	}
+
+}
+<<<<<<< HEAD
+2467 = {
+
+	artisans = {
+
+		size = 163
+=======
+2464 = {
+
+	artisans = {
+
+		size = 245
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	artisans = {
+
+<<<<<<< HEAD
+		size = 247
+		culture = guarani
+		religion = animist
+=======
+		size = 163
+		culture = afro_brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	}
+	clergymen = {
+
+		size = 102
 		culture = brazilian
 		religion = catholic
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 1639
+=======
+		size = 3279
+>>>>>>> Experimental-Branch
+		culture = brazilian
+		religion = catholic
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 4526
+		culture = guarani
+		religion = animist
+=======
+		size = 983
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+	slaves = {
+
+		size = 2049
+		culture = afro_brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	}
+
+}
+<<<<<<< HEAD
+2468 = {
+=======
+2465 = {
+
+	artisans = {
+
+		size = 594
+		culture = brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	aristocrats = {
+
+<<<<<<< HEAD
+		size = 158
+		culture = aborigine
+		religion = animist
+=======
+		size = 204
+		culture = afro_brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	}
+	artisans = {
+
+<<<<<<< HEAD
+		size = 3204
+		culture = british
+		religion = protestant
+=======
+		size = 247
+		culture = guarani
+		religion = animist
+>>>>>>> Experimental-Branch
+
+	}
+	bureaucrats = {
+
+<<<<<<< HEAD
+		size = 32
+		culture = british
+		religion = protestant
+=======
+		size = 286
+		culture = brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 105
+		culture = british
+		religion = protestant
+=======
+		size = 11477
+		culture = brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 4029
+		culture = british
+		religion = protestant
+=======
+		size = 1393
+		culture = afro_brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 2949
+		culture = irish
+=======
+		size = 4601
+		culture = guarani
+		religion = animist
+
+	}
+	slaves = {
+
+		size = 2459
+		culture = afro_brazilian
+		religion = catholic
+
+	}
+
+}
+2466 = {
+
+	artisans = {
+
+		size = 532
+		culture = brazilian
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 245
+		culture = afro_brazilian
+>>>>>>> Experimental-Branch
+		religion = catholic
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 2770
+		culture = aborigine
+		religion = animist
+=======
+		size = 204
+		culture = brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	}
+	soldiers = {
+
+<<<<<<< HEAD
+		size = 1123
+		culture = british
+		religion = protestant
+=======
+		size = 9837
+		culture = brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	}
+	soldiers = {
+
+<<<<<<< HEAD
+		size = 870
+		culture = aborigine
+		religion = animist
+=======
 		size = 1701
 		culture = afro_brazilian
 		religion = catholic
@@ -5968,10 +7524,20 @@
 		size = 2869
 		culture = afro_brazilian
 		religion = catholic
+>>>>>>> Experimental-Branch
 
 	}
 
 }
+<<<<<<< HEAD
+2469 = {
+
+	artisans = {
+
+		size = 228
+		culture = british
+		religion = protestant
+=======
 2467 = {
 
 	artisans = {
@@ -5986,17 +7552,43 @@
 		size = 247
 		culture = guarani
 		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
 	clergymen = {
 
+<<<<<<< HEAD
+		size = 41
+		culture = british
+		religion = protestant
+=======
 		size = 102
 		culture = brazilian
 		religion = catholic
+>>>>>>> Experimental-Branch
 
 	}
-	farmers = {
+	labourers = {
 
+<<<<<<< HEAD
+		size = 1529
+		culture = british
+		religion = protestant
+
+	}
+	labourers = {
+
+		size = 1088
+		culture = irish
+		religion = catholic
+
+	}
+	labourers = {
+
+		size = 915
+		culture = aborigine
+		religion = animist
+=======
 		size = 1639
 		culture = brazilian
 		religion = catholic
@@ -6023,59 +7615,99 @@
 	artisans = {
 
 		size = 3204
-		culture = british
+		culture = australian
 		religion = protestant
+>>>>>>> Experimental-Branch
 
 	}
-	bureaucrats = {
 
+<<<<<<< HEAD
+}
+2470 = {
+=======
 		size = 32
-		culture = british
+		culture = australian
 		religion = protestant
+>>>>>>> Experimental-Branch
 
-	}
-	clergymen = {
+	artisans = {
 
+<<<<<<< HEAD
+		size = 45
+		culture = british
+=======
 		size = 105
-		culture = british
+		culture = australian
+>>>>>>> Experimental-Branch
 		religion = protestant
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 68
+		culture = british
+=======
 		size = 4029
-		culture = british
+		culture = australian
+>>>>>>> Experimental-Branch
 		religion = protestant
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 824
+		culture = british
+		religion = protestant
+=======
 		size = 2949
 		culture = irish
 		religion = catholic
+>>>>>>> Experimental-Branch
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+		size = 1731
+=======
 		size = 2770
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
 	soldiers = {
 
+<<<<<<< HEAD
+}
+2471 = {
+
+	clergymen = {
+
+		size = 148
+=======
 		size = 1123
-		culture = british
+		culture = australian
 		religion = protestant
 
 	}
 	soldiers = {
 
 		size = 870
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
+<<<<<<< HEAD
+	farmers = {
+
+		size = 1731
+		culture = aborigine
+		religion = animist
+=======
 
 }
 2469 = {
@@ -6083,71 +7715,145 @@
 	artisans = {
 
 		size = 228
+		culture = australian
+		religion = protestant
+>>>>>>> Experimental-Branch
+
+	}
+
+}
+2472 = {
+
+	clergymen = {
+
+<<<<<<< HEAD
+		size = 24
+		culture = aborigine
+		religion = animist
+=======
+		size = 41
+		culture = australian
+		religion = protestant
+>>>>>>> Experimental-Branch
+
+	}
+	labourers = {
+
+<<<<<<< HEAD
+		size = 114
 		culture = british
+=======
+		size = 1529
+		culture = australian
+>>>>>>> Experimental-Branch
+		religion = protestant
+
+	}
+	labourers = {
+
+<<<<<<< HEAD
+		size = 890
+		culture = aborigine
+		religion = animist
+=======
+		size = 1088
+		culture = irish
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	}
+	labourers = {
+
+<<<<<<< HEAD
+		size = 1694
+		culture = british
+		religion = protestant
+=======
+		size = 915
+		culture = aborigine
+		religion = animist
+>>>>>>> Experimental-Branch
+
+	}
+
+}
+<<<<<<< HEAD
+2473 = {
+=======
+2470 = {
+>>>>>>> Experimental-Branch
+
+	artisans = {
+
+		size = 45
+<<<<<<< HEAD
+		culture = british
+=======
+		culture = australian
+>>>>>>> Experimental-Branch
+		religion = protestant
+
+	}
+	bureaucrats = {
+
+<<<<<<< HEAD
+		size = 1
+		culture = british
+=======
+		size = 68
+		culture = australian
+>>>>>>> Experimental-Branch
 		religion = protestant
 
 	}
 	clergymen = {
 
-		size = 41
+<<<<<<< HEAD
+		size = 68
 		culture = british
+=======
+		size = 824
+		culture = australian
+>>>>>>> Experimental-Branch
 		religion = protestant
 
 	}
-	labourers = {
+	farmers = {
 
-		size = 1529
+<<<<<<< HEAD
+		size = 822
 		culture = british
 		religion = protestant
+=======
+		size = 1731
+		culture = aborigine
+		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
-	labourers = {
+	farmers = {
 
-		size = 1088
-		culture = irish
-		religion = catholic
-
-	}
-	labourers = {
-
-		size = 915
+<<<<<<< HEAD
+		size = 1830
 		culture = aborigine
 		religion = animist
 
 	}
 
 }
-2470 = {
+2474 = {
 
-	artisans = {
-
-		size = 45
-		culture = british
-		religion = protestant
-
-	}
 	clergymen = {
 
-		size = 68
-		culture = british
-		religion = protestant
-
-	}
-	farmers = {
-
-		size = 824
-		culture = british
-		religion = protestant
-
-	}
-	farmers = {
-
-		size = 1731
+		size = 49
 		culture = aborigine
 		religion = animist
 
 	}
+	farmers = {
 
+		size = 1830
+=======
 }
 2471 = {
 
@@ -6172,88 +7878,12 @@
 	clergymen = {
 
 		size = 24
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
-	clergymen = {
-
-		size = 114
-		culture = british
-		religion = protestant
-
-	}
-	farmers = {
-
-		size = 890
-		culture = aborigine
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 1694
-		culture = british
-		religion = protestant
-
-	}
-
-}
-2473 = {
-
-	artisans = {
-
-		size = 45
-		culture = british
-		religion = protestant
-
-	}
-	bureaucrats = {
-
-		size = 1
-		culture = british
-		religion = protestant
-
-	}
-	clergymen = {
-
-		size = 68
-		culture = british
-		religion = protestant
-
-	}
-	farmers = {
-
-		size = 822
-		culture = british
-		religion = protestant
-
-	}
-	farmers = {
-
-		size = 1830
-		culture = aborigine
-		religion = animist
-
-	}
-
-}
-2474 = {
-
-	clergymen = {
-
-		size = 49
-		culture = aborigine
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 1830
-		culture = aborigine
-		religion = animist
-
-	}
+<<<<<<< HEAD
 
 }
 2475 = {
@@ -6261,19 +7891,40 @@
 	clergymen = {
 
 		size = 74
+=======
+	clergymen = {
+
+		size = 114
+		culture = australian
+		religion = protestant
+
+	}
+	farmers = {
+
+		size = 890
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
+<<<<<<< HEAD
 	labourers = {
 
 		size = 2671
 		culture = aborigine
 		religion = animist
+=======
+	farmers = {
+
+		size = 1694
+		culture = australian
+		religion = protestant
+>>>>>>> Experimental-Branch
 
 	}
 
 }
+<<<<<<< HEAD
 2476 = {
 
 	aristocrats = {
@@ -6281,10 +7932,20 @@
 		size = 143
 		culture = aborigine
 		religion = animist
+=======
+2473 = {
+
+	artisans = {
+
+		size = 45
+		culture = australian
+		religion = protestant
+>>>>>>> Experimental-Branch
 
 	}
-	clergymen = {
+	bureaucrats = {
 
+<<<<<<< HEAD
 		size = 74
 		culture = aborigine
 		religion = animist
@@ -6302,18 +7963,47 @@
 		size = 277
 		culture = aborigine
 		religion = animist
+=======
+		size = 1
+		culture = australian
+		religion = protestant
 
 	}
-	soldiers = {
+	clergymen = {
 
+		size = 68
+		culture = australian
+		religion = protestant
+
+	}
+	farmers = {
+
+		size = 822
+		culture = australian
+		religion = protestant
+>>>>>>> Experimental-Branch
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
 		size = 91
 		culture = british
 		religion = protestant
+=======
+		size = 1830
+		culture = aborigine
+		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
 
 }
+<<<<<<< HEAD
 2477 = {
+=======
+2474 = {
+>>>>>>> Experimental-Branch
 
 	clergymen = {
 
@@ -6331,41 +8021,73 @@
 	}
 
 }
+<<<<<<< HEAD
 2478 = {
 
 	clergymen = {
 
 		size = 49
+=======
+2475 = {
+
+	clergymen = {
+
+		size = 74
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
-	farmers = {
+	labourers = {
 
+<<<<<<< HEAD
 		size = 1731
+=======
+		size = 2671
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
 
 }
+<<<<<<< HEAD
 2479 = {
+=======
+2476 = {
+
+	aristocrats = {
+
+		size = 143
+		culture = aborigine
+		religion = animist
+>>>>>>> Experimental-Branch
 
 	clergymen = {
 
+<<<<<<< HEAD
 		size = 49
+=======
+		size = 74
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 1731
+=======
+		size = 2671
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
+	soldiers = {
 
+<<<<<<< HEAD
 }
 2480 = {
 
@@ -6379,10 +8101,14 @@
 	farmers = {
 
 		size = 890
+=======
+		size = 277
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
+<<<<<<< HEAD
 
 }
 2481 = {
@@ -6397,10 +8123,27 @@
 	labourers = {
 
 		size = 890
+=======
+	soldiers = {
+
+		size = 91
+		culture = australian
+		religion = protestant
+
+	}
+
+}
+2477 = {
+
+	clergymen = {
+
+		size = 49
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
+<<<<<<< HEAD
 
 }
 2482 = {
@@ -6417,17 +8160,42 @@
 		size = 91
 		culture = british
 		religion = protestant
+=======
+	farmers = {
 
-	}
-	labourers = {
-
-		size = 8035
-		culture = british
-		religion = protestant
+		size = 1830
+		culture = aborigine
+		religion = animist
 
 	}
 
 }
+2478 = {
+
+	clergymen = {
+
+		size = 49
+		culture = aborigine
+		religion = animist
+>>>>>>> Experimental-Branch
+
+	}
+	labourers = {
+
+<<<<<<< HEAD
+		size = 8035
+		culture = british
+		religion = protestant
+=======
+		size = 1731
+		culture = aborigine
+		religion = animist
+>>>>>>> Experimental-Branch
+
+	}
+
+}
+<<<<<<< HEAD
 2483 = {
 
 	aristocrats = {
@@ -6449,17 +8217,26 @@
 		size = 49
 		culture = aborigine
 		religion = animist
+=======
+2479 = {
+>>>>>>> Experimental-Branch
 
-	}
 	clergymen = {
 
+<<<<<<< HEAD
 		size = 22
 		culture = british
 		religion = protestant
+=======
+		size = 49
+		culture = aborigine
+		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 188
 		culture = aborigine
 		religion = animist
@@ -6470,10 +8247,16 @@
 		size = 824
 		culture = british
 		religion = protestant
+=======
+		size = 1731
+		culture = aborigine
+		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
 	soldiers = {
 
+<<<<<<< HEAD
 		size = 257
 		culture = aborigine
 		religion = animist
@@ -6493,20 +8276,36 @@
 	clergymen = {
 
 		size = 49
+=======
+}
+2480 = {
+
+	clergymen = {
+
+		size = 24
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 1830
+=======
+		size = 890
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
 
 }
+<<<<<<< HEAD
 2485 = {
+=======
+2481 = {
+>>>>>>> Experimental-Branch
 
 	clergymen = {
 
@@ -6515,7 +8314,11 @@
 		religion = animist
 
 	}
+<<<<<<< HEAD
 	farmers = {
+=======
+	labourers = {
+>>>>>>> Experimental-Branch
 
 		size = 890
 		culture = aborigine
@@ -6524,6 +8327,7 @@
 	}
 
 }
+<<<<<<< HEAD
 2486 = {
 
 	clergymen = {
@@ -6531,16 +8335,33 @@
 		size = 47
 		culture = aborigine
 		religion = animist
+=======
+2482 = {
+
+	bureaucrats = {
+
+		size = 22
+		culture = australian
+		religion = protestant
+>>>>>>> Experimental-Branch
 
 	}
-	farmers = {
+	clergymen = {
 
+<<<<<<< HEAD
 		size = 1733
 		culture = aborigine
 		religion = animist
+=======
+		size = 91
+		culture = australian
+		religion = protestant
+>>>>>>> Experimental-Branch
 
 	}
+	labourers = {
 
+<<<<<<< HEAD
 }
 2487 = {
 
@@ -6554,11 +8375,26 @@
 	farmers = {
 
 		size = 1731
+=======
+		size = 8035
+		culture = australian
+		religion = protestant
+
+	}
+
+}
+2483 = {
+
+	aristocrats = {
+
+		size = 168
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
 
+<<<<<<< HEAD
 }
 2488 = {
 
@@ -6574,62 +8410,114 @@
 		size = 2374
 		culture = aborigine
 		religion = animist
+=======
+		size = 45
+		culture = australian
+		religion = protestant
+>>>>>>> Experimental-Branch
 
 	}
 
+<<<<<<< HEAD
 }
 2489 = {
+=======
+		size = 49
+		culture = aborigine
+		religion = animist
+>>>>>>> Experimental-Branch
 
 	clergymen = {
 
+<<<<<<< HEAD
 		size = 24
 		culture = aborigine
 		religion = animist
+=======
+		size = 22
+		culture = australian
+		religion = protestant
+>>>>>>> Experimental-Branch
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 940
+=======
+		size = 188
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
 
+<<<<<<< HEAD
 }
 2490 = {
+=======
+		size = 824
+		culture = australian
+		religion = protestant
+>>>>>>> Experimental-Branch
 
 	clergymen = {
 
+<<<<<<< HEAD
 		size = 24
+=======
+		size = 257
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 890
 		culture = aborigine
 		religion = animist
+=======
+		size = 22
+		culture = australian
+		religion = protestant
+>>>>>>> Experimental-Branch
 
 	}
 
 }
+<<<<<<< HEAD
 2491 = {
 
 	aristocrats = {
 
 		size = 98
+=======
+2484 = {
+
+	clergymen = {
+
+		size = 49
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
+<<<<<<< HEAD
 	clergymen = {
 
 		size = 74
+=======
+	farmers = {
+
+		size = 1830
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
+<<<<<<< HEAD
 	farmers = {
 
 		size = 2869
@@ -6640,10 +8528,20 @@
 	soldiers = {
 
 		size = 98
+=======
+
+}
+2485 = {
+
+	clergymen = {
+
+		size = 24
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
+<<<<<<< HEAD
 
 }
 2492 = {
@@ -6658,10 +8556,27 @@
 	farmers = {
 
 		size = 890
+=======
+	farmers = {
+
+		size = 890
 		culture = aborigine
 		religion = animist
 
 	}
+
+}
+2486 = {
+
+	clergymen = {
+
+		size = 47
+>>>>>>> Experimental-Branch
+		culture = aborigine
+		religion = animist
+
+	}
+<<<<<<< HEAD
 
 }
 2493 = {
@@ -6676,10 +8591,27 @@
 	farmers = {
 
 		size = 890
+=======
+	farmers = {
+
+		size = 1733
 		culture = aborigine
 		religion = animist
 
 	}
+
+}
+2487 = {
+
+	clergymen = {
+
+		size = 49
+>>>>>>> Experimental-Branch
+		culture = aborigine
+		religion = animist
+
+	}
+<<<<<<< HEAD
 
 }
 2494 = {
@@ -6689,18 +8621,176 @@
 		size = 24
 		culture = aborigine
 		religion = animist
+=======
+	farmers = {
 
-	}
-	labourers = {
-
-		size = 890
+		size = 1731
 		culture = aborigine
 		religion = animist
 
 	}
 
 }
+2488 = {
+>>>>>>> Experimental-Branch
+
+	clergymen = {
+
+<<<<<<< HEAD
+		size = 890
+=======
+		size = 49
+>>>>>>> Experimental-Branch
+		culture = aborigine
+		religion = animist
+
+	}
+
+<<<<<<< HEAD
+}
 2495 = {
+
+	clergymen = {
+
+=======
+		size = 2374
+		culture = aborigine
+		religion = animist
+
+	}
+
+}
+2489 = {
+
+	clergymen = {
+
+>>>>>>> Experimental-Branch
+		size = 24
+		culture = aborigine
+		religion = animist
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 890
+=======
+		size = 940
+>>>>>>> Experimental-Branch
+		culture = aborigine
+		religion = animist
+
+	}
+
+}
+<<<<<<< HEAD
+2496 = {
+=======
+###2490 ---> Removed Provinces.txt
+2491 = {
+
+	aristocrats = {
+
+		size = 98
+		culture = aborigine
+		religion = animist
+>>>>>>> Experimental-Branch
+
+	clergymen = {
+
+<<<<<<< HEAD
+		size = 24
+=======
+		size = 74
+>>>>>>> Experimental-Branch
+		culture = aborigine
+		religion = animist
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 890
+=======
+		size = 2869
+>>>>>>> Experimental-Branch
+		culture = aborigine
+		religion = animist
+
+	}
+	soldiers = {
+
+<<<<<<< HEAD
+}
+2497 = {
+
+	aristocrats = {
+
+		size = 227
+=======
+		size = 98
+>>>>>>> Experimental-Branch
+		culture = aborigine
+		religion = animist
+
+	}
+<<<<<<< HEAD
+	clergymen = {
+
+		size = 13
+		culture = british
+		religion = protestant
+=======
+
+}
+2492 = {
+>>>>>>> Experimental-Branch
+
+	clergymen = {
+
+<<<<<<< HEAD
+		size = 123
+		culture = aborigine
+		religion = animist
+
+	}
+	farmers = {
+
+		size = 627
+		culture = british
+		religion = protestant
+=======
+		size = 24
+		culture = aborigine
+		religion = animist
+>>>>>>> Experimental-Branch
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 4700
+=======
+		size = 890
+>>>>>>> Experimental-Branch
+		culture = aborigine
+		religion = animist
+
+	}
+	soldiers = {
+
+<<<<<<< HEAD
+		size = 9
+		culture = british
+		religion = protestant
+
+	}
+	soldiers = {
+
+		size = 192
+=======
+}
+2493 = {
 
 	clergymen = {
 
@@ -6712,12 +8802,51 @@
 	farmers = {
 
 		size = 890
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
 
 }
+<<<<<<< HEAD
+2498 = {
+
+	clergymen = {
+
+		size = 74
+=======
+2494 = {
+
+	clergymen = {
+
+		size = 24
+>>>>>>> Experimental-Branch
+		culture = aborigine
+		religion = animist
+
+	}
+	labourers = {
+
+<<<<<<< HEAD
+		size = 2671
+=======
+		size = 890
+>>>>>>> Experimental-Branch
+		culture = aborigine
+		religion = animist
+
+	}
+
+}
+<<<<<<< HEAD
+2499 = {
+
+	clergymen = {
+
+		size = 49
+=======
+###2495 ---> Removed Provinces.txt
 2496 = {
 
 	clergymen = {
@@ -6730,10 +8859,23 @@
 	farmers = {
 
 		size = 890
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
+<<<<<<< HEAD
+	labourers = {
+
+		size = 1830
+		culture = aborigine
+		religion = animist
+
+	}
+
+}
+2500 = {
+=======
 
 }
 2497 = {
@@ -6743,50 +8885,98 @@
 		size = 227
 		culture = aborigine
 		religion = animist
+>>>>>>> Experimental-Branch
 
-	}
 	clergymen = {
 
+<<<<<<< HEAD
+		size = 24
+		culture = aborigine
+		religion = animist
+=======
 		size = 13
-		culture = british
+		culture = australian
 		religion = protestant
+>>>>>>> Experimental-Branch
 
 	}
-	clergymen = {
+	farmers = {
 
+<<<<<<< HEAD
+		size = 890
+=======
 		size = 123
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
-	farmers = {
 
+<<<<<<< HEAD
+}
+2501 = {
+=======
 		size = 627
-		culture = british
+		culture = australian
 		religion = protestant
+>>>>>>> Experimental-Branch
 
-	}
-	farmers = {
+	clergymen = {
 
+<<<<<<< HEAD
+		size = 49
+=======
 		size = 4700
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
 	soldiers = {
+
+<<<<<<< HEAD
+		size = 1731
+		culture = aborigine
+		religion = animist
+=======
+		size = 9
+		culture = australian
+		religion = protestant
+>>>>>>> Experimental-Branch
+
+	}
+	soldiers = {
+
+<<<<<<< HEAD
+}
+2502 = {
+
+	clergymen = {
 
 		size = 9
-		culture = british
-		religion = protestant
-
-	}
-	soldiers = {
-
+=======
 		size = 192
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
+<<<<<<< HEAD
+	labourers = {
+
+		size = 445
+		culture = aborigine
+		religion = animist
+
+	}
+
+}
+2503 = {
+
+	clergymen = {
+
+		size = 14
+=======
 
 }
 2498 = {
@@ -6801,11 +8991,26 @@
 	labourers = {
 
 		size = 2671
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
 
+<<<<<<< HEAD
+		size = 623
+		culture = aborigine
+		religion = animist
+
+	}
+
+}
+2504 = {
+
+	clergymen = {
+
+		size = 24
+=======
 }
 2499 = {
 
@@ -6819,21 +9024,38 @@
 	labourers = {
 
 		size = 1830
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
+	labourers = {
 
+<<<<<<< HEAD
+		size = 890
+=======
 }
 2500 = {
 
 	clergymen = {
 
 		size = 24
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
+<<<<<<< HEAD
+
+}
+2505 = {
+
+	aristocrats = {
+
+		size = 110
+		culture = aborigine
+		religion = animist
+=======
 	farmers = {
 
 		size = 890
@@ -6844,42 +9066,76 @@
 
 }
 2501 = {
+>>>>>>> Experimental-Branch
 
 	clergymen = {
 
-		size = 49
-		culture = aborigine
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 1731
-		culture = aborigine
-		religion = animist
-
-	}
-
-}
-2502 = {
-
-	clergymen = {
-
-		size = 9
+<<<<<<< HEAD
+		size = 123
 		culture = aborigine
 		religion = animist
 
 	}
 	labourers = {
 
-		size = 445
+		size = 4452
+=======
+		size = 49
+>>>>>>> Experimental-Branch
+		culture = aborigine
+		religion = animist
+
+	}
+<<<<<<< HEAD
+	soldiers = {
+
+		size = 89
+=======
+	farmers = {
+
+		size = 1731
+>>>>>>> Experimental-Branch
 		culture = aborigine
 		religion = animist
 
 	}
 
 }
+<<<<<<< HEAD
+2506 = {
+
+	clergymen = {
+
+		size = 49
+=======
+2502 = {
+
+	clergymen = {
+
+		size = 9
+>>>>>>> Experimental-Branch
+		culture = aborigine
+		religion = animist
+
+	}
+	labourers = {
+
+<<<<<<< HEAD
+		size = 1731
+=======
+		size = 445
+>>>>>>> Experimental-Branch
+		culture = aborigine
+		religion = animist
+
+	}
+
+}
+<<<<<<< HEAD
+2507 = {
+=======
 2503 = {
+>>>>>>> Experimental-Branch
 
 	clergymen = {
 
@@ -6897,6 +9153,15 @@
 	}
 
 }
+<<<<<<< HEAD
+2508 = {
+
+	clergymen = {
+
+		size = 2
+		culture = british
+		religion = protestant
+=======
 2504 = {
 
 	clergymen = {
@@ -6904,17 +9169,27 @@
 		size = 24
 		culture = aborigine
 		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
-	labourers = {
+	farmers = {
 
+<<<<<<< HEAD
+		size = 215
+		culture = british
+		religion = protestant
+=======
 		size = 890
 		culture = aborigine
 		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
 
 }
+<<<<<<< HEAD
+2509 = {
+=======
 2505 = {
 
 	aristocrats = {
@@ -6929,23 +9204,59 @@
 		size = 123
 		culture = aborigine
 		religion = animist
+>>>>>>> Experimental-Branch
 
-	}
-	labourers = {
+	aristocrats = {
 
+<<<<<<< HEAD
+		size = 150
+		culture = maori
+=======
 		size = 4452
 		culture = aborigine
+>>>>>>> Experimental-Branch
+		religion = animist
+
+	}
+	artisans = {
+
+<<<<<<< HEAD
+		size = 200
+		culture = maori
+=======
+		size = 89
+		culture = aborigine
+>>>>>>> Experimental-Branch
+		religion = animist
+
+	}
+	clergymen = {
+
+<<<<<<< HEAD
+		size = 75
+		culture = maori
+		religion = animist
+
+	}
+	farmers = {
+
+		size = 1000
+		culture = british
+		religion = protestant
+
+	}
+	farmers = {
+
+		size = 3575
+		culture = maori
 		religion = animist
 
 	}
 	soldiers = {
 
-		size = 89
-		culture = aborigine
-		religion = animist
-
-	}
-
+		size = 375
+		culture = maori
+=======
 }
 2506 = {
 
@@ -6978,79 +9289,21 @@
 
 		size = 623
 		culture = aborigine
+>>>>>>> Experimental-Branch
 		religion = animist
 
 	}
 
 }
-2508 = {
-
-	clergymen = {
-
-		size = 2
-		culture = british
-		religion = protestant
-
-	}
-	farmers = {
-
-		size = 215
-		culture = british
-		religion = protestant
-
-	}
-
-}
-2509 = {
-
-	aristocrats = {
-
-		size = 150
-		culture = maori
-		religion = animist
-
-	}
-	artisans = {
-
-		size = 200
-		culture = maori
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 75
-		culture = maori
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 1000
-		culture = british
-		religion = protestant
-
-	}
-	farmers = {
-
-		size = 3575
-		culture = maori
-		religion = animist
-
-	}
-	soldiers = {
-
-		size = 375
-		culture = maori
-		religion = animist
-
-	}
-
-}
+<<<<<<< HEAD
 2510 = {
+=======
+2508 = {
+>>>>>>> Experimental-Branch
 
 	artisans = {
 
+<<<<<<< HEAD
 		size = 100
 		culture = maori
 		religion = animist
@@ -7061,28 +9314,152 @@
 		size = 50
 		culture = maori
 		religion = animist
+=======
+		size = 2
+		culture = australian
+		religion = protestant
+>>>>>>> Experimental-Branch
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
 		size = 1775
 		culture = maori
 		religion = animist
+=======
+		size = 215
+		culture = australian
+		religion = protestant
+>>>>>>> Experimental-Branch
 
 	}
 
 }
+<<<<<<< HEAD
 2511 = {
+=======
+2509 = {
+
+	aristocrats = {
+
+		size = 150
+		culture = maori
+		religion = animist
+>>>>>>> Experimental-Branch
 
 	artisans = {
 
+<<<<<<< HEAD
 		size = 150
+=======
+		size = 200
 		culture = maori
 		religion = animist
 
 	}
 	clergymen = {
 
+		size = 75
+>>>>>>> Experimental-Branch
+		culture = maori
+		religion = animist
+
+	}
+	clergymen = {
+
+<<<<<<< HEAD
+		size = 75
+=======
+		size = 1000
+		culture = british
+		religion = protestant
+
+	}
+	farmers = {
+
+		size = 3575
+>>>>>>> Experimental-Branch
+		culture = maori
+		religion = animist
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 2675
+=======
+		size = 375
+>>>>>>> Experimental-Branch
+		culture = maori
+		religion = animist
+
+	}
+
+}
+<<<<<<< HEAD
+2512 = {
+
+	artisans = {
+
+		size = 150
+=======
+2510 = {
+
+	artisans = {
+
+		size = 100
+>>>>>>> Experimental-Branch
+		culture = maori
+		religion = animist
+
+	}
+	clergymen = {
+
+<<<<<<< HEAD
+		size = 75
+=======
+		size = 50
+>>>>>>> Experimental-Branch
+		culture = maori
+		religion = animist
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 2675
+=======
+		size = 1775
+>>>>>>> Experimental-Branch
+		culture = maori
+		religion = animist
+
+	}
+
+}
+<<<<<<< HEAD
+2513 = {
+=======
+2511 = {
+>>>>>>> Experimental-Branch
+
+	aristocrats = {
+
+<<<<<<< HEAD
+		size = 70
+=======
+		size = 150
+>>>>>>> Experimental-Branch
+		culture = maori
+		religion = animist
+
+	}
+	clergymen = {
+
+<<<<<<< HEAD
+		size = 50
+=======
 		size = 75
 		culture = maori
 		religion = animist
@@ -7091,37 +9468,53 @@
 	farmers = {
 
 		size = 2675
+>>>>>>> Experimental-Branch
 		culture = maori
 		religion = animist
 
 	}
 
+<<<<<<< HEAD
+		size = 25
+=======
 }
 2512 = {
 
 	artisans = {
 
 		size = 150
+>>>>>>> Experimental-Branch
 		culture = maori
 		religion = animist
 
 	}
 	clergymen = {
 
+<<<<<<< HEAD
+		size = 900
+=======
 		size = 75
+>>>>>>> Experimental-Branch
 		culture = maori
 		religion = animist
 
 	}
-	farmers = {
+	soldiers = {
 
+<<<<<<< HEAD
+		size = 160
+=======
 		size = 2675
+>>>>>>> Experimental-Branch
 		culture = maori
 		religion = animist
 
 	}
 
 }
+<<<<<<< HEAD
+2514 = {
+=======
 2513 = {
 
 	aristocrats = {
@@ -7129,6 +9522,7 @@
 		size = 70
 		culture = maori
 		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
 	artisans = {
@@ -7146,6 +9540,10 @@
 
 	}
 	farmers = {
+<<<<<<< HEAD
+
+		size = 900
+=======
 
 		size = 900
 		culture = maori
@@ -7155,23 +9553,35 @@
 	soldiers = {
 
 		size = 160
+>>>>>>> Experimental-Branch
 		culture = maori
 		religion = animist
 
 	}
 
 }
+<<<<<<< HEAD
+2515 = {
+
+	artisans = {
+
+		size = 100
+=======
 2514 = {
 
 	artisans = {
 
 		size = 50
+>>>>>>> Experimental-Branch
 		culture = maori
 		religion = animist
 
 	}
 	clergymen = {
 
+<<<<<<< HEAD
+		size = 50
+=======
 		size = 25
 		culture = maori
 		religion = animist
@@ -7180,11 +9590,18 @@
 	farmers = {
 
 		size = 900
+>>>>>>> Experimental-Branch
 		culture = maori
 		religion = animist
 
 	}
+	farmers = {
 
+<<<<<<< HEAD
+		size = 1000
+		culture = french
+		religion = catholic
+=======
 }
 2515 = {
 
@@ -7200,10 +9617,13 @@
 		size = 50
 		culture = maori
 		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
 	farmers = {
 
+<<<<<<< HEAD
+=======
 		size = 1000
 		culture = french
 		religion = catholic
@@ -7211,6 +9631,7 @@
 	}
 	farmers = {
 
+>>>>>>> Experimental-Branch
 		size = 1775
 		culture = maori
 		religion = animist
@@ -7366,11 +9787,19 @@
 2571 = {
 
 	artisans = {
+<<<<<<< HEAD
 
 		size = 150
 		culture = maori
 		religion = animist
 
+=======
+
+		size = 150
+		culture = maori
+		religion = animist
+
+>>>>>>> Experimental-Branch
 	}
 	clergymen = {
 
@@ -7397,6 +9826,10 @@
 ###2577 Macedonia
 ###2578 Perú
 ###2579 Pacific Islands
+<<<<<<< HEAD
+
+2580 = {
+=======
 
 2580 = {
 
@@ -7419,10 +9852,15 @@
 		size = 114
 		culture = russian
 		religion = orthodox
+>>>>>>> Experimental-Branch
 
-	}
-	farmers = {
+	artisans = {
 
+<<<<<<< HEAD
+		size = 595
+		culture = russian
+		religion = orthodox
+=======
 		size = 10896
 		culture = russian
 		religion = orthodox
@@ -7433,9 +9871,23 @@
 		size = 2541
 		culture = ugrian
 		religion = orthodox
+>>>>>>> Experimental-Branch
 
 	}
+	artisans = {
 
+<<<<<<< HEAD
+		size = 137
+		culture = ugrian
+		religion = orthodox
+
+	}
+	clergymen = {
+
+		size = 114
+		culture = russian
+		religion = orthodox
+=======
 }
 2581 = {
 
@@ -7444,17 +9896,39 @@
 		size = 2077
 		culture = yao
 		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
 	clergymen = {
 
+<<<<<<< HEAD
+		size = 10896
+		culture = russian
+		religion = orthodox
+
+	}
+	farmers = {
+
+		size = 2541
+		culture = ugrian
+		religion = orthodox
+=======
 		size = 395
 		culture = yao
 		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
 	labourers = {
 
+<<<<<<< HEAD
+}
+2581 = {
+
+	artisans = {
+
+		size = 2077
+=======
 		size = 35226
 		culture = yao
 		religion = animist
@@ -7463,18 +9937,30 @@
 	labourers = {
 
 		size = 1979
+>>>>>>> Experimental-Branch
 		culture = yao
+		religion = animist
+
+	}
+	clergymen = {
+
+<<<<<<< HEAD
+		size = 395
+		culture = yao
+=======
+		size = 14842
+		culture = african_minor
+>>>>>>> Experimental-Branch
 		religion = animist
 
 	}
 	labourers = {
 
-		size = 14842
-		culture = african_minor
+<<<<<<< HEAD
+		size = 35226
+		culture = yao
 		religion = animist
-
-	}
-
+=======
 }
 
 ###2582
@@ -7485,9 +9971,15 @@
 
 
 2587 = {
+>>>>>>> Experimental-Branch
 
-	clergymen = {
+	}
+	labourers = {
 
+<<<<<<< HEAD
+		size = 1979
+		culture = yao
+=======
 		size = 9
 		culture = russian
 		religion = orthodox
@@ -7504,13 +9996,19 @@
 
 		size = 224
 		culture = finnish
+>>>>>>> Experimental-Branch
 		religion = animist
 
 	}
 	labourers = {
 
+<<<<<<< HEAD
+		size = 14842
+		culture = african_minor
+=======
 		size = 100
 		culture = sami
+>>>>>>> Experimental-Branch
 		religion = animist
 
 	}
@@ -7523,24 +10021,44 @@
 	}
 
 }
+<<<<<<< HEAD
+=======
 2588 = {
+>>>>>>> Experimental-Branch
 
-	artisans = {
+###2582
+###2583
+###2584
+###2582 - Saint Barth ---> Carribean.txt
+######2586
 
+<<<<<<< HEAD
+=======
 		size = 228
 		culture = russian
 		religion = orthodox
+>>>>>>> Experimental-Branch
 
-	}
+2587 = {
+
 	clergymen = {
 
+<<<<<<< HEAD
+		size = 9
+=======
 		size = 54
+>>>>>>> Experimental-Branch
 		culture = russian
 		religion = orthodox
 
 	}
 	labourers = {
 
+<<<<<<< HEAD
+		size = 170
+		culture = russian
+		religion = orthodox
+=======
 		size = 4303
 		culture = russian
 		religion = orthodox
@@ -7551,9 +10069,22 @@
 		size = 448
 		culture = ugrian
 		religion = orthodox
+>>>>>>> Experimental-Branch
 
 	}
+	labourers = {
 
+<<<<<<< HEAD
+		size = 224
+		culture = finnish
+		religion = animist
+
+	}
+	labourers = {
+
+		size = 100
+		culture = sami
+=======
 }
 2589 = {
 
@@ -7586,25 +10117,61 @@
 
 		size = 13
 		culture = inuit
+>>>>>>> Experimental-Branch
 		religion = animist
 
 	}
+	soldiers = {
+
+<<<<<<< HEAD
+		size = 13
+		culture = russian
+		religion = orthodox
+
+	}
+
+}
+2588 = {
+
 	artisans = {
 
+		size = 228
+		culture = russian
+		religion = orthodox
+=======
 		size = 9
 		culture = inuit
 		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
 	clergymen = {
 
+<<<<<<< HEAD
+		size = 54
+		culture = russian
+		religion = orthodox
+=======
 		size = 4
 		culture = inuit
 		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
-	farmers = {
+	labourers = {
 
+<<<<<<< HEAD
+		size = 4303
+		culture = russian
+		religion = orthodox
+
+	}
+	labourers = {
+
+		size = 448
+		culture = ugrian
+		religion = orthodox
+=======
 		size = 214
 		culture = inuit
 		religion = animist
@@ -7615,10 +10182,120 @@
 		size = 16
 		culture = inuit
 		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
 
 }
+<<<<<<< HEAD
+2589 = {
+
+	clergymen = {
+
+		size = 9
+		culture = russian
+		religion = orthodox
+
+	}
+	labourers = {
+
+		size = 88
+		culture = russian
+		religion = orthodox
+=======
+
+
+###2591
+###2592
+###2593
+###2594
+###2595
+###2596
+###2597
+###2598
+###2599
+
+2600 = {
+>>>>>>> Experimental-Branch
+
+	artisans = {
+
+<<<<<<< HEAD
+		size = 228
+		culture = ugrian
+		religion = animist
+
+	}
+
+}
+2590 = {
+
+	aristocrats = {
+
+		size = 13
+		culture = inuit
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 9
+		culture = inuit
+=======
+		size = 40
+		culture = brazilian
+		religion = catholic
+
+	}
+	artisans = {
+
+		size = 98
+		culture = amazonian
+>>>>>>> Experimental-Branch
+		religion = animist
+
+	}
+	clergymen = {
+
+<<<<<<< HEAD
+		size = 4
+		culture = inuit
+		religion = animist
+=======
+		size = 61
+		culture = brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	}
+	farmers = {
+
+<<<<<<< HEAD
+		size = 214
+		culture = inuit
+		religion = animist
+=======
+		size = 737
+		culture = brazilian
+		religion = catholic
+>>>>>>> Experimental-Branch
+
+	}
+	soldiers = {
+
+<<<<<<< HEAD
+		size = 16
+		culture = inuit
+=======
+		size = 1781
+		culture = amazonian
+>>>>>>> Experimental-Branch
+		religion = animist
+
+	}
+
+}
+<<<<<<< HEAD
 
 
 ###2591
@@ -7645,10 +10322,13 @@
 		size = 98
 		culture = amazonian
 		religion = animist
+=======
+2601 = {
+>>>>>>> Experimental-Branch
 
-	}
 	clergymen = {
 
+<<<<<<< HEAD
 		size = 61
 		culture = brazilian
 		religion = catholic
@@ -7659,17 +10339,28 @@
 		size = 737
 		culture = brazilian
 		religion = catholic
+=======
+		size = 9
+		culture = aborigine
+		religion = animist
+>>>>>>> Experimental-Branch
 
 	}
 	labourers = {
 
+<<<<<<< HEAD
 		size = 1781
 		culture = amazonian
+=======
+		size = 445
+		culture = aborigine
+>>>>>>> Experimental-Branch
 		religion = animist
 
 	}
 
 }
+<<<<<<< HEAD
 2601 = {
 
 	clergymen = {
@@ -7690,6 +10381,10 @@
 }
 2602 = {
 
+=======
+2602 = {
+
+>>>>>>> Experimental-Branch
 	clergymen = {
 
 		size = 14
@@ -7706,6 +10401,7 @@
 	}
 
 }
+<<<<<<< HEAD
 2603 = {
 
 	clergymen = {
@@ -7726,6 +10422,11 @@
 }
 2604 = {
 
+=======
+###2603 ---> Removed Provinces.txt
+2604 = {
+
+>>>>>>> Experimental-Branch
 	clergymen = {
 
 		size = 24
@@ -7738,6 +10439,7 @@
 		size = 1355
 		culture = aborigine
 		religion = animist
+<<<<<<< HEAD
 
 	}
 
@@ -7756,11 +10458,17 @@
 		size = 717
 		culture = aborigine
 		religion = animist
+=======
+>>>>>>> Experimental-Branch
 
 	}
 
 }
 
+<<<<<<< HEAD
+=======
+###2605 ---> Removed Provinces.txt
+>>>>>>> Experimental-Branch
 ###2606
 ###2607 ---> China.txt
 ###2608 ---> China.txt
@@ -8088,6 +10796,7 @@
 	}
 
 }
+<<<<<<< HEAD
 2622 = {
 
 	artisans = {
@@ -8113,6 +10822,9 @@
 	}
 
 }
+=======
+###2622 ---> to Indonesia
+>>>>>>> Experimental-Branch
 ###2623 ---> Pacific Islands (inc Hawaii).txt
 ###2624 ---> Tropical Africa.txt
 ###2625 ---> Canada.txt
@@ -8242,6 +10954,7 @@
 	}
 
 }
+<<<<<<< HEAD
 
 ###2636
 
@@ -8266,10 +10979,12 @@
 		size = 419
 		culture = inuit
 		religion = animist
+=======
+>>>>>>> Experimental-Branch
 
-	}
+###2636
+###2637 --> to Indonesia
 
-}
 2638 = {
 
 	artisans = {
@@ -8320,52 +11035,9 @@
 	}
 
 }
-2640 = {
 
-	artisans = {
+###2640 --> to Indonesia
 
-		size = 3
-		culture = siberian
-		religion = animist
-
-	}
-	artisans = {
-
-		size = 4
-		culture = yakut
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 2
-		culture = siberian
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 1
-		culture = yakut
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 133
-		culture = siberian
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 89
-		culture = yakut
-		religion = animist
-
-	}
-
-}
 2641 = {
 
 	artisans = {
@@ -8671,31 +11343,7 @@
 	}
 
 }
-2649 = {
-
-	artisans = {
-
-		size = 49
-		culture = yakut
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 14
-		culture = yakut
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 890
-		culture = yakut
-		religion = animist
-
-	}
-
-}
+###2649 ---> to Indonesia
 2650 = {
 
 	artisans = {
@@ -8781,31 +11429,8 @@
 	}
 
 }
-2652 = {
+###2652 ---> to Indonesia
 
-	artisans = {
-
-		size = 9
-		culture = yakut
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 4
-		culture = yakut
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 227
-		culture = yakut
-		religion = animist
-
-	}
-
-}
 2653 = {
 
 	aristocrats = {
@@ -9123,9 +11748,15 @@
 	}
 
 }
+<<<<<<< HEAD
 
 ###2664
 
+=======
+
+###2664
+
+>>>>>>> Experimental-Branch
 2665 = {
 
 	artisans = {
@@ -9151,6 +11782,7 @@
 	}
 
 }
+<<<<<<< HEAD
 2666 = {
 
 	artisans = {
@@ -9177,6 +11809,10 @@
 
 }
 
+=======
+
+###2666 ---> To Indonesia
+>>>>>>> Experimental-Branch
 ###2667
 ###2668
 
@@ -9418,6 +12054,7 @@
 
 }
 2676 = {
+<<<<<<< HEAD
 
 	artisans = {
 
@@ -9461,22 +12098,47 @@
 	labourers = {
 
 		size = 227
+=======
+
+	artisans = {
+
+		size = 9
+>>>>>>> Experimental-Branch
 		culture = siberian
 		religion = animist
 
 	}
+<<<<<<< HEAD
+=======
+	clergymen = {
+
+		size = 4
+		culture = siberian
+		religion = animist
+>>>>>>> Experimental-Branch
 
 }
 
+<<<<<<< HEAD
 ###2678 ---> China.txt
 ###2679 ---> China.txt
+=======
+		size = 227
+		culture = siberian
+		religion = animist
+>>>>>>> Experimental-Branch
 
 
+<<<<<<< HEAD
 2680 = {
+=======
+}
+2677 = {
+>>>>>>> Experimental-Branch
 
 	artisans = {
 
-		size = 7
+		size = 9
 		culture = siberian
 		religion = animist
 
@@ -9490,13 +12152,18 @@
 	}
 	labourers = {
 
-		size = 224
+		size = 227
 		culture = siberian
 		religion = animist
 
 	}
 
 }
+
+###2678 ---> China.txt
+###2679 ---> China.txt
+###2680 ---> to Indonesia
+
 2681 = {
 
 	artisans = {

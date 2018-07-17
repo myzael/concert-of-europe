@@ -938,7 +938,7 @@ newspaper = {
 }
 
 stock_exchange = {
-	type = financial
+	type = factory
 
 	on_completion = factory
 	completion_size = 0.2

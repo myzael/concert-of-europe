@@ -6,7 +6,7 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.02
+literacy = 0.018
 
 # Political reforms
 slavery = yes_slavery
@@ -28,7 +28,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-land_property=landed_estates
+land_property = landed_estates
 child_labor = child_labor_legal
 arts_endowment = no_endowment
 education = elite
@@ -53,7 +53,7 @@ diplomatic_reform = interactive
 # Technologies
 flintlock_rifles = 1
 late_enlightenment_philosophy = 1
-early_classical_theory_and_critique = 1
+classicism_n_early_romanticism = 1
 
 # Inventions
 

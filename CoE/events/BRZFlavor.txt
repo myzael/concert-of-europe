@@ -175,9 +175,9 @@ country_event = {
 		NOT = { year = 1845 }
 		has_country_flag = farrapos_war
 		OR = {
-			government = hms_government
-			government = prussian_constitutionalism
-			government = absolute_monarchy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		}
 	}
 
@@ -232,8 +232,8 @@ country_event = {
 			in_sphere = BRZ
 			in_sphere = UPB
 			in_sphere = ARG
-			government = democracy
-			government = hms_government
+			OR = { government = democracy government = democracy2 government = democracy3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			badboy = 0.64
 		}
 	}
@@ -472,11 +472,11 @@ country_event = {
 	trigger = {
 		tag = BRZ
 		OR = {
-			government = hms_government
-			government = prussian_constitutionalism
-			government = absolute_monarchy
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 		}
-		POR = { government = absolute_monarchy }
+		POR = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
 		is_vassal = no
 		NOT = {
 			year = 1840
@@ -642,9 +642,9 @@ country_event = {
 		year = 1865
 		war = no
 		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		NOT = {
 			has_country_flag = religious_question_started

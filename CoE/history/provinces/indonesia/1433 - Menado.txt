@@ -1,6 +1,6 @@
-owner = SLW
-controller = SLW
+owner = NET
+controller = NET
 add_core = SLW
-trade_goods = dye
-life_rating = 35
-terrain = jungle_mountains
+trade_goods = precious_metal
+life_rating = 30
+terrain = seasonal_jungle_mountains

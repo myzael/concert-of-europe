@@ -5,6 +5,10 @@ REB 	= 	"countries/rebels.txt"
 
 ### CONCERT OF EUROPE ###
 
+ADW		= "countries/Adamawa.txt"	#needs flags
+BDU		= "countries/Bondou.txt"	#needs flags
+KRT		= "countries/Kaarta.txt"	#needs flags
+
 ANC		= "countries/Antilles Confederation.txt"
 EFR		= "countries/East Frisia.txt"
 EPI		= "countries/Epirus.txt"
@@ -141,7 +145,7 @@ ASH		= "countries/Ashanti.txt"
 AWS		= "countries/Awsa.txt"
 AZA		= "countries/Azande.txt"
 BEN		= "countries/Benin.txt"
-BMK		= "countries/Bamako.txt"
+#BMK		= "countries/Bamako.txt"	# Removed, Mali tag [MLI] covers it well enough. Added Kaarta in the free up 'slot'
 BRD		= "countries/Urundi.txt"
 BSH		= "countries/Basotho.txt"
 BUG		= "countries/Buganda.txt"
@@ -182,14 +186,14 @@ MNG		= "countries/Mongo.txt"
 MOS		= "countries/Mossi.txt"
 MOZ		= "countries/Mozambique.txt"
 NGR		= "countries/Nigeria.txt"
-NIG		= "countries/Niger.txt"
+NIG		= "countries/Niger.txt"			# Reused as Dosso Kingdom
 OYO		= "countries/Oyo.txt"
 RWA		= "countries/Ruanda.txt"
 SEG		= "countries/Segu.txt"
 SHO		= "countries/Shona.txt"
 SHW		= "countries/Shewa.txt"
 SLE		= "countries/Sierra Leone.txt"
-SNG		= "countries/Senegal.txt"
+#SNG		= "countries/Senegal.txt"	# Removed, Wolof [WOL] covers it well enough. Added Bondou in the free up 'slot'
 SOM		= "countries/Somalia.txt"
 SUA		= "countries/Suazi.txt"
 SUD		= "countries/Sudan.txt"
@@ -499,6 +503,7 @@ SPA		= "countries/Spain.txt"
 TUR		= "countries/Ottoman Empire.txt"
 CHI		= "countries/China.txt"
 QNG		= "countries/Qing China.txt"
+
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

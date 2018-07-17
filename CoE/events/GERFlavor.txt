@@ -264,8 +264,8 @@ country_event = {
 			owns = 926 #Baghdad
 			is_vassal = no
 			OR = {
-				government = absolute_monarchy
-				government = hms_government
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 				}
 			NOT = {
 				alliance_with = ENG
@@ -710,11 +710,11 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.75
-				government = absolute_monarchy
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			}
 			modifier = {
 				factor = 1.5
-				government = hms_government
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
 			}
 			modifier = {
 				factor = 0.5
@@ -856,9 +856,9 @@ country_event = {
 		}
 		is_greater_power = yes
 		OR = {
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
+			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			OR = { government = hms_government government = hms_government2 government = hms_government3 }
 		}
 		invention = the_white_mans_burden
 		invention = indigenous_garrisoning

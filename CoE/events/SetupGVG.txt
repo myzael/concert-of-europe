@@ -6,14 +6,14 @@ country_event = {
 	title = "EVTNAME2000000" #Standard Setup
 	desc = "EVTDESC2000000"
 	picture = "crisis"
-	
+
 	trigger = {
 		 NOT = { has_country_flag = setup_done
-			 OR = {	tag = USA 
-				tag = JAP
+			 OR = {	
+							tag = JAP
 			      }
-		       }
-		  }
+		    }
+		}
 
 	mean_time_to_happen = {
 		days = 1
@@ -27,30 +27,30 @@ country_event = {
 		}
 	}
 }
-
-country_event = {
-	id = 2000001
-	title = "EVTNAME2000001" #USA Setup
-	desc = "EVTDESC2000001"
-	picture = "crisis"
-	
-	trigger = {
-		 NOT = { has_country_flag = setup_done  }
-		 tag = USA
-		  }
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "Not so splendid!"
-		set_country_flag = setup_done
-	}
-		ai_chance = {
-			factor = 1
-		}
-}
+#######OBSOLETE BUG FIXED################
+#country_event = {
+#	id = 2000001
+#	title = "EVTNAME2000001" #USA Setup
+#	desc = "EVTDESC2000001"
+#	picture = "crisis"
+#
+#	trigger = {
+#		 NOT = { has_country_flag = setup_done  }
+#		 tag = USA
+#		  }
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "Not so splendid!"
+#		set_country_flag = setup_done
+#	}
+#		ai_chance = {
+#			factor = 1
+#		}
+#}
 
 
 country_event = {
@@ -58,7 +58,7 @@ country_event = {
 	title = "EVTNAME2000002" #JAP Setup
 	desc = "EVTDESC2000002"
 	picture = "crisis"
-	
+
 	trigger = {
 		 NOT = { has_country_flag = setup_done  }
 		 OR = { tag = JAP
@@ -83,4 +83,3 @@ country_event = {
 			factor = 1
 		}
 }
-

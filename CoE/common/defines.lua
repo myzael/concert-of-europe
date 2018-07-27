@@ -13,7 +13,7 @@ country = {
 	GOLD_TO_WORKER_PAY_RATE = 3, -- Multiplier for how much money gold pays to pops
 	GREAT_NATIONS_COUNT = 8,
 	GREATNESS_DAYS = 360, 	   -- how many days until country risks losing status as great nation
-	BADBOY_LIMIT = 25,
+	BADBOY_LIMIT = 50,
 	MAX_BUREAUCRACY_PERCENTAGE = 0.01, -- More than max percent bureaucrats of population will give no additional benefits
 	BUREAUCRACY_PERCENTAGE_INCREMENT = 0.002, -- For each social administrative reform level, this is added to MAX_BUREAUCRACY_PERCENTAGE
 	MIN_CRIMEFIGHT_PERCENT = 0.2,
@@ -621,15 +621,15 @@ pops = {
 
 	ASSIMILATION_SCALE = 0.02,
 	CONVERSION_SCALE = 0.02,
-	IMMIGRATION_SCALE = 0.003,
+	IMMIGRATION_SCALE = 0.004,
 
 	PROMOTION_SCALE = 0.0025,
 	PROMOTION_ASSIMILATION_CHANCE = 0,
 	LUXURY_THRESHOLD = 500,
 	BASE_GOODS_DEMAND = 1,
-	BASE_POPGROWTH = 0.0001,
+	BASE_POPGROWTH = 0.0006,
 	MIN_LIFE_RATING_FOR_GROWTH = 29,
-	LIFE_RATING_GROWTH_BONUS = 0.0001,
+	LIFE_RATING_GROWTH_BONUS = 0.0000,
 	LIFE_NEED_STARVATION_LIMIT = 0.01,
 
 	MIL_LACK_EVERYDAY_NEED = 0.05,

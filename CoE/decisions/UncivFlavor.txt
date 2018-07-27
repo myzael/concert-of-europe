@@ -439,46 +439,6 @@ political_decisions = {
 			factor = 1
 		}
 	}
-<<<<<<< HEAD
-	
-#	eth_mission_to_cairo = {	#decisions are resource intensive, where possible it is preferable to use events.
-#		potential = {
-#			tag = ETH
-#			ai = yes		#Only if Ethiopia is AI
-#			EGY = {
-#				ai = yes	#And if Egypt is AI... So it will never show up for the player, and is better handled via events.
-#				exists = yes
-#				neighbour = ETH
-#				NOT = {
-#					any_owned_province = { is_core = ETH }
-#					casus_belli = ETH
-#				}
-#			}
-#			NOT = {
-#				has_country_flag = mission_to_cairo
-#				any_owned_province = { is_core = EGY }
-#				any_owned_province = { is_core = SUD }
-#				casus_belli = EGY
-#				truce_with = EGY
-#			}
-#		}
-#		
-#		allow = {
-#			NOT = { war_with = EGY }
-#		}
-#		
-#		effect = {
-#			set_country_flag = mission_to_cairo
-#			years_of_research = 0.25
-#			relation = { who = EGY value = 200 }
-#		}
-#		
-#		ai_will_do = {
-#			factor = 1
-#		}
-#	}
-=======
->>>>>>> Experimental-Branch
 
 	unite_somalia = {
 		potential = {
@@ -578,11 +538,7 @@ political_decisions = {
 
 		allow = {
 			owns = 1700
-<<<<<<< HEAD
-			war = no		#Yey! The Fan Affair will work properly now!
-=======
 			war = no
->>>>>>> Experimental-Branch
 		}
 
 		effect = {

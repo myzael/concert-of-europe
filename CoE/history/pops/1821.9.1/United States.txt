@@ -1680,16 +1680,6 @@
 
 	aristocrats = {
 
-<<<<<<< HEAD
-		size = 44
-		culture = dakota
-		religion = animist
-
-	}
-	aristocrats = {
-
-=======
->>>>>>> Experimental-Branch
 		size = 9
 		culture = native_american_minor
 		religion = animist
@@ -1698,15 +1688,6 @@
 	artisans = {
 
 		size = 49
-<<<<<<< HEAD
-		culture = dakota
-		religion = animist
-
-	}
-	artisans = {
-
-		size = 49
-=======
 		culture = native_american_minor
 		religion = animist
 
@@ -1714,23 +1695,10 @@
 	clergymen = {
 
 		size = 24
->>>>>>> Experimental-Branch
 		culture = native_american_minor
 		religion = animist
 
 	}
-<<<<<<< HEAD
-	clergymen = {
-
-		size = 24
-		culture = dakota
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 24
-=======
 	farmers = {
 
 		size = 890
@@ -1738,59 +1706,6 @@
 		religion = animist
 
 	}
-	soldiers = {
-
-		size = 14
->>>>>>> Experimental-Branch
-		culture = native_american_minor
-		religion = animist
-
-	}
-<<<<<<< HEAD
-	farmers = {
-
-		size = 890
-=======
-
-}
-124 = {
-	
-	aristocrats = {
-
-		size = 44
->>>>>>> Experimental-Branch
-		culture = dakota
-		religion = animist
-
-	}
-<<<<<<< HEAD
-	farmers = {
-
-		size = 890
-		culture = native_american_minor
-		religion = animist
-
-	}
-	soldiers = {
-
-		size = 54
-=======
-	artisans = {
-
-		size = 49
-		culture = dakota
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 24
->>>>>>> Experimental-Branch
-		culture = dakota
-		religion = animist
-
-	}
-<<<<<<< HEAD
 	soldiers = {
 
 		size = 14
@@ -1801,8 +1716,28 @@
 
 }
 124 = {
+	
+	aristocrats = {
 
-=======
+		size = 44
+		culture = dakota
+		religion = animist
+
+	}
+	artisans = {
+
+		size = 49
+		culture = dakota
+		religion = animist
+
+	}
+	clergymen = {
+
+		size = 24
+		culture = dakota
+		religion = animist
+
+	}
 	farmers = {
 
 		size = 890
@@ -1817,7 +1752,6 @@
 		religion = animist
 
 	}
->>>>>>> Experimental-Branch
 	artisans = {
 
 		size = 49
@@ -2121,122 +2055,6 @@
 	}
 
 }
-<<<<<<< HEAD
-132 = {
-	farmers = {
-
-		size = 222
-		culture = native_american_minor
-		religion = animist
-
-	}
-	slaves = {
-
-		size = 2090
-		culture = afro_american
-		religion = protestant
-
-	}
-
-}
-133 = {
-
-	farmers = {
-
-		size = 222
-		culture = native_american_minor
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 184
-		culture = mexican
-		religion = catholic
-
-	}
-	slaves = {
-
-		size = 4098
-		culture = afro_american
-		religion = protestant
-
-	}
-
-}
-134 = {
-
-	farmers = {
-
-		size = 890
-		culture = native_american_minor
-		religion = animist
-
-	}
-	slaves = {
-
-		size = 8
-		culture = afro_american
-		religion = protestant
-
-	}
-
-}
-135 = {
-
-	aristocrats = {
-
-		size = 57
-		culture = native_american_minor
-		religion = animist
-
-	}
-	aristocrats = {
-
-		size = 5
-		culture = mexican
-		religion = catholic
-
-	}
-	artisans = {
-
-		size = 98
-		culture = native_american_minor
-		religion = animist
-
-	}
-	clergymen = {
-
-		size = 49
-		culture = native_american_minor
-		religion = animist
-
-	}
-	labourers = {
-
-		size = 1781
-		culture = native_american_minor
-		religion = animist
-
-	}
-	soldiers = {
-
-		size = 64
-		culture = native_american_minor
-		religion = animist
-
-	}
-	soldiers = {
-
-		size = 8
-		culture = mexican
-		religion = catholic
-
-	}
-
-}
-=======
->>>>>>> Experimental-Branch
 136 = {
 
 	artisans = {
@@ -2269,34 +2087,6 @@
 	}
 
 }
-<<<<<<< HEAD
-137 = {
-
-	farmers = {
-
-		size = 222
-		culture = native_american_minor
-		religion = animist
-
-	}
-	farmers = {
-
-		size = 184
-		culture = mexican
-		religion = catholic
-
-	}
-	slaves = {
-
-		size = 2049
-		culture = afro_american
-		religion = protestant
-
-	}
-
-}
-=======
->>>>>>> Experimental-Branch
 138 = {
 
 	artisans = {
@@ -4436,16 +4226,6 @@
 		religion = protestant
 
 	}
-<<<<<<< HEAD
-	aristocrats = {
-
-		size = 342
-		culture = texan
-		religion = protestant
-
-	}
-=======
->>>>>>> Experimental-Branch
 	artisans = {
 
 		size = 430
@@ -4474,23 +4254,6 @@
 		religion = protestant
 
 	}
-<<<<<<< HEAD
-	artisans = {
-
-		size = 135
-		culture = texan
-		religion = protestant
-
-	}
-	bureaucrats = {
-
-		size = 9
-		culture = texan
-		religion = protestant
-
-	}
-=======
->>>>>>> Experimental-Branch
 	clergymen = {
 
 		size = 199
@@ -4505,16 +4268,6 @@
 		religion = protestant
 
 	}
-<<<<<<< HEAD
-	clergymen = {
-
-		size = 77
-		culture = texan
-		religion = protestant
-
-	}
-=======
->>>>>>> Experimental-Branch
 	farmers = {
 
 		size = 8021
@@ -4543,16 +4296,6 @@
 		religion = protestant
 
 	}
-<<<<<<< HEAD
-	farmers = {
-
-		size = 3832
-		culture = texan
-		religion = protestant
-
-	}
-=======
->>>>>>> Experimental-Branch
 	officers = {
 
 		size = 82
@@ -4560,16 +4303,6 @@
 		religion = protestant
 
 	}
-<<<<<<< HEAD
-	officers = {
-
-		size = 98
-		culture = texan
-		religion = protestant
-
-	}
-=======
->>>>>>> Experimental-Branch
 	slaves = {
 
 		size = 6931
@@ -4591,16 +4324,6 @@
 		religion = protestant
 
 	}
-<<<<<<< HEAD
-	soldiers = {
-
-		size = 2682
-		culture = texan
-		religion = protestant
-
-	}
-=======
->>>>>>> Experimental-Branch
 
 }
 185 = {
@@ -4714,16 +4437,6 @@
 		religion = protestant
 
 	}
-<<<<<<< HEAD
-	artisans = {
-
-		size = 45
-		culture = texan
-		religion = protestant
-
-	}
-=======
->>>>>>> Experimental-Branch
 	clergymen = {
 
 		size = 77
@@ -4738,16 +4451,6 @@
 		religion = protestant
 
 	}
-<<<<<<< HEAD
-	clergymen = {
-
-		size = 36
-		culture = texan
-		religion = protestant
-
-	}
-=======
->>>>>>> Experimental-Branch
 	farmers = {
 
 		size = 7470
@@ -4769,16 +4472,6 @@
 		religion = protestant
 
 	}
-<<<<<<< HEAD
-	farmers = {
-
-		size = 61
-		culture = texan
-		religion = protestant
-
-	}
-=======
->>>>>>> Experimental-Branch
 	slaves = {
 
 		size = 6931
@@ -4892,16 +4585,6 @@
 		religion = protestant
 
 	}
-<<<<<<< HEAD
-	artisans = {
-
-		size = 1766
-		culture = texan
-		religion = protestant
-
-	}
-=======
->>>>>>> Experimental-Branch
 	bureaucrats = {
 
 		size = 61
@@ -4916,16 +4599,6 @@
 		religion = protestant
 
 	}
-<<<<<<< HEAD
-	bureaucrats = {
-
-		size = 81
-		culture = texan
-		religion = protestant
-
-	}
-=======
->>>>>>> Experimental-Branch
 	clergymen = {
 
 		size = 169
@@ -4947,16 +4620,6 @@
 		religion = protestant
 
 	}
-<<<<<<< HEAD
-	clergymen = {
-
-		size = 61
-		culture = texan
-		religion = protestant
-
-	}
-=======
->>>>>>> Experimental-Branch
 	farmers = {
 
 		size = 17538
@@ -4978,16 +4641,6 @@
 		religion = protestant
 
 	}
-<<<<<<< HEAD
-	farmers = {
-
-		size = 8378
-		culture = texan
-		religion = protestant
-
-	}
-=======
->>>>>>> Experimental-Branch
 	officers = {
 
 		size = 20
@@ -5048,23 +4701,6 @@
 		religion = protestant
 
 	}
-<<<<<<< HEAD
-	artisans = {
-
-		size = 106
-		culture = texan
-		religion = protestant
-
-	}
-	bureaucrats = {
-
-		size = 40
-		culture = texan
-		religion = protestant
-
-	}
-=======
->>>>>>> Experimental-Branch
 	clergymen = {
 
 		size = 61
@@ -5079,16 +4715,6 @@
 		religion = protestant
 
 	}
-<<<<<<< HEAD
-	clergymen = {
-
-		size = 25
-		culture = texan
-		religion = protestant
-
-	}
-=======
->>>>>>> Experimental-Branch
 	farmers = {
 
 		size = 3981
@@ -5110,16 +4736,6 @@
 		religion = protestant
 
 	}
-<<<<<<< HEAD
-	farmers = {
-
-		size = 1291
-		culture = texan
-		religion = protestant
-
-	}
-=======
->>>>>>> Experimental-Branch
 	slaves = {
 
 		size = 4611
@@ -8843,8 +8459,6 @@
 
 	}
 
-<<<<<<< HEAD
-=======
 }
 
 2555 = {
@@ -8952,5 +8566,4 @@
 
 	}
 
->>>>>>> Experimental-Branch
 }

@@ -3,9 +3,5 @@ controller = KHZ
 add_core = KHZ
 add_core = IRQ
 trade_goods = grain
-<<<<<<< HEAD
-life_rating = 37
-=======
 life_rating = 35
->>>>>>> Experimental-Branch
 terrain = dry_grassland

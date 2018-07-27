@@ -81,13 +81,7 @@ political_decisions = {
 					value = 25
 				}
 				random_owned = {
-<<<<<<< HEAD
-					limit = {
-						is_capital = yes
-					}
-=======
 					limit = { is_capital = yes }
->>>>>>> Experimental-Branch
 					province_event = { id = 190370 }
 				}
 			}
@@ -521,11 +515,7 @@ political_decisions = {
 		
 		allow = {
 			OR = {
-<<<<<<< HEAD
-				government = theocracy
-=======
 				OR = { government = theocracy government = theocracy2 government = theocracy3 }
->>>>>>> Experimental-Branch
 				AND = {
 					owns = 929
 					owns = 933

@@ -4388,11 +4388,7 @@ country_event = {
     trigger = {
         tag = SPA
         exists = yes
-<<<<<<< HEAD
-        government = hms_government
-=======
         OR = { government = hms_government government = hms_government2 government = hms_government3 }
->>>>>>> Experimental-Branch
         NOT = { year = 1836 }
     }
    
@@ -4464,13 +4460,8 @@ country_event = {
             limit = {
                 civilized = yes
                 OR = {
-<<<<<<< HEAD
-                    government = absolute_monarchy
-                    government = prussian_constitutionalism
-=======
                     OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
                     OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
->>>>>>> Experimental-Branch
                 }
                 capital_scope = { 
                     continent = europe
@@ -4500,13 +4491,8 @@ country_event = {
             limit = {
                 civilized = yes
                 OR = {
-<<<<<<< HEAD
-                    NOT = { government = absolute_monarchy }
-                    NOT = { government = prussian_constitutionalism }
-=======
                     NOT = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
                     NOT = { OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 } }
->>>>>>> Experimental-Branch
                 }
                 capital_scope = { 
                     continent = europe

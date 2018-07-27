@@ -5,11 +5,7 @@ add_core = AZB
 add_core = PER
 add_core = TUR
 trade_goods = iron
-<<<<<<< HEAD
-life_rating = 37
-=======
 life_rating = 35
->>>>>>> Experimental-Branch
 terrain = mountain
 1828.1.1 = {
 	owner = RUS

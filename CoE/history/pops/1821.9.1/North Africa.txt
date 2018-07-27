@@ -1840,11 +1840,7 @@
 
 }
 
-<<<<<<< HEAD
-1713 = {
-=======
 1711 = {
->>>>>>> Experimental-Branch
 
 	aristocrats = {
 
@@ -1933,36 +1929,6 @@
 
 }
 
-<<<<<<< HEAD
-
-1715 = {
-
-	artisans = {
-
-		size = 592
-		culture = berber
-		religion = sunni
-
-	}
-	artisans = {
-
-		size = 544
-		culture = maghrebi
-		religion = sunni
-
-	}
-	clergymen = {
-
-		size = 98
-		culture = berber
-		religion = sunni
-
-	}
-	clergymen = {
-
-		size = 123
-		culture = maghrebi
-=======
 1712 = {
 
 	clergymen = {
@@ -1988,38 +1954,18 @@
 
 		size = 346
 		culture = tuareg
->>>>>>> Experimental-Branch
 		religion = sunni
 
 	}
 	farmers = {
 
-<<<<<<< HEAD
-		size = 10092
-=======
 		size = 2701
->>>>>>> Experimental-Branch
 		culture = berber
 		religion = sunni
 
 	}
 	farmers = {
 
-<<<<<<< HEAD
-		size = 9993
-		culture = maghrebi
-		religion = sunni
-
-	}
-
-}
-
-1717 = {
-
-	clergymen = {
-
-		size = 14
-=======
 		size = 5541
 		culture = tuareg
 		religion = sunni
@@ -2032,66 +1978,35 @@
 	aristocrats = {
 
 		size = 108
->>>>>>> Experimental-Branch
 		culture = tuareg
 		religion = sunni
 
 	}
-<<<<<<< HEAD
-	farmers = {
-
-		size = 1880
-=======
 	clergymen = {
 
 		size = 39
->>>>>>> Experimental-Branch
 		culture = tuareg
 		religion = sunni
 
 	}
 
-<<<<<<< HEAD
-}
-
-1719 = {
-
-	clergymen = {
-
-		size = 14
-=======
 	labourers = {
 
 		size = 4680
->>>>>>> Experimental-Branch
 		culture = tuareg
 		religion = sunni
 
 	}
-<<<<<<< HEAD
-	farmers = {
-
-		size = 1880
-		culture = tuareg
-=======
 
 	soldiers = {
 
 		size = 523
 		culture = berber
->>>>>>> Experimental-Branch
 		religion = sunni
 
 	}
 
 }
-<<<<<<< HEAD
-1724 = {
-
-	clergymen = {
-
-		size = 19
-=======
 
 1715 = {
 
@@ -2112,43 +2027,28 @@
 	clergymen = {
 
 		size = 98
->>>>>>> Experimental-Branch
 		culture = berber
 		religion = sunni
 
 	}
 	clergymen = {
 
-<<<<<<< HEAD
-		size = 14
-		culture = tuareg
-=======
 		size = 123
 		culture = maghrebi
->>>>>>> Experimental-Branch
 		religion = sunni
 
 	}
 	farmers = {
 
-<<<<<<< HEAD
-		size = 1830
-=======
 		size = 10092
->>>>>>> Experimental-Branch
 		culture = berber
 		religion = sunni
 
 	}
 	farmers = {
 
-<<<<<<< HEAD
-		size = 1880
-		culture = tuareg
-=======
 		size = 9993
 		culture = maghrebi
->>>>>>> Experimental-Branch
 		religion = sunni
 
 	}

@@ -86,11 +86,7 @@ political_decisions = {
 				owns = 1147
 				is_our_vassal = KHR
 			}
-<<<<<<< HEAD
-			
-=======
 
->>>>>>> Experimental-Branch
 			NOT = { has_country_flag = persian_asia }
 		}
 
@@ -355,11 +351,7 @@ political_decisions = {
 				civilized = no
 			}
 		}
-<<<<<<< HEAD
-		
-=======
 
->>>>>>> Experimental-Branch
 		allow = {
 			war = no
 			NOT = { num_of_revolts = 1 }
@@ -385,20 +377,12 @@ political_decisions = {
 				in_sphere = yes
 			}
 		}
-<<<<<<< HEAD
-		
-=======
 
->>>>>>> Experimental-Branch
 		effect = {
 			badboy = 1
 			KHR = {
 				any_owned = {
-<<<<<<< HEAD
-					add_core = PER				
-=======
 					add_core = PER
->>>>>>> Experimental-Branch
 				}
 			}
 			inherit = KHR
@@ -429,11 +413,7 @@ political_decisions = {
 			badboy = 1
 			KHZ = {
 				any_owned = {
-<<<<<<< HEAD
-					add_core = PER				
-=======
 					add_core = PER
->>>>>>> Experimental-Branch
 				}
 			}
 			inherit = KHZ
@@ -487,11 +467,7 @@ political_decisions = {
 						tag = HZJ
 						tag = KDH
 					}
-<<<<<<< HEAD
-					civilized = no			
-=======
 					civilized = no
->>>>>>> Experimental-Branch
 				}
 				add_casus_belli = {
 					target = THIS
@@ -917,11 +893,7 @@ political_decisions = {
 				has_country_flag = sale_of_saint_barth
 			}
 		}
-<<<<<<< HEAD
-		
-=======
 
->>>>>>> Experimental-Branch
 		allow = {
 			FRA = {
 				money = 25000
@@ -935,11 +907,7 @@ political_decisions = {
 				}
 			}
 		}
-<<<<<<< HEAD
-		
-=======
 
->>>>>>> Experimental-Branch
 		effect = {
 			set_country_flag = sale_of_saint_barth
 			FRA = {
@@ -967,8 +935,4 @@ political_decisions = {
 			}
 		}
 	}
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> Experimental-Branch

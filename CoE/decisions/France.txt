@@ -499,19 +499,11 @@ political_decisions = {
             tag = FRA
             war_with = SPA
             OR = {
-<<<<<<< HEAD
-                government = absolute_monarchy
-                government = prussian_constitutionalism
-            }
-            SPA = {
-                government = hms_government
-=======
                 OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
                 OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
             }
             SPA = {
                 OR = { government = hms_government government = hms_government2 government = hms_government3 }
->>>>>>> Experimental-Branch
             }
             has_country_flag = one_hunderd_thousand_sons
         }

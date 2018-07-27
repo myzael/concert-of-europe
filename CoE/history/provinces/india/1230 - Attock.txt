@@ -6,7 +6,7 @@ trade_goods = wool
 life_rating = 34
 terrain = hilly_farmland
 1861.1.1 = {
-	owner = ENG
-	controller = ENG
+	owner = HND
+	controller = HND
 	colonial = 1
 }

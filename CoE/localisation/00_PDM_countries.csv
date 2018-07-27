@@ -37,37 +37,6 @@ D18;The United States of $REGION$;;Die Vereinigten Staaten von $REGION$;;;;;;;;x
 D18_ADJ;$REGION$;;Unions-;;;;;;;;x;;;
 D19;The Union of $REGION$;;Die Demokratische Union von $REGION$;;;;;;;;x;;;
 D19_ADJ;$REGION$;;Unions-;;;;;;;;x;;;
-<<<<<<< HEAD
-D20;$REGION$;;Das Fürstentum von $REGION$;;;;;;;;x;;;
-D20_ADJ;$REGION$;;fürstlich;;;;;;;;x;;;
-D21;$REGION$;;Die Union von $REGION$;;;;;;;;x;;;
-D21_ADJ;$REGION$;;Unions-;;;;;;;;x;;;
-D22;$REGION$;;Die Demokratische Volksrepublik von $REGION$;;;;;;;;x;;;
-D22_ADJ;$REGION$;;demokratisch-republikanisch;;;;;;;;x;;;
-D23;$REGION$;;Das $REGION$-Gebiet;;;;;;;;x;;;
-D23_ADJ;$REGION$;;ortsansässig;;;;;;;;x;;;
-D24;$REGION$;;Die Glorreiche Union von $REGION$;;;;;;;;x;;;
-D24_ADJ;$REGION$;;glorreich;;;;;;;;x;;;
-D25;$REGION$;;Das mächtige Gebiet von $REGION$;;;;;;;;x;;;
-D25_ADJ;$REGION$;;mächtig;;;;;;;;x;;;
-D26;The $REGION$ Free State;;Der $REGION$-Freistaat;;;;;;;;x;;;
-D26_ADJ;$REGION$;;freistaatlich;;;;;;;;x;;;
-D27;The $REGION$ Commonwealth;;$REGION$-Commonwealth;;;;;;;;x;;;
-D27_ADJ;Commonwealth;;Commonwealth-;;;;;;;;x;;;
-D28;The $REGION$ Confederacy;;Die $REGION$-Konföderation;;;;;;;;x;;;
-D28_ADJ;Confederate;;konföderiert;;;;;;;;x;;;
-D29;$REGION$;;Das Freie Volk von $REGION$;;;;;;;;x;;;
-D29_ADJ;$REGION$;;frei;;;;;;;;x;;;
-D30;$REGION$;;Die $REGION$-Republik;;;;;;;;x;;;
-D30_ADJ;$REGION$;;republikanisch;;;;;;;;x;;;
-D31;$REGION$;;Die Heilige Union von $REGION$;;;;;;;;x;;;
-D31_ADJ;$REGION$;;zelotisch;;;;;;;;x;;;
-D32;Union of $REGION$;;Die Volks-Union von $REGION$;;;;;;;;x;;;
-D32_ADJ;$REGION$;;Unions-;;;;;;;;x;;;
-D33;$REGION$ Federation;;Die Föderationsstaaten von $REGION$;;;;;;;;x;;;
-D33_ADJ;Federation;;Föderations-;;;;;;;;x;;;
-=======
->>>>>>> Experimental-Branch
 D34;$REGION$;;Der $REGION$-Föderationsstaat;;;;;;;;x;;;
 D34_ADJ;$REGION$;;Föderations-;;;;;;;;x;;;
 D35;The $REGION$ Confederation;;Die $REGION$-Konföderation;;;;;;;;x;;;
@@ -529,11 +498,7 @@ FIU_ADJ;Fiumani;Fiumani;Fiumani;;;;;;;;;;;x
 FIU_fascist_dictatorship;Italian Regency of Carnaro;R?gence italienne du Carnaro;Italienische Regentschaft am Quarnero;;;;;;;;;;;x
 FIU_bourgeois_dictatorship;Italian Regency of Carnaro;R?gence italienne du Carnaro;Italienische Regentschaft am Quarnero;;;;;;;;;;;x
 FIU_presidential_dictatorship;Italian Regency of Carnaro;R?gence italienne du Carnaro;Italienische Regentschaft am Quarnero;;;;;;;;;;;x
-<<<<<<< HEAD
-FIU_democracy;Free State of Fiume;tat libre de Fiume;Freistaat Fiume;;;;;;;;;;;x
-=======
 FIU_democracy;Free State of Fiume;tat libre de Fiume;Freistaat Fiume;;;;;;;;;;;x
->>>>>>> Experimental-Branch
 FIU_liberal;Partito Liberale;Partito Liberale;Partito Liberale;;;;;;;;;;;x
 FIU_conservative;Partito Autonomo;Partito Autonomo;Partito Autonomo;;;;;;;;;;;x
 FIU_reactionary;Nazionalisti;Nazionalisti;Nazionalisti;;;;;;;;;;;x
@@ -1591,16 +1556,6 @@ TAI_communist;Communist Party;;;;;;;;;;;;x
 TAI_fascist;Fascist Party;;;;;;;;;;;;x
 TAJ;Tajikstan;;;;;;;;;;;;;x
 TAJ_ADJ;Tajik;;;;;;;;;;;;;x
-<<<<<<< HEAD
-TAJ_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TAJ_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TAJ_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TAJ_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TAJ_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TAJ_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TAJ_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-=======
->>>>>>> Experimental-Branch
 TAR;Tatarstan;;;;;;;;;;;;;x
 TAR_ADJ;Tatar;;;;;;;;;;;;;x
 TAR_conservative;The Conservatives;Faction royale;Königsfraktion;;;;;;;;;;;x
@@ -1631,18 +1586,6 @@ TCA_ADJ;Transcaucasian;;;;;;;;;;;;x
 TKG;Shogunate Japan;;;;;;;;;;;x
 TKG_ADJ;Tokugawa;;;;;;;;;;;x
 TKM_hms_government;Salor Confederation;;;;;;;;;;;;x
-<<<<<<< HEAD
-TKM_prussian_constitutionalism;Salor Confederation;;;;;;;;;;;;x
-TKM_ADJ;Turkmenian;;;;;;;;;;;;;x
-TKM_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TKM_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TKM_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TKM_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TKM_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TKM_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TKM_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-=======
->>>>>>> Experimental-Branch
 TKS;Turkestan;;;;;;;;;;;;;x
 TKS_ADJ;Turkic;;;;;;;;;;;;;x
 TKS_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -2141,13 +2084,7 @@ GEL_communist;The Communist Faction;Faction communiste;Die kommunistische Frakti
 GEL_fascist;The Greater Somalia Faction;La Faction Grande Somalie;Die Größere Somalia Fraktion;;El Gran Somalia Facción;;;;;;;;;x;;;;;;;;;;;;;;
 JAL;Fuuta Jallon;Fouta Djalon;Fuuta Jalon;;Fouta Yallon;;;;;;;;;;x;;;;;;;;;;;;;;
 JAL_ADJ;Jallon;Djalon;Jalon;;;;;;;;;;;;x;;;;;;;;;;;;;;
-<<<<<<< HEAD
-JAL_conservative;Almami's Faction;Faction Almami;Almami Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 JAL_liberal;Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-JAL_reactionary;The Jihadis;Les djihadistes;Das Jihadis;;;;;;;;;;;;x;;;;;;;;;;;;;;
-=======
-JAL_liberal;Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
->>>>>>> Experimental-Branch
 JAL_anarcho_liberal;Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 JAL_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 JAL_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -2377,11 +2314,6 @@ WRI_anarcho_liberal;Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;
 WRI_socialist;People's Faction;Faction populaire;Volk Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 WRI_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 WRI_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-<<<<<<< HEAD
-WOL;Wolof;Djolof;Jolof;;wólof;;;;;;;;;;x;;;;;;;;;;;;;;
-WOL_ADJ;Wolof;Djolof;Jolof;;;;;;;;;;;;x;;;;;;;;;;;;;;
-=======
->>>>>>> Experimental-Branch
 WOL_conservative;Buur-ba's Faction;Faction Buur-ba;Buur-ba Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 WOL_liberal;Reform Faction;Faction de réforme;Verbesserung Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 WOL_reactionary;Religious Faction;Faction Religieux;Religiöse Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;

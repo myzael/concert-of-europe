@@ -23,19 +23,6 @@ country_event = {
 			truce_with = EGY
 		}
 	}
-<<<<<<< HEAD
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 3
-	}
-	
-	title = "EVTNAME300956"
-	desc = "EVTDESC300956"
-	picture = "timbuctu"
-	
-=======
 
 	fire_only_once = yes
 
@@ -47,7 +34,6 @@ country_event = {
 	desc = "EVTDESC300956"
 	picture = "timbuctu"
 
->>>>>>> Experimental-Branch
 	option = {
 		name = "Prosperity for us all!"
 		years_of_research = 0.25
@@ -59,34 +45,19 @@ country_event = {
 country_event = {
 	id = 300956
 	trigger = {
-<<<<<<< HEAD
-		owns = 1719
-		civilized = yes
-		1724 = {
-			empty = yes
-		}
-		1717 = {
-=======
 		owns = 1713
 		civilized = yes
 		1712 = {
 			empty = yes
 		}
 		1714 = {
->>>>>>> Experimental-Branch
 			empty = yes
 		}
 		has_global_flag = berlin_conference
 	}
-<<<<<<< HEAD
-	
-	fire_only_once = yes
-	
-=======
 
 	fire_only_once = yes
 
->>>>>>> Experimental-Branch
 	mean_time_to_happen = {
 		months = 12
 		modifier = {
@@ -94,38 +65,22 @@ country_event = {
 			war = yes
 		}
 	}
-<<<<<<< HEAD
-	
-	title = "EVTNAME300956"
-	desc = "EVTDESC300956"
-	picture = "timbuctu"
-	
-=======
 
 	title = "EVTNAME300956"
 	desc = "EVTDESC300956"
 	picture = "timbuctu"
 
->>>>>>> Experimental-Branch
 	option = {
 		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
 		prestige = 1
 		money = -5000
-<<<<<<< HEAD
-		1717 = {
-=======
 		1712 = {
->>>>>>> Experimental-Branch
 			secede_province = THIS
 			any_pop = {
 				militancy = 4
 			}
 		}
-<<<<<<< HEAD
-		1724 = {
-=======
 		1714 = {
->>>>>>> Experimental-Branch
 			secede_province = THIS
 			any_pop = {
 				militancy = 4
@@ -136,11 +91,7 @@ country_event = {
 				owns = 1741
 				1743 = { empty = yes }
 			}
-<<<<<<< HEAD
-			country_event = { 
-=======
 			country_event = {
->>>>>>> Experimental-Branch
 				id = 300975
 				days = 45
 			}
@@ -154,24 +105,14 @@ country_event = {
 		owns = 1710
 		owns = 1715
 		civilized = yes
-<<<<<<< HEAD
-		1719 = {
-=======
 		1713 = {
->>>>>>> Experimental-Branch
 			empty = yes
 		}
 		state_n_government = 1
 	}
-<<<<<<< HEAD
-	
-	fire_only_once = yes
-	
-=======
 
 	fire_only_once = yes
 
->>>>>>> Experimental-Branch
 	mean_time_to_happen = {
 		months = 120
 		modifier = {
@@ -187,19 +128,11 @@ country_event = {
 			war = yes
 		}
 	}
-<<<<<<< HEAD
-	
-	title = "EVTNAME300957"
-	desc = "EVTDESC300957"
-	picture = "timbuctu"
-	
-=======
 
 	title = "EVTNAME300957"
 	desc = "EVTDESC300957"
 	picture = "timbuctu"
 
->>>>>>> Experimental-Branch
 	option = {
 		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
 		prestige = 1
@@ -234,15 +167,9 @@ country_event = {
 		BRZ_2428 = { is_slave = yes }
 		year = 1840
 	}
-<<<<<<< HEAD
-	
-	fire_only_once = yes
-	
-=======
 
 	fire_only_once = yes
 
->>>>>>> Experimental-Branch
 	mean_time_to_happen = {
 		months = 48
 		modifier = {
@@ -254,19 +181,11 @@ country_event = {
 			year = 1848
 		}
 	}
-<<<<<<< HEAD
-	
-	title = "EVTNAME300958"
-	desc = "EVTDESC300958"
-	picture = "slaves_freed"
-	
-=======
 
 	title = "EVTNAME300958"
 	desc = "EVTDESC300958"
 	picture = "slaves_freed"
 
->>>>>>> Experimental-Branch
 	option = {
 		name = "What an enlightend idea!"
 		prestige = 5
@@ -287,22 +206,13 @@ country_event = {
 				pop_type = labourers
 			}
 		}
-<<<<<<< HEAD
-		
-		
-=======
 
 
->>>>>>> Experimental-Branch
 		ai_chance = {
 			factor = 65
 			modifier = {
 				factor = 0.33
-<<<<<<< HEAD
-				NOT = { money = 20000 } 
-=======
 				NOT = { money = 20000 }
->>>>>>> Experimental-Branch
 			}
 		}
 	}
@@ -330,11 +240,7 @@ country_event = {
 			factor = 35
 			modifier = {
 				factor = 2
-<<<<<<< HEAD
-				NOT = { money = 20000 } 
-=======
 				NOT = { money = 20000 }
->>>>>>> Experimental-Branch
 			}
 		}
 	}
@@ -354,11 +260,7 @@ country_event = {
 			}
 			random_pop = {
 				limit = {
-<<<<<<< HEAD
-					type = slaves				
-=======
 					type = slaves
->>>>>>> Experimental-Branch
 				}
 				reduce_pop = 1.05
 			}
@@ -374,23 +276,14 @@ country_event = {
 			}
 			random_pop = {
 				limit = {
-<<<<<<< HEAD
-					has_pop_culture = afro_antillean			
-=======
 					has_pop_culture = afro_antillean
->>>>>>> Experimental-Branch
 				}
 				reduce_pop = 1.05
 			}
 		}
 		ai_chance = {
-<<<<<<< HEAD
-			factor = 0		
-		}	
-=======
 			factor = 0
 		}
->>>>>>> Experimental-Branch
 	}
 }
 
@@ -411,19 +304,6 @@ country_event = {
 			empty = no
 		}
 	}
-<<<<<<< HEAD
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 20
-	}
-	
-	title = "EVTNAME300959"
-	desc = "EVTDESC300959"
-	picture = "deliberation"
-	
-=======
 
 	fire_only_once = yes
 
@@ -435,7 +315,6 @@ country_event = {
 	desc = "EVTDESC300959"
 	picture = "deliberation"
 
->>>>>>> Experimental-Branch
 	option = {
 		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
 		treasury = -4000
@@ -461,21 +340,6 @@ country_event = {
 			}
 		}
 	}
-<<<<<<< HEAD
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 24
-	}
-	
-	title = "EVTNAME300960"
-	desc = "EVTDESC300960"
-	picture = "deliberation"
-	
-	option = {
-		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!" 
-=======
 
 	fire_only_once = yes
 
@@ -489,7 +353,6 @@ country_event = {
 
 	option = {
 		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
->>>>>>> Experimental-Branch
 		prestige = 1
 		money = -4000
 		1964 = {
@@ -517,21 +380,6 @@ country_event = {
 			empty = yes
 		}
 	}
-<<<<<<< HEAD
-	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 24
-	}
-	
-	title = "EVTNAME300964"
-	desc = "EVTDESC300964"
-	picture = "deliberation"
-	
-	option = {
-		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!" 
-=======
 
 	fire_only_once = yes
 
@@ -545,7 +393,6 @@ country_event = {
 
 	option = {
 		name = "The sun never sets on the $COUNTRY_ADJ$ Empire!"
->>>>>>> Experimental-Branch
 		prestige = 1
 		money = -4000
 		1819 = {
@@ -713,15 +560,9 @@ province_event = {
 country_event = {
 	id = 300968
 	is_triggered_only = yes
-<<<<<<< HEAD
-	
-	allow_multiple_instances = yes
-	
-=======
 
 	allow_multiple_instances = yes
 
->>>>>>> Experimental-Branch
 	title = "EVTNAME300967"
 	desc = "EVTDESC300968"
 	picture = "deliberation"
@@ -737,15 +578,9 @@ country_event = {
 country_event = {
 	id = 300969
 	is_triggered_only = yes
-<<<<<<< HEAD
-	
-	allow_multiple_instances = yes
-	
-=======
 
 	allow_multiple_instances = yes
 
->>>>>>> Experimental-Branch
 	title = "EVTNAME300967"
 	desc = "EVTDESC300969"
 	picture = "deliberation"
@@ -836,25 +671,6 @@ country_event = {
 		exists = yes
 		is_greater_power = yes
 		colonial_nation = yes
-<<<<<<< HEAD
-		invention = the_dark_continent 
-		war = no
-		has_global_flag = berlin_conference
-	}
-	
-	fire_only_once = yes
-	
-	title = "EVTNAME300973"
-	desc = "EVTDESC300973"
-	picture = "deliberation"
-		
-	mean_time_to_happen = {
-		months = 10
-		modifier = {
-			any_owned_province = {
-				continent = africa
-				factor = 0.25
-=======
 		invention = the_dark_continent
 		war = no
 		has_global_flag = berlin_conference
@@ -873,7 +689,6 @@ country_event = {
 			any_owned_province = {
 				continent = africa
 				#factor = 0.25 #oscar7211
->>>>>>> Experimental-Branch
 			}
 		}
 	}
@@ -902,22 +717,14 @@ country_event = {
 							empty = yes
 						}
 					}
-<<<<<<< HEAD
-				
-=======
 
->>>>>>> Experimental-Branch
 				}
 				1739 = { empty = yes }
 			}
 			country_event = {
 				id = 300974
 				days = 20
-<<<<<<< HEAD
-			}		
-=======
 			}
->>>>>>> Experimental-Branch
 		}
 		random_country = {
 			limit = {
@@ -927,11 +734,7 @@ country_event = {
 			country_event = {
 				id = 300975
 				days = 45
-<<<<<<< HEAD
-			}		
-=======
 			}
->>>>>>> Experimental-Branch
 		}
 		random_country = {
 			limit = {
@@ -951,11 +754,7 @@ country_event = {
 			country_event = {
 				id = 300977
 				days = 105
-<<<<<<< HEAD
-			}		
-=======
 			}
->>>>>>> Experimental-Branch
 		}
 		random_country = {
 			limit = {
@@ -965,11 +764,7 @@ country_event = {
 			country_event = {
 				id = 300978
 				days = 140
-<<<<<<< HEAD
-			}		
-=======
 			}
->>>>>>> Experimental-Branch
 		}
 	}
 }

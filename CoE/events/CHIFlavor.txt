@@ -2634,14 +2634,10 @@ country_event = {
 				civilized = no
 				civilization_progress = 0.8
 				OR = {
-<<<<<<< HEAD
-					foreign_weapons = gunpowder_weapons
-=======
 					#Ini oscar7211
 					#foreign_weapons = gunpowder_weapons
 					unciv_light_armament = gunpowder_weapons
 					#End oscar7211
->>>>>>> Experimental-Branch
 					AND = {
 						NOT = { unciv_military_training = military_levies }
 						NOT = { unciv_light_armament = traditional_weapons }

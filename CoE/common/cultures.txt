@@ -1922,11 +1922,7 @@ native_american = {
 	leader = nativeamerican
 	is_overseas = no
 	aimara = {
-<<<<<<< HEAD
-		color = {190 45 23}
-=======
 		color = {190 90 23}
->>>>>>> Experimental-Branch
 		first_names = { 	
 			Achachic Achuqalla Alaya Ali Aliqora Amaru Ankalli Anku Ankuwillka Apumayta Aqarapi Aruma Aruni Aruwata Aruwiri Awki
 			Awqapuma Axaqupa Axata Ayawire Ayka Aykisi Champi Champilla Champiwillka Chinpukusi	Chiwchi	Chuqi Chuqimamani Chuqitinta
@@ -1943,11 +1939,6 @@ native_american = {
 
 		last_names = { 
 			Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
-<<<<<<< HEAD
-			Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes PeÒaranda
-			Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra 
-		}
-=======
 			Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Pe√±aranda
 			Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra 
 		}
@@ -1995,7 +1986,6 @@ native_american = {
 		last_names = { 
 			Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
 		}
->>>>>>> Experimental-Branch
 	}
 	cree = {
 		color = {127 244 100}
@@ -2004,59 +1994,6 @@ native_american = {
 		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
 		}
 	}
-<<<<<<< HEAD
-	californian_people = {
-		color = { 199 253 87 }
-		first_names = { John Paul JosÈ Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
-		}
-		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
-		MagaÒa Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas
-		}
-	}
-	cherokee = {
-		color = {235 208 106}
-		first_names = { 
-			John Tahlonteeskee Takatoka Charles William Lweis Dennis Joel Thomas Frank Andrew Edward
-		}
-		last_names = { 
-			Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
-		}
-	}
-	cheyenne = { #placeholder names
-		color = {125  92  110}
-		first_names = { 
-			John Tahlonteeskee Takatoka Charles William Lweis Dennis Joel Thomas Frank Andrew Edward
-		}
-		last_names = { 
-			Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
-		}
-	}
-	comanche = { #placeholder names
-		color = {255  205  155}
-		first_names = { 
-			John Tahlonteeskee Takatoka Charles William Lweis Dennis Joel Thomas Frank Andrew Edward
-		}
-		last_names = { 
-			Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
-		}
-	}
-	cree = {
-		color = {127 244 100}
-		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
-		}
-		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
-		}
-	}
-	dakota = {
-		color = {105  145  40}
-		first_names = { 
-			SintÈ ThaÛyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
-		}
-		last_names = {
-			Glesk· Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
-		}
-	}
-=======
 	dakota = {
 		color = {105  145  40}
 		first_names = { 
@@ -2066,7 +2003,6 @@ native_american = {
 			Glesk√° Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
 		}
 	}
->>>>>>> Experimental-Branch
 	
 	guajiro = {
 		color = {221 248 75}
@@ -2082,11 +2018,7 @@ native_american = {
 		color = {89 80 175}
 		first_names = { 
 			Achachic Achuqalla Alaya Ali Aliqora Amaru Ankalli Anku Ankuwillka Apumayta Aqarapi Aruma AruniAruwata Aruwiri
-<<<<<<< HEAD
-			Awki Awqapuma Axaqupa Axata Ayawire	Ayka Aykisi	"Ch Allqu" "Ch AyÒa" ChUllqi Champi Champilla Champiwillka Chinpukusi
-=======
 			Awki Awqapuma Axaqupa Axata Ayawire	Ayka Aykisi	"Ch Allqu" "Ch Ay√±a" ChUllqi Champi Champilla Champiwillka Chinpukusi
->>>>>>> Experimental-Branch
 			Chiwchi Chuqi Chuqimamani Chuqitinta Chuqiwanka Chuqiwillka Chura Churata Churki Chuwi Chuyma Harawi Haylli Hila Ilawi Illa
 			Illampu Illatarku Illawara Illika Illimani Imiri Inkaruka Inti Intimayta Iraya Jalaru Jalja JanqU Jayri KAwna Kachi Kalisaya
 			Kalla Kanki Katari Khajkiri Khana Khantati Khari Kinu Kuka Kullu Kunturi Kurmi Kurumi Kusi Kusisa Lariku Lawra Lawrawa Laymi
@@ -2099,47 +2031,27 @@ native_american = {
 		}
 			
 		last_names = { 
-<<<<<<< HEAD
-			Abjaisu ¡lvarez Ayegua Camba Chuaie Correa Cunhagat˙ DÌaz Fern·ndez Galeano
-			GÛmez Gonz·lez Guaracay GuaranÌ Guerrero Jopara LÛpez MongelÛs Morla OrtÌz
-			ParavÈ Picagua Riquelme Rivarola "Santa Cruz" Taray˙ Torga Vel·zquez Yaguarete Yrahi 
-=======
 			Abjaisu √Ålvarez Ayegua Camba Chuaie Correa Cunhagat√∫ D√≠az Fern√°ndez Galeano
 			G√≥mez Gonz√°lez Guaracay Guaran√≠ Guerrero Jopara L√≥pez Mongel√≥s Morla Ort√≠z
 			Parav√© Picagua Riquelme Rivarola "Santa Cruz" Taray√∫ Torga Vel√°zquez Yaguarete Yrahi 
->>>>>>> Experimental-Branch
 		}
 	}
 	great_basin_peoples = {
 		color = { 179 53 113 }
 		first_names = { 
-<<<<<<< HEAD
-			SintÈ ThaÛyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
-		}
-		last_names = {
-			Glesk· Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
-=======
 			Sint√© Tha√≥yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
 		}
 		last_names = {
 			Glesk√° Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
->>>>>>> Experimental-Branch
 		}
 	}
 	lakota = {
 		color = {220  214  86}
 		first_names = { 
-<<<<<<< HEAD
-			SintÈ ThaÛyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
-		}
-		last_names = {
-			Glesk· Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
-=======
 			Sint√© Tha√≥yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
 		}
 		last_names = {
 			Glesk√° Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
->>>>>>> Experimental-Branch
 		}
 	}
 	inuit = {
@@ -2150,17 +2062,6 @@ native_american = {
 		}
 	}
 	mayan = {
-<<<<<<< HEAD
-		color = {98 88 142}
-		first_names = { 
-			AgustÌn Akbal Alejandro AndrÈs AnÌbal Antonio Armando Bernardo Carlos Crescencio
-			CristÛbal CuautÈhmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto
-			Jes˙s Luis Marcial MartÌn Miguel Ramiro Rodolfo Rolando Santiago Yumil 
-		}
-		last_names = { 
-			Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc	Curruchic Ixquiac LÛpez Manzanero
-			Mas Mench˙ MÈrida Mes Osorio Pek Poot Pop Puk Shal Sho Tec˙ Teul Tuyuc Xicara Xiloj 
-=======
 		color = {78 98 158}
 		first_names = { 
 			Agust√≠n Akbal Alejandro Andr√©s An√≠bal Antonio Armando Bernardo Carlos Crescencio
@@ -2170,49 +2071,28 @@ native_american = {
 		last_names = { 
 			Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc	Curruchic Ixquiac L√≥pez Manzanero
 			Mas Mench√∫ M√©rida Mes Osorio Pek Poot Pop Puk Shal Sho Tec√∫ Teul Tuyuc Xicara Xiloj 
->>>>>>> Experimental-Branch
 		}
 	}
 	metis = {
 		color = {15 68 192}
 		first_names = { Louis John Amroise-Dydime Gabriel Daniel James Jaque William Joel
 		}
-<<<<<<< HEAD
-		last_names = { Riel Bruce LÈpine Dumont Clarence Martin
-=======
 		last_names = { Riel Bruce L√©pine Dumont Clarence Martin
->>>>>>> Experimental-Branch
 		}
 	}
 	nakota = {
 		color = {204 153 102}
 		first_names = { 
-<<<<<<< HEAD
-			SintÈ ThaÛyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
-		}
-		last_names = {
-			Glesk· Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
-=======
 			Sint√© Tha√≥yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
 		}
 		last_names = {
 			Glesk√° Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
->>>>>>> Experimental-Branch
 		}
 	}
 	nahua = {
 		color = {88 175 160}
 		first_names = { 
 			Antonio Carlos Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
-<<<<<<< HEAD
-			Hilario Ignacio Isaac Jacinto Jes˙s JosÈ Juan Julio Lorenzo Manuel
-			Marcial Mario MartÌn Natalio Oliverio Pedro Roberto Rodolfo Santiago VÌctor 
-		}
-		last_names = { 
-			Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue GutiÈrrez Hern·ndez
-			Huanitzin Itzel Ixtlilxochitl JimÈnez Matlacuahuac Mayahuel Moxo MuÒoz Nahui Ocelotl
-			Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa ZicotÈncatl Xochitl Zapata Zapotitla 
-=======
 			Hilario Ignacio Isaac Jacinto Jes√∫s Jos√© Juan Julio Lorenzo Manuel
 			Marcial Mario Mart√≠n Natalio Oliverio Pedro Roberto Rodolfo Santiago V√≠ctor 
 		}
@@ -2220,7 +2100,6 @@ native_american = {
 			Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti√©rrez Hern√°ndez
 			Huanitzin Itzel Ixtlilxochitl Jim√©nez Matlacuahuac Mayahuel Moxo Mu√±oz Nahui Ocelotl
 			Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot√©ncatl Xochitl Zapata Zapotitla 
->>>>>>> Experimental-Branch
 		}
 	}
 	navajo = {
@@ -2240,32 +2119,18 @@ native_american = {
 	}
 	north_west_coastal = {
 		color = { 0 80 196 }
-<<<<<<< HEAD
-		first_names = { John Paul JosÈ Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
-		}
-		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
-		MagaÒa Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas
-=======
 		first_names = { John Paul Jos√© Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
 		}
 		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
 		Maga√±a Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas
->>>>>>> Experimental-Branch
 		}
 	}
 	osage = {
 		color = { 199 253 87 }
-<<<<<<< HEAD
-		first_names = { John Paul JosÈ Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
-		}
-		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
-		MagaÒa Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas
-=======
 		first_names = { John Paul Jos√© Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
 		}
 		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
 		Maga√±a Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas
->>>>>>> Experimental-Branch
 		}
 	}
 	patagonian = {
@@ -2275,43 +2140,24 @@ native_american = {
 		Manuel Marcos Mart√≠n M√°ximo Melchor Pedro Ram√≥n Ra√∫l Santiago V√≠ctor }
 
 		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
-<<<<<<< HEAD
-		Huichaman Ilwen Kayupi Kumlafken Kvlapi LeviÒanco Lincoman Marifil Melifilu Millakoyam
-		Millapani Nahuel —anku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
-=======
 		Huichaman Ilwen Kayupi Kumlafken Kvlapi Levi√±anco Lincoman Marifil Melifilu Millakoyam
 		Millapani Nahuel √ëanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
->>>>>>> Experimental-Branch
 	}
 	pawnee = {
 		color = { 156 232 1 }
 		first_names = { 
-<<<<<<< HEAD
-			SintÈ ThaÛyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
-		}
-		last_names = {
-			Glesk· Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
-=======
 			Sint√© Tha√≥yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
 		}
 		last_names = {
 			Glesk√° Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
->>>>>>> Experimental-Branch
 		}
 	}
 	plateau_peoples = {
 		color = { 188 74 5 }
-<<<<<<< HEAD
-		first_names = { John Paul JosÈ Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
-		}
-		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
-		MagaÒa Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas
-=======
 		first_names = { John Paul Jos√© Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
 		}
 		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
 		Maga√±a Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas
->>>>>>> Experimental-Branch
 		}
 	}
 	pueblo = {
@@ -2331,24 +2177,6 @@ native_american = {
 		}
 
 		last_names = { 
-<<<<<<< HEAD
-			Arguedas Barrientos Cajahuanca Canchata Chambi Chihu·n Cusurichi Espejo Frisancho Gamarra
-			Guaman GuayasamÌn GutiÈrrez Heredia Humala Iturri Lazarte LudueÒa Melgarejo Palacios
-			PatiÒo Quispe RodrÌguez Roncaglia "Santa Cruz" Sosa Sumac Toledo Vargas Zapata 
-		}
-	}
-	tarascan = {
-		color = {87 188 192}
-		first_names = { 
-			AgustÌn Alberto Alfredo Antonio Armando Arturo Carlos Cenobio Daniel Diego
-			Everardo Gerardo Gumersindo HÈctor Jes˙s Juan Leobardo Luis Manuel Marcial
-			"Marco Antonio" Melchor Pedro Ricardo Salvador Samuel Sergio Silvano Silvestre VÌctor 
-		}
-		last_names = { 
-			Almonte Arredondo Arriaga Aureoles Bernal Brito CalderÛn Cano Carrillo CristÛbal
-			Cuevas Dimas Esquivel Estrada Galeana Gallardo GarcÌa GÛmez LÛpez Maciel
-			MagaÒa Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas 
-=======
 			Arguedas Barrientos Cajahuanca Canchata Chambi Chihu√°n Cusurichi Espejo Frisancho Gamarra
 			Guaman Guayasam√≠n Guti√©rrez Heredia Humala Iturri Lazarte Ludue√±a Melgarejo Palacios
 			Pati√±o Quispe Rodr√≠guez Roncaglia "Santa Cruz" Sosa Sumac Toledo Vargas Zapata 
@@ -2365,38 +2193,19 @@ native_american = {
 			Almonte Arredondo Arriaga Aureoles Bernal Brito Calder√≥n Cano Carrillo Crist√≥bal
 			Cuevas Dimas Esquivel Estrada Galeana Gallardo Garc√≠a G√≥mez L√≥pez Maciel
 			Maga√±a Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas 
->>>>>>> Experimental-Branch
 		}
 	}
 	tupinamba = {
 		color = {43 212 67}
-<<<<<<< HEAD
-		first_names = { ¡lvaro AndrÈ Carlos Diogo Emilio EusÈbio F·bio Fernando Filipe Francisco
-		Gabriel Gaspar GonÁalo Gustavo Henrique Jo„o JosÈ LuÌs Manuel In·cio
-		Jord„o L˙cio Mateus Nicolau Paulo Pedro Roque Sergio Tom·s VÌtor }
-
-		last_names = { CaetÈs Potiguara Tabajara Tamoios TemiminÛ Tupinamb· Tupiniquim 	}
-=======
 		first_names = { √Ålvaro Andr√© Carlos Diogo Emilio Eus√©bio F√°bio Fernando Filipe Francisco
 		Gabriel Gaspar Gon√ßalo Gustavo Henrique Jo√£o Jos√© Lu√≠s Manuel In√°cio
 		Jord√£o L√∫cio Mateus Nicolau Paulo Pedro Roque Sergio Tom√°s V√≠tor }
 
 		last_names = { Caet√©s Potiguara Tabajara Tamoios Temimin√≥ Tupinamb√° Tupiniquim 	}
->>>>>>> Experimental-Branch
 	}
 	zapotec = {
 		color = {87 199 81}
 		first_names = { 
-<<<<<<< HEAD
-			AgustÌn Alberto Alfonso Alfredo AndrÈs Benito Carlos CÈsar Eduardo Eugenio
-			Felipe Fernando Gabriel Gilberto Gregorio Jacinto Jes˙s JosÈ Juan Julio
-			Macario Manuel Miguel Nazario Nicol·s Oliverio Pablo Porfirio Rodolfo Rufino 
-		}
-		last_names = { 
-			Alonso Ant˙nez Cabrera Cajigas ChacÛn ChiÒas CortÈs Fern·ndez Gamboa GarcÌa
-			Gonz·lez GutiÈrrez Guzm·n Henestrosa Isael JimÈnez Ju·rez LÛpez Matus MÈrida
-			Morales Nayeli Orozco OrtÌz Pineda Rojas RuÌz Su·rez Tamayo Vichido
-=======
 			Agust√≠n Alberto Alfonso Alfredo Andr√©s Benito Carlos C√©sar Eduardo Eugenio
 			Felipe Fernando Gabriel Gilberto Gregorio Jacinto Jes√∫s Jos√© Juan Julio
 			Macario Manuel Miguel Nazario Nicol√°s Oliverio Pablo Porfirio Rodolfo Rufino 
@@ -2405,7 +2214,6 @@ native_american = {
 			Alonso Ant√∫nez Cabrera Cajigas Chac√≥n Chi√±as Cort√©s Fern√°ndez Gamboa Garc√≠a
 			Gonz√°lez Guti√©rrez Guzm√°n Henestrosa Isael Jim√©nez Ju√°rez L√≥pez Matus M√©rida
 			Morales Nayeli Orozco Ort√≠z Pineda Rojas Ru√≠z Su√°rez Tamayo Vichido
->>>>>>> Experimental-Branch
 		}
 	}	
 }

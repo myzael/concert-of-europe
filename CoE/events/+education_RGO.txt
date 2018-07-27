@@ -15,13 +15,8 @@ country_event = {
 	option = {
 		name = "OK"
         any_country = {
-<<<<<<< HEAD
-        any_owned = { 
-        limit = {  
-=======
         any_owned = {
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0
               NOT = { literacy = 0.1 }
@@ -33,11 +28,7 @@ country_event = {
 		}
 		}
         any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.1
               NOT = { literacy = 0.2 }
@@ -49,11 +40,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.2
               NOT = { literacy = 0.3 }
@@ -65,11 +52,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.3
               NOT = { literacy = 0.4 }
@@ -81,11 +64,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.4
               NOT = { literacy = 0.5 }
@@ -97,11 +76,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.5
               NOT = { literacy = 0.6 }
@@ -113,11 +88,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.6
               NOT = { literacy = 0.7 }
@@ -129,11 +100,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.7
               NOT = { literacy = 0.8 }
@@ -145,11 +112,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.8
               NOT = { literacy = 0.9 }
@@ -161,11 +124,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.9
               NOT = { literacy = 1 }
@@ -177,11 +136,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 1
 	          }
@@ -190,17 +145,10 @@ country_event = {
 		name = RGO_education_10
 		duration = -1
 		}
-<<<<<<< HEAD
-		}			
-	}
-        any_owned = { 
-        limit = {  
-=======
 		}
 	}
         any_owned = {
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0
               NOT = { literacy = 0.1 }
@@ -212,11 +160,7 @@ country_event = {
 		}
 		}
         any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.1
               NOT = { literacy = 0.2 }
@@ -228,11 +172,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.2
               NOT = { literacy = 0.3 }
@@ -244,11 +184,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.3
               NOT = { literacy = 0.4 }
@@ -260,11 +196,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.4
               NOT = { literacy = 0.5 }
@@ -276,11 +208,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.5
               NOT = { literacy = 0.6 }
@@ -292,11 +220,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.6
               NOT = { literacy = 0.7 }
@@ -308,11 +232,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.7
               NOT = { literacy = 0.8 }
@@ -324,11 +244,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.8
               NOT = { literacy = 0.9 }
@@ -340,11 +256,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 0.9
               NOT = { literacy = 1 }
@@ -356,11 +268,7 @@ country_event = {
 		}
 		}
 		any_owned = {
-<<<<<<< HEAD
-        limit = {  
-=======
         limit = {
->>>>>>> Experimental-Branch
 		      state_scope = {
 	          literacy = 1
 	          }

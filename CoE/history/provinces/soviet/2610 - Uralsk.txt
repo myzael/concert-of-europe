@@ -2,13 +2,8 @@ owner = RUS
 controller = RUS
 add_core = AKH
 add_core = RUS
-<<<<<<< HEAD
-trade_goods = precious_metal
-life_rating = 37
-=======
 trade_goods = cattle
 life_rating = 20
->>>>>>> Experimental-Branch
 terrain = dry_grassland
 colonial = 2
 

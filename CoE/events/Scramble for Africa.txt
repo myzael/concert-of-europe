@@ -164,17 +164,10 @@ country_event = {
 		}
 		war = no
 		civilized = no
-<<<<<<< HEAD
-		is_disarmed = no
-		OR = {
-			government = theocracy
-			government = absolute_monarchy
-=======
 		is_disarmed = no
 		OR = {
 			OR = { government = theocracy government = theocracy2 government = theocracy3 }
 			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
->>>>>>> Experimental-Branch
 		}
 		NOT = {
 			num_of_revolts = 1
@@ -255,12 +248,8 @@ country_event = {
 	desc = "EVTDESC95505"
 	picture = "scramble_for_africa"
 	
-<<<<<<< HEAD
-	trigger = {
-=======
 	trigger = {
 		capital_scope = { continent = africa }
->>>>>>> Experimental-Branch
 		exists = yes
 		has_global_flag = berlin_conference
 		NOT = { is_culture_group = east_asian }
@@ -639,11 +628,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-<<<<<<< HEAD
 		tag = EGY #should be at top -crownsteler
-=======
-		tag = EGY #should be at top -crownsteler
->>>>>>> Experimental-Branch
 		exists = yes
 		civilized = no
 		OR = {
@@ -738,19 +723,11 @@ country_event = {
 			is_greater_power = yes
 			is_secondary_power = yes
 		}
-<<<<<<< HEAD
-		OR = {
-			#government = theocracy	#Should the Pope (note: capital = europe) really be colonising? -crownsteler
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
-=======
 		OR = {
 			#OR = { government = theocracy government = theocracy2 government = theocracy3 }	#Should the Pope (note: capital = europe) really be colonising? -crownsteler
 			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 			OR = { government = hms_government government = hms_government2 government = hms_government3 }
->>>>>>> Experimental-Branch
 		}
 		total_amount_of_ships = 20
 		total_amount_of_divisions = 10
@@ -860,11 +837,7 @@ country_event = {
 			tag = TIG
 			tag = GON
 			tag = SHW
-<<<<<<< HEAD
 		}
-=======
-		}
->>>>>>> Experimental-Branch
 		exists = yes
 		war = no
 		total_amount_of_divisions = 1
@@ -959,11 +932,7 @@ country_event = {
 	picture = "arab_revolt"
 	
 	trigger = {
-<<<<<<< HEAD
 		tag = ETH #tag should be on top -crownsteler
-=======
-		tag = ETH #tag should be on top -crownsteler
->>>>>>> Experimental-Branch
 		exists = yes
 		war = no
 		owns = 1861 #Aselia

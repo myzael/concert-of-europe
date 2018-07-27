@@ -98,7 +98,7 @@ national_tragedy = {
 western_influences = {
 	global_pop_militancy_modifier = 0.1
 	global_pop_consciousness_modifier = 0.1
-	research_points = 0.5
+	research_points = 1
 	icon = 82
 }
 
@@ -1390,13 +1390,10 @@ general_strike = {
 	RGO_throughput = -5
 	social_reform_desire = 1
 	icon = 80
-<<<<<<< HEAD
-=======
 }
 
 demanded_cores = {
 	icon = 5
->>>>>>> Experimental-Branch
 }
 
 address = {
@@ -1872,11 +1869,7 @@ gauche_buffoon = {
 	prestige = -0.05
 	diplomatic_points_modifier = -0.5
 	issue_change_speed = 0.1
-<<<<<<< HEAD
-	icon = 17 #31 is the MAGA hat, which nobody likes... :'(
-=======
 	icon = 31
->>>>>>> Experimental-Branch
 }
 
 administrative_genius = {
@@ -2311,19 +2304,19 @@ population_trend = {
 }
 
 point_five_children = {
-	global_population_growth = -0.003
+	global_population_growth = -0.006
 	education_efficiency_modifier = 0.5
 	icon = 66
 }
 
 one_child = {
-	global_population_growth = -0.002
+	global_population_growth = -0.004
 	education_efficiency_modifier = 0.25
 	icon = 67
 }
 
 one_point_five_children = {
-	global_population_growth = -0.001
+	global_population_growth = -0.002
 	education_efficiency_modifier = 0.1
 	icon = 68
 }
@@ -2333,19 +2326,19 @@ two_children = {
 }
 
 two_point_five_children = {
-	global_population_growth = 0.001
+	global_population_growth = 0.002
 	education_efficiency_modifier = -0.1
 	icon = 70
 }
 
 three_children = {
-	global_population_growth = 0.002
+	global_population_growth = 0.004
 	education_efficiency_modifier = -0.25
 	icon = 71
 }
 
 four_children = {
-	global_population_growth = 0.003
+	global_population_growth = 0.006
 	education_efficiency_modifier = -0.5
 	icon = 72
 }
@@ -3085,7 +3078,4 @@ papal_rule = {
 	icon = 19
 }
 
-<<<<<<< HEAD
-=======
 slavepopupdated = { }
->>>>>>> Experimental-Branch

@@ -3220,16 +3220,6 @@ country_event = {
 			militancy = 5
 			consciousness = 7
 		}
-<<<<<<< HEAD
-		RUS_1184 = {
-			add_core = KAZ
-			add_province_modifier = {
-				name = nationalist_agitation
-				duration = -1
-			}
-		}
-		RUS_1182 = {
-=======
 		any_owned = {
 			limit = {
 				OR = {
@@ -3238,7 +3228,6 @@ country_event = {
 				}
 			
 			}
->>>>>>> Experimental-Branch
 			add_core = KAZ
 			add_province_modifier = {
 				name = nationalist_agitation
@@ -3247,10 +3236,6 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 100
-<<<<<<< HEAD
-		
-=======
->>>>>>> Experimental-Branch
 		}
 	}
 	option = {

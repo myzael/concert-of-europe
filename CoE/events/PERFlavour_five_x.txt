@@ -121,13 +121,6 @@ country_event = {
 			consciousness = 1
 			ideology = {
 				factor = 0.01
-<<<<<<< HEAD
-				ideology = reactionary
-			}
-			scaled_militancy = {
-				factor = 3.5
-				ideology = reactionaries
-=======
 			#	ideology = reactionary #MoralMonster fix
 				value = reactionary
 			}
@@ -135,7 +128,6 @@ country_event = {
 				factor = 3.5
 				#ideology = reactionaries oscar7211
 				ideology = reactionary
->>>>>>> Experimental-Branch
 			}
 		}
 		random_owned = {
@@ -4433,11 +4425,7 @@ country_event = {
 				tag = THIS
 				social_reform_name = public
 			}
-<<<<<<< HEAD
-			any_pop = 
-=======
 			any_pop = {
->>>>>>> Experimental-Branch
 				limit = {
 					OR = {
 						has_pop_religion = shiite
@@ -5885,15 +5873,9 @@ country_event = {
 		has_country_flag = naser_al_din
 		NOT = { year = 1880 }
 		OR = {
-<<<<<<< HEAD
-			government = absolute_monarchy
-			government = prussian_constitutionalism
-			government = hms_government
-=======
 			OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
 			OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
 			OR = { government = hms_government government = hms_government2 government = hms_government3 }
->>>>>>> Experimental-Branch
 		}
 	}
 	

@@ -6493,7 +6493,7 @@ promote_aristocrats;Encourage Aristocrats ;Encourager les aristocrates;Aristokra
 promote_artisans;Encourage Artisans ;Encourager les artisans;Handwerker fördern;;;;;;;;;;;;x;;;;;;;;;;;;;;
 promote_bureaucrats;Encourage Bureaucrats ;Encourager les bureaucrates;Bürokraten fördern;;;;;;;;;;;;x;;;;;;;;;;;;;;
 promote_capitalists;Encourage Capitalists ;Encourager les capitalistes;Kapitalisten fördern;;;;;;;;;;;;x;;;;;;;;;;;;;;
-promote_clergymen;Encourage Clergymen ;Encourager les membres du clergé;Geistliche fördern;;;;;;;;;;;;x;;;;;;;;;;;;;;
+promote_clergymen;Encourage Intellectuals ;Encourager les membres du clergé;Geistliche fördern;;;;;;;;;;;;x;;;;;;;;;;;;;;
 promote_clerks;Encourage Clerks ;Encourager les employés de bureau;Angestellte fördern;;;;;;;;;;;;x;;;;;;;;;;;;;;
 promote_craftsmen;Encourage Craftsmen ;Encourager les ouvriers;Facharbeiter fördern;;;;;;;;;;;;x;;;;;;;;;;;;;;
 promote_farmers;Encourage Farmers ;Encourager les fermiers;Bauern fördern;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -10001,7 +10001,7 @@ aristocrats;Aristocrats;Aristocrates;Aristokraten;;;;;;;;;;;;x;;;;;;;;;;;;;;
 artisans;Artisans;Artisans;Handwerker;;;;;;;;;;;;x;;;;;;;;;;;;;;
 bureaucrats;Bureaucrats;Bureaucrates;Bürokraten;;;;;;;;;;;;x;;;;;;;;;;;;;;
 capitalists;Capitalists;Capitalistes;Kapitalisten;;;;;;;;;;;;x;;;;;;;;;;;;;;
-clergymen;Clergymen;Clergé;Geistliche;;;;;;;;;;;;x;;;;;;;;;;;;;;
+clergymen;Intellectuals;Clergé;Geistliche;;;;;;;;;;;;x;;;;;;;;;;;;;;
 clerks;Clerks;Employés;Angestellte;;;;;;;;;;;;x;;;;;;;;;;;;;;
 craftsmen;Craftsmen;Ouvriers;Facharbeiter;;;;;;;;;;;;x;;;;;;;;;;;;;;
 farmers;Farmers;Fermiers;Bauern;;;;;;;;;;;;x;;;;;;;;;;;;;;

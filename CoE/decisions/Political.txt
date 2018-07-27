@@ -255,4 +255,49 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	
+	suspend_political_powers = {
+	
+		potential = {
+         always = yes
+		}
+		
+		allow = {
+		 NOT = { has_country_modifier = rights_suspended }
+            OR = {
+			 average_militancy = 6
+			 OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+			 OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			 AND = { 
+			  OR = { government = prussian_constitutionalism government = prussian_constitutionalism2 government = prussian_constitutionalism3 }
+			  average_militancy = 3
+			 }
+			 #AND = { 
+			 # OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			 # average_militancy = 5
+			 #}
+		   }
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = rights_suspended
+				duration = 1095
+			}
+		    upper_house = {
+			 ideology = Executive
+			 value = 1
+		    }
+			any_pop = {
+			 militancy = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				average_militancy = 6
+			}
+		}
+	}
 }

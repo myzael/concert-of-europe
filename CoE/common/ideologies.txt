@@ -13,7 +13,7 @@ fascist_group = {
 
 
 		remove_political_reform = {
-			base = 0
+			base = 0.2
 			modifier = {
 				factor = 1
 				ruling_party_ideology = fascist
@@ -114,6 +114,27 @@ fascist_group = {
 
 
 
+	}
+	
+	Executive = {
+		color = { 112 41 99 }
+
+		add_political_reform = {
+			base = 1
+		}
+		
+		remove_political_reform = {
+			base = 1
+		}
+		
+		add_social_reform = {
+			base = 1
+		}
+		
+		remove_social_reform = {
+			base = 1
+		}
+	
 	}
 }
 

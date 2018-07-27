@@ -100,3 +100,5 @@ HND_prussian_constitutionalism3;Raj;Hindustani Empire;Hindustani Empire;;;;;;;;;
 HND_hms_government;Hindustani Empire;Hindustani Empire;Hindustani Empire;;;;;;;;;;;x;
 HND_hms_government2;East Indian Company;Hindustani Empire;Hindustani Empire;;;;;;;;;;;x;
 HND_hms_government3;Raj;Hindustani Empire;Hindustani Empire;;;;;;;;;;;x;
+suspend_political_powers_title;Political Rights Suspended;;;;;;;;;;;x;
+suspend_political_powers_desc;In the light of the recent events our Executive Head has decided to suspend political rights. We can only hope that the situation will return to normality as soon as possible...;;;;;;;;;;;x;

@@ -544,7 +544,11 @@ political_decisions = {
 			civilized = yes
 		}
 		allow = {
-			NOT = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
+			OR = { 
+			 NOT = { OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 } }
+			 ruling_party_ideology = liberal
+			 ruling_party_ideology = fascist
+			}
 			OR = {
 				ruling_party_ideology = conservative
 				ruling_party_ideology = liberal

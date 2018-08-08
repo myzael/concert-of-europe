@@ -3081,7 +3081,7 @@ papal_rule = {
 slavepopupdated = { }
 
 rights_suspended = { 
-	pop_consciousness_modifier = -0.05
-	pop_militancy_modifier = -0.05
+	global_pop_consciousness_modifier = -0.05
+	global_pop_militancy_modifier = -0.05
 	icon = 3
 }

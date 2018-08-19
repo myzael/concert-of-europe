@@ -58,7 +58,6 @@ country_event = {
 		tag = BUR
 		exists = yes
 		owns = 1258
-		neighbour = ENG
 		NOT = {
 			exists = ASM
 			war_with = ENG

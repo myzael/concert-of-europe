@@ -52,6 +52,7 @@ political_decisions = {
 			activate_technology = water_wheel_power
 			activate_technology = bronze_muzzle_loaded_artillery
 			activate_technology = military_staff_system
+			activate_technology = post_napoleonic_thought
 			small_arms = 50
 			regular_clothes = 50
 			horses = 20

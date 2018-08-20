@@ -2,6 +2,38 @@
 # If adding new forms of governemnts, make sure they are uniquely named.
 
 
+socialist_democracy =
+{
+	#which ideology of parties.
+	socialist = yes
+	communist = yes
+	
+	election = yes
+	appoint_ruling_party = no
+	flagType = communist
+}
+
+socialist_democracy2 =
+{
+	#which ideology of parties.
+	socialist = yes
+	communist = yes
+	
+	election = yes
+	appoint_ruling_party = no
+	flagType = communist2
+}
+
+socialist_democracy3 =
+{
+	#which ideology of parties.
+	socialist = yes
+	communist = yes
+	
+	election = yes
+	appoint_ruling_party = no
+	flagType = communist3
+}
 
 proletarian_dictatorship =
 {

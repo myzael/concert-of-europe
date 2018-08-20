@@ -14,7 +14,7 @@ country_event = {
 		is_vassal = no
 		civilized = yes
 		ruling_party_ideology = communist #seems less likely to be satisfied than being a proletarian_dictatorship code_optimalisation
-		NOT = { government = proletarian_dictatorship }
+		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 		average_militancy = 3
 		OR = {
 			num_of_revolts = 1
@@ -93,7 +93,7 @@ country_event = {
 		is_vassal = no
 		civilized = yes
 		ruling_party_ideology = communist #seems less likely to be satisfied than being a proletarian_dictatorship code_optimalisation
-		NOT = { government = proletarian_dictatorship2 }
+		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 		average_militancy = 3
 		OR = {
 			num_of_revolts = 1
@@ -172,7 +172,7 @@ country_event = {
 		is_vassal = no
 		civilized = yes
 		ruling_party_ideology = communist #seems less likely to be satisfied than being a proletarian_dictatorship code_optimalisation
-		NOT = { government = proletarian_dictatorship3 }
+		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
 		average_militancy = 3
 		OR = {
 			num_of_revolts = 1
@@ -575,7 +575,7 @@ country_event = {
 		is_vassal = no
 		civilized = yes
 		ruling_party_ideology = anarcho_liberal #moved one up. seems less likely to be satisfied than government type code_optimalisation
-		NOT = { government = bourgeois_dictatorship }
+		NOT = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }
 		average_militancy = 3
 		OR = {
 			num_of_revolts = 1
@@ -647,7 +647,7 @@ country_event = {
 		is_vassal = no
 		civilized = yes
 		ruling_party_ideology = anarcho_liberal #moved one up. seems less likely to be satisfied than government type code_optimalisation
-		NOT = { government = bourgeois_dictatorship2 }
+		NOT = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }
 		average_militancy = 3
 		OR = {
 			num_of_revolts = 1
@@ -719,7 +719,7 @@ country_event = {
 		is_vassal = no
 		civilized = yes
 		ruling_party_ideology = anarcho_liberal #moved one up. seems less likely to be satisfied than government type code_optimalisation
-		NOT = { government = bourgeois_dictatorship3 }
+		NOT = { OR = { government = bourgeois_dictatorship government = bourgeois_dictatorship2 government = bourgeois_dictatorship3 } }
 		average_militancy = 3
 		OR = {
 			num_of_revolts = 1
@@ -791,7 +791,7 @@ country_event = {
 		is_vassal = no
 		civilized = yes
 		ruling_party_ideology = fascist #moved one up. seems less likely to be satisfied than government type code_optimalisation
-		NOT = { government = fascist_dictatorship }
+		NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 		average_militancy = 3
 		OR = {
 			num_of_revolts = 1
@@ -863,7 +863,7 @@ country_event = {
 		is_vassal = no
 		civilized = yes
 		ruling_party_ideology = fascist #moved one up. seems less likely to be satisfied than government type code_optimalisation
-		NOT = { government = fascist_dictatorship2 }
+		NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 		average_militancy = 3
 		OR = {
 			num_of_revolts = 1
@@ -935,7 +935,7 @@ country_event = {
 		is_vassal = no
 		civilized = yes
 		ruling_party_ideology = fascist #moved one up. seems less likely to be satisfied than government type code_optimalisation
-		NOT = { government = fascist_dictatorship3 }
+		NOT = { OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 } }
 		average_militancy = 3
 		OR = {
 			num_of_revolts = 1

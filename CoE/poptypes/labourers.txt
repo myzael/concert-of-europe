@@ -2748,6 +2748,11 @@ ideologies = {
 			}
 		}
 		modifier = {
+			factor = 4
+			OR = { government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
+			not = { militancy = 4 }
+		}
+		modifier = {
 			factor = 0.9
 			country = { 
 				has_country_flag = party_quarral_socialist
@@ -2973,6 +2978,11 @@ ideologies = {
 		modifier = {
 			factor = 4
 			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			not = { militancy = 4 }
+		}
+		modifier = {
+			factor = 4
+			OR = { government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			not = { militancy = 4 }
 		}
 		modifier = {

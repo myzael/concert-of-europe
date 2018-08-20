@@ -47,6 +47,9 @@ reactionary_rebels = {
 		theocracy = absolute_monarchy
 		theocracy2 = absolute_monarchy
 		theocracy3 = absolute_monarchy
+		socialist_democracy = presidential_dictatorship
+		socialist_democracy2 = presidential_dictatorship
+		socialist_democracy3 = presidential_dictatorship
 	}
 
 
@@ -434,6 +437,9 @@ fascist_rebels = {
 		theocracy = fascist_dictatorship
 		theocracy2 = fascist_dictatorship
 		theocracy3 = fascist_dictatorship
+		socialist_democracy = fascist_dictatorship
+		socialist_democracy2 = fascist_dictatorship
+		socialist_democracy3 = fascist_dictatorship
 	}
 
 
@@ -782,6 +788,9 @@ communist_rebels = {
 		theocracy = proletarian_dictatorship
 		theocracy2 = proletarian_dictatorship
 		theocracy3 = proletarian_dictatorship
+		socialist_democracy = proletarian_dictatorship
+		socialist_democracy2 = proletarian_dictatorship
+		socialist_democracy3 = proletarian_dictatorship
 	}
 
 
@@ -1155,6 +1164,9 @@ anarcho_liberal_rebels = {
 		theocracy = democracy
 		theocracy2 = democracy
 		theocracy3 = democracy
+        socialist_democracy = democracy
+		socialist_democracy2 = democracy
+		socialist_democracy3 = democracy
 	}
 
 
@@ -1506,6 +1518,9 @@ nationalist_rebels = {
 		theocracy = theocracy
 		theocracy2 = theocracy2
 		theocracy3 = theocracy3
+		socialist_democracy = socialist_democracy
+		socialist_democracy2 = socialist_democracy2
+		socialist_democracy3 = socialist_democracy3
 	}
 
 
@@ -1811,6 +1826,9 @@ pan_nationalist_rebels = {
 		theocracy = theocracy
 		theocracy2 = theocracy2
 		theocracy3 = theocracy3
+		socialist_democracy = socialist_democracy
+		socialist_democracy2 = socialist_democracy2
+		socialist_democracy3 = socialist_democracy3
 	}
 
 	defection = none		# If the country seeks independence, defection specifies what type of provinces it wants.
@@ -2304,6 +2322,9 @@ carlist_rebels = {
 		theocracy = absolute_monarchy
 		theocracy2 = absolute_monarchy
 		theocracy3 = absolute_monarchy
+		socialist_democracy = absolute_monarchy
+		socialist_democracy2 = absolute_monarchy
+		socialist_democracy3 = absolute_monarchy
 	}
 
 
@@ -2618,6 +2639,9 @@ christino_rebels = {
 		theocracy = hms_government
 		theocracy2 = hms_government
 		theocracy3 = hms_government
+		socialist_democracy = hms_government
+		socialist_democracy2 = hms_government
+		socialist_democracy3 = hms_government
 	}
 
 
@@ -2908,6 +2932,9 @@ red_shirts = {
 		theocracy = theocracy
 		theocracy2 = theocracy2
 		theocracy3 = theocracy3
+		socialist_democracy = socialist_democracy
+		socialist_democracy2 = socialist_democracy2
+		socialist_democracy3 = socialist_democracy3
 	}
 
 	defection = none		# If the country seeks independence, defection specifies what type of provinces it wants.
@@ -3164,6 +3191,9 @@ indian_sepoys = {
 		theocracy = theocracy
 		theocracy2 = theocracy2
 		theocracy3 = theocracy3
+		socialist_democracy = socialist_democracy
+		socialist_democracy2 = socialist_democracy2
+		socialist_democracy3 = socialist_democracy3
 	}
 
 	defection = pan_nationalist		# If the country seeks independence, defection specifies what type of provinces it wants.
@@ -3456,6 +3486,9 @@ indian_nationalists = {
 		theocracy = theocracy
 		theocracy2 = theocracy2
 		theocracy3 = theocracy3
+		socialist_democracy = socialist_democracy
+		socialist_democracy2 = socialist_democracy2
+		socialist_democracy3 = socialist_democracy3
 	}
 
 	defection = none		# If the country seeks independence, defection specifies what type of provinces it wants.
@@ -3686,6 +3719,9 @@ liberal_rebels = {
 		theocracy = hms_government
 		theocracy2 = hms_government
 		theocracy3 = hms_government
+		socialist_democracy = democracy
+		socialist_democracy2 = democracy
+		socialist_democracy3 = democracy
 	}
 
 
@@ -4183,6 +4219,9 @@ unciv_reactionary_rebels = {
 		theocracy = absolute_monarchy
 		theocracy2 = absolute_monarchy
 		theocracy3 = absolute_monarchy
+		socialist_democracy = absolute_monarchy
+		socialist_democracy2 = absolute_monarchy
+		socialist_democracy3 = absolute_monarchy
 	}
 
 	defection = none					# Will defect to the "best" alternative.
@@ -4426,6 +4465,9 @@ separatist_rebels = {
 		theocracy = theocracy
 		theocracy2 = theocracy2
 		theocracy3 = theocracy3
+		socialist_democracy = socialist_democracy
+		socialist_democracy2 = socialist_democracy2
+		socialist_democracy3 = socialist_democracy3
 	}
 
 
@@ -4646,33 +4688,36 @@ socialist_rebels = {
 
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
-		proletarian_dictatorship = democracy
-		proletarian_dictatorship2 = democracy
-		proletarian_dictatorship3 = democracy
-		presidential_dictatorship = democracy
-		presidential_dictatorship2 = democracy
-		presidential_dictatorship3 = democracy
-		bourgeois_dictatorship = democracy
-		bourgeois_dictatorship2 = democracy
-		bourgeois_dictatorship3 = democracy
-		fascist_dictatorship = democracy
-		fascist_dictatorship2 = democracy
-		fascist_dictatorship3 = democracy
-		absolute_monarchy = democracy
-		absolute_monarchy2 = democracy
-		absolute_monarchy3 = democracy
-		prussian_constitutionalism = democracy
-		prussian_constitutionalism2 = democracy
-		prussian_constitutionalism3 = democracy
-		hms_government = democracy
-		hms_government2 = democracy
-		hms_government3 = democracy
-		democracy = democracy
-		democracy2 = democracy
-		democracy3 = democracy
-		theocracy = democracy
-		theocracy2 = democracy
-		theocracy3 = democracy
+		proletarian_dictatorship = socialist_democracy
+		proletarian_dictatorship2 = socialist_democracy
+		proletarian_dictatorship3 = socialist_democracy
+		presidential_dictatorship = socialist_democracy
+		presidential_dictatorship2 = socialist_democracy
+		presidential_dictatorship3 = socialist_democracy
+		bourgeois_dictatorship = socialist_democracy
+		bourgeois_dictatorship2 = socialist_democracy
+		bourgeois_dictatorship3 = socialist_democracy
+		fascist_dictatorship = socialist_democracy
+		fascist_dictatorship2 = socialist_democracy
+		fascist_dictatorship3 = socialist_democracy
+		absolute_monarchy = socialist_democracy
+		absolute_monarchy2 = socialist_democracy
+		absolute_monarchy3 = socialist_democracy
+		prussian_constitutionalism = socialist_democracy
+		prussian_constitutionalism2 = socialist_democracy
+		prussian_constitutionalism3 = socialist_democracy
+		hms_government = socialist_democracy
+		hms_government2 = socialist_democracy
+		hms_government3 = socialist_democracy
+		democracy = socialist_democracy
+		democracy2 = socialist_democracy
+		democracy3 = socialist_democracy
+		theocracy = socialist_democracy
+		theocracy2 = socialist_democracy
+		theocracy3 = socialist_democracy
+		socialist_democracy = socialist_democracy
+		socialist_democracy2 = socialist_democracy2
+		socialist_democracy3 = socialist_democracy3
 	}
 
 
@@ -4996,19 +5041,10 @@ socialist_rebels = {
 		political_reform = universal_voting
 		political_reform = population_equal_weight
 		political_reform = yes_meeting
-		political_reform = free_press
+		political_reform = censored_press
 		political_reform = all_trade_unions
-		random_owned = {
-			limit = {
-				owner = {
-					OR = {
-						political_parties = underground_parties
-						political_parties = harassment
-					}
-				}
-			}
-			owner = { political_reform = gerrymandering }
-		}
+        political_reform = harassment
+
 		clr_country_flag = tory_election_win
 		set_country_flag = socialist_election_win
 		clr_country_flag = liberal_election_win
@@ -5101,6 +5137,9 @@ independence_rebels = {
 		theocracy = theocracy
 		theocracy2 = theocracy2
 		theocracy3 = theocracy3
+		socialist_democracy = socialist_democracy
+		socialist_democracy2 = socialist_democracy2
+		socialist_democracy3 = socialist_democracy3
 	}
 
 
@@ -5285,6 +5324,9 @@ turkish_nationalist_rebels = {
 		theocracy = democracy
 		theocracy2 = democracy
 		theocracy3 = democracy
+		socialist_democracy = democracy
+		socialist_democracy2 = democracy
+		socialist_democracy3 = democracy
 	}
 
 
@@ -5596,6 +5638,9 @@ native_rebels = {
 		theocracy = democracy
 		theocracy2 = democracy
 		theocracy3 = democracy
+		socialist_democracy = democracy
+		socialist_democracy2 = democracy
+		socialist_democracy3 = democracy
 	}
 
 	defection = none					# Will defect to the "best" alternative.
@@ -5800,6 +5845,9 @@ sioux_nation = {
 		theocracy = theocracy
 		theocracy2 = theocracy2
 		theocracy3 = theocracy3
+		socialist_democracy = socialist_democracy
+		socialist_democracy2 = socialist_democracy2
+		socialist_democracy3 = socialist_democracy3
 	}
 
 	defection = none					# Will defect to the "best" alternative.
@@ -5936,6 +5984,9 @@ apache = {
 		theocracy = theocracy
 		theocracy2 = theocracy2
 		theocracy3 = theocracy3
+		socialist_democracy = socialist_democracy
+		socialist_democracy2 = socialist_democracy2
+		socialist_democracy3 = socialist_democracy3
 	}
 
 	defection = none					# Will defect to the "best" alternative.
@@ -6079,6 +6130,9 @@ colonial_rebels = {
 		theocracy = hms_government
 		theocracy2 = hms_government
 		theocracy3 = hms_government
+		socialist_democracy = socialist_democracy
+		socialist_democracy2 = socialist_democracy2
+		socialist_democracy3 = socialist_democracy3
 	}
 
 	defection = culture_group					# Will defect to the "best" alternative.

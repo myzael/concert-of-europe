@@ -4121,7 +4121,7 @@ country_event = {
 			}
 		}
 		NOT = {
-			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
@@ -4237,7 +4237,7 @@ country_event = {
 		modifier = {
 			factor = 0.8
 			any_neighbor_country = {
-				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+				OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			}
 		}
 	}
@@ -4479,7 +4479,7 @@ country_event = {
 		modifier = {
 			factor = 0.8
 			any_neighbor_country = {
-				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+				OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			}
 		}
 	}
@@ -4567,7 +4567,7 @@ country_event = {
 			average_militancy = 4
 		}
 		NOT = {
-			OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+			OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 		}
 	}
@@ -4683,7 +4683,7 @@ country_event = {
 		modifier = {
 			factor = 0.8
 			any_neighbor_country = {
-				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+				OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 			}
 		}
 	}
@@ -4776,7 +4776,7 @@ province_event = {
 		}
 		owner = {
 			NOT = {
-				OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 }
+				OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 }
 				OR = { government = fascist_dictatorship government = fascist_dictatorship2 government = fascist_dictatorship3 }
 			}
 			civilized = yes
@@ -4877,7 +4877,7 @@ province_event = {
 		modifier = {
 			factor = 0.8
 			any_neighbor_province = {
-				owner = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship2 government = proletarian_dictatorship3 } }
+				owner = { OR = { government = proletarian_dictatorship proletarian_dictatorship2 government = proletarian_dictatorship3 government = socialist_democracy government = socialist_democracy2 government = socialist_democracy3 } }
 			}
 		}
 		modifier = {

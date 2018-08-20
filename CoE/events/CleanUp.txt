@@ -1432,6 +1432,105 @@ country_event = {
 }
 
 country_event = {
+	id = 60074
+	title = "EVTNAME60040"
+	desc = "EVTDESC60040"
+	news = yes
+	news_title = "EVTNAME60040_NEWS_TITLE"
+	news_desc_long = "EVTDESC60040_NEWS_LONG"
+	news_desc_medium = "EVTDESC60040_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC60040_NEWS_SHORT"
+	picture = "Monarchy"
+	
+	trigger = {
+		exists = yes
+		government = hms_government
+		NOT = {
+		  OR = {
+			political_parties = secret_ballots
+			political_parties = non_secret_ballots
+		  }
+		}
+		civilized = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA60040"
+		government = prussian_constitutionalism
+	}
+}
+
+country_event = {
+	id = 60075
+	title = "EVTNAME60040"
+	desc = "EVTDESC60040"
+	news = yes
+	news_title = "EVTNAME60040_NEWS_TITLE"
+	news_desc_long = "EVTDESC60040_NEWS_LONG"
+	news_desc_medium = "EVTDESC60040_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC60040_NEWS_SHORT"
+	picture = "Monarchy"
+	
+	trigger = {
+		exists = yes
+		government = hms_government2
+		NOT = {
+		  OR = {
+			political_parties = secret_ballots
+			political_parties = non_secret_ballots
+		  }
+		}
+		civilized = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA60040"
+		government = prussian_constitutionalism2
+	}
+}
+
+country_event = {
+	id = 60076
+	title = "EVTNAME60040"
+	desc = "EVTDESC60040"
+	news = yes
+	news_title = "EVTNAME60040_NEWS_TITLE"
+	news_desc_long = "EVTDESC60040_NEWS_LONG"
+	news_desc_medium = "EVTDESC60040_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC60040_NEWS_SHORT"
+	picture = "Monarchy"
+	
+	trigger = {
+		exists = yes
+		government = hms_government3
+		NOT = {
+		  OR = {
+			political_parties = secret_ballots
+			political_parties = non_secret_ballots
+		  }
+		}
+		civilized = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA60040"
+		government = prussian_constitutionalism3
+	}
+}
+
+country_event = {
 	id = 60080
 	title = "Voting Rights Rescinded"
 	desc = "EVTDESC60080"

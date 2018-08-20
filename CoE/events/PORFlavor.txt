@@ -877,7 +877,7 @@ country_event = {
 		name = "Long live the Republic!"
 		prestige = -10
 		ruling_party_ideology = liberal
-		OR = { government = democracy government = democracy2 government = democracy3 }
+		government = democracy
 		political_reform = universal_weighted_voting
 		political_reform = population_equal_weight
 		political_reform = yes_meeting

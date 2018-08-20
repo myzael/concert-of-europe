@@ -215,6 +215,7 @@ political_decisions = {
 		}
 
 		effect = {
+            country_event = 99957
 			prestige = 5
 			badboy = 20
 			all_core = {

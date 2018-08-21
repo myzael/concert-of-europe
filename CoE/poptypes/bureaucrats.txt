@@ -2771,19 +2771,16 @@ ideologies = {
 			not = { everyday_needs = 0.1 }
 		}
 		modifier = {
-			factor = 0.9
+			factor = 1.5
 			political_reform_want = 0.10
-			is_ideology_enabled = social_liberal
 		}
 		modifier = {
-			factor = 0.8
+			factor = 1.5
 			political_reform_want = 0.20
-			is_ideology_enabled = social_liberal
 		}
 		modifier = {
-			factor = 0.8
+			factor = 1.5
 			political_reform_want = 0.30
-			is_ideology_enabled = social_liberal
 		}
 	}
 

@@ -599,7 +599,7 @@ liberal_group = {
 			base = 0.8
 		}
 		remove_social_reform = {
-			base = 0.1
+			base = 0.2
 		}
 	}
 	abolitionist = {

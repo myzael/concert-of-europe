@@ -2225,7 +2225,7 @@ ideologies = {
 }
 	
 	fascist = {
-		factor = 1
+		factor = 1.2
 		modifier = {
 			factor = 1.1
 			country = { 
@@ -2735,7 +2735,7 @@ ideologies = {
 	}
 	
 	socialist = {
-		factor = 1
+		factor = 1.2
 		modifier = {
 			factor = 1.05
 			country = { 
@@ -2885,24 +2885,21 @@ ideologies = {
 			not = { everyday_needs = 0.1 }
 		}
 		modifier = {
-			factor = 0.9
+			factor = 1.5
 			political_reform_want = 0.10
-			is_ideology_enabled = social_liberal
 		}
 		modifier = {
-			factor = 0.8
+			factor = 1.5
 			political_reform_want = 0.20
-			is_ideology_enabled = social_liberal
 		}
 		modifier = {
-			factor = 0.8
+			factor = 1.5
 			political_reform_want = 0.30
-			is_ideology_enabled = social_liberal
 		}
 	}
 
 	communist = {
-		factor = 1
+		factor = 1.2
 		modifier = {
 			factor = 1.1
 			country = { 

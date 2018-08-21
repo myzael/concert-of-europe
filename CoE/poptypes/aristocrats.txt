@@ -2651,19 +2651,16 @@ ideologies = {
 			plurality = 50
 		}
 		modifier = {
-			factor = 0.9
+			factor = 1.5
 			political_reform_want = 0.10
-			is_ideology_enabled = social_liberal
 		}
 		modifier = {
-			factor = 0.9
+			factor = 1.5
 			political_reform_want = 0.20
-			is_ideology_enabled = social_liberal
 		}
 		modifier = {
-			factor = 0.9
+			factor = 1.5
 			political_reform_want = 0.30
-			is_ideology_enabled = social_liberal
 		}
 	}
 

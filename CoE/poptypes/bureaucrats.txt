@@ -83,7 +83,7 @@ luxury_needs = {
 
 country_migration_target =
 {
-	factor = 0.01
+	factor = 1
 
 	modifier = {
 		factor = 0.9

@@ -3752,11 +3752,12 @@ issues = {
 			}
 		}
 		modifier = {
-			factor = 0
+			factor = 0.75
 			state_scope = {
 				is_slave = no
 			}
 		}	
+
 		modifier = {
 			factor = 1.25
 			consciousness = 2
@@ -3766,11 +3767,11 @@ issues = {
 			consciousness = 3
 		}
 		modifier = {
-			factor = 1.25
+			factor = 1.5
 			consciousness = 4
 		}
 		modifier = {
-			factor = 1.25
+			factor = 1.5
 			consciousness = 5
 		}
 		modifier = {
@@ -3792,7 +3793,7 @@ issues = {
 	}
 
 	no_slavery = {
-		factor = 1.25
+		factor = 1
 		modifier = {
 			factor = 0 
 			country = {
@@ -3802,13 +3803,18 @@ issues = {
 				}	
 			}
 		}
-
 		modifier = {
-			factor = 1.5
+			factor = 0.5
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		modifier = {
+			factor = 1.25
 			consciousness = 2
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			consciousness = 3
 		}
 		modifier = {
@@ -3857,7 +3863,6 @@ issues = {
 				NOT = {
 					is_next_reform = landed_voting
 				}
-				NOT = { consciousness = 4 }
 				luxury_needs =  0.5
 				country = { civilized = no }
 				and = {
@@ -3912,6 +3917,23 @@ issues = {
 			NOT = { agree_with_ruling_party = 1 }
 		}
 
+
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
 		modifier = {
 			factor = 1.5
 			consciousness = 5
@@ -3924,7 +3946,6 @@ issues = {
 			factor = 1.5
 			consciousness = 7
 		}
-
 		modifier = {
 			factor = 1.5
 			consciousness = 8
@@ -3932,7 +3953,8 @@ issues = {
 		modifier = {
 			factor = 1.5
 			consciousness = 9
-		}		
+		}	
+		
 		modifier = {
 			factor = 1.1
 			literacy = 0.30
@@ -3966,7 +3988,6 @@ issues = {
 				NOT = {
 					is_next_reform = wealth_weighted_voting
 				}
-				NOT = { consciousness = 4 }
 				luxury_needs =  0.5
 				and = {
 					minorities_reform = oppression
@@ -4021,6 +4042,22 @@ issues = {
 		}
 
 		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
 			factor = 1.5
 			consciousness = 5
 		}
@@ -4032,7 +4069,6 @@ issues = {
 			factor = 1.5
 			consciousness = 7
 		}
-
 		modifier = {
 			factor = 1.5
 			consciousness = 8
@@ -4074,7 +4110,6 @@ issues = {
 				NOT = {
 					is_next_reform = wealth_voting
 				}
-				NOT = { consciousness = 4 }
 				luxury_needs =  0.5
 				and = {
 					minorities_reform = oppression
@@ -4129,6 +4164,22 @@ issues = {
 		}
 
 		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
 			factor = 1.5
 			consciousness = 5
 		}
@@ -4140,7 +4191,6 @@ issues = {
 			factor = 1.5
 			consciousness = 7
 		}
-
 		modifier = {
 			factor = 1.5
 			consciousness = 8
@@ -4182,7 +4232,6 @@ issues = {
 				NOT = {
 					is_next_reform = universal_weighted_voting
 				}
-				NOT = { consciousness = 4 }
 				luxury_needs =  0.5
 				and = {
 					minorities_reform = oppression
@@ -4237,6 +4286,22 @@ issues = {
 		}
 
 		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
 			factor = 1.5
 			consciousness = 5
 		}
@@ -4248,7 +4313,6 @@ issues = {
 			factor = 1.5
 			consciousness = 7
 		}
-
 		modifier = {
 			factor = 1.5
 			consciousness = 8
@@ -4288,7 +4352,6 @@ issues = {
 			factor = 0
 			OR = {
 				vote_franschise = universal_voting
-				NOT = { consciousness = 4 }
 				luxury_needs =  0.5
 				and = {
 					minorities_reform = oppression
@@ -4343,6 +4406,22 @@ issues = {
 		}
 
 		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
 			factor = 1.5
 			consciousness = 5
 		}
@@ -4354,7 +4433,6 @@ issues = {
 			factor = 1.5
 			consciousness = 7
 		}
-
 		modifier = {
 			factor = 1.5
 			consciousness = 8
@@ -4396,7 +4474,6 @@ issues = {
 				NOT = {
 					is_next_reform = jefferson_method
 				}
-				NOT = { consciousness = 4 }
 				vote_franschise = none_voting 
 				luxury_needs =  0.5
 				country = {
@@ -4404,6 +4481,7 @@ issues = {
 			}
 			}
 		}
+		
 		modifier = {
 			factor = 1.1
 			NOT = { agree_with_ruling_party = 0.10 }
@@ -4443,6 +4521,42 @@ issues = {
 		modifier = {
 			factor = 1.1
 			NOT = { agree_with_ruling_party = 1 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 8
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 9
 		}
 	}
 	proportional_representation = {
@@ -4452,7 +4566,6 @@ issues = {
 			OR = {
 				voting_system = proportional_representation
 				vote_franschise = none_voting 
-				NOT = { consciousness = 4 }
 				luxury_needs =  0.5
 				country = {
 				civilized = no
@@ -4499,6 +4612,42 @@ issues = {
 			factor = 1.1
 			NOT = { agree_with_ruling_party = 1 }
 		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 8
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 9
+		}
 	}
 	harassment = {
 		factor = 1
@@ -4506,7 +4655,6 @@ issues = {
 			factor = 0
 			OR = {
 				vote_franschise = none_voting 
-				NOT = { consciousness = 4 }
 				NOT = {
 					is_next_reform = harassment
 				}
@@ -4555,6 +4703,26 @@ issues = {
 			NOT = { agree_with_ruling_party = 1 }
 		}
 		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
 			factor = 1.5
 			consciousness = 6
 		}
@@ -4566,9 +4734,8 @@ issues = {
 			factor = 1.5
 			consciousness = 8
 		}
-
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -4594,7 +4761,6 @@ issues = {
 			factor = 0
 			OR = {
 				vote_franschise = none_voting
-				NOT = { consciousness = 4 }
 				NOT = {
 					is_next_reform = gerrymandering
 				}
@@ -4643,19 +4809,39 @@ issues = {
 			NOT = { agree_with_ruling_party = 1 }
 		}
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -4671,7 +4857,6 @@ issues = {
 			factor = 0
 			OR = {
 				vote_franschise = none_voting 
-				NOT = { consciousness = 4 }
 				NOT = {
 					is_next_reform = non_secret_ballots
 				}
@@ -4720,20 +4905,39 @@ issues = {
 			NOT = { agree_with_ruling_party = 1 }
 		}
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
-
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -4750,7 +4954,6 @@ issues = {
 			factor = 0
 			OR = {
 				vote_franschise = none_voting 
-				NOT = { consciousness = 4 }
 				NOT = {	is_next_reform = secret_ballots }
 				luxury_needs =  0.5
 				country = { civilized = no }
@@ -4797,6 +5000,26 @@ issues = {
 			NOT = { agree_with_ruling_party = 1 }
 		}
 		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
 			factor = 1.5
 			consciousness = 6
 		}
@@ -4820,7 +5043,6 @@ issues = {
 			factor = 0 
 			OR = {
 				public_meetings = yes_meeting
-				NOT = { consciousness = 4 }
 				luxury_needs =  0.5
 				country = { civilized = no }
 			}
@@ -4864,6 +5086,22 @@ issues = {
 		modifier = {
 			factor = 1.1
 			NOT = { agree_with_ruling_party = 1 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
 		}
 		modifier = {
 			factor = 1.5
@@ -4915,7 +5153,6 @@ issues = {
 			OR = {
 				press_rights = censored_press
 				press_rights = free_press
-				NOT = { consciousness = 4 }
 				NOT = { literacy = 0.25 }
 				luxury_needs =  0.5
 				country = { civilized = no }
@@ -4946,19 +5183,39 @@ issues = {
 			literacy = 0.80
 		}
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -4992,7 +5249,6 @@ issues = {
 			OR = {
 				press_rights = state_press
 				press_rights = free_press
-				NOT = { consciousness = 4 }
 				NOT = { literacy = 0.40 }
 				luxury_needs =  0.5
 			}
@@ -5014,19 +5270,39 @@ issues = {
 			literacy = 0.80
 		}
 		modifier = {
-			factor = 2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
 			consciousness = 7
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -5045,7 +5321,6 @@ issues = {
 		modifier = {
 			factor = 0 
 			OR = {
-				NOT = { consciousness = 4 }
  				luxury_needs =  0.5
 				NOT = {
 					is_next_reform = state_controlled
@@ -5056,12 +5331,40 @@ issues = {
 		}
 
 		modifier = {
-			factor = 2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 9
 		}
 		modifier = {
 			factor = 1.2
@@ -5101,7 +5404,6 @@ issues = {
 		modifier = {
 			factor = 0 
 			OR = {
-				NOT = { consciousness = 4 }
 				country = {	civilized = no }
 				NOT = {
 					is_next_reform = non_socialist
@@ -5111,12 +5413,40 @@ issues = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 9
 		}
 		modifier = {
 			factor = 1.2
@@ -5156,7 +5486,6 @@ issues = {
 		modifier = {
 			factor = 0 
 			OR = {
-				NOT = { consciousness = 4 }
 				country = {	civilized = no }
 				trade_unions = all_trade_unions
 				luxury_needs =  0.5
@@ -5164,12 +5493,40 @@ issues = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 9
 		}
 		modifier = {
 			factor = 1.2
@@ -5210,7 +5567,6 @@ state_equal_weight = {
 		modifier = {
 			factor = 0
 			OR = {
-				NOT = { consciousness = 4 }
 				country = {	civilized = no }
 				NOT = { upper_house_composition = appointed }
 				vote_franschise = none_voting 
@@ -5218,15 +5574,39 @@ state_equal_weight = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
 			consciousness = 9
 		}	
 		modifier = {
@@ -5275,7 +5655,6 @@ state_equal_weight = {
 		modifier = {
 			factor = 0
 			OR = {
-				NOT = { consciousness = 4 }
 				country = {	civilized = no }
 				NOT = { upper_house_composition = state_equal_weight }
 				vote_franschise = none_voting 
@@ -5283,15 +5662,39 @@ state_equal_weight = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -5366,7 +5769,6 @@ state_equal_weight = {
 			OR = {
 				luxury_needs = 0.1
 				country = {	civilized = no }
-				NOT = { consciousness = 4 }
 				NOT = {
 					is_next_reform = trinket_wage
 				}
@@ -5375,23 +5777,39 @@ state_equal_weight = {
 			}	
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 5
+			factor = 0.5
+			NOT = { consciousness = 1 }
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
-		}	
+		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -5422,7 +5840,6 @@ state_equal_weight = {
 			OR = {
 				luxury_needs = 0.1
 				country = {	civilized = no }
-				NOT = { consciousness = 4 }
 				NOT = {
 					is_next_reform = low_minimum_wage
 				}
@@ -5431,23 +5848,39 @@ state_equal_weight = {
 			}	
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 5
+			factor = 0.5
+			NOT = { consciousness = 1 }
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
-		}	
+		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -5478,7 +5911,6 @@ state_equal_weight = {
 			OR = {
 				luxury_needs = 0.1
 				country = {	civilized = no }
-				NOT = { consciousness = 6 }
 				NOT = {
 					is_next_reform = acceptable_minimum_wage
 				}
@@ -5487,23 +5919,39 @@ state_equal_weight = {
 			}	
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 5
+			factor = 0.5
+			NOT = { consciousness = 1 }
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
-		}	
+		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -5534,30 +5982,45 @@ state_equal_weight = {
 			OR = {
 				luxury_needs = 0.1
 					country = {	civilized = no }
-				NOT = { consciousness = 6 }
 				NOT = { is_next_reform = good_minimum_wage	}
 				unemployment = 0.1
 				NOT = { is_ideology_enabled = socialist }
 			}	
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 5
+			factor = 0.5
+			NOT = { consciousness = 1 }
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
-		}	
+		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -5589,15 +6052,38 @@ trinket_safety = {
 				not = { everyday_needs = 0.1 }
 				unemployment = 0.1
 				country = {	civilized = no }
-				NOT = { consciousness = 6 }
 				NOT = {	is_next_reform = trinket_safety	}
 				NOT = { is_ideology_enabled = socialist }
 			}	
 		}
 		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
 			factor = 1.5
 			consciousness = 7
-		}	
+		}
 		modifier = {
 			factor = 1.5
 			consciousness = 8
@@ -5631,7 +6117,6 @@ trinket_safety = {
 				not = { everyday_needs = 0.1 }
 				unemployment = 0.1
 				country = {	civilized = no }
-				NOT = { consciousness = 6 }
 				NOT = {
 					is_next_reform = low_safety
 				}
@@ -5639,9 +6124,33 @@ trinket_safety = {
 			}	
 		}
 		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
 			factor = 1.5
 			consciousness = 7
-		}	
+		}
 		modifier = {
 			factor = 1.5
 			consciousness = 8
@@ -5675,7 +6184,6 @@ trinket_safety = {
 				not = { everyday_needs = 0.1 }
 				country = {	civilized = no }
 				unemployment = 0.1
-				NOT = { consciousness = 6 }
 				NOT = {
 					is_next_reform = acceptable_safety
 				}
@@ -5683,9 +6191,33 @@ trinket_safety = {
 			}	
 		}
 		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
 			factor = 1.5
 			consciousness = 7
-		}	
+		}
 		modifier = {
 			factor = 1.5
 			consciousness = 8
@@ -5718,7 +6250,6 @@ trinket_safety = {
 			OR = {
 				not = { everyday_needs = 0.1 }
 				country = {	civilized = no }
-				NOT = { consciousness = 6 }
 				unemployment = 0.1
 				NOT = {
 					is_next_reform = good_safety 
@@ -5727,9 +6258,33 @@ trinket_safety = {
 			}	
 		}
 		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
 			factor = 1.5
 			consciousness = 7
-		}	
+		}
 		modifier = {
 			factor = 1.5
 			consciousness = 8
@@ -5762,28 +6317,51 @@ trinket_subsidies = {
 			OR = {
 				luxury_needs = 0.1
 				country = {	civilized = no }
-				NOT = { consciousness = 6 }
 				NOT = { state_scope = {  unemployment = 0.03 } }
 				NOT = {
 					is_next_reform = trinket_subsidies
 				}
 				NOT = { is_ideology_enabled = socialist }
 			}
-		}
-		modifier = {
-			factor = 1.2
-			consciousness = 7
 		}	
 		modifier = {
 			factor = 1.2
 			state_scope = { unemployment = 0.1  }
 		}
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -5823,7 +6401,6 @@ trinket_subsidies = {
 				luxury_needs = 0.1
 				NOT = { state_scope = {  unemployment = 0.03 } }
 				country = {	civilized = no }
-				NOT = { consciousness = 6 }
 				NOT = {
 					is_next_reform = low_subsidies
 				}
@@ -5832,18 +6409,42 @@ trinket_subsidies = {
 		}
 		modifier = {
 			factor = 1.2
-			consciousness = 7
-		}	
-		modifier = {
-			factor = 1.2
 			state_scope = { unemployment = 0.1  }
 		}
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -5884,27 +6485,50 @@ trinket_subsidies = {
 				luxury_needs = 0.1
 				NOT = { state_scope = {  unemployment = 0.03 } }
 				country = {	civilized = no }
-				NOT = { consciousness = 6 }
 				NOT = {
 					is_next_reform = acceptable_subsidies
 				}
 				NOT = { is_ideology_enabled = socialist }
 			}
-		}
-		modifier = {
-			factor = 1.2
-			consciousness = 7
 		}	
 		modifier = {
 			factor = 1.2
 			state_scope = { unemployment = 0.1  }
 		}
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -5945,27 +6569,50 @@ trinket_subsidies = {
 				luxury_needs = 0.1
 				NOT = { state_scope = {  unemployment = 0.03 } }
 				country = {	civilized = no }
-				NOT = { consciousness = 6 }
 				NOT = {
 					is_next_reform = good_subsidies
 				}
 				NOT = { is_ideology_enabled = socialist }
 			}
-		}
-		modifier = {
-			factor = 1.2
-			consciousness = 7
 		}	
 		modifier = {
 			factor = 1.2
 			state_scope = { unemployment = 0.1  }
 		}
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -6005,7 +6652,6 @@ trinket_subsidies = {
 				not = { life_needs = 1 }
 				luxury_needs = 0.1
 				country = {	civilized = no }
-				NOT = { consciousness = 6 }
 				NOT = {
 					is_next_reform = trinket_pensions
 				}
@@ -6013,15 +6659,39 @@ trinket_subsidies = {
 			}	
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 7
+			factor = 0.5
+			NOT = { consciousness = 1 }
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 8
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -6053,7 +6723,6 @@ trinket_subsidies = {
 				not = { life_needs = 1 }
 				luxury_needs = 0.1
 				country = {	civilized = no }
-				NOT = { consciousness = 6 }
 				NOT = {
 					is_next_reform = low_pensions
 				}
@@ -6061,15 +6730,39 @@ trinket_subsidies = {
 			}	
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 7
+			factor = 0.5
+			NOT = { consciousness = 1 }
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 8
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -6101,7 +6794,6 @@ trinket_subsidies = {
 				not = { life_needs = 1 }
 				luxury_needs = 0.1
 				country = {	civilized = no }
-				NOT = { consciousness = 6 }
 				NOT = {
 					is_next_reform = acceptable_pensions
 				}
@@ -6109,15 +6801,39 @@ trinket_subsidies = {
 			}	
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 7
+			factor = 0.5
+			NOT = { consciousness = 1 }
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 8
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -6149,7 +6865,6 @@ trinket_subsidies = {
 				not = { life_needs = 1 }
 				luxury_needs = 0.1
 				country = {	civilized = no }
-				NOT = { consciousness = 6 }
 				NOT = {
 					is_next_reform = good_pensions
 				}
@@ -6157,15 +6872,39 @@ trinket_subsidies = {
 			}	
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 7
+			factor = 0.5
+			NOT = { consciousness = 1 }
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 8
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -6196,7 +6935,6 @@ trinket_subsidies = {
 			OR = {
 				luxury_needs = 0.1
 				country = {	civilized = no }
-				NOT = { consciousness = 5 }
 				NOT = {
 					is_next_reform = trinket_health_care
 				}
@@ -6204,19 +6942,39 @@ trinket_subsidies = {
 			}	
 		}
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -6251,7 +7009,6 @@ trinket_subsidies = {
 			OR = {
 				luxury_needs = 0.1
 				country = {	civilized = no }
-				NOT = { consciousness = 5 }
 				NOT = {
 					is_next_reform = low_health_care
 				}
@@ -6259,19 +7016,39 @@ trinket_subsidies = {
 			}	
 		}
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -6306,7 +7083,6 @@ trinket_subsidies = {
 			OR = {
 				luxury_needs = 0.1
 				country = {	civilized = no }
-				NOT = { consciousness = 5 }
 				NOT = {
 					is_next_reform = acceptable_health_care
 				}
@@ -6314,19 +7090,39 @@ trinket_subsidies = {
 			}	
 		}
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -6361,7 +7157,6 @@ trinket_subsidies = {
 			OR = {
 				luxury_needs = 0.1
 				country = {	civilized = no }
-				NOT = { consciousness = 5 }
 				NOT = {
 					is_next_reform = good_health_care
 				}
@@ -6369,19 +7164,39 @@ trinket_subsidies = {
 			}	
 		}
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -6416,7 +7231,6 @@ trinket_subsidies = {
 			OR = {
 				not = { everyday_needs = 0.25 }
 				country = {	civilized = no }
-				NOT = { consciousness = 5 }
 				NOT = {
 					is_next_reform = fourteen_hours
 				}
@@ -6424,13 +7238,33 @@ trinket_subsidies = {
 			}	
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 6
-		}  
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 7
-		}  
+		}
 		modifier = {
 			factor = 1.5
 			consciousness = 8
@@ -6467,7 +7301,6 @@ trinket_subsidies = {
 			OR = {
 				not = { everyday_needs = 0.25 }
 				country = {	civilized = no }
-				NOT = { consciousness = 6 }
 				NOT = {
 					is_next_reform = twelve_hours
 				}
@@ -6475,13 +7308,33 @@ trinket_subsidies = {
 			}	
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 6
-		}  
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 7
-		}  
+		}
 		modifier = {
 			factor = 1.5
 			consciousness = 8
@@ -6518,7 +7371,6 @@ trinket_subsidies = {
 			OR = {
 				not = { everyday_needs = 0.25 }
 				country = {	civilized = no }
-				NOT = { consciousness = 6 }
 				NOT = {
 					is_next_reform = ten_hours
 				}
@@ -6526,13 +7378,33 @@ trinket_subsidies = {
 			}	
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 6
-		}  
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 7
-		}  
+		}
 		modifier = {
 			factor = 1.5
 			consciousness = 8
@@ -6569,7 +7441,6 @@ trinket_subsidies = {
 			OR = {
 				not = { everyday_needs = 0.25 }
 				country = {	civilized = no }
-				NOT = { consciousness = 6 }
 				NOT = {
 					is_next_reform = eight_hours
 				}
@@ -6577,13 +7448,33 @@ trinket_subsidies = {
 			}	
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 6
-		}  
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 7
-		}  
+		}
 		modifier = {
 			factor = 1.5
 			consciousness = 8
@@ -6835,7 +7726,6 @@ trinket_subsidies = {
 		modifier = {
 			factor = 0 
 			OR = {
-				NOT = { consciousness = 5 }
 				NOT = {
 					is_next_reform = child_labor_restricted
 				}
@@ -6844,19 +7734,39 @@ trinket_subsidies = {
 			}	
 		}
 		modifier = {
-			factor = 2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
 			consciousness = 7
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 5
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -6890,7 +7800,6 @@ trinket_subsidies = {
 		modifier = {
 			factor = 0 
 			OR = {
-				NOT = { consciousness = 7 }
 				NOT = {
 					is_next_reform = child_labor_illegal
 				}
@@ -6899,11 +7808,39 @@ trinket_subsidies = {
 			}	
 		}
 		modifier = {
-			factor = 4
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 5
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -6940,8 +7877,6 @@ trinket_subsidies = {
 				NOT = { is_ideology_enabled = socialist }
 				country = {	civilized = no }
 				NOT = {	is_next_reform = church }
-				NOT = { literacy = 0.25 }
-				NOT = { consciousness = 4 }
 			}
 		}
 		modifier = {
@@ -6969,20 +7904,40 @@ trinket_subsidies = {
 			literacy = 0.80
 		}
 		modifier = {
-			factor = 2
-			consciousness = 5 
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
 		}
 		modifier = {
-			factor = 2
-			consciousness = 6 
+			factor = 0.5
+			NOT = { consciousness = 3 }
 		}
 		modifier = {
-			factor = 2
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 7
 		}
 		modifier = {
-			factor = 2
+			factor = 1.5
 			consciousness = 8
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 9
 		}
 		modifier = {
 			factor = 0.1
@@ -7006,8 +7961,6 @@ trinket_subsidies = {
 				NOT = { is_ideology_enabled = socialist }
 				country = {	civilized = no }
 				NOT = {	is_next_reform = public }
-				NOT = { literacy = 0.40 }
-				NOT = { consciousness = 4 }
 			}
 		}
 		modifier = {
@@ -7027,20 +7980,40 @@ trinket_subsidies = {
 			literacy = 0.80
 		}
 		modifier = {
-			factor = 2
-			consciousness = 5 
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
 		}
 		modifier = {
-			factor = 2
-			consciousness = 6 
+			factor = 0.5
+			NOT = { consciousness = 3 }
 		}
 		modifier = {
-			factor = 3
-			consciousness = 7 
+			factor = 1
+			consciousness = 4
 		}
 		modifier = {
-			factor = 3
-			consciousness = 8 
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 8
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 9
 		}
 		modifier = {
 			factor = 0.1
@@ -7065,7 +8038,6 @@ trinket_subsidies = {
 				country = {	civilized = no }
 				NOT = { is_ideology_enabled = socialist }
 				NOT = { everyday_needs = 1 }
-				NOT = { consciousness = 7 }
 			}	
 		}
 		modifier = {
@@ -7075,11 +8047,39 @@ trinket_subsidies = {
 			}
 		}
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -7135,16 +8135,43 @@ trinket_subsidies = {
 				}
 				country = {	civilized = no }
 				NOT = { is_ideology_enabled = socialist }
-				NOT = { everyday_needs = 1 }
-				NOT = { consciousness = 7 }				
+				NOT = { everyday_needs = 1 }			
 			}	
 		}
 		modifier = {
-			factor = 2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 3
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -7201,15 +8228,42 @@ trinket_subsidies = {
 				country = {	civilized = no }
 				NOT = { is_ideology_enabled = socialist }
 				NOT = { everyday_needs = 1 }
-				NOT = { consciousness = 7 }
 			}	
 		}
 		modifier = {
-			factor = 2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 3
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -7266,15 +8320,42 @@ trinket_subsidies = {
 				country = {	civilized = no }
 				NOT = { is_ideology_enabled = socialist }
 				NOT = { everyday_needs = 1 }
-				NOT = { consciousness = 7 }
 			}	
 		}
 		modifier = {
-			factor = 2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 3
+			factor = 1.5
 			consciousness = 9
 		}
 		modifier = {
@@ -7334,7 +8415,6 @@ trinket_subsidies = {
 			OR = {
 				NOT = { is_primary_culture = yes }
 				country = {	civilized = no }
-				NOT = { consciousness = 4 }
 			}
 		}
 		modifier = {
@@ -7420,7 +8500,6 @@ trinket_subsidies = {
 			factor = 0
 			OR = {
 				country = { civilized = no }
-				NOT = { consciousness = 4 }
 				slavery = yes_slavery
 			}
 		}
@@ -7502,28 +8581,40 @@ trinket_subsidies = {
 			NOT = { agree_with_ruling_party = 0.50 }
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 5
+			factor = 0.5
+			NOT = { consciousness = 1 }
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
-		}	
+		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
-		}
-		modifier = {
-			factor = 1.2
-			consciousness = 10
 		}
 		modifier = {
 			factor = 2
@@ -7556,7 +8647,6 @@ trinket_subsidies = {
 			factor = 0
 			OR = {
 				country = { civilized = no }
-				NOT = { consciousness = 4 }
 				slavery = yes_slavery
 			}
 		}
@@ -7619,28 +8709,40 @@ trinket_subsidies = {
 			NOT = { agree_with_ruling_party = 0.50 }
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 5
+			factor = 0.5
+			NOT = { consciousness = 1 }
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
-		}	
+		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
-		}
-		modifier = {
-			factor = 1.2
-			consciousness = 10
 		}
 		modifier = {
 			factor = 2
@@ -7656,85 +8758,12 @@ trinket_subsidies = {
 		}
 	}
 	
-	quota_immigration = {
-		factor = 1
-		modifier = {
-			factor = 0
-			OR = {
-			country = { civilized = no }
-			NOT = { consciousness = 6 }		
-			}
-		}
-		modifier = {
-			factor = 1.15
-			country = {
-				immigration_policy = nobody_gets_out
-				}
-		}
-
-		modifier = {
-			factor = 1.2
-			consciousness = 5
-
-		}	
-		modifier = {
-			factor = 1.2
-			consciousness = 6
-		}
-		modifier = {
-			factor = 1.2
-			consciousness = 7
-		}	
-		modifier = {
-			factor = 1.2
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.2
-			consciousness = 9
-		}
-		modifier = {
-			factor = 1.2
-			consciousness = 10
-		}
-
-		modifier = {
-			factor = 1.25
-			ruling_party_ideology = conservative
-		}
-		modifier = {
-			factor = 1.2
-			not = { luxury_needs = 1 }
-		}		
-		modifier = {
-			factor = 1.2
-			not = { everyday_needs = 1 }
-		}
-		modifier = {
-			factor = 2
-			not = { life_needs = 1  }
-		}
-		modifier = {
-			factor = 1.2
-			unemployment = 0.25
-		}	
-		modifier = {
-			factor = 1.2
-			unemployment = 0.50
-		}
-		modifier = {
-			factor = 1.2
-			unemployment = 0.75
-		}
-	}
-	
 	open_immigration = {
 		factor = 1
 		modifier = {
 			factor = 0
 			OR = {
-			country = { civilized = no }
-			NOT = { consciousness = 6 }		
+			country = { civilized = no }		
 			}
 		}
 		modifier = {
@@ -7744,29 +8773,40 @@ trinket_subsidies = {
 				}
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 5
+			factor = 0.5
+			NOT = { consciousness = 1 }
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
-
-		}	
+		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
-		}
-		modifier = {
-			factor = 1.2
-			consciousness = 10
 		}
 
 		modifier = {
@@ -7795,36 +8835,46 @@ trinket_subsidies = {
 	naturalization = {
 		factor = 1
 		modifier = {
-			factor = 1.2
-			consciousness = 5
+			factor = 0.5
+			NOT = { consciousness = 1 }
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
-
-		}	
+		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
-		}
-		modifier = {
-			factor = 1.2
-			consciousness = 10
 		}
 
 		modifier = {
 			factor = 0
 			OR = {
-			country = { civilized = no }
-			NOT = { consciousness = 6 }		
+			country = { civilized = no }		
 			}
 		}
 		modifier = {
@@ -7850,12 +8900,11 @@ trinket_subsidies = {
 	}
 
 	no_draft = {
-		factor = 0.6
+		factor = 0.8
 		modifier = {
 			factor = 0
 			OR = {
-				not = { conscription = one_year_draft }
-				NOT = { consciousness = 6 }		
+				not = { conscription = one_year_draft }		
 				country = { civilized = no }				
 
 			}
@@ -7869,27 +8918,27 @@ trinket_subsidies = {
 			}
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.3
 			war_exhaustion = 5
 
 		}	
 		modifier = {
-			factor = 1.1
+			factor = 1.3
 			war_exhaustion = 10
 
 		}	
 		modifier = {
-			factor = 1.1
+			factor = 1.3
 			war_exhaustion = 15
 
 		}	
 		modifier = {
-			factor = 1.3
+			factor = 1.5
 			war_exhaustion = 20
 
 		}	
 		modifier = {
-			factor = 1.5
+			factor = 2
 			war_exhaustion = 25
 
 		}
@@ -7902,28 +8951,40 @@ trinket_subsidies = {
 			}
 		}
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 1 }
+		}	
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 5
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
-		}	
+		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
-		}
-		modifier = {
-			factor = 1.2
-			consciousness = 10
 		}
 	}
 	
@@ -7936,9 +8997,13 @@ trinket_subsidies = {
 					not = {	conscription = no_draft }
 					not = {	conscription = two_year_draft }
 				}
-				NOT = { consciousness = 6 }	
 				country = { civilized = no }					
 			}
+		}
+		modifier = {
+			factor = 0.8
+			unemployment = 0.1
+			conscription = two_year_draft
 		}
 		modifier = {
 			factor = 2
@@ -7960,7 +9025,7 @@ trinket_subsidies = {
 			conscription = two_year_draft
 		}
 		modifier = {
-			factor = 1.5
+			factor = 3
 			not = {
 				any_neighbor_country = {
 					military_score = THIS
@@ -7969,60 +9034,72 @@ trinket_subsidies = {
 			conscription = two_year_draft
 		}
 		modifier = {
-			factor = 3
+			factor = 1.5
 				any_neighbor_country = {
 					military_score = THIS
 				}
 				conscription = no_draft
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.3
 			war_exhaustion = 5
 			conscription = two_year_draft
 		}	
 		modifier = {
-			factor = 1.1
+			factor = 1.3
 			war_exhaustion = 10
 			conscription = two_year_draft
 		}	
 		modifier = {
-			factor = 1.1
+			factor = 1.3
 			war_exhaustion = 15
 			conscription = two_year_draft
 		}	
 		modifier = {
-			factor = 1.3
+			factor = 1.5
 			war_exhaustion = 20
 			conscription = two_year_draft
 		}	
 		modifier = {
-			factor = 1.5
+			factor = 2
 			war_exhaustion = 25
 			conscription = two_year_draft
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 5
+			factor = 0.5
+			NOT = { consciousness = 1 }
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
-		}	
+		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
-		}
-		modifier = {
-			factor = 1.2
-			consciousness = 10
 		}
 	}
 	
@@ -8036,8 +9113,12 @@ trinket_subsidies = {
 					not = {	conscription = four_year_draft }
 				}
 				country = { civilized = no }
-				NOT = { consciousness = 6 }
 			}
+		}
+		modifier = {
+			factor = 0.8
+			unemployment = 0.1
+			conscription = four_year_draft
 		}
 		modifier = {
 			factor = 2
@@ -8059,70 +9140,82 @@ trinket_subsidies = {
 			conscription = four_year_draft
 		}
 		modifier = {
-			factor = 3
+			factor = 1.5
 			any_neighbor_country = {
 				military_score = THIS
 			}
 			conscription = one_year_draft
 		}
 		modifier = {
-			factor = 1.5
+			factor = 3
 			not = { any_neighbor_country = { military_score = THIS } }
 			conscription = four_year_draft
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.3
 			war_exhaustion = 5
 
 			conscription = four_year_draft
 		}	
 		modifier = {
-			factor = 1.1
+			factor = 1.3
 			war_exhaustion = 10
 
 			conscription = four_year_draft
 		}	
 		modifier = {
-			factor = 1.1
+			factor = 1.3
 			war_exhaustion = 15
 
 			conscription = four_year_draft
 		}	
 		modifier = {
-			factor = 1.3
+			factor = 1.5
 			war_exhaustion = 20
 
 			conscription = four_year_draft
 		}	
 		modifier = {
-			factor = 1.5
+			factor = 2
 			war_exhaustion = 25
 
 			conscription = four_year_draft
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 5
+			factor = 0.5
+			NOT = { consciousness = 1 }
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
-		}	
+		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
-		}
-		modifier = {
-			factor = 1.2
-			consciousness = 10
 		}
 	}
 	
@@ -8132,12 +9225,16 @@ trinket_subsidies = {
 			factor = 0
 			OR = {
 				country = { civilized = no }
-				NOT = { consciousness = 6 }
 				and = {
 					not = {	conscription = mandatory_service }
 					not = {	conscription = two_year_draft }
 				}
 			}
+		}
+		modifier = {
+			factor = 0.8
+			unemployment = 0.1
+			conscription = mandatory_service
 		}
 		modifier = {
 			factor = 2
@@ -8159,79 +9256,90 @@ trinket_subsidies = {
 			conscription = mandatory_service
 		}
 		modifier = {
-			factor = 3
+			factor = 1.5
 			any_neighbor_country = { military_score = THIS }
 			conscription = two_year_draft
 		}
 		modifier = {
-			factor = 1.5
+			factor = 3
 			not = { any_neighbor_country = { military_score = THIS } }
 			conscription = mandatory_service
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.3
 			war_exhaustion = 5
 
 			conscription = mandatory_service
 		}	
 		modifier = {
-			factor = 1.1
+			factor = 1.3
 			war_exhaustion = 10
 
 			conscription = mandatory_service
 		}	
 		modifier = {
-			factor = 1.1
+			factor = 1.3
 			war_exhaustion = 15
 
 			conscription = mandatory_service
 		}	
 		modifier = {
-			factor = 1.3
+			factor = 1.5
 			war_exhaustion = 20
 
 			conscription = mandatory_service
 		}	
 		modifier = {
-			factor = 1.5
+			factor = 2
 			war_exhaustion = 25
 
 			conscription = mandatory_service
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 5
+			factor = 0.5
+			NOT = { consciousness = 1 }
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
-		}	
+		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
-		}
-		modifier = {
-			factor = 1.2
-			consciousness = 10
 		}
 	}
 	
 	mandatory_service = {
-		factor = 1
+		factor = 0.8
 		modifier = {
 			factor = 0
 			OR = {
 				not = { conscription = four_year_draft }
 				country = { civilized = no }
-				NOT = { consciousness = 6 }
 			}
 		}
 		modifier = {
@@ -8252,34 +9360,46 @@ trinket_subsidies = {
 			}
 		}
 		modifier = {
-			factor = 3
+			factor = 1.5
 			any_neighbor_country = {
 				military_score = THIS
 			}
 		}
 		modifier = {
-			factor = 1.2
-			consciousness = 5
+			factor = 0.5
+			NOT = { consciousness = 1 }
 		}	
 		modifier = {
-			factor = 1.2
+			factor = 0.5
+			NOT = { consciousness = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { consciousness = 3 }
+		}
+		modifier = {
+			factor = 1
+			consciousness = 4
+		}
+		modifier = {
+			factor = 1.5
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
 			consciousness = 6
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 7
-		}	
+		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 8
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			consciousness = 9
-		}
-		modifier = {
-			factor = 1.2
-			consciousness = 10
 		}
 	}
 }

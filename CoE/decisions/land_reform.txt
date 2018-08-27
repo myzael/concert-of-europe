@@ -535,6 +535,10 @@ political_decisions = {
 			}
             social_reform = landed_estates
 		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 	
 	land_purchase_initiative = {
@@ -1074,6 +1078,10 @@ political_decisions = {
 				value = 0.25
 			}
             social_reform = land_purchase
+		}
+		
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -1616,6 +1624,10 @@ political_decisions = {
 			}
 			social_reform = commoners_properties
 		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 
 	collectivization_of_agriculture  = {
@@ -1658,6 +1670,10 @@ political_decisions = {
 				value = 0.25
 			}
 			social_reform = collectivization
+		}
+		
+		ai_will_do = {
+			factor = 1
 		}
 	}	
 }

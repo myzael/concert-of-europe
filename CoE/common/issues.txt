@@ -1616,7 +1616,7 @@ military_reforms = {
 			global_pop_militancy_modifier = -0.01
 		}
 		gunpowder_weapons = {
-			technology_cost = 11000
+			technology_cost = 1900
 			civilization_progress_modifier = 0.01
 			on_execute = {
 				effect = {
@@ -1643,7 +1643,7 @@ military_reforms = {
 			allow = {
 				year = 1840
 			}
-			technology_cost = 4500
+			technology_cost = 1900
 			civilization_progress_modifier = 0.02
 			on_execute = {
 				effect = {
@@ -1671,7 +1671,7 @@ military_reforms = {
 			allow = {
 				year = 1850
 			}
-			technology_cost = 7600
+			technology_cost = 3800
 			civilization_progress_modifier = 0.04
 			on_execute = {
 				effect = {
@@ -1699,7 +1699,7 @@ military_reforms = {
 			allow = {
 				year = 1870
 			}
-			technology_cost = 12500
+			technology_cost = 7600
 			civilization_progress_modifier = 0.08
 			on_execute = {
 				effect = {
@@ -1731,7 +1731,7 @@ military_reforms = {
 			land_defense_modifier = -0.2
 		}
 		early_light_artillery = {
-			technology_cost = 12000
+			technology_cost = 5700
 			civilization_progress_modifier = 0.03
 			on_execute = {
 				effect = {
@@ -1758,7 +1758,7 @@ military_reforms = {
 			allow = { 
 				year = 1840
 			}
-			technology_cost = 7600
+			technology_cost = 3800
 			civilization_progress_modifier = 0.05
 			on_execute = {
 				effect = {
@@ -1788,7 +1788,7 @@ military_reforms = {
 			allow = { 
 				year = 1860
 			}
-			technology_cost = 10000
+			technology_cost = 3800
 			civilization_progress_modifier = 0.07
 			on_execute = {
 				effect = {
@@ -1816,7 +1816,7 @@ military_reforms = {
 			allow = { 
 				year = 1880
 			}
-			technology_cost = 12500
+			technology_cost = 5700
 			civilization_progress_modifier = 0.1
 			on_execute = {
 				effect = {
@@ -1852,7 +1852,7 @@ military_reforms = {
 			#unit stats improve
 			land_organisation = 0.02
 			mobilisation_size = 0.01
-			technology_cost = 9500
+			technology_cost = 1900
 			civilization_progress_modifier = 0.01
 			on_execute = {
 				effect = {
@@ -1882,7 +1882,7 @@ military_reforms = {
 			}
 			land_organisation = 0.05
 			mobilisation_size = 0.02
-			technology_cost = 15000
+			technology_cost = 3800
 			civilization_progress_modifier = 0.03
 			on_execute = {
 				effect = {
@@ -1914,7 +1914,7 @@ military_reforms = {
 			land_organisation = 0.05
 			mobilisation_size = 0.02
 			land_unit_start_experience = 5
-			technology_cost = 18000
+			technology_cost = 5700
 			civilization_progress_modifier = 0.06
 			on_execute = {
 				effect = {
@@ -1946,7 +1946,7 @@ military_reforms = {
 			land_organisation = 0.1
 			mobilisation_size = 0.01
 			land_unit_start_experience = 10
-			technology_cost = 21000
+			technology_cost = 7600
 			civilization_progress_modifier = 0.1
 			on_execute = {
 				effect = {
@@ -1978,7 +1978,7 @@ military_reforms = {
 			global_pop_consciousness_modifier = -0.02
 		}
 		foreign_officers_commanding = {
-			technology_cost = 5000
+			technology_cost = 3800
 			leadership_modifier = 0.25
 			civilization_progress_modifier = 0.02
 			on_execute = {
@@ -2006,7 +2006,7 @@ military_reforms = {
 			allow = {  
 				year = 1850
 			} 
-			technology_cost = 9000
+			technology_cost = 5700
 			leadership_modifier = 0.5
 			civilization_progress_modifier = 0.05
 			on_execute = {
@@ -2034,7 +2034,7 @@ military_reforms = {
 			allow = {
 				year = 1870
 			}
-			technology_cost = 10000
+			technology_cost = 9500
 			leadership_modifier = 0.75
 			civilization_progress_modifier = 0.1
 			on_execute = {
@@ -2062,7 +2062,7 @@ military_reforms = {
 			allow = {
 				year = 1880
 			}
-			technology_cost = 15000
+			technology_cost = 18000
 			leadership_modifier = 1
 			civilization_progress_modifier = 0.2
 			on_execute = {
@@ -2094,7 +2094,7 @@ military_reforms = {
 			global_pop_militancy_modifier = -0.01
 		}
 		the_lessons_of_war = {
-			technology_cost = 9500
+			technology_cost = 3800
 			research_points_on_conquer = 0.25
 			civilization_progress_modifier = 0.02
 			on_execute = {
@@ -2126,7 +2126,7 @@ military_reforms = {
 			allow = {
 				year = 1835
 			}
-			technology_cost = 9000
+			technology_cost = 3800
 			research_points_on_conquer = 0.45
 			civilization_progress_modifier = 0.04
 			on_execute = {
@@ -2155,7 +2155,7 @@ military_reforms = {
 			allow = {
 				year = 1860
 			}
-			technology_cost = 10000
+			technology_cost = 3800
 			research_points_on_conquer = 0.6
 			civilization_progress_modifier = 0.08
 			on_execute = {
@@ -2183,7 +2183,7 @@ military_reforms = {
 			allow = {
 				year = 1890
 			}
-			technology_cost = 12500
+			technology_cost = 22800
 			research_points_on_conquer = 1
 			civilization_progress_modifier = 0.20
 			on_execute = {
@@ -2218,7 +2218,7 @@ military_reforms = {
 			allow = {
 				any_owned_province = { port = yes }
 			}
-			technology_cost = 12000
+			technology_cost = 5700
 			naval_organisation = 0.25
 			civilization_progress_modifier = 0.03
 			on_execute = {
@@ -2249,7 +2249,7 @@ military_reforms = {
 				any_owned_province = { port = yes }
 				year = 1850
 			}
-			technology_cost = 19000
+			technology_cost = 9500
 			naval_organisation = 0.5
 			civilization_progress_modifier = 0.08
 			on_execute = {
@@ -2282,7 +2282,7 @@ military_reforms = {
 				any_owned_province = { port = yes }
 				year = 1870
 			}
-			technology_cost = 21000
+			technology_cost = 13300
 			naval_organisation = 0.75
 			civilization_progress_modifier = 0.15
 			on_execute = {
@@ -2312,7 +2312,7 @@ military_reforms = {
 				any_owned_province = { port = yes }
 				year = 1890
 			}
-			technology_cost = 22000
+			technology_cost = 18000
 			naval_organisation = 1
 			civilization_progress_modifier = 0.25
 			on_execute = {
@@ -2347,7 +2347,7 @@ military_reforms = {
 			allow = {
 				any_owned_province = { port = yes }
 			}
-			technology_cost = 12000
+			technology_cost = 7600
 			naval_organisation = 0.25
 			civilization_progress_modifier = 0.04
 			on_execute = {
@@ -2376,7 +2376,7 @@ military_reforms = {
 				any_owned_province = { port = yes }
 				year = 1850
 			}
-			technology_cost = 19000
+			technology_cost = 3800
 			naval_organisation = 0.5
 			civilization_progress_modifier = 0.06
 			on_execute = {
@@ -2407,7 +2407,7 @@ military_reforms = {
 				any_owned_province = { port = yes }
 				year = 1860
 			}
-			technology_cost = 21000
+			technology_cost = 17100
 			research_points_on_conquer = 0.25
 			civilization_progress_modifier = 0.15
 			on_execute = {
@@ -2437,7 +2437,7 @@ military_reforms = {
 				any_owned_province = { port = yes }
 				year = 1880
 			}
-			technology_cost = 23000
+			technology_cost = 9500
 			naval_organisation = 1
 			civilization_progress_modifier = 0.2
 			on_execute = {

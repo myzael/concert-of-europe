@@ -43,7 +43,7 @@ country_event = {
 
 #Sahara Cleanup
 country_event = {
-	id = 300956
+	id = 300961
 	trigger = {
 		owns = 1713
 		civilized = yes

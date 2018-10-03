@@ -1384,6 +1384,7 @@ country_event = {
 					region = UCA_2197
 					region = UCA_2201
 					region = MEX_2181
+					region = CLM_1723
 				}
 			}
 			add_province_modifier = {
@@ -1473,6 +1474,7 @@ country_event = {
 					is_core = HON
 					is_core = NIC
 					is_core = COS
+					is_core = PNM
 				}
 				OR = {
 					controlled_by = REB
@@ -1496,6 +1498,7 @@ country_event = {
 					region = UCA_2193
 					region = UCA_2197
 					region = UCA_2201
+					region = CLM_1723
 				}
 			}
 			secede_province = UCA
@@ -1544,6 +1547,7 @@ country_event = {
 					region = UCA_2193
 					region = UCA_2197
 					region = UCA_2201
+					region = CLM_1723
 				}
 			}
 			secede_province = UCA
@@ -1580,6 +1584,7 @@ country_event = {
 					region = UCA_2193
 					region = UCA_2197
 					region = UCA_2201
+					region = CLM_1723
 				}
 			}
 			secede_province = UCA

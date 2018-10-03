@@ -746,11 +746,11 @@ money_hoarder_3 = {
 	trigger = {
 		or = {
 			and = {
-				money = 1000000
+				money = 10000000
 				not = { num_of_cities = 50 }
 			}
 			and = {
-				money = 1500000
+				money = 15000000
 				num_of_cities = 50
 			}
 		}

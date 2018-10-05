@@ -1526,4 +1526,29 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	
+	ENG_transfer_land_to_india = {
+		picture = map_india
+		potential = {
+			tag = ENG
+            is_our_vassal = HND
+		}	
+		
+		allow = {
+		  any_owned_province = {
+				is_core = HND
+		  }
+		}
+		
+		effect = {
+		  any_owned = {
+				limit = { is_core = HND }
+				secede_province = HND
+		  }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

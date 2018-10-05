@@ -106,12 +106,17 @@ country_event = {
         }
 		ai_chance = {
 			factor = 80
+			modifier = {
+				factor = 0
+                has_country_flag = POL_refused
+			}
 		}
 	}
 	
 	option = {
 		name = "This may not be the wisest decision" 
         POL = { country_event = 99950 }
+		set_country_flag = POL_refused
 		ai_chance = {
 			factor = 20
 		}
@@ -174,12 +179,17 @@ country_event = {
 		badboy = 10
 		ai_chance = {
 			factor = 60
+			modifier = {
+				factor = 0
+                has_country_flag = POL_refused
+			}
 		}
 	}
 	
 	option = {
 		name = "This may not be the wisest decision" 
         POL = { country_event = 99950 }
+		set_country_flag = POL_refused
 		ai_chance = {
 			factor = 40
 		}
@@ -251,12 +261,17 @@ country_event = {
 		badboy = 10
 		ai_chance = {
 			factor = 40
+			modifier = {
+				factor = 0
+                has_country_flag = POL_refused
+			}
 		}
 	}
 	
 	option = {
 		name = "This may not be the wisest decision" 
         POL = { country_event = 99950 }
+		set_country_flag = POL_refused
 		ai_chance = {
 			factor = 60
 		}
@@ -319,6 +334,10 @@ country_event = {
         POL = { country_event = 99946 }
 		ai_chance = {
 			factor = 30
+			modifier = {
+				factor = 0
+                has_country_flag = POL_refused
+			}
 		}
 	}
 	
@@ -327,12 +346,17 @@ country_event = {
         POL = { country_event = 99945 }
 		ai_chance = {
 			factor = 40
+			modifier = {
+				factor = 0
+                has_country_flag = POL_refused
+			}
 		}
 	}
 	
 	option = {
 		name = "This may not be the wisest decision" 
         POL = { country_event = 99950 }
+		set_country_flag = POL_refused
 		ai_chance = {
 			factor = 30
 		}
@@ -415,6 +439,7 @@ country_event = {
 	
 	option = {
 		name = "NEVER!"
+		RUS = { set_country_flag = POL_refused }
 		country_event = 99957
 	}
 	

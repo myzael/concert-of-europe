@@ -830,7 +830,7 @@ the_port_of_novorossiysk = {
 			}
 			any_pop = {
 				limit = {
-					has_pop_culture = north_german
+					has_pop_culture = russian_german
 				}
 				literacy = 0.2
 			}

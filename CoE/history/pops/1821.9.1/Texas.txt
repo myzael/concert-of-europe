@@ -62,6 +62,13 @@
 		religion = catholic
 
 	}
+	farmers = {
+
+		size = 200
+		culture = cherokee
+		religion = animist
+
+	}
 	slaves = {
 
 		size = 100

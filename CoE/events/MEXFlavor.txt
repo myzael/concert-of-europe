@@ -2216,6 +2216,11 @@ country_event = {
 				money = 50
 				reduce_pop = 0.90
 			}
+			any_pop = {
+				limit = { has_pop_culture = cherokee }
+				money = 50
+				reduce_pop = 0.90
+			}
 		}
 		135 = {
 			any_pop = {
@@ -2364,6 +2369,47 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 44857
+	title = "EVTNAME44857" #Cherokee Migration
+	desc = "EVTDESC44857"
+	picture = "farming"
+
+	trigger = {
+		tag = MEX
+		has_country_flag = accepted_cherokee_proposal
+		any_owned_province = { is_core = CHE }
+		year = 1830
+		NOT = {
+			TEX = { exists = yes }
+			has_country_flag = further_cherokee_migration
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = "Excellent."
+		set_country_flag = further_cherokee_migration
+		prestige = 2
+		134 = { add_core = CHE }
+		129 = {
+			any_pop = {
+				limit = { has_pop_culture = cherokee }
+				move_pop = 134
+			}
+		}
+		130 = {
+			any_pop = {
+				limit = { has_pop_culture = cherokee }
+				move_pop = 132
+			}
 		}
 	}
 }

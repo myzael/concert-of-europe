@@ -1964,7 +1964,7 @@ country_event = {
 
 	trigger = {
 		tag = MEX
-		year = 1830
+		year = 1824
 		NOT = {
 			year = 1836
 			has_country_flag = tejas_settled
@@ -2195,7 +2195,7 @@ country_event = {
 
 	trigger = {
 		tag = MEX
-		year = 1834
+		year = 1830
 		NOT = {
 			year = 1836
 			has_country_flag = tejas_settled_again

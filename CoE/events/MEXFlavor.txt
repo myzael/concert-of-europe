@@ -1880,6 +1880,83 @@ country_event = {
 }
 
 country_event = {
+	id = 44854
+	title = "EVTNAME44854" #Cherokee in Tejas
+	desc = "EVTDESC44854"
+	picture = "farming"
+
+	trigger = {
+		tag = MEX
+		year = 1823
+		has_country_flag = first_empire
+		NOT = {
+			has_country_flag = cherokee_question_answered
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	option = {
+		name = "We will accept Fields' request."
+		set_country_flag = cherokee_question_answered
+		set_country_flag = accepted_cherokee_proposal
+		prestige = 2
+		132 = {
+			add_core = CHE
+			any_pop = {
+				limit = { has_pop_culture = cherokee }
+				reduce_pop = 1.05
+			}
+			any_pop = {
+				limit = { has_pop_culture = native_american_minor }
+				reduce_pop = 1.05
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				OR = { government = absolute_monarchy government = absolute_monarchy2 government = absolute_monarchy3 }
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+			}
+			modifier = {
+				factor = 0.5
+				war = yes
+			}
+		}
+	}
+
+	option = {
+		name = "We refuse."
+		set_country_flag = cherokee_question_settled
+		132 = {
+			any_pop = {
+				limit = { has_pop_culture = cherokee }
+				consciousness = 2
+			}
+			any_pop = {
+				limit = { has_pop_culture = native_american_minor }
+				consciousness = 2
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				OR = { government = democracy government = democracy2 government = democracy3 }
+				OR = { government = presidential_dictatorship government = presidential_dictatorship2 government = presidential_dictatorship3 }
+			}
+			modifier = {
+				factor = 1.5
+				war = yes
+			}
+		}
+	}
+}
+
+country_event = {
 	id = 44855
 	title = "EVTNAME44855" #Empresarios in Tejas
 	desc = "EVTDESC44855"

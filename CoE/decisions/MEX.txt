@@ -254,6 +254,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	integrate_texans = {
 		potential = {
 			tag = MEX
@@ -282,6 +283,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	integrate_afro_caribeno = {
 		potential = {
 			tag = MEX
@@ -311,6 +313,55 @@ political_decisions = {
 			any_pop = {
 				limit = {
 					NOT = { has_pop_culture = afro_caribeno }
+				}
+				militancy = 1
+				consciousness = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	integrate_cherokee = {
+		potential = {
+			tag = MEX
+			has_country_flag = manifest_destiny_refuted
+			has_country_flag = accepted_cherokee_proposal
+			OR = {
+				AND = {
+					NOT = {	has_global_flag = marching_on_the_trail_of_tears }
+					owns = 134 #Houston
+				}
+				AND = {
+					has_global_flag = marching_on_the_trail_of_tears
+					owns = 130 #Tahlequah
+				}
+			}
+			NOT = {
+				has_country_flag = integrated_cherokee
+			}
+			OR = {
+				OR = { government = hms_government government = hms_government2 government = hms_government3 }
+				OR = { government = democracy government = democracy2 government = democracy3 }
+			}
+			slavery = no_slavery
+		}
+
+		allow = {
+			biologism = 1
+			nationalism_n_imperialism = 1
+			NOT = {
+				average_militancy = 3
+			}
+		}
+
+		effect = {
+			add_accepted_culture = cherokee
+			set_country_flag = integrated_cherokee
+			any_pop = {
+				limit = {
+					NOT = { has_pop_culture = cherokee }
 				}
 				militancy = 1
 				consciousness = 3

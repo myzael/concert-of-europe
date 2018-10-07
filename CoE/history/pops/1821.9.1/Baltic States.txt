@@ -6,7 +6,7 @@
 	aristocrats = {
 
 		size = 1057
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -27,7 +27,7 @@
 	artisans = {
 
 		size = 755
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -48,7 +48,7 @@
 	bureaucrats = {
 
 		size = 68
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -69,7 +69,7 @@
 	clergymen = {
 
 		size = 45
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -104,7 +104,7 @@
 	officers = {
 
 		size = 114
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -125,7 +125,7 @@
 	soldiers = {
 
 		size = 45
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -196,7 +196,7 @@
 	artisans = {
 
 		size = 503
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -210,7 +210,7 @@
 	clergymen = {
 
 		size = 45
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -235,7 +235,7 @@
 	artisans = {
 
 		size = 503
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -256,7 +256,7 @@
 	clergymen = {
 
 		size = 45
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -295,7 +295,7 @@
 	artisans = {
 
 		size = 45
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -316,7 +316,7 @@
 	clergymen = {
 
 		size = 9
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -345,7 +345,7 @@
 	aristocrats = {
 
 		size = 2986
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -366,7 +366,7 @@
 	artisans = {
 
 		size = 6158
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -387,7 +387,7 @@
 	bureaucrats = {
 
 		size = 108
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -408,7 +408,7 @@
 	clergymen = {
 
 		size = 68
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -429,7 +429,7 @@
 	officers = {
 
 		size = 143
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -450,7 +450,7 @@
 	soldiers = {
 
 		size = 91
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -468,7 +468,7 @@
 	artisans = {
 
 		size = 299
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -503,7 +503,7 @@
 	clergymen = {
 
 		size = 25
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -562,7 +562,7 @@
 	artisans = {
 
 		size = 2014
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -590,7 +590,7 @@
 	clergymen = {
 
 		size = 45
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -643,7 +643,7 @@
 	aristocrats = {
 
 		size = 2057
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -671,7 +671,7 @@
 	artisans = {
 
 		size = 686
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -685,7 +685,7 @@
 	bureaucrats = {
 
 		size = 75
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -706,7 +706,7 @@
 	clergymen = {
 
 		size = 45
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -734,7 +734,7 @@
 	officers = {
 
 		size = 85
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -780,7 +780,7 @@
 	artisans = {
 
 		size = 640
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -801,7 +801,7 @@
 	clergymen = {
 
 		size = 45
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -847,7 +847,7 @@
 	artisans = {
 
 		size = 366
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -868,7 +868,7 @@
 	clergymen = {
 
 		size = 22
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -915,7 +915,7 @@
 	artisans = {
 
 		size = 250
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -957,7 +957,7 @@
 	clergymen = {
 
 		size = 20
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -1084,7 +1084,7 @@
 	artisans = {
 
 		size = 2204
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -1139,7 +1139,7 @@
 	}
 	clergymen = {
 		size = 126
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -1254,14 +1254,14 @@
 	}
 	clergymen = {
 		size = 26
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
 	artisans = {
 
 		size = 504
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -1275,7 +1275,7 @@
 	farmers = {
 
 		size = 2500
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -1336,7 +1336,7 @@
 	artisans = {
 
 		size = 183
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -1371,7 +1371,7 @@
 	clergymen = {
 
 		size = 22
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -1406,7 +1406,7 @@
 	farmers = {
 
 		size = 686
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -1498,7 +1498,7 @@
 	artisans = {
 
 		size = 91
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -1519,7 +1519,7 @@
 	clergymen = {
 
 		size = 22
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}
@@ -1547,7 +1547,7 @@
 	farmers = {
 
 		size = 778
-		culture = north_german
+		culture = russian_german
 		religion = protestant
 
 	}

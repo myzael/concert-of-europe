@@ -984,4 +984,25 @@ political_decisions = {
 			}
 		}
 	}
+	
+	germans_of_the_east = {
+		picture = volga_ger_folk_book
+		potential = {
+			tag = GER
+		}
+
+		allow = {
+		    revolution_n_counterrevolution = 1
+		}
+
+		effect = {
+			prestige = 1
+			add_accepted_culture = russian_german
+			relation = { who = RUS value = -5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

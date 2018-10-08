@@ -1047,13 +1047,13 @@ assimilation_chance =
 		has_pop_religion = jewish
 		country = { religion = jewish }
 	}
-	modifier = {
-		factor = 4
-		OR = { 
-			strata = rich
-			strata = middle
-		}
-	}
+	#modifier = {
+	#	factor = 4
+	#	OR = { 
+	#		strata = rich
+	#		strata = middle
+	#	}
+	#}
 	modifier = {
 		factor = -6
 		country = { citizenship_policy = residency }

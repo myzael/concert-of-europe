@@ -165,6 +165,10 @@ party_issues = {
 		}
 	}
 	citizenship_policy = {
+		forced_assimilation = {
+			non_accepted_pop_consciousness_modifier = 0.02
+			non_accepted_pop_militancy_modifier = 0.02
+		}
 		residency = {
 			non_accepted_pop_consciousness_modifier = 0.02
 			non_accepted_pop_militancy_modifier = 0.01

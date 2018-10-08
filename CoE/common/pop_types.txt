@@ -85,15 +85,16 @@ promotion_chance =
 	modifier = {
 		factor = -0.1
 		NOT = { religion = THIS }
+		country = { religious_policy = moralism }
 	}
 	modifier = {
 		factor = -0.1
 		state_scope = { is_colonial = yes }
 	}
-	modifier = {
-		factor = -0.1
-		NOT = { culture = THIS }
-	}
+	#modifier = {
+	#	factor = -0.1
+	#	NOT = { culture = THIS }
+	#}
 	modifier = {
 		factor = -0.1
 		country = { slavery = yes_slavery }
@@ -151,7 +152,8 @@ demotion_chance =
 		factor = 1
 		state_scope = { is_colonial = yes }
 		strata = middle
-		NOT = { culture = THIS }		
+		is_primary_culture = no
+		is_accepted_culture = no
 	}
 	modifier = {
 		factor = -10
@@ -170,7 +172,8 @@ demotion_chance =
 	}
 	modifier = {
 		factor = -0.1
-		NOT = { culture = THIS }
+		is_primary_culture = no
+		is_accepted_culture = no
 	}
 	
 	group = {
@@ -466,6 +469,7 @@ colonialmigration_chance = {
 	factor = 0.2
 	modifier = {
 		factor = -0.1
+		is_primary_culture = no
 		is_accepted_culture = no
 	}
 	modifier = {
@@ -706,35 +710,52 @@ emigration_chance =
 	modifier = {
 		factor = 0.2
 		country = { citizenship_policy = residency }
-		is_primary_culture = no
+		 is_primary_culture = no
+		 is_accepted_culture = no
 	}
 	modifier = {
-		factor = -0.2
-		country = { citizenship_policy = residency }
-		is_primary_culture = yes
+		factor = 0.3
+		country = { citizenship_policy = forced_assimilation }
+		 is_primary_culture = no
+		 is_accepted_culture = no
 	}
-	modifier = {
-		factor = -0.1
-		country = { citizenship_policy = limited_citizenship }
-		is_primary_culture = yes
-	}
+	#modifier = {
+	#	factor = -0.2
+	#	country = { citizenship_policy = residency }
+	#	OR = { 
+	#	 is_primary_culture = yes
+	#	 is_accepted_culture = yes
+	#	}
+	#}
+	#modifier = {
+	#	factor = -0.1
+	#	country = { citizenship_policy = limited_citizenship }
+	#	OR = { 
+	#	 is_primary_culture = yes
+	#	 is_accepted_culture = yes
+	#	}
+	#}
 	modifier = {
 		factor = 0.1
-		country = { citizenship_policy = limited_citizenship }
-		is_primary_culture = no
-		is_accepted_culture = no
+		country = { citizenship_policy = limited_citizenship } 
+		 is_primary_culture = no
+		 is_accepted_culture = no
 	}
-	modifier = {
-		factor = -0.1
-		country = { citizenship_policy = limited_citizenship }
-		is_primary_culture = no
-		is_accepted_culture = yes
-	}
-	modifier = {
-		factor = -0.3
-		country = { citizenship_policy = full_citizenship }
-	}
+	#modifier = {
+	#	factor = -0.1
+	#	country = { citizenship_policy = limited_citizenship }
+	#	is_primary_culture = no
+	#	is_accepted_culture = yes
+	#}
+	#modifier = {
+	#	factor = -0.3
+	#	country = { citizenship_policy = full_citizenship }
+	#}
 	group = {
+		modifier = {
+			factor = -0.1
+			NOT = { literacy = 0.5 }
+		}
 		modifier = {
 			factor = -0.1
 			NOT = { literacy = 0.4 }
@@ -750,6 +771,28 @@ emigration_chance =
 		modifier = {
 			factor = -0.1
 			NOT = { literacy = 0.1 }
+		}
+	}
+	group = {
+		modifier = {
+			factor = 0.05
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 0.05
+			literacy = 0.7
+		}
+		modifier = {
+			factor = 0.05
+			literacy = 0.8
+		}
+		modifier = {
+			factor = 0.05
+			literacy = 0.9
+		}
+		modifier = {
+			factor = 0.05
+			literacy = 1.0
 		}
 	}
 	modifier = {
@@ -780,7 +823,7 @@ emigration_chance =
 			NOT = { consciousness = 2 }
 		}
 		modifier = {
-			factor = -0.5
+			factor = -0.1
 			NOT = { consciousness = 1 }
 		}
 	}
@@ -884,7 +927,7 @@ emigration_chance =
 		}	
 	}
 	modifier = {
-		factor = 0.3
+		factor = 0.1
 		is_primary_culture = no
 		is_accepted_culture = no
 	}
@@ -985,20 +1028,20 @@ assimilation_chance =
 			everyday_needs = 0.5
 		}
 	}
-	group = {
-		modifier = {
-			factor = -1
-			NOT = { consciousness = 3 }
-		}
-		modifier = {
-			factor = -1
-			NOT = { consciousness = 2 }
-		}
-		modifier = {
-			factor = -1
-			NOT = { consciousness = 1 }
-		}
-	}
+	#group = {
+	#	modifier = {
+	#		factor = -1
+	#		NOT = { consciousness = 3 }
+	#	}
+	#	modifier = {
+	#		factor = -1
+	#		NOT = { consciousness = 2 }
+	#	}
+	#	modifier = {
+	#		factor = -1
+	#		NOT = { consciousness = 1 }
+	#	}
+	#}
 	modifier = {
 		factor = 10
 		has_pop_religion = jewish
@@ -1106,10 +1149,10 @@ assimilation_chance =
 			NOT = { unemployment = 0.05 }
 		}
 	}
-	modifier = {
-		factor = -4
-		NOT = { religion = THIS }
-	}
+	#modifier = {
+	#	factor = -4
+	#	NOT = { religion = THIS }
+	#}
 	modifier = {
 		factor = -2
 		country = { civilized = no }
@@ -1198,7 +1241,7 @@ conversion_chance = {
 	modifier = {
 		factor = 2
 		has_pop_religion = animist
-		location = { continent = africa }
+		#location = { continent = africa }
 	}
 	modifier = {
 		factor = -1

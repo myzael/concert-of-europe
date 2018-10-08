@@ -164,7 +164,7 @@ province_event = {
 		average_militancy = 2
 		is_colonial = no
 		owner = {
-			citizenship_policy = residency
+			OR = { citizenship_policy = residency  citizenship_policy = forced_assimilation }
 		}
 		controlled_by = owner
 	}

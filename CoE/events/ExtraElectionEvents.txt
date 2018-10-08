@@ -4667,6 +4667,10 @@ country_event = {
 				factor = 0.05
 				value = limited_citizenship
 			}
+			dominant_issue = {
+				value = forced_assimilation
+				factor = 0.10
+			}
 			scaled_militancy = {
 				issue = full_citizenship
 				factor = 1

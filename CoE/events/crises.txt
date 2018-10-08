@@ -456,6 +456,10 @@ province_event = {
 				owner = { citizenship_policy = residency }
 			}
 			modifier = {
+				factor = 0.25
+				owner = { citizenship_policy = forced_assimilation }
+			}
+			modifier = {
 				factor = 2
 				owner = { citizenship_policy = full_citizenship }
 			}

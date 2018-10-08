@@ -3482,7 +3482,11 @@ country_event = {
 			}
 			dominant_issue = {
 				value = residency
-				factor = 0.15
+				factor = 0.10
+			}
+			dominant_issue = {
+				value = forced_assimilation
+				factor = 0.10
 			}
 			ideology = {
 				value = fascist

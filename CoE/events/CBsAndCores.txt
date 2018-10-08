@@ -1165,6 +1165,10 @@ province_event = {
 				owner = { citizenship_policy = full_citizenship }
 			}
 			modifier = {
+				factor = 0.25
+				owner = { citizenship_policy = forced_assimilation }
+			}
+			modifier = {
 				factor = 0.5
 				owner = { citizenship_policy = residency }
 			}
@@ -1467,6 +1471,10 @@ province_event = {
 				owner = { citizenship_policy = residency }
 			}
 			modifier = {
+				factor = 0.25
+				owner = { citizenship_policy = forced_assimilation }
+			}
+			modifier = {
 				factor = 0.1
 				owner = { war_policy = jingoism }
 			}
@@ -1718,6 +1726,10 @@ province_event = {
 		}
 		ai_chance = {
 			factor = 90
+			modifier = {
+				factor = 1.5
+				owner = { citizenship_policy = forced_assimilation }
+			}
 			modifier = {
 				factor = 0.5
 				owner = { war_policy = pacifism }

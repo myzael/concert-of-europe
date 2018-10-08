@@ -208,6 +208,11 @@ country_migration_target =
 		not = { has_pop_culture = this }
 	}
 	modifier = {
+		factor = 0.8
+		citizenship_policy = forced_assimilation
+		not = { has_pop_culture = this }
+	}
+	modifier = {
 		factor = 1.2
 		citizenship_policy = residency
 		has_pop_culture = this 
@@ -3997,6 +4002,33 @@ issues = {
 		modifier = {
 			factor = 0.75
 			consciousness = 9
+		}
+	}
+	forced_assimilation = {
+		factor = 0.8
+		modifier = {
+			factor = 1.5
+			OR = {
+				nationalvalue = nv_unity
+				nationalvalue = nv_dominion
+			}
+		}
+		modifier = {
+			factor = 1.1
+			nationalvalue = nv_productivity
+			is_primary_culture = yes
+		}
+		modifier = {
+			factor = 0
+			is_primary_culture = no
+		}
+		modifier = {
+			factor = 2
+			NOT = { consciousness = 6 }
+		}
+		modifier = {
+			factor = 1.1
+			nationalvalue = nv_might
 		}
 	}
 	residency = {

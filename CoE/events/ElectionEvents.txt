@@ -308,6 +308,10 @@ country_event = {
 				factor = 0.1
 				value = limited_citizenship
 			}
+			dominant_issue = {
+				factor = 0.1
+				value = forced_assimilation
+			}
 			scaled_militancy = {
 				issue = full_citizenship
 				factor = 3
@@ -1474,8 +1478,8 @@ country_event = {
 		name = "EVTOPTC14170"
 		any_pop = {
 			dominant_issue = {
-				factor = 0.10
-				value = full_citizenship
+				value = forced_assimilation
+				factor = 0.20
 			}
 		}
 	}

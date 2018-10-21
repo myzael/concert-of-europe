@@ -989,6 +989,9 @@ political_decisions = {
 		picture = volga_ger_folk_book
 		potential = {
 			tag = GER
+			NOT = {
+				accepted_culture = russian_german
+			}
 		}
 
 		allow = {

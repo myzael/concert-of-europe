@@ -680,6 +680,8 @@ province_event = {
 	trigger = {
 		ORA = { exists = yes }
 		TRN = { exists = yes }
+		state_scope = { has_pop_culture = boer  }
+		NOT = { has_province_flag = great_trek2 }
 	}
 	mean_time_to_happen = {
 		months = 24
@@ -702,6 +704,7 @@ province_event = {
 		ai_chance = {
 			factor = 100
 		}
+	    set_province_flag = great_trek2
 	}
 }
 

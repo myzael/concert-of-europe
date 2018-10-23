@@ -673,6 +673,38 @@ province_event = {
 	}
 }
 
+province_event = {
+	id = 98226
+	title = "The Second Great Trek"
+	desc = "EVTDESC98225"
+	trigger = {
+		ORA = { exists = yes }
+		TRN = { exists = yes }
+	}
+	mean_time_to_happen = {
+		months = 24
+	}
+	option = {
+		name = "An interesting development..."
+		any_pop = {
+			limit = { has_pop_culture = boer }
+			money = 250
+			ideology = {
+				value = conservative
+				factor = 0.50
+			}
+			ideology = {
+				value = reactionary
+				factor = 0.50
+			}
+			move_pop = 2101
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
 country_event = {
 	id = 98230
 	title = "The Frontier Lands Conventions"
